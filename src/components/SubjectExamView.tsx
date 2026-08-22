@@ -556,7 +556,6 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
             <div className="px-6 sm:px-8 py-3 flex justify-between items-center border-b border-slate-100">
               <span className="text-xs sm:text-sm text-slate-500 font-medium flex items-center gap-1.5">
                 <Flame className="w-4 h-4 text-amber-700" />
-                50-Item Comprehensive LET Drill • Unlimited Tries
                 {totalQuestions}-Item Comprehensive LET Drill • Unlimited Tries
               </span>
               <span className="text-xs sm:text-sm font-bold text-slate-800 tracking-wide">
@@ -1178,7 +1177,6 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                     <CheckCircle2 className="w-3.5 h-3.5 text-amber-700" />
                   </div>
                   <div className="mt-2 font-serif text-2xl font-bold text-amber-950">
-                    {stats.bestScore ? `${stats.bestScore.score} / 50` : '—'}
                     {stats.bestScore ? `${stats.bestScore.score} / ${stats.bestScore.totalQuestions || totalQuestions}` : '—'}
                   </div>
                   <p className="text-[11px] text-amber-800 mt-0.5">
