@@ -29,6 +29,7 @@ import {
 import { SubjectModule, ExamQuestion, ExamAttempt } from '../types';
 import { SUBJECTS_DATA } from '../data/subjects';
 import { getExamQuestionsForSubject, scrambleExamQuestions } from '../data/exams';
+import { getKayeenMessage } from '../data/kayeenMessages';
 import { 
   saveExamAttempt, 
   getSubjectExamHistory, 
@@ -81,6 +82,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
   const [isHistoryModalOpen, setIsHistoryModalOpen] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
+  const [kayeenMessage, setKayeenMessage] = useState<string | null>(null);
   
   // Review Mode Filter (e.g. Mistakes only, All, Correct, Skipped)
   const [reviewFilter, setReviewFilter] = useState<ReviewFilterMode>('ALL');
@@ -262,6 +264,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
     setShowConfirmSubmit(false);
     setCurrentQuestionIndex(0);
     setReviewFilter('ALL');
+    setKayeenMessage(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -288,6 +291,8 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
 
     saveExamAttempt(newAttempt);
     setStats(getSubjectStats(subject.id));
+    // Generate Kayeen's message based on score and current time as seed
+    setKayeenMessage(getKayeenMessage(correctCount, Math.floor(Date.now() / 1000) % 16));
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -487,6 +492,47 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                   </button>
                 </div>
               </div>
+
+              {/* Message from Kayeen 💛 */}
+              {kayeenMessage && (
+                <div className={`mt-1 rounded-xl px-4 py-3.5 border flex items-start gap-3 ${
+                  correctCount <= 25
+                    ? 'bg-rose-50/60 border-rose-200/80'
+                    : correctCount <= 50
+                    ? 'bg-amber-50/60 border-amber-200/80'
+                    : 'bg-emerald-50/60 border-emerald-200/80'
+                }`}>
+                  <div className={`mt-0.5 shrink-0 w-7 h-7 rounded-full flex items-center justify-center text-base ${
+                    correctCount <= 25
+                      ? 'bg-rose-100'
+                      : correctCount <= 50
+                      ? 'bg-amber-100'
+                      : 'bg-emerald-100'
+                  }`}>
+                    💛
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className={`text-[11px] font-bold uppercase tracking-widest mb-1 ${
+                      correctCount <= 25
+                        ? 'text-rose-700'
+                        : correctCount <= 50
+                        ? 'text-amber-800'
+                        : 'text-emerald-800'
+                    }`}>
+                      From Kayeen
+                    </p>
+                    <p className={`text-sm font-serif leading-relaxed italic ${
+                      correctCount <= 25
+                        ? 'text-rose-950'
+                        : correctCount <= 50
+                        ? 'text-amber-950'
+                        : 'text-emerald-950'
+                    }`}>
+                      "{kayeenMessage}"
+                    </p>
+                  </div>
+                </div>
+              )}
 
               {/* Review Filter Tabs (All, Mistakes Only, Correct, Skipped) */}
               <div className="flex items-center gap-1.5 pt-1 overflow-x-auto scrollbar-none">
