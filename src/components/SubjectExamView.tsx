@@ -985,10 +985,10 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                     {isFilterMenuOpen && (
                       <>
                         <div 
-                          className="fixed inset-0 z-40 bg-black/20 backdrop-blur-2xs" 
+                          className="fixed inset-0 z-[60]" 
                           onClick={() => setIsFilterMenuOpen(false)} 
                         />
-                        <div className="fixed inset-x-3 bottom-16 sm:bottom-full sm:inset-x-auto sm:left-0 sm:mb-2 max-w-sm sm:w-80 bg-white border border-slate-200 shadow-2xl z-50 p-4 rounded-2xl animate-fadeIn">
+                        <div className="absolute left-0 bottom-full mb-2 w-72 sm:w-80 bg-white border border-slate-200 shadow-2xl z-[70] p-4 rounded-2xl animate-fadeIn">
                           <div className="text-xs font-bold text-slate-800 pb-2 mb-2 border-b border-slate-100 flex justify-between items-center">
                             <span>Jump to Question (1–{totalQuestions})</span>
                             <span className="text-[11px] font-semibold text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full">
@@ -996,7 +996,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                             </span>
                           </div>
 
-                          <div className="grid grid-cols-5 sm:grid-cols-10 gap-1.5 max-h-60 sm:max-h-56 overflow-y-auto p-1">
+                          <div className="grid grid-cols-5 sm:grid-cols-10 gap-1.5 max-h-56 overflow-y-auto p-1">
                             {questions.map((q, idx) => {
                               const qNum = idx + 1;
                               const isAns = !!userAnswers[q.id];
@@ -1105,12 +1105,27 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                 {/* Right: Continue / Submit Button */}
                 <div className="w-full sm:w-auto sm:flex-1 flex items-center justify-end">
                   {currentQuestionIndex === totalQuestions - 1 ? (
-                    <button
-                      onClick={() => setShowConfirmSubmit(true)}
-                      className="w-full sm:w-auto px-6 py-2.5 sm:py-2 text-xs sm:text-sm font-bold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-colors cursor-pointer shadow-sm text-center"
-                    >
-                      Submit Exam ({answeredCount}/{totalQuestions})
-                    </button>
+                    remainingCount > 0 ? (
+                      <div className="flex flex-col items-end gap-1 w-full sm:w-auto">
+                        <button
+                          onClick={() => setIsFilterMenuOpen(true)}
+                          className="w-full sm:w-auto px-6 py-2.5 sm:py-2 text-xs sm:text-sm font-bold rounded-lg bg-amber-700 hover:bg-amber-800 text-white transition-colors cursor-pointer shadow-sm text-center flex items-center justify-center gap-2"
+                        >
+                          <AlertTriangle className="w-3.5 h-3.5 shrink-0" />
+                          {remainingCount} Item{remainingCount > 1 ? 's' : ''} Still Unanswered — View Them
+                        </button>
+                        <span className="text-[11px] text-amber-800 font-medium">
+                          Answer all items before submitting, or tap to see which ones.
+                        </span>
+                      </div>
+                    ) : (
+                      <button
+                        onClick={() => setShowConfirmSubmit(true)}
+                        className="w-full sm:w-auto px-6 py-2.5 sm:py-2 text-xs sm:text-sm font-bold rounded-lg bg-amber-800 hover:bg-amber-900 text-white transition-colors cursor-pointer shadow-sm text-center"
+                      >
+                        Submit Exam ({answeredCount}/{totalQuestions})
+                      </button>
+                    )
                   ) : (
                     <button
                       onClick={handleNext}
