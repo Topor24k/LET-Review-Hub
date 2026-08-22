@@ -2,6 +2,7 @@ import React, { useMemo } from 'react';
 import { Bookmark, CheckCircle, Sparkles, FileText, ArrowRight } from 'lucide-react';
 import { SubjectModule, SubjectProgressMap, StudyStatus } from '../types';
 import { getSubjectStats } from '../lib/examHistory';
+import { getExamQuestionsForSubject } from '../data/exams';
 
 interface SubjectCardProps {
   subject: SubjectModule;
@@ -30,6 +31,13 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
   // Read student's stats for this subject
   const stats = useMemo(() => getSubjectStats(subject.id), [subject.id]);
   const bestAttempt = stats.bestScore;
+  const questionCount = useMemo(() => {
+    try {
+      return getExamQuestionsForSubject(subject.id).length || 75;
+    } catch {
+      return 75;
+    }
+  }, [subject.id]);
 
   return (
     <article 
@@ -61,7 +69,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
           {isExamMode && (
             <span className="text-[10px] font-bold uppercase tracking-wider px-2 py-0.5 rounded-xs bg-amber-500 text-white shadow-xs flex items-center gap-1">
               <Sparkles className="w-2.5 h-2.5" />
-              50 Items
+              {questionCount} Items
             </span>
           )}
         </div>
@@ -82,7 +90,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
               ? 'bg-emerald-600 text-white' 
               : 'bg-amber-700 text-white'
           }`}>
-            <span>Your Best: {bestAttempt.score}/50 ({bestAttempt.percentage}%)</span>
+            <span>Your Best: {bestAttempt.score}/{bestAttempt.totalQuestions || questionCount} ({bestAttempt.percentage}%)</span>
           </div>
         ) : isCompleted ? (
           <div className="absolute bottom-2 left-2 flex items-center gap-1 bg-emerald-600 text-white text-[10px] font-bold px-2 py-0.5 rounded-full shadow-xs">
@@ -113,7 +121,7 @@ export const SubjectCard: React.FC<SubjectCardProps> = ({
               <span>
                 {stats.totalAttempts > 0 
                   ? `${stats.totalAttempts} ${stats.totalAttempts === 1 ? 'Attempt' : 'Attempts'} saved` 
-                  : '50-Item Practice Exam'}
+                  : `${questionCount}-Item Practice Exam`}
               </span>
             </span>
             <span className="flex items-center gap-1 text-slate-500 group-hover:text-slate-900 text-[11px]">

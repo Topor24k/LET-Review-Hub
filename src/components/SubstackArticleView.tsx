@@ -762,12 +762,12 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
               )}
             </button>
 
-            {/* Try Exam 1-50 Item Simulator */}
+            {/* Try Exam 1-75 Item Simulator */}
             {onOpenExam && (
               <button
                 onClick={() => onOpenExam(subject)}
                 className="px-2 sm:px-2.5 py-1 sm:py-1.5 rounded-lg text-amber-900 bg-amber-50 hover:bg-amber-100/80 transition-colors cursor-pointer flex items-center gap-1 border border-amber-200/80 shrink-0"
-                title="Launch 1–50 Item Exam Simulator"
+                title="Launch 1–75 Item Exam Simulator"
               >
                 <span className="text-[11px] sm:text-xs font-bold font-sans">Exam</span>
               </button>

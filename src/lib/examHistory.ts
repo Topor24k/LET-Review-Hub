@@ -73,8 +73,19 @@ export interface ActiveExamDraft {
 
 export function getStoredExamDraft(subjectId: string): ActiveExamDraft | null {
   try {
-    const raw = localStorage.getItem(`let_active_exam_draft_${subjectId}`);
-    return raw ? JSON.parse(raw) : null;
+    const raw = localStorage.getItem(`let_active_exam_draft_v2_${subjectId}`);
+    if (!raw) {
+      // Clear any legacy v1 draft
+      localStorage.removeItem(`let_active_exam_draft_${subjectId}`);
+      return null;
+    }
+    const parsed = JSON.parse(raw);
+    if (parsed && parsed.questions && parsed.questions.length >= 75) {
+      return parsed;
+    }
+    // Invalidate non-75 item drafts
+    localStorage.removeItem(`let_active_exam_draft_v2_${subjectId}`);
+    return null;
   } catch (e) {
     return null;
   }
@@ -82,7 +93,7 @@ export function getStoredExamDraft(subjectId: string): ActiveExamDraft | null {
 
 export function saveStoredExamDraft(draft: ActiveExamDraft): void {
   try {
-    localStorage.setItem(`let_active_exam_draft_${draft.subjectId}`, JSON.stringify(draft));
+    localStorage.setItem(`let_active_exam_draft_v2_${draft.subjectId}`, JSON.stringify(draft));
   } catch (e) {
     console.error('Failed to save active exam draft', e);
   }
@@ -90,6 +101,7 @@ export function saveStoredExamDraft(draft: ActiveExamDraft): void {
 
 export function clearStoredExamDraft(subjectId: string): void {
   try {
+    localStorage.removeItem(`let_active_exam_draft_v2_${subjectId}`);
     localStorage.removeItem(`let_active_exam_draft_${subjectId}`);
   } catch (e) {
     console.error('Failed to clear exam draft', e);

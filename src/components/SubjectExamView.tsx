@@ -55,19 +55,26 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
   onOpenStudyNotes,
 }) => {
   const [questions, setQuestions] = useState<ExamQuestion[]>(() => {
+    const freshQuestions = getExamQuestionsForSubject(subject.id);
     const draft = getStoredExamDraft(subject.id);
-    if (draft && draft.questions && draft.questions.length > 0) {
+    if (draft && draft.questions && draft.questions.length === freshQuestions.length) {
       return draft.questions;
     }
-    return scrambleExamQuestions(getExamQuestionsForSubject(subject.id));
+    return scrambleExamQuestions(freshQuestions);
   });
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(() => {
+    const freshQuestions = getExamQuestionsForSubject(subject.id);
     const draft = getStoredExamDraft(subject.id);
-    return draft ? draft.currentQuestionIndex || 0 : 0;
+    return (draft && draft.questions && draft.questions.length === freshQuestions.length)
+      ? draft.currentQuestionIndex || 0 
+      : 0;
   });
   const [userAnswers, setUserAnswers] = useState<Record<number, string>>(() => {
+    const freshQuestions = getExamQuestionsForSubject(subject.id);
     const draft = getStoredExamDraft(subject.id);
-    return draft ? draft.userAnswers || {} : {};
+    return (draft && draft.questions && draft.questions.length === freshQuestions.length)
+      ? draft.userAnswers || {} 
+      : {};
   });
   const [isFilterMenuOpen, setIsFilterMenuOpen] = useState(false);
   const [isSwitcherOpen, setIsSwitcherOpen] = useState(false);
@@ -83,13 +90,14 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
 
   // Sync questions and history when subject changes
   useEffect(() => {
+    const freshQuestions = getExamQuestionsForSubject(subject.id);
     const draft = getStoredExamDraft(subject.id);
-    if (draft && draft.questions && draft.questions.length > 0) {
+    if (draft && draft.questions && draft.questions.length === freshQuestions.length) {
       setQuestions(draft.questions);
       setCurrentQuestionIndex(draft.currentQuestionIndex || 0);
       setUserAnswers(draft.userAnswers || {});
     } else {
-      const newQuestions = scrambleExamQuestions(getExamQuestionsForSubject(subject.id));
+      const newQuestions = scrambleExamQuestions(freshQuestions);
       setQuestions(newQuestions);
       setCurrentQuestionIndex(0);
       setUserAnswers({});
