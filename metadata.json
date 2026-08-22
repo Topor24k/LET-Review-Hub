@@ -1,0 +1,7 @@
+{
+  "name": "LET Review Hub",
+  "description": "Editorial-style structured review portal for Licensure Examination for Teachers (LET) covering Professional Education and General Education subjects.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
