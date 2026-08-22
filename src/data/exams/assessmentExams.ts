@@ -8,11 +8,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Test"
+        "text": "Measurement"
       },
       {
         "key": "B",
-        "text": "Measurement"
+        "text": "Evaluation"
       },
       {
         "key": "C",
@@ -20,10 +20,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Evaluation"
+        "text": "Test"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Test is a formal, standardized instrument or set of questions designed to elicit a specific sample of student behavior or knowledge."
   },
   {
@@ -33,22 +33,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Measurement (the quantitative assignment of numbers according to rules)"
-      },
-      {
-        "key": "B",
         "text": "Evaluation"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Placement"
+      },
+      {
+        "key": "C",
+        "text": "Measurement (the quantitative assignment of numbers according to rules)"
       },
       {
         "key": "D",
         "text": "Formative Intervention"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Measurement is the quantitative process of assigning numerical values to student attributes, traits, or performance without making value judgments."
   },
   {
@@ -66,11 +66,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Grading only"
+        "text": "Testing only"
       },
       {
         "key": "D",
-        "text": "Testing only"
+        "text": "Grading only"
       }
     ],
     "correctAnswer": "A",
@@ -87,15 +87,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Measurement"
-      },
-      {
-        "key": "C",
         "text": "Testing"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Item Analysis"
+      },
+      {
+        "key": "D",
+        "text": "Measurement"
       }
     ],
     "correctAnswer": "A",
@@ -108,11 +108,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assessment FOR Learning (Formative Assessment)"
+        "text": "Assessment OF Learning (Summative Assessment)"
       },
       {
         "key": "B",
-        "text": "Assessment OF Learning (Summative Assessment)"
+        "text": "Terminal Evaluation"
       },
       {
         "key": "C",
@@ -120,10 +120,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Terminal Evaluation"
+        "text": "Assessment FOR Learning (Formative Assessment)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Assessment FOR Learning is formative, occurring during instruction to diagnose gaps, provide real-time feedback, and guide teacher instructional adjustments."
   },
   {
@@ -133,22 +133,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assessment OF Learning (Summative Assessment)"
+        "text": "Assessment AS Learning"
       },
       {
         "key": "B",
-        "text": "Assessment FOR Learning"
+        "text": "Assessment OF Learning (Summative Assessment)"
       },
       {
         "key": "C",
-        "text": "Assessment AS Learning"
+        "text": "Assessment FOR Learning"
       },
       {
         "key": "D",
         "text": "Diagnostic Assessment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Assessment OF Learning is summative, occurring at the conclusion of an instructional unit to certify mastery, assign grades, and judge overall achievement."
   },
   {
@@ -158,22 +158,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assessment AS Learning"
-      },
-      {
-        "key": "B",
         "text": "Assessment OF Learning"
       },
       {
+        "key": "B",
+        "text": "Norm-Referenced Grading"
+      },
+      {
         "key": "C",
-        "text": "Summative Assessment"
+        "text": "Assessment AS Learning"
       },
       {
         "key": "D",
-        "text": "Norm-Referenced Grading"
+        "text": "Summative Assessment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Assessment AS Learning empowers students as autonomous metacognitive assessors of their own learning, fostering self-monitoring, goal-setting, and reflection."
   },
   {
@@ -187,7 +187,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Summative Assessment"
+        "text": "Terminal Assessment"
       },
       {
         "key": "C",
@@ -195,7 +195,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Terminal Assessment"
+        "text": "Summative Assessment"
       }
     ],
     "correctAnswer": "A",
@@ -208,7 +208,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Placement Assessment"
+        "text": "Continuous Assessment"
       },
       {
         "key": "B",
@@ -216,14 +216,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Continuous Assessment"
+        "text": "Peer Assessment"
       },
       {
         "key": "D",
-        "text": "Peer Assessment"
+        "text": "Placement Assessment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Placement assessments determine entry-level capabilities to assign students to appropriate instructional groups, courses, or academic tracks."
   },
   {
@@ -233,11 +233,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "NRT compares a student's score against a peer norm group (e.g. 90th percentile rank), while CRT measures student performance against an absolute predetermined mastery standard or learning criterion (e.g. 85% correct)."
+        "text": "NRT is for elementary while CRT is for college."
       },
       {
         "key": "B",
-        "text": "NRT is for elementary while CRT is for college."
+        "text": "NRT compares a student's score against a peer norm group (e.g. 90th percentile rank), while CRT measures student performance against an absolute predetermined mastery standard or learning criterion (e.g. 85% correct)."
       },
       {
         "key": "C",
@@ -248,7 +248,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "There is no difference."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Norm-Referenced (NRT) determines relative standing among peers (percentiles); Criterion-Referenced (CRT) evaluates whether specific standard competencies have been mastered regardless of peers."
   },
   {
@@ -258,22 +258,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The degree to which an assessment tool accurately measures what it purports to measure and the appropriateness of inferences based on test scores."
+        "text": "The number of questions on the exam."
       },
       {
         "key": "B",
-        "text": "The consistency and repeatability of test scores."
+        "text": "The degree to which an assessment tool accurately measures what it purports to measure and the appropriateness of inferences based on test scores."
       },
       {
         "key": "C",
-        "text": "The physical printing quality of the test paper."
+        "text": "The consistency and repeatability of test scores."
       },
       {
         "key": "D",
-        "text": "The number of questions on the exam."
+        "text": "The physical printing quality of the test paper."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Validity is the most fundamental property of assessment: ensuring the test genuinely measures the intended construct and supports valid educational inferences."
   },
   {
@@ -287,7 +287,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To assign classroom seat numbers."
+        "text": "To calculate teacher bonuses."
       },
       {
         "key": "C",
@@ -295,7 +295,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "To calculate teacher bonuses."
+        "text": "To assign classroom seat numbers."
       }
     ],
     "correctAnswer": "A",
@@ -308,22 +308,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Predictive Validity (Criterion-Related)"
+        "text": "Construct Validity only"
       },
       {
         "key": "B",
-        "text": "Concurrent Validity"
-      },
-      {
-        "key": "C",
         "text": "Face Validity"
       },
       {
+        "key": "C",
+        "text": "Concurrent Validity"
+      },
+      {
         "key": "D",
-        "text": "Construct Validity only"
+        "text": "Predictive Validity (Criterion-Related)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Predictive Validity correlates test performance with a future criterion behavior; Concurrent Validity correlates test performance with an established criterion measured simultaneously."
   },
   {
@@ -333,7 +333,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Convergent and Discriminant evidence, factor analysis, and theoretical alignment."
+        "text": "Counting test pages."
       },
       {
         "key": "B",
@@ -341,14 +341,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Asking students if the test looks pretty."
+        "text": "Convergent and Discriminant evidence, factor analysis, and theoretical alignment."
       },
       {
         "key": "D",
-        "text": "Counting test pages."
+        "text": "Asking students if the test looks pretty."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Construct validity evaluates whether test scores correlate strongly with related psychological traits (convergent) and correlate weakly with unrelated traits (discriminant)."
   },
   {
@@ -358,11 +358,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The consistency, stability, and dependability of test scores across repeated administrations or different forms."
+        "text": "How easy the questions are."
       },
       {
         "key": "B",
-        "text": "Whether the test measures the right subject."
+        "text": "The consistency, stability, and dependability of test scores across repeated administrations or different forms."
       },
       {
         "key": "C",
@@ -370,10 +370,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "How easy the questions are."
+        "text": "Whether the test measures the right subject."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Reliability is the precision, consistency, and repeatability of test scores under identical or equivalent testing conditions."
   },
   {
@@ -383,22 +383,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Measure of Stability (Test-Retest Reliability)"
-      },
-      {
-        "key": "B",
         "text": "Measure of Equivalence (Parallel Forms)"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Measure of Internal Consistency"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Inter-Rater Reliability"
+      },
+      {
+        "key": "D",
+        "text": "Measure of Stability (Test-Retest Reliability)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Test-Retest establishes score stability over time by computing the Pearson correlation coefficient between test administrations on two occasions."
   },
   {
@@ -437,15 +437,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Cronbach's Alpha (for polytomous/Likert scale items)"
+        "text": "Chi-Square Test"
       },
       {
         "key": "C",
-        "text": "Spearman-Brown Prophecy Formula"
+        "text": "Cronbach's Alpha (for polytomous/Likert scale items)"
       },
       {
         "key": "D",
-        "text": "Chi-Square Test"
+        "text": "Spearman-Brown Prophecy Formula"
       }
     ],
     "correctAnswer": "A",
@@ -462,7 +462,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To make the competition last twice as long."
+        "text": "To double the scores."
       },
       {
         "key": "C",
@@ -470,7 +470,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "To double the scores."
+        "text": "To make the competition last twice as long."
       }
     ],
     "correctAnswer": "A",
@@ -483,22 +483,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A test can be highly reliable without being valid, but a test CANNOT be valid unless it is first reliable. (Reliability is a necessary but not sufficient condition for validity)."
-      },
-      {
-        "key": "B",
-        "text": "Validity guarantees reliability automatically."
-      },
-      {
-        "key": "C",
         "text": "A test can be valid without being reliable."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "They are completely unrelated."
+      },
+      {
+        "key": "C",
+        "text": "Validity guarantees reliability automatically."
+      },
+      {
+        "key": "D",
+        "text": "A test can be highly reliable without being valid, but a test CANNOT be valid unless it is first reliable. (Reliability is a necessary but not sufficient condition for validity)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A broken scale can yield consistent, reliable weights (always off by 10 lbs), but it is invalid. Thus, reliability is a prerequisite for validity, but does not guarantee it."
   },
   {
@@ -508,22 +508,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stem (problem statement), Key (correct answer), and Distractors (incorrect options / foils)"
-      },
-      {
-        "key": "B",
         "text": "Thesis, Hypothesis, and Antagonists"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Prompt, Target, and Decoys"
+      },
+      {
+        "key": "C",
+        "text": "Stem (problem statement), Key (correct answer), and Distractors (incorrect options / foils)"
       },
       {
         "key": "D",
         "text": "Root, Branch, and Leaves"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Standard test taxonomy: Stem = problem presentation; Key = keyed correct option; Distractors = incorrect alternatives designed to attract uninformed test-takers."
   },
   {
@@ -537,15 +537,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Keeping all options approximately equal in length."
+        "text": "Avoiding negative stems."
       },
       {
         "key": "C",
-        "text": "Using clear, unambiguous language in the stem."
+        "text": "Keeping all options approximately equal in length."
       },
       {
         "key": "D",
-        "text": "Avoiding negative stems."
+        "text": "Using clear, unambiguous language in the stem."
       }
     ],
     "correctAnswer": "A",
@@ -558,22 +558,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "If a student recognizes that at least two options are correct, they can deduce 'All of the above' without knowing the validity of the third option, encouraging guessing."
-      },
-      {
-        "key": "B",
-        "text": "Because it is copyrighted."
-      },
-      {
-        "key": "C",
         "text": "Because it makes the test too long."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Because machines cannot scan the letter D."
+      },
+      {
+        "key": "C",
+        "text": "If a student recognizes that at least two options are correct, they can deduce 'All of the above' without knowing the validity of the third option, encouraging guessing."
+      },
+      {
+        "key": "D",
+        "text": "Because it is copyrighted."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "'All of the above' rewards partial knowledge: recognizing two correct options guarantees the answer, while recognizing one false option eliminates it."
   },
   {
@@ -583,7 +583,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Test-wise students know that absolute generalizations in human sciences are rarely true, allowing them to eliminate distractors easily."
+        "text": "They increase test anxiety."
       },
       {
         "key": "B",
@@ -595,10 +595,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "They increase test anxiety."
+        "text": "Test-wise students know that absolute generalizations in human sciences are rarely true, allowing them to eliminate distractors easily."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Absolute words ('never', 'always') are easily identified as false by savvy test-takers; relative words ('often', 'generally') are more plausible."
   },
   {
@@ -608,22 +608,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Holistic rubric yields a single overall score for the entire performance based on global impression; an Analytic rubric scores separate individual criteria/dimensions independently with detailed diagnostic feedback."
+        "text": "Analytic rubrics have zero criteria."
       },
       {
         "key": "B",
-        "text": "Holistic is only for math while Analytic is for art."
+        "text": "A Holistic rubric yields a single overall score for the entire performance based on global impression; an Analytic rubric scores separate individual criteria/dimensions independently with detailed diagnostic feedback."
       },
       {
         "key": "C",
-        "text": "Analytic rubrics have zero criteria."
+        "text": "Holistic is only for math while Analytic is for art."
       },
       {
         "key": "D",
         "text": "Holistic rubrics take 10 times longer to grade."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Holistic rubrics evaluate work as a unified whole (fast, summative); Analytic rubrics break performance into distinct criteria (e.g. content, grammar, delivery) providing formative diagnostic feedback."
   },
   {
@@ -633,22 +633,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(P = \frac{R_U + R_L}{N}) (where (R_U) = correct in Upper group, (R_L) = correct in Lower group, and (N) = total students in both groups)"
-      },
-      {
-        "key": "B",
         "text": "(P = R_U - R_L)"
       },
       {
+        "key": "B",
+        "text": "(P = \frac{R_U + R_L}{N}) (where (R_U) = correct in Upper group, (R_L) = correct in Lower group, and (N) = total students in both groups)"
+      },
+      {
         "key": "C",
-        "text": "(P = \frac{N}{R_U})"
+        "text": "(P = R_U \times R_L)"
       },
       {
         "key": "D",
-        "text": "(P = R_U \times R_L)"
+        "text": "(P = \frac{N}{R_U})"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Difficulty Index (P) is the proportion of total test-takers who answered the item correctly: (P = \frac{\text{Total Correct in Upper & Lower Groups}}{\text{Total Number of Students in Upper & Lower Groups}})."
   },
   {
@@ -662,15 +662,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Very Difficult item."
-      },
-      {
-        "key": "C",
         "text": "Ideal moderate difficulty item."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Invalid item."
+      },
+      {
+        "key": "D",
+        "text": "Very Difficult item."
       }
     ],
     "correctAnswer": "A",
@@ -683,7 +683,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "0.30 to 0.70 (optimal average around 0.50 to 0.60 to maximize discrimination variance)"
+        "text": "0.90 to 1.00"
       },
       {
         "key": "B",
@@ -691,14 +691,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "0.90 to 1.00"
+        "text": "Exactly 0.00"
       },
       {
         "key": "D",
-        "text": "Exactly 0.00"
+        "text": "0.30 to 0.70 (optimal average around 0.50 to 0.60 to maximize discrimination variance)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Items with moderate difficulty (0.30–0.70, peaking near 0.50) maximize test score variance and discrimination power."
   },
   {
@@ -708,22 +708,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(D = \frac{R_U - R_L}{n}) (where (R_U) = correct in Upper group, (R_L) = correct in Lower group, and (n) = number of students in ONE group)"
+        "text": "(D = \frac{n}{R_U - R_L})"
       },
       {
         "key": "B",
-        "text": "(D = R_U + R_L)"
+        "text": "(D = \frac{R_U - R_L}{n}) (where (R_U) = correct in Upper group, (R_L) = correct in Lower group, and (n) = number of students in ONE group)"
       },
       {
         "key": "C",
-        "text": "(D = \frac{n}{R_U - R_L})"
+        "text": "(D = R_U + R_L)"
       },
       {
         "key": "D",
         "text": "(D = \frac{R_U}{R_L})"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Discrimination Index (D) measures an item's ability to differentiate between high-achieving (Upper 27%) and low-achieving (Lower 27%) students: (D = \frac{R_U - R_L}{n})."
   },
   {
@@ -733,22 +733,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "More students in the lower-achieving group got the item right than students in the upper-achieving group; the item is seriously flawed (miskeyed, ambiguous, or misleading) and must be REJECTED / DISCARDED."
-      },
-      {
-        "key": "B",
         "text": "The item is excellent and should be retained."
       },
       {
+        "key": "B",
+        "text": "The item is too easy."
+      },
+      {
         "key": "C",
-        "text": "All students mastered the concept."
+        "text": "More students in the lower-achieving group got the item right than students in the upper-achieving group; the item is seriously flawed (miskeyed, ambiguous, or misleading) and must be REJECTED / DISCARDED."
       },
       {
         "key": "D",
-        "text": "The item is too easy."
+        "text": "All students mastered the concept."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A negative discrimination index indicates that low-scoring students outscored high-scoring students on that item, signaling an ambiguous stem, miskeyed answer, or deceptive trick. It must be discarded or fundamentally revised."
   },
   {
@@ -758,11 +758,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Very Good item ((D ge 0.40)) -> Retain without modification"
+        "text": "Reasonably good item ((0.30 - 0.39))"
       },
       {
         "key": "B",
-        "text": "Reasonably good item ((0.30 - 0.39))"
+        "text": "Poor item ((D < 0.20)) -> Discard"
       },
       {
         "key": "C",
@@ -770,10 +770,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Poor item ((D < 0.20)) -> Discard"
+        "text": "Very Good item ((D ge 0.40)) -> Retain without modification"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ebel's Guidelines: (D ge 0.40) = Very Good; (0.30 - 0.39) = Reasonably Good; (0.20 - 0.29) = Marginal (needs revision); (D < 0.20) = Poor (discard/revise)."
   },
   {
@@ -787,11 +787,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It attracts 100% of the upper group."
+        "text": "Nobody chooses it."
       },
       {
         "key": "C",
-        "text": "Nobody chooses it."
+        "text": "It attracts 100% of the upper group."
       },
       {
         "key": "D",
@@ -816,11 +816,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "20"
+        "text": "90"
       },
       {
         "key": "D",
-        "text": "90"
+        "text": "20"
       }
     ],
     "correctAnswer": "A",
@@ -833,22 +833,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "15 (average of two middle scores: (\frac{14 + 16}{2} = 15))"
-      },
-      {
-        "key": "B",
-        "text": "14"
-      },
-      {
-        "key": "C",
         "text": "16"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "15 (average of two middle scores: (\frac{14 + 16}{2} = 15))"
+      },
+      {
+        "key": "C",
         "text": "18"
+      },
+      {
+        "key": "D",
+        "text": "14"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Median is the 50th percentile / middle value. For an even number of scores ((N=6)), average the 3rd (14) and 4th (16) values: (\frac{14+16}{2} = 15)."
   },
   {
@@ -858,22 +858,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Median (unaffected by extreme values)"
-      },
-      {
-        "key": "B",
         "text": "The Mean (heavily pulled toward outliers)"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "The Mode"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The Range"
+      },
+      {
+        "key": "D",
+        "text": "The Median (unaffected by extreme values)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Median is positional and resistant to extreme outliers, making it the best measure of central tendency for highly skewed distributions."
   },
   {
@@ -883,22 +883,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "90 (occurs with the highest frequency: 3 times)"
+        "text": "88"
       },
       {
         "key": "B",
-        "text": "85"
+        "text": "90 (occurs with the highest frequency: 3 times)"
       },
       {
         "key": "C",
-        "text": "88"
+        "text": "85"
       },
       {
         "key": "D",
         "text": "75"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Mode is the score that occurs with the greatest frequency (here, 90 occurs three times)."
   },
   {
@@ -908,7 +908,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Class A is Homogeneous (scores tightly clustered near the mean); Class B is Heterogeneous (wide spread of high and low ability levels)."
+        "text": "Class B is more homogeneous."
       },
       {
         "key": "B",
@@ -916,14 +916,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Class A took a harder test."
+        "text": "Class A is Homogeneous (scores tightly clustered near the mean); Class B is Heterogeneous (wide spread of high and low ability levels)."
       },
       {
         "key": "D",
-        "text": "Class B is more homogeneous."
+        "text": "Class A took a harder test."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Standard Deviation measures score dispersion. A small SD indicates high homogeneity (clustered scores); a large SD indicates high heterogeneity (broadly scattered scores)."
   },
   {
@@ -937,7 +937,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "91"
+        "text": "66"
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "66"
+        "text": "91"
       }
     ],
     "correctAnswer": "A",
@@ -958,22 +958,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(\text{Mean} = \text{Median} = \text{Mode}) (all coincide at the exact center)"
-      },
-      {
-        "key": "B",
         "text": "(\text{Mean} > \text{Median} > \text{Mode})"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "(\text{Mode} > \text{Median} > \text{Mean})"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "They never touch each other."
+      },
+      {
+        "key": "D",
+        "text": "(\text{Mean} = \text{Median} = \text{Mode}) (all coincide at the exact center)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "In a perfect normal distribution, the curve is completely symmetrical, and the Mean, Median, and Mode are identical at the center apex."
   },
   {
@@ -983,11 +983,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Approximately 68.26% of all scores"
+        "text": "95.44%"
       },
       {
         "key": "B",
-        "text": "95.44%"
+        "text": "Approximately 68.26% of all scores"
       },
       {
         "key": "C",
@@ -998,7 +998,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "50%"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Empirical Rule dictates that ~68% of scores fall within (pm 1 \text{ SD}), ~95% within (pm 2 \text{ SD}), and ~99.7% within (pm 3 \text{ SD})."
   },
   {
@@ -1008,22 +1008,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Positively Skewed (Skewed to the Right, with (\text{Mean} > \text{Median} > \text{Mode}))"
+        "text": "Bimodal Symmetrical"
       },
       {
         "key": "B",
-        "text": "Negatively Skewed (Skewed to the Left)"
+        "text": "Positively Skewed (Skewed to the Right, with (\text{Mean} > \text{Median} > \text{Mode}))"
       },
       {
         "key": "C",
-        "text": "Normal Bell Curve"
+        "text": "Negatively Skewed (Skewed to the Left)"
       },
       {
         "key": "D",
-        "text": "Bimodal Symmetrical"
+        "text": "Normal Bell Curve"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A difficult test creates a Positively Skewed curve: the bulk of scores cluster on the left (low scores), and the long tail stretches rightward toward high positive values ((\text{Mean} > \text{Median} > \text{Mode}))."
   },
   {
@@ -1033,22 +1033,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Negatively Skewed (Skewed to the Left, with (\text{Mode} > \text{Median} > \text{Mean}))"
-      },
-      {
-        "key": "B",
-        "text": "Positively Skewed"
-      },
-      {
-        "key": "C",
         "text": "Platykurtic"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Leptokurtic"
+      },
+      {
+        "key": "C",
+        "text": "Negatively Skewed (Skewed to the Left, with (\text{Mode} > \text{Median} > \text{Mean}))"
+      },
+      {
+        "key": "D",
+        "text": "Positively Skewed"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "An easy test creates a Negatively Skewed curve: scores cluster on the right (high scores), with a tail stretching left toward negative/low values ((\text{Mode} > \text{Median} > \text{Mean}))."
   },
   {
@@ -1058,22 +1058,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Leptokurtic"
+        "text": "Bimodal"
       },
       {
         "key": "B",
-        "text": "Platykurtic (flat curve)"
-      },
-      {
-        "key": "C",
         "text": "Mesokurtic (normal curve)"
       },
       {
+        "key": "C",
+        "text": "Platykurtic (flat curve)"
+      },
+      {
         "key": "D",
-        "text": "Bimodal"
+        "text": "Leptokurtic"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Kurtosis describes peakness: Leptokurtic = sharp, high peak (low variance); Platykurtic = broad, flat curve (high variance); Mesokurtic = moderate bell shape."
   },
   {
@@ -1083,22 +1083,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "+2.0 ((z = \frac{85 - 75}{5} = \frac{10}{5} = +2.0))"
-      },
-      {
-        "key": "B",
         "text": "+1.0"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "-2.0"
+      },
+      {
+        "key": "C",
+        "text": "+2.0 ((z = \frac{85 - 75}{5} = \frac{10}{5} = +2.0))"
       },
       {
         "key": "D",
         "text": "0"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Formula: (z = \frac{X - mu}{sigma}). Here, (\frac{85 - 75}{5} = +2.0), meaning the score is exactly 2 standard deviations above the class mean."
   },
   {
@@ -1108,22 +1108,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "65 ((T = 50 + 10(1.5) = 50 + 15 = 65))"
-      },
-      {
-        "key": "B",
         "text": "55"
       },
       {
+        "key": "B",
+        "text": "65 ((T = 50 + 10(1.5) = 50 + 15 = 65))"
+      },
+      {
         "key": "C",
-        "text": "75"
+        "text": "15"
       },
       {
         "key": "D",
-        "text": "15"
+        "text": "75"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "T-scores transform z-scores into a positive scale with Mean = 50 and SD = 10: (T = 50 + 10(1.5) = 65)."
   },
   {
@@ -1133,22 +1133,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A standard score scale dividing a normal distribution into nine (9) standard bands (1 to 9), with a Mean of 5 and SD of 2."
-      },
-      {
-        "key": "B",
-        "text": "A score from 1 to 100."
-      },
-      {
-        "key": "C",
         "text": "A grade given to 9-year-olds."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A test with 9 questions."
+      },
+      {
+        "key": "C",
+        "text": "A standard score scale dividing a normal distribution into nine (9) standard bands (1 to 9), with a Mean of 5 and SD of 2."
+      },
+      {
+        "key": "D",
+        "text": "A score from 1 to 100."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Stanine ('Standard Nine') compresses normal distributions into 9 units (1 = lowest, 5 = average, 9 = superior), with Mean = 5 and SD = 2."
   },
   {
@@ -1187,15 +1187,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Attendance, Uniform, and Behavior"
+        "text": "Midterms, Final Exam, and Cleanliness"
       },
       {
         "key": "C",
-        "text": "Quizzes, Homework, and Recitation"
+        "text": "Attendance, Uniform, and Behavior"
       },
       {
         "key": "D",
-        "text": "Midterms, Final Exam, and Cleanliness"
+        "text": "Quizzes, Homework, and Recitation"
       }
     ],
     "correctAnswer": "A",
@@ -1208,11 +1208,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Written Work: 30% | Performance Tasks: 50% | Quarterly Assessment: 20%"
+        "text": "Written Work: 50% | Performance Tasks: 30% | Quarterly Assessment: 20%"
       },
       {
         "key": "B",
-        "text": "Written Work: 40% | Performance Tasks: 40% | Quarterly Assessment: 20%"
+        "text": "Written Work: 30% | Performance Tasks: 50% | Quarterly Assessment: 20%"
       },
       {
         "key": "C",
@@ -1220,10 +1220,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Written Work: 50% | Performance Tasks: 30% | Quarterly Assessment: 20%"
+        "text": "Written Work: 40% | Performance Tasks: 40% | Quarterly Assessment: 20%"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "For Languages, AP, and EsP in Grades 1-10: WW = 30%, PT = 50%, and QA = 20%."
   },
   {
@@ -1233,22 +1233,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Written Work: 40% | Performance Tasks: 40% | Quarterly Assessment: 20%"
-      },
-      {
-        "key": "B",
-        "text": "Written Work: 30% | Performance Tasks: 50% | Quarterly Assessment: 20%"
-      },
-      {
-        "key": "C",
         "text": "Written Work: 20% | Performance Tasks: 60% | Quarterly Assessment: 20%"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Written Work: 50% | Performance Tasks: 20% | Quarterly Assessment: 30%"
+      },
+      {
+        "key": "C",
+        "text": "Written Work: 30% | Performance Tasks: 50% | Quarterly Assessment: 20%"
+      },
+      {
+        "key": "D",
+        "text": "Written Work: 40% | Performance Tasks: 40% | Quarterly Assessment: 20%"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "For Science and Math (Grades 1-10): WW = 40%, PT = 40%, and QA = 20%."
   },
   {
@@ -1258,7 +1258,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Performance Tasks (PT = 60%, WW = 20%, QA = 20%)"
+        "text": "Quarterly Assessment (QA = 60%)"
       },
       {
         "key": "B",
@@ -1266,14 +1266,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Quarterly Assessment (QA = 60%)"
+        "text": "Performance Tasks (PT = 60%, WW = 20%, QA = 20%)"
       },
       {
         "key": "D",
         "text": "Attendance (60%)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "In skills-heavy subjects (MAPEH, EPP, TLE), Performance Tasks carry 60%, Written Work carries 20%, and Quarterly Assessment carries 20%."
   },
   {
@@ -1291,11 +1291,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "An Initial Grade of 50.00%"
+        "text": "An Initial Grade of 0.00%"
       },
       {
         "key": "D",
-        "text": "An Initial Grade of 0.00%"
+        "text": "An Initial Grade of 50.00%"
       }
     ],
     "correctAnswer": "A",
@@ -1308,22 +1308,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They must be recorded in the teacher's log to track learning progress, but are NOT included in the formal computation of final quarterly grades."
-      },
-      {
-        "key": "B",
-        "text": "They make up 100% of the final grade."
-      },
-      {
-        "key": "C",
         "text": "They must never be written down."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "They replace quarterly exams."
+      },
+      {
+        "key": "C",
+        "text": "They must be recorded in the teacher's log to track learning progress, but are NOT included in the formal computation of final quarterly grades."
+      },
+      {
+        "key": "D",
+        "text": "They make up 100% of the final grade."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Formative assessments are recorded to track learning trends and evaluate instructional effectiveness, but are strictly excluded from summative grade calculations."
   },
   {
@@ -1333,11 +1333,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Outstanding"
+        "text": "Very Satisfactory (85-89)"
       },
       {
         "key": "B",
-        "text": "Very Satisfactory (85-89)"
+        "text": "Fairly Satisfactory (75-79)"
       },
       {
         "key": "C",
@@ -1345,10 +1345,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Fairly Satisfactory (75-79)"
+        "text": "Outstanding"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "DepEd Grading Descriptors: 90-100 = Outstanding; 85-89 = Very Satisfactory; 80-84 = Satisfactory; 75-79 = Fairly Satisfactory; Below 75 = Did Not Meet Expectations."
   },
   {
@@ -1358,22 +1358,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The student must take remedial classes and obtain a recomputed final grade of at least 75 in the failed learning areas to be promoted."
+        "text": "The student is expelled from school."
       },
       {
         "key": "B",
-        "text": "The student is automatically retained in the same grade level without remediation."
+        "text": "The student must take remedial classes and obtain a recomputed final grade of at least 75 in the failed learning areas to be promoted."
       },
       {
         "key": "C",
-        "text": "The student is expelled from school."
+        "text": "The student is automatically retained in the same grade level without remediation."
       },
       {
         "key": "D",
         "text": "The student skips to college."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Students who fail 1–2 subjects undergo remedial classes during summer; failing 3 or more subjects results in grade retention."
   },
   {
@@ -1391,11 +1391,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Paper-and-Pencil Assessment"
+        "text": "Norm-Referenced Test"
       },
       {
         "key": "D",
-        "text": "Norm-Referenced Test"
+        "text": "Paper-and-Pencil Assessment"
       }
     ],
     "correctAnswer": "A",
@@ -1412,15 +1412,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Process-Oriented Assessment"
-      },
-      {
-        "key": "C",
         "text": "Diagnostic Test"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Standardized Battery"
+      },
+      {
+        "key": "D",
+        "text": "Process-Oriented Assessment"
       }
     ],
     "correctAnswer": "A",
@@ -1433,7 +1433,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Growth / Development Portfolio"
+        "text": "Evaluation / Assessment Portfolio"
       },
       {
         "key": "B",
@@ -1441,14 +1441,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Evaluation / Assessment Portfolio"
+        "text": "Employment Portfolio"
       },
       {
         "key": "D",
-        "text": "Employment Portfolio"
+        "text": "Growth / Development Portfolio"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Growth Portfolio captures learning development over time through chronological drafts, reflections, and revisions."
   },
   {
@@ -1458,11 +1458,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Showcase / Display Portfolio"
+        "text": "Working / Process Portfolio"
       },
       {
         "key": "B",
-        "text": "Working / Process Portfolio"
+        "text": "Showcase / Display Portfolio"
       },
       {
         "key": "C",
@@ -1473,7 +1473,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Remedial Portfolio"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Showcase Portfolio highlights the student's pinnacle accomplishments, best works, and exemplary artifacts."
   },
   {
@@ -1483,22 +1483,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cultural / Socio-Economic Assessment Bias"
-      },
-      {
-        "key": "B",
         "text": "High Content Validity"
       },
       {
+        "key": "B",
+        "text": "Internal Consistency"
+      },
+      {
         "key": "C",
-        "text": "Construct Underrepresentation"
+        "text": "Cultural / Socio-Economic Assessment Bias"
       },
       {
         "key": "D",
-        "text": "Internal Consistency"
+        "text": "Construct Underrepresentation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Assessment bias occurs when test items contain offensive or unfairly unfamiliar cultural/socioeconomic contexts that disadvantage specific student sub-groups."
   },
   {
@@ -1512,7 +1512,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The teacher's grading speed."
+        "text": "The total number of questions."
       },
       {
         "key": "C",
@@ -1520,7 +1520,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The total number of questions."
+        "text": "The teacher's grading speed."
       }
     ],
     "correctAnswer": "A",
@@ -1533,22 +1533,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Construct-Irrelevant Variance (unintended variables contaminating test validity)"
+        "text": "Criterion Mastery"
       },
       {
         "key": "B",
-        "text": "Construct Representation"
-      },
-      {
-        "key": "C",
         "text": "High Predictive Power"
       },
       {
+        "key": "C",
+        "text": "Construct Representation"
+      },
+      {
         "key": "D",
-        "text": "Criterion Mastery"
+        "text": "Construct-Irrelevant Variance (unintended variables contaminating test validity)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Construct-irrelevant variance occurs when unrelated factors (e.g. complex reading hurdles in a pure math test) interfere with measuring the true target construct."
   },
   {
@@ -1558,11 +1558,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Construct Underrepresentation (failing to sample the full breadth of the learning domain)"
+        "text": "High Reliability"
       },
       {
         "key": "B",
-        "text": "High Reliability"
+        "text": "Construct Underrepresentation (failing to sample the full breadth of the learning domain)"
       },
       {
         "key": "C",
@@ -1573,7 +1573,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Split-Half Equivalence"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Construct underrepresentation happens when an assessment is too narrow, failing to measure important aspects of the intended learning domain."
   },
   {
@@ -1583,22 +1583,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple Choice / Binary Choice (True-False) with an answer key"
-      },
-      {
-        "key": "B",
-        "text": "Extended Response Essay"
-      },
-      {
-        "key": "C",
         "text": "Oral Interview"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Multiple Choice / Binary Choice (True-False) with an answer key"
+      },
+      {
+        "key": "C",
         "text": "Dramatic Acting Roleplay"
+      },
+      {
+        "key": "D",
+        "text": "Extended Response Essay"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Selected-response objective items have predetermined unambiguous keys, yielding 100% scorer reliability regardless of who grades the test."
   },
   {
@@ -1608,22 +1608,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Halo Effect"
-      },
-      {
-        "key": "B",
         "text": "Horn Effect"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Leniency Error"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Central Tendency Bias"
+      },
+      {
+        "key": "D",
+        "text": "Halo Effect"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Halo Effect occurs when an evaluator's positive general impression of a student's personality or demeanor influences the grading of unrelated academic work."
   },
   {
@@ -1637,11 +1637,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Halo Effect"
+        "text": "Hawthorne Effect"
       },
       {
         "key": "C",
-        "text": "Hawthorne Effect"
+        "text": "Halo Effect"
       },
       {
         "key": "D",
@@ -1658,7 +1658,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Leniency / Generosity Error"
+        "text": "Measurement Precision"
       },
       {
         "key": "B",
@@ -1666,14 +1666,14 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Central Tendency Error"
+        "text": "Leniency / Generosity Error"
       },
       {
         "key": "D",
-        "text": "Measurement Precision"
+        "text": "Central Tendency Error"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Leniency Error occurs when a rater constantly scores students too generously; Severity Error occurs when a rater grades too harshly."
   },
   {
@@ -1683,11 +1683,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Central Tendency Error"
+        "text": "Sampling Error"
       },
       {
         "key": "B",
-        "text": "Contrast Error"
+        "text": "Central Tendency Error"
       },
       {
         "key": "C",
@@ -1695,10 +1695,10 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Sampling Error"
+        "text": "Contrast Error"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Central Tendency Error is the reluctance of a rater to assign extreme high or low scores, clustering all evaluations in the safe middle."
   },
   {
@@ -1708,22 +1708,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mask or hide student names (Blind Grading) and grade all Question 1s for the entire class before moving to Question 2."
-      },
-      {
-        "key": "B",
-        "text": "Grade all papers while looking at student photos."
-      },
-      {
-        "key": "C",
         "text": "Ask students to grade their own papers with permanent ink."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Flip a coin for each essay."
+      },
+      {
+        "key": "C",
+        "text": "Grade all papers while looking at student photos."
+      },
+      {
+        "key": "D",
+        "text": "Mask or hide student names (Blind Grading) and grade all Question 1s for the entire class before moving to Question 2."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Blind grading (anonymizing papers) and question-by-question scoring ensure consistency across criteria and eliminate subconscious student-identity bias."
   },
   {
@@ -1733,11 +1733,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prevent students from arriving at the final correct answer through mere process of elimination without genuine knowledge."
+        "text": "To make Column B look longer."
       },
       {
         "key": "B",
-        "text": "To make Column B look longer."
+        "text": "To prevent students from arriving at the final correct answer through mere process of elimination without genuine knowledge."
       },
       {
         "key": "C",
@@ -1748,7 +1748,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "To increase paper weight."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Having extra options in Column B eliminates guessing through process of elimination on the final remaining items."
   },
   {
@@ -1762,15 +1762,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Write anything you know about Philippine history.'"
+        "text": "'List the names of all Philippine presidents.'"
       },
       {
         "key": "C",
-        "text": "'What year did Magellan arrive in the Philippines?'"
+        "text": "'Write anything you know about Philippine history.'"
       },
       {
         "key": "D",
-        "text": "'List the names of all Philippine presidents.'"
+        "text": "'What year did Magellan arrive in the Philippines?'"
       }
     ],
     "correctAnswer": "A",
@@ -1783,22 +1783,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A learner's Cognitive Modifiability and learning potential when provided with mediated learning scaffolding."
-      },
-      {
-        "key": "B",
-        "text": "Static IQ score."
-      },
-      {
-        "key": "C",
         "text": "Rote memory capacity."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Reading speed."
+      },
+      {
+        "key": "C",
+        "text": "A learner's Cognitive Modifiability and learning potential when provided with mediated learning scaffolding."
+      },
+      {
+        "key": "D",
+        "text": "Static IQ score."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Dynamic Assessment evaluates learning potential and structural cognitive modifiability within Vygotsky's ZPD through interactive mediation."
   },
   {
@@ -1808,22 +1808,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Goal, Role, Audience, Situation, Product/Performance, and Standards for Success"
-      },
-      {
-        "key": "B",
-        "text": "Grades, Rubrics, Assessment, Science, Projects, and Scores"
-      },
-      {
-        "key": "C",
         "text": "General, Regular, Academic, Standard, Performance, and System"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Growth, Readiness, Ability, Skill, Practice, and Success"
+      },
+      {
+        "key": "C",
+        "text": "Grades, Rubrics, Assessment, Science, Projects, and Scores"
+      },
+      {
+        "key": "D",
+        "text": "Goal, Role, Audience, Situation, Product/Performance, and Standards for Success"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "GRASPS contextualizes authentic performance tasks: Goal (real-world objective), Role (student's persona), Audience (target clients), Situation (context), Product (deliverable), and Standards (rubric criteria)."
   },
   {
@@ -1833,22 +1833,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Where am I going? (Feed Up) | How am I doing? (Feed Back) | Where to next? (Feed Forward)"
-      },
-      {
-        "key": "B",
         "text": "Who is to blame? | Why did I fail? | How much is the fee?"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "What is my rank? | What is my grade? | Who got the highest?"
+      },
+      {
+        "key": "C",
+        "text": "Where am I going? (Feed Up) | How am I doing? (Feed Back) | Where to next? (Feed Forward)"
       },
       {
         "key": "D",
         "text": "When is the test? | What page is it? | Is it multiple choice?"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Effective pedagogical feedback clarifies learning goals (Feed Up), provides descriptive progress data (Feed Back), and provides actionable next steps for growth (Feed Forward)."
   },
   {
@@ -1858,22 +1858,22 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To empower, support, and enhance student learning, guide pedagogical improvement, and verify authentic achievement of meaningful life competencies."
-      },
-      {
-        "key": "B",
         "text": "To humiliate and weed out struggling students."
       },
       {
+        "key": "B",
+        "text": "To empower, support, and enhance student learning, guide pedagogical improvement, and verify authentic achievement of meaningful life competencies."
+      },
+      {
         "key": "C",
-        "text": "To rank students into superior and inferior human categories."
+        "text": "To generate paperwork for school archives."
       },
       {
         "key": "D",
-        "text": "To generate paperwork for school archives."
+        "text": "To rank students into superior and inferior human categories."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Modern assessment is educational and transformative: its core purpose is to nurture student growth, inform responsive teaching, and build lifelong competence."
   }
 ];

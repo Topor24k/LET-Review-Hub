@@ -8,7 +8,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Heliocentric Model (The Sun is the center of the solar system, replacing Ptolemy's Earth-centered Geocentric model)."
+        "text": "The Big Crunch Theory."
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Flat Earth Theory."
+        "text": "The Heliocentric Model (The Sun is the center of the solar system, replacing Ptolemy's Earth-centered Geocentric model)."
       },
       {
         "key": "D",
-        "text": "The Big Crunch Theory."
+        "text": "The Flat Earth Theory."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Copernicus' *De revolutionibus orbium coelestium* (1543) initiated the Copernican Revolution, proving mathematically that planets revolve around the Sun."
   },
   {
@@ -33,11 +33,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Natural Selection (survival and differential reproductive success of organisms best adapted to environmental niches)."
+        "text": "Static Creationism."
       },
       {
         "key": "B",
-        "text": "Lamarckian Inheritance of acquired traits."
+        "text": "Natural Selection (survival and differential reproductive success of organisms best adapted to environmental niches)."
       },
       {
         "key": "C",
@@ -45,10 +45,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Static Creationism."
+        "text": "Lamarckian Inheritance of acquired traits."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Darwin established Natural Selection: organisms with advantageous inherited variations survive and reproduce, driving the evolution of species over generations."
   },
   {
@@ -58,22 +58,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Human behavior is largely driven by unconscious psychic drives, repressed desires, and childhood conflicts rather than purely conscious rational thought."
-      },
-      {
-        "key": "B",
-        "text": "The human mind is completely conscious and robotic."
-      },
-      {
-        "key": "C",
         "text": "Personality is determined by planetary stars."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Dreams have zero psychological significance."
+      },
+      {
+        "key": "C",
+        "text": "The human mind is completely conscious and robotic."
+      },
+      {
+        "key": "D",
+        "text": "Human behavior is largely driven by unconscious psychic drives, repressed desires, and childhood conflicts rather than purely conscious rational thought."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Freud's psychoanalytic revolution demonstrated the profound power of the Unconscious mind, dream symbolism, and psychodynamic mechanisms in human behavior."
   },
   {
@@ -83,7 +83,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The modern technological mindset of viewing nature purely as a 'Standing-Reserve' (*Bestand*) — raw resources to be extracted, calculated, and commercially exploited."
+        "text": "Writing computer software code."
       },
       {
         "key": "B",
@@ -91,14 +91,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Building solar panels."
+        "text": "The modern technological mindset of viewing nature purely as a 'Standing-Reserve' (*Bestand*) — raw resources to be extracted, calculated, and commercially exploited."
       },
       {
         "key": "D",
-        "text": "Writing computer software code."
+        "text": "Building solar panels."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Heidegger warned that modern technology's essence is *Gestell* (Enframing), reducing all of nature and human beings into standing reserves of raw material."
   },
   {
@@ -112,15 +112,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Bamboo Incubator for infants."
-      },
-      {
-        "key": "C",
         "text": "Artificial coral reef conservation."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The Moon Buggy."
+      },
+      {
+        "key": "D",
+        "text": "The Bamboo Incubator for infants."
       }
     ],
     "correctAnswer": "A",
@@ -133,7 +133,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bamboo Incubator (a low-cost medical incubator made of indigenous materials for rural, non-electrified communities) and the BRAT diet."
+        "text": "Fluorescent lamp."
       },
       {
         "key": "B",
@@ -141,14 +141,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Fluorescent lamp."
+        "text": "Electronic computer."
       },
       {
         "key": "D",
-        "text": "Electronic computer."
+        "text": "Bamboo Incubator (a low-cost medical incubator made of indigenous materials for rural, non-electrified communities) and the BRAT diet."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Fe Del Mundo revolutionized pediatric medicine in developing nations by inventing the bamboo incubator and pioneering public health immunizations."
   },
   {
@@ -158,11 +158,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To reverse brain drain by offering generous financial, research, and relocation incentives to Filipino science and technology experts abroad to return and conduct research in the Philippines."
+        "text": "To deport foreign scientists from the country."
       },
       {
         "key": "B",
-        "text": "To deport foreign scientists from the country."
+        "text": "To reverse brain drain by offering generous financial, research, and relocation incentives to Filipino science and technology experts abroad to return and conduct research in the Philippines."
       },
       {
         "key": "C",
@@ -173,7 +173,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "To ban science scholarships."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "RA 11035 institutionalized the Balik Scientist Program, encouraging Filipino scientists overseas to return and strengthen national R&D capacity."
   },
   {
@@ -183,22 +183,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Philippine Space Agency (PhilSA)"
-      },
-      {
-        "key": "B",
         "text": "NASA"
       },
       {
+        "key": "B",
+        "text": "PHIVOLCS"
+      },
+      {
         "key": "C",
-        "text": "PAGASA"
+        "text": "Philippine Space Agency (PhilSA)"
       },
       {
         "key": "D",
-        "text": "PHIVOLCS"
+        "text": "PAGASA"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 11363 created PhilSA as the central state agency addressing national space science, satellite development, and Earth observation technology."
   },
   {
@@ -212,7 +212,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The physical cost of petri dishes."
+        "text": "The color of DNA models."
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The color of DNA models."
+        "text": "The physical cost of petri dishes."
       }
     ],
     "correctAnswer": "A",
@@ -233,22 +233,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Carbon Dioxide ((\\text{CO}_2))"
+        "text": "Helium ((\\text{He}))"
       },
       {
         "key": "B",
-        "text": "Oxygen ((\\text{O}_2))"
-      },
-      {
-        "key": "C",
         "text": "Nitrogen ((\\text{N}_2))"
       },
       {
+        "key": "C",
+        "text": "Oxygen ((\\text{O}_2))"
+      },
+      {
         "key": "D",
-        "text": "Helium ((\\text{He}))"
+        "text": "Carbon Dioxide ((\\text{CO}_2))"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Carbon dioxide ((\\text{CO}_2)), along with methane ((\\text{CH}_4)) and nitrous oxide ((\\text{N}_2\\text{O})), traps infrared radiation in the troposphere, accelerating global warming."
   },
   {
@@ -258,7 +258,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -266,14 +266,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -283,22 +283,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -308,22 +308,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
+        "key": "C",
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+      },
+      {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -333,7 +333,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -345,10 +345,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -358,7 +358,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -366,14 +366,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -391,11 +391,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
     "correctAnswer": "A",
@@ -408,22 +408,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+      },
+      {
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -433,11 +433,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Zero scientific significance."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
@@ -445,10 +445,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -462,11 +462,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
@@ -483,7 +483,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -491,14 +491,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -508,11 +508,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Zero scientific significance."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
@@ -520,10 +520,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -533,22 +533,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Complete cessation of technological research."
+      },
+      {
+        "key": "C",
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -558,22 +558,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
+        "key": "B",
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+      },
+      {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -587,15 +587,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
     "correctAnswer": "A",
@@ -608,7 +608,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -620,10 +620,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -633,22 +633,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -658,22 +658,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
+        "key": "B",
+        "text": "Immediate destruction of power plants."
+      },
+      {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -683,11 +683,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
       },
       {
         "key": "C",
@@ -695,10 +695,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -708,7 +708,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -716,14 +716,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -758,22 +758,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -783,11 +783,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "C",
@@ -795,10 +795,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -808,22 +808,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "C",
+        "text": "Zero scientific significance."
+      },
+      {
+        "key": "D",
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -833,7 +833,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -841,14 +841,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -862,15 +862,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
     "correctAnswer": "A",
@@ -883,22 +883,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
+        "key": "C",
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+      },
+      {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -908,11 +908,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Zero scientific significance."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "C",
@@ -923,7 +923,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -937,15 +937,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
     "correctAnswer": "A",
@@ -962,7 +962,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
@@ -970,7 +970,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
     "correctAnswer": "A",
@@ -983,22 +983,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
+        "key": "C",
+        "text": "Zero scientific significance."
+      },
+      {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1008,22 +1008,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Complete cessation of technological research."
+      },
+      {
+        "key": "C",
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1033,22 +1033,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1058,22 +1058,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "C",
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -1083,7 +1083,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -1095,10 +1095,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -1108,7 +1108,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -1116,14 +1116,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1133,22 +1133,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
+        "key": "B",
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+      },
+      {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1158,22 +1158,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+      },
+      {
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1183,7 +1183,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -1191,14 +1191,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -1212,11 +1212,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
@@ -1233,7 +1233,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -1241,14 +1241,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1258,11 +1258,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "C",
@@ -1270,10 +1270,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1283,22 +1283,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1337,15 +1337,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
     "correctAnswer": "A",
@@ -1358,22 +1358,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "D",
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1383,22 +1383,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1408,22 +1408,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
+        "key": "B",
+        "text": "Immediate destruction of power plants."
+      },
+      {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1437,7 +1437,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
     "correctAnswer": "A",
@@ -1458,7 +1458,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -1466,14 +1466,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -1483,11 +1483,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Zero scientific significance."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "C",
@@ -1498,7 +1498,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1508,22 +1508,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1533,11 +1533,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       },
       {
         "key": "C",
@@ -1545,10 +1545,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1558,22 +1558,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
+        "key": "C",
+        "text": "Zero scientific significance."
+      },
+      {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -1583,7 +1583,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
@@ -1591,14 +1591,14 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -1608,22 +1608,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
+        "key": "B",
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+      },
+      {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1633,22 +1633,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
+        "key": "C",
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+      },
+      {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1658,11 +1658,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Zero scientific significance."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "C",
@@ -1670,10 +1670,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
   },
   {
@@ -1687,11 +1687,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
@@ -1716,11 +1716,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
     "correctAnswer": "A",
@@ -1733,22 +1733,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "C",
+        "text": "Zero scientific significance."
+      },
+      {
+        "key": "D",
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   },
   {
@@ -1758,22 +1758,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
-      },
-      {
-        "key": "B",
         "text": "Zero scientific significance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Complete cessation of technological research."
+      },
+      {
+        "key": "C",
+        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
   },
   {
@@ -1791,11 +1791,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Complete cessation of technological research."
       }
     ],
     "correctAnswer": "A",
@@ -1808,22 +1808,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
         "text": "Complete cessation of technological research."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Immediate destruction of power plants."
+      },
+      {
+        "key": "C",
+        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+      },
+      {
+        "key": "D",
+        "text": "Zero scientific significance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "AI systems mirror and amplify historical biases present in their training training data."
   },
   {
@@ -1833,7 +1833,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Immediate destruction of power plants."
       },
       {
         "key": "B",
@@ -1845,10 +1845,10 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
   },
   {
@@ -1858,22 +1858,22 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Complete cessation of technological research."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Zero scientific significance."
       },
       {
         "key": "D",
         "text": "Immediate destruction of power plants."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
   }
 ];

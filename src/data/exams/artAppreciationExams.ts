@@ -8,22 +8,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Art has been created in every known human culture across all historical eras, transcending time, geographic borders, and languages to express universal human emotions."
-      },
-      {
-        "key": "B",
-        "text": "Because all artists speak English."
-      },
-      {
-        "key": "C",
         "text": "Because all art costs the same price."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Because all art is made in Europe."
+      },
+      {
+        "key": "C",
+        "text": "Art has been created in every known human culture across all historical eras, transcending time, geographic borders, and languages to express universal human emotions."
+      },
+      {
+        "key": "D",
+        "text": "Because all artists speak English."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Art is universal because it is a timeless, intrinsic manifestation of the human condition present in every culture throughout recorded history."
   },
   {
@@ -33,11 +33,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Art is a human creation, interpretation, and expression of reality, whereas Nature exists independently of human design and consciousness."
+        "text": "Nature is man-made while art is natural."
       },
       {
         "key": "B",
-        "text": "Nature is man-made while art is natural."
+        "text": "Nature is ugly while art is always pretty."
       },
       {
         "key": "C",
@@ -45,10 +45,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Nature is ugly while art is always pretty."
+        "text": "Art is a human creation, interpretation, and expression of reality, whereas Nature exists independently of human design and consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Art is an artificial human cultural construct. A real sunset is nature; a painting of that sunset by an artist is art."
   },
   {
@@ -58,22 +58,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Genuine appreciation of art requires direct sensory perception, emotional resonance, and lived experiential engagement with the artwork."
+        "text": "Art has no meaning."
       },
       {
         "key": "B",
-        "text": "Artists do not have thoughts."
+        "text": "Genuine appreciation of art requires direct sensory perception, emotional resonance, and lived experiential engagement with the artwork."
       },
       {
         "key": "C",
-        "text": "Art has no meaning."
+        "text": "Artists do not have thoughts."
       },
       {
         "key": "D",
         "text": "Only wealthy collectors experience art."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Dewey emphasized that art is not just a static physical object on a wall, but an active aesthetic transaction experienced dynamically by the viewer."
   },
   {
@@ -91,11 +91,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The lightness or darkness of a color (Value)."
+        "text": "The physical weight of the paint."
       },
       {
         "key": "D",
-        "text": "The physical weight of the paint."
+        "text": "The lightness or darkness of a color (Value)."
       }
     ],
     "correctAnswer": "A",
@@ -112,15 +112,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complementary Color Harmony"
-      },
-      {
-        "key": "C",
         "text": "Triadic Color Harmony"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Analogous Color Harmony"
+      },
+      {
+        "key": "D",
+        "text": "Complementary Color Harmony"
       }
     ],
     "correctAnswer": "A",
@@ -133,7 +133,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Blue and Orange (or Red and Green / Yellow and Purple)"
+        "text": "Yellow and Lime Green"
       },
       {
         "key": "B",
@@ -141,14 +141,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Yellow and Lime Green"
+        "text": "Black and White"
       },
       {
         "key": "D",
-        "text": "Black and White"
+        "text": "Blue and Orange (or Red and Green / Yellow and Purple)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Complementary pairs sit directly opposite on the color wheel: Blue-Orange, Red-Green, Yellow-Violet, creating maximum visual contrast when placed side by side."
   },
   {
@@ -158,11 +158,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Asymmetrical / Informal Balance"
+        "text": "Symmetrical / Formal Balance"
       },
       {
         "key": "B",
-        "text": "Symmetrical / Formal Balance"
+        "text": "Asymmetrical / Informal Balance"
       },
       {
         "key": "C",
@@ -173,7 +173,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Total Chaos"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Asymmetrical balance achieves equal visual weight through the strategic distribution of different elements (color, contrast, texture) without literal mirroring."
   },
   {
@@ -183,22 +183,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Chiaroscuro (Tenebrism)"
-      },
-      {
-        "key": "B",
         "text": "Impasto"
       },
       {
+        "key": "B",
+        "text": "Pointillism"
+      },
+      {
         "key": "C",
-        "text": "Sfumato"
+        "text": "Chiaroscuro (Tenebrism)"
       },
       {
         "key": "D",
-        "text": "Pointillism"
+        "text": "Sfumato"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Chiaroscuro (Italian for 'light-dark', perfected by Caravaggio and Rembrandt) creates dramatic tonal modeling and emotional intensity."
   },
   {
@@ -212,7 +212,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A peaceful rural rice planting festival in Bulacan."
+        "text": "A tropical fruit market."
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A tropical fruit market."
+        "text": "A peaceful rural rice planting festival in Bulacan."
       }
     ],
     "correctAnswer": "A",
@@ -237,11 +237,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Planting Rice"
+        "text": "The Bonifacio Monument"
       },
       {
         "key": "C",
-        "text": "The Bonifacio Monument"
+        "text": "Planting Rice"
       },
       {
         "key": "D",
@@ -258,22 +258,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Backlighting (*Chiaroscuro* / Golden Sunlight) capturing idyllic Philippine rural life, lush landscapes, and graceful Filipina beauties."
-      },
-      {
-        "key": "B",
         "text": "Dark abstract geometric metal cubes."
       },
       {
+        "key": "B",
+        "text": "Backlighting (*Chiaroscuro* / Golden Sunlight) capturing idyllic Philippine rural life, lush landscapes, and graceful Filipina beauties."
+      },
+      {
         "key": "C",
-        "text": "Gothic church architecture."
+        "text": "Violent political caricature cartoons."
       },
       {
         "key": "D",
-        "text": "Violent political caricature cartoons."
+        "text": "Gothic church architecture."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Amorsolo is renowned for his radiant rendering of natural tropical sunlight (backlighting technique) depicting rural Philippine pastoral scenes (*Planting Rice*, *Dalagang Bukid*)."
   },
   {
@@ -283,22 +283,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UP Oblation and the Andres Bonifacio Monument in Caloocan"
-      },
-      {
-        "key": "B",
-        "text": "The Eiffel Tower and Statue of Liberty"
-      },
-      {
-        "key": "C",
         "text": "The Rizal Shrine in Dapitan and Manila Cathedral"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "The UP Oblation and the Andres Bonifacio Monument in Caloocan"
+      },
+      {
+        "key": "C",
         "text": "The People Power Monument and EDSA Shrine"
+      },
+      {
+        "key": "D",
+        "text": "The Eiffel Tower and Statue of Liberty"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Tolentino sculpted the iconic UP *Oblation* (symbolizing selfless offering of youth to the country) and the dramatic 45-figure *Bonifacio Monument* in Caloocan."
   },
   {
@@ -308,22 +308,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Victorio Edades"
-      },
-      {
-        "key": "B",
         "text": "Fernando Amorsolo"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Guillermo Tolentino"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Felix Hidalgo"
+      },
+      {
+        "key": "D",
+        "text": "Victorio Edades"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Victorio Edades is the 'Father of Modern Philippine Art'. His 1928 exhibition of *The Builders* shocked traditionalists by depicting raw, distorted working-class labor."
   },
   {
@@ -358,7 +358,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Capturing the fleeting effects of natural light and atmosphere outdoors (*En Plein Air*) using quick, visible brushstrokes and pure unmixed colors."
+        "text": "Strict mythical religious allegories."
       },
       {
         "key": "B",
@@ -366,14 +366,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Geometric cubes and collage newspaper clippings."
+        "text": "Capturing the fleeting effects of natural light and atmosphere outdoors (*En Plein Air*) using quick, visible brushstrokes and pure unmixed colors."
       },
       {
         "key": "D",
-        "text": "Strict mythical religious allegories."
+        "text": "Geometric cubes and collage newspaper clippings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Impressionism (named after Monet's *Impression, Sunrise*) emphasized outdoor plein-air painting, rapid loose brushwork, and the visual physics of shifting sunlight."
   },
   {
@@ -383,11 +383,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "C",
@@ -395,10 +395,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -408,22 +408,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "D",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -433,11 +433,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Expressionism (Edvard Munch's The Scream)"
       },
       {
         "key": "C",
@@ -448,7 +448,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -462,15 +462,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -483,22 +483,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -508,22 +508,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "D",
+        "text": "Surrealism (Salvador Dali)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -533,22 +533,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
+      },
+      {
+        "key": "C",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -558,22 +558,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
+        "key": "B",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Photorealism"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -587,15 +587,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -608,7 +608,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -620,10 +620,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Baroque Art (Caravaggio & Bernini)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -633,22 +633,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -658,22 +658,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
+        "key": "C",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -683,22 +683,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Expressionism (Edvard Munch's The Scream)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -708,7 +708,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pop Art (Andy Warhol)"
+        "text": "Minimalism"
       },
       {
         "key": "B",
@@ -716,14 +716,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Pop Art (Andy Warhol)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
@@ -741,11 +741,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Photorealism"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -758,22 +758,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -783,11 +783,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -795,10 +795,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -812,11 +812,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Minimalism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
@@ -833,7 +833,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pop Art (Andy Warhol)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -841,14 +841,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Pop Art (Andy Warhol)"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
@@ -862,15 +862,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -883,22 +883,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Surrealism (Salvador Dali)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -908,11 +908,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       },
       {
         "key": "C",
@@ -923,7 +923,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -933,7 +933,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -941,14 +941,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Expressionism (Edvard Munch's The Scream)"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -962,7 +962,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -970,7 +970,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -983,22 +983,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Baroque Art (Caravaggio & Bernini)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1008,22 +1008,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
+      },
+      {
+        "key": "C",
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1033,22 +1033,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -1058,7 +1058,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
+        "text": "Minimalism"
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Photorealism"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Expressionism (Edvard Munch's The Scream)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -1108,22 +1108,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
+        "key": "B",
+        "text": "Photorealism"
+      },
+      {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Baroque Art (Caravaggio & Bernini)"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1133,11 +1133,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "C",
@@ -1145,10 +1145,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1158,22 +1158,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "D",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -1212,15 +1212,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -1233,22 +1233,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
+        "key": "C",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1258,11 +1258,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -1270,10 +1270,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Surrealism (Salvador Dali)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1283,22 +1283,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
+      },
+      {
+        "key": "C",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -1316,11 +1316,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Photorealism"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -1337,15 +1337,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -1358,11 +1358,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -1370,10 +1370,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Baroque Art (Caravaggio & Bernini)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1383,22 +1383,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
+        "text": "Minimalism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1408,22 +1408,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
+        "key": "B",
+        "text": "Photorealism"
+      },
+      {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -1437,7 +1437,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -1458,7 +1458,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pop Art (Andy Warhol)"
+        "text": "Minimalism"
       },
       {
         "key": "B",
@@ -1466,14 +1466,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Pop Art (Andy Warhol)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
@@ -1483,22 +1483,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
+        "key": "B",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Photorealism"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1508,22 +1508,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1533,7 +1533,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cubism (Pablo Picasso & Georges Braque)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -1545,10 +1545,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
@@ -1562,11 +1562,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Minimalism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
@@ -1583,7 +1583,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pop Art (Andy Warhol)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -1591,14 +1591,14 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Pop Art (Andy Warhol)"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
@@ -1608,22 +1608,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1633,22 +1633,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Photorealism"
+      },
+      {
+        "key": "D",
+        "text": "Surrealism (Salvador Dali)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1687,15 +1687,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -1712,7 +1712,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Ancient Cave Petrographs"
       }
     ],
     "correctAnswer": "A",
@@ -1733,22 +1733,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "D",
+        "text": "Baroque Art (Caravaggio & Bernini)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
@@ -1758,22 +1758,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Surrealism (Salvador Dali)"
-      },
-      {
-        "key": "B",
         "text": "Ancient Cave Petrographs"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Minimalism"
+      },
+      {
+        "key": "C",
+        "text": "Surrealism (Salvador Dali)"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
@@ -1787,15 +1787,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Photorealism"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Minimalism"
       }
     ],
     "correctAnswer": "A",
@@ -1808,22 +1808,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expressionism (Edvard Munch's The Scream)"
-      },
-      {
-        "key": "B",
-        "text": "Ancient Cave Petrographs"
-      },
-      {
-        "key": "C",
         "text": "Minimalism"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Photorealism"
+      },
+      {
+        "key": "C",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Cave Petrographs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
@@ -1833,7 +1833,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pop Art (Andy Warhol)"
+        "text": "Photorealism"
       },
       {
         "key": "B",
@@ -1845,10 +1845,10 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photorealism"
+        "text": "Pop Art (Andy Warhol)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
@@ -1858,22 +1858,22 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Baroque Art (Caravaggio & Bernini)"
+        "text": "Minimalism"
       },
       {
         "key": "B",
-        "text": "Ancient Cave Petrographs"
+        "text": "Baroque Art (Caravaggio & Bernini)"
       },
       {
         "key": "C",
-        "text": "Minimalism"
+        "text": "Ancient Cave Petrographs"
       },
       {
         "key": "D",
         "text": "Photorealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   }
 ];

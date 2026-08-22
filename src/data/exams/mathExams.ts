@@ -8,22 +8,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "21 ((8 + 13 = 21))"
-      },
-      {
-        "key": "B",
         "text": "18"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "34"
+      },
+      {
+        "key": "C",
+        "text": "21 ((8 + 13 = 21))"
       },
       {
         "key": "D",
         "text": "20"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "In Fibonacci, each term is the sum of the two preceding terms: (F_1=1, F_2=1, F_3=2, F_4=3, F_5=5, F_6=8, F_7=13, F_8=21)."
   },
   {
@@ -33,22 +33,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1.618"
-      },
-      {
-        "key": "B",
         "text": "3.141"
       },
       {
+        "key": "B",
+        "text": "1.618"
+      },
+      {
         "key": "C",
-        "text": "2.718"
+        "text": "0.577"
       },
       {
         "key": "D",
-        "text": "0.577"
+        "text": "2.718"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Golden Ratio ((phi)) is approximately 1.6180339887... representing divine proportion in mathematics and nature."
   },
   {
@@ -58,22 +58,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "({4, 5})"
+        "text": "(emptyset)"
       },
       {
         "key": "B",
-        "text": "({1, 2, 3, 4, 5, 6, 7})"
-      },
-      {
-        "key": "C",
         "text": "({1, 2, 3})"
       },
       {
+        "key": "C",
+        "text": "({1, 2, 3, 4, 5, 6, 7})"
+      },
+      {
         "key": "D",
-        "text": "(emptyset)"
+        "text": "({4, 5})"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The intersection (A cap B) consists of elements present in both sets simultaneously (elements 4 and 5)."
   },
   {
@@ -108,22 +108,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'If the ground is not wet, then it is not raining' ((sim q \to sim p))"
+        "text": "'It is raining and the ground is dry'"
       },
       {
         "key": "B",
-        "text": "'If it is not raining, then the ground is not wet' (Inverse)"
+        "text": "'If the ground is not wet, then it is not raining' ((sim q \to sim p))"
       },
       {
         "key": "C",
-        "text": "'If the ground is wet, then it is raining' (Converse)"
+        "text": "'If it is not raining, then the ground is not wet' (Inverse)"
       },
       {
         "key": "D",
-        "text": "'It is raining and the ground is dry'"
+        "text": "'If the ground is wet, then it is raining' (Converse)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A conditional statement (p \to q) is logically equivalent only to its contrapositive (sim q \to sim p)."
   },
   {
@@ -133,22 +133,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1. Understand the Problem -> 2. Devise a Plan -> 3. Carry Out the Plan -> 4. Look Back (Review/Reflect)"
+        "text": "1. Memorize -> 2. Drill -> 3. Test -> 4. Forget"
       },
       {
         "key": "B",
-        "text": "1. Read -> 2. Guess -> 3. Calculate -> 4. Submit"
-      },
-      {
-        "key": "C",
         "text": "1. Formula -> 2. Substitute -> 3. Solve -> 4. Erase"
       },
       {
+        "key": "C",
+        "text": "1. Understand the Problem -> 2. Devise a Plan -> 3. Carry Out the Plan -> 4. Look Back (Review/Reflect)"
+      },
+      {
         "key": "D",
-        "text": "1. Memorize -> 2. Drill -> 3. Test -> 4. Forget"
+        "text": "1. Read -> 2. Guess -> 3. Calculate -> 4. Submit"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "George Polya's *How to Solve It* (1945) established the universal heuristic: Understand -> Plan -> Execute -> Review/Verify."
   },
   {
@@ -158,22 +158,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "₱9,000 ((I = 50,000 \times 0.06 \times 3 = 9,000))"
-      },
-      {
-        "key": "B",
-        "text": "₱3,000"
-      },
-      {
-        "key": "C",
         "text": "₱15,000"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "₱59,000"
+      },
+      {
+        "key": "C",
+        "text": "₱3,000"
+      },
+      {
+        "key": "D",
+        "text": "₱9,000 ((I = 50,000 \times 0.06 \times 3 = 9,000))"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Simple interest formula: (I = Prt = 50,000 \times 0.06 \times 3 = ₱9,000)."
   },
   {
@@ -183,7 +183,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "+2.0 ((z = \frac{92 - 80}{6} = \frac{12}{6} = +2.0))"
+        "text": "-2.0"
       },
       {
         "key": "B",
@@ -191,14 +191,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "-2.0"
+        "text": "+2.0 ((z = \frac{92 - 80}{6} = \frac{12}{6} = +2.0))"
       },
       {
         "key": "D",
         "text": "+0.5"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "(z = \frac{X - mu}{sigma} = \frac{92 - 80}{6} = \frac{12}{6} = +2.0)."
   },
   {
@@ -216,11 +216,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "1"
+        "text": "12"
       },
       {
         "key": "D",
-        "text": "12"
+        "text": "1"
       }
     ],
     "correctAnswer": "A",
@@ -233,22 +233,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inductive Reasoning (specific observations to general rule)"
-      },
-      {
-        "key": "B",
-        "text": "Deductive Reasoning (general premise to specific conclusion)"
-      },
-      {
-        "key": "C",
         "text": "Mathematical Proof"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Inductive Reasoning (specific observations to general rule)"
+      },
+      {
+        "key": "C",
         "text": "Direct Verification"
+      },
+      {
+        "key": "D",
+        "text": "Deductive Reasoning (general premise to specific conclusion)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Inductive reasoning moves from specific observed instances to general probabilistic conclusions, while Deductive reasoning applies general axiomatic rules to derive certain specific conclusions."
   },
   {
@@ -258,11 +258,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -270,10 +270,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -283,22 +283,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -308,7 +308,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -316,14 +316,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Fractal"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
@@ -337,15 +337,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -358,22 +358,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Caesar Cipher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -383,11 +383,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       },
       {
         "key": "C",
@@ -398,7 +398,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -408,7 +408,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -416,14 +416,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -437,7 +437,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -458,22 +458,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
+        "key": "C",
+        "text": "Zero mathematical relevance."
+      },
+      {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Tautology"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -483,22 +483,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
+        "key": "B",
+        "text": "Arbitrary mathematical error."
+      },
+      {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Caesar Cipher"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -508,22 +508,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -533,7 +533,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
@@ -541,14 +541,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -583,7 +583,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -591,14 +591,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Tautology"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -608,11 +608,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Caesar Cipher"
       },
       {
         "key": "C",
@@ -620,10 +620,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -633,22 +633,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "C",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "D",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -658,7 +658,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
@@ -666,14 +666,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -687,15 +687,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -708,22 +708,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "C",
+        "text": "Tautology"
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -733,11 +733,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -745,10 +745,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Caesar Cipher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -758,22 +758,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
+      },
+      {
+        "key": "C",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -791,11 +791,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -812,15 +812,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -833,11 +833,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -845,10 +845,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Tautology"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -858,22 +858,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Caesar Cipher"
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -883,22 +883,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
+        "key": "C",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -908,7 +908,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -920,10 +920,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -933,7 +933,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
@@ -941,14 +941,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Fractal"
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
@@ -958,22 +958,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
+        "key": "B",
+        "text": "Tautology"
+      },
+      {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -983,22 +983,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1008,11 +1008,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -1020,10 +1020,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -1037,11 +1037,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
@@ -1058,7 +1058,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Fractal"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
@@ -1083,11 +1083,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Tautology"
       },
       {
         "key": "C",
@@ -1095,10 +1095,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1108,22 +1108,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Caesar Cipher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1133,11 +1133,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       },
       {
         "key": "C",
@@ -1148,7 +1148,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -1162,15 +1162,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -1187,7 +1187,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -1195,7 +1195,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1208,22 +1208,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "C",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "D",
+        "text": "Tautology"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1233,22 +1233,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
+      },
+      {
+        "key": "C",
+        "text": "Caesar Cipher"
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1262,15 +1262,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -1283,22 +1283,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "C",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -1333,22 +1333,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Tautology"
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1358,11 +1358,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Caesar Cipher"
       },
       {
         "key": "C",
@@ -1370,10 +1370,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1383,22 +1383,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
+        "key": "C",
+        "text": "Zero mathematical relevance."
+      },
+      {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -1408,7 +1408,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
@@ -1416,14 +1416,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
@@ -1437,15 +1437,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -1458,22 +1458,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
+        "key": "C",
+        "text": "Tautology"
+      },
+      {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1483,11 +1483,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -1495,10 +1495,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Caesar Cipher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1512,11 +1512,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
@@ -1541,11 +1541,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
     "correctAnswer": "A",
@@ -1562,15 +1562,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1583,22 +1583,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Tautology"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1608,22 +1608,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Caesar Cipher"
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
         "text": "Arbitrary mathematical error."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1633,7 +1633,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
@@ -1641,14 +1641,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -1662,7 +1662,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "C",
@@ -1670,7 +1670,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Fractal"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
@@ -1708,22 +1708,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
+        "key": "B",
+        "text": "Tautology"
+      },
+      {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1733,22 +1733,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
@@ -1758,7 +1758,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "B",
@@ -1766,14 +1766,14 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
@@ -1787,11 +1787,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Undefined imaginary number."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Zero mathematical relevance."
       },
       {
         "key": "D",
@@ -1808,22 +1808,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
+        "key": "B",
+        "text": "Arbitrary mathematical error."
+      },
+      {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Fractal"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Undefined imaginary number."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
@@ -1833,11 +1833,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "Arbitrary mathematical error."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Tautology"
       },
       {
         "key": "C",
@@ -1845,10 +1845,10 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Zero mathematical relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
@@ -1858,22 +1858,22 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "B",
         "text": "Zero mathematical relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Undefined imaginary number."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Arbitrary mathematical error."
+      },
+      {
+        "key": "D",
+        "text": "Caesar Cipher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   }
 ];

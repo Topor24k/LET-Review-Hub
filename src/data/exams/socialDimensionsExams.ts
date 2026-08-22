@@ -8,22 +8,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Idealism"
-      },
-      {
-        "key": "B",
         "text": "Realism"
       },
       {
+        "key": "B",
+        "text": "Behaviorism"
+      },
+      {
         "key": "C",
-        "text": "Pragmatism"
+        "text": "Idealism"
       },
       {
         "key": "D",
-        "text": "Behaviorism"
+        "text": "Pragmatism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Idealism (Plato, Socrates, Hegel, Kant) holds that truth and reality are spiritual, mental, and unchanging. The curriculum centers on liberal arts, humanities, ethics, and intellectual philosophy."
   },
   {
@@ -33,11 +33,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Realism"
+        "text": "Constructivism"
       },
       {
         "key": "B",
-        "text": "Idealism"
+        "text": "Realism"
       },
       {
         "key": "C",
@@ -45,10 +45,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Constructivism"
+        "text": "Idealism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Realism (Aristotle, John Locke, Francis Bacon) posits that reality is objective and physical, known through sensory perception, scientific observation, and empirical data."
   },
   {
@@ -58,7 +58,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pragmatism (Experimentalism)"
+        "text": "Essentialism"
       },
       {
         "key": "B",
@@ -66,14 +66,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Essentialism"
+        "text": "Stoicism"
       },
       {
         "key": "D",
-        "text": "Stoicism"
+        "text": "Pragmatism (Experimentalism)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pragmatism (John Dewey, Charles Sanders Peirce, William James) tests truth by its practical consequences, problem-solving utility, and experiential results ('learning by doing')."
   },
   {
@@ -108,22 +108,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Essentialism"
+        "text": "Reconstructionism"
       },
       {
         "key": "B",
-        "text": "Progressivism"
+        "text": "Essentialism"
       },
       {
         "key": "C",
-        "text": "Existentialism"
+        "text": "Progressivism"
       },
       {
         "key": "D",
-        "text": "Reconstructionism"
+        "text": "Existentialism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Essentialism (William Bagley) focuses on transmitting essential cultural heritage, fundamental basic skills (3Rs), academic discipline, and core academic subjects."
   },
   {
@@ -133,22 +133,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Progressivism"
+        "text": "Scholasticism"
       },
       {
         "key": "B",
-        "text": "Perennialism"
-      },
-      {
-        "key": "C",
         "text": "Essentialism"
       },
       {
+        "key": "C",
+        "text": "Progressivism"
+      },
+      {
         "key": "D",
-        "text": "Scholasticism"
+        "text": "Perennialism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Progressivism (John Dewey) is learner-centered and democratic, organizing instruction around authentic student experiences, inquiry, and cooperative problem-solving."
   },
   {
@@ -158,22 +158,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Existentialism"
+        "text": "Idealism"
       },
       {
         "key": "B",
-        "text": "Behaviorism"
-      },
-      {
-        "key": "C",
         "text": "Realism"
       },
       {
+        "key": "C",
+        "text": "Behaviorism"
+      },
+      {
         "key": "D",
-        "text": "Idealism"
+        "text": "Existentialism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Existentialism (Jean-Paul Sartre, Soren Kierkegaard, Maxine Greene) emphasizes individual freedom of choice, personal authenticity, self-discovery, and existential responsibility."
   },
   {
@@ -183,7 +183,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Social Reconstructionism"
+        "text": "Essentialism"
       },
       {
         "key": "B",
@@ -191,14 +191,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Essentialism"
+        "text": "Social Reconstructionism"
       },
       {
         "key": "D",
         "text": "Positivism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Social Reconstructionism (Theodore Brameld, George Counts, Paulo Freire) positions the school as a catalyst for societal transformation, social justice, and democratic reform."
   },
   {
@@ -212,7 +212,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Constructivism"
+        "text": "Idealism"
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Idealism"
+        "text": "Constructivism"
       }
     ],
     "correctAnswer": "A",
@@ -233,22 +233,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Constructivism"
-      },
-      {
-        "key": "B",
         "text": "Behaviorism"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Perennialism"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Scholasticism"
+      },
+      {
+        "key": "D",
+        "text": "Constructivism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Constructivism (Jean Piaget, Lev Vygotsky, Jerome Bruner) views learning as an active, contextualized process of constructing meaning based on personal experience."
   },
   {
@@ -258,11 +258,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stoicism"
+        "text": "Hedonism"
       },
       {
         "key": "B",
-        "text": "Hedonism"
+        "text": "Stoicism"
       },
       {
         "key": "C",
@@ -273,7 +273,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Cynicism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Stoicism (Zeno of Citium, Epictetus, Marcus Aurelius) focuses on virtue, emotional mastery, endurance, and distinguishing what is within our control from what is not."
   },
   {
@@ -287,15 +287,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Deontology"
+        "text": "Idealism"
       },
       {
         "key": "C",
-        "text": "Existentialism"
+        "text": "Deontology"
       },
       {
         "key": "D",
-        "text": "Idealism"
+        "text": "Existentialism"
       }
     ],
     "correctAnswer": "A",
@@ -308,22 +308,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning to Know"
-      },
-      {
-        "key": "B",
-        "text": "Learning to Do"
-      },
-      {
-        "key": "C",
         "text": "Learning to Live Together"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Learning to Be"
+      },
+      {
+        "key": "C",
+        "text": "Learning to Know"
+      },
+      {
+        "key": "D",
+        "text": "Learning to Do"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Learning to Know combines broad general knowledge with deep study, emphasizing 'learning how to learn' to benefit from opportunities throughout life."
   },
   {
@@ -333,22 +333,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning to Do"
+        "text": "Learning to Be"
       },
       {
         "key": "B",
-        "text": "Learning to Know"
-      },
-      {
-        "key": "C",
         "text": "Learning to Live Together"
       },
       {
+        "key": "C",
+        "text": "Learning to Know"
+      },
+      {
         "key": "D",
-        "text": "Learning to Be"
+        "text": "Learning to Do"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Learning to Do focuses on acquiring occupational skills, technical competence, problem-solving, and the ability to act productively in diverse work environments."
   },
   {
@@ -358,22 +358,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning to Live Together"
-      },
-      {
-        "key": "B",
         "text": "Learning to Know"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Learning to Do"
+      },
+      {
+        "key": "C",
+        "text": "Learning to Live Together"
       },
       {
         "key": "D",
         "text": "Learning to Be"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Learning to Live Together develops understanding of others, appreciation of cultural diversity, conflict resolution, and working towards common global goals."
   },
   {
@@ -383,22 +383,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning to Be"
-      },
-      {
-        "key": "B",
         "text": "Learning to Do"
       },
       {
+        "key": "B",
+        "text": "Learning to Be"
+      },
+      {
         "key": "C",
-        "text": "Learning to Know"
+        "text": "Learning to Live Together"
       },
       {
         "key": "D",
-        "text": "Learning to Live Together"
+        "text": "Learning to Know"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Learning to Be (first articulated in the 1972 Faure Report) aims for the holistic development of the individual's mind, spirit, aesthetic sense, and independent judgment."
   },
   {
@@ -408,22 +408,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning to Transform Oneself and Society"
-      },
-      {
-        "key": "B",
-        "text": "Learning to Earn Money"
-      },
-      {
-        "key": "C",
         "text": "Learning to Code Computers"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Learning to Pass Tests"
+      },
+      {
+        "key": "C",
+        "text": "Learning to Transform Oneself and Society"
+      },
+      {
+        "key": "D",
+        "text": "Learning to Earn Money"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The 5th Pillar emphasizes sustainable development, empowering individuals and communities to transform themselves and build a just, peaceful, sustainable future."
   },
   {
@@ -433,7 +433,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Aims: Survival, food gathering, and conformity to tribal taboos; Methods: Direct imitation, observation, and initiation rituals without formal schools."
+        "text": "Aims: Industrial robotics; Methods: Factory apprenticeship."
       },
       {
         "key": "B",
@@ -445,10 +445,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Aims: Industrial robotics; Methods: Factory apprenticeship."
+        "text": "Aims: Survival, food gathering, and conformity to tribal taboos; Methods: Direct imitation, observation, and initiation rituals without formal schools."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Primitive education was informal, practical, and survival-oriented, transmitted through direct observation, trial-and-error, oral tradition, and tribal initiation rites."
   },
   {
@@ -462,11 +462,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Athens was purely military while Sparta was purely artistic."
+        "text": "Sparta had no soldiers."
       },
       {
         "key": "C",
-        "text": "Sparta had no soldiers."
+        "text": "Athens was purely military while Sparta was purely artistic."
       },
       {
         "key": "D",
@@ -483,22 +483,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pragmatism, practical administrative efficiency, civic law, military organization, and oratorical rhetoric (Cicero, Quintilian)."
-      },
-      {
-        "key": "B",
         "text": "Isolation in monasteries."
       },
       {
+        "key": "B",
+        "text": "Pragmatism, practical administrative efficiency, civic law, military organization, and oratorical rhetoric (Cicero, Quintilian)."
+      },
+      {
         "key": "C",
-        "text": "Nomadic hunting."
+        "text": "Astronomical pyramid building."
       },
       {
         "key": "D",
-        "text": "Astronomical pyramid building."
+        "text": "Nomadic hunting."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Roman education was utilitarian and civic-minded, prioritizing practical law, administration, engineering, and eloquent oratorical leadership (*Vir bonus, dicendi peritus*)."
   },
   {
@@ -508,22 +508,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Christian religious faith/theology with Aristotelian philosophical reason/logic."
-      },
-      {
-        "key": "B",
-        "text": "Military archery with agriculture."
-      },
-      {
-        "key": "C",
         "text": "Music with gymnastics."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Christian religious faith/theology with Aristotelian philosophical reason/logic."
+      },
+      {
+        "key": "C",
         "text": "Astrology with alchemy."
+      },
+      {
+        "key": "D",
+        "text": "Military archery with agriculture."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Scholasticism integrated Christian theology with Aristotelian rational logic, arguing that faith and reason are complementary paths to ultimate divine truth."
   },
   {
@@ -533,7 +533,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reviving classical Greco-Roman arts and literature (*Studia Humanitatis*) and celebrating human potential, individualism, and critical inquiry."
+        "text": "Banning Latin and Greek."
       },
       {
         "key": "B",
@@ -541,14 +541,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Banning Latin and Greek."
+        "text": "Subjugating human reason to feudal lords."
       },
       {
         "key": "D",
-        "text": "Subjugating human reason to feudal lords."
+        "text": "Reviving classical Greco-Roman arts and literature (*Studia Humanitatis*) and celebrating human potential, individualism, and critical inquiry."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Renaissance Humanism (Petrarch, Erasmus, Vittorino da Feltre) revived classical antiquity, focusing on human dignity, eloquence, literature, and holistic worldly education."
   },
   {
@@ -583,22 +583,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Protect and promote the right of all citizens to quality education at all levels, and take appropriate steps to make such education accessible to all."
-      },
-      {
-        "key": "B",
         "text": "Abolish public schooling in rural provinces."
       },
       {
+        "key": "B",
+        "text": "Restrict education only to college graduates."
+      },
+      {
         "key": "C",
-        "text": "Charge tuition fees to all elementary students."
+        "text": "Protect and promote the right of all citizens to quality education at all levels, and take appropriate steps to make such education accessible to all."
       },
       {
         "key": "D",
-        "text": "Restrict education only to college graduates."
+        "text": "Charge tuition fees to all elementary students."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Article XIV, Sec. 1 guarantees the constitutional right of all Filipinos to accessible, quality education at all levels."
   },
   {
@@ -608,11 +608,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Education"
+        "text": "National Defense"
       },
       {
         "key": "B",
-        "text": "National Defense"
+        "text": "Foreign Debt Servicing"
       },
       {
         "key": "C",
@@ -620,10 +620,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Foreign Debt Servicing"
+        "text": "Education"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The 1987 Constitution explicitly orders that the State shall assign the highest budgetary priority to education to ensure national progress."
   },
   {
@@ -633,22 +633,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "DepEd for Basic Education (RA 9155), CHED for Higher Education (RA 7722), and TESDA for Technical-Vocational Education (RA 7796)."
+        "text": "Private corporations controlling all universities."
       },
       {
         "key": "B",
-        "text": "One single agency managing all schools, sports, and prisons."
+        "text": "DepEd for Basic Education (RA 9155), CHED for Higher Education (RA 7722), and TESDA for Technical-Vocational Education (RA 7796)."
       },
       {
         "key": "C",
-        "text": "Private corporations controlling all universities."
+        "text": "One single agency managing all schools, sports, and prisons."
       },
       {
         "key": "D",
         "text": "Military generals running all high schools."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "EDCOM I trifocalized education: DepEd governs basic education, CHED oversees tertiary/higher education, and TESDA manages TVET and skills development."
   },
   {
@@ -666,11 +666,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of local PTA councils."
+        "text": "Privatization of all public elementary schools."
       },
       {
         "key": "D",
-        "text": "Privatization of all public elementary schools."
+        "text": "Abolition of local PTA councils."
       }
     ],
     "correctAnswer": "A",
@@ -687,15 +687,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Eight (8) hours of non-stop classroom lecture"
-      },
-      {
-        "key": "C",
         "text": "Twelve (12) hours"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Four (4) hours"
+      },
+      {
+        "key": "D",
+        "text": "Eight (8) hours of non-stop classroom lecture"
       }
     ],
     "correctAnswer": "A",
@@ -708,22 +708,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Compulsory annual medical examinations provided completely free of charge by the government, and free medical treatment/hospitalization if injured on duty."
-      },
-      {
-        "key": "B",
         "text": "Teachers must pay 100% of all medical checkups themselves."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Medical checkups are strictly prohibited."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Only principals receive medical checkups."
+      },
+      {
+        "key": "D",
+        "text": "Compulsory annual medical examinations provided completely free of charge by the government, and free medical treatment/hospitalization if injured on duty."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Sec. 22 of the Magna Carta mandates annual medical examinations free of charge for all teachers and free medical treatment when illness or injury occurs in the line of duty."
   },
   {
@@ -733,11 +733,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "At least 60% of their monthly basic salary"
+        "text": "Zero salary (unpaid leave)"
       },
       {
         "key": "B",
-        "text": "Zero salary (unpaid leave)"
+        "text": "At least 60% of their monthly basic salary"
       },
       {
         "key": "C",
@@ -748,7 +748,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Immediate termination of employment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "RA 4670 Sec. 24 grants a Study Leave after 7 years of continuous service for up to 1 school year, during which the teacher receives at least 60% of their monthly basic salary."
   },
   {
@@ -758,22 +758,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It made teaching a legally recognized profession in the Philippines for the first time and instituted the PBET (Professional Board Examination for Teachers)."
-      },
-      {
-        "key": "B",
         "text": "It created CHED and TESDA."
       },
       {
+        "key": "B",
+        "text": "It banned private schools."
+      },
+      {
         "key": "C",
-        "text": "It abolished the LET exam."
+        "text": "It made teaching a legally recognized profession in the Philippines for the first time and instituted the PBET (Professional Board Examination for Teachers)."
       },
       {
         "key": "D",
-        "text": "It banned private schools."
+        "text": "It abolished the LET exam."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "PD 1006 (1976) was the first law to officially professionalize teaching in the Philippines, creating the National Board for Teachers and the PBET."
   },
   {
@@ -787,7 +787,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Supreme Court of the Philippines"
+        "text": "Department of Labor and Employment"
       },
       {
         "key": "C",
@@ -795,7 +795,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Department of Labor and Employment"
+        "text": "Supreme Court of the Philippines"
       }
     ],
     "correctAnswer": "A",
@@ -808,22 +808,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Special Permit to teach as para-teachers for non-extendible periods in areas with severe teacher shortages."
+        "text": "A Master's degree diploma."
       },
       {
         "key": "B",
-        "text": "An automatic full professional license."
-      },
-      {
-        "key": "C",
         "text": "A permanent ban from ever taking the LET again."
       },
       {
+        "key": "C",
+        "text": "An automatic full professional license."
+      },
+      {
         "key": "D",
-        "text": "A Master's degree diploma."
+        "text": "A Special Permit to teach as para-teachers for non-extendible periods in areas with severe teacher shortages."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "RA 9293 allows PRC to issue Special Permits valid for 2-3 years to para-teachers who scored 70-74% in the LET for deployment to underserved areas."
   },
   {
@@ -833,11 +833,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All public and private school teachers in all educational institutions at the preschool, primary, elementary, and secondary levels, whether academic, vocational, special, technical, or non-formal, full-time or part-time."
+        "text": "Only permanent public elementary teachers."
       },
       {
         "key": "B",
-        "text": "Only permanent public elementary teachers."
+        "text": "All public and private school teachers in all educational institutions at the preschool, primary, elementary, and secondary levels, whether academic, vocational, special, technical, or non-formal, full-time or part-time."
       },
       {
         "key": "C",
@@ -848,7 +848,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Only school principals."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Article I, Sec. 2 explicitly states that the Code of Ethics covers all teachers in preschool, elementary, and secondary levels across both public and private sectors nationwide."
   },
   {
@@ -858,22 +858,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using their official position, authority, or classroom influence to solicit votes, promote a political candidate, or coerce students and parents."
+        "text": "Watching political news."
       },
       {
         "key": "B",
-        "text": "Voting in national elections."
+        "text": "Using their official position, authority, or classroom influence to solicit votes, promote a political candidate, or coerce students and parents."
       },
       {
         "key": "C",
-        "text": "Reading the election ballot."
+        "text": "Voting in national elections."
       },
       {
         "key": "D",
-        "text": "Watching political news."
+        "text": "Reading the election ballot."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Art. II, Sec. 5 states that teachers can vote and exercise civil rights, but must never use their official authority or influence to coerce anyone to support political candidates."
   },
   {
@@ -883,22 +883,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expounding the product of their research and investigations, provided that if results are inimical to the State, they are brought to proper authorities for appropriate action."
+        "text": "Insulting religious minorities in class."
       },
       {
         "key": "B",
-        "text": "Teaching whatever they want regardless of curriculum standards."
-      },
-      {
-        "key": "C",
         "text": "Refusing to grade student work."
       },
       {
+        "key": "C",
+        "text": "Expounding the product of their research and investigations, provided that if results are inimical to the State, they are brought to proper authorities for appropriate action."
+      },
+      {
         "key": "D",
-        "text": "Insulting religious minorities in class."
+        "text": "Teaching whatever they want regardless of curriculum standards."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Art. II, Sec. 7 grants academic freedom to share research outputs, provided findings contrary to state welfare are submitted through proper administrative channels."
   },
   {
@@ -908,22 +908,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maintain harmonious relations by studying local customs and refraining from disparaging community traditions."
+        "text": "Force community elders to adopt foreign languages."
       },
       {
         "key": "B",
-        "text": "Openly mock local traditions in front of tourists."
-      },
-      {
-        "key": "C",
         "text": "Refuse to live inside the community."
       },
       {
+        "key": "C",
+        "text": "Openly mock local traditions in front of tourists."
+      },
+      {
         "key": "D",
-        "text": "Force community elders to adopt foreign languages."
+        "text": "Maintain harmonious relations by studying local customs and refraining from disparaging community traditions."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Art. III, Sec. 7 mandates that every teacher shall study local customs and traditions to maintain harmonious relations with the community without disparagement."
   },
   {
@@ -933,7 +933,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By manifesting genuine enthusiasm and pride in teaching as a noble calling, and continually pursuing continuing professional development (CPD)."
+        "text": "By selling snacks during class time."
       },
       {
         "key": "B",
@@ -941,14 +941,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "By selling snacks during class time."
+        "text": "By manifesting genuine enthusiasm and pride in teaching as a noble calling, and continually pursuing continuing professional development (CPD)."
       },
       {
         "key": "D",
         "text": "By skipping classes on Mondays and Fridays."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Art. IV demands pride in teaching as a noble profession, intellectual dedication, continuous professional education, and upholding professional dignity."
   },
   {
@@ -958,22 +958,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Approach the colleague privately in a professional, constructive manner to offer support, rather than gossiping or publicly disparaging them to parents."
-      },
-      {
-        "key": "B",
         "text": "Post public insults about the colleague on Facebook."
       },
       {
+        "key": "B",
+        "text": "Approach the colleague privately in a professional, constructive manner to offer support, rather than gossiping or publicly disparaging them to parents."
+      },
+      {
         "key": "C",
-        "text": "Tell the students that their other teacher is incompetent."
+        "text": "Report the colleague to a sensationalized television show."
       },
       {
         "key": "D",
-        "text": "Report the colleague to a sensationalized television show."
+        "text": "Tell the students that their other teacher is incompetent."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Art. V mandates mutual professional respect, collegiality, confidentiality, and handling disagreements privately and constructively."
   },
   {
@@ -983,22 +983,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Recognize that the interest and welfare of learners are of first and paramount concern, and handle each student with utmost justice, fairness, and empathy."
-      },
-      {
-        "key": "B",
-        "text": "Give top grades only to wealthy students."
-      },
-      {
-        "key": "C",
         "text": "Favor relatives and close friends."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Recognize that the interest and welfare of learners are of first and paramount concern, and handle each student with utmost justice, fairness, and empathy."
+      },
+      {
+        "key": "C",
         "text": "Ignore slow learners."
+      },
+      {
+        "key": "D",
+        "text": "Give top grades only to wealthy students."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Art. VIII, Sec. 1 establishes the bedrock rule: 'A teacher has a right and duty to determine the academic marks of learners... In all circumstances, the interest and welfare of learners shall be the first and paramount concern.'"
   },
   {
@@ -1008,7 +1008,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exercise utmost professional discretion, avoid taking unfair advantage of the student, and request the transfer of the student to another teacher's class."
+        "text": "Blackmail the student with failing grades."
       },
       {
         "key": "B",
@@ -1020,10 +1020,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blackmail the student with failing grades."
+        "text": "Exercise utmost professional discretion, avoid taking unfair advantage of the student, and request the transfer of the student to another teacher's class."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Art. VIII, Sec. 7 explicitly requires professional discretion, forbidding any exploitation of the teacher's authority, and transferring the student to eliminate bias/conflict of interest."
   },
   {
@@ -1037,15 +1037,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Incorrect math calculations."
+        "text": "Late submission of homework."
       },
       {
         "key": "C",
-        "text": "Spelling errors."
+        "text": "Incorrect math calculations."
       },
       {
         "key": "D",
-        "text": "Late submission of homework."
+        "text": "Spelling errors."
       }
     ],
     "correctAnswer": "A",
@@ -1058,22 +1058,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "No, a teacher is strictly prohibited from accepting any remuneration for tutoring their own regular students to prevent conflicts of interest and extortion."
-      },
-      {
-        "key": "B",
-        "text": "Yes, provided the rate is ₱1,000 per hour."
-      },
-      {
-        "key": "C",
         "text": "Yes, if the principal approves."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Yes, as long as it is done inside the classroom."
+      },
+      {
+        "key": "C",
+        "text": "No, a teacher is strictly prohibited from accepting any remuneration for tutoring their own regular students to prevent conflicts of interest and extortion."
+      },
+      {
+        "key": "D",
+        "text": "Yes, provided the rate is ₱1,000 per hour."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Art. VIII, Sec. 5 strictly forbids teachers from accepting any fee or remuneration for tutoring their own regular students (conflict of interest)."
   },
   {
@@ -1083,22 +1083,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selling commercial merchandise, food snacks, uniforms, or study materials to their students for personal profit."
-      },
-      {
-        "key": "B",
-        "text": "Teaching algebra."
-      },
-      {
-        "key": "C",
         "text": "Holding a library book."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Writing on the blackboard."
+      },
+      {
+        "key": "C",
+        "text": "Teaching algebra."
+      },
+      {
+        "key": "D",
+        "text": "Selling commercial merchandise, food snacks, uniforms, or study materials to their students for personal profit."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Art. X, Sec. 1 strictly prohibits teachers from engaging in commercial selling of goods/merchandise to their students, preventing financial exploitation."
   },
   {
@@ -1108,22 +1108,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maintaining professional boundaries: strictly avoiding personal, non-academic social media chats, private direct messages, and unprofessional fraternization outside school hours."
-      },
-      {
-        "key": "B",
         "text": "Requiring teachers to follow all students on TikTok."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Banning all cellphones in the entire country."
+      },
+      {
+        "key": "C",
+        "text": "Maintaining professional boundaries: strictly avoiding personal, non-academic social media chats, private direct messages, and unprofessional fraternization outside school hours."
       },
       {
         "key": "D",
         "text": "Forcing students to like the principal's posts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "DO 007, s. 2023 mandates strict professional teacher-student boundaries, prohibiting personal non-academic fraternization on social media to prevent child abuse and breaches of ethics."
   },
   {
@@ -1141,11 +1141,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Bullying is permitted if students are joking."
+        "text": "Teachers have absolute immunity from child abuse charges."
       },
       {
         "key": "D",
-        "text": "Teachers have absolute immunity from child abuse charges."
+        "text": "Bullying is permitted if students are joking."
       }
     ],
     "correctAnswer": "A",
@@ -1162,15 +1162,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Magna Carta for Teachers"
-      },
-      {
-        "key": "C",
         "text": "Clean Air Act"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Cybercrime Act"
+      },
+      {
+        "key": "D",
+        "text": "Magna Carta for Teachers"
       }
     ],
     "correctAnswer": "A",
@@ -1183,7 +1183,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Special Parental Authority (*In Loco Parentis*), holding them legally liable for damages caused by the student unless they prove utmost parental diligence."
+        "text": "Police arrest powers"
       },
       {
         "key": "B",
@@ -1195,10 +1195,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Police arrest powers"
+        "text": "Special Parental Authority (*In Loco Parentis*), holding them legally liable for damages caused by the student unless they prove utmost parental diligence."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "*In Loco Parentis* (in place of parents) confers special parental authority, requiring teachers to exercise the diligence of a good father of a family over students during school activities."
   },
   {
@@ -1208,22 +1208,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "For damages caused by their pupils and students so long as they remain in their custody and care, unless the teacher proves diligence of a good father of a family."
+        "text": "Never under any circumstances."
       },
       {
         "key": "B",
-        "text": "Only if the student is 50 years old."
+        "text": "For damages caused by their pupils and students so long as they remain in their custody and care, unless the teacher proves diligence of a good father of a family."
       },
       {
         "key": "C",
-        "text": "Never under any circumstances."
+        "text": "Only if the student is 50 years old."
       },
       {
         "key": "D",
         "text": "Only during midnight hours."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Art. 2180 establishes vicarious liability for teachers and heads of establishments of arts and trades for torts committed by students under their custody."
   },
   {
@@ -1233,22 +1233,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Simple Living"
-      },
-      {
-        "key": "B",
         "text": "Commitment to Democracy"
       },
       {
+        "key": "B",
+        "text": "Political Neutrality"
+      },
+      {
         "key": "C",
-        "text": "Professionalism"
+        "text": "Simple Living"
       },
       {
         "key": "D",
-        "text": "Political Neutrality"
+        "text": "Professionalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 6713 mandates 'Simple Living': public officials shall lead modest lives appropriate to their positions and avoid extravagant displays of wealth."
   },
   {
@@ -1262,15 +1262,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Taking the LET exam again every 3 years."
-      },
-      {
-        "key": "C",
         "text": "Paying ₱100,000 in cash."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Donating land to the PRC."
+      },
+      {
+        "key": "D",
+        "text": "Taking the LET exam again every 3 years."
       }
     ],
     "correctAnswer": "A",
@@ -1283,7 +1283,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Early Years Act of 2013 (ECCD System from age 0 to 4)"
+        "text": "Senior High School Act"
       },
       {
         "key": "B",
@@ -1291,14 +1291,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Senior High School Act"
+        "text": "Higher Education Act"
       },
       {
         "key": "D",
-        "text": "Higher Education Act"
+        "text": "Early Years Act of 2013 (ECCD System from age 0 to 4)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "RA 10410 (Early Years Act of 2013) recognizes ages 0-4 as crucial for early brain development and establishes the Early Childhood Care and Development (ECCD) Council."
   },
   {
@@ -1333,22 +1333,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Free tuition and other school fees in all State Universities and Colleges (SUCs), Local Universities and Colleges (LUCs), and state-run TVET institutions."
-      },
-      {
-        "key": "B",
         "text": "Free airfare to Europe."
       },
       {
+        "key": "B",
+        "text": "Mandatory tuition doubling every year."
+      },
+      {
         "key": "C",
-        "text": "Abolition of college entrance tests."
+        "text": "Free tuition and other school fees in all State Universities and Colleges (SUCs), Local Universities and Colleges (LUCs), and state-run TVET institutions."
       },
       {
         "key": "D",
-        "text": "Mandatory tuition doubling every year."
+        "text": "Abolition of college entrance tests."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 10931 guarantees free tuition and miscellaneous fees for qualified Filipino undergraduate students in public SUCs, LUCs, and TESDA institutions."
   },
   {
@@ -1358,11 +1358,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Gross immorality, unprofessional or dishonorable conduct, or conviction of any criminal offense involving moral turpitude."
+        "text": "Using blue ink instead of black ink on lesson plans."
       },
       {
         "key": "B",
-        "text": "Failing a school sports tournament."
+        "text": "Gross immorality, unprofessional or dishonorable conduct, or conviction of any criminal offense involving moral turpitude."
       },
       {
         "key": "C",
@@ -1370,10 +1370,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Using blue ink instead of black ink on lesson plans."
+        "text": "Failing a school sports tournament."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Sec. 23 lists grounds for revocation: moral turpitude, gross immorality, professional incompetence, habitual drunkenness, or violations of the Code of Ethics."
   },
   {
@@ -1383,22 +1383,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Are offered wide personal choices in elective subjects and encouraged to self-examine existential questions regarding personal identity and life purpose."
+        "text": "Are forbidden from speaking their thoughts."
       },
       {
         "key": "B",
-        "text": "Memorize identical state dogma in unison."
-      },
-      {
-        "key": "C",
         "text": "Undergo military drill marches."
       },
       {
+        "key": "C",
+        "text": "Memorize identical state dogma in unison."
+      },
+      {
         "key": "D",
-        "text": "Are forbidden from speaking their thoughts."
+        "text": "Are offered wide personal choices in elective subjects and encouraged to self-examine existential questions regarding personal identity and life purpose."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Existentialist education emphasizes subjective personal choice, self-determination, artistic expression, and exploring the meaning of human existence."
   },
   {
@@ -1408,7 +1408,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Perennialism and Progressivism"
+        "text": "Idealism and Realism"
       },
       {
         "key": "B",
@@ -1416,14 +1416,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Idealism and Realism"
+        "text": "Perennialism and Progressivism"
       },
       {
         "key": "D",
         "text": "Stoicism and Epicureanism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Perennialism champions timeless classic academic disciplines, whereas Progressivism champions democratic, dynamic student-centered problem solving."
   },
   {
@@ -1433,22 +1433,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Socialize youth into shared cultural norms, transmit core societal values, and allocate individuals to specialized occupational roles to maintain social equilibrium."
-      },
-      {
-        "key": "B",
-        "text": "Trigger violent civil war."
-      },
-      {
-        "key": "C",
         "text": "Eliminate government laws."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Socialize youth into shared cultural norms, transmit core societal values, and allocate individuals to specialized occupational roles to maintain social equilibrium."
+      },
+      {
+        "key": "C",
         "text": "Isolate children from society."
+      },
+      {
+        "key": "D",
+        "text": "Trigger violent civil war."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Structural Functionalism views schools as essential social institutions that foster social cohesion, cultural transmission, and meritocratic role differentiation."
   },
   {
@@ -1458,22 +1458,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reproduce social class inequalities and maintain the economic hegemony of the ruling elite through the hidden curriculum and unequal educational tracking."
-      },
-      {
-        "key": "B",
         "text": "Ensure equal wealth for every citizen."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Promote world peace without bias."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Eliminate social classes."
+      },
+      {
+        "key": "D",
+        "text": "Reproduce social class inequalities and maintain the economic hegemony of the ruling elite through the hidden curriculum and unequal educational tracking."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Conflict Theory argues that educational systems reflect and reproduce unequal socio-economic class divisions, rewarding dominant cultural capital while marginalizing working-class youth."
   },
   {
@@ -1483,11 +1483,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Micro-level face-to-face interactions, teacher expectations, student labeling, self-fulfilling prophecies, and the shared meanings constructed through daily communication."
+        "text": "National GDP economic charts."
       },
       {
         "key": "B",
-        "text": "National GDP economic charts."
+        "text": "Micro-level face-to-face interactions, teacher expectations, student labeling, self-fulfilling prophecies, and the shared meanings constructed through daily communication."
       },
       {
         "key": "C",
@@ -1498,7 +1498,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Military defense budgets."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Symbolic Interactionism focuses on interpersonal classroom micro-processes: how teacher labels (e.g. 'smart' vs 'troublemaker') shape student identity and performance (Pygmalion effect)."
   },
   {
@@ -1508,7 +1508,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "When teachers hold high academic expectations for students, students internalize these positive beliefs and significantly improve their actual performance."
+        "text": "IQ is purely genetic."
       },
       {
         "key": "B",
@@ -1516,14 +1516,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Teachers have zero influence on learners."
+        "text": "When teachers hold high academic expectations for students, students internalize these positive beliefs and significantly improve their actual performance."
       },
       {
         "key": "D",
-        "text": "IQ is purely genetic."
+        "text": "Teachers have zero influence on learners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Pygmalion Effect demonstrates that higher expectations placed upon learners lead to internal self-efficacy and superior measurable achievement."
   },
   {
@@ -1537,7 +1537,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The physical money in a bank."
+        "text": "The number of textbooks in a library."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The number of textbooks in a library."
+        "text": "The physical money in a bank."
       }
     ],
     "correctAnswer": "A",
@@ -1558,22 +1558,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Over 500 American pioneering civilian teachers who established the centralized public secular English-medium school system in the Philippines."
-      },
-      {
-        "key": "B",
-        "text": "Spanish Catholic friars."
-      },
-      {
-        "key": "C",
         "text": "Japanese military officers."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "British commercial merchants."
+      },
+      {
+        "key": "C",
+        "text": "Spanish Catholic friars."
+      },
+      {
+        "key": "D",
+        "text": "Over 500 American pioneering civilian teachers who established the centralized public secular English-medium school system in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Thomasites were American educators recruited under Act No. 74 (1901) who built the foundations of Philippine public school education and the Philippine Normal School (PNS)."
   },
   {
@@ -1583,22 +1583,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Establishing the Department of Public Instruction, making primary education free and secular, and making English the medium of instruction."
-      },
-      {
-        "key": "B",
         "text": "Declaring Tagalog as the sole language."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Creating the K-12 program."
+      },
+      {
+        "key": "C",
+        "text": "Establishing the Department of Public Instruction, making primary education free and secular, and making English the medium of instruction."
       },
       {
         "key": "D",
         "text": "Banning all American teachers."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Act No. 74 established a secular, co-educational public school system with free primary education and established English as the instructional language."
   },
   {
@@ -1608,22 +1608,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It established the first comprehensive system of free, state-regulated primary schools (one for boys and one for girls per municipality) and the *Escuela Normal* for teacher training."
+        "text": "It banned the Catholic religion."
       },
       {
         "key": "B",
-        "text": "It abolished all universities."
+        "text": "It established the first comprehensive system of free, state-regulated primary schools (one for boys and one for girls per municipality) and the *Escuela Normal* for teacher training."
       },
       {
         "key": "C",
-        "text": "It established American high schools."
+        "text": "It abolished all universities."
       },
       {
         "key": "D",
-        "text": "It banned the Catholic religion."
+        "text": "It established American high schools."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Royal Decree of 1863 created the first organized public primary school system and the *Escuela Normal de Maestros* in Manila under the Jesuits."
   },
   {
@@ -1633,22 +1633,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Never be divulged to anyone, except to authorized persons (parents, school guidance, courts) when mandated by professional duty or law."
-      },
-      {
-        "key": "B",
-        "text": "Be gossiped with neighbors."
-      },
-      {
-        "key": "C",
         "text": "Be posted on social media forums."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Be sold to advertisers."
+      },
+      {
+        "key": "C",
+        "text": "Never be divulged to anyone, except to authorized persons (parents, school guidance, courts) when mandated by professional duty or law."
+      },
+      {
+        "key": "D",
+        "text": "Be gossiped with neighbors."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Student confidential records, psychological profiles, and family secrets are protected by strict professional privilege and data privacy laws."
   },
   {
@@ -1658,7 +1658,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A dignified personality, professional attire, self-respect, and moral character that can serve as a worthy model for learners and the public."
+        "text": "An aggressive, hostile facial expression."
       },
       {
         "key": "B",
@@ -1670,10 +1670,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An aggressive, hostile facial expression."
+        "text": "A dignified personality, professional attire, self-respect, and moral character that can serve as a worthy model for learners and the public."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Art. XI mandates that teachers embody professional decorum, dignified conduct, moral integrity, and professional grooming as public role models."
   },
   {
@@ -1683,22 +1683,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Raise the grievance through formal administrative channels and established grievance machinery, exhausting all internal legal procedures before going public."
-      },
-      {
-        "key": "B",
         "text": "Stage a student walkout immediately."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Spread anonymous hate letters in the community."
+      },
+      {
+        "key": "C",
+        "text": "Raise the grievance through formal administrative channels and established grievance machinery, exhausting all internal legal procedures before going public."
       },
       {
         "key": "D",
         "text": "Refuse to teach class for 3 months."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Art. VI, Sec. 5 requires educators to exhaust established institutional grievance machinery and administrative procedures before seeking external remedies."
   },
   {
@@ -1708,22 +1708,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "No, a teacher shall not use their position or classroom influence to proselytize or coerce students to follow their religious denomination."
-      },
-      {
-        "key": "B",
         "text": "Yes, if the teacher is very passionate."
       },
       {
+        "key": "B",
+        "text": "No, a teacher shall not use their position or classroom influence to proselytize or coerce students to follow their religious denomination."
+      },
+      {
         "key": "C",
-        "text": "Yes, on Monday mornings only."
+        "text": "Yes, if the principal agrees."
       },
       {
         "key": "D",
-        "text": "Yes, if the principal agrees."
+        "text": "Yes, on Monday mornings only."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Art. II, Sec. 6 strictly prohibits religious proselytizing, sectarian coercion, or using classroom time to promote personal denominational bias."
   },
   {
@@ -1737,15 +1737,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Exclusively classroom babysitter."
-      },
-      {
-        "key": "C",
         "text": "Armed neighborhood guard."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Political party campaign manager."
+      },
+      {
+        "key": "D",
+        "text": "Exclusively classroom babysitter."
       }
     ],
     "correctAnswer": "A",
@@ -1758,7 +1758,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "At least 25% of their monthly basic salary"
+        "text": "Double their retirement age"
       },
       {
         "key": "B",
@@ -1770,10 +1770,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Double their retirement age"
+        "text": "At least 25% of their monthly basic salary"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Sec. 19 of the Magna Carta guarantees a Special Hardship Allowance of at least 25% of monthly salary for teachers in remote and hazardous assignments."
   },
   {
@@ -1787,11 +1787,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Immediate retirement with full pension."
+        "text": "A bonus car."
       },
       {
         "key": "C",
-        "text": "A bonus car."
+        "text": "Immediate retirement with full pension."
       },
       {
         "key": "D",
@@ -1808,22 +1808,22 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "No, transfers within 3 months of an election are strictly prohibited by law, and no teacher shall be transferred without consent except for cause."
-      },
-      {
-        "key": "B",
         "text": "Yes, whenever a politician requests it."
       },
       {
+        "key": "B",
+        "text": "Yes, without any formal notice."
+      },
+      {
         "key": "C",
-        "text": "Yes, if the weather is warm."
+        "text": "No, transfers within 3 months of an election are strictly prohibited by law, and no teacher shall be transferred without consent except for cause."
       },
       {
         "key": "D",
-        "text": "Yes, without any formal notice."
+        "text": "Yes, if the weather is warm."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 4670 Sec. 6 strictly forbids involuntary teacher transfers within 3 months of an election and requires formal written justification and consent for any transfer."
   },
   {
@@ -1833,11 +1833,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Engaging directly or indirectly in partisan political activities, electioneering, or wearing campaign shirts during official duty."
+        "text": "Discussing the Philippine Constitution in class."
       },
       {
         "key": "B",
-        "text": "Voting on election day."
+        "text": "Engaging directly or indirectly in partisan political activities, electioneering, or wearing campaign shirts during official duty."
       },
       {
         "key": "C",
@@ -1845,10 +1845,10 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Discussing the Philippine Constitution in class."
+        "text": "Voting on election day."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Civil service laws strictly forbid civil servants from partisan campaigning, distributing political merchandise, or engaging in electioneering."
   },
   {
@@ -1858,7 +1858,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because all other professionals (doctors, engineers, lawyers, scientists, leaders) pass through the formative hands, mentorship, and inspiration of teachers."
+        "text": "Because teachers work zero hours a week."
       },
       {
         "key": "B",
@@ -1866,14 +1866,14 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Because teachers work zero hours a week."
+        "text": "Because all other professionals (doctors, engineers, lawyers, scientists, leaders) pass through the formative hands, mentorship, and inspiration of teachers."
       },
       {
         "key": "D",
         "text": "Because teachers never make mistakes."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Teaching is the foundational bedrock of all human professions: every doctor, statesman, scientist, and builder began their journey under the mentorship of a dedicated teacher."
   }
 ];

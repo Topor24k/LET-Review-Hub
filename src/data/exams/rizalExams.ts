@@ -8,7 +8,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Courses on the life, works, and writings of Jose Rizal, particularly his unexpurgated novels Noli Me Tangere and El Filibusterismo, be included in the curricula of all public and private schools, colleges, and universities."
+        "text": "Jose Rizal be proclaimed as a religious saint."
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Jose Rizal be proclaimed as a religious saint."
+        "text": "Private Catholic universities be closed."
       },
       {
         "key": "D",
-        "text": "Private Catholic universities be closed."
+        "text": "Courses on the life, works, and writings of Jose Rizal, particularly his unexpurgated novels Noli Me Tangere and El Filibusterismo, be included in the curricula of all public and private schools, colleges, and universities."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "RA 1425 mandates the compulsory study of Jose Rizal's life and unexpurgated novels in all Philippine educational institutions to foster patriotism and civic ideals."
   },
   {
@@ -41,11 +41,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "June 12, 1898 in Kawit"
+        "text": "July 7, 1892 in Tondo"
       },
       {
         "key": "D",
-        "text": "July 7, 1892 in Tondo"
+        "text": "June 12, 1898 in Kawit"
       }
     ],
     "correctAnswer": "A",
@@ -58,22 +58,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "His mother, Doña Teodora Alonso Realonda"
-      },
-      {
-        "key": "B",
-        "text": "Maestro Celestino"
-      },
-      {
-        "key": "C",
         "text": "Father Francisco de Paula Sanchez"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Justiniano Aquino Cruz"
+      },
+      {
+        "key": "C",
+        "text": "His mother, Doña Teodora Alonso Realonda"
+      },
+      {
+        "key": "D",
+        "text": "Maestro Celestino"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Doña Teodora Alonso was Rizal's first patient and cultured teacher, nurturing his early love for literature through the poignant parable of the moth."
   },
   {
@@ -83,11 +83,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dr. Maximo Viola (The Savior of the Noli)"
+        "text": "Valentin Ventura (Savior of El Fili)"
       },
       {
         "key": "B",
-        "text": "Valentin Ventura (Savior of El Fili)"
+        "text": "Juan Luna"
       },
       {
         "key": "C",
@@ -95,10 +95,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Juan Luna"
+        "text": "Dr. Maximo Viola (The Savior of the Noli)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Dr. Maximo Viola loaned Rizal ₱300 to print the first 2,000 copies of *Noli Me Tangere* in Berlin (1887) when Rizal was living in extreme poverty."
   },
   {
@@ -108,22 +108,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Touch Me Not' (referring to exposing the social cancer of colonial society that was too sensitive to be touched)"
+        "text": "'The Subversive'"
       },
       {
         "key": "B",
-        "text": "'The Reign of Greed'"
+        "text": "'Touch Me Not' (referring to exposing the social cancer of colonial society that was too sensitive to be touched)"
       },
       {
         "key": "C",
-        "text": "'The Subversive'"
+        "text": "'The Reign of Greed'"
       },
       {
         "key": "D",
         "text": "'The Revolution'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "*Noli Me Tangere* means 'Touch Me Not'. Rizal used this metaphor to diagnose the malignant 'social cancer' corrupting Philippine society."
   },
   {
@@ -141,11 +141,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Leonor Rivera"
+        "text": "The Katipunan"
       },
       {
         "key": "D",
-        "text": "The Katipunan"
+        "text": "Leonor Rivera"
       }
     ],
     "correctAnswer": "A",
@@ -162,15 +162,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Simoun is a Catholic friar while Ibarra is a soldier."
-      },
-      {
-        "key": "C",
         "text": "Ibarra is a rebel while Simoun is a pacifist."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "They are two completely unrelated historical figures."
+      },
+      {
+        "key": "D",
+        "text": "Simoun is a Catholic friar while Ibarra is a soldier."
       }
     ],
     "correctAnswer": "A",
@@ -183,22 +183,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Glory to save a country is not given to him who has contributed to its ruin... Hate never produces anything but monsters, and crime produces criminals; only Love and Virtue can save our motherland!'"
-      },
-      {
-        "key": "B",
         "text": "'Violence and murder are the only ways to gain freedom.'"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "'Filipinos should remain Spanish slaves forever.'"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "'Wealth is more important than moral character.'"
+      },
+      {
+        "key": "D",
+        "text": "'Glory to save a country is not given to him who has contributed to its ruin... Hate never produces anything but monsters, and crime produces criminals; only Love and Virtue can save our motherland!'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Padre Florentino's monologue proclaims that genuine national redemption requires moral integrity, education, and civic virtue (*Love and Sacrifice*), not corrupt bloodshed."
   },
   {
@@ -208,11 +208,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Unus Instar Omnium' (One Like All / One for All) — promoting mutual protection, economic cooperatives, and national unity."
+        "text": "'Death to Spain'"
       },
       {
         "key": "B",
-        "text": "'Death to Spain'"
+        "text": "'Unus Instar Omnium' (One Like All / One for All) — promoting mutual protection, economic cooperatives, and national unity."
       },
       {
         "key": "C",
@@ -223,7 +223,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "'Gold over Country'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "La Liga Filipina aimed for peaceful civic unity, mutual defense, mutual aid, and agricultural-commercial development under the motto *Unus Instar Omnium*."
   },
   {
@@ -233,22 +233,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Practicing medicine/ophthalmology, constructing a community waterworks system, establishing a modern school for boys, discovering new animal species (*Draco rizali*), and farming."
-      },
-      {
-        "key": "B",
         "text": "Leading an army of soldiers in battle."
       },
       {
+        "key": "B",
+        "text": "Manufacturing firearms for the Katipunan."
+      },
+      {
         "key": "C",
-        "text": "Sitting in a prison cell without speaking."
+        "text": "Practicing medicine/ophthalmology, constructing a community waterworks system, establishing a modern school for boys, discovering new animal species (*Draco rizali*), and farming."
       },
       {
         "key": "D",
-        "text": "Manufacturing firearms for the Katipunan."
+        "text": "Sitting in a prison cell without speaking."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "In Dapitan, Rizal exemplified community leadership: he built a water reservoir, provided free eye surgery, taught youth without tuition, and collected botanical/zoological specimens."
   },
   {
@@ -262,7 +262,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'A La Juventud Filipina'"
+        "text": "'Hymn to Talisay'"
       },
       {
         "key": "C",
@@ -270,7 +270,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Hymn to Talisay'"
+        "text": "'A La Juventud Filipina'"
       }
     ],
     "correctAnswer": "A",
@@ -283,22 +283,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -308,11 +308,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "C",
@@ -323,7 +323,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -333,22 +333,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -358,22 +358,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
+        "key": "C",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -383,7 +383,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -395,10 +395,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -408,7 +408,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
@@ -416,14 +416,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -433,22 +433,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
+        "key": "B",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -458,22 +458,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "D",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -483,11 +483,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
       },
       {
         "key": "C",
@@ -498,7 +498,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -512,15 +512,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
     "correctAnswer": "A",
@@ -533,22 +533,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -558,22 +558,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "D",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -583,22 +583,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "C",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -616,11 +616,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
     "correctAnswer": "A",
@@ -637,15 +637,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -658,7 +658,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -670,10 +670,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -683,22 +683,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -708,22 +708,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
+        "key": "B",
+        "text": "Blind obedience without questioning."
+      },
+      {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -737,15 +737,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -758,7 +758,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
@@ -766,14 +766,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -808,22 +808,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -833,11 +833,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "C",
@@ -845,10 +845,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -862,11 +862,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -891,14 +891,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -912,15 +912,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -933,22 +933,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -958,11 +958,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "C",
@@ -973,7 +973,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -983,7 +983,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -1012,7 +1012,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1020,7 +1020,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -1033,22 +1033,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "D",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1058,22 +1058,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "C",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1083,22 +1083,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -1108,22 +1108,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -1133,7 +1133,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -1145,10 +1145,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -1158,22 +1158,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "C",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1183,22 +1183,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
+        "key": "B",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1208,22 +1208,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -1233,7 +1233,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
@@ -1241,14 +1241,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -1262,11 +1262,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
@@ -1283,22 +1283,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
+        "key": "C",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1308,11 +1308,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1320,10 +1320,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1333,22 +1333,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "C",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -1366,11 +1366,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
     "correctAnswer": "A",
@@ -1387,15 +1387,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -1408,11 +1408,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1420,10 +1420,10 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1433,22 +1433,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1458,7 +1458,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
@@ -1466,14 +1466,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
@@ -1487,7 +1487,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1495,7 +1495,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -1508,7 +1508,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
@@ -1516,14 +1516,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -1533,11 +1533,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       },
       {
         "key": "C",
@@ -1548,7 +1548,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1558,22 +1558,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1587,7 +1587,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1595,7 +1595,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -1608,22 +1608,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
@@ -1633,7 +1633,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+        "text": "Abolition of all schools in the Philippines."
       },
       {
         "key": "B",
@@ -1641,14 +1641,14 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
@@ -1658,22 +1658,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1683,22 +1683,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "D",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1737,15 +1737,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
     "correctAnswer": "A",
@@ -1762,7 +1762,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
@@ -1770,7 +1770,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Complete submission to friar rule."
       }
     ],
     "correctAnswer": "A",
@@ -1783,22 +1783,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "D",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
@@ -1808,22 +1808,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
-      },
-      {
-        "key": "B",
         "text": "Complete submission to friar rule."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "C",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
       },
       {
         "key": "D",
         "text": "Blind obedience without questioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
@@ -1837,15 +1837,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete submission to friar rule."
+        "text": "Blind obedience without questioning."
       },
       {
         "key": "C",
-        "text": "Abolition of all schools in the Philippines."
+        "text": "Complete submission to friar rule."
       },
       {
         "key": "D",
-        "text": "Blind obedience without questioning."
+        "text": "Abolition of all schools in the Philippines."
       }
     ],
     "correctAnswer": "A",
@@ -1858,22 +1858,22 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
-      },
-      {
-        "key": "B",
-        "text": "Complete submission to friar rule."
-      },
-      {
-        "key": "C",
         "text": "Abolition of all schools in the Philippines."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blind obedience without questioning."
+      },
+      {
+        "key": "C",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "D",
+        "text": "Complete submission to friar rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   }
 ];

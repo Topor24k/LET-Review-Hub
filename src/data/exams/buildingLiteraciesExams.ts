@@ -8,7 +8,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning and Innovation Skills"
+        "text": "Life and Career Skills"
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Life and Career Skills"
+        "text": "Foundational Literacy Skills"
       },
       {
         "key": "D",
-        "text": "Foundational Literacy Skills"
+        "text": "Learning and Innovation Skills"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "P21 categorizes skills into 3 core domains: 1. Learning and Innovation Skills (the 4Cs: Critical Thinking, Creativity, Collaboration, Communication), 2. Information, Media, and Technology Skills, and 3. Life and Career Skills."
   },
   {
@@ -33,22 +33,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Life and Career Skills"
+        "text": "Core Academic Subjects"
       },
       {
         "key": "B",
-        "text": "Learning and Innovation Skills"
+        "text": "Life and Career Skills"
       },
       {
         "key": "C",
-        "text": "Core Academic Subjects"
+        "text": "Learning and Innovation Skills"
       },
       {
         "key": "D",
         "text": "Media Literacy"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Life and Career Skills encompass personal agency, flexibility, cross-cultural competence, ethical leadership, productivity, and self-direction in navigating complex work and social environments."
   },
   {
@@ -58,22 +58,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Able to flexibly adapt curriculum software, teaching styles, and learning environments to dynamic student demographics and evolving societal demands."
-      },
-      {
-        "key": "B",
         "text": "Sticking rigidly to lesson notes prepared 20 years ago."
       },
       {
+        "key": "B",
+        "text": "Adapting only when threatened with salary deduction."
+      },
+      {
         "key": "C",
-        "text": "Refusing to use computers in class."
+        "text": "Able to flexibly adapt curriculum software, teaching styles, and learning environments to dynamic student demographics and evolving societal demands."
       },
       {
         "key": "D",
-        "text": "Adapting only when threatened with salary deduction."
+        "text": "Refusing to use computers in class."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "An Adaptor embraces new technologies, responds proactively to diverse learning styles, and adjusts pedagogical strategies to dynamic classroom contexts."
   },
   {
@@ -87,7 +87,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The ability to type 100 words per minute."
+        "text": "Memorizing keyboard shortcuts."
       },
       {
         "key": "C",
@@ -95,7 +95,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Memorizing keyboard shortcuts."
+        "text": "The ability to type 100 words per minute."
       }
     ],
     "correctAnswer": "A",
@@ -108,7 +108,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Critical Understanding and Evaluation of Media Content"
+        "text": "Physical Printing"
       },
       {
         "key": "B",
@@ -116,14 +116,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical Printing"
+        "text": "Passive Consumption"
       },
       {
         "key": "D",
-        "text": "Passive Consumption"
+        "text": "Critical Understanding and Evaluation of Media Content"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Critical evaluation in MIL trains citizens to deconstruct media representations, identify misinformation/propaganda, and analyze power dynamics behind media production."
   },
   {
@@ -158,22 +158,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Man-in-the-Middle (MitM) Attack"
-      },
-      {
-        "key": "B",
-        "text": "Brute Force Attack"
-      },
-      {
-        "key": "C",
         "text": "Zero-Day Exploit"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Man-in-the-Middle (MitM) Attack"
+      },
+      {
+        "key": "C",
         "text": "Trojan Horse"
+      },
+      {
+        "key": "D",
+        "text": "Brute Force Attack"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly eavesdrops, intercepts, or alters communications between two parties who believe they are directly communicating with each other."
   },
   {
@@ -183,11 +183,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Keylogger (Spyware)"
+        "text": "Firewall"
       },
       {
         "key": "B",
-        "text": "Firewall"
+        "text": "Virtual Private Network"
       },
       {
         "key": "C",
@@ -195,10 +195,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Virtual Private Network"
+        "text": "Keylogger (Spyware)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Keylogger is a malicious surveillance tool (spyware) that silently logs keystrokes to steal passwords, credentials, and private messages."
   },
   {
@@ -212,11 +212,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Phishing Scam"
+        "text": "SQL Injection"
       },
       {
         "key": "C",
-        "text": "SQL Injection"
+        "text": "Phishing Scam"
       },
       {
         "key": "D",
@@ -233,7 +233,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deepfakes"
+        "text": "Podcasts"
       },
       {
         "key": "B",
@@ -241,14 +241,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "GIFs"
+        "text": "Deepfakes"
       },
       {
         "key": "D",
-        "text": "Podcasts"
+        "text": "GIFs"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Deepfakes use Generative Adversarial Networks (GANs) and deep learning to manipulate or generate realistic audio-visual content for deceptive impersonation."
   },
   {
@@ -258,11 +258,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interpret, analyze, evaluate, and create meaning from information presented in visual forms (infographics, diagrams, photographs, symbols)."
+        "text": "Draw realistic portraits with charcoal exclusively."
       },
       {
         "key": "B",
-        "text": "Only read black-and-white text."
+        "text": "Interpret, analyze, evaluate, and create meaning from information presented in visual forms (infographics, diagrams, photographs, symbols)."
       },
       {
         "key": "C",
@@ -270,10 +270,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Draw realistic portraits with charcoal exclusively."
+        "text": "Only read black-and-white text."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Visual literacy involves critically decoding visual representations (semiotics, graphic layout, iconography) and encoding original visual artifacts to communicate complex messages."
   },
   {
@@ -283,22 +283,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Empathize -> Define -> Ideate -> Prototype -> Test"
-      },
-      {
-        "key": "B",
         "text": "Plan -> Write -> Grade -> Repeat -> Exit"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Look -> Think -> Draw -> Paint -> Sell"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Lecture -> Homework -> Quiz -> Exam -> Graduate"
+      },
+      {
+        "key": "D",
+        "text": "Empathize -> Define -> Ideate -> Prototype -> Test"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Design Thinking comprises: 1. Empathize (understand user needs), 2. Define (frame problem), 3. Ideate (brainstorm creative solutions), 4. Prototype (build tangible mockups), and 5. Test (user feedback)."
   },
   {
@@ -308,11 +308,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fluency, Flexibility, Originality, and Elaboration"
+        "text": "Speed, Accuracy, Memorization, and Neatness"
       },
       {
         "key": "B",
-        "text": "Speed, Accuracy, Memorization, and Neatness"
+        "text": "Fluency, Flexibility, Originality, and Elaboration"
       },
       {
         "key": "C",
@@ -323,7 +323,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Reading, Writing, Listening, and Speaking"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Guilford's 4 dimensions of divergent creative production are: Fluency (number of ideas), Flexibility (variety of categories), Originality (novelty), and Elaboration (adding rich detail)."
   },
   {
@@ -337,15 +337,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "1 week of allowance"
+        "text": "Zero pesos"
       },
       {
         "key": "C",
-        "text": "50 years of total salary"
+        "text": "1 week of allowance"
       },
       {
         "key": "D",
-        "text": "Zero pesos"
+        "text": "50 years of total salary"
       }
     ],
     "correctAnswer": "A",
@@ -362,7 +362,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "50% Savings, 30% Wants, 20% Needs"
+        "text": "100% Discretionary shopping"
       },
       {
         "key": "C",
@@ -370,7 +370,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "100% Discretionary shopping"
+        "text": "50% Savings, 30% Wants, 20% Needs"
       }
     ],
     "correctAnswer": "A",
@@ -383,22 +383,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Term Life Insurance"
-      },
-      {
-        "key": "B",
-        "text": "Whole Life Insurance"
-      },
-      {
-        "key": "C",
         "text": "Endowment Policy"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Variable Universal Life (VUL)"
+      },
+      {
+        "key": "C",
+        "text": "Whole Life Insurance"
+      },
+      {
+        "key": "D",
+        "text": "Term Life Insurance"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Term Insurance offers affordable pure protection for a set duration. If the insured survives the term, no payout or cash value is returned."
   },
   {
@@ -408,22 +408,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Whole Life provides permanent lifetime coverage (up to age 100) with guaranteed level premiums and builds guaranteed cash surrender value over time."
-      },
-      {
-        "key": "B",
         "text": "Whole Life expires after 5 years."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Whole Life does not pay any death benefit."
+      },
+      {
+        "key": "C",
+        "text": "Whole Life provides permanent lifetime coverage (up to age 100) with guaranteed level premiums and builds guaranteed cash surrender value over time."
       },
       {
         "key": "D",
         "text": "Whole Life is only for children under 5 years old."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Whole Life Insurance covers the insured for their entire lifespan, with fixed premiums and guaranteed accumulating cash values."
   },
   {
@@ -433,22 +433,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pay out the full face amount either upon the death of the insured within the term OR as a living cash lump sum upon reaching the maturity date (e.g. college fund)."
-      },
-      {
-        "key": "B",
         "text": "Insure only corporate office buildings against fire."
       },
       {
+        "key": "B",
+        "text": "Pay out the full face amount either upon the death of the insured within the term OR as a living cash lump sum upon reaching the maturity date (e.g. college fund)."
+      },
+      {
         "key": "C",
-        "text": "Provide medical health insurance without death coverage."
+        "text": "Cover car repair accidents."
       },
       {
         "key": "D",
-        "text": "Cover car repair accidents."
+        "text": "Provide medical health insurance without death coverage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Endowment policies combine life insurance with forced savings: if you die, beneficiaries receive the benefit; if you survive to maturity, you receive the full endowment lump sum."
   },
   {
@@ -458,22 +458,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A hybrid policy combining life insurance protection with an investment component where cash values are invested in stocks, bonds, or mutual funds and fluctuate with market performance."
-      },
-      {
-        "key": "B",
-        "text": "A health insurance policy for government employees only."
-      },
-      {
-        "key": "C",
         "text": "A mandatory road tax."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A savings account with zero interest."
+      },
+      {
+        "key": "C",
+        "text": "A hybrid policy combining life insurance protection with an investment component where cash values are invested in stocks, bonds, or mutual funds and fluctuate with market performance."
+      },
+      {
+        "key": "D",
+        "text": "A health insurance policy for government employees only."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "VUL policies allocate part of premiums to life insurance protection and the remainder to market-linked investment funds, offering variable returns without guaranteed cash values."
   },
   {
@@ -483,7 +483,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Money grows exponentially over time because interest is earned not only on the initial principal but also on accumulated prior interest."
+        "text": "Borrowing credit card debt at 36% annual interest makes you wealthy."
       },
       {
         "key": "B",
@@ -495,10 +495,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Borrowing credit card debt at 36% annual interest makes you wealthy."
+        "text": "Money grows exponentially over time because interest is earned not only on the initial principal but also on accumulated prior interest."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Compound interest is 'interest on interest', leading to exponential wealth accumulation over long time horizons (the '8th wonder of the world')."
   },
   {
@@ -508,22 +508,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "9 years ((72 div 8 = 9))"
+        "text": "8 years"
       },
       {
         "key": "B",
-        "text": "72 years"
+        "text": "9 years ((72 div 8 = 9))"
       },
       {
         "key": "C",
-        "text": "8 years"
+        "text": "72 years"
       },
       {
         "key": "D",
         "text": "15 years"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Rule of 72 estimates doubling time: divide 72 by the annual interest rate ((72 div 8 = 9) years)."
   },
   {
@@ -533,22 +533,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Anything that puts positive cash flow into your pocket."
-      },
-      {
-        "key": "B",
         "text": "Anything that takes money out of your pocket (expenses/maintenance)."
       },
       {
+        "key": "B",
+        "text": "Anything that puts positive cash flow into your pocket."
+      },
+      {
         "key": "C",
-        "text": "Any luxury item bought on credit card installment."
+        "text": "The clothes in your closet."
       },
       {
         "key": "D",
-        "text": "The clothes in your closet."
+        "text": "Any luxury item bought on credit card installment."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kiyosaki simply defines Assets as things that generate positive cash flow (stocks, rental properties, businesses), while Liabilities take money out of your pocket."
   },
   {
@@ -558,22 +558,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A low-interest loan used to purchase a cash-flowing real estate property or fund graduate professional education that increases earning capacity."
-      },
-      {
-        "key": "B",
-        "text": "Borrowing from a 5-6 loan shark at 20% monthly interest to buy a designer handbag."
-      },
-      {
-        "key": "C",
         "text": "Maxing out credit cards on party drinks."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Taking a salary advance to gamble at a casino."
+      },
+      {
+        "key": "C",
+        "text": "Borrowing from a 5-6 loan shark at 20% monthly interest to buy a designer handbag."
+      },
+      {
+        "key": "D",
+        "text": "A low-interest loan used to purchase a cash-flowing real estate property or fund graduate professional education that increases earning capacity."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Good debt finances assets, education, or ventures that increase net worth or income potential at low borrowing costs, while bad debt finances depreciating consumer goods."
   },
   {
@@ -583,7 +583,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Understand the basic principles of ecology and live accordingly, recognizing that all human systems are embedded in living ecological networks."
+        "text": "Live in a forest without electricity."
       },
       {
         "key": "B",
@@ -591,14 +591,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Live in a forest without electricity."
+        "text": "Understand the basic principles of ecology and live accordingly, recognizing that all human systems are embedded in living ecological networks."
       },
       {
         "key": "D",
         "text": "Abolish all manufacturing factories."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Eco-literacy is the capacity to understand the natural cycles, interdependence, biodiversity, and energy flows of ecosystems and embody sustainable living."
   },
   {
@@ -612,15 +612,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The physical shoe size of an athlete."
+        "text": "The number of trees in a school yard."
       },
       {
         "key": "C",
-        "text": "The length of nature trails in a park."
+        "text": "The physical shoe size of an athlete."
       },
       {
         "key": "D",
-        "text": "The number of trees in a school yard."
+        "text": "The length of nature trails in a park."
       }
     ],
     "correctAnswer": "A",
@@ -633,22 +633,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sustainable campus infrastructure (solar power, rainwater harvesting, zero-waste segregation), green curriculum integration, and community environmental outreach."
+        "text": "Planting artificial plastic flowers."
       },
       {
         "key": "B",
-        "text": "Painting all school walls green color."
-      },
-      {
-        "key": "C",
         "text": "Banning science textbooks."
       },
       {
+        "key": "C",
+        "text": "Sustainable campus infrastructure (solar power, rainwater harvesting, zero-waste segregation), green curriculum integration, and community environmental outreach."
+      },
+      {
         "key": "D",
-        "text": "Planting artificial plastic flowers."
+        "text": "Painting all school walls green color."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Green Schools embody a whole-school approach: eco-friendly physical operations, environmental curriculum integration, resource conservation, and community partnerships."
   },
   {
@@ -658,11 +658,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Source Reduction & Reuse -> Recycling & Composting -> Waste Treatment -> Safe Disposal (Sanitary Landfill)"
+        "text": "Open Burning (Siga) -> Ocean Dumping -> Recycling"
       },
       {
         "key": "B",
-        "text": "Open Burning (Siga) -> Ocean Dumping -> Recycling"
+        "text": "Throwing trash in canals -> Burning -> Segregation"
       },
       {
         "key": "C",
@@ -670,10 +670,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Throwing trash in canals -> Burning -> Segregation"
+        "text": "Source Reduction & Reuse -> Recycling & Composting -> Waste Treatment -> Safe Disposal (Sanitary Landfill)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "RA 9003 establishes a waste hierarchy prioritizing waste avoidance/reduction at source, followed by reuse, recycling, composting, and sanitary landfill disposal."
   },
   {
@@ -687,11 +687,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Clean Air Act"
+        "text": "Clean Water Act"
       },
       {
         "key": "C",
-        "text": "Clean Water Act"
+        "text": "Clean Air Act"
       },
       {
         "key": "D",
@@ -716,11 +716,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "SDG 13 (Climate Action)"
+        "text": "SDG 5 (Gender Equality)"
       },
       {
         "key": "D",
-        "text": "SDG 5 (Gender Equality)"
+        "text": "SDG 13 (Climate Action)"
       }
     ],
     "correctAnswer": "A",
@@ -737,15 +737,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Get the highest number of likes on Facebook."
-      },
-      {
-        "key": "C",
         "text": "Isolate oneself from society completely."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Dominate and intimidate conversational partners."
+      },
+      {
+        "key": "D",
+        "text": "Get the highest number of likes on Facebook."
       }
     ],
     "correctAnswer": "A",
@@ -758,22 +758,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Spatial Navigation Intelligence"
-      },
-      {
-        "key": "B",
         "text": "Self-Awareness"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Self-Regulation"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Empathy and Social Skills"
+      },
+      {
+        "key": "D",
+        "text": "Spatial Navigation Intelligence"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Goleman's 5 EQ components are: 1. Self-Awareness, 2. Self-Regulation, 3. Internal Motivation, 4. Empathy, and 5. Social Skills."
   },
   {
@@ -783,22 +783,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The ability to understand, feel, and accurately sense the emotions and perspectives of other people."
+        "text": "Agreeing with everything another person says."
       },
       {
         "key": "B",
-        "text": "Feeling sorry for someone and giving them money."
+        "text": "The ability to understand, feel, and accurately sense the emotions and perspectives of other people."
       },
       {
         "key": "C",
-        "text": "Agreeing with everything another person says."
+        "text": "Feeling sorry for someone and giving them money."
       },
       {
         "key": "D",
         "text": "Suppressing all personal emotions."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Empathy is the capacity to recognize, share, and understand another person's feelings and perspective, serving as the bedrock of interpersonal relationships."
   },
   {
@@ -808,7 +808,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fostering awareness, respect, and appreciation for ethnic, cultural, religious, and linguistic diversity while dismantling stereotypes and prejudices."
+        "text": "Banning regional languages from being spoken."
       },
       {
         "key": "B",
@@ -816,14 +816,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Teaching that one's own culture is superior to all others."
+        "text": "Fostering awareness, respect, and appreciation for ethnic, cultural, religious, and linguistic diversity while dismantling stereotypes and prejudices."
       },
       {
         "key": "D",
-        "text": "Banning regional languages from being spoken."
+        "text": "Teaching that one's own culture is superior to all others."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Multicultural literacy develops cultural sensitivity, cross-cultural appreciation, equity, and eliminates ethnocentrism in diverse classrooms."
   },
   {
@@ -837,7 +837,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Speak only one language."
+        "text": "Refuse to interact with foreigners."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Refuse to interact with foreigners."
+        "text": "Speak only one language."
       }
     ],
     "correctAnswer": "A",
@@ -858,22 +858,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filter Bubbles / Echo Chambers"
+        "text": "Democratic Assemblies"
       },
       {
         "key": "B",
-        "text": "Open Forums"
-      },
-      {
-        "key": "C",
         "text": "Peer-reviewed Journals"
       },
       {
+        "key": "C",
+        "text": "Open Forums"
+      },
+      {
         "key": "D",
-        "text": "Democratic Assemblies"
+        "text": "Filter Bubbles / Echo Chambers"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Filter bubbles (Eli Pariser) and echo chambers isolate users in intellectual silos where algorithms reinforce pre-existing beliefs and suppress counter-perspectives."
   },
   {
@@ -883,11 +883,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Clickbait"
+        "text": "Investigative Journalism"
       },
       {
         "key": "B",
-        "text": "Investigative Journalism"
+        "text": "Clickbait"
       },
       {
         "key": "C",
@@ -898,7 +898,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Academic Abstract"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clickbait uses exaggerated, sensationalized text to bait readers into clicking hyperlinks to drive ad impressions regardless of factual accuracy."
   },
   {
@@ -908,22 +908,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Disinformation is intentionally created with malicious intent to deceive or harm; Misinformation is false information shared without harmful intent (e.g. honest mistake)."
+        "text": "There is no difference."
       },
       {
         "key": "B",
-        "text": "Disinformation is always true."
+        "text": "Disinformation is intentionally created with malicious intent to deceive or harm; Misinformation is false information shared without harmful intent (e.g. honest mistake)."
       },
       {
         "key": "C",
-        "text": "Misinformation is a criminal felony while disinformation is a misdemeanor."
+        "text": "Disinformation is always true."
       },
       {
         "key": "D",
-        "text": "There is no difference."
+        "text": "Misinformation is a criminal felony while disinformation is a misdemeanor."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Misinformation is false information distributed mistakenly; Disinformation is deliberately crafted and weaponized falsehood created with malicious intent to deceive."
   },
   {
@@ -933,22 +933,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Information that is based on genuine reality/facts, but is maliciously weaponized, leaked, or distorted out of context to inflict personal or institutional harm."
-      },
-      {
-        "key": "B",
-        "text": "Fictional comic books."
-      },
-      {
-        "key": "C",
         "text": "Weather forecasts."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Scientific formulas."
+      },
+      {
+        "key": "C",
+        "text": "Information that is based on genuine reality/facts, but is maliciously weaponized, leaked, or distorted out of context to inflict personal or institutional harm."
+      },
+      {
+        "key": "D",
+        "text": "Fictional comic books."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Malinformation takes true, private, or real information and weaponizes it out of context (e.g. private hacked emails or revenge pornography) to deliberately harm someone."
   },
   {
@@ -958,22 +958,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A sustained general increase in price levels of goods and services, meaning a fixed amount of currency buys fewer goods over time."
+        "text": "An increase in gold mining."
       },
       {
         "key": "B",
-        "text": "When bank accounts automatically double in cash value."
-      },
-      {
-        "key": "C",
         "text": "A temporary discount at shopping malls."
       },
       {
+        "key": "C",
+        "text": "When bank accounts automatically double in cash value."
+      },
+      {
         "key": "D",
-        "text": "An increase in gold mining."
+        "text": "A sustained general increase in price levels of goods and services, meaning a fixed amount of currency buys fewer goods over time."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Inflation reduces real purchasing power over time. Financial literacy teaches individuals to invest in assets whose returns outpace the inflation rate."
   },
   {
@@ -983,7 +983,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Diversification (spreading capital across diverse asset classes such as stocks, bonds, real estate, and cash)"
+        "text": "Day trading on margin"
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Pyramid schemes"
+        "text": "Diversification (spreading capital across diverse asset classes such as stocks, bonds, real estate, and cash)"
       },
       {
         "key": "D",
-        "text": "Day trading on margin"
+        "text": "Pyramid schemes"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Diversification lowers investment portfolio risk by spreading capital across multiple uncorrelated asset categories."
   },
   {
@@ -1008,11 +1008,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ponzi / Pyramid Scheme"
+        "text": "Time Deposit"
       },
       {
         "key": "B",
-        "text": "Mutual Fund"
+        "text": "Ponzi / Pyramid Scheme"
       },
       {
         "key": "C",
@@ -1020,10 +1020,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Time Deposit"
+        "text": "Mutual Fund"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Ponzi and pyramid schemes collapse inevitably because they generate no legitimate underlying economic value, relying solely on cash inflows from continuous new recruits."
   },
   {
@@ -1033,22 +1033,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reduce, Reuse, Repair, Remanufacture, and Recycle (closed-loop zero waste)"
-      },
-      {
-        "key": "B",
         "text": "Extract, Burn, and Dump"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Produce, Consume, and Bury"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Import, Package, and Litter"
+      },
+      {
+        "key": "D",
+        "text": "Reduce, Reuse, Repair, Remanufacture, and Recycle (closed-loop zero waste)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Circular Economy designs out waste and pollution by keeping products and materials in high-value regenerative use indefinitely through closed loops."
   },
   {
@@ -1087,15 +1087,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Checking smartphone notifications while someone is speaking."
+        "text": "Pretending to listen while thinking about lunch."
       },
       {
         "key": "C",
-        "text": "Interrupting immediately to argue one's own viewpoint."
+        "text": "Checking smartphone notifications while someone is speaking."
       },
       {
         "key": "D",
-        "text": "Pretending to listen while thinking about lunch."
+        "text": "Interrupting immediately to argue one's own viewpoint."
       }
     ],
     "correctAnswer": "A",
@@ -1108,22 +1108,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Can be developed and expanded through effort, effective strategies, perseverance, and constructive feedback."
+        "text": "Are determined by the student's horoscope."
       },
       {
         "key": "B",
-        "text": "Are completely fixed at birth and cannot be improved."
-      },
-      {
-        "key": "C",
         "text": "Depend solely on genetic inheritance."
       },
       {
+        "key": "C",
+        "text": "Can be developed and expanded through effort, effective strategies, perseverance, and constructive feedback."
+      },
+      {
         "key": "D",
-        "text": "Are determined by the student's horoscope."
+        "text": "Are completely fixed at birth and cannot be improved."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Carol Dweck's Growth Mindset asserts that cognitive capabilities are malleable and grow like muscles through deliberate practice, resilience, and learning from mistakes."
   },
   {
@@ -1133,22 +1133,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Money earned today can be invested to earn interest and returns, whereas future money is subjected to the erosive power of inflation."
-      },
-      {
-        "key": "B",
-        "text": "Paper currency disintegrates in 24 hours."
-      },
-      {
-        "key": "C",
         "text": "Banks refuse to accept old coins."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Governments cancel currencies every month."
+      },
+      {
+        "key": "C",
+        "text": "Paper currency disintegrates in 24 hours."
+      },
+      {
+        "key": "D",
+        "text": "Money earned today can be invested to earn interest and returns, whereas future money is subjected to the erosive power of inflation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Time Value of Money (TVM) recognizes that present money has earning potential (opportunity cost of interest) and preserves purchasing power against future inflation."
   },
   {
@@ -1158,22 +1158,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Obtain, process, and understand basic health information to make informed decisions regarding nutrition, physical fitness, mental wellness, and preventive healthcare."
-      },
-      {
-        "key": "B",
         "text": "Self-medicate with unverified online pills."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Rely solely on folk superstition for medical diagnoses."
+      },
+      {
+        "key": "C",
+        "text": "Obtain, process, and understand basic health information to make informed decisions regarding nutrition, physical fitness, mental wellness, and preventive healthcare."
       },
       {
         "key": "D",
         "text": "Never visit a hospital."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Health literacy encompasses critical navigation of healthcare information, adopting nutritious lifestyles, recognizing mental health symptoms, and making sound health choices."
   },
   {
@@ -1191,11 +1191,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Writing passwords on a sticky note attached to the computer monitor."
+        "text": "Sharing your password with all your students."
       },
       {
         "key": "D",
-        "text": "Sharing your password with all your students."
+        "text": "Writing passwords on a sticky note attached to the computer monitor."
       }
     ],
     "correctAnswer": "A",
@@ -1208,22 +1208,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Understand government structures, exercise voting rights responsibly, participate in community civic dialogues, and hold public officials accountable."
-      },
-      {
-        "key": "B",
-        "text": "Sell their election votes for cash."
-      },
-      {
-        "key": "C",
         "text": "Ignore community problems completely."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Blindly obey political propaganda without critical inquiry."
+      },
+      {
+        "key": "C",
+        "text": "Understand government structures, exercise voting rights responsibly, participate in community civic dialogues, and hold public officials accountable."
+      },
+      {
+        "key": "D",
+        "text": "Sell their election votes for cash."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Civic literacy fosters informed, ethical citizenship, active participation in governance, advocacy for human rights, and critical civic duty."
   },
   {
@@ -1233,11 +1233,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Plagiarism (Intellectual Dishonesty)"
+        "text": "Creative Paraphrasing"
       },
       {
         "key": "B",
-        "text": "Creative Paraphrasing"
+        "text": "Fair Use Compliance"
       },
       {
         "key": "C",
@@ -1245,10 +1245,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Fair Use Compliance"
+        "text": "Plagiarism (Intellectual Dishonesty)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Plagiarism is the appropriation and unauthorized claiming of another person's words, ideas, or intellectual products as one's own without appropriate attribution."
   },
   {
@@ -1258,22 +1258,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Xenocentrism"
+        "text": "Cultural Relativism"
       },
       {
         "key": "B",
-        "text": "Ethnocentrism"
+        "text": "Xenocentrism"
       },
       {
         "key": "C",
-        "text": "Cultural Relativism"
+        "text": "Ethnocentrism"
       },
       {
         "key": "D",
         "text": "Cultural Nationalism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Xenocentrism is the belief that other cultures and foreign products are superior to one's own (colonial mentality), whereas Ethnocentrism judges other cultures as inferior to one's own."
   },
   {
@@ -1283,22 +1283,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A culture's beliefs, values, and practices should be understood based on that culture's own context and standards rather than judged through the lens of an external culture."
-      },
-      {
-        "key": "B",
         "text": "All cultures must be eradicated."
       },
       {
+        "key": "B",
+        "text": "Cultures never change over time."
+      },
+      {
         "key": "C",
-        "text": "One culture has the right to conquer all others."
+        "text": "A culture's beliefs, values, and practices should be understood based on that culture's own context and standards rather than judged through the lens of an external culture."
       },
       {
         "key": "D",
-        "text": "Cultures never change over time."
+        "text": "One culture has the right to conquer all others."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Cultural Relativism promotes objective cultural understanding without ethnocentric prejudice, respecting diverse cultural traditions within their own historical contexts."
   },
   {
@@ -1312,15 +1312,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The depth of a swimming pool."
-      },
-      {
-        "key": "C",
         "text": "The sound of rain falling on a roof."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The number of water bottles owned."
+      },
+      {
+        "key": "D",
+        "text": "The depth of a swimming pool."
       }
     ],
     "correctAnswer": "A",
@@ -1333,7 +1333,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Total Assets minus Total Liabilities ((\\text{Net Worth} = \\text{Assets} - \\text{Liabilities}))"
+        "text": "Total Credit Card Limit"
       },
       {
         "key": "B",
@@ -1341,14 +1341,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total Credit Card Limit"
+        "text": "Bank loan balance plus car price"
       },
       {
         "key": "D",
-        "text": "Bank loan balance plus car price"
+        "text": "Total Assets minus Total Liabilities ((\\text{Net Worth} = \\text{Assets} - \\text{Liabilities}))"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Net worth is the fundamental snapshot of financial health: the total value of everything you own (assets) minus what you owe to creditors (liabilities)."
   },
   {
@@ -1358,11 +1358,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Critically interrogate systemic injustices, recognize oppressive power structures, and take transformative action for human liberation."
+        "text": "Memorize grammar rules without questioning text meaning."
       },
       {
         "key": "B",
-        "text": "Memorize grammar rules without questioning text meaning."
+        "text": "Critically interrogate systemic injustices, recognize oppressive power structures, and take transformative action for human liberation."
       },
       {
         "key": "C",
@@ -1373,7 +1373,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Score high on spelling bees."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Critical literacy goes beyond basic decoding to examine whose voices are privileged or silenced in texts, empowering learners to act as agents of justice (*praxis*)."
   },
   {
@@ -1383,22 +1383,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Combine (blend two ideas or products together)"
+        "text": "Cancel"
       },
       {
         "key": "B",
-        "text": "Copy"
-      },
-      {
-        "key": "C",
         "text": "Calculate"
       },
       {
+        "key": "C",
+        "text": "Combine (blend two ideas or products together)"
+      },
+      {
         "key": "D",
-        "text": "Cancel"
+        "text": "Copy"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "SCAMPER is an idea-generation mnemonic: Substitute, Combine, Adapt, Modify/Magnify, Put to another use, Eliminate, and Reverse/Rearrange."
   },
   {
@@ -1408,7 +1408,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Confirmation Bias"
+        "text": "Scientific Skepticism"
       },
       {
         "key": "B",
@@ -1420,10 +1420,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Scientific Skepticism"
+        "text": "Confirmation Bias"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Confirmation bias leads people to embrace information supporting their preconceived notions while dismissing rigorous facts that contradict them."
   },
   {
@@ -1437,11 +1437,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Coal"
+        "text": "Petroleum Crude Oil"
       },
       {
         "key": "C",
-        "text": "Petroleum Crude Oil"
+        "text": "Coal"
       },
       {
         "key": "D",
@@ -1466,11 +1466,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Stocks are only sold by the government."
+        "text": "Bonds are printed on silver paper."
       },
       {
         "key": "D",
-        "text": "Bonds are printed on silver paper."
+        "text": "Stocks are only sold by the government."
       }
     ],
     "correctAnswer": "A",
@@ -1483,22 +1483,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Professional fund management and automatic diversification across hundreds of securities with modest starting capital."
-      },
-      {
-        "key": "B",
-        "text": "Guaranteed 100% profit within 24 hours."
-      },
-      {
-        "key": "C",
         "text": "Exemption from paying any electricity bills."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Professional fund management and automatic diversification across hundreds of securities with modest starting capital."
+      },
+      {
+        "key": "C",
         "text": "Free airline tickets."
+      },
+      {
+        "key": "D",
+        "text": "Guaranteed 100% profit within 24 hours."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Mutual funds pool money from many investors to buy a professionally managed, diversified portfolio of stocks and bonds, mitigating risk for retail investors."
   },
   {
@@ -1508,22 +1508,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bullying involves an intentional, repetitive imbalance of physical or psychological power designed to harm and intimidate the victim."
-      },
-      {
-        "key": "B",
         "text": "Teasing only occurs during recess."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Bullying involves equal friendship and mutual laughter."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "There is no difference."
+      },
+      {
+        "key": "D",
+        "text": "Bullying involves an intentional, repetitive imbalance of physical or psychological power designed to harm and intimidate the victim."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Bullying is defined by three criteria: 1. Intentional harm, 2. Power imbalance (physical, social, or emotional), and 3. Repetition over time."
   },
   {
@@ -1558,7 +1558,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Use the cultural knowledge, prior experiences, and performance styles of diverse students to make learning encounters more relevant and effective."
+        "text": "Segregate classrooms by tribe."
       },
       {
         "key": "B",
@@ -1566,14 +1566,14 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Teach only in a foreign language."
+        "text": "Use the cultural knowledge, prior experiences, and performance styles of diverse students to make learning encounters more relevant and effective."
       },
       {
         "key": "D",
-        "text": "Segregate classrooms by tribe."
+        "text": "Teach only in a foreign language."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Culturally Responsive Teaching connects curriculum content to students' cultural frames of reference, validating their cultural identity to boost achievement."
   },
   {
@@ -1587,7 +1587,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Because the UN pays students a cash allowance."
+        "text": "Because math cannot be taught without politics."
       },
       {
         "key": "C",
@@ -1595,7 +1595,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because math cannot be taught without politics."
+        "text": "Because the UN pays students a cash allowance."
       }
     ],
     "correctAnswer": "A",
@@ -1608,22 +1608,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Engaging students in organic vegetable gardening on school grounds to supplement feeding programs and teach hands-on agricultural sustainability."
-      },
-      {
-        "key": "B",
-        "text": "Buying fast food burgers for students."
-      },
-      {
-        "key": "C",
         "text": "Selling school land to commercial developers."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Replacing science classes with cooking shows."
+      },
+      {
+        "key": "C",
+        "text": "Buying fast food burgers for students."
+      },
+      {
+        "key": "D",
+        "text": "Engaging students in organic vegetable gardening on school grounds to supplement feeding programs and teach hands-on agricultural sustainability."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Gulayan sa Paaralan provides hands-on agro-ecological literacy, addresses malnutrition via school-grown organic crops, and builds environmental responsibility."
   },
   {
@@ -1633,11 +1633,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High compound interest charges continue to accumulate on the remaining principal balance, trapping the borrower in decades of debt."
+        "text": "The bank will confiscate your house immediately."
       },
       {
         "key": "B",
-        "text": "The bank will confiscate your house immediately."
+        "text": "High compound interest charges continue to accumulate on the remaining principal balance, trapping the borrower in decades of debt."
       },
       {
         "key": "C",
@@ -1648,7 +1648,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Credit cards automatically cancel after one month."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Paying only the minimum leaves the vast majority of debt subject to hefty compounding interest rates (often 36%+ annually), prolonging debt repayment indefinitely."
   },
   {
@@ -1662,15 +1662,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Reading a single webpage from top to bottom without leaving the page."
+        "text": "Looking only at the font size of the title."
       },
       {
         "key": "C",
-        "text": "Reading text sideways with the monitor tilted."
+        "text": "Reading a single webpage from top to bottom without leaving the page."
       },
       {
         "key": "D",
-        "text": "Looking only at the font size of the title."
+        "text": "Reading text sideways with the monitor tilted."
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Signs, symbols, and visual codes, and how they construct meaning and convey cultural messages."
-      },
-      {
-        "key": "B",
-        "text": "The physical weight of paper."
-      },
-      {
-        "key": "C",
         "text": "The speed of light in lenses."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "The cost of digital cameras."
+      },
+      {
+        "key": "C",
+        "text": "Signs, symbols, and visual codes, and how they construct meaning and convey cultural messages."
+      },
+      {
+        "key": "D",
+        "text": "The physical weight of paper."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Semiotics (Ferdinand de Saussure, Charles Sanders Peirce) explores how signifiers (visual symbols, gestures, colors) produce signified meanings within cultural frameworks."
   },
   {
@@ -1708,7 +1708,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Save ₱5,000 every month from my salary into a high-yield savings account for 12 months to accumulate a ₱60,000 emergency fund by December 2027.'"
+        "text": "'Win the lottery next week.'"
       },
       {
         "key": "B",
@@ -1720,10 +1720,10 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Win the lottery next week.'"
+        "text": "'Save ₱5,000 every month from my salary into a high-yield savings account for 12 months to accumulate a ₱60,000 emergency fund by December 2027.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A SMART goal is Specific (save ₱5k/month), Measurable (₱60k), Attainable, Relevant (emergency fund), and Time-bound (by Dec 2027)."
   },
   {
@@ -1733,22 +1733,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Systemic Interdependence: An action in one part of an environmental, social, or economic system triggers ripple effects across the entire biosphere."
-      },
-      {
-        "key": "B",
         "text": "That science subjects should never be taught."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "That human technology can destroy nature without consequences."
+      },
+      {
+        "key": "C",
+        "text": "Systemic Interdependence: An action in one part of an environmental, social, or economic system triggers ripple effects across the entire biosphere."
       },
       {
         "key": "D",
         "text": "That species live in total isolation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Commoner's laws (Everything is connected, goes somewhere, nature knows best, no free lunch) underscore ecological interconnectedness and systemic balance."
   },
   {
@@ -1758,22 +1758,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making"
-      },
-      {
-        "key": "B",
         "text": "Reading, Writing, Arithmetic, Art, and Athletics"
       },
       {
+        "key": "B",
+        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making"
+      },
+      {
         "key": "C",
-        "text": "Testing, Grading, Ranking, Lecturing, and Disciplining"
+        "text": "Grammar, Spelling, Pronunciation, Punctuation, and Penmanship"
       },
       {
         "key": "D",
-        "text": "Grammar, Spelling, Pronunciation, Punctuation, and Penmanship"
+        "text": "Testing, Grading, Ranking, Lecturing, and Disciplining"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "CASEL's framework is structured on 5 competencies: Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making."
   },
   {
@@ -1787,15 +1787,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Providing luxury vacation travel discounts."
-      },
-      {
-        "key": "C",
         "text": "Acting as a high-risk stock trading account."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Paying your monthly electricity bills."
+      },
+      {
+        "key": "D",
+        "text": "Providing luxury vacation travel discounts."
       }
     ],
     "correctAnswer": "A",
@@ -1833,22 +1833,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Divergence opens up a broad pool of creative possibilities without judgment, while Convergence selects and refines the most promising ideas."
+        "text": "To ensure that all projects take at least ten years to complete."
       },
       {
         "key": "B",
-        "text": "Because students get bored doing only one thing."
+        "text": "Divergence opens up a broad pool of creative possibilities without judgment, while Convergence selects and refines the most promising ideas."
       },
       {
         "key": "C",
-        "text": "To confuse the team."
+        "text": "Because students get bored doing only one thing."
       },
       {
         "key": "D",
-        "text": "To ensure that all projects take at least ten years to complete."
+        "text": "To confuse the team."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "CPS balances creative expansion (divergent generation of wild ideas without evaluation) followed by analytical narrowing (convergent evaluation and selection)."
   },
   {
@@ -1858,22 +1858,22 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eco-Literacy, Financial Literacy, Media & Digital Literacy, Visual Literacy, and Civic/Social Literacy"
+        "text": "Ancient Latin Translation only"
       },
       {
         "key": "B",
-        "text": "Rote Spelling only"
-      },
-      {
-        "key": "C",
         "text": "Physical Education only"
       },
       {
+        "key": "C",
+        "text": "Eco-Literacy, Financial Literacy, Media & Digital Literacy, Visual Literacy, and Civic/Social Literacy"
+      },
+      {
         "key": "D",
-        "text": "Ancient Latin Translation only"
+        "text": "Rote Spelling only"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This authentic multidisciplinary capstone seamlessly combines ecological knowledge, financial budgeting, digital media creation, visual design, and civic engagement."
   }
 ];

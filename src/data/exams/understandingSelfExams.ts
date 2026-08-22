@@ -8,7 +8,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Know Thyself' (*Gnothi Seauton*) — continuous self-reflection and rigorous critical inquiry into one's soul, virtues, and moral purpose."
+        "text": "Conquering foreign empires."
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Conquering foreign empires."
+        "text": "'Know Thyself' (*Gnothi Seauton*) — continuous self-reflection and rigorous critical inquiry into one's soul, virtues, and moral purpose."
       },
       {
         "key": "D",
         "text": "Blind obedience to state myths."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Socrates taught that true wisdom begins with self-knowledge (*Know Thyself*) and that an unreflective existence fails to realize the divine rational nature of the soul."
   },
   {
@@ -41,11 +41,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Body, Spirit, and Ghost"
+        "text": "Conscious, Subconscious, and Unconscious"
       },
       {
         "key": "D",
-        "text": "Conscious, Subconscious, and Unconscious"
+        "text": "Body, Spirit, and Ghost"
       }
     ],
     "correctAnswer": "A",
@@ -58,22 +58,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Methodic Radical Doubt (doubting all sensory perceptions until finding the indubitable truth of the conscious thinking self)."
+        "text": "Sociological census polls."
       },
       {
         "key": "B",
-        "text": "Scientific laboratory dissection."
-      },
-      {
-        "key": "C",
         "text": "Astrological horoscope reading."
       },
       {
+        "key": "C",
+        "text": "Methodic Radical Doubt (doubting all sensory perceptions until finding the indubitable truth of the conscious thinking self)."
+      },
+      {
         "key": "D",
-        "text": "Sociological census polls."
+        "text": "Scientific laboratory dissection."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Descartes systematically doubted all sensory inputs, realizing that the very act of doubting proves the undeniable existence of a thinking entity (*Res Cogitans*)."
   },
   {
@@ -83,11 +83,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tabula Rasa (a blank slate / white paper) upon which all knowledge and identity are imprinted through sensory experience and reflection."
+        "text": "Fully programmed supercomputer."
       },
       {
         "key": "B",
-        "text": "Fully programmed supercomputer."
+        "text": "Divine oracle."
       },
       {
         "key": "C",
@@ -95,10 +95,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Divine oracle."
+        "text": "Tabula Rasa (a blank slate / white paper) upon which all knowledge and identity are imprinted through sensory experience and reflection."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Locke's Empiricism holds that the self is formed via sensory experience and that personal identity consists in the continuity of consciousness and autobiographical memory."
   },
   {
@@ -108,22 +108,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Bundle or collection of different fleeting perceptions, sensations, and impressions in a perpetual flux and movement.'"
+        "text": "Perfect mathematical sphere."
       },
       {
         "key": "B",
-        "text": "Permanent immortal soul."
+        "text": "'Bundle or collection of different fleeting perceptions, sensations, and impressions in a perpetual flux and movement.'"
       },
       {
         "key": "C",
-        "text": "Perfect mathematical sphere."
+        "text": "Permanent immortal soul."
       },
       {
         "key": "D",
         "text": "Biological brain clock."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hume's skepticism concluded that the self is an illusion: when we introspect, we experience only fleeting impressions (heat, cold, joy, pain), not an enduring substantive 'Self'."
   },
   {
@@ -141,11 +141,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Biological neuron."
+        "text": "Computer software."
       },
       {
         "key": "D",
-        "text": "Computer software."
+        "text": "Biological neuron."
       }
     ],
     "correctAnswer": "A",
@@ -162,15 +162,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The body is a prison that must be destroyed."
-      },
-      {
-        "key": "C",
         "text": "Humans exist purely as digital signals."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Consciousness has no connection to physical senses."
+      },
+      {
+        "key": "D",
+        "text": "The body is a prison that must be destroyed."
       }
     ],
     "correctAnswer": "A",
@@ -183,22 +183,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The 'Me' is the socialized, conventional self conforming to societal expectations (the Generalized Other); the 'I' is the spontaneous, creative, individual response."
-      },
-      {
-        "key": "B",
         "text": "The 'I' is evil and the 'Me' is holy."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "The 'Me' is physical body and the 'I' is spiritual."
+      },
+      {
+        "key": "C",
+        "text": "The 'Me' is the socialized, conventional self conforming to societal expectations (the Generalized Other); the 'I' is the spontaneous, creative, individual response."
       },
       {
         "key": "D",
         "text": "There is no difference."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Mead's Social Self balances the 'Me' (internalized social expectations/norms) with the active, spontaneous 'I' (individual agency and creative impulse)."
   },
   {
@@ -208,22 +208,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1. Imagining how we appear to others; 2. Imagining their judgment of that appearance; 3. Developing self-feelings (pride or mortification) based on those perceived judgments."
+        "text": "Isolating oneself on a desert island."
       },
       {
         "key": "B",
-        "text": "Looking into physical glass mirrors for 10 hours a day."
+        "text": "1. Imagining how we appear to others; 2. Imagining their judgment of that appearance; 3. Developing self-feelings (pride or mortification) based on those perceived judgments."
       },
       {
         "key": "C",
-        "text": "Taking genetic DNA tests."
+        "text": "Looking into physical glass mirrors for 10 hours a day."
       },
       {
         "key": "D",
-        "text": "Isolating oneself on a desert island."
+        "text": "Taking genetic DNA tests."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Cooley showed that society acts as a mirror: we construct our self-identity through how we imagine significant others perceive and evaluate us."
   },
   {
@@ -233,22 +233,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Real Self (who I actually am) and the Ideal Self (who I aspire and desire to be)."
+        "text": "Physical height and weight."
       },
       {
         "key": "B",
-        "text": "Conscious mind and the dream state."
-      },
-      {
-        "key": "C",
         "text": "Bank balance and debt."
       },
       {
+        "key": "C",
+        "text": "Real Self (who I actually am) and the Ideal Self (who I aspire and desire to be)."
+      },
+      {
         "key": "D",
-        "text": "Physical height and weight."
+        "text": "Conscious mind and the dream state."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rogers established that high congruence (overlap between Real Self and Ideal Self) produces mental well-being and self-actualization, while incongruence causes anxiety and neurosis."
   },
   {
@@ -258,7 +258,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -270,10 +270,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Persona"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -287,11 +287,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
@@ -308,22 +308,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -333,22 +333,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+      },
+      {
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -358,7 +358,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -366,14 +366,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -387,11 +387,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
@@ -408,7 +408,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -416,14 +416,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -433,11 +433,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       },
       {
         "key": "C",
@@ -445,10 +445,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -458,22 +458,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
+        "key": "D",
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -512,15 +512,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
     "correctAnswer": "A",
@@ -533,22 +533,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -558,22 +558,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
+        "key": "D",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -583,22 +583,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Extinction of all thoughts."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -612,7 +612,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "C",
@@ -620,7 +620,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
     "correctAnswer": "A",
@@ -633,7 +633,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -641,14 +641,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Persona"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -683,22 +683,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -708,22 +708,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -733,22 +733,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -758,7 +758,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -766,14 +766,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Persona"
       },
       {
         "key": "D",
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -783,22 +783,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -808,22 +808,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -833,11 +833,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "C",
@@ -845,10 +845,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -862,11 +862,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -891,14 +891,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Persona"
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -908,22 +908,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -933,22 +933,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -958,11 +958,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       },
       {
         "key": "C",
@@ -973,7 +973,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -983,7 +983,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -1008,7 +1008,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -1020,10 +1020,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Persona"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -1033,22 +1033,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1058,22 +1058,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1083,22 +1083,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+      },
+      {
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -1108,7 +1108,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -1116,14 +1116,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -1158,22 +1158,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Extinction of all thoughts."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1183,11 +1183,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       },
       {
         "key": "C",
@@ -1195,10 +1195,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1208,22 +1208,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -1262,15 +1262,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
     "correctAnswer": "A",
@@ -1283,22 +1283,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1308,22 +1308,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
+        "key": "D",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1333,7 +1333,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -1341,14 +1341,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       },
       {
         "key": "D",
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -1366,11 +1366,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
     "correctAnswer": "A",
@@ -1387,15 +1387,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
     "correctAnswer": "A",
@@ -1408,11 +1408,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
       },
       {
         "key": "C",
@@ -1423,7 +1423,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1433,22 +1433,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1458,22 +1458,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -1483,22 +1483,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -1508,7 +1508,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -1516,14 +1516,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Persona"
       },
       {
         "key": "D",
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -1533,22 +1533,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1558,22 +1558,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
+      },
+      {
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1583,7 +1583,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -1595,10 +1595,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Body Esteem and Somatosensory Self-Image, leading to body dissatisfaction or dysmorphia."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Understanding the Physical Self requires recognizing how cultural beauty ideals shape self-worth."
   },
   {
@@ -1612,11 +1612,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Complete loss of human consciousness."
       },
       {
         "key": "D",
@@ -1633,22 +1633,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
+        "key": "B",
+        "text": "Extinction of all thoughts."
+      },
+      {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Persona"
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -1658,22 +1658,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
+      },
+      {
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1683,22 +1683,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1733,7 +1733,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
@@ -1741,14 +1741,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Physical bodily paralysis."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   },
   {
@@ -1758,11 +1758,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Persona"
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
+        "text": "Persona"
       },
       {
         "key": "C",
@@ -1770,10 +1770,10 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Complete loss of human consciousness."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Persona is the social mask adapted to cultural expectations, while the Shadow contains repressed impulses."
   },
   {
@@ -1783,22 +1783,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
-      },
-      {
-        "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Complete loss of human consciousness."
+      },
+      {
+        "key": "D",
+        "text": "Our physical body, clothes, family, home, and personal possessions to which we feel deeply attached."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "James divided the empirical 'Me' into the Material Self, Social Self, and Spiritual Self."
   },
   {
@@ -1808,22 +1808,22 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
-      },
-      {
-        "key": "B",
         "text": "Complete loss of human consciousness."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Physical bodily paralysis."
+      },
+      {
+        "key": "C",
+        "text": "Selective self-presentation and potential discrepancy between the online avatar and offline authentic self."
       },
       {
         "key": "D",
         "text": "Extinction of all thoughts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Digital literacy explores online disinhibition, hyper-personal interaction, and authentic self-concept."
   },
   {
@@ -1837,15 +1837,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Complete loss of human consciousness."
-      },
-      {
-        "key": "C",
         "text": "Physical bodily paralysis."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Extinction of all thoughts."
+      },
+      {
+        "key": "D",
+        "text": "Complete loss of human consciousness."
       }
     ],
     "correctAnswer": "A",
@@ -1858,7 +1858,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
+        "text": "Physical bodily paralysis."
       },
       {
         "key": "B",
@@ -1866,14 +1866,14 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical bodily paralysis."
+        "text": "Extinction of all thoughts."
       },
       {
         "key": "D",
-        "text": "Extinction of all thoughts."
+        "text": "Purposeful work, authentic loving relationships, and facing unavoidable suffering with courage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Logotherapy focuses on discovering personal meaning as the core foundation of the Spiritual Self."
   }
 ];

@@ -8,22 +8,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exclusive Economic Zone (EEZ)"
+        "text": "Contiguous Zone (24 nautical miles)"
       },
       {
         "key": "B",
-        "text": "Territorial Sea (12 nautical miles)"
+        "text": "Exclusive Economic Zone (EEZ)"
       },
       {
         "key": "C",
-        "text": "Contiguous Zone (24 nautical miles)"
+        "text": "Territorial Sea (12 nautical miles)"
       },
       {
         "key": "D",
         "text": "High Seas"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "UNCLOS grants coastal nations sovereign exploitation rights over marine resources in their 200-nautical-mile Exclusive Economic Zone (EEZ)."
   },
   {
@@ -33,22 +33,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Aliping Namamahay owned their own house, could marry freely, and served the Datu by paying tribute; Aliping Saguiguilid lived in the master's house and had no property rights."
-      },
-      {
-        "key": "B",
         "text": "Aliping Saguiguilid were the royalty rulers."
       },
       {
+        "key": "B",
+        "text": "There was no difference."
+      },
+      {
         "key": "C",
-        "text": "Aliping Namamahay were foreign prisoners."
+        "text": "Aliping Namamahay owned their own house, could marry freely, and served the Datu by paying tribute; Aliping Saguiguilid lived in the master's house and had no property rights."
       },
       {
         "key": "D",
-        "text": "There was no difference."
+        "text": "Aliping Namamahay were foreign prisoners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Aliping Namamahay were householders with private property rights who paid tribute/labor; Aliping Saguiguilid were household dependents living inside the master's home."
   },
   {
@@ -62,15 +62,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Bandala (compulsory sale of crops)"
-      },
-      {
-        "key": "C",
         "text": "Tributo"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Encomienda"
+      },
+      {
+        "key": "D",
+        "text": "Bandala (compulsory sale of crops)"
       }
     ],
     "correctAnswer": "A",
@@ -83,7 +83,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Their unjust execution via garrote for alleged complicity in the Cavite Mutiny awakened national consciousness among Filipino reformists, notably inspiring Jose Rizal."
+        "text": "They founded the Katipunan."
       },
       {
         "key": "B",
@@ -91,14 +91,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "They founded the Katipunan."
+        "text": "They wrote the 1987 Constitution."
       },
       {
         "key": "D",
-        "text": "They wrote the 1987 Constitution."
+        "text": "Their unjust execution via garrote for alleged complicity in the Cavite Mutiny awakened national consciousness among Filipino reformists, notably inspiring Jose Rizal."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The tragic execution of GOMBURZA unified reformists across regional divides and directly inspired Rizal to dedicate his second novel, *El Filibusterismo*, to their memory."
   },
   {
@@ -108,11 +108,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Total separation and armed independence of the Philippines from the Spanish Empire."
+        "text": "Requesting peaceful representation in the Spanish Cortes."
       },
       {
         "key": "B",
-        "text": "Requesting peaceful representation in the Spanish Cortes."
+        "text": "Total separation and armed independence of the Philippines from the Spanish Empire."
       },
       {
         "key": "C",
@@ -123,7 +123,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Establishing a British protectorate."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Unlike the reformist Propaganda Movement, Bonifacio's Katipunan was a radical separatist secret society dedicated to armed revolution and total national sovereignty."
   },
   {
@@ -133,22 +133,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The unfurling of the Philippine National Flag (sewn in Hong Kong by Marcela Agoncillo) and the playing of the *Marcha Nacional Filipina* composed by Julian Felipe."
-      },
-      {
-        "key": "B",
         "text": "The signing of the Treaty of Paris."
       },
       {
+        "key": "B",
+        "text": "The Battle of Tirad Pass."
+      },
+      {
         "key": "C",
-        "text": "The execution of Rizal."
+        "text": "The unfurling of the Philippine National Flag (sewn in Hong Kong by Marcela Agoncillo) and the playing of the *Marcha Nacional Filipina* composed by Julian Felipe."
       },
       {
         "key": "D",
-        "text": "The Battle of Tirad Pass."
+        "text": "The execution of Rizal."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "On June 12, 1898, Aguinaldo unfurled the national flag sewn by Marcela Agoncillo, Lorenza Agoncillo, and Delfina Herbosa, accompanied by Julian Felipe's national march."
   },
   {
@@ -162,7 +162,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A Spanish military outpost."
+        "text": "A Japanese puppet regime."
       },
       {
         "key": "C",
@@ -170,7 +170,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A Japanese puppet regime."
+        "text": "A Spanish military outpost."
       }
     ],
     "correctAnswer": "A",
@@ -183,22 +183,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "$20 Million US Dollars"
+        "text": "$100 Billion Dollars"
       },
       {
         "key": "B",
-        "text": "$1 Million Dollars"
-      },
-      {
-        "key": "C",
         "text": "Zero dollars"
       },
       {
+        "key": "C",
+        "text": "$1 Million Dollars"
+      },
+      {
         "key": "D",
-        "text": "$100 Billion Dollars"
+        "text": "$20 Million US Dollars"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Treaty of Paris ended the Spanish-American War, with Spain selling sovereignty over the Philippines to the US for $20 million without Filipino representation."
   },
   {
@@ -208,7 +208,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Manuel L. Quezon (with Sergio Osmeña as Vice President)"
+        "text": "Jose P. Laurel"
       },
       {
         "key": "B",
@@ -216,14 +216,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Jose P. Laurel"
+        "text": "Manuel L. Quezon (with Sergio Osmeña as Vice President)"
       },
       {
         "key": "D",
         "text": "Ramon Magsaysay"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Manuel L. Quezon was elected President of the Philippine Commonwealth under the 1935 Constitution, initiating social justice and national language programs."
   },
   {
@@ -233,22 +233,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The end of the 20-year authoritarian Marcos regime, the restoration of democracy, and the swearing-in of Corazon C. Aquino as President."
+        "text": "The dissolution of the Supreme Court."
       },
       {
         "key": "B",
-        "text": "The start of World War II."
+        "text": "The end of the 20-year authoritarian Marcos regime, the restoration of democracy, and the swearing-in of Corazon C. Aquino as President."
       },
       {
         "key": "C",
-        "text": "The declaration of Spanish rule."
+        "text": "The start of World War II."
       },
       {
         "key": "D",
-        "text": "The dissolution of the Supreme Court."
+        "text": "The declaration of Spanish rule."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "EDSA I peacefully toppled the dictatorship through non-violent civilian resistance, restoring constitutional democracy under Corazon Aquino."
   },
   {
@@ -258,22 +258,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
+        "key": "C",
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+      },
+      {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -308,7 +308,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -316,14 +316,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "'Those who have less in life should have more in law.'"
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -337,7 +337,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -358,22 +358,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "Zero civic relevance."
+      },
+      {
+        "key": "D",
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -383,11 +383,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
       },
       {
         "key": "C",
@@ -398,7 +398,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -412,15 +412,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
     "correctAnswer": "A",
@@ -433,22 +433,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "'Those who have less in life should have more in law.'"
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -458,7 +458,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -470,10 +470,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -483,22 +483,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
+      },
+      {
+        "key": "C",
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -508,22 +508,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
+        "key": "B",
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+      },
+      {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -537,15 +537,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -558,7 +558,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -570,10 +570,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "'Those who have less in life should have more in law.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -583,22 +583,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -608,22 +608,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
+        "key": "B",
+        "text": "Abolition of all national laws."
+      },
+      {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -633,22 +633,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+      },
+      {
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -658,7 +658,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
@@ -666,14 +666,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The UN Security Council (UNSC)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -691,11 +691,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
     "correctAnswer": "A",
@@ -708,22 +708,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+      },
+      {
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -733,11 +733,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -745,10 +745,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -758,22 +758,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -783,7 +783,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -791,14 +791,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The UN Security Council (UNSC)"
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -812,15 +812,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -833,22 +833,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -858,11 +858,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "C",
@@ -873,7 +873,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -883,22 +883,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -912,7 +912,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -920,7 +920,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -933,22 +933,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
+        "key": "C",
+        "text": "Zero civic relevance."
+      },
+      {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "'Those who have less in life should have more in law.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -958,22 +958,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
+      },
+      {
+        "key": "C",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -983,22 +983,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1008,22 +1008,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -1033,7 +1033,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -1045,10 +1045,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The UN Security Council (UNSC)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -1058,7 +1058,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "'Those who have less in life should have more in law.'"
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1083,11 +1083,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "C",
@@ -1095,10 +1095,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1108,22 +1108,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "Zero civic relevance."
+      },
+      {
+        "key": "D",
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1133,7 +1133,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
@@ -1141,14 +1141,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -1162,15 +1162,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
     "correctAnswer": "A",
@@ -1183,22 +1183,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "'Those who have less in life should have more in law.'"
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1208,11 +1208,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -1220,10 +1220,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1233,22 +1233,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
+      },
+      {
+        "key": "C",
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1266,11 +1266,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
     "correctAnswer": "A",
@@ -1287,15 +1287,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1308,7 +1308,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
@@ -1316,14 +1316,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "'Those who have less in life should have more in law.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1333,22 +1333,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1358,22 +1358,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
+        "key": "B",
+        "text": "Abolition of all national laws."
+      },
+      {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1387,7 +1387,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -1395,7 +1395,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1408,7 +1408,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
@@ -1416,14 +1416,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The UN Security Council (UNSC)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -1433,11 +1433,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "'Those who have less in life should have more in law.'"
       },
       {
         "key": "C",
@@ -1448,7 +1448,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1458,22 +1458,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1483,11 +1483,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "C",
@@ -1495,10 +1495,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1512,11 +1512,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Total feudal monarchism."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
@@ -1533,7 +1533,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -1541,14 +1541,14 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The UN Security Council (UNSC)"
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -1558,11 +1558,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "'Those who have less in life should have more in law.'"
       },
       {
         "key": "C",
@@ -1570,10 +1570,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1583,22 +1583,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1608,11 +1608,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Zero civic relevance."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
       },
       {
         "key": "C",
@@ -1623,7 +1623,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1637,15 +1637,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
     "correctAnswer": "A",
@@ -1662,7 +1662,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "C",
@@ -1670,7 +1670,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "Zero civic relevance."
+      },
+      {
+        "key": "D",
+        "text": "'Those who have less in life should have more in law.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1708,22 +1708,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Total feudal monarchism."
+      },
+      {
+        "key": "C",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1733,22 +1733,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
+        "key": "B",
+        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+      },
+      {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
   },
   {
@@ -1758,22 +1758,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "C",
+        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
   },
   {
@@ -1783,7 +1783,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Abolition of all national laws."
       },
       {
         "key": "B",
@@ -1795,10 +1795,10 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The UN Security Council (UNSC)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
   },
   {
@@ -1808,22 +1808,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Total feudal monarchism."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "'Those who have less in life should have more in law.'"
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Zero civic relevance."
       },
       {
         "key": "D",
         "text": "Abolition of all national laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
   },
   {
@@ -1833,22 +1833,22 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "B",
         "text": "Zero civic relevance."
       },
       {
+        "key": "B",
+        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+      },
+      {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolition of all national laws."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Total feudal monarchism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
   },
   {
@@ -1862,15 +1862,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
         "text": "Total feudal monarchism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Abolition of all national laws."
+      },
+      {
+        "key": "D",
+        "text": "Zero civic relevance."
       }
     ],
     "correctAnswer": "A",

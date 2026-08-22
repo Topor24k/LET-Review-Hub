@@ -8,7 +8,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "SPED typically educates children with disabilities in segregated specialized settings or self-contained classrooms, whereas Inclusive Education modifies general education classrooms to welcome and support all diverse learners together."
+        "text": "SPED does not require certified teachers."
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "SPED does not require certified teachers."
+        "text": "Inclusive Education excludes students with sensory impairments."
       },
       {
         "key": "D",
-        "text": "Inclusive Education excludes students with sensory impairments."
+        "text": "SPED typically educates children with disabilities in segregated specialized settings or self-contained classrooms, whereas Inclusive Education modifies general education classrooms to welcome and support all diverse learners together."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Inclusion transforms the regular general education school to adapt to all learners (child-centered adaptation), whereas traditional SPED often pulled students into segregated environments."
   },
   {
@@ -33,22 +33,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Impairment is biological/structural loss (e.g. damaged retina); Disability is functional limitation in performing an activity (e.g. cannot read standard print); Handicap is environmental/social disadvantage imposed by barriers (e.g. lack of Braille books)."
+        "text": "Handicap is biological while impairment is legal."
       },
       {
         "key": "B",
-        "text": "They are all identical medical synonyms."
+        "text": "Impairment is biological/structural loss (e.g. damaged retina); Disability is functional limitation in performing an activity (e.g. cannot read standard print); Handicap is environmental/social disadvantage imposed by barriers (e.g. lack of Braille books)."
       },
       {
         "key": "C",
-        "text": "Handicap is biological while impairment is legal."
+        "text": "They are all identical medical synonyms."
       },
       {
         "key": "D",
         "text": "Disability applies only to senior citizens."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "WHO defines: Impairment = physical/physiological loss; Disability = functional reduction of ability; Handicap = societal/environmental barrier that prevents fulfillment of a normal role."
   },
   {
@@ -58,22 +58,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Medical / Deficit Model of Disability"
-      },
-      {
-        "key": "B",
         "text": "Social Model of Disability"
       },
       {
+        "key": "B",
+        "text": "Biopsychosocial Model"
+      },
+      {
         "key": "C",
-        "text": "Human Rights Model"
+        "text": "Medical / Deficit Model of Disability"
       },
       {
         "key": "D",
-        "text": "Biopsychosocial Model"
+        "text": "Human Rights Model"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Medical Model views disability as an individual pathology/deficit requiring medical cure or isolation, whereas the Social Model views disability as created by inaccessible societal barriers."
   },
   {
@@ -87,7 +87,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The student's biological chromosomes."
+        "text": "The student's personal karma."
       },
       {
         "key": "C",
@@ -95,7 +95,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The student's personal karma."
+        "text": "The student's biological chromosomes."
       }
     ],
     "correctAnswer": "A",
@@ -108,7 +108,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes, creating welcoming communities, and achieving education for all."
+        "text": "Only wealthy nations should provide inclusive education."
       },
       {
         "key": "B",
@@ -116,14 +116,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Only wealthy nations should provide inclusive education."
+        "text": "General education schools must reject students who cannot keep up with high academic speed."
       },
       {
         "key": "D",
-        "text": "General education schools must reject students who cannot keep up with high academic speed."
+        "text": "Regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes, creating welcoming communities, and achieving education for all."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Salamanca Statement (1994) is the foundational global charter proclaiming that general schools with inclusive education provide the most effective barrier against discrimination."
   },
   {
@@ -158,22 +158,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "At least 1% of all positions in all government agencies, offices, or corporations (expanded by RA 10524)"
-      },
-      {
-        "key": "B",
-        "text": "50%"
-      },
-      {
-        "key": "C",
         "text": "0%"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "At least 1% of all positions in all government agencies, offices, or corporations (expanded by RA 10524)"
+      },
+      {
+        "key": "C",
         "text": "100%"
+      },
+      {
+        "key": "D",
+        "text": "50%"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "RA 7277, as amended by RA 10524, mandates that at least one percent (1%) of all regular positions in all government agencies and departments be reserved for persons with disabilities."
   },
   {
@@ -183,11 +183,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inclusive Learning Resource Centers (ILRCs)"
+        "text": "Military Detention Units"
       },
       {
         "key": "B",
-        "text": "Military Detention Units"
+        "text": "Isolated Testing Asylums"
       },
       {
         "key": "C",
@@ -195,10 +195,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Isolated Testing Asylums"
+        "text": "Inclusive Learning Resource Centers (ILRCs)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "RA 11650 (Instituting a Policy of Inclusion and Services for Learners with Disabilities in Support of Inclusive Education Act) mandates ILRCs in all cities and municipalities."
   },
   {
@@ -212,11 +212,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Deaf-Blindness"
+        "text": "Traumatic Brain Injury (TBI)"
       },
       {
         "key": "C",
-        "text": "Traumatic Brain Injury (TBI)"
+        "text": "Deaf-Blindness"
       },
       {
         "key": "D",
@@ -233,7 +233,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dyslexia"
+        "text": "Dyspraxia"
       },
       {
         "key": "B",
@@ -241,14 +241,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Dysgraphia"
+        "text": "Dyslexia"
       },
       {
         "key": "D",
-        "text": "Dyspraxia"
+        "text": "Dysgraphia"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Dyslexia is a specific learning disability characterized by difficulties with accurate and fluent word recognition, decoding, phonological awareness, and spelling."
   },
   {
@@ -258,11 +258,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dyscalculia"
+        "text": "Dysphasia"
       },
       {
         "key": "B",
-        "text": "Dyslexia"
+        "text": "Dyscalculia"
       },
       {
         "key": "C",
@@ -270,10 +270,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Dysphasia"
+        "text": "Dyslexia"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Dyscalculia is a specific learning disorder involving severe, persistent impairment in learning mathematical concepts, number sense, and arithmetic calculations."
   },
   {
@@ -283,22 +283,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dysgraphia"
-      },
-      {
-        "key": "B",
         "text": "Dyslexia"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Dyscalculia"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Aphasia"
+      },
+      {
+        "key": "D",
+        "text": "Dysgraphia"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Dysgraphia is a neurological condition causing impaired handwriting, fine-motor coordination difficulties, spelling deficits, and spatial motor planning issues in writing."
   },
   {
@@ -308,11 +308,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Other Health Impairment (OHI)"
+        "text": "Orthopedic Impairment"
       },
       {
         "key": "B",
-        "text": "Orthopedic Impairment"
+        "text": "Other Health Impairment (OHI)"
       },
       {
         "key": "C",
@@ -323,7 +323,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Hearing Impairment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "ADHD is categorized under 'Other Health Impairment' (OHI) under IDEA due to heightened alertness to environmental stimuli resulting in limited alertness to instructional tasks."
   },
   {
@@ -337,15 +337,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "1. Blindness; 2. Deafness."
+        "text": "1. Physical paralysis; 2. Broken bones."
       },
       {
         "key": "C",
-        "text": "1. Poor spelling; 2. Weak math skills."
+        "text": "1. Blindness; 2. Deafness."
       },
       {
         "key": "D",
-        "text": "1. Physical paralysis; 2. Broken bones."
+        "text": "1. Poor spelling; 2. Weak math skills."
       }
     ],
     "correctAnswer": "A",
@@ -362,7 +362,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Running speed in sports."
+        "text": "Singing pitch accuracy."
       },
       {
         "key": "C",
@@ -370,7 +370,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Singing pitch accuracy."
+        "text": "Running speed in sports."
       }
     ],
     "correctAnswer": "A",
@@ -383,22 +383,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Emotional Disturbance / Emotional and Behavioral Disorder (EBD)"
-      },
-      {
-        "key": "B",
-        "text": "Giftedness"
-      },
-      {
-        "key": "C",
         "text": "Temporary laziness"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Orthopedic Impairment"
+      },
+      {
+        "key": "C",
+        "text": "Giftedness"
+      },
+      {
+        "key": "D",
+        "text": "Emotional Disturbance / Emotional and Behavioral Disorder (EBD)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "IDEA defines Emotional Disturbance by chronic patterns: inability to learn not explained by sensory/intellectual factors, inability to maintain relationships, inappropriate behaviors, and general pervasive unhappiness."
   },
   {
@@ -408,22 +408,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Receptive Language"
-      },
-      {
-        "key": "B",
         "text": "Expressive Language"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Stuttering"
+      },
+      {
+        "key": "C",
+        "text": "Receptive Language"
       },
       {
         "key": "D",
         "text": "Voice Disorder"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Receptive language involves understanding and processing incoming verbal messages/syntax, while Expressive language is the ability to produce speech and express thoughts."
   },
   {
@@ -433,22 +433,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filipino Sign Language (FSL)"
-      },
-      {
-        "key": "B",
         "text": "American Sign Language (ASL)"
       },
       {
+        "key": "B",
+        "text": "Filipino Sign Language (FSL)"
+      },
+      {
         "key": "C",
-        "text": "British Sign Language (BSL)"
+        "text": "International Sign"
       },
       {
         "key": "D",
-        "text": "International Sign"
+        "text": "British Sign Language (BSL)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "RA 11106 declares Filipino Sign Language (FSL) as the official national sign language of the Philippines and the mandatory language of instruction for deaf education."
   },
   {
@@ -458,22 +458,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A legally binding written educational plan tailored to the unique strengths, needs, annual measurable goals, and specialized support services for a child with a disability."
-      },
-      {
-        "key": "B",
-        "text": "A standard textbook given to all students."
-      },
-      {
-        "key": "C",
         "text": "A school budget balance sheet."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "A punishment contract for misbehaving students."
+      },
+      {
+        "key": "C",
+        "text": "A legally binding written educational plan tailored to the unique strengths, needs, annual measurable goals, and specialized support services for a child with a disability."
+      },
+      {
+        "key": "D",
+        "text": "A standard textbook given to all students."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "An IEP is a personalized legal document created by a multidisciplinary team outlining present levels of performance, measurable annual goals, accommodations, and related services."
   },
   {
@@ -483,7 +483,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Parent/guardian, Regular education teacher, Special education teacher, School administrative representative (LEA), and the child when appropriate."
+        "text": "Only the student's classmates."
       },
       {
         "key": "B",
@@ -495,10 +495,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Only the student's classmates."
+        "text": "Parent/guardian, Regular education teacher, Special education teacher, School administrative representative (LEA), and the child when appropriate."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Mandatory IEP team members: Parents, General Education Teacher, Special Education Teacher, School Administrator/LEA representative, Specialist/evaluator, and the Student (when appropriate)."
   },
   {
@@ -508,22 +508,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Accommodation (changes HOW the student learns or accesses the test without changing the core learning standard)"
+        "text": "Academic Exemption"
       },
       {
         "key": "B",
-        "text": "Modification (changes WHAT the student is expected to master)"
+        "text": "Accommodation (changes HOW the student learns or accesses the test without changing the core learning standard)"
       },
       {
         "key": "C",
-        "text": "Academic Exemption"
+        "text": "Modification (changes WHAT the student is expected to master)"
       },
       {
         "key": "D",
         "text": "Disciplinary Waiver"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Accommodations change how content is accessed/demonstrated without lowering or altering the academic standard. Modifications alter the actual curriculum content/expectations."
   },
   {
@@ -533,22 +533,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Modification"
-      },
-      {
-        "key": "B",
         "text": "Accommodation"
       },
       {
+        "key": "B",
+        "text": "Modification"
+      },
+      {
         "key": "C",
-        "text": "Acceleration"
+        "text": "Gifted Enrichment"
       },
       {
         "key": "D",
-        "text": "Gifted Enrichment"
+        "text": "Acceleration"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Modification fundamentally alters, lowers, or simplifies the standard learning expectations to match the student's developmental capacity."
   },
   {
@@ -558,22 +558,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To the maximum extent appropriate with peers who are non-disabled in the general education classroom before considering more segregated placements."
-      },
-      {
-        "key": "B",
-        "text": "Always in a basement isolation room."
-      },
-      {
-        "key": "C",
         "text": "Strictly at home via mail."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Only with other students who have identical medical diagnoses."
+      },
+      {
+        "key": "C",
+        "text": "Always in a basement isolation room."
+      },
+      {
+        "key": "D",
+        "text": "To the maximum extent appropriate with peers who are non-disabled in the general education classroom before considering more segregated placements."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "LRE requires that students with disabilities be educated alongside their non-disabled peers in regular classrooms to the greatest extent appropriate."
   },
   {
@@ -583,7 +583,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "In Mainstreaming, a SPED student visits the general classroom only for specific subjects where they can keep up; in Full Inclusion, the general classroom is the primary placement where supports are brought to the child 100% of the day."
+        "text": "Full inclusion means zero teacher support."
       },
       {
         "key": "B",
@@ -591,14 +591,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Full inclusion means zero teacher support."
+        "text": "In Mainstreaming, a SPED student visits the general classroom only for specific subjects where they can keep up; in Full Inclusion, the general classroom is the primary placement where supports are brought to the child 100% of the day."
       },
       {
         "key": "D",
         "text": "Mainstreaming excludes non-academic subjects like PE."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Mainstreaming places the student in general classes selectively if they can demonstrate standard competence, whereas Full Inclusion makes the general classroom the default home base."
   },
   {
@@ -612,15 +612,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Parallel Teaching"
+        "text": "Alternative Teaching"
       },
       {
         "key": "C",
-        "text": "Station Teaching"
+        "text": "Parallel Teaching"
       },
       {
         "key": "D",
-        "text": "Alternative Teaching"
+        "text": "Station Teaching"
       }
     ],
     "correctAnswer": "A",
@@ -633,22 +633,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "One Teach, One Assist (One Teach, One Drift)"
+        "text": "Station Teaching"
       },
       {
         "key": "B",
-        "text": "Team Teaching"
-      },
-      {
-        "key": "C",
         "text": "Parallel Teaching"
       },
       {
+        "key": "C",
+        "text": "One Teach, One Assist (One Teach, One Drift)"
+      },
+      {
         "key": "D",
-        "text": "Station Teaching"
+        "text": "Team Teaching"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "One Teach, One Assist (One Teach, One Support) has one lead instructor while the second teacher circulates to offer real-time scaffolding and behavioral support."
   },
   {
@@ -658,11 +658,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Station Teaching"
+        "text": "Team Teaching"
       },
       {
         "key": "B",
-        "text": "Team Teaching"
+        "text": "Parallel Teaching"
       },
       {
         "key": "C",
@@ -670,10 +670,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Parallel Teaching"
+        "text": "Station Teaching"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Station Teaching divides instructional content and students into separate learning stations, with each teacher facilitating a station while students rotate."
   },
   {
@@ -687,11 +687,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It allows one teacher to sleep."
+        "text": "It creates a sports competition."
       },
       {
         "key": "C",
-        "text": "It creates a sports competition."
+        "text": "It allows one teacher to sleep."
       },
       {
         "key": "D",
@@ -716,11 +716,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "One Teach, One Observe"
+        "text": "Station Teaching"
       },
       {
         "key": "D",
-        "text": "Station Teaching"
+        "text": "One Teach, One Observe"
       }
     ],
     "correctAnswer": "A",
@@ -737,15 +737,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "One Teach, One Assist"
-      },
-      {
-        "key": "C",
         "text": "Alternative Teaching"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Parallel Teaching"
+      },
+      {
+        "key": "D",
+        "text": "One Teach, One Assist"
       }
     ],
     "correctAnswer": "A",
@@ -758,22 +758,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Observe -> Reflect -> Plan -> Act"
-      },
-      {
-        "key": "B",
         "text": "Order -> Read -> Pass -> Assess"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Organize -> Record -> Print -> Audit"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Outline -> Review -> Practice -> Apply"
+      },
+      {
+        "key": "D",
+        "text": "Observe -> Reflect -> Plan -> Act"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The ORPA Action Research cycle (Kurt Lewin / Stringer) follows: 1. Observe (gather baseline data on classroom problem), 2. Reflect (analyze root causes), 3. Plan (design intervention), and 4. Act (implement intervention and measure impact)."
   },
   {
@@ -783,22 +783,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple Means of Representation (The 'What' of Learning)"
+        "text": "Multiple Means of Engagement"
       },
       {
         "key": "B",
-        "text": "Multiple Means of Action and Expression"
+        "text": "Multiple Means of Representation (The 'What' of Learning)"
       },
       {
         "key": "C",
-        "text": "Multiple Means of Engagement"
+        "text": "Multiple Means of Action and Expression"
       },
       {
         "key": "D",
         "text": "Standardized Testing"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Multiple Means of Representation presents information in diverse formats (visual, auditory, tactile) to give all learners equal access to content."
   },
   {
@@ -808,7 +808,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple Means of Action and Expression (The 'How' of Learning)"
+        "text": "Rote Drill"
       },
       {
         "key": "B",
@@ -816,14 +816,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Multiple Means of Engagement"
+        "text": "Multiple Means of Action and Expression (The 'How' of Learning)"
       },
       {
         "key": "D",
-        "text": "Rote Drill"
+        "text": "Multiple Means of Engagement"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Multiple Means of Action and Expression allows learners to express and demonstrate what they know using flexible media, tools, and response modes."
   },
   {
@@ -837,7 +837,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Multiple Means of Representation"
+        "text": "Compulsory Conformity"
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Compulsory Conformity"
+        "text": "Multiple Means of Representation"
       }
     ],
     "correctAnswer": "A",
@@ -858,22 +858,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Approximately 80% to 85% of all students"
+        "text": "5%"
       },
       {
         "key": "B",
-        "text": "Only 10%"
-      },
-      {
-        "key": "C",
         "text": "100%"
       },
       {
+        "key": "C",
+        "text": "Only 10%"
+      },
+      {
         "key": "D",
-        "text": "5%"
+        "text": "Approximately 80% to 85% of all students"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "In RTI: Tier 1 (Universal high-quality core instruction) meets the needs of ~80-85% of students; Tier 2 (Targeted small group intervention) serves ~10-15%; Tier 3 (Intensive individualized intervention/SPED evaluation) serves ~1-5%."
   },
   {
@@ -883,11 +883,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tier 2 Targeted Supplemental Instruction"
+        "text": "Tier 1 Universal Instruction"
       },
       {
         "key": "B",
-        "text": "Tier 1 Universal Instruction"
+        "text": "Tier 2 Targeted Supplemental Instruction"
       },
       {
         "key": "C",
@@ -898,7 +898,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Grade Retention"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Tier 2 provides targeted, evidence-based small-group intervention for students who show learning gaps under Tier 1 general instruction."
   },
   {
@@ -908,22 +908,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tier 3 intensive individualized intervention and comprehensive multidisciplinary evaluation for special education eligibility."
+        "text": "Ignoring the problem completely."
       },
       {
         "key": "B",
-        "text": "Expulsion from school."
+        "text": "Tier 3 intensive individualized intervention and comprehensive multidisciplinary evaluation for special education eligibility."
       },
       {
         "key": "C",
-        "text": "Failing the student for the entire year without testing."
+        "text": "Expulsion from school."
       },
       {
         "key": "D",
-        "text": "Ignoring the problem completely."
+        "text": "Failing the student for the entire year without testing."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Tier 3 provides individualized, high-intensity interventions and triggers formal multidisciplinary evaluation for specific learning disabilities under IDEA."
   },
   {
@@ -933,22 +933,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Proactively defining, teaching, modeling, and positively reinforcing expected behaviors school-wide rather than relying solely on punitive reactions."
-      },
-      {
-        "key": "B",
-        "text": "Expelling any student who commits a minor infraction."
-      },
-      {
-        "key": "C",
         "text": "Eliminating all school rules."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Paying students cash for every correct answer."
+      },
+      {
+        "key": "C",
+        "text": "Proactively defining, teaching, modeling, and positively reinforcing expected behaviors school-wide rather than relying solely on punitive reactions."
+      },
+      {
+        "key": "D",
+        "text": "Expelling any student who commits a minor infraction."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "PBIS is a tiered behavioral framework that explicitly teaches positive social expectations, creates predictable environments, and reinforces prosocial conduct."
   },
   {
@@ -958,22 +958,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identify the underlying function / purpose (escape, attention, sensory, tangible) and environmental triggers driving a student's problem behavior."
+        "text": "Check physical eye vision."
       },
       {
         "key": "B",
-        "text": "Assign a criminal penalty."
-      },
-      {
-        "key": "C",
         "text": "Calculate the student's grade point average."
       },
       {
+        "key": "C",
+        "text": "Assign a criminal penalty."
+      },
+      {
         "key": "D",
-        "text": "Check physical eye vision."
+        "text": "Identify the underlying function / purpose (escape, attention, sensory, tangible) and environmental triggers driving a student's problem behavior."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "An FBA identifies the ABCs of behavior (Antecedent -> Behavior -> Consequence) to understand why the student misbehaves and design a positive replacement behavior."
   },
   {
@@ -983,7 +983,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Proactive environmental modifications, positive replacement behaviors that serve the same function, and positive reinforcement strategies."
+        "text": "A medical prescription for drugs."
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A contract to transfer to another school."
+        "text": "Proactive environmental modifications, positive replacement behaviors that serve the same function, and positive reinforcement strategies."
       },
       {
         "key": "D",
-        "text": "A medical prescription for drugs."
+        "text": "A contract to transfer to another school."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A BIP outlines positive strategies, proactive antecedent triggers, explicit teaching of functionally equivalent replacement behaviors, and reinforcement schedules."
   },
   {
@@ -1008,11 +1008,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'What happened to you, and how can I help you feel safe and supported?'"
+        "text": "'Why can't you be like your sister?'"
       },
       {
         "key": "B",
-        "text": "'Why are you always failing my class?'"
+        "text": "'What happened to you, and how can I help you feel safe and supported?'"
       },
       {
         "key": "C",
@@ -1020,10 +1020,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Why can't you be like your sister?'"
+        "text": "'Why are you always failing my class?'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Trauma-informed pedagogy understands that adverse childhood experiences (ACEs) alter brain development, emphasizing emotional safety, predictability, and connection."
   },
   {
@@ -1033,22 +1033,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A student who is gifted and talented in one or more areas (e.g. superior IQ, mathematical brilliance) while simultaneously having a learning disability, ADHD, or autism."
-      },
-      {
-        "key": "B",
         "text": "A student who was held back two grade levels."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "A student with two biological siblings in the same school."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "A student who plays two sports."
+      },
+      {
+        "key": "D",
+        "text": "A student who is gifted and talented in one or more areas (e.g. superior IQ, mathematical brilliance) while simultaneously having a learning disability, ADHD, or autism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Twice-Exceptional (2e) students possess high intellectual or creative gifts alongside co-occurring learning challenges (e.g., gifted with dyslexia or ADHD)."
   },
   {
@@ -1087,15 +1087,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Yell at the student to stop acting like a baby."
+        "text": "Send the student to the principal's office for detention."
       },
       {
         "key": "C",
-        "text": "Ring the bell louder to desensitize the child."
+        "text": "Yell at the student to stop acting like a baby."
       },
       {
         "key": "D",
-        "text": "Send the student to the principal's office for detention."
+        "text": "Ring the bell louder to desensitize the child."
       }
     ],
     "correctAnswer": "A",
@@ -1108,22 +1108,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Visually and textually describe a social situation, expectations, and cues to help the child understand social norms and manage anxiety."
+        "text": "Test reading speed on standardized exams."
       },
       {
         "key": "B",
-        "text": "Write fictional fairy tales."
-      },
-      {
-        "key": "C",
         "text": "Post student gossip on social media."
       },
       {
+        "key": "C",
+        "text": "Visually and textually describe a social situation, expectations, and cues to help the child understand social norms and manage anxiety."
+      },
+      {
         "key": "D",
-        "text": "Test reading speed on standardized exams."
+        "text": "Write fictional fairy tales."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Social Stories break down social scenarios (taking turns, fire drills, making friends) into clear, literal, predictable steps with visual cues to build social understanding."
   },
   {
@@ -1133,22 +1133,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They provide predictable visual structure, reduce transition anxiety, and support learners with executive functioning and receptive language challenges."
-      },
-      {
-        "key": "B",
-        "text": "They replace the teacher's voice."
-      },
-      {
-        "key": "C",
         "text": "They make classrooms look like art galleries."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "They eliminate the necessity of following daily routines."
+      },
+      {
+        "key": "C",
+        "text": "They replace the teacher's voice."
+      },
+      {
+        "key": "D",
+        "text": "They provide predictable visual structure, reduce transition anxiety, and support learners with executive functioning and receptive language challenges."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Visual schedules make abstract time concrete and predictable, drastically lowering anxiety and behavioral resistance during classroom activity transitions."
   },
   {
@@ -1158,22 +1158,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Breaking down a complex multi-step skill (e.g., washing hands, making a bed) into small, discrete, sequentially chained individual steps."
-      },
-      {
-        "key": "B",
         "text": "Giving a 50-item written multiple choice quiz."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Analyzing the chemical composition of soap."
+      },
+      {
+        "key": "C",
+        "text": "Breaking down a complex multi-step skill (e.g., washing hands, making a bed) into small, discrete, sequentially chained individual steps."
       },
       {
         "key": "D",
         "text": "Assigning homework without instructions."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Task Analysis decomposes complex behaviors into chained micro-steps (e.g. Step 1: Turn on faucet, Step 2: Wet hands, Step 3: Apply soap), facilitating systematic mastery."
   },
   {
@@ -1191,11 +1191,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The student works in reverse alphabetical order."
+        "text": "The student takes the test backwards."
       },
       {
         "key": "D",
-        "text": "The student takes the test backwards."
+        "text": "The student works in reverse alphabetical order."
       }
     ],
     "correctAnswer": "A",
@@ -1208,22 +1208,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Independent -> Visual -> Verbal -> Gestural -> Modeling -> Physical (Hand-over-Hand)"
-      },
-      {
-        "key": "B",
-        "text": "Physical -> Modeling -> Independent"
-      },
-      {
-        "key": "C",
         "text": "Verbal -> Physical -> Independent"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Punishment -> Isolation -> Reward"
+      },
+      {
+        "key": "C",
+        "text": "Independent -> Visual -> Verbal -> Gestural -> Modeling -> Physical (Hand-over-Hand)"
+      },
+      {
+        "key": "D",
+        "text": "Physical -> Modeling -> Independent"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Least-to-Most prompting hierarchy fosters maximum independence by starting with minimal cues (visual/verbal) and progressing to physical prompts only when necessary."
   },
   {
@@ -1233,11 +1233,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To prevent 'prompt dependency' and ensure the student can perform the target skill autonomously in natural settings."
+        "text": "To confuse the learner."
       },
       {
         "key": "B",
-        "text": "To confuse the learner."
+        "text": "Because prompting is illegal."
       },
       {
         "key": "C",
@@ -1245,10 +1245,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because prompting is illegal."
+        "text": "To prevent 'prompt dependency' and ensure the student can perform the target skill autonomously in natural settings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Prompt fading gradually withdraws assistance, preventing prompt dependency and ensuring true generalization and self-directed independence."
   },
   {
@@ -1258,22 +1258,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pencil grips, slant boards, tactile rulers, and color-coded highlighted reading strips"
+        "text": "Brain-computer interface helmets"
       },
       {
         "key": "B",
-        "text": "Eye-tracking speech computers"
+        "text": "Pencil grips, slant boards, tactile rulers, and color-coded highlighted reading strips"
       },
       {
         "key": "C",
-        "text": "Brain-computer interface helmets"
+        "text": "Eye-tracking speech computers"
       },
       {
         "key": "D",
         "text": "AI humanoid robots"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Low-Tech AT devices are inexpensive, non-electronic, simple physical adaptations (pencil grips, slant boards, magnifying glasses, tactile strips)."
   },
   {
@@ -1283,22 +1283,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sip-and-puff motorized wheelchair controls, dynamic speech-generating devices (AAC), and screen readers with refreshable Braille"
-      },
-      {
-        "key": "B",
         "text": "A wooden clipboard"
       },
       {
+        "key": "B",
+        "text": "A rubber band on a pen"
+      },
+      {
         "key": "C",
-        "text": "A paper sticky note"
+        "text": "Sip-and-puff motorized wheelchair controls, dynamic speech-generating devices (AAC), and screen readers with refreshable Braille"
       },
       {
         "key": "D",
-        "text": "A rubber band on a pen"
+        "text": "A paper sticky note"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "High-Tech AT involves sophisticated computerized, digital, electronic, and microchip-based accessibility systems."
   },
   {
@@ -1312,15 +1312,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Permanent institutional confinement."
-      },
-      {
-        "key": "C",
         "text": "Kindergarten again."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "A hospital ward."
+      },
+      {
+        "key": "D",
+        "text": "Permanent institutional confinement."
       }
     ],
     "correctAnswer": "A",
@@ -1333,7 +1333,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'A student with autism' (focusing on the individual first before the condition)"
+        "text": "'The wheelchair-bound victim'"
       },
       {
         "key": "B",
@@ -1341,14 +1341,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'The wheelchair-bound victim'"
+        "text": "'The handicapped child'"
       },
       {
         "key": "D",
-        "text": "'The handicapped child'"
+        "text": "'A student with autism' (focusing on the individual first before the condition)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Person-First Language (e.g. 'child with a disability', 'person who uses a wheelchair') emphasizes the person's humanity rather than defining them exclusively by their medical label."
   },
   {
@@ -1358,11 +1358,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They perpetuate stigmatizing deficits, devalue human dignity, and lower social expectations for learners with disabilities."
+        "text": "They are too long to write."
       },
       {
         "key": "B",
-        "text": "They are too long to write."
+        "text": "They perpetuate stigmatizing deficits, devalue human dignity, and lower social expectations for learners with disabilities."
       },
       {
         "key": "C",
@@ -1373,7 +1373,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "They have no linguistic meaning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Archaic medicalized slurs strip individuals of dignity, foster pity or prejudice, and violate the ethical principles of human rights and inclusion."
   },
   {
@@ -1383,22 +1383,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mutual empathy, natural social inclusion, reduced bullying, and authentic friendships."
+        "text": "Classroom anarchy."
       },
       {
         "key": "B",
-        "text": "Lower test scores for all students."
-      },
-      {
-        "key": "C",
         "text": "Unfair labor exploitation."
       },
       {
+        "key": "C",
+        "text": "Mutual empathy, natural social inclusion, reduced bullying, and authentic friendships."
+      },
+      {
         "key": "D",
-        "text": "Classroom anarchy."
+        "text": "Lower test scores for all students."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Peer support networks break down social isolation, normalize diversity, build empathy, and provide authentic natural scaffolding in inclusive schools."
   },
   {
@@ -1408,7 +1408,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A carefully planned schedule of personalized physical activities and sensory inputs (heavy work, movement breaks, weighted vests) that keep the child's nervous system regulated and focused."
+        "text": "Drinking only fruit juice."
       },
       {
         "key": "B",
@@ -1420,10 +1420,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Drinking only fruit juice."
+        "text": "A carefully planned schedule of personalized physical activities and sensory inputs (heavy work, movement breaks, weighted vests) that keep the child's nervous system regulated and focused."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Sensory Diet (Wilbarger) provides tailored proprioceptive, vestibular, and tactile inputs throughout the school day to maintain optimal neurological arousal for learning."
   },
   {
@@ -1437,11 +1437,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Exempting the student from thinking."
+        "text": "Keeping the student tied to a chair."
       },
       {
         "key": "C",
-        "text": "Keeping the student tied to a chair."
+        "text": "Exempting the student from thinking."
       },
       {
         "key": "D",
@@ -1466,11 +1466,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Send the student to detention for being rude."
+        "text": "Expel the student immediately."
       },
       {
         "key": "D",
-        "text": "Expel the student immediately."
+        "text": "Send the student to detention for being rude."
       }
     ],
     "correctAnswer": "A",
@@ -1483,22 +1483,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Working memory, task initiation, organization, time management, impulse control, and cognitive flexibility."
-      },
-      {
-        "key": "B",
-        "text": "Blood circulation."
-      },
-      {
-        "key": "C",
         "text": "Color blindness."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Working memory, task initiation, organization, time management, impulse control, and cognitive flexibility."
+      },
+      {
+        "key": "C",
         "text": "Physical bone fractures."
+      },
+      {
+        "key": "D",
+        "text": "Blood circulation."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Executive functions (governed by the prefrontal cortex) manage self-regulation, planning, organizing, prioritizing, initiating tasks, and working memory."
   },
   {
@@ -1508,22 +1508,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Break the project into chunked sub-deadlines, provide a visual checklist, use graphic organizers, and schedule weekly progress check-ins."
-      },
-      {
-        "key": "B",
         "text": "Give the assignment on Day 1 and never mention it until the final due date."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Fail the student on the first day."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Do the entire project for the student."
+      },
+      {
+        "key": "D",
+        "text": "Break the project into chunked sub-deadlines, provide a visual checklist, use graphic organizers, and schedule weekly progress check-ins."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Chunking projects, explicit checklists, interim milestones, and structured monitoring externalize executive functioning support, enabling successful completion."
   },
   {
@@ -1558,7 +1558,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Screening is a brief preliminary check to identify children who may need further evaluation; Diagnostic Evaluation is a comprehensive formal medical/psychological assessment that identifies specific clinical disorders."
+        "text": "There is no difference."
       },
       {
         "key": "B",
@@ -1566,14 +1566,14 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Doctors only check height and weight."
+        "text": "Screening is a brief preliminary check to identify children who may need further evaluation; Diagnostic Evaluation is a comprehensive formal medical/psychological assessment that identifies specific clinical disorders."
       },
       {
         "key": "D",
-        "text": "There is no difference."
+        "text": "Doctors only check height and weight."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Screening identifies at-risk flags; formal diagnosis requires multidisciplinary licensed specialists (developmental pediatricians, child psychologists, audiologists)."
   },
   {
@@ -1587,7 +1587,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Arrest parents who have children with disabilities."
+        "text": "Lock school gates to keep students inside."
       },
       {
         "key": "C",
@@ -1595,7 +1595,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Lock school gates to keep students inside."
+        "text": "Arrest parents who have children with disabilities."
       }
     ],
     "correctAnswer": "A",
@@ -1608,22 +1608,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Universal Design proactively embeds accessibility, multiple modalities, and accommodations for everyone from Day 1, avoiding stigmatizing patchwork fixes."
-      },
-      {
-        "key": "B",
-        "text": "Retrofitting is cheaper."
-      },
-      {
-        "key": "C",
         "text": "Universal Design applies only to concrete buildings."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Retrofitting guarantees 100% scores."
+      },
+      {
+        "key": "C",
+        "text": "Retrofitting is cheaper."
+      },
+      {
+        "key": "D",
+        "text": "Universal Design proactively embeds accessibility, multiple modalities, and accommodations for everyone from Day 1, avoiding stigmatizing patchwork fixes."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Proactive Universal Design builds accessible ramps, captions, and multimodal pathways into the foundation, eliminating the clumsy cost and stigma of reactive retrofitting."
   },
   {
@@ -1633,11 +1633,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Due Process and Independent Educational Evaluation (IEE) rights to dispute, mediate, or appeal placement decisions."
+        "text": "They must accept the school's decision with zero right to complain."
       },
       {
         "key": "B",
-        "text": "They must accept the school's decision with zero right to complain."
+        "text": "Due Process and Independent Educational Evaluation (IEE) rights to dispute, mediate, or appeal placement decisions."
       },
       {
         "key": "C",
@@ -1648,7 +1648,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "They must pay a fine to the school."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Procedural safeguards grant parents the right to prior written notice, access to educational records, mediation, independent assessments, and impartial due process hearings."
   },
   {
@@ -1662,15 +1662,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Presentation"
+        "text": "Response"
       },
       {
         "key": "C",
-        "text": "Setting"
+        "text": "Presentation"
       },
       {
         "key": "D",
-        "text": "Response"
+        "text": "Setting"
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Setting"
-      },
-      {
-        "key": "B",
-        "text": "Content"
-      },
-      {
-        "key": "C",
         "text": "Grading Standard"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Passing Mark"
+      },
+      {
+        "key": "C",
+        "text": "Setting"
+      },
+      {
+        "key": "D",
+        "text": "Content"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Setting accommodations adjust the physical testing environment (e.g. quiet room, special lighting, study carrel) without changing test content."
   },
   {
@@ -1708,7 +1708,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Targeting questions matched to individual ZPDs: asking foundational factual recall questions to build confidence, and open-ended evaluative questions to challenge advanced thinkers."
+        "text": "Refusing to ask any questions."
       },
       {
         "key": "B",
@@ -1720,10 +1720,10 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Refusing to ask any questions."
+        "text": "Targeting questions matched to individual ZPDs: asking foundational factual recall questions to build confidence, and open-ended evaluative questions to challenge advanced thinkers."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Strategic differentiated questioning aligns question complexity with each student's Zone of Proximal Development, engaging all learners meaningfully."
   },
   {
@@ -1733,22 +1733,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It promotes optimal wrist extension, stabilizes the paper, and improves visual tracking and neck alignment."
-      },
-      {
-        "key": "B",
         "text": "It prevents pencils from rolling off."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "It is required by law for all students."
+      },
+      {
+        "key": "C",
+        "text": "It promotes optimal wrist extension, stabilizes the paper, and improves visual tracking and neck alignment."
       },
       {
         "key": "D",
         "text": "It makes students write faster than computers."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Slant boards position the wrist at a functional 20-degree extension, easing finger grasp fatigue and aligning visual focus."
   },
   {
@@ -1758,22 +1758,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Wide, uncluttered aisles (at least 36 inches wide), predictable furniture arrangements, and zero tripping hazards."
-      },
-      {
-        "key": "B",
         "text": "Desks crammed tightly against each other."
       },
       {
+        "key": "B",
+        "text": "Wide, uncluttered aisles (at least 36 inches wide), predictable furniture arrangements, and zero tripping hazards."
+      },
+      {
         "key": "C",
-        "text": "Electric cords stretched across doorways."
+        "text": "Dim lighting in all corners."
       },
       {
         "key": "D",
-        "text": "Dim lighting in all corners."
+        "text": "Electric cords stretched across doorways."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Universal accessibility requires wide passageways, clear tactile boundaries, consistent furniture placement, and eliminating hazardous floor clutter."
   },
   {
@@ -1787,15 +1787,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To form an exclusive secret club."
-      },
-      {
-        "key": "C",
         "text": "To exclude new transfer students."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "To gossip about teachers."
+      },
+      {
+        "key": "D",
+        "text": "To form an exclusive secret club."
       }
     ],
     "correctAnswer": "A",
@@ -1833,22 +1833,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminating gender stereotyping in learning materials, ensuring safe gender-neutral sanitation, and protecting all students from gender-based bullying and discrimination."
+        "text": "Ignoring harassment claims."
       },
       {
         "key": "B",
-        "text": "Assigning cleaning tasks only to female students."
+        "text": "Eliminating gender stereotyping in learning materials, ensuring safe gender-neutral sanitation, and protecting all students from gender-based bullying and discrimination."
       },
       {
         "key": "C",
-        "text": "Barring male students from home economics."
+        "text": "Assigning cleaning tasks only to female students."
       },
       {
         "key": "D",
-        "text": "Ignoring harassment claims."
+        "text": "Barring male students from home economics."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "DO 32, s. 2017 mandates gender-responsive, anti-discriminatory learning environments free from stereotyping, harassment, and marginalization."
   },
   {
@@ -1858,22 +1858,22 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Human diversity is celebrated, every individual is recognized with inherent dignity, and all persons have equitable access, participation, and belonging in community life."
+        "text": "Schools operate as profit-driven corporations."
       },
       {
         "key": "B",
-        "text": "All people think and act exactly the same."
-      },
-      {
-        "key": "C",
         "text": "Only high-performing individuals receive education."
       },
       {
+        "key": "C",
+        "text": "Human diversity is celebrated, every individual is recognized with inherent dignity, and all persons have equitable access, participation, and belonging in community life."
+      },
+      {
         "key": "D",
-        "text": "Schools operate as profit-driven corporations."
+        "text": "All people think and act exactly the same."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Inclusive education envisions an equitable, compassionate society where diversity is valued as a collective strength and every human being belongs and flourishes unconditionally."
   }
 ];

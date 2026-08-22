@@ -8,22 +8,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Traditional / Perennialist View"
+        "text": "Critical Pedagogy View"
       },
       {
         "key": "B",
-        "text": "Progressive / Pragmatist View"
+        "text": "Traditional / Perennialist View"
       },
       {
         "key": "C",
-        "text": "Critical Pedagogy View"
+        "text": "Progressive / Pragmatist View"
       },
       {
         "key": "D",
         "text": "Reconstructionist View"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Traditionalists (Hutchins, Bestor, Adler) view the curriculum as a permanent body of academic subjects and foundational disciplines centered on intellectual rigor and timeless wisdom."
   },
   {
@@ -33,22 +33,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Progressivism (Learner-Centered)"
-      },
-      {
-        "key": "B",
         "text": "Essentialism"
       },
       {
+        "key": "B",
+        "text": "Scholasticism"
+      },
+      {
         "key": "C",
-        "text": "Perennialism"
+        "text": "Progressivism (Learner-Centered)"
       },
       {
         "key": "D",
-        "text": "Scholasticism"
+        "text": "Perennialism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Progressivism (Dewey, Caswell & Campbell, Marsh & Willis) defines curriculum broadly as all the authentic, guided experiences a learner undergoes under the direction of the school."
   },
   {
@@ -62,15 +62,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Written Curriculum"
-      },
-      {
-        "key": "C",
         "text": "Taught Curriculum"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Hidden Curriculum"
+      },
+      {
+        "key": "D",
+        "text": "Written Curriculum"
       }
     ],
     "correctAnswer": "A",
@@ -83,7 +83,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Written Curriculum"
+        "text": "Assessed Curriculum"
       },
       {
         "key": "B",
@@ -91,14 +91,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Assessed Curriculum"
+        "text": "Learned Curriculum"
       },
       {
         "key": "D",
-        "text": "Learned Curriculum"
+        "text": "Written Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Written Curriculum includes all officially documented and sanctioned materials: curriculum guides, course syllabi, textbooks, lesson plans, and learning modules."
   },
   {
@@ -108,11 +108,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Taught Curriculum"
+        "text": "Supported Curriculum"
       },
       {
         "key": "B",
-        "text": "Supported Curriculum"
+        "text": "Taught Curriculum"
       },
       {
         "key": "C",
@@ -123,7 +123,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Hidden Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Taught Curriculum is what is actually implemented, delivered, and facilitated by the teacher in interaction with the learners inside the learning environment."
   },
   {
@@ -133,22 +133,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Supported Curriculum"
-      },
-      {
-        "key": "B",
         "text": "Assessed Curriculum"
       },
       {
+        "key": "B",
+        "text": "Written Curriculum"
+      },
+      {
         "key": "C",
-        "text": "Learned Curriculum"
+        "text": "Supported Curriculum"
       },
       {
         "key": "D",
-        "text": "Written Curriculum"
+        "text": "Learned Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Supported Curriculum comprises all instructional materials, facilities, physical equipment, books, laboratories, and resources that support teaching and learning."
   },
   {
@@ -162,7 +162,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Taught Curriculum"
+        "text": "Recommended Curriculum"
       },
       {
         "key": "C",
@@ -170,7 +170,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Recommended Curriculum"
+        "text": "Taught Curriculum"
       }
     ],
     "correctAnswer": "A",
@@ -183,22 +183,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learned Curriculum"
+        "text": "Recommended Curriculum"
       },
       {
         "key": "B",
-        "text": "Written Curriculum"
-      },
-      {
-        "key": "C",
         "text": "Supported Curriculum"
       },
       {
+        "key": "C",
+        "text": "Written Curriculum"
+      },
+      {
         "key": "D",
-        "text": "Recommended Curriculum"
+        "text": "Learned Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Learned Curriculum denotes the actual learning outcomes: the cognitive changes, behavioral transformations, and internalized values mastered by students."
   },
   {
@@ -208,7 +208,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hidden / Implicit Curriculum"
+        "text": "Written Curriculum"
       },
       {
         "key": "B",
@@ -216,14 +216,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Written Curriculum"
+        "text": "Hidden / Implicit Curriculum"
       },
       {
         "key": "D",
         "text": "Recommended Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Hidden Curriculum consists of the unintended, subtle messages, organizational values, cultural assumptions, and behavioral codes transmitted informally in schools."
   },
   {
@@ -233,22 +233,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Planner and Writer"
+        "text": "Spectator"
       },
       {
         "key": "B",
-        "text": "Innovator only"
+        "text": "Planner and Writer"
       },
       {
         "key": "C",
-        "text": "Evaluator only"
+        "text": "Innovator only"
       },
       {
         "key": "D",
-        "text": "Spectator"
+        "text": "Evaluator only"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A Curricularist wears 7 key hats: Planner (makes yearly/daily plans), Writer (creates modules/lesson plans), Initiator (introduces change), Innovator (creates creative approaches), Implementor (delivers in class), Manager (organizes resources), and Evaluator (determines effectiveness)."
   },
   {
@@ -258,22 +258,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Perennialism"
+        "text": "Existentialism"
       },
       {
         "key": "B",
-        "text": "Progressivism"
-      },
-      {
-        "key": "C",
         "text": "Reconstructionism"
       },
       {
+        "key": "C",
+        "text": "Perennialism"
+      },
+      {
         "key": "D",
-        "text": "Existentialism"
+        "text": "Progressivism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Perennialism advocates for a curriculum centered on eternal truths, classical Great Books, and universal human themes that remain unchanged across centuries."
   },
   {
@@ -308,7 +308,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Social Reconstructionism"
+        "text": "Idealism"
       },
       {
         "key": "B",
@@ -316,14 +316,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Essentialism"
+        "text": "Social Reconstructionism"
       },
       {
         "key": "D",
-        "text": "Idealism"
+        "text": "Essentialism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Social Reconstructionism (Brameld, Counts, Paulo Freire) positions the curriculum as a catalyst for social reform, critical consciousness (*conscientization*), and active democratic change."
   },
   {
@@ -337,7 +337,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Werrett Charters"
+        "text": "Ralph Tyler"
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ralph Tyler"
+        "text": "Werrett Charters"
       }
     ],
     "correctAnswer": "A",
@@ -358,22 +358,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Specific measurable student activities and social ideals connected to occupational tasks."
-      },
-      {
-        "key": "B",
-        "text": "Astrological calendars"
-      },
-      {
-        "key": "C",
         "text": "Random student whims"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Purely ancient Latin poetry"
+      },
+      {
+        "key": "C",
+        "text": "Astrological calendars"
+      },
+      {
+        "key": "D",
+        "text": "Specific measurable student activities and social ideals connected to occupational tasks."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Charters advocated that curriculum construction must connect subject matter directly to verified adult life activities and specific functional objectives."
   },
   {
@@ -383,11 +383,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Project Method"
+        "text": "The Socratic Dialogue"
       },
       {
         "key": "B",
-        "text": "The Socratic Dialogue"
+        "text": "The Project Method"
       },
       {
         "key": "C",
@@ -398,7 +398,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "The Lecture Method"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "William Heard Kilpatrick developed 'The Project Method' (purposeful student-directed activities carried out in real-world social environments)."
   },
   {
@@ -412,15 +412,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strict rote memorization of multiplication tables exclusively."
+        "text": "Elimination of science education"
       },
       {
         "key": "C",
-        "text": "Corporal punishment"
+        "text": "Strict rote memorization of multiplication tables exclusively."
       },
       {
         "key": "D",
-        "text": "Elimination of science education"
+        "text": "Corporal punishment"
       }
     ],
     "correctAnswer": "A",
@@ -433,22 +433,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All learning experiences children have under the guidance of teachers."
-      },
-      {
-        "key": "B",
-        "text": "Only the textbooks stored in the library."
-      },
-      {
-        "key": "C",
         "text": "The physical school blueprint"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "The official salary scale of school heads"
+      },
+      {
+        "key": "C",
+        "text": "All learning experiences children have under the guidance of teachers."
+      },
+      {
+        "key": "D",
+        "text": "Only the textbooks stored in the library."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Caswell and Campbell redefined curriculum as 'all experiences children have under the guidance of teachers', organizing learning around social functions."
   },
   {
@@ -458,7 +458,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Four (4) fundamental questions"
+        "text": "Seven (7) fundamental questions"
       },
       {
         "key": "B",
@@ -470,10 +470,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Seven (7) fundamental questions"
+        "text": "Four (4) fundamental questions"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Tyler's 4 questions: 1. What educational purposes should the school seek to attain? 2. What experiences can attain them? 3. How can experiences be effectively organized? 4. How can we evaluate whether purposes are attained?"
   },
   {
@@ -483,22 +483,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Philosophical Screen and Psychological Screen"
-      },
-      {
-        "key": "B",
         "text": "Financial Screen and Administrative Screen"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Political Screen and Demographic Screen"
+      },
+      {
+        "key": "C",
+        "text": "Philosophical Screen and Psychological Screen"
       },
       {
         "key": "D",
         "text": "Technological Screen and Media Screen"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Tyler posits that tentative objectives must be filtered through: 1. Educational Philosophy (school values/aims) and 2. Psychology of Learning (developmental feasibility)."
   },
   {
@@ -508,22 +508,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because it argues that curriculum should be designed by classroom teachers who teach the students, starting inductively from specific classroom units rather than top-down administrators."
-      },
-      {
-        "key": "B",
         "text": "Because it focuses only on agricultural botany courses."
       },
       {
+        "key": "B",
+        "text": "Because it argues that curriculum should be designed by classroom teachers who teach the students, starting inductively from specific classroom units rather than top-down administrators."
+      },
+      {
         "key": "C",
-        "text": "Because it eliminates national curriculum standards."
+        "text": "Because it was created in rural farm communities."
       },
       {
         "key": "D",
-        "text": "Because it was created in rural farm communities."
+        "text": "Because it eliminates national curriculum standards."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hilda Taba believed that teachers who directly interact with students should develop the curriculum (bottom-up/grassroots), moving inductively from specific teaching units to general design."
   },
   {
@@ -537,15 +537,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Formulation of Objectives"
-      },
-      {
-        "key": "C",
         "text": "Selection of Learning Content"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Determination of What to Evaluate"
+      },
+      {
+        "key": "D",
+        "text": "Formulation of Objectives"
       }
     ],
     "correctAnswer": "A",
@@ -558,7 +558,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Curriculum Evaluation"
+        "text": "Political Negotiation"
       },
       {
         "key": "B",
@@ -570,10 +570,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Political Negotiation"
+        "text": "Curriculum Evaluation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Saylor, Alexander, and Lewis (1981) model comprises: 1. Goals, Objectives & Domains -> 2. Curriculum Designing -> 3. Curriculum Implementation (Instruction) -> 4. Curriculum Evaluation."
   },
   {
@@ -583,22 +583,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Desirable (as society changes, schools must respond)"
+        "text": "Temporary"
       },
       {
         "key": "B",
-        "text": "Dangerous"
+        "text": "Desirable (as society changes, schools must respond)"
       },
       {
         "key": "C",
-        "text": "Temporary"
+        "text": "Dangerous"
       },
       {
         "key": "D",
         "text": "Expensive"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Oliva's Axiom 1 states that curriculum change is inevitable, necessary, and desirable because contemporary social and technological changes demand institutional adaptation."
   },
   {
@@ -608,22 +608,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A contemporary curriculum reflects the social, political, economic, and cultural realities of the historical era in which it was created."
-      },
-      {
-        "key": "B",
         "text": "Curriculum can only be taught during daytime hours."
       },
       {
+        "key": "B",
+        "text": "Ancient curricula are always better than modern ones."
+      },
+      {
         "key": "C",
-        "text": "Curriculum expires in exactly 12 months."
+        "text": "A contemporary curriculum reflects the social, political, economic, and cultural realities of the historical era in which it was created."
       },
       {
         "key": "D",
-        "text": "Ancient curricula are always better than modern ones."
+        "text": "Curriculum expires in exactly 12 months."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Axiom 2 emphasizes that curricula reflect the societal challenges, ideologies, and priorities of the specific historical context in which they are designed."
   },
   {
@@ -633,22 +633,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Can coexist with, and are often revised into, newer curriculum designs rather than being completely erased."
-      },
-      {
-        "key": "B",
-        "text": "Must be burned and erased immediately."
-      },
-      {
-        "key": "C",
         "text": "Are completely useless in modern times."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Can coexist with, and are often revised into, newer curriculum designs rather than being completely erased."
+      },
+      {
+        "key": "C",
         "text": "Never have any relationship to current practices."
+      },
+      {
+        "key": "D",
+        "text": "Must be burned and erased immediately."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Axiom 3 notes that curriculum changes rarely start from a completely blank slate; prior curricular foundations overlap and integrate with new innovations."
   },
   {
@@ -658,7 +658,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Real curriculum reform requires changing the attitudes, pedagogical beliefs, and competencies of teachers and administrators who implement it."
+        "text": "Computers are more important than teachers."
       },
       {
         "key": "B",
@@ -666,14 +666,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Computers are more important than teachers."
+        "text": "Students should be replaced every semester."
       },
       {
         "key": "D",
-        "text": "Students should be replaced every semester."
+        "text": "Real curriculum reform requires changing the attitudes, pedagogical beliefs, and competencies of teachers and administrators who implement it."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Axiom 5 stresses that curriculum documents on paper mean nothing without transforming the mindset, skills, and values of the educators who deliver it."
   },
   {
@@ -691,11 +691,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Attendance"
+        "text": "Administration"
       },
       {
         "key": "D",
-        "text": "Administration"
+        "text": "Attendance"
       }
     ],
     "correctAnswer": "A",
@@ -708,22 +708,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Scope"
-      },
-      {
-        "key": "B",
-        "text": "Sequence"
-      },
-      {
-        "key": "C",
         "text": "Continuity"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Scope"
+      },
+      {
+        "key": "C",
         "text": "Balance"
+      },
+      {
+        "key": "D",
+        "text": "Sequence"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Scope refers to the totality of topics, themes, learning objectives, and depth of content covered within a curriculum."
   },
   {
@@ -733,11 +733,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sequence"
+        "text": "Integration"
       },
       {
         "key": "B",
-        "text": "Integration"
+        "text": "Scope"
       },
       {
         "key": "C",
@@ -745,10 +745,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Scope"
+        "text": "Sequence"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Sequence deals with the order and progression in which content and learning experiences are organized over time."
   },
   {
@@ -758,22 +758,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Continuity (Vertical repetition and recurring revisiting of key concepts with increasing depth and complexity over time)"
+        "text": "Compartmentalization"
       },
       {
         "key": "B",
-        "text": "Terminal evaluation"
+        "text": "Continuity (Vertical repetition and recurring revisiting of key concepts with increasing depth and complexity over time)"
       },
       {
         "key": "C",
-        "text": "Compartmentalization"
+        "text": "Terminal evaluation"
       },
       {
         "key": "D",
         "text": "Rote memorization"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Continuity refers to the vertical recurrence and revisiting of major themes across grade levels at increasing sophistication (the Spiral Curriculum)."
   },
   {
@@ -783,7 +783,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Integration"
+        "text": "Divergence"
       },
       {
         "key": "B",
@@ -791,14 +791,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Fragmentation"
+        "text": "Integration"
       },
       {
         "key": "D",
-        "text": "Divergence"
+        "text": "Fragmentation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Integration connects disparate subject disciplines horizontally, enabling learners to see unified, holistic relationships across knowledge domains."
   },
   {
@@ -812,15 +812,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Sequence"
-      },
-      {
-        "key": "C",
         "text": "Continuity"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Articulation"
+      },
+      {
+        "key": "D",
+        "text": "Sequence"
       }
     ],
     "correctAnswer": "A",
@@ -833,22 +833,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Driving forces (promoters of change) outweigh and overcome Restraining forces (resisters to change)."
-      },
-      {
-        "key": "B",
         "text": "Restraining forces are maximized."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "All teachers remain completely passive."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The school stops communicating with stakeholders."
+      },
+      {
+        "key": "D",
+        "text": "Driving forces (promoters of change) outweigh and overcome Restraining forces (resisters to change)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Lewin's Force Field Analysis asserts that change occurs when driving forces (facilitating change) are strengthened and restraining forces (barriers/resistance) are reduced or eliminated."
   },
   {
@@ -858,11 +858,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Unfreezing -> Changing (Moving) -> Refreezing"
+        "text": "Planning -> Testing -> Grading"
       },
       {
         "key": "B",
-        "text": "Planning -> Testing -> Grading"
+        "text": "Unfreezing -> Changing (Moving) -> Refreezing"
       },
       {
         "key": "C",
@@ -873,7 +873,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Ignoring -> Resisting -> Submitting"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Lewin's 3-stage model is: 1. Unfreezing (breaking old habits/preparing for change), 2. Changing/Moving (transitioning to new practices), and 3. Refreezing (institutionalizing and stabilizing new norms)."
   },
   {
@@ -883,22 +883,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To check the alignment and congruence between the written curriculum, taught curriculum, and assessed curriculum against national standards (e.g. PPST)."
+        "text": "To calculate total tuition profits."
       },
       {
         "key": "B",
-        "text": "To count the number of desks in a school."
+        "text": "To check the alignment and congruence between the written curriculum, taught curriculum, and assessed curriculum against national standards (e.g. PPST)."
       },
       {
         "key": "C",
-        "text": "To fire teachers who lack tenure."
+        "text": "To count the number of desks in a school."
       },
       {
         "key": "D",
-        "text": "To calculate total tuition profits."
+        "text": "To fire teachers who lack tenure."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "CQA rigorously evaluates whether what is written (syllabi), what is taught (classroom instruction), and what is tested (assessments) are tightly aligned with professional standards."
   },
   {
@@ -912,7 +912,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Subject-Centered Discipline Design"
+        "text": "Broad Fields Design"
       },
       {
         "key": "C",
@@ -920,7 +920,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Broad Fields Design"
+        "text": "Subject-Centered Discipline Design"
       }
     ],
     "correctAnswer": "A",
@@ -933,22 +933,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Broad Fields Design"
+        "text": "Child-Centered Design"
       },
       {
         "key": "B",
-        "text": "Separate Subjects Design"
-      },
-      {
-        "key": "C",
         "text": "Correlation Design"
       },
       {
+        "key": "C",
+        "text": "Separate Subjects Design"
+      },
+      {
         "key": "D",
-        "text": "Child-Centered Design"
+        "text": "Broad Fields Design"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Broad Fields Design merges related individual disciplines into an expansive interdisciplinary subject area (e.g., General Science, Social Studies, Language Arts)."
   },
   {
@@ -958,22 +958,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A set of common, essential learning experiences and foundational subjects required for all students regardless of specialization."
-      },
-      {
-        "key": "B",
         "text": "An elective chosen by only 5% of students."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "A remedial course for failing students."
+      },
+      {
+        "key": "C",
+        "text": "A set of common, essential learning experiences and foundational subjects required for all students regardless of specialization."
       },
       {
         "key": "D",
         "text": "A sports training program."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "A Core Curriculum provides a common body of essential knowledge, values, and competencies deemed indispensable for all educated citizens in a democratic society."
   },
   {
@@ -983,22 +983,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They provide resource support, authentic contextual learning environments, and ensure curriculum relevance to community needs."
+        "text": "They determine daily lesson plans independently of teachers."
       },
       {
         "key": "B",
-        "text": "They are authorized to write national LET exams."
+        "text": "They provide resource support, authentic contextual learning environments, and ensure curriculum relevance to community needs."
       },
       {
         "key": "C",
-        "text": "They teach all high school classes without licenses."
+        "text": "They are authorized to write national LET exams."
       },
       {
         "key": "D",
-        "text": "They determine daily lesson plans independently of teachers."
+        "text": "They teach all high school classes without licenses."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Parents and community partners provide essential contextual backing, resource sharing, real-world learning linkages, and feedback on graduate readiness."
   },
   {
@@ -1008,22 +1008,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "13 years (1 year Kindergarten + 6 years Elementary + 4 years Junior HS + 2 years Senior HS)"
-      },
-      {
-        "key": "B",
-        "text": "10 years (6 Elementary + 4 High School)"
-      },
-      {
-        "key": "C",
         "text": "14 years"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "11 years"
+      },
+      {
+        "key": "C",
+        "text": "13 years (1 year Kindergarten + 6 years Elementary + 4 years Junior HS + 2 years Senior HS)"
+      },
+      {
+        "key": "D",
+        "text": "10 years (6 Elementary + 4 High School)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 10533 established 13 years of compulsory basic education: Universal Kindergarten (1 yr), Elementary (6 yrs), Junior High (4 yrs), and Senior High (2 yrs)."
   },
   {
@@ -1033,7 +1033,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Children learn to read, write, and grasp abstract concepts fastest and most solidly in their first language (L1), bridging smoothly to Filipino (L2) and English (L3)."
+        "text": "To prevent students from travelling to other regions."
       },
       {
         "key": "B",
@@ -1045,10 +1045,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "To prevent students from travelling to other regions."
+        "text": "Children learn to read, write, and grasp abstract concepts fastest and most solidly in their first language (L1), bridging smoothly to Filipino (L2) and English (L3)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Educational linguistics proves that foundational literacy and cognitive development are most effective in the learner's native tongue (L1), creating a strong bridge for additional languages."
   },
   {
@@ -1058,7 +1058,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Academic, Technical-Vocational-Livelihood (TVL), Sports, and Arts and Design"
+        "text": "Primary, Intermediate, Secondary, and Tertiary"
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Primary, Intermediate, Secondary, and Tertiary"
+        "text": "Academic, Technical-Vocational-Livelihood (TVL), Sports, and Arts and Design"
       },
       {
         "key": "D",
         "text": "Formal, Non-Formal, Informal, and Distance"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Senior High School offers four tracks: 1. Academic Track (STEM, ABM, HUMSS, GAS), 2. TVL Track, 3. Sports Track, and 4. Arts and Design Track."
   },
   {
@@ -1083,11 +1083,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Decongesting' the curriculum to focus on foundational literacy, numeracy, and socio-emotional 21st-century skills while reducing overcrowded learning competencies."
+        "text": "Replacing all teachers with television broadcasts."
       },
       {
         "key": "B",
-        "text": "Adding 50 new subjects to Kindergarten."
+        "text": "'Decongesting' the curriculum to focus on foundational literacy, numeracy, and socio-emotional 21st-century skills while reducing overcrowded learning competencies."
       },
       {
         "key": "C",
@@ -1095,10 +1095,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Replacing all teachers with television broadcasts."
+        "text": "Adding 50 new subjects to Kindergarten."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The MATATAG Curriculum decongested the overcrowded basic education curriculum by over 70%, focusing intensely on foundational literacy, numeracy, and essential competencies."
   },
   {
@@ -1108,22 +1108,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Context, Input, Process, and Product"
-      },
-      {
-        "key": "B",
-        "text": "Curriculum, Instruction, Pedagogy, and Performance"
-      },
-      {
-        "key": "C",
         "text": "Content, Interest, Planning, and Practice"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Cognition, Intelligence, Personality, and Progress"
+      },
+      {
+        "key": "C",
+        "text": "Curriculum, Instruction, Pedagogy, and Performance"
+      },
+      {
+        "key": "D",
+        "text": "Context, Input, Process, and Product"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The CIPP Model evaluates: 1. Context (needs assessment/goals), 2. Input (resources/plans), 3. Process (implementation quality), and 4. Product (outcomes and impact)."
   },
   {
@@ -1133,7 +1133,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Context Evaluation"
+        "text": "Process Evaluation"
       },
       {
         "key": "B",
@@ -1141,14 +1141,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Process Evaluation"
+        "text": "Context Evaluation"
       },
       {
         "key": "D",
         "text": "Input Evaluation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Context Evaluation diagnoses environment needs, problems, underlying assets, and opportunities to define relevant curricular goals."
   },
   {
@@ -1162,15 +1162,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Context Evaluation"
+        "text": "Product Evaluation"
       },
       {
         "key": "C",
-        "text": "Input Evaluation"
+        "text": "Context Evaluation"
       },
       {
         "key": "D",
-        "text": "Product Evaluation"
+        "text": "Input Evaluation"
       }
     ],
     "correctAnswer": "A",
@@ -1183,22 +1183,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Responding directly to the real-time concerns, perspectives, and lived experiences of on-the-ground stakeholders rather than rigid pre-set objectives."
-      },
-      {
-        "key": "B",
-        "text": "Standardized multiple-choice machine scoring."
-      },
-      {
-        "key": "C",
         "text": "Strict numerical cost-benefit profit calculations."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Military compliance inspections."
+      },
+      {
+        "key": "C",
+        "text": "Responding directly to the real-time concerns, perspectives, and lived experiences of on-the-ground stakeholders rather than rigid pre-set objectives."
+      },
+      {
+        "key": "D",
+        "text": "Standardized multiple-choice machine scoring."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Stake's Responsive Model is transactional and qualitative, focusing on emergent stakeholder issues and personal meanings rather than strict predetermined objectives."
   },
   {
@@ -1208,11 +1208,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Any condition, prior student abilities, teacher qualifications, and resources existing prior to teaching that may affect outcomes."
+        "text": "The final exam scores."
       },
       {
         "key": "B",
-        "text": "The final exam scores."
+        "text": "The graduation march."
       },
       {
         "key": "C",
@@ -1220,10 +1220,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The graduation march."
+        "text": "Any condition, prior student abilities, teacher qualifications, and resources existing prior to teaching that may affect outcomes."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "In Stake's Countenance Model: Antecedents = pre-existing entry conditions; Transactions = classroom interactions during instruction; Outcomes = resulting learning achievements."
   },
   {
@@ -1233,22 +1233,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Horizontal Alignment"
-      },
-      {
-        "key": "B",
         "text": "Vertical Alignment"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Perpendicular Alignment"
+      },
+      {
+        "key": "C",
+        "text": "Horizontal Alignment"
       },
       {
         "key": "D",
         "text": "Diagonal Alignment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Horizontal Alignment ensures consistency and equity across parallel classrooms and sections within the same grade level. Vertical Alignment ensures seamless progression from one grade level to the next (Grade 7 -> Grade 8)."
   },
   {
@@ -1266,11 +1266,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Random Sequence"
+        "text": "Lateral Articulation"
       },
       {
         "key": "D",
-        "text": "Lateral Articulation"
+        "text": "Random Sequence"
       }
     ],
     "correctAnswer": "A",
@@ -1287,15 +1287,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A blank sheet of paper in a workbook."
-      },
-      {
-        "key": "C",
         "text": "A computer virus in school grading software."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "A canceled class due to weather."
+      },
+      {
+        "key": "D",
+        "text": "A blank sheet of paper in a workbook."
       }
     ],
     "correctAnswer": "A",
@@ -1308,7 +1308,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Covert / Hidden Curriculum"
+        "text": "Supported Curriculum"
       },
       {
         "key": "B",
@@ -1316,14 +1316,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Supported Curriculum"
+        "text": "Assessed Curriculum"
       },
       {
         "key": "D",
-        "text": "Assessed Curriculum"
+        "text": "Covert / Hidden Curriculum"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Overt Curriculum is open and explicit, whereas the Covert/Hidden Curriculum is implicit and unwritten."
   },
   {
@@ -1333,22 +1333,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Localization involves relating learning content to local materials, local dialect, and community culture; Contextualization is the broader process of making concepts meaningful to students' lived realities."
+        "text": "Localization applies only to mathematics."
       },
       {
         "key": "B",
-        "text": "Localization is illegal while contextualization is legal."
+        "text": "Localization involves relating learning content to local materials, local dialect, and community culture; Contextualization is the broader process of making concepts meaningful to students' lived realities."
       },
       {
         "key": "C",
-        "text": "Localization applies only to mathematics."
+        "text": "Localization is illegal while contextualization is legal."
       },
       {
         "key": "D",
         "text": "There is no distinction between the two."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Localization adapts curriculum content to local community resources and examples, while Contextualization attaches curriculum to relevant learner life contexts."
   },
   {
@@ -1358,22 +1358,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Embedding Indigenous Knowledge Systems and Practices (IKSPs), cultural perspectives, and community elders' wisdom into the curriculum framework."
-      },
-      {
-        "key": "B",
         "text": "Banning indigenous languages from schools."
       },
       {
+        "key": "B",
+        "text": "Replacing science with mythology."
+      },
+      {
         "key": "C",
-        "text": "Copying curricula from foreign Western countries verbatim."
+        "text": "Embedding Indigenous Knowledge Systems and Practices (IKSPs), cultural perspectives, and community elders' wisdom into the curriculum framework."
       },
       {
         "key": "D",
-        "text": "Replacing science with mythology."
+        "text": "Copying curricula from foreign Western countries verbatim."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Indigenization deepens contextualization by centering Indigenous Knowledge Systems and Practices (IKSPs) in learning competencies (IPEd Framework, DO 62, s. 2011)."
   },
   {
@@ -1387,7 +1387,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To find the geographic directions to the school building."
+        "text": "To design the school sports festival banner."
       },
       {
         "key": "C",
@@ -1395,7 +1395,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "To design the school sports festival banner."
+        "text": "To find the geographic directions to the school building."
       }
     ],
     "correctAnswer": "A",
@@ -1408,7 +1408,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Curriculum Differentiation"
+        "text": "Punitive Grading"
       },
       {
         "key": "B",
@@ -1416,14 +1416,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Punitive Grading"
+        "text": "Curriculum Elimination"
       },
       {
         "key": "D",
-        "text": "Curriculum Elimination"
+        "text": "Curriculum Differentiation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Curriculum Differentiation adjusts the complexity, pacing, content, and products to match diverse student readiness levels, interests, and learning profiles."
   },
   {
@@ -1433,11 +1433,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Test out of concepts they have already mastered and replace that time with enrichment or accelerated learning opportunities."
+        "text": "Skip school and sleep at home."
       },
       {
         "key": "B",
-        "text": "Skip school and sleep at home."
+        "text": "Test out of concepts they have already mastered and replace that time with enrichment or accelerated learning opportunities."
       },
       {
         "key": "C",
@@ -1448,7 +1448,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Receive lower grades to teach them humility."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Curriculum Compacting pre-assesses gifted learners, eliminates already-mastered content, and frees up instructional time for deeper enrichment projects."
   },
   {
@@ -1458,22 +1458,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Design Down / Backward Planning' — starting with a clear picture of what graduates should ultimately demonstrate at the end of their education, and organizing curriculum around that outcome."
+        "text": "Teaching whatever the teacher feels like on that day."
       },
       {
         "key": "B",
-        "text": "Focusing strictly on textbook page numbers."
+        "text": "'Design Down / Backward Planning' — starting with a clear picture of what graduates should ultimately demonstrate at the end of their education, and organizing curriculum around that outcome."
       },
       {
         "key": "C",
-        "text": "Grading based on classroom attendance percentage."
+        "text": "Focusing strictly on textbook page numbers."
       },
       {
         "key": "D",
-        "text": "Teaching whatever the teacher feels like on that day."
+        "text": "Grading based on classroom attendance percentage."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Spady's 4 OBE principles: 1. Clarity of focus, 2. Design Down (start with end outcomes), 3. High expectations, and 4. Expanded opportunities."
   },
   {
@@ -1483,11 +1483,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
+        "text": "Classroom paint color and uniform color"
       },
       {
         "key": "B",
-        "text": "Textbook weight and desk size"
+        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
       },
       {
         "key": "C",
@@ -1495,10 +1495,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Classroom paint color and uniform color"
+        "text": "Textbook weight and desk size"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "In OBTL, ILOs, TLAs, and ATs must be constructively aligned so every activity directly fosters and measures the intended outcome."
   },
   {
@@ -1512,11 +1512,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Improvement is expensive while innovation is free."
+        "text": "Improvement is only done by principals."
       },
       {
         "key": "C",
-        "text": "Improvement is only done by principals."
+        "text": "Improvement is expensive while innovation is free."
       },
       {
         "key": "D",
@@ -1533,7 +1533,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adjust and adapt the curriculum to fit local classroom realities and learner needs while maintaining the integrity of core standards."
+        "text": "Refuse to teach."
       },
       {
         "key": "B",
@@ -1541,14 +1541,14 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Throw away the national curriculum completely."
+        "text": "Adjust and adapt the curriculum to fit local classroom realities and learner needs while maintaining the integrity of core standards."
       },
       {
         "key": "D",
-        "text": "Refuse to teach."
+        "text": "Throw away the national curriculum completely."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Mutual Adaptation views implementation as an active dialogue where both the curriculum design and the classroom environment adjust to optimize learning."
   },
   {
@@ -1558,11 +1558,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deliver the curriculum exactly as originally scripted and intended by the curriculum developers without unauthorized modifications."
+        "text": "Never use textbooks."
       },
       {
         "key": "B",
-        "text": "Make up their own syllabus every week."
+        "text": "Deliver the curriculum exactly as originally scripted and intended by the curriculum developers without unauthorized modifications."
       },
       {
         "key": "C",
@@ -1570,10 +1570,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Never use textbooks."
+        "text": "Make up their own syllabus every week."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Fidelity Approach measures implementation success by how faithfully practitioners replicate the exact curriculum design as planned."
   },
   {
@@ -1583,22 +1583,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It empowers local school teachers and leaders to tailor programs to their specific community context, student culture, and available resources."
-      },
-      {
-        "key": "B",
         "text": "It eliminates national licensing exams."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "It removes all science subjects."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "It lowers teacher accountability."
+      },
+      {
+        "key": "D",
+        "text": "It empowers local school teachers and leaders to tailor programs to their specific community context, student culture, and available resources."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "SBCD promotes decentralization, institutional ownership, responsiveness to local community ecology, and high teacher professional autonomy."
   },
   {
@@ -1608,11 +1608,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Spiral Progression: Integrated strands (Biology, Chemistry, Physics, Earth Science) are taught every school year with increasing depth each year."
+        "text": "Discipline-based: 1 year pure Biology, 1 year pure Chemistry, 1 year pure Physics, 1 year pure Earth Science."
       },
       {
         "key": "B",
-        "text": "Discipline-based: 1 year pure Biology, 1 year pure Chemistry, 1 year pure Physics, 1 year pure Earth Science."
+        "text": "Spiral Progression: Integrated strands (Biology, Chemistry, Physics, Earth Science) are taught every school year with increasing depth each year."
       },
       {
         "key": "C",
@@ -1623,7 +1623,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "No science is taught until college."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The K to 12 Science curriculum replaced discipline-based yearly isolation with a Spiral Progression approach, revisiting all 4 branches with expanding complexity annually."
   },
   {
@@ -1637,15 +1637,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To generate commercial profits from book sales."
+        "text": "To award medals to administrators."
       },
       {
         "key": "C",
-        "text": "To delay educational reform indefinitely."
+        "text": "To generate commercial profits from book sales."
       },
       {
         "key": "D",
-        "text": "To award medals to administrators."
+        "text": "To delay educational reform indefinitely."
       }
     ],
     "correctAnswer": "A",
@@ -1662,7 +1662,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Unfreezing"
+        "text": "Disruption"
       },
       {
         "key": "C",
@@ -1670,7 +1670,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Disruption"
+        "text": "Unfreezing"
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Instructional / Curriculum Leader"
-      },
-      {
-        "key": "B",
-        "text": "Authoritarian Manager"
-      },
-      {
-        "key": "C",
         "text": "Administrative Bureaucrat only"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "External Auditor"
+      },
+      {
+        "key": "C",
+        "text": "Authoritarian Manager"
+      },
+      {
+        "key": "D",
+        "text": "Instructional / Curriculum Leader"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Instructional leadership focuses directly on teaching quality, curriculum alignment, collaborative professional learning communities (LAC), and student outcomes."
   },
   {
@@ -1708,22 +1708,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The degree of perfect matching and harmony between intended learning outcomes, actual classroom teaching, and evaluation tests."
-      },
-      {
-        "key": "B",
         "text": "When all teachers have identical handwriting."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "When school desks are arranged in circles."
+      },
+      {
+        "key": "C",
+        "text": "The degree of perfect matching and harmony between intended learning outcomes, actual classroom teaching, and evaluation tests."
       },
       {
         "key": "D",
         "text": "When tuition fees equal teacher salaries."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Curriculum Congruence refers to the exact alignment and alignment fit among the intended (written), taught, and assessed curricula."
   },
   {
@@ -1733,22 +1733,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because having too many superficial topics led to 'a mile wide and an inch deep' learning without deep mastery of foundational literacies."
-      },
-      {
-        "key": "B",
         "text": "To shorten school days to 1 hour."
       },
       {
+        "key": "B",
+        "text": "Because having too many superficial topics led to 'a mile wide and an inch deep' learning without deep mastery of foundational literacies."
+      },
+      {
         "key": "C",
-        "text": "To eliminate teacher jobs."
+        "text": "Because printing books became illegal."
       },
       {
         "key": "D",
-        "text": "Because printing books became illegal."
+        "text": "To eliminate teacher jobs."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Curriculum decongestion strips away bloated, overlapping competencies to ensure adequate depth, mastery, and application of foundational literacies."
   },
   {
@@ -1758,22 +1758,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Comparing national curriculum standards and student competencies against premier international benchmarks to ensure global competitiveness."
-      },
-      {
-        "key": "B",
-        "text": "Ordering wooden benches for school gardens."
-      },
-      {
-        "key": "C",
         "text": "Copying exam questions from international websites without translation."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Banning international students from visiting."
+      },
+      {
+        "key": "C",
+        "text": "Comparing national curriculum standards and student competencies against premier international benchmarks to ensure global competitiveness."
+      },
+      {
+        "key": "D",
+        "text": "Ordering wooden benches for school gardens."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Benchmarking evaluates national curricular rigor against international performance standards (PISA, TIMSS, ASEAN Framework) to ensure global comparability."
   },
   {
@@ -1783,7 +1783,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Horizontal Articulation / Correlation"
+        "text": "Disciplinary Segregation"
       },
       {
         "key": "B",
@@ -1795,10 +1795,10 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Disciplinary Segregation"
+        "text": "Horizontal Articulation / Correlation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Horizontal articulation creates cross-disciplinary correlations and reinforces skills simultaneously across parallel subjects at the same grade level."
   },
   {
@@ -1808,22 +1808,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Grade 8 teachers assume students know geometric proofs that were never included in the Grade 7 curriculum guide."
+        "text": "The math teacher is absent."
       },
       {
         "key": "B",
-        "text": "Two sections in the same grade use different colored notebooks."
+        "text": "Grade 8 teachers assume students know geometric proofs that were never included in the Grade 7 curriculum guide."
       },
       {
         "key": "C",
-        "text": "The math teacher is absent."
+        "text": "Two sections in the same grade use different colored notebooks."
       },
       {
         "key": "D",
         "text": "Students score 100% on the quiz."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "A breakdown in vertical articulation creates curricular gaps, where prerequisite knowledge expected in upper grades was omitted in lower grades."
   },
   {
@@ -1833,22 +1833,22 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Collect ongoing data to revise, improve, and refine curricular components before full completion."
-      },
-      {
-        "key": "B",
         "text": "Render a final verdict to permanently terminate a program."
       },
       {
+        "key": "B",
+        "text": "Collect ongoing data to revise, improve, and refine curricular components before full completion."
+      },
+      {
         "key": "C",
-        "text": "Rank schools on national news."
+        "text": "Calculate final graduation honors."
       },
       {
         "key": "D",
-        "text": "Calculate final graduation honors."
+        "text": "Rank schools on national news."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Formative curriculum evaluation provides diagnostic feedback during development to make in-flight improvements, whereas Summative evaluation judges overall effectiveness at the conclusion."
   },
   {
@@ -1862,15 +1862,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A passive robot who merely obeys administrative orders without question."
-      },
-      {
-        "key": "C",
         "text": "A mere clerk recording student attendance."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "A textbook delivery courier."
+      },
+      {
+        "key": "D",
+        "text": "A passive robot who merely obeys administrative orders without question."
       }
     ],
     "correctAnswer": "A",

@@ -8,7 +8,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A government official embezzles disaster relief funds intended for typhoon victims."
+        "text": "A tennis player wears a blue shirt instead of traditional white."
       },
       {
         "key": "B",
@@ -16,14 +16,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A tennis player wears a blue shirt instead of traditional white."
+        "text": "A pedestrian crosses the street outside the painted crosswalk."
       },
       {
         "key": "D",
-        "text": "A pedestrian crosses the street outside the painted crosswalk."
+        "text": "A government official embezzles disaster relief funds intended for typhoon victims."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Moral standards deal with matters of serious human harm, rights, justice, and profound human welfare, whereas non-moral standards govern etiquette, fashion, aesthetics, and procedural rules."
   },
   {
@@ -33,22 +33,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Organizational Moral Dilemma"
+        "text": "Structural / Systemic Moral Dilemma"
       },
       {
         "key": "B",
-        "text": "Individual Moral Dilemma"
+        "text": "Organizational Moral Dilemma"
       },
       {
         "key": "C",
-        "text": "Structural / Systemic Moral Dilemma"
+        "text": "Individual Moral Dilemma"
       },
       {
         "key": "D",
         "text": "Etiquette Violation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Organizational moral dilemmas occur within institutions or corporate bodies where competing moral obligations impact organizational members and external stakeholders."
   },
   {
@@ -58,22 +58,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Structural / Systemic Moral Dilemma"
-      },
-      {
-        "key": "B",
         "text": "Individual Dilemma"
       },
       {
+        "key": "B",
+        "text": "Micro-level Dilemma"
+      },
+      {
         "key": "C",
-        "text": "Personal Dilemma"
+        "text": "Structural / Systemic Moral Dilemma"
       },
       {
         "key": "D",
-        "text": "Micro-level Dilemma"
+        "text": "Personal Dilemma"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Structural dilemmas operate at the macro-level of societal institutions, legislation, economic systems, and multi-sectoral governance networks."
   },
   {
@@ -87,7 +87,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Universal moral truths exist across all human societies."
+        "text": "Scientific observation proves that ethics is an illusion."
       },
       {
         "key": "C",
@@ -95,7 +95,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Scientific observation proves that ethics is an illusion."
+        "text": "Universal moral truths exist across all human societies."
       }
     ],
     "correctAnswer": "A",
@@ -108,22 +108,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Historical atrocities such as slavery, Nazi genocide, or apartheid."
+        "text": "Architectural blueprints."
       },
       {
         "key": "B",
-        "text": "Table manners."
-      },
-      {
-        "key": "C",
         "text": "Grammatical errors."
       },
       {
+        "key": "C",
+        "text": "Table manners."
+      },
+      {
         "key": "D",
-        "text": "Architectural blueprints."
+        "text": "Historical atrocities such as slavery, Nazi genocide, or apartheid."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Rachels proves that under strict relativism, societies could never critique external atrocities (e.g. slavery or genocide) or recognize moral progress within their own culture."
   },
   {
@@ -158,22 +158,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deficiency (too little) and Excess (too much)"
+        "text": "Mind and Body"
       },
       {
         "key": "B",
-        "text": "Right and Wrong"
+        "text": "Deficiency (too little) and Excess (too much)"
       },
       {
         "key": "C",
-        "text": "Heaven and Hell"
+        "text": "Right and Wrong"
       },
       {
         "key": "D",
-        "text": "Mind and Body"
+        "text": "Heaven and Hell"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Golden Mean defines moral virtue as the golden middle ground between the vice of deficiency and the vice of excess (e.g. Courage is the mean between Cowardice and Rashness)."
   },
   {
@@ -183,22 +183,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deficiency: Cowardice | Excess: Rashness / Foolhardiness"
+        "text": "Deficiency: Sloth | Excess: Diligence"
       },
       {
         "key": "B",
-        "text": "Deficiency: Greed | Excess: Generosity"
-      },
-      {
-        "key": "C",
         "text": "Deficiency: Humility | Excess: Pride"
       },
       {
+        "key": "C",
+        "text": "Deficiency: Cowardice | Excess: Rashness / Foolhardiness"
+      },
+      {
         "key": "D",
-        "text": "Deficiency: Sloth | Excess: Diligence"
+        "text": "Deficiency: Greed | Excess: Generosity"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Courage represents the harmonious mean: too little confidence in danger is Cowardice (deficiency); excessive reckless confidence is Rashness (excess)."
   },
   {
@@ -208,22 +208,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Practical wisdom — the intellectual virtue of discerning the appropriate moral action in concrete, real-life situational contexts."
+        "text": "Physical bodily strength."
       },
       {
         "key": "B",
-        "text": "Theoretical mathematics."
-      },
-      {
-        "key": "C",
         "text": "Artistic painting technique."
       },
       {
+        "key": "C",
+        "text": "Theoretical mathematics."
+      },
+      {
         "key": "D",
-        "text": "Physical bodily strength."
+        "text": "Practical wisdom — the intellectual virtue of discerning the appropriate moral action in concrete, real-life situational contexts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "*Phronesis* is practical moral wisdom that enables a person to deliberate well and apply virtuous principles to specific, complex life circumstances."
   },
   {
@@ -233,7 +233,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Good Will (acting purely out of moral duty and respect for the moral law)"
+        "text": "Money and status"
       },
       {
         "key": "B",
@@ -241,14 +241,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Money and status"
+        "text": "A Good Will (acting purely out of moral duty and respect for the moral law)"
       },
       {
         "key": "D",
         "text": "Talent and intelligence"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Kant famously opens the *Groundwork*: 'Nothing in the world... can possibly be conceived which could be called good without qualification except a Good Will.'"
   },
   {
@@ -266,11 +266,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'Do whatever your emotional feelings tell you to do.'"
+        "text": "'Obey civil laws only when police are watching.'"
       },
       {
         "key": "D",
-        "text": "'Obey civil laws only when police are watching.'"
+        "text": "'Do whatever your emotional feelings tell you to do.'"
       }
     ],
     "correctAnswer": "A",
@@ -283,22 +283,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An End in itself, and never merely as a Means to an end."
+        "text": "A stepping stone for personal ambition."
       },
       {
         "key": "B",
-        "text": "A financial instrument for profit."
-      },
-      {
-        "key": "C",
         "text": "A disposable biological machine."
       },
       {
+        "key": "C",
+        "text": "An End in itself, and never merely as a Means to an end."
+      },
+      {
         "key": "D",
-        "text": "A stepping stone for personal ambition."
+        "text": "A financial instrument for profit."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Formula of Humanity demands unconditional respect for human dignity: rational human beings possess intrinsic moral worth and must never be exploited purely as instrumental tools."
   },
   {
@@ -308,11 +308,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Heteronomy (being governed by external outside forces/desires)"
+        "text": "Autonomy (self-governing moral reason)"
       },
       {
         "key": "B",
-        "text": "Autonomy (self-governing moral reason)"
+        "text": "Eudaimonia"
       },
       {
         "key": "C",
@@ -320,10 +320,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Eudaimonia"
+        "text": "Heteronomy (being governed by external outside forces/desires)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Heteronomy is action motivated by external incentives, punishments, or bodily inclinations; Autonomy is rational self-determination governed purely by moral duty."
   },
   {
@@ -337,11 +337,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strict adherence to ancient dogma regardless of human misery."
+        "text": "Personal selfish profit."
       },
       {
         "key": "C",
-        "text": "Personal selfish profit."
+        "text": "Strict adherence to ancient dogma regardless of human misery."
       },
       {
         "key": "D",
@@ -358,7 +358,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mill introduced Qualitative distinctions, asserting that Higher Intellectual/Moral pleasures (art, philosophy, friendship) are inherently superior to Lower Bodily pleasures ('Better to be Socrates dissatisfied than a pig satisfied')."
+        "text": "Mill replaced utilitarianism with divine command theory."
       },
       {
         "key": "B",
@@ -366,14 +366,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Mill stated all pleasures are identical in value."
+        "text": "Mill introduced Qualitative distinctions, asserting that Higher Intellectual/Moral pleasures (art, philosophy, friendship) are inherently superior to Lower Bodily pleasures ('Better to be Socrates dissatisfied than a pig satisfied')."
       },
       {
         "key": "D",
-        "text": "Mill replaced utilitarianism with divine command theory."
+        "text": "Mill stated all pleasures are identical in value."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Mill defended utilitarianism against critics ('pig philosophy') by demonstrating qualitative hierarchy: intellectual, aesthetic, and moral pleasures are qualitatively superior to mere physical pleasures."
   },
   {
@@ -387,15 +387,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Doctors do not know how to perform surgery."
-      },
-      {
-        "key": "C",
         "text": "Organs are too expensive."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Rule utilitarianism only applies to sports."
+      },
+      {
+        "key": "D",
+        "text": "Doctors do not know how to perform surgery."
       }
     ],
     "correctAnswer": "A",
@@ -408,22 +408,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Good is to be done and pursued, and evil is to be avoided.'"
-      },
-      {
-        "key": "B",
         "text": "'Survival of the fittest at all costs.'"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "'Maximize economic wealth.'"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "'Pleasure is the only good.'"
+      },
+      {
+        "key": "D",
+        "text": "'Good is to be done and pursued, and evil is to be avoided.'"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "St. Thomas Aquinas establishes *Synderesis* as the innate, universal first principle of natural moral reasoning: 'Bonum est faciendum et prosequendum, et malum vitandum' (Good is to be done, evil avoided)."
   },
   {
@@ -433,22 +433,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1. The act itself is morally good/neutral; 2. The bad effect is not the intended means to the good effect; 3. The intention is solely the good effect; 4. There is a proportionate grave reason."
-      },
-      {
-        "key": "B",
         "text": "The bad effect is done for personal revenge."
       },
       {
+        "key": "B",
+        "text": "1. The act itself is morally good/neutral; 2. The bad effect is not the intended means to the good effect; 3. The intention is solely the good effect; 4. There is a proportionate grave reason."
+      },
+      {
         "key": "C",
-        "text": "The actor gets paid a large sum of money."
+        "text": "The action violates all human rights."
       },
       {
         "key": "D",
-        "text": "The action violates all human rights."
+        "text": "The actor gets paid a large sum of money."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Double Effect resolves complex bioethical cases (e.g. administering morphine to relieve agony, foreseeing it may shorten life): the bad effect must be an unintended secondary side-effect, never the chosen means."
   },
   {
@@ -458,22 +458,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They know nothing about their own future social class, race, gender, intelligence, wealth, or physical abilities in the resulting society."
-      },
-      {
-        "key": "B",
-        "text": "They are blindfolded during political debates."
-      },
-      {
-        "key": "C",
         "text": "They are absolute monarchs with total wealth."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "They have memorized all ancient philosophy texts."
+      },
+      {
+        "key": "C",
+        "text": "They know nothing about their own future social class, race, gender, intelligence, wealth, or physical abilities in the resulting society."
+      },
+      {
+        "key": "D",
+        "text": "They are blindfolded during political debates."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Rawls' Veil of Ignorance strips away self-interested bias, forcing rational actors to design fair rules that protect the most vulnerable in case they end up in that position."
   },
   {
@@ -483,7 +483,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Work to the greatest benefit of the least-advantaged members of society (Maximin principle)."
+        "text": "Are hidden from the public."
       },
       {
         "key": "B",
@@ -495,10 +495,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Are hidden from the public."
+        "text": "Work to the greatest benefit of the least-advantaged members of society (Maximin principle)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Difference Principle permits economic incentives/inequalities only if they elevate and maximize the welfare of the poorest, least-advantaged social strata."
   },
   {
@@ -508,22 +508,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Autonomy, Beneficence, Non-Maleficence, and Justice"
+        "text": "Diagnosis, Surgery, Prescription, and Billing"
       },
       {
         "key": "B",
-        "text": "Profit, Secrecy, Authority, and Speed"
+        "text": "Autonomy, Beneficence, Non-Maleficence, and Justice"
       },
       {
         "key": "C",
-        "text": "Diagnosis, Surgery, Prescription, and Billing"
+        "text": "Profit, Secrecy, Authority, and Speed"
       },
       {
         "key": "D",
         "text": "Faith, Hope, Charity, and Obedience"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The 4 Beauchamp & Childress principles are: Respect for Autonomy (patient self-determination), Beneficence (acting for patient good), Non-Maleficence (*Primum non nocere* / do no harm), and Justice (fair distribution of healthcare)."
   },
   {
@@ -533,22 +533,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Informed Consent (providing full transparent information regarding risks, benefits, and alternatives so a competent patient makes voluntary choices)."
-      },
-      {
-        "key": "B",
         "text": "Treating patients without telling them their diagnosis."
       },
       {
+        "key": "B",
+        "text": "Informed Consent (providing full transparent information regarding risks, benefits, and alternatives so a competent patient makes voluntary choices)."
+      },
+      {
         "key": "C",
-        "text": "Doctor paternalism where the physician makes all decisions secretly."
+        "text": "Compulsory medical experiments on prisoners."
       },
       {
         "key": "D",
-        "text": "Compulsory medical experiments on prisoners."
+        "text": "Doctor paternalism where the physician makes all decisions secretly."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Informed consent honors human autonomy, ensuring patients are fully briefed on risks/benefits and consent freely without coercion."
   },
   {
@@ -558,22 +558,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ecocentric / Biocentric"
-      },
-      {
-        "key": "B",
-        "text": "Plutocratic"
-      },
-      {
-        "key": "C",
         "text": "Egoistic"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Ecocentric / Biocentric"
+      },
+      {
+        "key": "C",
         "text": "Hedonistic"
+      },
+      {
+        "key": "D",
+        "text": "Plutocratic"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Anthropocentrism centers humans; Ecocentrism/Biocentrism (Aldo Leopold's Land Ethic, Arne Naess' Deep Ecology) recognizes the inherent moral value of all living systems."
   },
   {
@@ -583,7 +583,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Conflict of Interest / Nepotism"
+        "text": "Utilitarian Optimization"
       },
       {
         "key": "B",
@@ -591,14 +591,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Utilitarian Optimization"
+        "text": "Virtue Cultivation"
       },
       {
         "key": "D",
-        "text": "Virtue Cultivation"
+        "text": "Conflict of Interest / Nepotism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "A Conflict of Interest occurs when personal, familial, or financial interests compromise professional impartiality and public duty (violating RA 6713 and RA 3019 Anti-Graft Law)."
   },
   {
@@ -633,22 +633,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
         "text": "Blind emotional impulsivity."
       },
       {
+        "key": "B",
+        "text": "Heteronomous coercion."
+      },
+      {
         "key": "C",
-        "text": "Passive avoidance."
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
       },
       {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Passive avoidance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -658,11 +658,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       },
       {
         "key": "C",
@@ -670,10 +670,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying always results in a monetary fine."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -683,22 +683,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
-      },
-      {
-        "key": "B",
-        "text": "Egoism."
-      },
-      {
-        "key": "C",
         "text": "Nihilism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Stoic detachment."
+      },
+      {
+        "key": "C",
+        "text": "Egoism."
+      },
+      {
+        "key": "D",
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -737,15 +737,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
+        "text": "Use the cash to buy classroom curtains."
       },
       {
         "key": "C",
-        "text": "Share the cash with colleagues."
+        "text": "Keep the cash and give the student an automatic 99 grade."
       },
       {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Share the cash with colleagues."
       }
     ],
     "correctAnswer": "A",
@@ -758,22 +758,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+        "text": "Heteronomous coercion."
       },
       {
         "key": "B",
-        "text": "Blind emotional impulsivity."
-      },
-      {
-        "key": "C",
         "text": "Passive avoidance."
       },
       {
+        "key": "C",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+      },
+      {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Blind emotional impulsivity."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -783,11 +783,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because lying always results in a monetary fine."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "C",
@@ -795,10 +795,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -808,22 +808,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
-      },
-      {
-        "key": "B",
         "text": "Egoism."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Nihilism."
+      },
+      {
+        "key": "C",
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       },
       {
         "key": "D",
         "text": "Stoic detachment."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -837,7 +837,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Military domination."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Military domination."
       }
     ],
     "correctAnswer": "A",
@@ -858,22 +858,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+        "text": "Use the cash to buy classroom curtains."
       },
       {
         "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
-      },
-      {
-        "key": "C",
         "text": "Share the cash with colleagues."
       },
       {
+        "key": "C",
+        "text": "Keep the cash and give the student an automatic 99 grade."
+      },
+      {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -883,11 +883,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+        "text": "Blind emotional impulsivity."
       },
       {
         "key": "B",
-        "text": "Blind emotional impulsivity."
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
       },
       {
         "key": "C",
@@ -898,7 +898,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Heteronomous coercion."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -908,22 +908,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       },
       {
         "key": "C",
-        "text": "Because lying is illegal under traffic laws."
+        "text": "Because lying always results in a monetary fine."
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying is illegal under traffic laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -933,22 +933,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
-      },
-      {
-        "key": "B",
-        "text": "Egoism."
-      },
-      {
-        "key": "C",
         "text": "Nihilism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Stoic detachment."
+      },
+      {
+        "key": "C",
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+      },
+      {
+        "key": "D",
+        "text": "Egoism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -958,22 +958,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "B",
-        "text": "Military domination."
-      },
-      {
-        "key": "C",
         "text": "Strict financial accounting."
       },
       {
+        "key": "C",
+        "text": "Military domination."
+      },
+      {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Ethics of Care centers on relational obligations, maternal care, interpersonal empathy, and responding to concrete needs rather than detached legalistic rules."
   },
   {
@@ -983,7 +983,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+        "text": "Share the cash with colleagues."
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Share the cash with colleagues."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "D",
         "text": "Use the cash to buy classroom curtains."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1008,22 +1008,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
         "text": "Blind emotional impulsivity."
       },
       {
+        "key": "B",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+      },
+      {
         "key": "C",
-        "text": "Passive avoidance."
+        "text": "Heteronomous coercion."
       },
       {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Passive avoidance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1033,22 +1033,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
-      },
-      {
-        "key": "B",
-        "text": "Because lying always results in a monetary fine."
-      },
-      {
-        "key": "C",
         "text": "Because lying is illegal under traffic laws."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+      },
+      {
+        "key": "C",
         "text": "Because feelings are unimportant."
+      },
+      {
+        "key": "D",
+        "text": "Because lying always results in a monetary fine."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1058,7 +1058,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+        "text": "Stoic detachment."
       },
       {
         "key": "B",
@@ -1070,10 +1070,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stoic detachment."
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -1087,11 +1087,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Military domination."
+        "text": "Strict financial accounting."
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Military domination."
       },
       {
         "key": "D",
@@ -1108,7 +1108,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+        "text": "Use the cash to buy classroom curtains."
       },
       {
         "key": "B",
@@ -1116,14 +1116,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Share the cash with colleagues."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Share the cash with colleagues."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1133,22 +1133,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
-        "text": "Blind emotional impulsivity."
-      },
-      {
-        "key": "C",
         "text": "Passive avoidance."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+      },
+      {
+        "key": "C",
         "text": "Heteronomous coercion."
+      },
+      {
+        "key": "D",
+        "text": "Blind emotional impulsivity."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1158,22 +1158,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
-      },
-      {
-        "key": "B",
         "text": "Because lying always results in a monetary fine."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Because lying is illegal under traffic laws."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Because feelings are unimportant."
+      },
+      {
+        "key": "D",
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1212,15 +1212,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Military domination."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Military domination."
       },
       {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Strict financial accounting."
       }
     ],
     "correctAnswer": "A",
@@ -1237,7 +1237,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
+        "text": "Use the cash to buy classroom curtains."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Keep the cash and give the student an automatic 99 grade."
       }
     ],
     "correctAnswer": "A",
@@ -1258,22 +1258,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+        "text": "Passive avoidance."
       },
       {
         "key": "B",
-        "text": "Blind emotional impulsivity."
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
       },
       {
         "key": "C",
-        "text": "Passive avoidance."
+        "text": "Blind emotional impulsivity."
       },
       {
         "key": "D",
         "text": "Heteronomous coercion."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1283,22 +1283,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
-      },
-      {
-        "key": "B",
         "text": "Because lying always results in a monetary fine."
       },
       {
+        "key": "B",
+        "text": "Because feelings are unimportant."
+      },
+      {
         "key": "C",
-        "text": "Because lying is illegal under traffic laws."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying is illegal under traffic laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1312,15 +1312,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Egoism."
-      },
-      {
-        "key": "C",
         "text": "Nihilism."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Stoic detachment."
+      },
+      {
+        "key": "D",
+        "text": "Egoism."
       }
     ],
     "correctAnswer": "A",
@@ -1333,7 +1333,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
+        "text": "Strict financial accounting."
       },
       {
         "key": "B",
@@ -1341,14 +1341,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Ethics of Care centers on relational obligations, maternal care, interpersonal empathy, and responding to concrete needs rather than detached legalistic rules."
   },
   {
@@ -1358,11 +1358,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+        "text": "Keep the cash and give the student an automatic 99 grade."
       },
       {
         "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "C",
@@ -1373,7 +1373,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Use the cash to buy classroom curtains."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1383,22 +1383,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
         "text": "Blind emotional impulsivity."
       },
       {
+        "key": "B",
+        "text": "Heteronomous coercion."
+      },
+      {
         "key": "C",
-        "text": "Passive avoidance."
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
       },
       {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Passive avoidance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1408,11 +1408,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       },
       {
         "key": "C",
@@ -1420,10 +1420,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying always results in a monetary fine."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1433,22 +1433,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+        "text": "Stoic detachment."
       },
       {
         "key": "B",
-        "text": "Egoism."
-      },
-      {
-        "key": "C",
         "text": "Nihilism."
       },
       {
+        "key": "C",
+        "text": "Egoism."
+      },
+      {
         "key": "D",
-        "text": "Stoic detachment."
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -1458,7 +1458,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
+        "text": "Strict financial accounting."
       },
       {
         "key": "B",
@@ -1466,14 +1466,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
       },
       {
         "key": "D",
         "text": "Rote obedience to kings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Ethics of Care centers on relational obligations, maternal care, interpersonal empathy, and responding to concrete needs rather than detached legalistic rules."
   },
   {
@@ -1483,22 +1483,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+        "text": "Use the cash to buy classroom curtains."
       },
       {
         "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "C",
-        "text": "Share the cash with colleagues."
+        "text": "Keep the cash and give the student an automatic 99 grade."
       },
       {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Share the cash with colleagues."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1508,22 +1508,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+        "text": "Heteronomous coercion."
       },
       {
         "key": "B",
-        "text": "Blind emotional impulsivity."
-      },
-      {
-        "key": "C",
         "text": "Passive avoidance."
       },
       {
+        "key": "C",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+      },
+      {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Blind emotional impulsivity."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1533,11 +1533,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because lying always results in a monetary fine."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "C",
@@ -1545,10 +1545,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1558,7 +1558,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+        "text": "Nihilism."
       },
       {
         "key": "B",
@@ -1566,14 +1566,14 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Nihilism."
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       },
       {
         "key": "D",
         "text": "Stoic detachment."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -1591,11 +1591,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Strict financial accounting."
       }
     ],
     "correctAnswer": "A",
@@ -1608,22 +1608,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
-      },
-      {
-        "key": "B",
-        "text": "Keep the cash and give the student an automatic 99 grade."
-      },
-      {
-        "key": "C",
         "text": "Share the cash with colleagues."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
+      },
+      {
+        "key": "C",
         "text": "Use the cash to buy classroom curtains."
+      },
+      {
+        "key": "D",
+        "text": "Keep the cash and give the student an automatic 99 grade."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1633,22 +1633,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
         "text": "Blind emotional impulsivity."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Passive avoidance."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Heteronomous coercion."
+      },
+      {
+        "key": "D",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1658,22 +1658,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
+        "text": "Because feelings are unimportant."
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
+        "text": "Because lying treats the listener merely as a means to an end, denies their rational agency, and cannot be universalized without logical contradiction."
       },
       {
         "key": "C",
-        "text": "Because lying is illegal under traffic laws."
+        "text": "Because lying always results in a monetary fine."
       },
       {
         "key": "D",
-        "text": "Because feelings are unimportant."
+        "text": "Because lying is illegal under traffic laws."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Kant argues that lying corrupts the communicator's moral dignity, undermines universal truth-telling, and disrespects autonomous human reason."
   },
   {
@@ -1683,22 +1683,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
-      },
-      {
-        "key": "B",
-        "text": "Egoism."
-      },
-      {
-        "key": "C",
         "text": "Nihilism."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Stoic detachment."
+      },
+      {
+        "key": "C",
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+      },
+      {
+        "key": "D",
+        "text": "Egoism."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -1708,7 +1708,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
+        "text": "Rote obedience to kings."
       },
       {
         "key": "B",
@@ -1720,10 +1720,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rote obedience to kings."
+        "text": "Relational empathy, nurturing human connection, responsiveness to vulnerability, and situational care over rigid abstract mathematical logic."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Ethics of Care centers on relational obligations, maternal care, interpersonal empathy, and responding to concrete needs rather than detached legalistic rules."
   },
   {
@@ -1733,22 +1733,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
-      },
-      {
-        "key": "B",
         "text": "Keep the cash and give the student an automatic 99 grade."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Share the cash with colleagues."
+      },
+      {
+        "key": "C",
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "D",
         "text": "Use the cash to buy classroom curtains."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   },
   {
@@ -1758,22 +1758,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
-      },
-      {
-        "key": "B",
         "text": "Blind emotional impulsivity."
       },
       {
+        "key": "B",
+        "text": "Virtuous practical wisdom (Phronesis) avoiding both cowardice and reckless panic."
+      },
+      {
         "key": "C",
-        "text": "Passive avoidance."
+        "text": "Heteronomous coercion."
       },
       {
         "key": "D",
-        "text": "Heteronomous coercion."
+        "text": "Passive avoidance."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Virtue ethics balances reasoned competence with compassionate action, exercising moral excellence in situational reality."
   },
   {
@@ -1787,15 +1787,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Because lying always results in a monetary fine."
-      },
-      {
-        "key": "C",
         "text": "Because lying is illegal under traffic laws."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Because feelings are unimportant."
+      },
+      {
+        "key": "D",
+        "text": "Because lying always results in a monetary fine."
       }
     ],
     "correctAnswer": "A",
@@ -1808,7 +1808,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
+        "text": "Stoic detachment."
       },
       {
         "key": "B",
@@ -1820,10 +1820,10 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stoic detachment."
+        "text": "Utilitarianism (producing the greatest preventive health benefit for the largest number of citizens)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Public health resource allocation relies on utilitarian ethics: maximizing aggregate quality-adjusted life years (QALYs) across the population."
   },
   {
@@ -1837,11 +1837,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Military domination."
+        "text": "Strict financial accounting."
       },
       {
         "key": "C",
-        "text": "Strict financial accounting."
+        "text": "Military domination."
       },
       {
         "key": "D",
@@ -1858,22 +1858,22 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
-      },
-      {
-        "key": "B",
         "text": "Keep the cash and give the student an automatic 99 grade."
       },
       {
+        "key": "B",
+        "text": "Use the cash to buy classroom curtains."
+      },
+      {
         "key": "C",
-        "text": "Share the cash with colleagues."
+        "text": "Politely and firmly decline/return the money immediately and report the attempt to the school head to preserve academic integrity and avoid bribery."
       },
       {
         "key": "D",
-        "text": "Use the cash to buy classroom curtains."
+        "text": "Share the cash with colleagues."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Under the Code of Ethics and anti-graft legislation, accepting money from parents to influence grades constitutes illegal bribery and a severe moral breach."
   }
 ];

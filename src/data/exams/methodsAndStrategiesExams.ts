@@ -16,11 +16,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Level 7 (Post-Baccalaureate)"
+        "text": "Level 8 (Doctoral and Post-Doctoral)"
       },
       {
         "key": "D",
-        "text": "Level 8 (Doctoral and Post-Doctoral)"
+        "text": "Level 7 (Post-Baccalaureate)"
       }
     ],
     "correctAnswer": "B",
@@ -37,18 +37,18 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Independent in professional teaching practice and in related educational fields."
-      },
-      {
-        "key": "C",
         "text": "Operates strictly as an instructional aide under a master teacher's constant monitoring."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Autonomous only in preparing visual aids but dependent on administrative approval for lesson objectives."
+      },
+      {
+        "key": "D",
+        "text": "Independent in professional teaching practice and in related educational fields."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The PQF Level 6 descriptor for Degree of Independence explicitly states that graduates are 'Independent (as a teacher) and/or in terms of related field' with self-directed professional competence."
   },
   {
@@ -58,11 +58,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Career Stage 1: Beginning Teacher"
+        "text": "Career Stage 2: Proficient Teacher"
       },
       {
         "key": "B",
-        "text": "Career Stage 2: Proficient Teacher"
+        "text": "Career Stage 4: Distinguished Teacher"
       },
       {
         "key": "C",
@@ -70,10 +70,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Career Stage 4: Distinguished Teacher"
+        "text": "Career Stage 1: Beginning Teacher"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "PPST defines four career stages: Stage 1 = Beginning Teachers (newly licensed/pre-service to entry-level), Stage 2 = Proficient Teachers (professionally independent), Stage 3 = Highly Proficient Teachers (mentors/Master Teachers), and Stage 4 = Distinguished Teachers (educational leaders and model practitioners)."
   },
   {
@@ -83,22 +83,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Domain 1: Content Knowledge and Pedagogy"
+        "text": "Domain 3: Diversity of Learners"
       },
       {
         "key": "B",
-        "text": "Domain 2: Learning Environment"
+        "text": "Domain 1: Content Knowledge and Pedagogy"
       },
       {
         "key": "C",
-        "text": "Domain 3: Diversity of Learners"
+        "text": "Domain 2: Learning Environment"
       },
       {
         "key": "D",
         "text": "Domain 4: Curriculum and Planning"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "PPST Domain 2 is 'Learning Environment,' which focuses on providing safe, secure, clean, and supportive learning spaces, fair classroom discipline, and positive learner interactions."
   },
   {
@@ -108,22 +108,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Domain 2: Learning Environment"
+        "text": "Domain 6: Community Linkages and Professional Engagement"
       },
       {
         "key": "B",
-        "text": "Domain 3: Diversity of Learners"
-      },
-      {
-        "key": "C",
         "text": "Domain 5: Assessment and Reporting"
       },
       {
+        "key": "C",
+        "text": "Domain 2: Learning Environment"
+      },
+      {
         "key": "D",
-        "text": "Domain 6: Community Linkages and Professional Engagement"
+        "text": "Domain 3: Diversity of Learners"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "PPST Domain 3 is 'Diversity of Learners,' emphasizing responsive teaching for learners of varying gender, needs, backgrounds, cultures, socio-economic status, and indigenous heritage."
   },
   {
@@ -133,7 +133,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Domain 4: Curriculum and Planning"
+        "text": "Domain 7: Personal Growth and Professional Development"
       },
       {
         "key": "B",
@@ -145,10 +145,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Domain 7: Personal Growth and Professional Development"
+        "text": "Domain 4: Curriculum and Planning"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "A",
     "explanation": "Domain 7 is 'Personal Growth and Professional Development,' which focuses on teachers' personal philosophy of teaching, professional reflection, and continuous professional development."
   },
   {
@@ -158,7 +158,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Authoritarian"
+        "text": "Permissive (Laissez-faire)"
       },
       {
         "key": "B",
@@ -166,7 +166,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Permissive (Laissez-faire)"
+        "text": "Authoritarian"
       },
       {
         "key": "D",
@@ -183,22 +183,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Authoritative"
-      },
-      {
-        "key": "B",
         "text": "Authoritarian"
       },
       {
+        "key": "B",
+        "text": "Authoritative"
+      },
+      {
         "key": "C",
-        "text": "Permissive"
+        "text": "Democratic"
       },
       {
         "key": "D",
-        "text": "Democratic"
+        "text": "Permissive"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The Authoritarian style is characterized by high control and low warmth/responsiveness. Rules are enforced strictly with punitive measures, often fostering anxiety or rebellion."
   },
   {
@@ -208,22 +208,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Legitimate Power"
-      },
-      {
-        "key": "B",
-        "text": "Expert Power"
-      },
-      {
-        "key": "C",
         "text": "Referent Power"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Legitimate Power"
+      },
+      {
+        "key": "C",
         "text": "Coercive Power"
+      },
+      {
+        "key": "D",
+        "text": "Expert Power"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Referent Power stems from students' respect, admiration, personal identification, and liking for the teacher. When students behave because they like and identify with the teacher, referent power is at work."
   },
   {
@@ -233,11 +233,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expert Power"
+        "text": "Legitimate Power"
       },
       {
         "key": "B",
-        "text": "Legitimate Power"
+        "text": "Coercive Power"
       },
       {
         "key": "C",
@@ -245,10 +245,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Coercive Power"
+        "text": "Expert Power"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Expert Power arises from the teacher's demonstrated subject-matter mastery, specialized knowledge, and pedagogical competence."
   },
   {
@@ -262,11 +262,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Referent Power"
+        "text": "Reward Power"
       },
       {
         "key": "C",
-        "text": "Reward Power"
+        "text": "Referent Power"
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Withitness"
+        "text": "Stimulus-Boundedness"
       },
       {
         "key": "B",
@@ -291,14 +291,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Thrust"
+        "text": "Withitness"
       },
       {
         "key": "D",
-        "text": "Stimulus-Boundedness"
+        "text": "Thrust"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Jacob Kounin defined 'Withitness' as the teacher's ability to know what is happening in all parts of the classroom at all times ('having eyes in the back of one's head') and nipping misbehavior in the bud."
   },
   {
@@ -308,11 +308,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Smoothness"
+        "text": "Group Alerting"
       },
       {
         "key": "B",
-        "text": "Overlapping"
+        "text": "Smoothness"
       },
       {
         "key": "C",
@@ -320,10 +320,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Group Alerting"
+        "text": "Overlapping"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Overlapping is the teacher's ability to attend to two or more events or situations simultaneously without being diverted from the primary instructional task."
   },
   {
@@ -333,22 +333,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dangle"
-      },
-      {
-        "key": "B",
         "text": "Thrust"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Flip-flop"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Truncation"
+      },
+      {
+        "key": "D",
+        "text": "Dangle"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A 'Thrust' occurs when a teacher suddenly bursts into an ongoing activity or discussion with an unrelated topic or reprimand without assessing whether students are ready for the interruption."
   },
   {
@@ -387,18 +387,18 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Overdwelling"
+        "text": "Dangle"
       },
       {
         "key": "C",
-        "text": "Thrust"
+        "text": "Overdwelling"
       },
       {
         "key": "D",
-        "text": "Dangle"
+        "text": "Thrust"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Overdwelling occurs when a teacher spends excessive time giving instructions or preaching about behavior beyond what is needed for students to understand."
   },
   {
@@ -412,7 +412,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ripple Effect"
+        "text": "Hawthorne Effect"
       },
       {
         "key": "C",
@@ -420,10 +420,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Hawthorne Effect"
+        "text": "Ripple Effect"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The 'Ripple Effect' (Kounin) describes how the teacher's handling of misbehavior in one student influences the behavior of other students who observe the interaction."
   },
   {
@@ -433,22 +433,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attention Getting"
-      },
-      {
-        "key": "B",
-        "text": "Power Seeking"
-      },
-      {
-        "key": "C",
         "text": "Revenge"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Display of Inadequacy"
+      },
+      {
+        "key": "C",
+        "text": "Power Seeking"
+      },
+      {
+        "key": "D",
+        "text": "Attention Getting"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "In Dreikurs' model, 'Attention Getting' manifests when a student believes they only belong when they are being noticed or served. Teachers usually feel annoyed or irritated."
   },
   {
@@ -458,22 +458,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attention Getting"
-      },
-      {
-        "key": "B",
         "text": "Power Seeking"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Revenge"
+      },
+      {
+        "key": "C",
+        "text": "Attention Getting"
       },
       {
         "key": "D",
         "text": "Display of Inadequacy"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "In 'Power Seeking', the student desires to be the boss and shows defiance. The teacher typically feels threatened, angry, or defeated and drawn into a power struggle."
   },
   {
@@ -487,15 +487,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Power Seeking"
+        "text": "Display of Inadequacy"
       },
       {
         "key": "C",
-        "text": "Attention Getting"
+        "text": "Power Seeking"
       },
       {
         "key": "D",
-        "text": "Display of Inadequacy"
+        "text": "Attention Getting"
       }
     ],
     "correctAnswer": "A",
@@ -508,22 +508,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Display of Inadequacy (Assumed Disability)"
-      },
-      {
-        "key": "B",
-        "text": "Passive Revenge"
-      },
-      {
-        "key": "C",
         "text": "Silent Power Seeking"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Negative Attention Seeking"
+      },
+      {
+        "key": "C",
+        "text": "Display of Inadequacy (Assumed Disability)"
+      },
+      {
+        "key": "D",
+        "text": "Passive Revenge"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Display of Inadequacy (Learned Helplessness/Assumed Disability) occurs when a student gives up and wants to be left alone. The teacher's emotional response is feeling helpless or hopeless."
   },
   {
@@ -558,22 +558,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bodily-Kinesthetic"
+        "text": "Naturalist"
       },
       {
         "key": "B",
-        "text": "Visual-Spatial"
+        "text": "Bodily-Kinesthetic"
       },
       {
         "key": "C",
-        "text": "Logical-Mathematical"
+        "text": "Visual-Spatial"
       },
       {
         "key": "D",
-        "text": "Naturalist"
+        "text": "Logical-Mathematical"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Visual-Spatial intelligence involves thinking in pictures, visualizing 3D objects, mentally transforming angles, and spatial navigation."
   },
   {
@@ -583,11 +583,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Holistic processing, music appreciation, visual arts, and intuition."
+        "text": "Kinesthetic coordination and non-verbal body language."
       },
       {
         "key": "B",
-        "text": "Linear logic, language grammar, sequential mathematical calculations, and analytical reasoning."
+        "text": "Holistic processing, music appreciation, visual arts, and intuition."
       },
       {
         "key": "C",
@@ -595,10 +595,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kinesthetic coordination and non-verbal body language."
+        "text": "Linear logic, language grammar, sequential mathematical calculations, and analytical reasoning."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The Left Hemisphere specializes in analytical, logical, linear, verbal, sequential, and mathematical operations. The Right Hemisphere specializes in global, holistic, artistic, spatial, and intuitive processing."
   },
   {
@@ -608,22 +608,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Law of Readiness"
+        "text": "Law of Primacy"
       },
       {
         "key": "B",
-        "text": "Law of Exercise"
-      },
-      {
-        "key": "C",
         "text": "Law of Effect"
       },
       {
+        "key": "C",
+        "text": "Law of Exercise"
+      },
+      {
         "key": "D",
-        "text": "Law of Primacy"
+        "text": "Law of Readiness"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Thorndike's Law of Readiness states that when an individual is physiologically and psychologically prepared to learn, the act of doing so is satisfying; forcing learning when unready is annoying."
   },
   {
@@ -633,7 +633,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Law of Exercise (Use and Disuse)"
+        "text": "Law of Intensity"
       },
       {
         "key": "B",
@@ -641,14 +641,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Law of Intensity"
+        "text": "Law of Exercise (Use and Disuse)"
       },
       {
         "key": "D",
         "text": "Law of Recency"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Law of Exercise consists of the Law of Use (connections are strengthened with practice) and the Law of Disuse (connections are weakened when practice ceases)."
   },
   {
@@ -662,15 +662,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Law of Primacy"
+        "text": "Law of Exercise"
       },
       {
         "key": "C",
-        "text": "Law of Readiness"
+        "text": "Law of Primacy"
       },
       {
         "key": "D",
-        "text": "Law of Exercise"
+        "text": "Law of Readiness"
       }
     ],
     "correctAnswer": "A",
@@ -683,22 +683,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because of the Law of Primacy: things learned first create a strong, almost indelible impression that is hard to unlearn."
+        "text": "Because of the Law of Intensity: initial lessons require no subsequent review."
       },
       {
         "key": "B",
-        "text": "Because of the Law of Recency: things learned first are forgotten fastest."
-      },
-      {
-        "key": "C",
         "text": "Because of the Law of Disuse: initial concepts are discarded immediately."
       },
       {
+        "key": "C",
+        "text": "Because of the Law of Primacy: things learned first create a strong, almost indelible impression that is hard to unlearn."
+      },
+      {
         "key": "D",
-        "text": "Because of the Law of Intensity: initial lessons require no subsequent review."
+        "text": "Because of the Law of Recency: things learned first are forgotten fastest."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Law of Primacy states that what is learned first creates the strongest foundation; unlearning a false initial concept is far harder than teaching it correctly the first time."
   },
   {
@@ -708,11 +708,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Meaningful"
+        "text": "Measurable"
       },
       {
         "key": "B",
-        "text": "Measurable"
+        "text": "Mastery-based"
       },
       {
         "key": "C",
@@ -720,10 +720,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Mastery-based"
+        "text": "Meaningful"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "SMART stands for Specific, Measurable, Attainable (or Achievable), Relevant (or Result-oriented), and Time-bound."
   },
   {
@@ -733,7 +733,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Analyzing"
+        "text": "Creating"
       },
       {
         "key": "B",
@@ -741,14 +741,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Creating"
+        "text": "Analyzing"
       },
       {
         "key": "D",
         "text": "Applying"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Anderson and Krathwohl's 2001 revision changed nouns to verbs and positioned 'Creating' (generating new ideas/products) at the highest level (Level 6), above 'Evaluating' (Level 5)."
   },
   {
@@ -766,11 +766,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Compose"
+        "text": "Recite"
       },
       {
         "key": "D",
-        "text": "Recite"
+        "text": "Compose"
       }
     ],
     "correctAnswer": "B",
@@ -783,22 +783,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Receiving"
-      },
-      {
-        "key": "B",
-        "text": "Responding"
-      },
-      {
-        "key": "C",
         "text": "Valuing"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Receiving"
+      },
+      {
+        "key": "C",
         "text": "Characterization by a Value / Value Set"
+      },
+      {
+        "key": "D",
+        "text": "Responding"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "The hierarchy of Krathwohl's Affective Domain is: Receiving -> Responding -> Valuing -> Organization -> Characterization by a Value/Value Set (Internalization of values directing total behavior)."
   },
   {
@@ -808,22 +808,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Imitation"
-      },
-      {
-        "key": "B",
         "text": "Manipulation"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Precision"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Naturalization"
+      },
+      {
+        "key": "D",
+        "text": "Imitation"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "RH Dave's Psychomotor taxonomy levels are: Imitation -> Manipulation -> Precision -> Articulation -> Naturalization (effortless, automatic, high-level mastery)."
   },
   {
@@ -833,22 +833,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inductive Approach"
+        "text": "Discovery Approach"
       },
       {
         "key": "B",
-        "text": "Deductive Approach"
+        "text": "Inductive Approach"
       },
       {
         "key": "C",
-        "text": "Discovery Approach"
+        "text": "Deductive Approach"
       },
       {
         "key": "D",
         "text": "Inquiry Approach"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The Deductive Approach moves from General to Specific (Rule/Principle -> Examples -> Practice), whereas the Inductive Approach moves from Specific examples to the General rule."
   },
   {
@@ -858,7 +858,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deductive method (Direct)"
+        "text": "Rote memorization"
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Expository lecture"
+        "text": "Deductive method (Direct)"
       },
       {
         "key": "D",
-        "text": "Rote memorization"
+        "text": "Expository lecture"
       }
     ],
     "correctAnswer": "B",
@@ -887,7 +887,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Daily Review -> Presentation/Modeling ('I Do') -> Guided Practice ('We Do') -> Independent Practice ('You Do')"
+        "text": "Evaluation -> Motivation -> Direct Lecture"
       },
       {
         "key": "C",
@@ -895,10 +895,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Evaluation -> Motivation -> Direct Lecture"
+        "text": "Daily Review -> Presentation/Modeling ('I Do') -> Guided Practice ('We Do') -> Independent Practice ('You Do')"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "The classic Explicit/Direct Instruction Model follows: Review/State Objectives -> Teacher Modeling ('I Do') -> Guided Practice with feedback ('We Do') -> Independent Practice ('You Do')."
   },
   {
@@ -908,22 +908,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sole dispenser of facts and definitive answers"
-      },
-      {
-        "key": "B",
         "text": "Facilitator and questioner who guides learners to investigate and discover answers"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Passive spectator who does not intervene in student discussions"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Authoritative disciplinarian checking workbook compliance"
+      },
+      {
+        "key": "D",
+        "text": "Sole dispenser of facts and definitive answers"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "In Inquiry-Based Learning, the teacher serves as a facilitator, scaffolding students' investigations, prompting critical questions, and guiding hypothesis testing."
   },
   {
@@ -933,22 +933,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Problem-Based Learning (PBL)"
-      },
-      {
-        "key": "B",
         "text": "Direct Instruction"
       },
       {
+        "key": "B",
+        "text": "Problem-Based Learning (PBL)"
+      },
+      {
         "key": "C",
-        "text": "Programmed Instruction"
+        "text": "Rote Drill"
       },
       {
         "key": "D",
-        "text": "Rote Drill"
+        "text": "Programmed Instruction"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Problem-Based Learning (PBL) uses authentic, messy, ill-structured real-world problems as the catalyst for students to acquire knowledge and problem-solving skills."
   },
   {
@@ -958,22 +958,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Active Experimentation"
-      },
-      {
-        "key": "B",
-        "text": "Reflective Observation"
-      },
-      {
-        "key": "C",
         "text": "Abstract Conceptualization"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Active Experimentation"
+      },
+      {
+        "key": "C",
         "text": "Rote Memorization"
+      },
+      {
+        "key": "D",
+        "text": "Reflective Observation"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Kolb's 4-stage cycle flows as follows: 1. Concrete Experience (Doing) -> 2. Reflective Observation (Reviewing/Reflecting) -> 3. Abstract Conceptualization (Concluding/Learning from experience) -> 4. Active Experimentation (Planning/Trying out what was learned)."
   },
   {
@@ -983,7 +983,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They take the final exam individually without talking to anyone else."
+        "text": "The teacher lectures to the entire class while experts sit in front."
       },
       {
         "key": "B",
@@ -991,11 +991,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The teacher lectures to the entire class while experts sit in front."
+        "text": "They disband and do solitary research in the library."
       },
       {
         "key": "D",
-        "text": "They disband and do solitary research in the library."
+        "text": "They take the final exam individually without talking to anyone else."
       }
     ],
     "correctAnswer": "B",
@@ -1012,18 +1012,18 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Based on individual improvement scores over prior baseline performances."
+        "text": "By averaging the physical speed at which worksheets are submitted."
       },
       {
         "key": "C",
-        "text": "By averaging the physical speed at which worksheets are submitted."
+        "text": "Based on individual improvement scores over prior baseline performances."
       },
       {
         "key": "D",
         "text": "By giving all groups a flat bonus score regardless of effort."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "STAD motivates all learners by awarding team points based on each member's individual improvement over their previous past averages, ensuring low-achievers and high-achievers contribute equally."
   },
   {
@@ -1033,22 +1033,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Student responses become shorter and less confident."
-      },
-      {
-        "key": "B",
         "text": "Higher cognitive quality of answers, more voluntary contributions, and fewer 'I don't know' responses."
       },
       {
+        "key": "B",
+        "text": "Students forget the original question completely."
+      },
+      {
         "key": "C",
-        "text": "Classroom discipline breaks down due to prolonged silence."
+        "text": "Student responses become shorter and less confident."
       },
       {
         "key": "D",
-        "text": "Students forget the original question completely."
+        "text": "Classroom discipline breaks down due to prolonged silence."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Extending Wait Time (3-5 seconds) increases the length and complexity of student responses, encourages higher-order thinking, and significantly reduces failure to respond."
   },
   {
@@ -1058,11 +1058,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'What is the chemical symbol for gold?'"
+        "text": "'How many sides does a regular hexagon have?'"
       },
       {
         "key": "B",
-        "text": "'In what year was the Malolos Constitution ratified?'"
+        "text": "'What is the chemical symbol for gold?'"
       },
       {
         "key": "C",
@@ -1070,7 +1070,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'How many sides does a regular hexagon have?'"
+        "text": "'In what year was the Malolos Constitution ratified?'"
       }
     ],
     "correctAnswer": "C",
@@ -1083,22 +1083,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prompting question"
-      },
-      {
-        "key": "B",
         "text": "Probing question"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Rhetorical question"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Leading question"
+      },
+      {
+        "key": "D",
+        "text": "Prompting question"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "A Probing Question pushes the learner to elaborate, clarify, justify, or provide evidence for their initial response, deepening cognitive depth."
   },
   {
@@ -1137,15 +1137,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Reading, Writing, and Arithmetic"
+        "text": "Attendance, Participation, and Homework"
       },
       {
         "key": "C",
-        "text": "Objectives, Evaluation, and Remediation"
+        "text": "Reading, Writing, and Arithmetic"
       },
       {
         "key": "D",
-        "text": "Attendance, Participation, and Homework"
+        "text": "Objectives, Evaluation, and Remediation"
       }
     ],
     "correctAnswer": "A",
@@ -1158,11 +1158,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple Means of Representation, Action & Expression, and Engagement"
+        "text": "Oral Recitation, Silent Reading, and Written Exams"
       },
       {
         "key": "B",
-        "text": "Multiple Tests, Lectures, and Memorization drills"
+        "text": "Multiple Means of Representation, Action & Expression, and Engagement"
       },
       {
         "key": "C",
@@ -1170,10 +1170,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Oral Recitation, Silent Reading, and Written Exams"
+        "text": "Multiple Tests, Lectures, and Memorization drills"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "UDL is built on three neuroscience-based principles: 1. Multiple Means of Representation ('what' of learning), 2. Multiple Means of Action and Expression ('how' of learning), and 3. Multiple Means of Engagement ('why' of learning)."
   },
   {
@@ -1183,22 +1183,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The teacher pairs up with the highest scorer in the class."
-      },
-      {
-        "key": "B",
-        "text": "Students discuss their initial individual ideas with a designated partner to compare and refine thoughts."
-      },
-      {
-        "key": "C",
         "text": "Students write a formal paired term paper."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Students argue until one student admits defeat."
+      },
+      {
+        "key": "C",
+        "text": "Students discuss their initial individual ideas with a designated partner to compare and refine thoughts."
+      },
+      {
+        "key": "D",
+        "text": "The teacher pairs up with the highest scorer in the class."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Think-Pair-Share begins with individual reflection (Think), followed by dialogue with a neighbor (Pair) to refine thinking, and concludes with sharing insights with the wider class (Share)."
   },
   {
@@ -1208,7 +1208,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Predicting, Questioning, Clarifying, and Summarizing"
+        "text": "Lecturing, Testing, Grading, and Correcting"
       },
       {
         "key": "B",
@@ -1216,14 +1216,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Lecturing, Testing, Grading, and Correcting"
+        "text": "Predicting, Questioning, Clarifying, and Summarizing"
       },
       {
         "key": "D",
         "text": "Skimming, Scanning, Pronouncing, and Spelling"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Reciprocal Teaching (Palincsar & Brown) uses four active reading strategies: Predicting, Questioning Generating, Clarifying ambiguities, and Summarizing."
   },
   {
@@ -1241,11 +1241,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Flowchart"
+        "text": "KWL Chart"
       },
       {
         "key": "D",
-        "text": "KWL Chart"
+        "text": "Flowchart"
       }
     ],
     "correctAnswer": "A",
@@ -1258,22 +1258,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cause-and-Effect Fishbone Diagram"
-      },
-      {
-        "key": "B",
-        "text": "Venn Diagram"
-      },
-      {
-        "key": "C",
         "text": "Pie Chart"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Story Map"
+      },
+      {
+        "key": "C",
+        "text": "Cause-and-Effect Fishbone Diagram"
+      },
+      {
+        "key": "D",
+        "text": "Venn Diagram"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Fishbone Diagram (Ishikawa Diagram) is explicitly designed for root-cause analysis, displaying multiple contributing causal factors leading to a specific effect/problem."
   },
   {
@@ -1283,11 +1283,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Language difficulties observed during reading"
+        "text": "Lesson plans drafted by the teacher"
       },
       {
         "key": "B",
-        "text": "Lesson plans drafted by the teacher"
+        "text": "Logical errors committed in homework"
       },
       {
         "key": "C",
@@ -1295,7 +1295,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Logical errors committed in homework"
+        "text": "Language difficulties observed during reading"
       }
     ],
     "correctAnswer": "C",
@@ -1308,22 +1308,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Monologue lecture from an authoritative expert"
+        "text": "Rote memorization of religious verses"
       },
       {
         "key": "B",
-        "text": "Disciplined, probing questioning and dialectical dialogue to expose contradictions and elicit underlying truths"
+        "text": "Monologue lecture from an authoritative expert"
       },
       {
         "key": "C",
-        "text": "Rote memorization of religious verses"
+        "text": "Disciplined, probing questioning and dialectical dialogue to expose contradictions and elicit underlying truths"
       },
       {
         "key": "D",
         "text": "Unstructured sensory motor play"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "The Socratic Method employs rigorous, disciplined questioning to challenge assumptions, expose logical fallacies, and guide the learner toward discovering truths."
   },
   {
@@ -1337,7 +1337,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Exclusively during class time while homework is eliminated."
+        "text": "During recess under teacher supervision."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "During recess under teacher supervision."
+        "text": "Exclusively during class time while homework is eliminated."
       }
     ],
     "correctAnswer": "A",
@@ -1358,22 +1358,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Only the top 10% of students possess the biological capability to master academic content."
+        "text": "Teachers should move to new topics regardless of whether students understand prior prerequisites."
       },
       {
         "key": "B",
-        "text": "Virtually all students can master learning objectives if given sufficient time, formative feedback, and appropriate corrective instruction."
-      },
-      {
-        "key": "C",
         "text": "Students should be grouped strictly according to IQ scores from birth."
       },
       {
+        "key": "C",
+        "text": "Virtually all students can master learning objectives if given sufficient time, formative feedback, and appropriate corrective instruction."
+      },
+      {
         "key": "D",
-        "text": "Teachers should move to new topics regardless of whether students understand prior prerequisites."
+        "text": "Only the top 10% of students possess the biological capability to master academic content."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Mastery Learning asserts that given proper learning conditions, customized pacing, formative assessments, and corrective interventions, almost all students can achieve high mastery (typically 80-90%)."
   },
   {
@@ -1383,7 +1383,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Address the specific misbehavior and the situation, without attacking the student's character or personality."
+        "text": "Public comparison with top-performing classmates."
       },
       {
         "key": "B",
@@ -1391,14 +1391,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Public comparison with top-performing classmates."
+        "text": "Address the specific misbehavior and the situation, without attacking the student's character or personality."
       },
       {
         "key": "D",
         "text": "Strict silent treatment until parents are called."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ginott emphasized 'sane messages' and 'congruent communication': accept and acknowledge feelings, describe the situation and expected action, and never label, insult, or attack the child's character."
   },
   {
@@ -1408,22 +1408,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Clearly establish rules, consistently enforce pre-determined positive and negative consequences, and assert their right to teach."
-      },
-      {
-        "key": "B",
         "text": "Allow students to do whatever they want without boundaries."
       },
       {
+        "key": "B",
+        "text": "Clearly establish rules, consistently enforce pre-determined positive and negative consequences, and assert their right to teach."
+      },
+      {
         "key": "C",
-        "text": "Rely exclusively on physical punishments to maintain order."
+        "text": "Never praise students to avoid making them conceited."
       },
       {
         "key": "D",
-        "text": "Never praise students to avoid making them conceited."
+        "text": "Rely exclusively on physical punishments to maintain order."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Assertive Discipline advocates establishing clear limits, expectations, and a systematic discipline hierarchy with calm, consistent enforcement and positive reinforcement."
   },
   {
@@ -1433,22 +1433,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Survival, Love & Belonging, Power (Competence), Freedom, and Fun"
+        "text": "Obedience, Conformity, Silence, Subjugation, and Fear"
       },
       {
         "key": "B",
-        "text": "Food, Water, Shelter, Sleep, and Clothing"
-      },
-      {
-        "key": "C",
         "text": "Money, Fame, Grades, Certificates, and Medals"
       },
       {
+        "key": "C",
+        "text": "Survival, Love & Belonging, Power (Competence), Freedom, and Fun"
+      },
+      {
         "key": "D",
-        "text": "Obedience, Conformity, Silence, Subjugation, and Fear"
+        "text": "Food, Water, Shelter, Sleep, and Clothing"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Glasser posits that all human choices strive to meet five internal needs: 1. Survival, 2. Love and Belonging, 3. Power (Inner control/self-worth), 4. Freedom (Autonomy), and 5. Fun."
   },
   {
@@ -1458,7 +1458,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Positive Classroom Discipline"
+        "text": "Isolated Confinement"
       },
       {
         "key": "B",
@@ -1470,10 +1470,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Isolated Confinement"
+        "text": "Positive Classroom Discipline"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Fred Jones' Positive Classroom Discipline highlights efficient classroom arrangement (interior loops), effective body language, 'Say, See, Do Teaching', and Preferred Activity Time (PAT)."
   },
   {
@@ -1487,11 +1487,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Informing Learners of the Objective"
+        "text": "Stimulating Recall of Prior Learning"
       },
       {
         "key": "C",
-        "text": "Stimulating Recall of Prior Learning"
+        "text": "Informing Learners of the Objective"
       },
       {
         "key": "D",
@@ -1508,22 +1508,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Event 1: Gaining Attention"
-      },
-      {
-        "key": "B",
         "text": "Event 3: Stimulating Recall of Prior Learning"
       },
       {
+        "key": "B",
+        "text": "Event 1: Gaining Attention"
+      },
+      {
         "key": "C",
-        "text": "Event 7: Providing Feedback"
+        "text": "Event 9: Enhancing Retention and Transfer"
       },
       {
         "key": "D",
-        "text": "Event 9: Enhancing Retention and Transfer"
+        "text": "Event 7: Providing Feedback"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Event 3 is 'Stimulating Recall of Prior Learning', connecting newly presented concepts to relevant existing schema in long-term memory."
   },
   {
@@ -1533,22 +1533,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Direct Purposeful Experiences (Hands-on real-world doing)"
-      },
-      {
-        "key": "B",
-        "text": "Verbal Symbols (Reading and hearing words)"
-      },
-      {
-        "key": "C",
         "text": "Visual Symbols (Charts and diagrams)"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Direct Purposeful Experiences (Hands-on real-world doing)"
+      },
+      {
+        "key": "C",
         "text": "Radio Recordings"
+      },
+      {
+        "key": "D",
+        "text": "Verbal Symbols (Reading and hearing words)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Direct, Purposeful Experiences sit at the broad base of Dale's Cone, offering direct multi-sensory hands-on engagement with real objects and contexts."
   },
   {
@@ -1558,22 +1558,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Direct Purposeful Experiences"
-      },
-      {
-        "key": "B",
         "text": "Demonstrations"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Dramatized Experiences"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Verbal Symbols"
+      },
+      {
+        "key": "D",
+        "text": "Direct Purposeful Experiences"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "C",
     "explanation": "Verbal Symbols (abstract text and words) sit at the pinnacle of the cone because they bear no physical resemblance to the concepts they symbolize."
   },
   {
@@ -1587,18 +1587,18 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Students actively construct meaning by integrating new experiences with prior knowledge through social collaboration and hands-on tasks."
+        "text": "The teacher speaks for 60 minutes uninterrupted while students take silent notes."
       },
       {
         "key": "C",
-        "text": "The teacher speaks for 60 minutes uninterrupted while students take silent notes."
+        "text": "Students actively construct meaning by integrating new experiences with prior knowledge through social collaboration and hands-on tasks."
       },
       {
         "key": "D",
         "text": "Grading is based exclusively on multiple-choice recall tests."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Constructivism posits that learners are active builders of knowledge, assimilating and accommodating new information through social interaction and authentic problem-solving."
   },
   {
@@ -1608,7 +1608,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Modeling"
+        "text": "Fading"
       },
       {
         "key": "B",
@@ -1616,14 +1616,14 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Scaffolding"
+        "text": "Modeling"
       },
       {
         "key": "D",
-        "text": "Fading"
+        "text": "Scaffolding"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Modeling in cognitive apprenticeship involves an expert demonstrating a task while explicitly verbalizing their internal cognitive strategies and reasoning steps."
   },
   {
@@ -1633,11 +1633,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Metacognition (Self-regulated learning)"
+        "text": "Sensory register duration"
       },
       {
         "key": "B",
-        "text": "Rote Recall"
+        "text": "Metacognition (Self-regulated learning)"
       },
       {
         "key": "C",
@@ -1645,10 +1645,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Sensory register duration"
+        "text": "Rote Recall"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Metacognition ('thinking about one's own thinking') involves self-monitoring, assessing comprehension difficulties, and evaluating learning strategies."
   },
   {
@@ -1658,22 +1658,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "When teaching complex, factual background information or emergency safety protocols within limited time."
-      },
-      {
-        "key": "B",
-        "text": "When fostering creative divergent poetry writing."
-      },
-      {
-        "key": "C",
         "text": "When conducting open-ended scientific investigations."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "When students are evaluating moral dilemmas."
+      },
+      {
+        "key": "C",
+        "text": "When fostering creative divergent poetry writing."
+      },
+      {
+        "key": "D",
+        "text": "When teaching complex, factual background information or emergency safety protocols within limited time."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Expository/Direct instruction is highly efficient for introducing foundational facts, clear procedural rules, and vital safety guidelines in a structured, time-effective manner."
   },
   {
@@ -1683,11 +1683,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Establish clear transition routines, use visual/auditory cues, and prepare materials in advance."
+        "text": "Let students roam freely for 10 minutes between every lesson."
       },
       {
         "key": "B",
-        "text": "Let students roam freely for 10 minutes between every lesson."
+        "text": "Establish clear transition routines, use visual/auditory cues, and prepare materials in advance."
       },
       {
         "key": "C",
@@ -1698,7 +1698,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Start passing out papers only after the previous activity has completely stopped."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Smooth transitions require explicit routines, advance staging of instructional materials, and predictable cues to maintain momentum and student engagement."
   },
   {
@@ -1712,18 +1712,18 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Can you summarize the main argument of the author in one paragraph?'"
+        "text": "'Calculate the speed of a projectile given initial velocity and launch angle.'"
       },
       {
         "key": "C",
-        "text": "'Do you agree with the Supreme Court ruling on this case? Justify your stance based on constitutional principles.'"
+        "text": "'Can you summarize the main argument of the author in one paragraph?'"
       },
       {
         "key": "D",
-        "text": "'Calculate the speed of a projectile given initial velocity and launch angle.'"
+        "text": "'Do you agree with the Supreme Court ruling on this case? Justify your stance based on constitutional principles.'"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Evaluating requires making judgments based on criteria and standards, defending a position, and critiquing arguments based on evidence."
   },
   {
@@ -1733,22 +1733,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It combines kinesthetic movement with critical opinion formation and oral defense."
-      },
-      {
-        "key": "B",
-        "text": "It eliminates the need for the teacher to be in the classroom."
-      },
-      {
-        "key": "C",
         "text": "It ensures all students choose the exact same answer."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "It serves as a formal paper-and-pencil summative test."
+      },
+      {
+        "key": "C",
+        "text": "It combines kinesthetic movement with critical opinion formation and oral defense."
+      },
+      {
+        "key": "D",
+        "text": "It eliminates the need for the teacher to be in the classroom."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Four Corners engages bodily-kinesthetic learning, forces students to commit to a stance on controversial issues, and encourages peer verbal argumentation."
   },
   {
@@ -1758,22 +1758,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Only the tutee benefits while the tutor wastes their study time."
+        "text": "It creates permanent antagonism between students."
       },
       {
         "key": "B",
-        "text": "Both the tutor and tutee gain deeper cognitive mastery and positive academic self-concept."
+        "text": "Only the tutee benefits while the tutor wastes their study time."
       },
       {
         "key": "C",
-        "text": "It creates permanent antagonism between students."
+        "text": "Both the tutor and tutee gain deeper cognitive mastery and positive academic self-concept."
       },
       {
         "key": "D",
         "text": "It violates child labor protection laws."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Peer tutoring produces mutual benefits: tutees receive individualized scaffolding from a peer, while tutors solidify and deepen their own understanding by explaining concepts ('teaching is learning twice')."
   },
   {
@@ -1783,22 +1783,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Engage -> Explore -> Explain -> Elaborate -> Evaluate"
-      },
-      {
-        "key": "B",
         "text": "Evaluate -> Explain -> Engage -> Explore -> Elaborate"
       },
       {
+        "key": "B",
+        "text": "Elaborate -> Evaluate -> Engage -> Explore -> Explain"
+      },
+      {
         "key": "C",
-        "text": "Explore -> Engage -> Evaluate -> Explain -> Elaborate"
+        "text": "Engage -> Explore -> Explain -> Elaborate -> Evaluate"
       },
       {
         "key": "D",
-        "text": "Elaborate -> Evaluate -> Engage -> Explore -> Explain"
+        "text": "Explore -> Engage -> Evaluate -> Explain -> Elaborate"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The 5E Model progresses through: 1. Engage (spark curiosity) -> 2. Explore (hands-on investigation) -> 3. Explain (concept clarification) -> 4. Elaborate (apply in new contexts) -> 5. Evaluate (assess understanding)."
   },
   {
@@ -1808,11 +1808,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
+        "text": "Textbook brand, Whiteboard marker color, and Room temperature"
       },
       {
         "key": "B",
-        "text": "Tuition fee, School uniform, and Campus location"
+        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
       },
       {
         "key": "C",
@@ -1820,10 +1820,10 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Textbook brand, Whiteboard marker color, and Room temperature"
+        "text": "Tuition fee, School uniform, and Campus location"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Constructive Alignment (Biggs) demands that what we intend students to learn (ILOs) directly guides the instructional tasks we organize (TLAs) and matches how we evaluate their mastery (ATs)."
   },
   {
@@ -1833,22 +1833,22 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "What a learner can do independently and what they can achieve with guidance from a More Knowledgeable Other (MKO)."
+        "text": "The school budget and actual classroom expenditures."
       },
       {
         "key": "B",
-        "text": "A student's chronological age and their biological mental age."
-      },
-      {
-        "key": "C",
         "text": "The first grade level and the twelfth grade level."
       },
       {
+        "key": "C",
+        "text": "A student's chronological age and their biological mental age."
+      },
+      {
         "key": "D",
-        "text": "The school budget and actual classroom expenditures."
+        "text": "What a learner can do independently and what they can achieve with guidance from a More Knowledgeable Other (MKO)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "ZPD represents the fertile learning zone between a child's actual developmental level (independent problem solving) and potential development (problem solving under adult guidance or peer collaboration)."
   },
   {

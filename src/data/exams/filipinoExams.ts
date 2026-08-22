@@ -16,11 +16,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Tono / Intonasyon (Pitch)"
+        "text": "Haba (Length)"
       },
       {
         "key": "D",
-        "text": "Haba (Length)"
+        "text": "Tono / Intonasyon (Pitch)"
       }
     ],
     "correctAnswer": "A",
@@ -37,15 +37,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Asimilasyong Ganap"
-      },
-      {
-        "key": "C",
         "text": "Metatesis"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Pagkakaltas ng Ponema"
+      },
+      {
+        "key": "D",
+        "text": "Asimilasyong Ganap"
       }
     ],
     "correctAnswer": "A",
@@ -58,7 +58,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Metatesis (paglilipat o pagpapalitan ng posisyon ng mga ponema)"
+        "text": "Paglilipat-Diin"
       },
       {
         "key": "B",
@@ -66,14 +66,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Paglilipat-Diin"
+        "text": "Reduplikasyon"
       },
       {
         "key": "D",
-        "text": "Reduplikasyon"
+        "text": "Metatesis (paglilipat o pagpapalitan ng posisyon ng mga ponema)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Metatesis ay ang pagpapalitan o paglilipat ng posisyon ng mga ponema sa loob ng salita (hal. in + lipad = nilipad; tanim + an = tamnan)."
   },
   {
@@ -83,22 +83,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Idyolek (personal at natatanging estilo o tatak ng pagsasalita ng isang indibidwal)"
+        "text": "Sosyolek (wika ayon sa pangkat-panlipunan)"
       },
       {
         "key": "B",
-        "text": "Dayalek (rehiyonal na wika)"
+        "text": "Idyolek (personal at natatanging estilo o tatak ng pagsasalita ng isang indibidwal)"
       },
       {
         "key": "C",
-        "text": "Sosyolek (wika ayon sa pangkat-panlipunan)"
+        "text": "Dayalek (rehiyonal na wika)"
       },
       {
         "key": "D",
         "text": "Etnolek"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Idyolek ang tawag sa pekulyar o natatanging tatak at estilo ng pagsasalita ng isang partikular na indibidwal."
   },
   {
@@ -108,22 +108,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sosyolek (barayti ng wika na nabubuo batay sa dimensyong sosyal, edad, kasarian, o grupong kinabibilangan)"
-      },
-      {
-        "key": "B",
         "text": "Ekolek (wika sa loob ng tahanan)"
       },
       {
+        "key": "B",
+        "text": "Pidgin"
+      },
+      {
         "key": "C",
-        "text": "Dayalekto"
+        "text": "Sosyolek (barayti ng wika na nabubuo batay sa dimensyong sosyal, edad, kasarian, o grupong kinabibilangan)"
       },
       {
         "key": "D",
-        "text": "Pidgin"
+        "text": "Dayalekto"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Sosyolek ang barayting ginagamit ng partikular na grupo o antas ng lipunan (wika ng mga beki, kabataan, propesyonal)."
   },
   {
@@ -137,7 +137,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Tagalog"
+        "text": "Ingles"
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ingles"
+        "text": "Tagalog"
       }
     ],
     "correctAnswer": "A",
@@ -158,7 +158,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Francisco Balagtas (Baltazar)"
+        "text": "Lope K. Santos"
       },
       {
         "key": "B",
@@ -166,14 +166,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Lope K. Santos"
+        "text": "Severino Reyes"
       },
       {
         "key": "D",
-        "text": "Severino Reyes"
+        "text": "Francisco Balagtas (Baltazar)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Si Francisco Baltazar (Balagtas) ang sumulat ng walang-kamatayang *Florante at Laura*, isang alegorya ng pagdurusa ng bayan sa ilalim ng kolonyalismong Kastila."
   },
   {
@@ -183,11 +183,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lola Basyang (akda ng 'Walang Sugat')"
+        "text": "Plaridel"
       },
       {
         "key": "B",
-        "text": "Plaridel"
+        "text": "Lola Basyang (akda ng 'Walang Sugat')"
       },
       {
         "key": "C",
@@ -198,7 +198,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Taga-Ilog"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Si Severino Reyes ang lumikha ng *Walang Sugat* at sumulat ng mga klasikong kwentong pambata gamit ang sagisag na 'Lola Basyang'."
   },
   {
@@ -208,22 +208,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ang Awit ay may 12 pantig bawat taludtod at mabagal na himig (andante); ang Korido ay may 8 pantig bawat taludtod at mabilis na himig (allegro) na may kababalaghan."
+        "text": "Pareho silang may 16 na pantig."
       },
       {
         "key": "B",
-        "text": "Ang Awit ay may 8 pantig habang ang Korido ay may 12 pantig."
+        "text": "Ang Awit ay may 12 pantig bawat taludtod at mabagal na himig (andante); ang Korido ay may 8 pantig bawat taludtod at mabilis na himig (allegro) na may kababalaghan."
       },
       {
         "key": "C",
-        "text": "Ang Korido ay walang tugma."
+        "text": "Ang Awit ay may 8 pantig habang ang Korido ay may 12 pantig."
       },
       {
         "key": "D",
-        "text": "Pareho silang may 16 na pantig."
+        "text": "Ang Korido ay walang tugma."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Awit = 12 pantig bawat taludtod, mabagal/banayad (andante); Korido = 8 pantig bawat taludtod, mabilis (allegro), puno ng supernatural na kababalaghan."
   },
   {
@@ -233,22 +233,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "May apat (4) na taludtod na may pitong (7) pantig bawat taludtod (7-7-7-7) na may magkakatugmang dulo."
+        "text": "Walang sukat at walang tugma."
       },
       {
         "key": "B",
-        "text": "May 3 taludtod na may 5-7-5 pantig (Haiku)."
-      },
-      {
-        "key": "C",
         "text": "May 12 pantig bawat taludtod."
       },
       {
+        "key": "C",
+        "text": "May apat (4) na taludtod na may pitong (7) pantig bawat taludtod (7-7-7-7) na may magkakatugmang dulo."
+      },
+      {
         "key": "D",
-        "text": "Walang sukat at walang tugma."
+        "text": "May 3 taludtod na may 5-7-5 pantig (Haiku)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ang katutubong Tanaga ay binubuo ng 4 na taludtod na may tig-7 pantig (7-7-7-7), samantalang ang Haiku ng Hapon ay may 3 taludtod na may 5-7-5 pantig."
   },
   {
@@ -258,22 +258,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -283,7 +283,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
@@ -291,14 +291,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -308,22 +308,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -333,22 +333,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Lope K. Santos"
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -358,11 +358,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -370,10 +370,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -387,15 +387,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
     "correctAnswer": "A",
@@ -412,7 +412,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -420,7 +420,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -433,22 +433,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
+        "key": "D",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -458,22 +458,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Walang kaugnayan sa wika."
+      },
+      {
+        "key": "C",
+        "text": "Lope K. Santos"
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -483,22 +483,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -508,22 +508,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -533,7 +533,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -545,10 +545,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -558,22 +558,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -583,22 +583,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Lope K. Santos"
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -612,15 +612,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -633,7 +633,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
@@ -641,14 +641,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -683,22 +683,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Kanseladong tuntunin."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -708,11 +708,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Lope K. Santos"
       },
       {
         "key": "C",
@@ -720,10 +720,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -733,22 +733,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -787,15 +787,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
     "correctAnswer": "A",
@@ -808,22 +808,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "D",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -833,22 +833,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Lope K. Santos"
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -858,7 +858,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -866,14 +866,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -887,7 +887,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -895,7 +895,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -908,22 +908,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -933,11 +933,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "C",
@@ -948,7 +948,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -958,22 +958,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Lope K. Santos"
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -983,22 +983,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -1008,22 +1008,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -1033,22 +1033,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Walang kaugnayan sa wika."
+      },
+      {
+        "key": "C",
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1058,22 +1058,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1083,22 +1083,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Lope K. Santos"
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -1108,7 +1108,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -1120,10 +1120,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -1137,11 +1137,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
@@ -1158,22 +1158,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Kanseladong tuntunin."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1183,22 +1183,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+      },
+      {
+        "key": "C",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1208,22 +1208,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Walang kaugnayan sa wika."
+      },
+      {
+        "key": "C",
+        "text": "Lope K. Santos"
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -1241,11 +1241,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
     "correctAnswer": "A",
@@ -1258,22 +1258,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -1283,11 +1283,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -1295,10 +1295,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1308,22 +1308,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1333,22 +1333,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Kanseladong tuntunin."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Lope K. Santos"
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -1362,15 +1362,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -1383,7 +1383,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
@@ -1391,14 +1391,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -1408,11 +1408,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "C",
@@ -1423,7 +1423,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1433,22 +1433,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Kanseladong tuntunin."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1462,7 +1462,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -1470,7 +1470,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -1483,22 +1483,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -1533,22 +1533,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1558,22 +1558,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
+        "key": "C",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+      },
+      {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1583,7 +1583,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lope K. Santos"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -1595,10 +1595,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Lope K. Santos"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Si Lope K. Santos ang sumulat ng Balarila ng Wikang Pambansa at nagtatag ng 20-titik na Abakada."
   },
   {
@@ -1608,7 +1608,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Walang kaugnayan sa wika."
       },
       {
         "key": "B",
@@ -1616,14 +1616,14 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -1637,7 +1637,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -1658,22 +1658,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Maling pormulasyon sa balarila."
+      },
+      {
+        "key": "D",
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1683,11 +1683,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
       },
       {
         "key": "C",
@@ -1698,7 +1698,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1712,15 +1712,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Maling pormulasyon sa balarila."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
     "correctAnswer": "A",
@@ -1733,22 +1733,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
-      },
-      {
-        "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "C",
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   },
   {
@@ -1758,7 +1758,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -1770,10 +1770,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Pagwawangis (Metaphor - tiyak at direktang paghahalintulad nang walang paggamit ng mga salitang tulad ng, animo, parang)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Pagwawangis (Metaphor) ang direktang paghahambing; Pagtutulad (Simile) kapag may 'parang, tila, tulad ng'."
   },
   {
@@ -1783,22 +1783,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Walang kaugnayan sa wika."
+      },
+      {
+        "key": "C",
+        "text": "Pagmamalabis (Hyperbole - eksaheradong paglalarawan na lampas sa katotohanan)."
       },
       {
         "key": "D",
         "text": "Kanseladong tuntunin."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Pagmamalabis (Hyperbole) ang labis-labis na pagpapasidhi sa kalagayan upang magbigay-diin."
   },
   {
@@ -1808,22 +1808,22 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
-      },
-      {
-        "key": "B",
         "text": "Maling pormulasyon sa balarila."
       },
       {
+        "key": "B",
+        "text": "Pangungusap na Hugnayan (binubuo ng isang sugnay na makapag-iisa at isa o higit pang sugnay na di-makapag-iisa)."
+      },
+      {
         "key": "C",
-        "text": "Walang kaugnayan sa wika."
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Walang kaugnayan sa wika."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Hugnayan ang pangungusap na may malayang sugnay at pantulong na sugnay na pinag-ugnay ng pangatnig (upang, nang, dahil)."
   },
   {
@@ -1837,15 +1837,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maling pormulasyon sa balarila."
-      },
-      {
-        "key": "C",
         "text": "Walang kaugnayan sa wika."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Kanseladong tuntunin."
+      },
+      {
+        "key": "D",
+        "text": "Maling pormulasyon sa balarila."
       }
     ],
     "correctAnswer": "A",
@@ -1858,7 +1858,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
+        "text": "Kanseladong tuntunin."
       },
       {
         "key": "B",
@@ -1870,10 +1870,10 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kanseladong tuntunin."
+        "text": "Rehiyong Ilocos (Panitikang Ilokano)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Ang Biag ni Lam-ang ay dakilang epikong-bayan ng mga Ilokano na isinaayos sa anyong pasulat ni Pedro Bukaneg."
   }
 ];

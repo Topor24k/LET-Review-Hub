@@ -8,22 +8,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Noise (Physical, Physiological, Psychological, or Semantic interference)"
+        "text": "Transactional context"
       },
       {
         "key": "B",
-        "text": "Feedback loop"
+        "text": "Noise (Physical, Physiological, Psychological, or Semantic interference)"
       },
       {
         "key": "C",
-        "text": "Transactional context"
+        "text": "Feedback loop"
       },
       {
         "key": "D",
         "text": "Cultural empathy"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Shannon and Weaver introduced the concept of 'Noise' as any interference that distorts or obstructs the message between the transmitter and the receiver."
   },
   {
@@ -33,22 +33,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Communicators act simultaneously as senders and receivers in a continuous, dynamic, and mutually negotiated process of meaning-making."
-      },
-      {
-        "key": "B",
         "text": "Communication only moves in one direction."
       },
       {
+        "key": "B",
+        "text": "Only written letters count as communication."
+      },
+      {
         "key": "C",
-        "text": "Feedback is impossible."
+        "text": "Communicators act simultaneously as senders and receivers in a continuous, dynamic, and mutually negotiated process of meaning-making."
       },
       {
         "key": "D",
-        "text": "Only written letters count as communication."
+        "text": "Feedback is impossible."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Transactional Model views communication as circular and simultaneous: both parties constantly send and decode messages/cues in shared social contexts."
   },
   {
@@ -62,15 +62,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Conciseness"
-      },
-      {
-        "key": "C",
         "text": "Courtesy"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Cleverness"
+      },
+      {
+        "key": "D",
+        "text": "Conciseness"
       }
     ],
     "correctAnswer": "A",
@@ -83,7 +83,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High-Context cultures rely heavily on non-verbal cues, shared history, subtle tone, and social relationships; Low-Context cultures rely on explicit, direct, literal verbal statements."
+        "text": "Low-context cultures communicate purely through gestures."
       },
       {
         "key": "B",
@@ -91,14 +91,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Low-context cultures communicate purely through gestures."
+        "text": "There is no difference."
       },
       {
         "key": "D",
-        "text": "There is no difference."
+        "text": "High-Context cultures rely heavily on non-verbal cues, shared history, subtle tone, and social relationships; Low-Context cultures rely on explicit, direct, literal verbal statements."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "High-context communication relies on implicit cues, background context, and non-verbal nuances; low-context communication values explicit, direct, unambiguous words."
   },
   {
@@ -108,11 +108,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Acceptance of hierarchical authority, deep respect for elders/titles ('Po' and 'Opo', 'Sir/Ma'am'), and formal social stratification."
+        "text": "Total egalitarian equality where children call their parents by first names."
       },
       {
         "key": "B",
-        "text": "Total egalitarian equality where children call their parents by first names."
+        "text": "Acceptance of hierarchical authority, deep respect for elders/titles ('Po' and 'Opo', 'Sir/Ma'am'), and formal social stratification."
       },
       {
         "key": "C",
@@ -123,7 +123,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Abolition of all schools."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "High Power Distance cultures expect and accept hierarchical structures, deference to authority, respectful honorifics, and centralized organizational power."
   },
   {
@@ -133,22 +133,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1.5 to 4 feet (0.45 to 1.2 meters)"
-      },
-      {
-        "key": "B",
         "text": "0 to 18 inches (Intimate Distance)"
       },
       {
+        "key": "B",
+        "text": "12 to 25+ feet (Public Distance)"
+      },
+      {
         "key": "C",
-        "text": "4 to 12 feet (Social Distance)"
+        "text": "1.5 to 4 feet (0.45 to 1.2 meters)"
       },
       {
         "key": "D",
-        "text": "12 to 25+ feet (Public Distance)"
+        "text": "4 to 12 feet (Social Distance)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Hall's 4 spatial zones: Intimate (0-1.5 ft), Personal (1.5-4 ft), Social (4-12 ft), and Public (12+ ft)."
   },
   {
@@ -162,7 +162,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Kinesics (body movement / gestures)"
+        "text": "Oculesics (eye contact)"
       },
       {
         "key": "C",
@@ -170,7 +170,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Oculesics (eye contact)"
+        "text": "Kinesics (body movement / gestures)"
       }
     ],
     "correctAnswer": "A",
@@ -183,22 +183,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vocal pitch, tone of voice, volume, speaking rate, intonation, and vocal pauses."
+        "text": "The color of the speaker's suit."
       },
       {
         "key": "B",
-        "text": "The written grammar rules in a dictionary."
-      },
-      {
-        "key": "C",
         "text": "The physical design of the lectern."
       },
       {
+        "key": "C",
+        "text": "The written grammar rules in a dictionary."
+      },
+      {
         "key": "D",
-        "text": "The color of the speaker's suit."
+        "text": "Vocal pitch, tone of voice, volume, speaking rate, intonation, and vocal pauses."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Paralanguage refers to the vocal qualities and non-verbal nuances that accompany speech (pitch, volume, inflection, pacing), altering meaning."
   },
   {
@@ -208,7 +208,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(Santos, 2024)"
+        "text": "(Santos 2024: 45)"
       },
       {
         "key": "B",
@@ -216,14 +216,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "(Santos 2024: 45)"
+        "text": "(Santos, 2024)"
       },
       {
         "key": "D",
         "text": "(Author: Santos, Year: 2024)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "APA style uses Author-Date in-text citation: (Author's Last Name, Year of Publication), adding page numbers (p. XX) for direct quotes."
   },
   {
@@ -233,22 +233,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Extemporaneous Speech"
+        "text": "Memorized Speech"
       },
       {
         "key": "B",
-        "text": "Impromptu Speech (no preparation)"
+        "text": "Extemporaneous Speech"
       },
       {
         "key": "C",
-        "text": "Manuscript Speech (reading word-for-word)"
+        "text": "Impromptu Speech (no preparation)"
       },
       {
         "key": "D",
-        "text": "Memorized Speech"
+        "text": "Manuscript Speech (reading word-for-word)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Extemporaneous speaking involves thorough research, structured outline preparation, and conversational delivery without reading verbatim or reciting by rote."
   },
   {
@@ -258,22 +258,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
+        "key": "C",
+        "text": "Semantic noise and cross-cultural miscommunication."
+      },
+      {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -308,7 +308,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -316,14 +316,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -337,7 +337,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -358,22 +358,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Irrelevant bureaucratic noise."
+      },
+      {
+        "key": "D",
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -383,11 +383,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Semantic noise and cross-cultural miscommunication."
       },
       {
         "key": "C",
@@ -398,7 +398,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -412,15 +412,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
     "correctAnswer": "A",
@@ -433,22 +433,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -458,7 +458,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -470,10 +470,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -483,22 +483,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
+      },
+      {
+        "key": "C",
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -508,22 +508,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
+        "key": "B",
+        "text": "Semantic noise and cross-cultural miscommunication."
+      },
+      {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -537,15 +537,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -558,7 +558,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -570,10 +570,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -583,22 +583,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -608,22 +608,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
+        "key": "B",
+        "text": "Complete cancellation of meetings."
+      },
+      {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -633,22 +633,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Semantic noise and cross-cultural miscommunication."
+      },
+      {
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -658,7 +658,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
@@ -666,14 +666,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -691,11 +691,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
     "correctAnswer": "A",
@@ -708,22 +708,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+      },
+      {
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -733,11 +733,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -745,10 +745,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -758,22 +758,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Semantic noise and cross-cultural miscommunication."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -783,7 +783,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -791,14 +791,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -812,15 +812,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -833,22 +833,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -858,11 +858,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "C",
@@ -873,7 +873,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -883,22 +883,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Semantic noise and cross-cultural miscommunication."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -912,7 +912,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -920,7 +920,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -933,22 +933,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
+        "key": "C",
+        "text": "Irrelevant bureaucratic noise."
+      },
+      {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -958,22 +958,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
+      },
+      {
+        "key": "C",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -983,22 +983,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1008,22 +1008,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Semantic noise and cross-cultural miscommunication."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -1033,7 +1033,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -1045,10 +1045,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -1058,7 +1058,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1083,11 +1083,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "C",
@@ -1095,10 +1095,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1108,22 +1108,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Irrelevant bureaucratic noise."
+      },
+      {
+        "key": "D",
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1133,7 +1133,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
@@ -1141,14 +1141,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Semantic noise and cross-cultural miscommunication."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -1162,15 +1162,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
     "correctAnswer": "A",
@@ -1183,22 +1183,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1208,11 +1208,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -1220,10 +1220,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1233,22 +1233,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
+      },
+      {
+        "key": "C",
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1266,11 +1266,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
     "correctAnswer": "A",
@@ -1287,15 +1287,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -1308,7 +1308,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
@@ -1316,14 +1316,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1333,22 +1333,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1358,22 +1358,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
+        "key": "B",
+        "text": "Complete cancellation of meetings."
+      },
+      {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1387,7 +1387,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -1395,7 +1395,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -1408,7 +1408,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
@@ -1416,14 +1416,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -1433,11 +1433,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       },
       {
         "key": "C",
@@ -1448,7 +1448,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1458,22 +1458,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1483,11 +1483,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "C",
@@ -1495,10 +1495,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1512,11 +1512,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
@@ -1533,7 +1533,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -1541,14 +1541,14 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -1558,11 +1558,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       },
       {
         "key": "C",
@@ -1570,10 +1570,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1583,22 +1583,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1608,11 +1608,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
       },
       {
         "key": "C",
@@ -1623,7 +1623,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1637,15 +1637,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
     "correctAnswer": "A",
@@ -1662,7 +1662,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "C",
@@ -1670,7 +1670,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",
@@ -1683,22 +1683,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Irrelevant bureaucratic noise."
+      },
+      {
+        "key": "D",
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1708,22 +1708,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Severe disciplinary penalties."
+      },
+      {
+        "key": "C",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1733,22 +1733,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
+        "key": "B",
+        "text": "Beginning with genuine positive praise, offering specific actionable critique in the middle, and ending on an encouraging positive note."
+      },
+      {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "This communication technique preserves interpersonal rapport while addressing performance deficiencies."
   },
   {
@@ -1758,22 +1758,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Semantic noise and cross-cultural miscommunication."
-      },
-      {
-        "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "C",
+        "text": "Semantic noise and cross-cultural miscommunication."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Clear intercultural English avoids local idioms that non-native speakers cannot decode."
   },
   {
@@ -1783,7 +1783,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "B",
@@ -1795,10 +1795,10 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "To communicate urgent policy announcements, directives, or updates within an organization in a concise, structured format."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Memos are concise internal communication channels structured with To, From, Date, and Subject lines."
   },
   {
@@ -1808,22 +1808,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
+        "text": "Severe disciplinary penalties."
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
+        "text": "Official resolutions passed, voting outcomes, action items assigned, and attendance, rather than emotional arguments."
       },
       {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Irrelevant bureaucratic noise."
       },
       {
         "key": "D",
         "text": "Complete cancellation of meetings."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Meeting minutes serve as legal historical records of corporate decisions and accountability."
   },
   {
@@ -1833,22 +1833,22 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
-      },
-      {
-        "key": "B",
         "text": "Irrelevant bureaucratic noise."
       },
       {
+        "key": "B",
+        "text": "Tailor vocabulary, persuasive evidence, tone, and cultural examples to the specific needs and attitudes of the listeners."
+      },
+      {
         "key": "C",
-        "text": "Severe disciplinary penalties."
+        "text": "Complete cancellation of meetings."
       },
       {
         "key": "D",
-        "text": "Complete cancellation of meetings."
+        "text": "Severe disciplinary penalties."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Effective purposive rhetoric is audience-centered, adapting content to listener background."
   },
   {
@@ -1862,15 +1862,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Irrelevant bureaucratic noise."
-      },
-      {
-        "key": "C",
         "text": "Severe disciplinary penalties."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Complete cancellation of meetings."
+      },
+      {
+        "key": "D",
+        "text": "Irrelevant bureaucratic noise."
       }
     ],
     "correctAnswer": "A",

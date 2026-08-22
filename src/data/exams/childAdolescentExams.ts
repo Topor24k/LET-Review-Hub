@@ -8,22 +8,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cephalocaudal Trend (Head-to-Tail)"
-      },
-      {
-        "key": "B",
-        "text": "Proximodistal Trend (Center-Outward)"
-      },
-      {
-        "key": "C",
         "text": "Mass-to-Specific Trend"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Bilateral Trend"
+      },
+      {
+        "key": "C",
+        "text": "Cephalocaudal Trend (Head-to-Tail)"
+      },
+      {
+        "key": "D",
+        "text": "Proximodistal Trend (Center-Outward)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Cephalocaudal pattern (from the Latin 'head to tail') dictates that physical and motor development proceeds from the head downward to the lower extremities."
   },
   {
@@ -33,11 +33,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Proximodistal Trend (Near-to-Far / Center-Outward)"
+        "text": "Cephalocaudal Trend"
       },
       {
         "key": "B",
-        "text": "Cephalocaudal Trend"
+        "text": "Discrete Trend"
       },
       {
         "key": "C",
@@ -45,10 +45,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Discrete Trend"
+        "text": "Proximodistal Trend (Near-to-Far / Center-Outward)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Proximodistal pattern states that growth and motor control proceed from the center (trunk/core) of the body outward toward the extremities (hands and fingers)."
   },
   {
@@ -58,22 +58,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Critical Period is a strict biological window where specific environmental stimuli MUST occur for normal development (e.g. embryonic limb formation); a Sensitive Period is an optimal timeframe where a child is particularly responsive to learning (e.g. early language acquisition), but development can still occur later with greater difficulty."
+        "text": "Sensitive periods apply only to senior adults."
       },
       {
         "key": "B",
-        "text": "They are exact synonyms."
+        "text": "A Critical Period is a strict biological window where specific environmental stimuli MUST occur for normal development (e.g. embryonic limb formation); a Sensitive Period is an optimal timeframe where a child is particularly responsive to learning (e.g. early language acquisition), but development can still occur later with greater difficulty."
       },
       {
         "key": "C",
-        "text": "Sensitive periods apply only to senior adults."
+        "text": "They are exact synonyms."
       },
       {
         "key": "D",
         "text": "Critical periods only happen after age 20."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Critical periods are rigid biological windows with irreversible consequences if missed; Sensitive periods are optimal windows of heightened plasticity where learning occurs most naturally."
   },
   {
@@ -91,11 +91,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "100% environment with zero genetic influence."
+        "text": "Random luck."
       },
       {
         "key": "D",
-        "text": "Random luck."
+        "text": "100% environment with zero genetic influence."
       }
     ],
     "correctAnswer": "A",
@@ -112,15 +112,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Ego"
-      },
-      {
-        "key": "C",
         "text": "The Superego"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "The Ego Ideal"
+      },
+      {
+        "key": "D",
+        "text": "The Ego"
       }
     ],
     "correctAnswer": "A",
@@ -133,7 +133,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Oral -> Anal -> Phallic -> Latency -> Genital"
+        "text": "Oral -> Phallic -> Anal -> Latency -> Genital"
       },
       {
         "key": "B",
@@ -141,14 +141,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Oral -> Phallic -> Anal -> Latency -> Genital"
+        "text": "Sensorimotor -> Preoperational -> Concrete -> Formal"
       },
       {
         "key": "D",
-        "text": "Sensorimotor -> Preoperational -> Concrete -> Formal"
+        "text": "Oral -> Anal -> Phallic -> Latency -> Genital"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Freud's 5 psychosexual stages: Oral (0-1 yr), Anal (1-3 yrs), Phallic (3-6 yrs), Latency (6-puberty), and Genital (puberty onwards)."
   },
   {
@@ -158,11 +158,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Oedipus Complex"
+        "text": "Electra Complex"
       },
       {
         "key": "B",
-        "text": "Electra Complex"
+        "text": "Oedipus Complex"
       },
       {
         "key": "C",
@@ -173,7 +173,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Peter Pan Syndrome"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Oedipus Complex (Phallic stage) is the boy's subconscious rivalry with the father for maternal affection, resolved by adopting the father's moral values and gender role."
   },
   {
@@ -183,22 +183,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sublimation"
-      },
-      {
-        "key": "B",
         "text": "Repression"
       },
       {
+        "key": "B",
+        "text": "Reaction Formation"
+      },
+      {
         "key": "C",
-        "text": "Projection"
+        "text": "Sublimation"
       },
       {
         "key": "D",
-        "text": "Reaction Formation"
+        "text": "Projection"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Sublimation is the most mature defense mechanism, transforming unacceptable instinctual impulses (e.g. aggression) into socially constructive and productive pursuits."
   },
   {
@@ -212,7 +212,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Will (Autonomy vs Shame)"
+        "text": "Competence (Industry vs Inferiority)"
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Competence (Industry vs Inferiority)"
+        "text": "Will (Autonomy vs Shame)"
       }
     ],
     "correctAnswer": "A",
@@ -237,11 +237,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Role Confusion"
+        "text": "Isolation"
       },
       {
         "key": "C",
-        "text": "Isolation"
+        "text": "Role Confusion"
       },
       {
         "key": "D",
@@ -258,22 +258,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Purpose (Initiative vs Guilt)"
-      },
-      {
-        "key": "B",
         "text": "Fidelity"
       },
       {
+        "key": "B",
+        "text": "Purpose (Initiative vs Guilt)"
+      },
+      {
         "key": "C",
-        "text": "Love"
+        "text": "Wisdom"
       },
       {
         "key": "D",
-        "text": "Wisdom"
+        "text": "Love"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Stage 3 (Preschool) is Initiative vs Guilt; supportive exploration and creative play allow children to develop a sense of Purpose."
   },
   {
@@ -283,22 +283,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Industry vs Inferiority -> Virtue: Competence"
-      },
-      {
-        "key": "B",
-        "text": "Identity vs Role Confusion -> Virtue: Fidelity"
-      },
-      {
-        "key": "C",
         "text": "Trust vs Mistrust -> Virtue: Hope"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Industry vs Inferiority -> Virtue: Competence"
+      },
+      {
+        "key": "C",
         "text": "Intimacy vs Isolation -> Virtue: Love"
+      },
+      {
+        "key": "D",
+        "text": "Identity vs Role Confusion -> Virtue: Fidelity"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Stage 4 (School Age) is Industry vs Inferiority; positive teacher recognition for task mastery fosters a sense of Competence and work ethic."
   },
   {
@@ -308,22 +308,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identity vs Role Confusion (Virtue: Fidelity)"
-      },
-      {
-        "key": "B",
         "text": "Generativity vs Stagnation"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Integrity vs Despair"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Autonomy vs Shame"
+      },
+      {
+        "key": "D",
+        "text": "Identity vs Role Confusion (Virtue: Fidelity)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Stage 5 (Adolescence, 12-18 yrs) centers on Identity vs Role Confusion, resolving through forming an integrated personal self-concept and the virtue of Fidelity."
   },
   {
@@ -358,7 +358,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assimilation (fitting new information into an existing schema)"
+        "text": "Decentration"
       },
       {
         "key": "B",
@@ -366,14 +366,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Equilibration"
+        "text": "Assimilation (fitting new information into an existing schema)"
       },
       {
         "key": "D",
-        "text": "Decentration"
+        "text": "Equilibration"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Assimilation fits new sensory data into pre-existing cognitive structures (schemas). When the child is corrected and creates a new category for 'cat', Accommodation occurs."
   },
   {
@@ -383,11 +383,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Object Permanence"
+        "text": "Seriation"
       },
       {
         "key": "B",
-        "text": "Conservation"
+        "text": "Object Permanence"
       },
       {
         "key": "C",
@@ -395,10 +395,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Seriation"
+        "text": "Conservation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Object Permanence (mastered in Sensorimotor Stage, 0-2 yrs) is the understanding that objects continue to exist even when they cannot be seen, heard, or touched."
   },
   {
@@ -408,22 +408,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Centration (focusing on only one perceptual feature—height—while ignoring width) and lack of Conservation"
-      },
-      {
-        "key": "B",
-        "text": "Formal Deductive Logic"
-      },
-      {
-        "key": "C",
         "text": "Hypothetico-Deductive Reasoning"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Transitive Inference"
+      },
+      {
+        "key": "C",
+        "text": "Formal Deductive Logic"
+      },
+      {
+        "key": "D",
+        "text": "Centration (focusing on only one perceptual feature—height—while ignoring width) and lack of Conservation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Preoperational children (2-7 yrs) exhibit Centration (centering on one visual dimension like height) and lack Conservation (understanding quantity remains identical despite shape change)."
   },
   {
@@ -433,11 +433,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Egocentrism (inability to perceive the physical or emotional perspective of another person)"
+        "text": "Animism"
       },
       {
         "key": "B",
-        "text": "Animism"
+        "text": "Egocentrism (inability to perceive the physical or emotional perspective of another person)"
       },
       {
         "key": "C",
@@ -448,7 +448,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Metacognition"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Preoperational Egocentrism is the cognitive limitation where the child assumes everyone sees, hears, and feels the world exactly as they do."
   },
   {
@@ -462,15 +462,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Artificialism"
+        "text": "Class Inclusion"
       },
       {
         "key": "C",
-        "text": "Deduction"
+        "text": "Artificialism"
       },
       {
         "key": "D",
-        "text": "Class Inclusion"
+        "text": "Deduction"
       }
     ],
     "correctAnswer": "A",
@@ -483,22 +483,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Concrete Operational Stage"
-      },
-      {
-        "key": "B",
-        "text": "Sensorimotor Stage"
-      },
-      {
-        "key": "C",
         "text": "Preoperational Stage"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Post-Formal Stage"
+      },
+      {
+        "key": "C",
+        "text": "Concrete Operational Stage"
+      },
+      {
+        "key": "D",
+        "text": "Sensorimotor Stage"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Concrete Operational Stage (7-11 yrs) is marked by logical operations on concrete tangible objects: Decentration, Reversibility, Conservation, Seriation, and Classification."
   },
   {
@@ -508,22 +508,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Formal Operational Stage"
-      },
-      {
-        "key": "B",
-        "text": "Concrete Operational Stage"
-      },
-      {
-        "key": "C",
         "text": "Preoperational Stage"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Sensorimotor Stage"
+      },
+      {
+        "key": "C",
+        "text": "Concrete Operational Stage"
+      },
+      {
+        "key": "D",
+        "text": "Formal Operational Stage"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Formal Operational Stage (11-15+ yrs) introduces abstract logic, hypothetical thinking, deductive reasoning, and metacognitive reflection beyond tangible physical objects."
   },
   {
@@ -533,22 +533,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It serves as an essential tool for self-regulation, cognitive guidance, and planning behavior, which later internalizes into silent inner thought."
-      },
-      {
-        "key": "B",
         "text": "It is a sign of psychiatric illness."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "It is meaningless babble that should be strictly punished."
+      },
+      {
+        "key": "C",
+        "text": "It serves as an essential tool for self-regulation, cognitive guidance, and planning behavior, which later internalizes into silent inner thought."
       },
       {
         "key": "D",
         "text": "It indicates hearing impairment."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Vygotsky demonstrated that Private Speech is a vital developmental bridge where external verbal communication transforms into internal self-regulation and thought."
   },
   {
@@ -558,22 +558,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A teacher, parent, skilled peer, or even educational computer software with greater competence than the learner in a specific task."
-      },
-      {
-        "key": "B",
         "text": "Only a university professor with a PhD."
       },
       {
+        "key": "B",
+        "text": "A teacher, parent, skilled peer, or even educational computer software with greater competence than the learner in a specific task."
+      },
+      {
         "key": "C",
-        "text": "Only a parent."
+        "text": "The younger sibling."
       },
       {
         "key": "D",
-        "text": "The younger sibling."
+        "text": "Only a parent."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The MKO refers to anyone (adult, expert peer, or interactive digital mentor) who has a higher ability level or better understanding than the learner regarding a specific concept."
   },
   {
@@ -587,15 +587,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Stage 3: Good Boy / Nice Girl Orientation"
-      },
-      {
-        "key": "C",
         "text": "Stage 5: Social Contract Orientation"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Stage 6: Universal Ethical Principles"
+      },
+      {
+        "key": "D",
+        "text": "Stage 3: Good Boy / Nice Girl Orientation"
       }
     ],
     "correctAnswer": "A",
@@ -608,7 +608,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 2: Instrumental Relativist / Naive Hedonistic Orientation"
+        "text": "Stage 6: Universal Ethics"
       },
       {
         "key": "B",
@@ -620,10 +620,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stage 6: Universal Ethics"
+        "text": "Stage 2: Instrumental Relativist / Naive Hedonistic Orientation"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Stage 2 is transactional and self-interested: right behavior satisfies one's own immediate needs and involves pragmatic marketplace reciprocity."
   },
   {
@@ -633,22 +633,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 3: Interpersonal Conformity / 'Good Boy - Nice Girl' Orientation"
+        "text": "Stage 2: Marketplace Exchange"
       },
       {
         "key": "B",
-        "text": "Stage 1: Punishment and Obedience"
+        "text": "Stage 3: Interpersonal Conformity / 'Good Boy - Nice Girl' Orientation"
       },
       {
         "key": "C",
-        "text": "Stage 5: Social Contract"
+        "text": "Stage 1: Punishment and Obedience"
       },
       {
         "key": "D",
-        "text": "Stage 2: Marketplace Exchange"
+        "text": "Stage 5: Social Contract"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Stage 3 (Conventional) defines right action by living up to social expectations, seeking peer/teacher approval, and being seen as 'good'."
   },
   {
@@ -658,22 +658,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 4: Law and Order / Social System Maintenance Orientation"
+        "text": "Stage 1: Obedience"
       },
       {
         "key": "B",
-        "text": "Stage 2: Individual Exchange"
-      },
-      {
-        "key": "C",
         "text": "Stage 6: Universal Principles"
       },
       {
+        "key": "C",
+        "text": "Stage 4: Law and Order / Social System Maintenance Orientation"
+      },
+      {
         "key": "D",
-        "text": "Stage 1: Obedience"
+        "text": "Stage 2: Individual Exchange"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Stage 4 focuses on maintaining social order, respecting institutional authority, and performing one's prescribed civic duty."
   },
   {
@@ -683,22 +683,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 6: Universal Ethical Principles (Post-Conventional)"
+        "text": "Stage 4: Law and Order"
       },
       {
         "key": "B",
-        "text": "Stage 1: Punishment and Obedience"
-      },
-      {
-        "key": "C",
         "text": "Stage 2: Hedonistic Exchange"
       },
       {
+        "key": "C",
+        "text": "Stage 1: Punishment and Obedience"
+      },
+      {
         "key": "D",
-        "text": "Stage 4: Law and Order"
+        "text": "Stage 6: Universal Ethical Principles (Post-Conventional)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Stage 6 represents the pinnacle of post-conventional moral reasoning: self-chosen universal ethical principles of justice, equality, and human dignity that transcend civil laws."
   },
   {
@@ -708,7 +708,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Microsystem"
+        "text": "Exosystem"
       },
       {
         "key": "B",
@@ -716,14 +716,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Exosystem"
+        "text": "Microsystem"
       },
       {
         "key": "D",
         "text": "Macrosystem"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The Microsystem is the innermost layer of immediate direct relationships and face-to-face settings (home, school classroom, neighborhood play area)."
   },
   {
@@ -741,11 +741,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Macrosystem"
+        "text": "Chronosystem"
       },
       {
         "key": "D",
-        "text": "Chronosystem"
+        "text": "Macrosystem"
       }
     ],
     "correctAnswer": "A",
@@ -758,22 +758,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exosystem"
-      },
-      {
-        "key": "B",
-        "text": "Microsystem"
-      },
-      {
-        "key": "C",
         "text": "Mesosystem"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Exosystem"
+      },
+      {
+        "key": "C",
         "text": "Chronosystem"
+      },
+      {
+        "key": "D",
+        "text": "Microsystem"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Exosystem contains settings that do not physically contain the developing child, but indirectly affect the child's immediate environment (e.g., parents' workplace, school board policies)."
   },
   {
@@ -783,11 +783,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Macrosystem"
+        "text": "Microsystem"
       },
       {
         "key": "B",
-        "text": "Microsystem"
+        "text": "Mesosystem"
       },
       {
         "key": "C",
@@ -795,10 +795,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Mesosystem"
+        "text": "Macrosystem"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The Macrosystem is the broad cultural blueprint: cultural values, national belief systems, socio-economic structures, and state laws that permeate all lower systems."
   },
   {
@@ -812,11 +812,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Microsystem"
+        "text": "Mesosystem"
       },
       {
         "key": "C",
-        "text": "Mesosystem"
+        "text": "Microsystem"
       },
       {
         "key": "D",
@@ -833,7 +833,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Secure Attachment"
+        "text": "Disorganized Attachment"
       },
       {
         "key": "B",
@@ -841,14 +841,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Insecure-Resistant / Ambivalent Attachment"
+        "text": "Secure Attachment"
       },
       {
         "key": "D",
-        "text": "Disorganized Attachment"
+        "text": "Insecure-Resistant / Ambivalent Attachment"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Secure attachment reflects healthy emotional bonding; the caregiver serves as a secure base for confident environmental exploration."
   },
   {
@@ -862,15 +862,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Secure Attachment"
-      },
-      {
-        "key": "C",
         "text": "Insecure-Resistant Attachment"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Disorganized Attachment"
+      },
+      {
+        "key": "D",
+        "text": "Secure Attachment"
       }
     ],
     "correctAnswer": "A",
@@ -883,22 +883,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Observational learning and modeling (watching an adult model behave aggressively without direct reinforcement)."
-      },
-      {
-        "key": "B",
         "text": "Inborn biological aggression only."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Classical Pavlovian conditioning."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Genetic inheritance exclusively."
+      },
+      {
+        "key": "D",
+        "text": "Observational learning and modeling (watching an adult model behave aggressively without direct reinforcement)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Bandura demonstrated that children vicariously acquire complex behaviors through observation and cognitive modeling of live adult models without receiving direct reinforcement."
   },
   {
@@ -908,11 +908,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attention -> Retention -> Motor Reproduction -> Motivation / Reinforcement"
+        "text": "Stimulus -> Response -> Reward -> Extinction"
       },
       {
         "key": "B",
-        "text": "Stimulus -> Response -> Reward -> Extinction"
+        "text": "Attention -> Retention -> Motor Reproduction -> Motivation / Reinforcement"
       },
       {
         "key": "C",
@@ -923,7 +923,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Input -> Encoding -> Processing -> Output"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Bandura's 4 modeling phases: 1. Attention (focusing on model), 2. Retention (remembering the behavior), 3. Reproduction (executing the physical action), and 4. Motivation (incentive/reinforcement to act)."
   },
   {
@@ -933,7 +933,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An individual's personal belief in their own capability to successfully execute the actions required to achieve a specific goal."
+        "text": "IQ score."
       },
       {
         "key": "B",
@@ -941,14 +941,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A physical endurance rating."
+        "text": "An individual's personal belief in their own capability to successfully execute the actions required to achieve a specific goal."
       },
       {
         "key": "D",
-        "text": "IQ score."
+        "text": "A physical endurance rating."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Self-Efficacy is task-specific confidence in one's agency to master challenges and achieve desired outcomes (built through mastery experiences, vicarious models, and verbal persuasion)."
   },
   {
@@ -962,7 +962,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Id, Ego, and Superego"
+        "text": "Parents, Teachers, and Principals"
       },
       {
         "key": "C",
@@ -970,7 +970,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Parents, Teachers, and Principals"
+        "text": "Id, Ego, and Superego"
       }
     ],
     "correctAnswer": "A",
@@ -983,22 +983,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A fraction of a second to a few seconds (1-3 seconds)"
+        "text": "Exactly 20 minutes"
       },
       {
         "key": "B",
-        "text": "5 hours"
-      },
-      {
-        "key": "C",
         "text": "Permanent lifetime storage"
       },
       {
+        "key": "C",
+        "text": "5 hours"
+      },
+      {
         "key": "D",
-        "text": "Exactly 20 minutes"
+        "text": "A fraction of a second to a few seconds (1-3 seconds)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Sensory memory holds fleeting sensory impressions (iconic visual, echoic auditory) for very brief intervals (0.5 to 3 seconds) before fading unless attended to."
   },
   {
@@ -1008,22 +1008,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "5 to 9 chunks of information at a time"
-      },
-      {
-        "key": "B",
         "text": "1,000 items"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Unlimited"
+      },
+      {
+        "key": "C",
+        "text": "5 to 9 chunks of information at a time"
       },
       {
         "key": "D",
         "text": "1 item"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Miller (1956) showed that short-term working memory can hold 7 ± 2 items/chunks of information concurrently without conscious rehearsal strategies."
   },
   {
@@ -1033,22 +1033,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Elaborative rehearsal connects new information meaningfully to existing prior knowledge and real-world examples (deep processing), while maintenance rehearsal is shallow rote repetition."
+        "text": "Maintenance rehearsal requires singing."
       },
       {
         "key": "B",
-        "text": "Maintenance rehearsal takes 10 times longer."
+        "text": "Elaborative rehearsal connects new information meaningfully to existing prior knowledge and real-world examples (deep processing), while maintenance rehearsal is shallow rote repetition."
       },
       {
         "key": "C",
-        "text": "Elaborative rehearsal is done only by computers."
+        "text": "Maintenance rehearsal takes 10 times longer."
       },
       {
         "key": "D",
-        "text": "Maintenance rehearsal requires singing."
+        "text": "Elaborative rehearsal is done only by computers."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Levels of Processing Theory (Craik & Lockhart) shows that deep semantic elaboration creates rich neural pathways, dramatically enhancing long-term retrieval."
   },
   {
@@ -1058,7 +1058,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Procedural / Implicit Memory"
+        "text": "Semantic Memory"
       },
       {
         "key": "B",
@@ -1066,14 +1066,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Semantic Memory"
+        "text": "Echoic Memory"
       },
       {
         "key": "D",
-        "text": "Echoic Memory"
+        "text": "Procedural / Implicit Memory"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Procedural Memory (implicit/motor memory) stores motor skills, habits, and classical conditioned responses executed automatically."
   },
   {
@@ -1108,22 +1108,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Proactive Interference (Old learning interferes with recall of new learning)"
-      },
-      {
-        "key": "B",
         "text": "Retroactive Interference (New learning interferes with recall of old learning)"
       },
       {
+        "key": "B",
+        "text": "Repression"
+      },
+      {
         "key": "C",
-        "text": "Decay Theory"
+        "text": "Proactive Interference (Old learning interferes with recall of new learning)"
       },
       {
         "key": "D",
-        "text": "Repression"
+        "text": "Decay Theory"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Proactive Interference occurs when previously learned information (Old) impairs the retrieval of newly acquired information (New). (Remember: PRO = old hinders new; RETRO = new hinders old)."
   },
   {
@@ -1133,11 +1133,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Retroactive Interference"
+        "text": "Primacy Effect"
       },
       {
         "key": "B",
-        "text": "Proactive Interference"
+        "text": "Retroactive Interference"
       },
       {
         "key": "C",
@@ -1145,10 +1145,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Primacy Effect"
+        "text": "Proactive Interference"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Retroactive Interference happens when newly learned information (Spanish) interferes with the recall of older memories (French)."
   },
   {
@@ -1158,22 +1158,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lower-level deficiency physiological needs (food, warmth, sleep) must be met before an individual can allocate cognitive energy toward higher growth needs (intellectual understanding, self-actualization)."
-      },
-      {
-        "key": "B",
-        "text": "Mathematics requires sleep-deprivation to master."
-      },
-      {
-        "key": "C",
         "text": "The student has low IQ."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Maslow's theory only applies to animals."
+      },
+      {
+        "key": "C",
+        "text": "Mathematics requires sleep-deprivation to master."
+      },
+      {
+        "key": "D",
+        "text": "Lower-level deficiency physiological needs (food, warmth, sleep) must be met before an individual can allocate cognitive energy toward higher growth needs (intellectual understanding, self-actualization)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Maslow's Hierarchy states that basic Physiological and Safety needs prepotently dominate human motivation; until deficiency needs are satisfied, higher cognitive and self-actualization drives remain blocked."
   },
   {
@@ -1212,15 +1212,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Internal, Unstable, and Controllable (Effort)"
+        "text": "External, Stable, and Uncontrollable (Task difficulty)"
       },
       {
         "key": "C",
-        "text": "External, Unstable, and Controllable (Luck)"
+        "text": "Internal, Unstable, and Controllable (Effort)"
       },
       {
         "key": "D",
-        "text": "External, Stable, and Uncontrollable (Task difficulty)"
+        "text": "External, Unstable, and Controllable (Luck)"
       }
     ],
     "correctAnswer": "A",
@@ -1233,22 +1233,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The student's Expectancy of success (belief that they can achieve the task) multiplied by the Value they place on the task (interest, importance, utility)."
+        "text": "Number of homework questions."
       },
       {
         "key": "B",
-        "text": "Teacher salary and class size."
-      },
-      {
-        "key": "C",
         "text": "Test score divided by textbook weight."
       },
       {
+        "key": "C",
+        "text": "The student's Expectancy of success (belief that they can achieve the task) multiplied by the Value they place on the task (interest, importance, utility)."
+      },
+      {
         "key": "D",
-        "text": "Number of homework questions."
+        "text": "Teacher salary and class size."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Motivation = Expectancy × Value. If either expectancy of success is zero ('I can't do this') OR task value is zero ('This is useless to me'), overall academic motivation drops to zero."
   },
   {
@@ -1258,11 +1258,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Effort, strategy, perseverance, and effective learning processes fosters a resilient Growth Mindset."
+        "text": "Getting 100% without trying."
       },
       {
         "key": "B",
-        "text": "Getting 100% without trying."
+        "text": "Finishing tests faster than peers."
       },
       {
         "key": "C",
@@ -1270,10 +1270,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Finishing tests faster than peers."
+        "text": "Effort, strategy, perseverance, and effective learning processes fosters a resilient Growth Mindset."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Process-praise (praising effort, strategic focus, and persistence) encourages students to view challenges as growth opportunities rather than threats to innate intelligence."
   },
   {
@@ -1283,22 +1283,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Language Acquisition Device (LAD) and Universal Grammar"
-      },
-      {
-        "key": "B",
         "text": "Operant Conditioning Center"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Speech Translation Machine"
+      },
+      {
+        "key": "C",
+        "text": "Language Acquisition Device (LAD) and Universal Grammar"
       },
       {
         "key": "D",
         "text": "Sensory Register"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Chomsky argues that humans possess an innate biological LAD containing Universal Grammar principles, allowing rapid language acquisition from minimal environmental input."
   },
   {
@@ -1316,11 +1316,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Telepathic mental transfer."
+        "text": "Dream states."
       },
       {
         "key": "D",
-        "text": "Dream states."
+        "text": "Telepathic mental transfer."
       }
     ],
     "correctAnswer": "A",
@@ -1337,15 +1337,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "They eliminate the necessity of sleep."
-      },
-      {
-        "key": "C",
         "text": "They alter eye color."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "They stop biological cell growth."
+      },
+      {
+        "key": "D",
+        "text": "They eliminate the necessity of sleep."
       }
     ],
     "correctAnswer": "A",
@@ -1358,11 +1358,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rejected Child (at high risk for academic withdrawal, loneliness, and delinquency)"
+        "text": "Popular Child"
       },
       {
         "key": "B",
-        "text": "Popular Child"
+        "text": "Controversial Child"
       },
       {
         "key": "C",
@@ -1370,10 +1370,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Controversial Child"
+        "text": "Rejected Child (at high risk for academic withdrawal, loneliness, and delinquency)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Sociometric statuses: Popular (many +, few -), Rejected (many -, few + / high risk), Neglected (few +, few - / ignored), Controversial (many +, many -)."
   },
   {
@@ -1383,22 +1383,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Parallel Play"
+        "text": "Cooperative Play"
       },
       {
         "key": "B",
-        "text": "Solitary Play"
+        "text": "Parallel Play"
       },
       {
         "key": "C",
-        "text": "Cooperative Play"
+        "text": "Solitary Play"
       },
       {
         "key": "D",
         "text": "Onlooker Behavior"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Parten's 6 stages of play: Unoccupied -> Solitary -> Onlooker -> Parallel (playing side-by-side without interaction) -> Associative -> Cooperative (organized shared goal)."
   },
   {
@@ -1408,22 +1408,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cooperative Play"
-      },
-      {
-        "key": "B",
         "text": "Parallel Play"
       },
       {
+        "key": "B",
+        "text": "Unoccupied Play"
+      },
+      {
         "key": "C",
-        "text": "Solitary Play"
+        "text": "Cooperative Play"
       },
       {
         "key": "D",
-        "text": "Unoccupied Play"
+        "text": "Solitary Play"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Cooperative play is organized around a common goal, with division of labor, group identity, and structured rules."
   },
   {
@@ -1437,7 +1437,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Running a 100-meter sprint"
+        "text": "Kicking a soccer ball"
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Kicking a soccer ball"
+        "text": "Running a 100-meter sprint"
       }
     ],
     "correctAnswer": "A",
@@ -1458,7 +1458,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Imaginary Audience"
+        "text": "Object Permanence"
       },
       {
         "key": "B",
@@ -1466,14 +1466,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Object Permanence"
+        "text": "The Imaginary Audience"
       },
       {
         "key": "D",
         "text": "Animism"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Adolescent Egocentrism (Elkind) features the 'Imaginary Audience'—the egocentric belief that one is constantly under the critical surveillance of everyone around them."
   },
   {
@@ -1483,22 +1483,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Personal Fable (sense of personal invulnerability and uniqueness)"
-      },
-      {
-        "key": "B",
         "text": "The Imaginary Audience"
       },
       {
+        "key": "B",
+        "text": "The Personal Fable (sense of personal invulnerability and uniqueness)"
+      },
+      {
         "key": "C",
-        "text": "Centration"
+        "text": "Decentration"
       },
       {
         "key": "D",
-        "text": "Decentration"
+        "text": "Centration"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The Personal Fable is the adolescent belief in their personal uniqueness and invulnerability, leading to high-risk behaviors and the feeling that 'no one understands me'."
   },
   {
@@ -1508,22 +1508,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The socio-emotional Amygdala and reward systems mature early in puberty, while the rational Prefrontal Cortex (responsible for executive control and impulse inhibition) is not fully developed until the mid-20s."
-      },
-      {
-        "key": "B",
-        "text": "Adolescents have no brain cells."
-      },
-      {
-        "key": "C",
         "text": "Their vision is impaired."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "The socio-emotional Amygdala and reward systems mature early in puberty, while the rational Prefrontal Cortex (responsible for executive control and impulse inhibition) is not fully developed until the mid-20s."
+      },
+      {
+        "key": "C",
         "text": "It is caused entirely by school uniforms."
+      },
+      {
+        "key": "D",
+        "text": "Adolescents have no brain cells."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Neurodevelopmental research shows an evolutionary mismatch: the limbic emotional system develops during early puberty, while the prefrontal cortex finishes synaptic pruning around age 25."
   },
   {
@@ -1533,7 +1533,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adolescents naturally feel tired later at night (around 11 PM) and need to sleep later in the morning for optimal cognitive functioning."
+        "text": "Sleep patterns never change across the lifespan."
       },
       {
         "key": "B",
@@ -1545,10 +1545,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Sleep patterns never change across the lifespan."
+        "text": "Adolescents naturally feel tired later at night (around 11 PM) and need to sleep later in the morning for optimal cognitive functioning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Puberty triggers a natural biological circadian shift, releasing melatonin later at night and causing late sleepiness, which conflicts with early school start times."
   },
   {
@@ -1562,11 +1562,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Authoritarian Parenting (Low warmth + High harsh control)"
+        "text": "Permissive Parenting (High warmth + Zero demands)"
       },
       {
         "key": "C",
-        "text": "Permissive Parenting (High warmth + Zero demands)"
+        "text": "Authoritarian Parenting (Low warmth + High harsh control)"
       },
       {
         "key": "D",
@@ -1583,7 +1583,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Interpersonal relationships, empathy, caregiving, and preventing harm to others rather than purely abstract mathematical justice rules."
+        "text": "Absolute isolation from society."
       },
       {
         "key": "B",
@@ -1591,14 +1591,14 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strict monetary greed."
+        "text": "Interpersonal relationships, empathy, caregiving, and preventing harm to others rather than purely abstract mathematical justice rules."
       },
       {
         "key": "D",
-        "text": "Absolute isolation from society."
+        "text": "Strict monetary greed."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Gilligan proposed that female moral reasoning often centers on relational responsibility, connection, and an 'Ethic of Care' complementing the 'Ethic of Justice'."
   },
   {
@@ -1608,22 +1608,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Chronic, long-term undernutrition and persistent poverty impairing physical and cognitive growth."
-      },
-      {
-        "key": "B",
-        "text": "Acute, sudden severe starvation (low weight-for-height)."
-      },
-      {
-        "key": "C",
         "text": "Excessive weight from obesity."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Chronic, long-term undernutrition and persistent poverty impairing physical and cognitive growth."
+      },
+      {
+        "key": "C",
         "text": "A temporary athletic injury."
+      },
+      {
+        "key": "D",
+        "text": "Acute, sudden severe starvation (low weight-for-height)."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Stunting reflects cumulative, chronic undernutrition and frequent illness over early childhood; Wasting reflects acute, severe short-term food deprivation."
   },
   {
@@ -1633,22 +1633,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cognitive Apprenticeship"
-      },
-      {
-        "key": "B",
         "text": "Rote Conditioning"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Operant Extinction"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Trial and Error"
+      },
+      {
+        "key": "D",
+        "text": "Cognitive Apprenticeship"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Cognitive Apprenticeship (Collins, Brown, Newman) brings tacit expert cognitive processes into the open through modeling, coaching, scaffolding, and gradual fading."
   },
   {
@@ -1687,15 +1687,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Habituation"
+        "text": "Operant Extinction"
       },
       {
         "key": "C",
-        "text": "Sensory Adaptation"
+        "text": "Habituation"
       },
       {
         "key": "D",
-        "text": "Operant Extinction"
+        "text": "Sensory Adaptation"
       }
     ],
     "correctAnswer": "A",
@@ -1712,7 +1712,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero Transfer"
+        "text": "Lateral Transfer only"
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Lateral Transfer only"
+        "text": "Zero Transfer"
       }
     ],
     "correctAnswer": "A",
@@ -1733,22 +1733,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Negative Transfer (Prior learning impairs performance in a new situation)"
-      },
-      {
-        "key": "B",
-        "text": "Positive Transfer"
-      },
-      {
-        "key": "C",
         "text": "Zero Transfer"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Far Transfer"
+      },
+      {
+        "key": "C",
+        "text": "Positive Transfer"
+      },
+      {
+        "key": "D",
+        "text": "Negative Transfer (Prior learning impairs performance in a new situation)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Negative Transfer occurs when past learning hinders, interferes with, or degrades performance in a new task requiring different responses."
   },
   {
@@ -1758,22 +1758,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Phonological and Phonemic Awareness (the ability to hear, identify, and manipulate individual sounds in spoken words)"
-      },
-      {
-        "key": "B",
         "text": "Physical height"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Handwriting speed"
+      },
+      {
+        "key": "C",
+        "text": "Phonological and Phonemic Awareness (the ability to hear, identify, and manipulate individual sounds in spoken words)"
       },
       {
         "key": "D",
         "text": "The color of their school bag"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Phonemic awareness (blending, segmenting spoken phonemes) is the premier evidence-based foundational prerequisite for reading and phonics decoding."
   },
   {
@@ -1787,15 +1787,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Identity Foreclosure"
+        "text": "Identity Achievement"
       },
       {
         "key": "C",
-        "text": "Identity Moratorium"
+        "text": "Identity Foreclosure"
       },
       {
         "key": "D",
-        "text": "Identity Achievement"
+        "text": "Identity Moratorium"
       }
     ],
     "correctAnswer": "A",
@@ -1808,22 +1808,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identity Moratorium (Active crisis / exploration phase)"
-      },
-      {
-        "key": "B",
-        "text": "Identity Foreclosure"
-      },
-      {
-        "key": "C",
         "text": "Identity Diffusion"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Identity Achievement"
+      },
+      {
+        "key": "C",
+        "text": "Identity Moratorium (Active crisis / exploration phase)"
+      },
+      {
+        "key": "D",
+        "text": "Identity Foreclosure"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Moratorium is the active exploration state: in the midst of an identity crisis, vigorously testing alternatives without having made definitive commitments."
   },
   {
@@ -1833,7 +1833,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A sanctioned time-out to freely experiment with different social roles and career paths before taking on adult commitments."
+        "text": "Exemption from all laws."
       },
       {
         "key": "B",
@@ -1845,10 +1845,10 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Exemption from all laws."
+        "text": "A sanctioned time-out to freely experiment with different social roles and career paths before taking on adult commitments."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Psychosocial Moratorium is a protected developmental buffer where youth explore diverse identities, passions, and vocations without premature adult obligations."
   },
   {
@@ -1858,22 +1858,22 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A dynamic, whole individual whose cognitive, physical, emotional, moral, and social dimensions develop interdependently."
+        "text": "An identical, passive receptacle waiting to be filled with facts."
       },
       {
         "key": "B",
-        "text": "A purely cognitive brain on a stick with no emotional needs."
+        "text": "A dynamic, whole individual whose cognitive, physical, emotional, moral, and social dimensions develop interdependently."
       },
       {
         "key": "C",
-        "text": "An identical, passive receptacle waiting to be filled with facts."
+        "text": "A purely cognitive brain on a stick with no emotional needs."
       },
       {
         "key": "D",
         "text": "A mini-adult with fully matured neurological reasoning."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Holistic child development recognizes that learning is bio-psycho-social: physical health, emotional well-being, and social safety are inextricably linked to cognitive achievement."
   }
 ];

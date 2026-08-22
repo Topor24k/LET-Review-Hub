@@ -16,14 +16,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Knowledge Creation"
+        "text": "Digital Awareness"
       },
       {
         "key": "D",
-        "text": "Digital Awareness"
+        "text": "Knowledge Creation"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "The UNESCO ICT-CFT comprises three progressive approaches: 1. Technology Literacy (basic ICT skills), 2. Knowledge Deepening (applying ICT to complex real problems), and 3. Knowledge Creation (highest level: creating new knowledge, innovations, and self-directed lifelong learning)."
   },
   {
@@ -37,15 +37,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Domain 2: Curriculum and Assessment"
-      },
-      {
-        "key": "C",
         "text": "Domain 3: Pedagogy"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Domain 4: Technology Tools"
+      },
+      {
+        "key": "D",
+        "text": "Domain 2: Curriculum and Assessment"
       }
     ],
     "correctAnswer": "A",
@@ -58,11 +58,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Technological Content Knowledge (TCK)"
+        "text": "Technological Pedagogical Knowledge (TPK)"
       },
       {
         "key": "B",
-        "text": "Technological Pedagogical Knowledge (TPK)"
+        "text": "Technological Knowledge (TK)"
       },
       {
         "key": "C",
@@ -70,7 +70,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Technological Knowledge (TK)"
+        "text": "Technological Content Knowledge (TCK)"
       }
     ],
     "correctAnswer": "C",
@@ -83,22 +83,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Technological Content Knowledge (TCK)"
+        "text": "Content Knowledge (CK)"
       },
       {
         "key": "B",
-        "text": "Pedagogical Knowledge (PK)"
+        "text": "Technological Content Knowledge (TCK)"
       },
       {
         "key": "C",
-        "text": "Content Knowledge (CK)"
+        "text": "Pedagogical Knowledge (PK)"
       },
       {
         "key": "D",
         "text": "Technological Knowledge (TK)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "TCK (Technological Content Knowledge) is understanding how technology and specific content influence and constrain one another (e.g., using specialized technological tools to represent specific scientific concepts)."
   },
   {
@@ -108,22 +108,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Simply buys the latest iPad model for every student."
+        "text": "Eliminates books completely and only lets students browse social media."
       },
       {
         "key": "B",
-        "text": "Seamlessly blends deep content knowledge, dynamic pedagogical strategies, and appropriate technology tools to create transformative learning experiences."
-      },
-      {
-        "key": "C",
         "text": "Lectures for 60 minutes using standard PowerPoint bullet slides."
       },
       {
+        "key": "C",
+        "text": "Simply buys the latest iPad model for every student."
+      },
+      {
         "key": "D",
-        "text": "Eliminates books completely and only lets students browse social media."
+        "text": "Seamlessly blends deep content knowledge, dynamic pedagogical strategies, and appropriate technology tools to create transformative learning experiences."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "True TPACK is the synergistic integration of Content (what to teach), Pedagogy (how to teach), and Technology (which digital tools enhance the learning), working as an integrated whole."
   },
   {
@@ -133,7 +133,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Substitution, Augmentation, Modification, Redefinition"
+        "text": "Stimulation, Activation, Motivation, Reflection"
       },
       {
         "key": "B",
@@ -145,10 +145,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stimulation, Activation, Motivation, Reflection"
+        "text": "Substitution, Augmentation, Modification, Redefinition"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "SAMR stands for: 1. Substitution (Enhancement), 2. Augmentation (Enhancement), 3. Modification (Transformation), and 4. Redefinition (Transformation)."
   },
   {
@@ -158,7 +158,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Substitution"
+        "text": "Modification"
       },
       {
         "key": "B",
@@ -166,14 +166,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Modification"
+        "text": "Substitution"
       },
       {
         "key": "D",
         "text": "Redefinition"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Substitution acts as a direct tool substitute with no functional change to the learning task."
   },
   {
@@ -183,22 +183,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Substitution"
-      },
-      {
-        "key": "B",
         "text": "Augmentation"
       },
       {
+        "key": "B",
+        "text": "Substitution"
+      },
+      {
         "key": "C",
-        "text": "Modification"
+        "text": "Redefinition"
       },
       {
         "key": "D",
-        "text": "Redefinition"
+        "text": "Modification"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Augmentation acts as a direct tool substitute with functional improvements/enhancements (e.g. spell check, word count, text-to-speech)."
   },
   {
@@ -208,22 +208,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Substitution"
-      },
-      {
-        "key": "B",
-        "text": "Augmentation"
-      },
-      {
-        "key": "C",
         "text": "Modification"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Substitution"
+      },
+      {
+        "key": "C",
         "text": "Redefinition"
+      },
+      {
+        "key": "D",
+        "text": "Augmentation"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Modification represents the first level of Transformation, where technology allows significant task redesign."
   },
   {
@@ -233,11 +233,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Substitution"
+        "text": "Augmentation"
       },
       {
         "key": "B",
-        "text": "Augmentation"
+        "text": "Redefinition"
       },
       {
         "key": "C",
@@ -245,10 +245,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Redefinition"
+        "text": "Substitution"
       }
     ],
-    "correctAnswer": "D",
+    "correctAnswer": "B",
     "explanation": "Redefinition allows for the creation of new tasks that were previously inconceivable without digital technology."
   },
   {
@@ -262,11 +262,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Assess students, Select software, Use resources, Require exams, Evaluate results"
+        "text": "Analyze society, Structure schools, Upgrade radios, Reorganize exams"
       },
       {
         "key": "C",
-        "text": "Analyze society, Structure schools, Upgrade radios, Reorganize exams"
+        "text": "Assess students, Select software, Use resources, Require exams, Evaluate results"
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Preview materials, Prepare materials, Prepare the environment, Prepare the learners, Provide the learning experience"
+        "text": "Pacing, Planning, Practicing, Performing, Publishing"
       },
       {
         "key": "B",
@@ -291,14 +291,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Print, Power, Projector, Password, Play"
+        "text": "Preview materials, Prepare materials, Prepare the environment, Prepare the learners, Provide the learning experience"
       },
       {
         "key": "D",
-        "text": "Pacing, Planning, Practicing, Performing, Publishing"
+        "text": "Print, Power, Projector, Password, Play"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The 5 Ps for utilizing media are: 1. Preview the materials, 2. Prepare the materials, 3. Prepare the environment, 4. Prepare the learners, and 5. Provide the learning experience."
   },
   {
@@ -308,11 +308,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Contrived Experiences"
+        "text": "Verbal Symbols"
       },
       {
         "key": "B",
-        "text": "Dramatized Experiences"
+        "text": "Contrived Experiences"
       },
       {
         "key": "C",
@@ -320,10 +320,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Verbal Symbols"
+        "text": "Dramatized Experiences"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Contrived Experiences involve models, mock-ups, specimens, and simulations that represent reality when the real object is inaccessible, dangerous, or unmanageable."
   },
   {
@@ -333,22 +333,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dramatized Experiences (Role-play / Pageants)"
-      },
-      {
-        "key": "B",
         "text": "Exhibits"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Motion Pictures"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Verbal Symbols"
+      },
+      {
+        "key": "D",
+        "text": "Dramatized Experiences (Role-play / Pageants)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Dramatized Experiences allow learners to actively participate in simulated historical events, role plays, or plays, providing high emotional and sensory involvement."
   },
   {
@@ -387,15 +387,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Owning at least three different computing devices."
+        "text": "Creating multiple anonymous accounts to troll internet forums."
       },
       {
         "key": "C",
-        "text": "Playing competitive online video games for 10 hours a day."
+        "text": "Owning at least three different computing devices."
       },
       {
         "key": "D",
-        "text": "Creating multiple anonymous accounts to troll internet forums."
+        "text": "Playing competitive online video games for 10 hours a day."
       }
     ],
     "correctAnswer": "A",
@@ -412,7 +412,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It is universally interpreted as online shouting and aggressive tone."
+        "text": "It violates copyright laws."
       },
       {
         "key": "C",
@@ -420,10 +420,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It violates copyright laws."
+        "text": "It is universally interpreted as online shouting and aggressive tone."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "In Netiquette standards, typing in all capital letters is perceived as shouting, harshness, and impoliteness."
   },
   {
@@ -433,22 +433,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The physical dimensions of a smartphone screen."
-      },
-      {
-        "key": "B",
-        "text": "The permanent trail of data, posts, search queries, and media left behind by a user on the internet."
-      },
-      {
-        "key": "C",
         "text": "The battery consumption per hour of internet use."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "The walking distance measured by a smart watch."
+      },
+      {
+        "key": "C",
+        "text": "The permanent trail of data, posts, search queries, and media left behind by a user on the internet."
+      },
+      {
+        "key": "D",
+        "text": "The physical dimensions of a smartphone screen."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "A Digital Footprint is the permanent trail of traceable digital activities, records, photos, comments, and uploads left behind when using online platforms."
   },
   {
@@ -458,22 +458,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cybercrime Prevention Act of 2012"
-      },
-      {
-        "key": "B",
         "text": "Data Privacy Act of 2012"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Anti-Bullying Act of 2013"
+      },
+      {
+        "key": "C",
+        "text": "Cybercrime Prevention Act of 2012"
       },
       {
         "key": "D",
         "text": "Electronic Commerce Act of 2000"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 10175 is the Cybercrime Prevention Act of 2012, penalizing offenses against confidentiality, integrity, cyber-libel, child pornography, and illegal access."
   },
   {
@@ -487,18 +487,18 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A severe violation of personal identifiable data privacy rights."
+        "text": "Acceptable as long as the teacher likes the post."
       },
       {
         "key": "C",
-        "text": "Mandated by the DepEd grading system."
+        "text": "A severe violation of personal identifiable data privacy rights."
       },
       {
         "key": "D",
-        "text": "Acceptable as long as the teacher likes the post."
+        "text": "Mandated by the DepEd grading system."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Posting sensitive personal and educational information publicly without lawful consent violates RA 10173 (Data Privacy Act) and breaches professional ethics."
   },
   {
@@ -508,22 +508,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "RA 10627 (Anti-Bullying Act of 2013)"
-      },
-      {
-        "key": "B",
-        "text": "RA 7836"
-      },
-      {
-        "key": "C",
         "text": "RA 4670"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "RA 9155"
+      },
+      {
+        "key": "C",
+        "text": "RA 10627 (Anti-Bullying Act of 2013)"
+      },
+      {
+        "key": "D",
+        "text": "RA 7836"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "RA 10627 is the Anti-Bullying Act of 2013, requiring all schools to implement policies against bullying, harassment, and cyberbullying on digital platforms."
   },
   {
@@ -558,22 +558,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adware"
+        "text": "Cookie"
       },
       {
         "key": "B",
-        "text": "Ransomware"
+        "text": "Adware"
       },
       {
         "key": "C",
-        "text": "Spyware"
+        "text": "Ransomware"
       },
       {
         "key": "D",
-        "text": "Cookie"
+        "text": "Spyware"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Ransomware is malicious malware designed to lock/encrypt victim files and extort ransom money for the decryption key."
   },
   {
@@ -583,11 +583,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Commercial textbooks that require a costly annual subscription fee."
+        "text": "Confidential test questions locked in a bank vault."
       },
       {
         "key": "B",
-        "text": "Teaching, learning, and research materials in any medium that reside in the public domain or under an open license allowing free access, reuse, and adaptation."
+        "text": "Commercial textbooks that require a costly annual subscription fee."
       },
       {
         "key": "C",
@@ -595,10 +595,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Confidential test questions locked in a bank vault."
+        "text": "Teaching, learning, and research materials in any medium that reside in the public domain or under an open license allowing free access, reuse, and adaptation."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "OER (UNESCO definition) are freely accessible, openly licensed text, media, and digital assets useful for teaching, learning, and researching without royalty charges."
   },
   {
@@ -608,22 +608,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Retain"
+        "text": "Redistribute"
       },
       {
         "key": "B",
-        "text": "Reuse"
-      },
-      {
-        "key": "C",
         "text": "Revise"
       },
       {
+        "key": "C",
+        "text": "Reuse"
+      },
+      {
         "key": "D",
-        "text": "Redistribute"
+        "text": "Retain"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "The 5Rs are: Retain (make/own copies), Reuse (use in wide contexts), Revise (adapt, adjust, modify, translate), Remix (combine with other open content), and Redistribute (share copies)."
   },
   {
@@ -633,7 +633,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Non-Commercial (cannot sell) and No Derivatives (cannot alter or modify original content)"
+        "text": "New Copy - New Design"
       },
       {
         "key": "B",
@@ -641,14 +641,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "New Copy - New Design"
+        "text": "Non-Commercial (cannot sell) and No Derivatives (cannot alter or modify original content)"
       },
       {
         "key": "D",
         "text": "No Copyright - No Domain"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "'NC' stands for Non-Commercial (commercial use is prohibited) and 'ND' stands for NoDerivatives (the work may be shared, but not edited, translated, or altered)."
   },
   {
@@ -662,15 +662,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Photoshop"
+        "text": "TikTok"
       },
       {
         "key": "C",
-        "text": "Spotify"
+        "text": "Photoshop"
       },
       {
         "key": "D",
-        "text": "TikTok"
+        "text": "Spotify"
       }
     ],
     "correctAnswer": "A",
@@ -683,22 +683,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students reading offline printed modules on a weekend."
+        "text": "Submitting an essay via email at 2:00 AM."
       },
       {
         "key": "B",
-        "text": "A live, real-time interactive Zoom / Google Meet class session where teacher and students interact simultaneously."
-      },
-      {
-        "key": "C",
         "text": "Students posting in a forum discussion board over a 7-day period."
       },
       {
+        "key": "C",
+        "text": "Students reading offline printed modules on a weekend."
+      },
+      {
         "key": "D",
-        "text": "Submitting an essay via email at 2:00 AM."
+        "text": "A live, real-time interactive Zoom / Google Meet class session where teacher and students interact simultaneously."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "D",
     "explanation": "Synchronous learning occurs in real-time with simultaneous live engagement, while Asynchronous learning occurs self-paced without simultaneous real-time presence."
   },
   {
@@ -708,11 +708,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They stay at home 100% of the school year without visiting campus."
+        "text": "Students rotate on a fixed schedule between different classroom stations: one online learning station, one teacher-led instruction station, and one collaborative peer project station."
       },
       {
         "key": "B",
-        "text": "Students rotate on a fixed schedule between different classroom stations: one online learning station, one teacher-led instruction station, and one collaborative peer project station."
+        "text": "The teacher leaves the classroom while students watch movies."
       },
       {
         "key": "C",
@@ -720,10 +720,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The teacher leaves the classroom while students watch movies."
+        "text": "They stay at home 100% of the school year without visiting campus."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Station Rotation rotates students through classroom learning stations on a fixed schedule, including at least one station with digital individualized learning."
   },
   {
@@ -733,7 +733,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To waste school hours playing non-academic video games."
+        "text": "To replace human teachers with automated game consoles."
       },
       {
         "key": "B",
@@ -741,7 +741,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "To replace human teachers with automated game consoles."
+        "text": "To waste school hours playing non-academic video games."
       },
       {
         "key": "D",
@@ -766,14 +766,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Filming, editing, and publishing an original instructional video or podcast"
+        "text": "Googling a factual definition"
       },
       {
         "key": "D",
-        "text": "Googling a factual definition"
+        "text": "Filming, editing, and publishing an original instructional video or podcast"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "D",
     "explanation": "Digital Creating involves designing, authoring, programming, video producing, remixing, and publishing original digital artifacts."
   },
   {
@@ -783,22 +783,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Remembering"
-      },
-      {
-        "key": "B",
-        "text": "Understanding"
-      },
-      {
-        "key": "C",
         "text": "Evaluating"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Remembering"
+      },
+      {
+        "key": "C",
         "text": "Applying"
+      },
+      {
+        "key": "D",
+        "text": "Understanding"
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "A",
     "explanation": "Critiquing, moderating, evaluating bias, peer reviewing, and validating sources represent the Evaluating level."
   },
   {
@@ -808,22 +808,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Completely ban all computing devices forever and pretend AI does not exist."
-      },
-      {
-        "key": "B",
         "text": "Allow students to copy-paste AI outputs directly and grade AI outputs as their own work."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Teach students critical AI literacy, ethical citation, prompt engineering, and how to verify, critique, and improve AI-assisted drafts."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Use AI to write fake grades for students."
+      },
+      {
+        "key": "D",
+        "text": "Completely ban all computing devices forever and pretend AI does not exist."
       }
     ],
-    "correctAnswer": "C",
+    "correctAnswer": "B",
     "explanation": "Ethical AI pedagogy emphasizes AI literacy, transparency, critical evaluation of AI hallucinations/bias, and developing authentic higher-order synthesis skills."
   },
   {
@@ -833,22 +833,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adaptive software dynamically adjusts question difficulty and instructional pathways in real time based on individual learner performance and error patterns."
+        "text": "It cannot be viewed on smartphones."
       },
       {
         "key": "B",
-        "text": "It is printed on recycled paper."
+        "text": "Adaptive software dynamically adjusts question difficulty and instructional pathways in real time based on individual learner performance and error patterns."
       },
       {
         "key": "C",
-        "text": "It cannot be viewed on smartphones."
+        "text": "It is printed on recycled paper."
       },
       {
         "key": "D",
         "text": "It only shows text without images."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Adaptive learning algorithms customize the presentation of material and difficulty level dynamically based on student responses, providing personalized remediation."
   },
   {
@@ -858,7 +858,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assistive Technology"
+        "text": "Commercial Warez"
       },
       {
         "key": "B",
@@ -866,14 +866,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Intrusive Technology"
+        "text": "Assistive Technology"
       },
       {
         "key": "D",
-        "text": "Commercial Warez"
+        "text": "Intrusive Technology"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Assistive Technology (AT) comprises any assistive, adaptive, and rehabilitative devices that promote greater independence and accessibility for individuals with disabilities."
   },
   {
@@ -887,7 +887,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "AR requires total darkness while VR works only in sunlight."
+        "text": "There is no difference between AR and VR."
       },
       {
         "key": "C",
@@ -895,7 +895,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "There is no difference between AR and VR."
+        "text": "AR requires total darkness while VR works only in sunlight."
       }
     ],
     "correctAnswer": "A",
@@ -908,22 +908,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Instantly diagnose class-wide misconceptions and adapt pacing in real-time."
-      },
-      {
-        "key": "B",
         "text": "Assign permanent quarterly grades."
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Punish students who forgot their textbooks."
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Eliminate the need for lesson objectives."
+      },
+      {
+        "key": "D",
+        "text": "Instantly diagnose class-wide misconceptions and adapt pacing in real-time."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Real-time polling provides instantaneous formative data, enabling agile pedagogical adjustments and revealing misconceptions immediately."
   },
   {
@@ -933,22 +933,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The mathematical operation of dividing binary numbers."
-      },
-      {
-        "key": "B",
         "text": "The socioeconomic gap between individuals and communities who have access to modern ICT and high-speed internet versus those who do not."
       },
       {
+        "key": "B",
+        "text": "The mathematical operation of dividing binary numbers."
+      },
+      {
         "key": "C",
-        "text": "The physical border between school buildings."
+        "text": "The difference between Mac and Windows operating systems."
       },
       {
         "key": "D",
-        "text": "The difference between Mac and Windows operating systems."
+        "text": "The physical border between school buildings."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "The Digital Divide is the economic and social inequality regarding access to, use of, or impact of information and communication technologies."
   },
   {
@@ -958,22 +958,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An online open educational resources (OER) portal established by DepEd to provide free digital learning materials and self-learning modules."
-      },
-      {
-        "key": "B",
-        "text": "A physical cafeteria located inside the DepEd Central Office."
-      },
-      {
-        "key": "C",
         "text": "A private paid gaming platform for teachers."
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "An online open educational resources (OER) portal established by DepEd to provide free digital learning materials and self-learning modules."
+      },
+      {
+        "key": "C",
         "text": "A political party for educators."
+      },
+      {
+        "key": "D",
+        "text": "A physical cafeteria located inside the DepEd Central Office."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "DepEd Commons is an online platform for public school teachers and learners that provides free access to curated learning resources and open educational resources (OERs)."
   },
   {
@@ -983,7 +983,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Currency, Relevance, Authority, Accuracy, and Purpose"
+        "text": "Cost, Rating, Availability, Access, and Price"
       },
       {
         "key": "B",
@@ -991,14 +991,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Cost, Rating, Availability, Access, and Price"
+        "text": "Creativity, Retention, Achievement, Aptitude, and Performance"
       },
       {
         "key": "D",
-        "text": "Creativity, Retention, Achievement, Aptitude, and Performance"
+        "text": "Currency, Relevance, Authority, Accuracy, and Purpose"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The CRAAP Test is a widely recognized evaluation checklist for web source reliability: Currency (timeliness), Relevance (importance), Authority (source credentials), Accuracy (veracity), and Purpose (reason for publication)."
   },
   {
@@ -1012,11 +1012,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Assessment -> Delivery -> Direction -> Inspection -> Execution"
+        "text": "Activation -> Definition -> Drill -> Instruction -> Exam"
       },
       {
         "key": "C",
-        "text": "Activation -> Definition -> Drill -> Instruction -> Exam"
+        "text": "Assessment -> Delivery -> Direction -> Inspection -> Execution"
       },
       {
         "key": "D",
@@ -1033,22 +1033,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Flexible environment, Learning culture, Intentional content, Professional educator"
-      },
-      {
-        "key": "B",
         "text": "Fast laptops, Internet access, Projectors, Paperless"
       },
       {
+        "key": "B",
+        "text": "Formative, Linear, Integrated, Programmed"
+      },
+      {
         "key": "C",
-        "text": "Fun, Lectures, Interactive, Performance"
+        "text": "Flexible environment, Learning culture, Intentional content, Professional educator"
       },
       {
         "key": "D",
-        "text": "Formative, Linear, Integrated, Programmed"
+        "text": "Fun, Lectures, Interactive, Performance"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "The F-L-I-P pillars are: Flexible Environment, Learning Culture (student-centered), Intentional Content (prioritizing active learning), and Professional Educator (active observer/feedback provider)."
   },
   {
@@ -1058,11 +1058,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bite-sized, highly focused learning units (typically 2-5 minutes) designed for quick consumption and immediate application."
+        "text": "Instructional programs designed only for preschool infants."
       },
       {
         "key": "B",
-        "text": "A 4-hour uninterrupted recorded lecture."
+        "text": "Bite-sized, highly focused learning units (typically 2-5 minutes) designed for quick consumption and immediate application."
       },
       {
         "key": "C",
@@ -1070,10 +1070,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Instructional programs designed only for preschool infants."
+        "text": "A 4-hour uninterrupted recorded lecture."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Microlearning delivers short, highly targeted nuggets of content addressing a single learning objective, maximizing retention and preventing cognitive overload."
   },
   {
@@ -1083,22 +1083,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Extraneous Cognitive Load"
-      },
-      {
-        "key": "B",
         "text": "Intrinsic Cognitive Load"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "Germane Cognitive Load"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "Sensory Overload"
+      },
+      {
+        "key": "D",
+        "text": "Extraneous Cognitive Load"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Extraneous Cognitive Load is wasted mental effort caused by poor instructional design or distracting clutter. Teachers strive to minimize Extraneous load, manage Intrinsic load, and optimize Germane load."
   },
   {
@@ -1137,15 +1137,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Dense paragraphs of tiny printed text."
+        "text": "No narration and no text."
       },
       {
         "key": "C",
-        "text": "Subtitles in three different languages simultaneously."
+        "text": "Dense paragraphs of tiny printed text."
       },
       {
         "key": "D",
-        "text": "No narration and no text."
+        "text": "Subtitles in three different languages simultaneously."
       }
     ],
     "correctAnswer": "A",
@@ -1158,11 +1158,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Near the corresponding parts of the graphic rather than far from each other."
+        "text": "Randomly across the margins."
       },
       {
         "key": "B",
-        "text": "On a completely separate page at the back of the book."
+        "text": "Near the corresponding parts of the graphic rather than far from each other."
       },
       {
         "key": "C",
@@ -1170,10 +1170,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Randomly across the margins."
+        "text": "On a completely separate page at the back of the book."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Spatial Contiguity states that learning is improved when corresponding text and pictures are presented close to each other on the screen rather than separated."
   },
   {
@@ -1183,22 +1183,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Photocopying an entire textbook, binding it, and selling it for profit to students."
-      },
-      {
-        "key": "B",
-        "text": "Reproduction of brief excerpts, quotations, and diagrams for classroom teaching, commentary, or criticism without commercial gain."
-      },
-      {
-        "key": "C",
         "text": "Claiming an online author's original research paper as the teacher's own master's thesis."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Distributing cracked proprietary software serial keys in class."
+      },
+      {
+        "key": "C",
+        "text": "Reproduction of brief excerpts, quotations, and diagrams for classroom teaching, commentary, or criticism without commercial gain."
+      },
+      {
+        "key": "D",
+        "text": "Photocopying an entire textbook, binding it, and selling it for profit to students."
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "C",
     "explanation": "Fair use allows limited reproduction of copyrighted works for non-profit educational purposes, scholarship, research, commentary, or news reporting without copyright infringement."
   },
   {
@@ -1208,7 +1208,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The copyright has expired or been explicitly waived, allowing anyone to freely use, modify, and distribute it without restrictions."
+        "text": "It requires paying a monthly royalty fee."
       },
       {
         "key": "B",
@@ -1216,14 +1216,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It requires paying a monthly royalty fee."
+        "text": "The copyright has expired or been explicitly waived, allowing anyone to freely use, modify, and distribute it without restrictions."
       },
       {
         "key": "D",
         "text": "It can only be accessed in public libraries."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Public Domain / CC0 works have no copyright restrictions; anyone can copy, modify, distribute, and perform the work, even commercially, without asking permission."
   },
   {
@@ -1241,11 +1241,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It eliminates student effort."
+        "text": "It prevents students from thinking critically."
       },
       {
         "key": "D",
-        "text": "It prevents students from thinking critically."
+        "text": "It eliminates student effort."
       }
     ],
     "correctAnswer": "A",
@@ -1258,22 +1258,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Web 1.0 was read-only and static; Web 2.0 is read-write, highly collaborative, user-generated, and socially interactive."
-      },
-      {
-        "key": "B",
-        "text": "Web 1.0 required electricity while Web 2.0 operates without power."
-      },
-      {
-        "key": "C",
         "text": "Web 1.0 was for mobile phones only."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Web 2.0 does not allow video streaming."
+      },
+      {
+        "key": "C",
+        "text": "Web 1.0 was read-only and static; Web 2.0 is read-write, highly collaborative, user-generated, and socially interactive."
+      },
+      {
+        "key": "D",
+        "text": "Web 1.0 required electricity while Web 2.0 operates without power."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Web 1.0 was static and informational (read-only), while Web 2.0 enabled user participation, social networking, wikis, blogging, and collaborative authoring (read-write)."
   },
   {
@@ -1283,11 +1283,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Google Docs / Microsoft 365"
+        "text": "A 3.5-inch floppy disk"
       },
       {
         "key": "B",
-        "text": "A 3.5-inch floppy disk"
+        "text": "A chalkboard eraser"
       },
       {
         "key": "C",
@@ -1295,10 +1295,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A chalkboard eraser"
+        "text": "Google Docs / Microsoft 365"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Google Workspace (Docs, Sheets, Slides) and Microsoft 365 operate on cloud servers, enabling simultaneous real-time multi-user editing and automatic remote saving."
   },
   {
@@ -1308,22 +1308,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To clarify exact performance criteria, foster self-assessment, and eliminate ambiguity regarding grading expectations."
+        "text": "To ensure all students copy each other's ideas."
       },
       {
         "key": "B",
-        "text": "To prevent students from doing high-quality work."
+        "text": "To clarify exact performance criteria, foster self-assessment, and eliminate ambiguity regarding grading expectations."
       },
       {
         "key": "C",
-        "text": "To ensure all students copy each other's ideas."
+        "text": "To prevent students from doing high-quality work."
       },
       {
         "key": "D",
         "text": "Because the principal requires paperwork."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Sharing rubrics beforehand empowers students to monitor and self-evaluate their own work against transparent quality standards."
   },
   {
@@ -1337,7 +1337,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Rote memorization and multiple-choice guessing."
+        "text": "Silent calligraphy penmanship."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Silent calligraphy penmanship."
+        "text": "Rote memorization and multiple-choice guessing."
       }
     ],
     "correctAnswer": "A",
@@ -1358,22 +1358,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Look at something at least 20 feet away for at least 20 seconds."
+        "text": "Turn off all lights in the classroom for 20 minutes."
       },
       {
         "key": "B",
-        "text": "Blink 20 times per millisecond."
-      },
-      {
-        "key": "C",
         "text": "Drink 20 liters of water."
       },
       {
+        "key": "C",
+        "text": "Blink 20 times per millisecond."
+      },
+      {
         "key": "D",
-        "text": "Turn off all lights in the classroom for 20 minutes."
+        "text": "Look at something at least 20 feet away for at least 20 seconds."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "The 20-20-20 rule prevents digital eye strain: every 20 minutes of screen time, look at an object 20 feet away for at least 20 seconds to relax eye focusing muscles."
   },
   {
@@ -1383,7 +1383,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The algorithm selects a slightly more challenging next question to precisely locate the student's true ability level."
+        "text": "The computer repeats the exact same question."
       },
       {
         "key": "B",
@@ -1391,14 +1391,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The computer repeats the exact same question."
+        "text": "The algorithm selects a slightly more challenging next question to precisely locate the student's true ability level."
       },
       {
         "key": "D",
         "text": "The computer shuts down to save memory."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "CAT algorithms dynamically calibrate question difficulty based on prior answers, giving harder items after correct answers and easier items after incorrect answers."
   },
   {
@@ -1408,22 +1408,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Have severe speech and verbal language impairments."
-      },
-      {
-        "key": "B",
         "text": "Already speak five foreign languages fluently."
       },
       {
+        "key": "B",
+        "text": "Have severe speech and verbal language impairments."
+      },
+      {
         "key": "C",
-        "text": "Have perfect vision and normal hearing."
+        "text": "Dislike writing homework."
       },
       {
         "key": "D",
-        "text": "Dislike writing homework."
+        "text": "Have perfect vision and normal hearing."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "AAC systems and speech-generating devices enable non-verbal learners or those with severe expressive language difficulties to communicate using symbols, text-to-speech, and visual boards."
   },
   {
@@ -1433,22 +1433,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Narrative script, still images, video clips, background audio, and personal voiceover narration."
+        "text": "Unlabeled pie charts."
       },
       {
         "key": "B",
-        "text": "Printed photocopies only."
-      },
-      {
-        "key": "C",
         "text": "Silent algebra equations."
       },
       {
+        "key": "C",
+        "text": "Narrative script, still images, video clips, background audio, and personal voiceover narration."
+      },
+      {
         "key": "D",
-        "text": "Unlabeled pie charts."
+        "text": "Printed photocopies only."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Digital Storytelling weaves personal narrative with rich digital multimedia (images, audio soundtrack, voiceover, video clips) to communicate deep thematic concepts."
   },
   {
@@ -1458,7 +1458,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It adds an extra verification layer (e.g. mobile OTP code) ensuring that a stolen password alone cannot compromise student grade records."
+        "text": "It automatically calculates quarterly grade averages."
       },
       {
         "key": "B",
@@ -1470,10 +1470,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It automatically calculates quarterly grade averages."
+        "text": "It adds an extra verification layer (e.g. mobile OTP code) ensuring that a stolen password alone cannot compromise student grade records."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "2FA combines something you know (password) with something you have (OTP on phone/security key), safeguarding student confidential records from unauthorized breaches."
   },
   {
@@ -1487,11 +1487,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Digital Health"
+        "text": "Digital Access"
       },
       {
         "key": "C",
-        "text": "Digital Access"
+        "text": "Digital Health"
       },
       {
         "key": "D",
@@ -1508,22 +1508,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Collaborative brainstorming, idea clustering, and real-time student reflection boards."
-      },
-      {
-        "key": "B",
         "text": "Running heavy 3D rendering video games."
       },
       {
+        "key": "B",
+        "text": "Collaborative brainstorming, idea clustering, and real-time student reflection boards."
+      },
+      {
         "key": "C",
-        "text": "Encrypting school financial audits."
+        "text": "Printing physical diplomas."
       },
       {
         "key": "D",
-        "text": "Printing physical diplomas."
+        "text": "Encrypting school financial audits."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Interactive digital wall boards enable collaborative brainstorming, collecting student feedback, visual curation, and collective reflection."
   },
   {
@@ -1533,22 +1533,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identify Desired Results (Big Ideas & Essential Questions)"
-      },
-      {
-        "key": "B",
-        "text": "Plan Learning Experiences and Instruction"
-      },
-      {
-        "key": "C",
         "text": "Determine Acceptable Evidence (Assessment)"
       },
       {
-        "key": "D",
+        "key": "B",
+        "text": "Identify Desired Results (Big Ideas & Essential Questions)"
+      },
+      {
+        "key": "C",
         "text": "Select textbook chapter"
+      },
+      {
+        "key": "D",
+        "text": "Plan Learning Experiences and Instruction"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "UbD follows 3 stages in reverse order: Stage 1 = Identify Desired Results -> Stage 2 = Determine Assessment Evidence -> Stage 3 = Plan Learning Experiences."
   },
   {
@@ -1558,22 +1558,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'What is the formula for calculating velocity?'"
-      },
-      {
-        "key": "B",
         "text": "'To what extent does technological innovation reshape human culture and ethics?'"
       },
       {
-        "key": "C",
+        "key": "B",
         "text": "'Name the eight planets of the solar system.'"
       },
       {
-        "key": "D",
+        "key": "C",
         "text": "'How many syllables are in a haiku?'"
+      },
+      {
+        "key": "D",
+        "text": "'What is the formula for calculating velocity?'"
       }
     ],
-    "correctAnswer": "B",
+    "correctAnswer": "A",
     "explanation": "Essential Questions in UbD are open-ended, thought-provoking, recur throughout life, and spark inquiry into enduring understandings."
   },
   {
@@ -1587,11 +1587,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Tell the student to delete the app and ignore all threats."
+        "text": "Post public insults back at the suspected perpetrator."
       },
       {
         "key": "C",
-        "text": "Post public insults back at the suspected perpetrator."
+        "text": "Tell the student to delete the app and ignore all threats."
       },
       {
         "key": "D",
@@ -1608,7 +1608,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They allow learners to conduct safe, repeatable, zero-cost virtual laboratory experiments without purchasing hazardous chemical consumables."
+        "text": "They guarantee 100% test scores on national exams."
       },
       {
         "key": "B",
@@ -1616,14 +1616,14 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "They eliminate the scientific method."
+        "text": "They allow learners to conduct safe, repeatable, zero-cost virtual laboratory experiments without purchasing hazardous chemical consumables."
       },
       {
         "key": "D",
-        "text": "They guarantee 100% test scores on national exams."
+        "text": "They eliminate the scientific method."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Interactive simulation platforms provide safe, risk-free, highly interactive inquiry experiments where students can manipulate variables without expensive laboratory equipment."
   },
   {
@@ -1633,11 +1633,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It allows dynamic interaction with digital media, direct annotation over web simulations, and instant saving/sharing of board work."
+        "text": "It cannot display videos."
       },
       {
         "key": "B",
-        "text": "It consumes zero electrical power."
+        "text": "It allows dynamic interaction with digital media, direct annotation over web simulations, and instant saving/sharing of board work."
       },
       {
         "key": "C",
@@ -1645,10 +1645,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It cannot display videos."
+        "text": "It consumes zero electrical power."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "IWBs combine digital projection with touch interactivity, allowing teachers and students to manipulate digital objects, run interactive exercises, and export annotated notes."
   },
   {
@@ -1658,22 +1658,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hearing (Recordings / Radio / Audio Media)"
-      },
-      {
-        "key": "B",
-        "text": "Direct Purposeful Experiences"
-      },
-      {
-        "key": "C",
         "text": "Dramatized Experiences"
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "Demonstrations"
+      },
+      {
+        "key": "C",
+        "text": "Direct Purposeful Experiences"
+      },
+      {
+        "key": "D",
+        "text": "Hearing (Recordings / Radio / Audio Media)"
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "Audio recordings, radio broadcasts, and still photos sit near the upper-middle abstract zone of Dale's Cone, relying purely on auditory sensory input."
   },
   {
@@ -1683,11 +1683,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inspiring students to positively contribute to and responsibly participate in the digital world."
+        "text": "Buying computers for local political campaigns."
       },
       {
         "key": "B",
-        "text": "Buying computers for local political campaigns."
+        "text": "Inspiring students to positively contribute to and responsibly participate in the digital world."
       },
       {
         "key": "C",
@@ -1698,7 +1698,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
         "text": "Repairing school router hardware."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "The ISTE 'Citizen' standard requires educators to model and promote digital citizenship, online safety, respectful communication, and ethical management of personal data."
   },
   {
@@ -1712,15 +1712,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Analyst"
+        "text": "Learner"
       },
       {
         "key": "C",
-        "text": "Leader"
+        "text": "Analyst"
       },
       {
         "key": "D",
-        "text": "Learner"
+        "text": "Leader"
       }
     ],
     "correctAnswer": "A",
@@ -1733,22 +1733,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Anonymous, honest formative peer ratings can be aggregated instantly into summary data spreadsheets for teacher analysis."
-      },
-      {
-        "key": "B",
-        "text": "It prevents students from seeing any scores."
-      },
-      {
-        "key": "C",
         "text": "It replaces teacher judgment completely."
       },
       {
-        "key": "D",
+        "key": "B",
         "text": "It allows students to fail each other out of personal grudges without teacher oversight."
+      },
+      {
+        "key": "C",
+        "text": "Anonymous, honest formative peer ratings can be aggregated instantly into summary data spreadsheets for teacher analysis."
+      },
+      {
+        "key": "D",
+        "text": "It prevents students from seeing any scores."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Digital forms streamline peer feedback collection, aggregate scores automatically, and provide data insights while maintaining fair, structured evaluation criteria."
   },
   {
@@ -1758,22 +1758,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students progress through curriculum modules at their own pace, advancing to the next unit only after demonstrating 80%+ mastery on unit assessments."
+        "text": "There are no homework assignments and no tests."
       },
       {
         "key": "B",
-        "text": "All students must advance on the exact same calendar date regardless of understanding."
+        "text": "Students progress through curriculum modules at their own pace, advancing to the next unit only after demonstrating 80%+ mastery on unit assessments."
       },
       {
         "key": "C",
-        "text": "There are no homework assignments and no tests."
+        "text": "All students must advance on the exact same calendar date regardless of understanding."
       },
       {
         "key": "D",
         "text": "Instruction is conducted purely through radio broadcasts."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Flipped Mastery (Bergmann & Sams) combines asynchronous video delivery with mastery learning: students advance individually only when they achieve demonstrated mastery of prerequisite objectives."
   },
   {
@@ -1783,22 +1783,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To provide full accessibility for deaf or hard-of-hearing learners and support comprehension for diverse language backgrounds."
-      },
-      {
-        "key": "B",
         "text": "To make the video file size as large as possible."
       },
       {
+        "key": "B",
+        "text": "Because YouTube forbids audio-only speech."
+      },
+      {
         "key": "C",
-        "text": "To hide spelling errors in the audio."
+        "text": "To provide full accessibility for deaf or hard-of-hearing learners and support comprehension for diverse language backgrounds."
       },
       {
         "key": "D",
-        "text": "Because YouTube forbids audio-only speech."
+        "text": "To hide spelling errors in the audio."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "C",
     "explanation": "Closed captions ensure digital equity and compliance with accessibility standards (WCAG/UDL) for students with hearing impairments and second-language learners."
   },
   {
@@ -1808,11 +1808,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Classroom contact hours are converted from passive listening into active, collaborative problem-solving and teacher-guided scaffolding."
+        "text": "It guarantees that no student ever fails."
       },
       {
         "key": "B",
-        "text": "Teachers no longer need to prepare lesson plans."
+        "text": "Classroom contact hours are converted from passive listening into active, collaborative problem-solving and teacher-guided scaffolding."
       },
       {
         "key": "C",
@@ -1820,10 +1820,10 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It guarantees that no student ever fails."
+        "text": "Teachers no longer need to prepare lesson plans."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "B",
     "explanation": "Flipping moves passive lower-order lecture consumption outside class, maximizing classroom contact time for active, higher-order collaborative learning and individualized scaffolding."
   },
   {
@@ -1833,22 +1833,22 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Can generate plausible-sounding but factually false information, fictitious citations, and hallucinations."
+        "text": "Only speak in binary code."
       },
       {
         "key": "B",
-        "text": "Are infallible and contain no errors."
-      },
-      {
-        "key": "C",
         "text": "Do not have access to any vocabulary words."
       },
       {
+        "key": "C",
+        "text": "Are infallible and contain no errors."
+      },
+      {
         "key": "D",
-        "text": "Only speak in binary code."
+        "text": "Can generate plausible-sounding but factually false information, fictitious citations, and hallucinations."
       }
     ],
-    "correctAnswer": "A",
+    "correctAnswer": "D",
     "explanation": "LLMs predict text statistically and are prone to 'hallucinations' (generating confident but completely fabricated citations, facts, and quotes), making critical source verification essential."
   },
   {
