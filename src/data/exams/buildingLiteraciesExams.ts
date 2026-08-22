@@ -2,653 +2,1878 @@ import { ExamQuestion } from '../../types';
 
 export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
-    id: 1,
-    question: "Which 21st-century literacy refers to the ability to understand, appreciate, and communicate effectively with people across diverse cultural, linguistic, and socio-economic backgrounds?",
-    options: [
-      { key: 'A', text: 'Multicultural and Global Literacy' },
-      { key: 'B', text: 'Financial Literacy' },
-      { key: 'C', text: 'Ecoliteracy' },
-      { key: 'D', text: 'Cyber Literacy' }
+    "id": 1,
+    "topicRef": "21st Century Skills Framework (P21)",
+    "question": "Under the Partnership for 21st Century Learning (P21) framework, which cluster of competencies includes Critical Thinking, Creativity, Collaboration, and Communication (the 4Cs)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Learning and Innovation Skills"
+      },
+      {
+        "key": "B",
+        "text": "Information, Media, and Technology Skills"
+      },
+      {
+        "key": "C",
+        "text": "Life and Career Skills"
+      },
+      {
+        "key": "D",
+        "text": "Foundational Literacy Skills"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Multicultural and Global Literacy empowers individuals to engage respectfully and constructively in an interconnected, diverse global society.',
-    topicRef: '1.0 Multicultural & Global Literacy'
+    "correctAnswer": "A",
+    "explanation": "P21 categorizes skills into 3 core domains: 1. Learning and Innovation Skills (the 4Cs: Critical Thinking, Creativity, Collaboration, Communication), 2. Information, Media, and Technology Skills, and 3. Life and Career Skills."
   },
   {
-    id: 2,
-    question: "In 21st-century skills frameworks (P21), what are the '4 Cs' essential for student success?",
-    options: [
-      { key: 'A', text: 'Critical Thinking, Communication, Collaboration, and Creativity' },
-      { key: 'B', text: 'Calculus, Chemistry, Civics, and Computation' },
-      { key: 'C', text: 'Control, Compliance, Correction, and Conduct' },
-      { key: 'D', text: 'Cash, Credit, Capital, and Currency' }
+    "id": 2,
+    "topicRef": "21st Century Skills: Life and Career Skills",
+    "question": "Flexibility and Adaptability, Initiative and Self-Direction, Social and Cross-Cultural Skills, Productivity and Accountability, and Leadership and Responsibility belong to which P21 skill category?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Life and Career Skills"
+      },
+      {
+        "key": "B",
+        "text": "Learning and Innovation Skills"
+      },
+      {
+        "key": "C",
+        "text": "Core Academic Subjects"
+      },
+      {
+        "key": "D",
+        "text": "Media Literacy"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Partnership for 21st Century Learning identifies the 4 Cs as: Critical Thinking, Communication, Collaboration, and Creativity & Innovation.',
-    topicRef: '1.0 21st Century Skills Framework'
+    "correctAnswer": "A",
+    "explanation": "Life and Career Skills encompass personal agency, flexibility, cross-cultural competence, ethical leadership, productivity, and self-direction in navigating complex work and social environments."
   },
   {
-    id: 3,
-    question: "What is 'Financial Literacy' in modern functional education?",
-    options: [
-      { key: 'A', text: 'Printing paper currency at home' },
-      { key: 'B', text: 'The ability to understand and effectively use various financial skills, including personal financial management, budgeting, investing, saving, and managing debt' },
-      { key: 'C', text: 'Spending entire salaries on impulse shopping' },
-      { key: 'D', text: 'Hiding coins in a mattress' }
+    "id": 3,
+    "topicRef": "Characteristics of a 21st Century Teacher",
+    "question": "A 21st-century educator acts as an 'adaptor', 'visionary', 'collaborator', and 'risk-taker'. What does it mean for a teacher to be an 'Adaptor'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Able to flexibly adapt curriculum software, teaching styles, and learning environments to dynamic student demographics and evolving societal demands."
+      },
+      {
+        "key": "B",
+        "text": "Sticking rigidly to lesson notes prepared 20 years ago."
+      },
+      {
+        "key": "C",
+        "text": "Refusing to use computers in class."
+      },
+      {
+        "key": "D",
+        "text": "Adapting only when threatened with salary deduction."
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Financial literacy equips individuals with the knowledge and behaviors necessary to make sound financial decisions, build wealth, and avoid predatory debt.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "An Adaptor embraces new technologies, responds proactively to diverse learning styles, and adjusts pedagogical strategies to dynamic classroom contexts."
   },
   {
-    id: 4,
-    question: "What is 'Ecoliteracy' (Ecological Literacy)?",
-    options: [
-      { key: 'A', text: 'The understanding of ecological principles, ecosystems, and living systems that allows people to live sustainably and protect the biosphere' },
-      { key: 'B', text: 'Reading books about economics' },
-      { key: 'C', text: 'Using electronic ebook readers' },
-      { key: 'D', text: 'Painting walls green' }
+    "id": 4,
+    "topicRef": "Digital Literacy Definitions (Paul Gilster)",
+    "question": "Paul Gilster defined 'Digital Literacy' primarily as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ability to understand, evaluate, and integrate information in multiple formats from a wide range of digital sources via computers."
+      },
+      {
+        "key": "B",
+        "text": "The ability to type 100 words per minute."
+      },
+      {
+        "key": "C",
+        "text": "Knowing how to physically assemble computer hardware."
+      },
+      {
+        "key": "D",
+        "text": "Memorizing keyboard shortcuts."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Ecoliteracy (coined by David Orr and Fritjof Capra) is the capacity to understand the natural systems that make life on Earth possible and foster sustainable environmental stewardship.',
-    topicRef: '4.0 Ecoliteracy & Environmental Stewardship'
+    "correctAnswer": "A",
+    "explanation": "Paul Gilster (1997) emphasized that digital literacy is not merely technical button-pressing, but the critical cognitive ability to evaluate, synthesize, and contextualize digital information."
   },
   {
-    id: 5,
-    question: "What does 'Media Literacy' primarily enable a learner to do?",
-    options: [
-      { key: 'A', text: 'Watch television for 10 hours a day' },
-      { key: 'B', text: 'Access, analyze, evaluate, and create media in various forms with a critical awareness of author intent, bias, and underlying messaging' },
-      { key: 'C', text: 'Buy commercial broadcast equipment' },
-      { key: 'D', text: 'Memorize television station channel numbers' }
+    "id": 5,
+    "topicRef": "Seven Dimensions of Media and Information Literacy (MIL)",
+    "question": "Under the UNESCO Media and Information Literacy (MIL) curriculum, which dimension focuses on understanding how media messages are constructed, identifying underlying biases, and recognizing commercial/political motives?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Critical Understanding and Evaluation of Media Content"
+      },
+      {
+        "key": "B",
+        "text": "Hardware Maintenance"
+      },
+      {
+        "key": "C",
+        "text": "Physical Printing"
+      },
+      {
+        "key": "D",
+        "text": "Passive Consumption"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Media literacy develops critical inquiry into how media messages are constructed, identifying bias, commercial motivation, propaganda, and subtext.',
-    topicRef: '2.0 Media & Information Literacy'
+    "correctAnswer": "A",
+    "explanation": "Critical evaluation in MIL trains citizens to deconstruct media representations, identify misinformation/propaganda, and analyze power dynamics behind media production."
   },
   {
-    id: 6,
-    question: "In social and emotional literacy, what does 'Emotional Intelligence' (EQ, Daniel Goleman) encompass?",
-    options: [
-      { key: 'A', text: 'Self-awareness, self-regulation, motivation, empathy, and social relationship skills' },
-      { key: 'B', text: 'High scores on standardized IQ tests' },
-      { key: 'C', text: 'Suppressing all human feelings completely' },
-      { key: 'D', text: 'Crying whenever challenged by difficulty' }
+    "id": 6,
+    "topicRef": "Cyber Threats: Spoofing vs Phishing",
+    "question": "How does 'Spoofing' differ from 'Phishing'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spoofing involves forging an email sender header, IP address, or website domain to masquerade as a legitimate identity; Phishing is the broader social engineering scheme to trick users into divulging secrets."
+      },
+      {
+        "key": "B",
+        "text": "Spoofing is completely legal."
+      },
+      {
+        "key": "C",
+        "text": "Phishing uses physical fishing rods."
+      },
+      {
+        "key": "D",
+        "text": "There is no difference between them."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Daniel Goleman\'s EQ framework consists of 5 domains: Self-Awareness, Self-Regulation, Internal Motivation, Empathy, and Social Skills.',
-    topicRef: '5.0 Social & Emotional Literacy'
+    "correctAnswer": "A",
+    "explanation": "Spoofing is the technical masquerading/falsification of headers, caller IDs, or web addresses, while Phishing is the deceptive social-engineering attempt to lure victims into surrendering sensitive credentials."
   },
   {
-    id: 7,
-    question: "What is 'Cyber Literacy' (Cybersecurity Literacy)?",
-    options: [
-      { key: 'A', text: 'Knowing how to protect personal data, navigate online spaces safely, identify scams, and respect ethical protocols in cyberspace' },
-      { key: 'B', text: 'Hacking into government servers' },
-      { key: 'C', text: 'Buying a mechanical robot' },
-      { key: 'D', text: 'Playing online video games' }
+    "id": 7,
+    "topicRef": "Cyber Threats: Man-in-the-Middle (MitM) Attack",
+    "question": "When a hacker intercepts and secretly relays communication between a student and a school portal on an unsecured public Wi-Fi network, this attack is called a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Man-in-the-Middle (MitM) Attack"
+      },
+      {
+        "key": "B",
+        "text": "Brute Force Attack"
+      },
+      {
+        "key": "C",
+        "text": "Zero-Day Exploit"
+      },
+      {
+        "key": "D",
+        "text": "Trojan Horse"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cyber literacy focuses on online safety, data privacy defense, responsible digital communication, and ethical behavior in digital environments.',
-    topicRef: '2.0 Cyber Literacy & Digital Citizenship'
+    "correctAnswer": "A",
+    "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly eavesdrops, intercepts, or alters communications between two parties who believe they are directly communicating with each other."
   },
   {
-    id: 8,
-    question: "What is 'Arts and Creativity Literacy'?",
-    options: [
-      { key: 'A', text: 'Drawing straight lines with a ruler only' },
-      { key: 'B', text: 'The ability to perceive, analyze, appreciate, and produce creative works through diverse artistic modalities to express ideas and innovate' },
-      { key: 'C', text: 'Copying someone else\'s painting exactly' },
-      { key: 'D', text: 'Memorizing paint color hex codes' }
+    "id": 8,
+    "topicRef": "Cyber Threats: Spyware & Keyloggers",
+    "question": "Software covertly installed on a computer to record every keystroke typed by a user (including usernames and credit card numbers) is classified as a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Keylogger (Spyware)"
+      },
+      {
+        "key": "B",
+        "text": "Firewall"
+      },
+      {
+        "key": "C",
+        "text": "Antivirus"
+      },
+      {
+        "key": "D",
+        "text": "Virtual Private Network"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Artistic literacy empowers learners to engage creatively and aesthetically with the world, expressing complex emotional, cultural, and conceptual ideas.',
-    topicRef: '6.0 Arts & Creativity Literacy'
+    "correctAnswer": "A",
+    "explanation": "A Keylogger is a malicious surveillance tool (spyware) that silently logs keystrokes to steal passwords, credentials, and private messages."
   },
   {
-    id: 9,
-    question: "What does the concept of 'Compound Interest' demonstrate in financial literacy?",
-    options: [
-      { key: 'A', text: 'Interest earned only on the initial principal amount' },
-      { key: 'B', text: 'Interest calculated on the initial principal AND the accumulated interest of previous periods, enabling exponential wealth growth over time' },
-      { key: 'C', text: 'A fine imposed by banks for depositing money' },
-      { key: 'D', text: 'The cost of opening a checking account' }
+    "id": 9,
+    "topicRef": "Cyber Threats: Distributed Denial of Service (DDoS)",
+    "question": "A cyber attack that floods a school website server with millions of fake traffic requests simultaneously, causing it to crash and become unavailable to legitimate students, is called a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "DDoS (Distributed Denial of Service) Attack"
+      },
+      {
+        "key": "B",
+        "text": "Phishing Scam"
+      },
+      {
+        "key": "C",
+        "text": "SQL Injection"
+      },
+      {
+        "key": "D",
+        "text": "Ransomware"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Compound interest (Albert Einstein called it the 8th wonder of the world) generates exponential financial returns as interest compounds on accumulated interest.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "A DDoS attack overburdens target servers with massive botnet traffic, making the system unavailable to legitimate users."
   },
   {
-    id: 10,
-    question: "What is the 'Carbon Footprint' concept in environmental ecoliteracy?",
-    options: [
-      { key: 'A', text: 'Footprints left by muddy shoes on a hiking trail' },
-      { key: 'B', text: 'The total amount of greenhouse gases (carbon dioxide equivalent) emitted directly and indirectly by human activities and consumption patterns' },
-      { key: 'C', text: 'Black charcoal used in drawing' },
-      { key: 'D', text: 'The shoe size of an ecologist' }
+    "id": 10,
+    "topicRef": "Information Literacy: Fact-Checking & Deepfakes",
+    "question": "Hyper-realistic synthetic video and audio generated by deep artificial neural networks to make real people appear to say or do things they never did are known as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Deepfakes"
+      },
+      {
+        "key": "B",
+        "text": "Bitcoins"
+      },
+      {
+        "key": "C",
+        "text": "GIFs"
+      },
+      {
+        "key": "D",
+        "text": "Podcasts"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'A carbon footprint measures the environmental impact of individual, institutional, or national energy use, transit, and consumer behaviors on global climate change.',
-    topicRef: '4.0 Ecoliteracy'
+    "correctAnswer": "A",
+    "explanation": "Deepfakes use Generative Adversarial Networks (GANs) and deep learning to manipulate or generate realistic audio-visual content for deceptive impersonation."
   },
   {
-    id: 11,
-    question: "Which of the following is a symptom of 'Information Overload' (Info-obesity) in the digital era?",
-    options: [
-      { key: 'A', text: 'Difficulty making decisions and mental fatigue caused by an excessive influx of uncurated data and notifications' },
-      { key: 'B', text: 'Reading one book per month' },
-      { key: 'C', text: 'Having no internet connection' },
-      { key: 'D', text: 'Writing handwritten letters' }
+    "id": 11,
+    "topicRef": "Arts and Creative Literacy: Visual Literacy",
+    "question": "Visual Literacy in the 21st century enables students to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interpret, analyze, evaluate, and create meaning from information presented in visual forms (infographics, diagrams, photographs, symbols)."
+      },
+      {
+        "key": "B",
+        "text": "Only read black-and-white text."
+      },
+      {
+        "key": "C",
+        "text": "Wear glasses while reading."
+      },
+      {
+        "key": "D",
+        "text": "Draw realistic portraits with charcoal exclusively."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Information overload leads to cognitive fatigue, analysis paralysis, and decreased comprehension when incoming data exceeds working memory processing bandwidth.',
-    topicRef: '2.0 Information Literacy'
+    "correctAnswer": "A",
+    "explanation": "Visual literacy involves critically decoding visual representations (semiotics, graphic layout, iconography) and encoding original visual artifacts to communicate complex messages."
   },
   {
-    id: 12,
-    question: "In multicultural literacy, what is 'Ethnocentrism'?",
-    options: [
-      { key: 'A', text: 'The belief that all cultures are equally valid and worthy of respect' },
-      { key: 'B', text: 'The tendency to view one\'s own ethnic or cultural group as inherently superior and judge other cultures by one\'s own standards' },
-      { key: 'C', text: 'Learning a second language fluently' },
-      { key: 'D', text: 'Eating international cuisine' }
+    "id": 12,
+    "topicRef": "Aesthetic Literacy & Design Thinking",
+    "question": "What are the 5 sequential stages in the Stanford d.school Design Thinking process used in creative innovation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Empathize -> Define -> Ideate -> Prototype -> Test"
+      },
+      {
+        "key": "B",
+        "text": "Plan -> Write -> Grade -> Repeat -> Exit"
+      },
+      {
+        "key": "C",
+        "text": "Look -> Think -> Draw -> Paint -> Sell"
+      },
+      {
+        "key": "D",
+        "text": "Lecture -> Homework -> Quiz -> Exam -> Graduate"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Ethnocentrism is a cultural bias where one evaluates other cultures through the narrow lens and assumed superiority of one\'s own ethnic background.',
-    topicRef: '1.0 Multicultural Literacy'
+    "correctAnswer": "A",
+    "explanation": "Design Thinking comprises: 1. Empathize (understand user needs), 2. Define (frame problem), 3. Ideate (brainstorm creative solutions), 4. Prototype (build tangible mockups), and 5. Test (user feedback)."
   },
   {
-    id: 13,
-    question: "What is 'Cultural Relativism' in anthropological and multicultural studies?",
-    options: [
-      { key: 'A', text: 'The principle that an individual\'s beliefs and practices should be understood based on that person\'s own cultural context, rather than judged against the criteria of another' },
-      { key: 'B', text: 'Claiming that one\'s own culture is the only civilized society' },
-      { key: 'C', text: 'Erasing all cultural traditions worldwide' },
-      { key: 'D', text: 'Converting everyone to a single world language' }
+    "id": 13,
+    "topicRef": "Creativity: Divergent vs Convergent Thinking (Guilford)",
+    "question": "In J.P. Guilford's structure of intellect, Divergent Thinking is characterized by which four core cognitive traits?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fluency, Flexibility, Originality, and Elaboration"
+      },
+      {
+        "key": "B",
+        "text": "Speed, Accuracy, Memorization, and Neatness"
+      },
+      {
+        "key": "C",
+        "text": "Silence, Obedience, Conformity, and Punctuality"
+      },
+      {
+        "key": "D",
+        "text": "Reading, Writing, Listening, and Speaking"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cultural relativism promotes empathy, objective understanding, and tolerance by evaluating cultural practices within their own internal historical and social framework.',
-    topicRef: '1.0 Multicultural Literacy'
+    "correctAnswer": "A",
+    "explanation": "Guilford's 4 dimensions of divergent creative production are: Fluency (number of ideas), Flexibility (variety of categories), Originality (novelty), and Elaboration (adding rich detail)."
   },
   {
-    id: 14,
-    question: "In financial education, what is an 'Emergency Fund'?",
-    options: [
-      { key: 'A', text: 'A dedicated savings reserve equivalent to 3 to 6 months of living expenses set aside strictly for unforeseen events (e.g., job loss, medical emergencies)' },
-      { key: 'B', text: 'Money spent on lottery tickets every weekend' },
-      { key: 'C', text: 'Credit card debt maxed out on luxury gadgets' },
-      { key: 'D', text: 'Money borrowed from a high-interest loan shark' }
+    "id": 14,
+    "topicRef": "Financial Literacy: Emergency Fund",
+    "question": "According to standard personal finance principles, what is the recommended size of an individual's Emergency Fund before investing in volatile assets?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 to 6 months of essential living expenses kept in safe, liquid savings"
+      },
+      {
+        "key": "B",
+        "text": "1 week of allowance"
+      },
+      {
+        "key": "C",
+        "text": "50 years of total salary"
+      },
+      {
+        "key": "D",
+        "text": "Zero pesos"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'An emergency fund acts as a financial shock absorber to prevent individuals from sinking into high-interest debt during sudden crises.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "Financial planners recommend establishing an Emergency Fund equivalent to 3–6 months of basic living expenses in liquid, accessible accounts to cushion against unexpected shocks."
   },
   {
-    id: 15,
-    question: "What is 'Deepfake' technology and why is it a critical concern in media literacy?",
-    options: [
-      { key: 'A', text: 'A type of ocean exploration submarine' },
-      { key: 'B', text: 'Synthetic media in which a person\'s face or voice is realistically manipulated using artificial intelligence to make them say or do things they never did' },
-      { key: 'C', text: 'A digital photo frame on a desk' },
-      { key: 'D', text: 'A high-contrast video filter' }
+    "id": 15,
+    "topicRef": "Financial Literacy: Budgeting (50-30-20 Rule)",
+    "question": "Under Senator Elizabeth Warren's popular 50-30-20 Budgeting Rule, how should monthly net income be distributed?",
+    "options": [
+      {
+        "key": "A",
+        "text": "50% Needs (essentials), 30% Wants (discretionary), 20% Savings & Debt repayment"
+      },
+      {
+        "key": "B",
+        "text": "50% Savings, 30% Wants, 20% Needs"
+      },
+      {
+        "key": "C",
+        "text": "50% Luxury, 30% Clothes, 20% Food"
+      },
+      {
+        "key": "D",
+        "text": "100% Discretionary shopping"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Deepfakes use generative AI to fabricate hyper-realistic deceptive videos/audio, posing severe threats to truth, political integrity, and reputation.',
-    topicRef: '2.0 Media & Information Literacy'
+    "correctAnswer": "A",
+    "explanation": "The 50/30/20 budget allocates 50% of after-tax income to Needs (housing, utilities, food), 30% to Wants (dining, hobbies), and 20% to Savings, investments, and debt reduction."
   },
   {
-    id: 16,
-    question: "What does 'Lateral Reading' mean when evaluating online information sources (Stanford History Education Group model)?",
-    options: [
-      { key: 'A', text: 'Reading a webpage horizontally with your head tilted' },
-      { key: 'B', text: 'Opening new browser tabs to search what other independent, credible sources say about the website, author, and claims before trusting it' },
-      { key: 'C', text: 'Reading only the first word of every sentence' },
-      { key: 'D', text: 'Scrolling from left to right on a PDF' }
+    "id": 16,
+    "topicRef": "Life Insurance Matrix: Term Insurance",
+    "question": "Which type of life insurance provides pure death benefit protection for a specified limited period (e.g. 10, 20 years) with the lowest premium cost and NO cash value accumulation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Term Life Insurance"
+      },
+      {
+        "key": "B",
+        "text": "Whole Life Insurance"
+      },
+      {
+        "key": "C",
+        "text": "Endowment Policy"
+      },
+      {
+        "key": "D",
+        "text": "Variable Universal Life (VUL)"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Fact-checkers read laterally: they immediately leave the unfamiliar website and open new tabs to verify who is behind the information from external authoritative sources.',
-    topicRef: '2.0 Information Literacy & Fact Checking'
+    "correctAnswer": "A",
+    "explanation": "Term Insurance offers affordable pure protection for a set duration. If the insured survives the term, no payout or cash value is returned."
   },
   {
-    id: 17,
-    question: "What is 'Social Capital' in social literacy?",
-    options: [
-      { key: 'A', text: 'The paper money in a company\'s bank account' },
-      { key: 'B', text: 'The networks of relationships, trust, shared values, and mutual reciprocity that enable individuals and communities to cooperate effectively' },
-      { key: 'C', text: 'The total value of computers in a school' },
-      { key: 'D', text: 'The number of followers on an anonymous social account' }
+    "id": 17,
+    "topicRef": "Life Insurance Matrix: Whole Life Insurance",
+    "question": "What distinguishes 'Whole Life Insurance' from Term Insurance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Whole Life provides permanent lifetime coverage (up to age 100) with guaranteed level premiums and builds guaranteed cash surrender value over time."
+      },
+      {
+        "key": "B",
+        "text": "Whole Life expires after 5 years."
+      },
+      {
+        "key": "C",
+        "text": "Whole Life does not pay any death benefit."
+      },
+      {
+        "key": "D",
+        "text": "Whole Life is only for children under 5 years old."
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Social capital (Pierre Bourdieu, Robert Putnam) refers to the social connections, trust, and community bonds that yield collaborative benefits.',
-    topicRef: '5.0 Social Literacy'
+    "correctAnswer": "A",
+    "explanation": "Whole Life Insurance covers the insured for their entire lifespan, with fixed premiums and guaranteed accumulating cash values."
   },
   {
-    id: 18,
-    question: "What is 'Microaggression' in interpersonal and multicultural communication?",
-    options: [
-      { key: 'A', text: 'A physical fistfight between two people' },
-      { key: 'B', text: 'Brief, subtle, and often unintentional everyday verbal, behavioral, or environmental indignities that communicate hostile or derogatory slights toward marginalized groups' },
-      { key: 'C', text: 'A scientific experiment on microscopic organisms' },
-      { key: 'D', text: 'A polite and formal greeting' }
+    "id": 18,
+    "topicRef": "Life Insurance Matrix: Endowment Policy",
+    "question": "An 'Endowment Policy' is specifically designed to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pay out the full face amount either upon the death of the insured within the term OR as a living cash lump sum upon reaching the maturity date (e.g. college fund)."
+      },
+      {
+        "key": "B",
+        "text": "Insure only corporate office buildings against fire."
+      },
+      {
+        "key": "C",
+        "text": "Provide medical health insurance without death coverage."
+      },
+      {
+        "key": "D",
+        "text": "Cover car repair accidents."
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Microaggressions are subtle daily verbal or behavioral snubs that convey prejudice, alienating members of minority or marginalized communities.',
-    topicRef: '1.0 Multicultural Literacy'
+    "correctAnswer": "A",
+    "explanation": "Endowment policies combine life insurance with forced savings: if you die, beneficiaries receive the benefit; if you survive to maturity, you receive the full endowment lump sum."
   },
   {
-    id: 19,
-    question: "In environmental sustainability, what are the '5 Rs' of waste management?",
-    options: [
-      { key: 'A', text: 'Refuse, Reduce, Reuse, Repurpose/Rot, and Recycle' },
-      { key: 'B', text: 'Read, Review, Repeat, Recite, and Remember' },
-      { key: 'C', text: 'Run, Rest, Relax, Recover, and Recharge' },
-      { key: 'D', text: 'Rate, Rank, Report, Record, and Remove' }
+    "id": 19,
+    "topicRef": "Life Insurance Matrix: Variable Universal Life (VUL)",
+    "question": "What is a 'Variable Universal Life (VUL)' insurance policy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A hybrid policy combining life insurance protection with an investment component where cash values are invested in stocks, bonds, or mutual funds and fluctuate with market performance."
+      },
+      {
+        "key": "B",
+        "text": "A health insurance policy for government employees only."
+      },
+      {
+        "key": "C",
+        "text": "A mandatory road tax."
+      },
+      {
+        "key": "D",
+        "text": "A savings account with zero interest."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The 5 Rs of zero waste prioritize refusing unnecessary waste first, reducing consumption, reusing items, rot/repurposing organic matter, and recycling last.',
-    topicRef: '4.0 Ecoliteracy & Waste Management'
+    "correctAnswer": "A",
+    "explanation": "VUL policies allocate part of premiums to life insurance protection and the remainder to market-linked investment funds, offering variable returns without guaranteed cash values."
   },
   {
-    id: 20,
-    question: "What is 'Algorithmic Bias' in digital media and AI systems?",
-    options: [
-      { key: 'A', text: 'A computer motherboard overheating' },
-      { key: 'B', text: 'Systematic and repeatable errors in computer systems that create unfair outcomes, such as privileging one group over another due to biased training data' },
-      { key: 'C', text: 'A math test with hard algebra questions' },
-      { key: 'D', text: 'The speed of internet downloading' }
+    "id": 20,
+    "topicRef": "Financial Literacy: Compound Interest (Albert Einstein)",
+    "question": "The formula for Compound Interest (A = P(1 + \frac{r}{n})^{nt}) demonstrates the financial principle that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Money grows exponentially over time because interest is earned not only on the initial principal but also on accumulated prior interest."
+      },
+      {
+        "key": "B",
+        "text": "Inflation destroys all wealth within one year."
+      },
+      {
+        "key": "C",
+        "text": "Keeping cash under a mattress is the best financial strategy."
+      },
+      {
+        "key": "D",
+        "text": "Borrowing credit card debt at 36% annual interest makes you wealthy."
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Algorithmic bias occurs when algorithms replicate or amplify human prejudices present in their training datasets or design parameters.',
-    topicRef: '2.0 Cyber & AI Literacy'
+    "correctAnswer": "A",
+    "explanation": "Compound interest is 'interest on interest', leading to exponential wealth accumulation over long time horizons (the '8th wonder of the world')."
   },
   {
-    id: 21,
-    question: "What is 'Echo Chamber' effect in social media consumption?",
-    options: [
-      { key: 'A', text: 'Singing in a large empty auditorium' },
-      { key: 'B', text: 'An environment where a person only encounters information or opinions that reflect and reinforce their own, insulating them from dissenting viewpoints' },
-      { key: 'C', text: 'A surround-sound speaker system' },
-      { key: 'D', text: 'A video call with an audio feedback loop' }
+    "id": 21,
+    "topicRef": "Financial Literacy: Rule of 72",
+    "question": "If an investment yields an 8% annual compound return, approximately how many years will it take for the money to double according to the 'Rule of 72'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "9 years ((72 div 8 = 9))"
+      },
+      {
+        "key": "B",
+        "text": "72 years"
+      },
+      {
+        "key": "C",
+        "text": "8 years"
+      },
+      {
+        "key": "D",
+        "text": "15 years"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Echo chambers on social platforms filter out differing perspectives, polarizing views and reinforcing confirmation bias.',
-    topicRef: '2.0 Media Literacy'
+    "correctAnswer": "A",
+    "explanation": "The Rule of 72 estimates doubling time: divide 72 by the annual interest rate ((72 div 8 = 9) years)."
   },
   {
-    id: 22,
-    question: "What is 'Design Thinking' in 21st-century creativity and problem solving?",
-    options: [
-      { key: 'A', text: 'A human-centered, iterative problem-solving methodology comprising 5 stages: Empathize, Define, Ideate, Prototype, and Test' },
-      { key: 'B', text: 'Buying expensive graphic design software' },
-      { key: 'C', text: 'Memorizing the color wheel' },
-      { key: 'D', text: 'Following a rigid recipe with no alterations' }
+    "id": 22,
+    "topicRef": "Financial Literacy: Assets vs Liabilities (Robert Kiyosaki)",
+    "question": "In Robert Kiyosaki's 'Rich Dad Poor Dad' financial framework, how is an 'Asset' defined?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Anything that puts positive cash flow into your pocket."
+      },
+      {
+        "key": "B",
+        "text": "Anything that takes money out of your pocket (expenses/maintenance)."
+      },
+      {
+        "key": "C",
+        "text": "Any luxury item bought on credit card installment."
+      },
+      {
+        "key": "D",
+        "text": "The clothes in your closet."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Stanford d.school\'s Design Thinking is a non-linear problem-solving process centered on deep empathy for users to develop innovative, tested solutions.',
-    topicRef: '6.0 Arts & Creativity Literacy'
+    "correctAnswer": "A",
+    "explanation": "Kiyosaki simply defines Assets as things that generate positive cash flow (stocks, rental properties, businesses), while Liabilities take money out of your pocket."
   },
   {
-    id: 23,
-    question: "What does 'Phishing' vs 'Spear Phishing' distinguish in cyber safety?",
-    options: [
-      { key: 'A', text: 'Phishing is broad and untargeted; Spear Phishing is highly customized, personalized, and targeted at a specific individual or organization' },
-      { key: 'B', text: 'Phishing is done with a fishing rod; spear phishing is done with a spear' },
-      { key: 'C', text: 'There is no difference between them' },
-      { key: 'D', text: 'Spear phishing is legal while phishing is illegal' }
+    "id": 23,
+    "topicRef": "Financial Literacy: Good Debt vs Bad Debt",
+    "question": "Which of the following is considered 'Good Debt'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A low-interest loan used to purchase a cash-flowing real estate property or fund graduate professional education that increases earning capacity."
+      },
+      {
+        "key": "B",
+        "text": "Borrowing from a 5-6 loan shark at 20% monthly interest to buy a designer handbag."
+      },
+      {
+        "key": "C",
+        "text": "Maxing out credit cards on party drinks."
+      },
+      {
+        "key": "D",
+        "text": "Taking a salary advance to gamble at a casino."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Spear phishing utilizes researched personal information about the victim to craft convincing, tailored deceptions to steal credentials.',
-    topicRef: '2.0 Cyber Literacy'
+    "correctAnswer": "A",
+    "explanation": "Good debt finances assets, education, or ventures that increase net worth or income potential at low borrowing costs, while bad debt finances depreciating consumer goods."
   },
   {
-    id: 24,
-    question: "What is 'Greenwashing' in eco-literacy and consumer awareness?",
-    options: [
-      { key: 'A', text: 'Washing vegetables with eco-friendly soap' },
-      { key: 'B', text: 'Deceptive marketing or public relations that falsely portrays a company, product, or policy as environmentally friendly when it is not' },
-      { key: 'C', text: 'Painting commercial buildings with green paint' },
-      { key: 'D', text: 'Planting trees along a highway' }
+    "id": 24,
+    "topicRef": "Eco-Literacy (David Orr & Fritjof Capra)",
+    "question": "Fritjof Capra defined 'Ecological Literacy' (Eco-literacy) as the ability to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Understand the basic principles of ecology and live accordingly, recognizing that all human systems are embedded in living ecological networks."
+      },
+      {
+        "key": "B",
+        "text": "Memorize the Latin names of 500 plants."
+      },
+      {
+        "key": "C",
+        "text": "Live in a forest without electricity."
+      },
+      {
+        "key": "D",
+        "text": "Abolish all manufacturing factories."
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Greenwashing misleads consumers regarding the environmental practices of an organization or the ecological benefits of a product.',
-    topicRef: '4.0 Ecoliteracy'
+    "correctAnswer": "A",
+    "explanation": "Eco-literacy is the capacity to understand the natural cycles, interdependence, biodiversity, and energy flows of ecosystems and embody sustainable living."
   },
   {
-    id: 25,
-    question: "What is the '50-30-20 Rule' in basic personal budgeting (Elizabeth Warren model)?",
-    options: [
-      { key: 'A', text: '50% on Needs (essential bills), 30% on Wants (discretionary), and 20% on Savings & Debt Repayment' },
-      { key: 'B', text: '50% on Savings, 30% on Rent, and 20% on Clothes' },
-      { key: 'C', text: '50% on Food, 30% on Travel, and 20% on Movies' },
-      { key: 'D', text: '50% on Taxes, 30% on Insurance, and 20% on Gifts' }
+    "id": 25,
+    "topicRef": "Carbon Footprint vs Ecological Footprint",
+    "question": "What does an individual's 'Ecological Footprint' measure?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The amount of biologically productive land and water area required to produce the resources an individual consumes and absorb their generated waste."
+      },
+      {
+        "key": "B",
+        "text": "The physical shoe size of an athlete."
+      },
+      {
+        "key": "C",
+        "text": "The length of nature trails in a park."
+      },
+      {
+        "key": "D",
+        "text": "The number of trees in a school yard."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The 50/30/20 budget allocates after-tax income into: 50% Needs (housing, utilities, food), 30% Wants (dining, hobbies), and 20% Financial Goals (savings, investments, extra debt payments).',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "Ecological Footprint measures human demand on Earth's ecosystems by comparing resource consumption and waste assimilation against biocapacity."
   },
   {
-    id: 26,
-    question: "What does 'Confirmation Bias' mean in critical thinking and information evaluation?",
-    options: [
-      { key: 'A', text: 'The psychological tendency to search for, interpret, favor, and recall information that confirms one\'s preexisting beliefs while ignoring contradictory evidence' },
-      { key: 'B', text: 'Confirming flight reservations before travel' },
-      { key: 'C', text: 'Validating mathematical formulas with a calculator' },
-      { key: 'D', text: 'Asking two friends for agreement' }
+    "id": 26,
+    "topicRef": "Green School Principles (DepEd Eco-Friendly Schools)",
+    "question": "A certified 'Green School' operationalizes environmental sustainability through which integrated dimensions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sustainable campus infrastructure (solar power, rainwater harvesting, zero-waste segregation), green curriculum integration, and community environmental outreach."
+      },
+      {
+        "key": "B",
+        "text": "Painting all school walls green color."
+      },
+      {
+        "key": "C",
+        "text": "Banning science textbooks."
+      },
+      {
+        "key": "D",
+        "text": "Planting artificial plastic flowers."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Confirmation bias leads individuals to selectively embrace facts that support their existing assumptions and dismiss disconfirming facts.',
-    topicRef: '1.0 Critical Thinking'
+    "correctAnswer": "A",
+    "explanation": "Green Schools embody a whole-school approach: eco-friendly physical operations, environmental curriculum integration, resource conservation, and community partnerships."
   },
   {
-    id: 27,
-    question: "What is 'Divergent Thinking' versus 'Convergent Thinking' in creativity?",
-    options: [
-      { key: 'A', text: 'Divergent thinking generates multiple novel ideas and possibilities; Convergent thinking narrows down to find the single best or correct solution' },
-      { key: 'B', text: 'Divergent thinking is always wrong' },
-      { key: 'C', text: 'Convergent thinking means daydreaming' },
-      { key: 'D', text: 'They are identical mental processes' }
+    "id": 27,
+    "topicRef": "Solid Waste Management: RA 9003",
+    "question": "Under Republic Act 9003 (Ecological Solid Waste Management Act of 2000), what is the correct hierarchy of waste management from most preferred to least preferred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Source Reduction & Reuse -> Recycling & Composting -> Waste Treatment -> Safe Disposal (Sanitary Landfill)"
+      },
+      {
+        "key": "B",
+        "text": "Open Burning (Siga) -> Ocean Dumping -> Recycling"
+      },
+      {
+        "key": "C",
+        "text": "Landfill -> Incineration -> Reuse"
+      },
+      {
+        "key": "D",
+        "text": "Throwing trash in canals -> Burning -> Segregation"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'J.P. Guilford distinguished Divergent thinking (exploring many open possibilities/brainstorming) from Convergent thinking (focusing toward one unified correct conclusion).',
-    topicRef: '6.0 Arts & Creativity Literacy'
+    "correctAnswer": "A",
+    "explanation": "RA 9003 establishes a waste hierarchy prioritizing waste avoidance/reduction at source, followed by reuse, recycling, composting, and sanitary landfill disposal."
   },
   {
-    id: 28,
-    question: "In multicultural education, what does James Banks' 'Social Action Approach' involve?",
-    options: [
-      { key: 'A', text: 'Students make decisions on important social issues and take meaningful action to help solve civic problems' },
-      { key: 'B', text: 'Simply adding ethnic heroes to the calendar' },
-      { key: 'C', text: 'Celebrating a food festival once a year' },
-      { key: 'D', text: 'Adding one multicultural chapter at the end of the textbook' }
+    "id": 28,
+    "topicRef": "Climate Change Act: RA 9729",
+    "question": "Republic Act No. 9729 in the Philippines is officially known as the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Climate Change Act of 2009"
+      },
+      {
+        "key": "B",
+        "text": "Clean Air Act"
+      },
+      {
+        "key": "C",
+        "text": "Clean Water Act"
+      },
+      {
+        "key": "D",
+        "text": "Disaster Risk Reduction Act"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'James Banks\' 4 levels of multicultural curriculum reform are: 1) Contributions, 2) Additive, 3) Transformative, and 4) Social Action (highest level: civic empowerment and advocacy).',
-    topicRef: '1.0 Banks Multicultural Reform Levels'
+    "correctAnswer": "A",
+    "explanation": "RA 9729 is the Climate Change Act of 2009, creating the Climate Change Commission to mainstream climate resilience and disaster risk reduction in state policies."
   },
   {
-    id: 29,
-    question: "What is 'Inflation' in economics and financial literacy?",
-    options: [
-      { key: 'A', text: 'Blowing air into a party balloon' },
-      { key: 'B', text: 'The general, sustained increase in prices and fall in the purchasing power of money over time' },
-      { key: 'C', text: 'A temporary discount in store prices' },
-      { key: 'D', text: 'An increase in stock market dividends' }
+    "id": 29,
+    "topicRef": "UN Sustainable Development Goals (SDGs)",
+    "question": "Which United Nations Sustainable Development Goal specifically guarantees 'Inclusive and equitable quality education and promotes lifelong learning opportunities for all'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SDG 4 (Quality Education)"
+      },
+      {
+        "key": "B",
+        "text": "SDG 1 (No Poverty)"
+      },
+      {
+        "key": "C",
+        "text": "SDG 13 (Climate Action)"
+      },
+      {
+        "key": "D",
+        "text": "SDG 5 (Gender Equality)"
+      }
     ],
-    correctAnswer: 'B',
-    explanation: 'Inflation erodes purchasing power over time; understanding inflation highlights why leaving cash idle leads to loss of real wealth compared to investing.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "UN SDG 4 is dedicated to Quality Education: ensuring inclusive, equitable access and lifelong learning opportunities globally by 2030."
   },
   {
-    id: 30,
-    question: "What is 'Bio-capacity' in ecological sustainability?",
-    options: [
-      { key: 'A', text: 'The maximum capacity of an ecosystem to generate renewable resources and absorb the waste wastes generated by human beings' },
-      { key: 'B', text: 'The battery storage of a medical device' },
-      { key: 'C', text: 'The maximum weight a human can lift' },
-      { key: 'D', text: 'The volume of a biological test tube' }
+    "id": 30,
+    "topicRef": "Social Literacy",
+    "question": "Social Literacy in the 21st century involves the development of social skills, social etiquette, and the ability to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Navigate complex interpersonal relationships, communicate with empathy, resolve conflicts peacefully, and collaborate respectfully across diverse cultures."
+      },
+      {
+        "key": "B",
+        "text": "Get the highest number of likes on Facebook."
+      },
+      {
+        "key": "C",
+        "text": "Isolate oneself from society completely."
+      },
+      {
+        "key": "D",
+        "text": "Dominate and intimidate conversational partners."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Biocapacity measures the biological productivity of an area to regenerate natural assets and assimilate greenhouse gases.',
-    topicRef: '4.0 Ecoliteracy'
+    "correctAnswer": "A",
+    "explanation": "Social literacy is the ability to interact successfully, exhibit prosocial behavior, read social cues, build cooperative partnerships, and demonstrate empathy."
   },
   {
-    id: 31,
-    question: "What is 'Clickbait' in media literacy?",
-    options: [
-      { key: 'A', text: 'Sensationalized or misleading headlines designed to induce users to click on a link to generate web traffic or ad revenue, often with shallow or misleading content' },
-      { key: 'B', text: 'A mouse hardware accessory' },
-      { key: 'C', text: 'A high-speed internet cable' },
-      { key: 'D', text: 'A verified academic journal link' }
+    "id": 31,
+    "topicRef": "Emotional Intelligence (EQ - Daniel Goleman)",
+    "question": "According to Daniel Goleman, which of the following is NOT one of the five core components of Emotional Intelligence (EQ)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Spatial Navigation Intelligence"
+      },
+      {
+        "key": "B",
+        "text": "Self-Awareness"
+      },
+      {
+        "key": "C",
+        "text": "Self-Regulation"
+      },
+      {
+        "key": "D",
+        "text": "Empathy and Social Skills"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Clickbait exploits curiosity gaps with sensationalized phrasing to bait traffic, often sacrificing journalistic accuracy.',
-    topicRef: '2.0 Media Literacy'
+    "correctAnswer": "A",
+    "explanation": "Goleman's 5 EQ components are: 1. Self-Awareness, 2. Self-Regulation, 3. Internal Motivation, 4. Empathy, and 5. Social Skills."
   },
   {
-    id: 32,
-    question: "What does 'Empathy' mean in social literacy and interpersonal relations?",
-    options: [
-      { key: 'A', text: 'The cognitive and affective capacity to understand and feel what another person is experiencing from their frame of reference' },
-      { key: 'B', text: 'Feeling superior to someone in distress' },
-      { key: 'C', text: 'Giving unsolicited advice loudly' },
-      { key: 'D', text: 'Ignoring someone who is talking' }
+    "id": 32,
+    "topicRef": "Goleman: Empathy",
+    "question": "In Goleman's EQ framework, 'Empathy' is best described as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The ability to understand, feel, and accurately sense the emotions and perspectives of other people."
+      },
+      {
+        "key": "B",
+        "text": "Feeling sorry for someone and giving them money."
+      },
+      {
+        "key": "C",
+        "text": "Agreeing with everything another person says."
+      },
+      {
+        "key": "D",
+        "text": "Suppressing all personal emotions."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Empathy allows individuals to resonate with others\' emotional states, essential for prosocial behavior, conflict resolution, and healthy relationships.',
-    topicRef: '5.0 Social Literacy'
+    "correctAnswer": "A",
+    "explanation": "Empathy is the capacity to recognize, share, and understand another person's feelings and perspective, serving as the bedrock of interpersonal relationships."
   },
   {
-    id: 33,
-    question: "In financial education, what is an 'Asset' versus a 'Liability' (Robert Kiyosaki framework)?",
-    options: [
-      { key: 'A', text: 'An asset puts money into your pocket (generates income); a liability takes money out of your pocket (costs money to maintain)' },
-      { key: 'B', text: 'An asset is always a debt' },
-      { key: 'C', text: 'A liability is cash in the bank' },
-      { key: 'D', text: 'They mean the exact same thing' }
+    "id": 33,
+    "topicRef": "Multicultural Literacy",
+    "question": "What is the primary goal of Multicultural Literacy in education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fostering awareness, respect, and appreciation for ethnic, cultural, religious, and linguistic diversity while dismantling stereotypes and prejudices."
+      },
+      {
+        "key": "B",
+        "text": "Forcing all minority groups to abandon their cultural traditions."
+      },
+      {
+        "key": "C",
+        "text": "Teaching that one's own culture is superior to all others."
+      },
+      {
+        "key": "D",
+        "text": "Banning regional languages from being spoken."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Assets (investments, businesses, income-producing real estate) generate cash flow; liabilities (credit card debt, high-maintenance luxuries) consume cash flow.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "Multicultural literacy develops cultural sensitivity, cross-cultural appreciation, equity, and eliminates ethnocentrism in diverse classrooms."
   },
   {
-    id: 34,
-    question: "What is 'Global Competence' as defined by PISA (OECD)?",
-    options: [
-      { key: 'A', text: 'The multidimensional capacity to examine local, global, and intercultural issues, understand diverse perspectives, engage in respectful interactions, and act for sustainability' },
-      { key: 'B', text: 'Winning international spelling bees' },
-      { key: 'C', text: 'Traveling to 50 countries on vacation' },
-      { key: 'D', text: 'Memorizing the flags of all nations' }
+    "id": 34,
+    "topicRef": "Global Competence (OECD PISA)",
+    "question": "According to the OECD PISA Global Competence framework, globally competent youth can:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Examine local and global issues, understand diverse worldviews, engage in open and effective intercultural interactions, and take action for collective well-being."
+      },
+      {
+        "key": "B",
+        "text": "Speak only one language."
+      },
+      {
+        "key": "C",
+        "text": "Memorize all country capitals without understanding global issues."
+      },
+      {
+        "key": "D",
+        "text": "Refuse to interact with foreigners."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'OECD PISA defines Global Competence as the ability to analyze global issues, value cultural diversity, communicate across differences, and take collective action for common well-being.',
-    topicRef: '1.0 Global Literacy'
+    "correctAnswer": "A",
+    "explanation": "Global competence (OECD) is the multidimensional capacity to analyze global challenges, understand intercultural perspectives, communicate effectively, and act for sustainability."
   },
   {
-    id: 35,
-    question: "What is 'Doxxing' (or Doxing) in cyber ethics?",
-    options: [
-      { key: 'A', text: 'Searching for and maliciously publishing private personal identifying information (e.g., home address, phone, family info) about an individual online without consent' },
-      { key: 'B', text: 'Sending a formal email' },
-      { key: 'C', text: 'Creating a word document' },
-      { key: 'D', text: 'Backing up files to Google Drive' }
+    "id": 35,
+    "topicRef": "Media Literacy: Echo Chambers & Filter Bubbles",
+    "question": "Algorithms on social media platforms that repeatedly feed users only content that confirms their existing biases while isolating them from opposing viewpoints create:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Filter Bubbles / Echo Chambers"
+      },
+      {
+        "key": "B",
+        "text": "Open Forums"
+      },
+      {
+        "key": "C",
+        "text": "Peer-reviewed Journals"
+      },
+      {
+        "key": "D",
+        "text": "Democratic Assemblies"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Doxxing is malicious harassment involving publishing private or sensitive records to invite public intimidation or harm.',
-    topicRef: '2.0 Cyber Literacy'
+    "correctAnswer": "A",
+    "explanation": "Filter bubbles (Eli Pariser) and echo chambers isolate users in intellectual silos where algorithms reinforce pre-existing beliefs and suppress counter-perspectives."
   },
   {
-    id: 36,
-    question: "What is 'Cradle to Cradle' (C2C) design in ecological sustainability (William McDonough)?",
-    options: [
-      { key: 'A', text: 'A biomimetic design approach that models industrial systems on nature\'s processes, where all materials and outputs become nutrients in continuous closed-loop cycles' },
-      { key: 'B', text: 'Making furniture for nursery rooms' },
-      { key: 'C', text: 'Throwing all waste in landfills' },
-      { key: 'D', text: 'Single-use plastic manufacturing' }
+    "id": 36,
+    "topicRef": "Media Literacy: Clickbait & Disinformation",
+    "question": "Sensationalized, misleading headlines engineered to exploit psychological curiosity and generate online advertising revenue at the expense of journalistic truth are called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Clickbait"
+      },
+      {
+        "key": "B",
+        "text": "Investigative Journalism"
+      },
+      {
+        "key": "C",
+        "text": "Op-Ed"
+      },
+      {
+        "key": "D",
+        "text": "Academic Abstract"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cradle to Cradle eliminates the concept of waste by designing products so that materials can be safely and indefinitely cycled into biological or technical metabolisms.',
-    topicRef: '4.0 Ecoliteracy & Circular Economy'
+    "correctAnswer": "A",
+    "explanation": "Clickbait uses exaggerated, sensationalized text to bait readers into clicking hyperlinks to drive ad impressions regardless of factual accuracy."
   },
   {
-    id: 37,
-    question: "What is 'Gamification of Finances' and what risk can it pose to young consumers?",
-    options: [
-      { key: 'A', text: 'Using game-like interfaces in trading or shopping apps that may encourage impulsive gambling behaviors and risky speculative investing' },
-      { key: 'B', text: 'Saving money in a ceramic piggy bank' },
-      { key: 'C', text: 'Balancing a checkbook manually' },
-      { key: 'D', text: 'Paying utility bills via bank counter' }
+    "id": 37,
+    "topicRef": "Media Literacy: Misinformation vs Disinformation vs Malinformation",
+    "question": "How does 'Disinformation' differ from 'Misinformation'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Disinformation is intentionally created with malicious intent to deceive or harm; Misinformation is false information shared without harmful intent (e.g. honest mistake)."
+      },
+      {
+        "key": "B",
+        "text": "Disinformation is always true."
+      },
+      {
+        "key": "C",
+        "text": "Misinformation is a criminal felony while disinformation is a misdemeanor."
+      },
+      {
+        "key": "D",
+        "text": "There is no difference."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Gamified investment/betting apps can trigger addictive behavior loops, prompting novice users to trade impulsively without risk management.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "Misinformation is false information distributed mistakenly; Disinformation is deliberately crafted and weaponized falsehood created with malicious intent to deceive."
   },
   {
-    id: 38,
-    question: "What is 'Synergy' in collaborative literacy (Stephen Covey)?",
-    options: [
-      { key: 'A', text: 'The interaction of multiple elements to produce a combined effect greater than the sum of their individual parts (1 + 1 = 3 or more)' },
-      { key: 'B', text: 'One person doing all the work in a group project' },
-      { key: 'C', text: 'Arguing endlessly without a solution' },
-      { key: 'D', text: 'Splitting tasks and never communicating' }
+    "id": 38,
+    "topicRef": "Media Literacy: Malinformation",
+    "question": "What is 'Malinformation'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Information that is based on genuine reality/facts, but is maliciously weaponized, leaked, or distorted out of context to inflict personal or institutional harm."
+      },
+      {
+        "key": "B",
+        "text": "Fictional comic books."
+      },
+      {
+        "key": "C",
+        "text": "Weather forecasts."
+      },
+      {
+        "key": "D",
+        "text": "Scientific formulas."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Synergy represents creative teamwork where diverse minds combine strengths to generate breakthroughs beyond individual capabilities.',
-    topicRef: '1.0 Collaborative Literacy'
+    "correctAnswer": "A",
+    "explanation": "Malinformation takes true, private, or real information and weaponizes it out of context (e.g. private hacked emails or revenge pornography) to deliberately harm someone."
   },
   {
-    id: 39,
-    question: "In media evaluation, what does the CRAAP test acronym stand for?",
-    options: [
-      { key: 'A', text: 'Currency, Relevance, Authority, Accuracy, and Purpose' },
-      { key: 'B', text: 'Color, Resolution, Audio, Animation, and Print' },
-      { key: 'C', text: 'Computer, Router, Access, Adapter, and Password' },
-      { key: 'D', text: 'Classroom, Reading, Assignment, Assessment, and Points' }
+    "id": 39,
+    "topicRef": "Financial Literacy: Inflation",
+    "question": "What is 'Inflation' and how does it erode purchasing power over time?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A sustained general increase in price levels of goods and services, meaning a fixed amount of currency buys fewer goods over time."
+      },
+      {
+        "key": "B",
+        "text": "When bank accounts automatically double in cash value."
+      },
+      {
+        "key": "C",
+        "text": "A temporary discount at shopping malls."
+      },
+      {
+        "key": "D",
+        "text": "An increase in gold mining."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Developed by Sarah Blakeslee, the CRAAP test provides criteria (Currency, Relevance, Authority, Accuracy, Purpose) for evaluating information credibility.',
-    topicRef: '2.0 Information Literacy'
+    "correctAnswer": "A",
+    "explanation": "Inflation reduces real purchasing power over time. Financial literacy teaches individuals to invest in assets whose returns outpace the inflation rate."
   },
   {
-    id: 40,
-    question: "What is 'Cognitive Flexibility' in 21st-century problem solving?",
-    options: [
-      { key: 'A', text: 'The mental ability to switch between thinking about two different concepts and to adjust thinking to novel, changing situations' },
-      { key: 'B', text: 'Touching one\'s toes during physical education' },
-      { key: 'C', text: 'Memorizing fixed multiplication tables' },
-      { key: 'D', text: 'Refusing to change one\'s opinion under any circumstances' }
+    "id": 40,
+    "topicRef": "Financial Literacy: Diversification",
+    "question": "The time-tested investment adage 'Do not put all your eggs in one basket' refers to the risk-mitigation strategy of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Diversification (spreading capital across diverse asset classes such as stocks, bonds, real estate, and cash)"
+      },
+      {
+        "key": "B",
+        "text": "Speculative gambling"
+      },
+      {
+        "key": "C",
+        "text": "Pyramid schemes"
+      },
+      {
+        "key": "D",
+        "text": "Day trading on margin"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cognitive flexibility allows learners to adapt strategies in response to unexpected obstacles and fluid environmental demands.',
-    topicRef: '1.0 21st Century Cognitive Skills'
+    "correctAnswer": "A",
+    "explanation": "Diversification lowers investment portfolio risk by spreading capital across multiple uncorrelated asset categories."
   },
   {
-    id: 41,
-    question: "What is 'Social Inclusion' in educational settings?",
-    options: [
-      { key: 'A', text: 'The process of improving the terms on which individuals and groups participate in society, ensuring all students feel valued, respected, and supported regardless of identity' },
-      { key: 'B', text: 'Separating students by socioeconomic class' },
-      { key: 'C', text: 'Allowing only top honor students to join clubs' },
-      { key: 'D', text: 'Ignoring students with special needs' }
+    "id": 41,
+    "topicRef": "Financial Literacy: Ponzi / Pyramid Schemes",
+    "question": "A fraudulent investment scheme that promises unrealistically high, guaranteed returns with zero risk by paying existing investors with money collected from newer recruits is a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ponzi / Pyramid Scheme"
+      },
+      {
+        "key": "B",
+        "text": "Mutual Fund"
+      },
+      {
+        "key": "C",
+        "text": "Treasury Bond"
+      },
+      {
+        "key": "D",
+        "text": "Time Deposit"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Social inclusion actively dismantles discriminatory barriers so every learner has equal access to learning opportunities and dignity.',
-    topicRef: '1.0 Inclusive Literacy'
+    "correctAnswer": "A",
+    "explanation": "Ponzi and pyramid schemes collapse inevitably because they generate no legitimate underlying economic value, relying solely on cash inflows from continuous new recruits."
   },
   {
-    id: 42,
-    question: "What does 'Biomimicry' mean in creative innovation and eco-literacy?",
-    options: [
-      { key: 'A', text: 'The practice of learning from and mimicking nature\'s forms, processes, and ecosystems to solve complex human challenges (e.g., bullet trains modeled after kingfisher beaks)' },
-      { key: 'B', text: 'Dissecting frogs in a science laboratory' },
-      { key: 'C', text: 'Genetically cloning animals' },
-      { key: 'D', text: 'Cutting down forests for wood' }
+    "id": 42,
+    "topicRef": "Eco-Literacy: Circular Economy",
+    "question": "A 'Circular Economy' model replaces the traditional linear 'Take-Make-Dispose' industrial model with which sustainable loop?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Reduce, Reuse, Repair, Remanufacture, and Recycle (closed-loop zero waste)"
+      },
+      {
+        "key": "B",
+        "text": "Extract, Burn, and Dump"
+      },
+      {
+        "key": "C",
+        "text": "Produce, Consume, and Bury"
+      },
+      {
+        "key": "D",
+        "text": "Import, Package, and Litter"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Biomimicry (Janine Benyus) looks to natural selection\'s 3.8 billion years of R&D to engineer sustainable technological and architectural breakthroughs.',
-    topicRef: '4.0 Ecoliteracy & Innovation'
+    "correctAnswer": "A",
+    "explanation": "A Circular Economy designs out waste and pollution by keeping products and materials in high-value regenerative use indefinitely through closed loops."
   },
   {
-    id: 43,
-    question: "What is 'Active Listening' in interpersonal communication?",
-    options: [
-      { key: 'A', text: 'Fully concentrating, understanding, responding, and remembering what is being said rather than passively hearing while waiting to speak' },
-      { key: 'B', text: 'Interrupting the speaker every 10 seconds' },
-      { key: 'C', text: 'Nodding head while looking at a smartphone' },
-      { key: 'D', text: 'Pretending to listen while thinking about lunch' }
+    "id": 43,
+    "topicRef": "Eco-Literacy: Biodiversity Hotspots",
+    "question": "Why is the Philippines classified by global conservation biologists as a 'Megadiverse Biodiversity Hotspot'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It contains an exceptionally high concentration of unique endemic species found nowhere else on Earth, but is under severe threat of habitat destruction."
+      },
+      {
+        "key": "B",
+        "text": "It has no animal species."
+      },
+      {
+        "key": "C",
+        "text": "It is covered entirely in ice glaciers."
+      },
+      {
+        "key": "D",
+        "text": "It only has agricultural rice crops."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Active listening involves genuine presence, paraphrasing for clarity, observing body language, and providing empathetic validation.',
-    topicRef: '5.0 Social & Communication Literacy'
+    "correctAnswer": "A",
+    "explanation": "The Philippines is one of the world's 17 megadiverse nations, harboring extraordinary terrestrial and marine endemism while facing high extinction risks from deforestation and overfishing."
   },
   {
-    id: 44,
-    question: "What is 'Diversification' in investment and financial literacy?",
-    options: [
-      { key: 'A', text: 'Spreading investments across various asset classes and industries to minimize risk ("don\'t put all eggs in one basket")' },
-      { key: 'B', text: 'Putting 100% of money into a single speculative cryptocurrency' },
-      { key: 'C', text: 'Keeping all cash under a bedroom mattress' },
-      { key: 'D', text: 'Borrowing money from ten different friends' }
+    "id": 44,
+    "topicRef": "Social Literacy: Active Listening",
+    "question": "Which behavior exemplifies 'Active Listening' in collaborative communication?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maintaining eye contact, nodding, paraphrasing the speaker's key points to check understanding, and withholding premature judgment."
+      },
+      {
+        "key": "B",
+        "text": "Checking smartphone notifications while someone is speaking."
+      },
+      {
+        "key": "C",
+        "text": "Interrupting immediately to argue one's own viewpoint."
+      },
+      {
+        "key": "D",
+        "text": "Pretending to listen while thinking about lunch."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Diversification reduces portfolio volatility by balancing different assets that react differently to economic conditions.',
-    topicRef: '3.0 Financial Literacy'
+    "correctAnswer": "A",
+    "explanation": "Active listening requires full mental presence, non-verbal attentiveness, reflective clarifying, and empathetic validation before responding."
   },
   {
-    id: 45,
-    question: "What is 'Creative Fluency' versus 'Creative Flexibility' in Torrance Tests of Creative Thinking?",
-    options: [
-      { key: 'A', text: 'Fluency is the total number of ideas generated; Flexibility is the number of different categories or perspectives represented in those ideas' },
-      { key: 'B', text: 'Fluency means speaking Spanish; flexibility means doing gymnastics' },
-      { key: 'C', text: 'They are identical measurements' },
-      { key: 'D', text: 'Fluency is correctness; flexibility is speed' }
+    "id": 45,
+    "topicRef": "Emotional Literacy: Growth vs Fixed Mindset (Carol Dweck)",
+    "question": "A teacher with a 'Growth Mindset' believes that student intelligence and creative abilities:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Can be developed and expanded through effort, effective strategies, perseverance, and constructive feedback."
+      },
+      {
+        "key": "B",
+        "text": "Are completely fixed at birth and cannot be improved."
+      },
+      {
+        "key": "C",
+        "text": "Depend solely on genetic inheritance."
+      },
+      {
+        "key": "D",
+        "text": "Are determined by the student's horoscope."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'E. Paul Torrance measured creativity across: Fluency (sheer volume of ideas), Flexibility (variety of idea categories), Originality (novelty), and Elaboration (detail).',
-    topicRef: '6.0 Arts & Creativity Literacy'
+    "correctAnswer": "A",
+    "explanation": "Carol Dweck's Growth Mindset asserts that cognitive capabilities are malleable and grow like muscles through deliberate practice, resilience, and learning from mistakes."
   },
   {
-    id: 46,
-    question: "What is 'Two-Factor Authentication' (2FA) in cybersecurity?",
-    options: [
-      { key: 'A', text: 'A security process where a user provides two different authentication factors to verify identity (e.g., password + one-time SMS/authenticator app code)' },
-      { key: 'B', text: 'Typing the same password twice' },
-      { key: 'C', text: 'Having two people sit in front of the computer' },
-      { key: 'D', text: 'Using two different monitors' }
+    "id": 46,
+    "topicRef": "Financial Literacy: Time Value of Money (TVM)",
+    "question": "The 'Time Value of Money' principle states that a peso in hand today is worth more than a peso promised in the future because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Money earned today can be invested to earn interest and returns, whereas future money is subjected to the erosive power of inflation."
+      },
+      {
+        "key": "B",
+        "text": "Paper currency disintegrates in 24 hours."
+      },
+      {
+        "key": "C",
+        "text": "Banks refuse to accept old coins."
+      },
+      {
+        "key": "D",
+        "text": "Governments cancel currencies every month."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '2FA adds a critical second layer of defense (something you know + something you have) preventing unauthorized access even if passwords leak.',
-    topicRef: '2.0 Cyber Literacy'
+    "correctAnswer": "A",
+    "explanation": "Time Value of Money (TVM) recognizes that present money has earning potential (opportunity cost of interest) and preserves purchasing power against future inflation."
   },
   {
-    id: 47,
-    question: "What is 'Cultural Appropriation' versus 'Cultural Appreciation'?",
-    options: [
-      { key: 'A', text: 'Appropriation is adopting elements of a marginalized culture without understanding or respect for profit/aesthetic; Appreciation seeks genuine understanding, honors context, and credits the community' },
-      { key: 'B', text: 'They are identical concepts' },
-      { key: 'C', text: 'Appropriation is always legal; appreciation is illegal' },
-      { key: 'D', text: 'Appreciation requires buying real estate' }
+    "id": 47,
+    "topicRef": "Health & Wellness Literacy",
+    "question": "Health and Wellness Literacy in 21st-century education empowers learners to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Obtain, process, and understand basic health information to make informed decisions regarding nutrition, physical fitness, mental wellness, and preventive healthcare."
+      },
+      {
+        "key": "B",
+        "text": "Self-medicate with unverified online pills."
+      },
+      {
+        "key": "C",
+        "text": "Rely solely on folk superstition for medical diagnoses."
+      },
+      {
+        "key": "D",
+        "text": "Never visit a hospital."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cultural appreciation centers on mutual respect, learning, and acknowledgment, whereas appropriation exploits sacred traditions out of context.',
-    topicRef: '1.0 Multicultural Literacy'
+    "correctAnswer": "A",
+    "explanation": "Health literacy encompasses critical navigation of healthcare information, adopting nutritious lifestyles, recognizing mental health symptoms, and making sound health choices."
   },
   {
-    id: 48,
-    question: "In 21st-century literacies, what is 'Visual Literacy'?",
-    options: [
-      { key: 'A', text: 'The ability to interpret, negotiate, critically make meaning from, and create information presented in visual images, symbols, and graphic formats' },
-      { key: 'B', text: 'Having 20/20 eyesight prescription' },
-      { key: 'C', text: 'Wearing contact lenses' },
-      { key: 'D', text: 'Staring at a bright screen' }
+    "id": 48,
+    "topicRef": "Cybersecurity: Password Hygiene",
+    "question": "Which of the following is considered strong Password Hygiene for protecting digital educational portals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Using a long passphrase (12+ characters) combining uppercase, lowercase, numbers, and symbols, and using unique passwords for each account managed via a password manager."
+      },
+      {
+        "key": "B",
+        "text": "Using 'password123' for all personal and school accounts."
+      },
+      {
+        "key": "C",
+        "text": "Writing passwords on a sticky note attached to the computer monitor."
+      },
+      {
+        "key": "D",
+        "text": "Sharing your password with all your students."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Visual literacy enables learners to decode visual symbolism, analyze visual rhetoric, and compose effective visual communications.',
-    topicRef: '6.0 Visual & Arts Literacy'
+    "correctAnswer": "A",
+    "explanation": "Strong password hygiene involves using long, complex, unique passphrases for separate services, avoiding dictionary words, and enabling multi-factor authentication."
   },
   {
-    id: 49,
-    question: "What is 'Environmental Justice' in ecoliteracy?",
-    options: [
-      { key: 'A', text: 'The fair treatment and meaningful involvement of all people regardless of race, color, or income with respect to environmental laws, regulations, and hazard distributions' },
-      { key: 'B', text: 'Arresting animals that destroy plants' },
-      { key: 'C', text: 'Building parks only in wealthy private subdivisions' },
-      { key: 'D', text: 'Suing a weather forecaster for rain' }
+    "id": 49,
+    "topicRef": "Civic Literacy: Democratic Engagement",
+    "question": "Civic Literacy in a democratic society prepares students to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Understand government structures, exercise voting rights responsibly, participate in community civic dialogues, and hold public officials accountable."
+      },
+      {
+        "key": "B",
+        "text": "Sell their election votes for cash."
+      },
+      {
+        "key": "C",
+        "text": "Ignore community problems completely."
+      },
+      {
+        "key": "D",
+        "text": "Blindly obey political propaganda without critical inquiry."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Environmental justice highlights that low-income and marginalized communities often bear disproportionate burdens of pollution, toxic waste, and climate disasters.',
-    topicRef: '4.0 Ecoliteracy & Social Equity'
+    "correctAnswer": "A",
+    "explanation": "Civic literacy fosters informed, ethical citizenship, active participation in governance, advocacy for human rights, and critical civic duty."
   },
   {
-    id: 50,
-    question: "Why are the 'New Literacies' integrated across the school curriculum rather than isolated into a single separate subject?",
-    options: [
-      { key: 'A', text: 'Because 21st-century competencies are dynamic, interconnected transversal skills that apply across all disciplines and authentic life situations' },
-      { key: 'B', text: 'To eliminate all traditional subjects' },
-      { key: 'C', text: 'Because teachers have nothing else to teach' },
-      { key: 'D', text: 'To confuse students' }
+    "id": 50,
+    "topicRef": "Ethical Literacy: Integrity & Plagiarism",
+    "question": "Copying text verbatim from an online article and submitting it as one's own academic work without quotation marks or proper source citation constitutes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Plagiarism (Intellectual Dishonesty)"
+      },
+      {
+        "key": "B",
+        "text": "Creative Paraphrasing"
+      },
+      {
+        "key": "C",
+        "text": "Open Access Collaboration"
+      },
+      {
+        "key": "D",
+        "text": "Fair Use Compliance"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '21st-century literacies (financial, digital, ecological, multicultural) are cross-cutting life skills that enrich all subject areas when integrated holistically.',
-    topicRef: '1.0 Curriculum Integration of New Literacies'
+    "correctAnswer": "A",
+    "explanation": "Plagiarism is the appropriation and unauthorized claiming of another person's words, ideas, or intellectual products as one's own without appropriate attribution."
+  },
+  {
+    "id": 51,
+    "topicRef": "Multicultural Literacy: Ethnocentrism vs Xenocentrism",
+    "question": "A person who believes that foreign Western imported goods and cultures are inherently superior to Philippine indigenous culture exhibits:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Xenocentrism"
+      },
+      {
+        "key": "B",
+        "text": "Ethnocentrism"
+      },
+      {
+        "key": "C",
+        "text": "Cultural Relativism"
+      },
+      {
+        "key": "D",
+        "text": "Cultural Nationalism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Xenocentrism is the belief that other cultures and foreign products are superior to one's own (colonial mentality), whereas Ethnocentrism judges other cultures as inferior to one's own."
+  },
+  {
+    "id": 52,
+    "topicRef": "Cultural Relativism",
+    "question": "Cultural Relativism in multicultural education teaches that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A culture's beliefs, values, and practices should be understood based on that culture's own context and standards rather than judged through the lens of an external culture."
+      },
+      {
+        "key": "B",
+        "text": "All cultures must be eradicated."
+      },
+      {
+        "key": "C",
+        "text": "One culture has the right to conquer all others."
+      },
+      {
+        "key": "D",
+        "text": "Cultures never change over time."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cultural Relativism promotes objective cultural understanding without ethnocentric prejudice, respecting diverse cultural traditions within their own historical contexts."
+  },
+  {
+    "id": 53,
+    "topicRef": "Eco-Literacy: Water Footprint",
+    "question": "What is an individual's 'Water Footprint'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The total volume of freshwater consumed directly (drinking, bathing) and indirectly (water required to produce food, clothing, and energy consumed)."
+      },
+      {
+        "key": "B",
+        "text": "The depth of a swimming pool."
+      },
+      {
+        "key": "C",
+        "text": "The sound of rain falling on a roof."
+      },
+      {
+        "key": "D",
+        "text": "The number of water bottles owned."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Water Footprint calculates the total direct and indirect (virtual water embedded in agricultural and industrial supply chains) freshwater used by an individual or nation."
+  },
+  {
+    "id": 54,
+    "topicRef": "Financial Literacy: Net Worth Calculation",
+    "question": "How is an individual's Personal Net Worth mathematically calculated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Total Assets minus Total Liabilities ((\\text{Net Worth} = \\text{Assets} - \\text{Liabilities}))"
+      },
+      {
+        "key": "B",
+        "text": "Monthly Salary multiplied by 12"
+      },
+      {
+        "key": "C",
+        "text": "Total Credit Card Limit"
+      },
+      {
+        "key": "D",
+        "text": "Bank loan balance plus car price"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Net worth is the fundamental snapshot of financial health: the total value of everything you own (assets) minus what you owe to creditors (liabilities)."
+  },
+  {
+    "id": 55,
+    "topicRef": "Critical Literacy: Deconstructing Power",
+    "question": "Paulo Freire's Critical Literacy (*Pedagogy of the Oppressed*) encourages learners to 'read both the word and the world' in order to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Critically interrogate systemic injustices, recognize oppressive power structures, and take transformative action for human liberation."
+      },
+      {
+        "key": "B",
+        "text": "Memorize grammar rules without questioning text meaning."
+      },
+      {
+        "key": "C",
+        "text": "Passive acceptance of political oppression."
+      },
+      {
+        "key": "D",
+        "text": "Score high on spelling bees."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Critical literacy goes beyond basic decoding to examine whose voices are privileged or silenced in texts, empowering learners to act as agents of justice (*praxis*)."
+  },
+  {
+    "id": 56,
+    "topicRef": "Creativity: SCAMPER Technique",
+    "question": "In Alex Osborn and Bob Eberle's SCAMPER creative thinking tool, what does the letter 'C' represent?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Combine (blend two ideas or products together)"
+      },
+      {
+        "key": "B",
+        "text": "Copy"
+      },
+      {
+        "key": "C",
+        "text": "Calculate"
+      },
+      {
+        "key": "D",
+        "text": "Cancel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "SCAMPER is an idea-generation mnemonic: Substitute, Combine, Adapt, Modify/Magnify, Put to another use, Eliminate, and Reverse/Rearrange."
+  },
+  {
+    "id": 57,
+    "topicRef": "Media Literacy: Confirmation Bias",
+    "question": "The psychological tendency for individuals to seek out, interpret, and remember information in a way that confirms their pre-existing beliefs while ignoring contrary evidence is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Confirmation Bias"
+      },
+      {
+        "key": "B",
+        "text": "Critical Thinking"
+      },
+      {
+        "key": "C",
+        "text": "Neutral Objectivity"
+      },
+      {
+        "key": "D",
+        "text": "Scientific Skepticism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Confirmation bias leads people to embrace information supporting their preconceived notions while dismissing rigorous facts that contradict them."
+  },
+  {
+    "id": 58,
+    "topicRef": "Eco-Literacy: Renewable vs Non-Renewable Energy",
+    "question": "Which of the following energy sources is classified as 'Clean Renewable Energy'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Solar, Wind, Geothermal, and Hydroelectric power"
+      },
+      {
+        "key": "B",
+        "text": "Coal"
+      },
+      {
+        "key": "C",
+        "text": "Petroleum Crude Oil"
+      },
+      {
+        "key": "D",
+        "text": "Diesel Fuel"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Renewable energy harnesses naturally replenished resources (sun, wind, geothermal heat, water currents) with near-zero greenhouse gas emissions."
+  },
+  {
+    "id": 59,
+    "topicRef": "Financial Literacy: Stocks vs Bonds",
+    "question": "What is the fundamental difference between owning a 'Stock' and owning a 'Bond'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A stock represents equity ownership in a corporation; a bond is a debt instrument where the investor acts as a lender earning fixed interest."
+      },
+      {
+        "key": "B",
+        "text": "A stock is guaranteed to never lose value; a bond is always a scam."
+      },
+      {
+        "key": "C",
+        "text": "Stocks are only sold by the government."
+      },
+      {
+        "key": "D",
+        "text": "Bonds are printed on silver paper."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stocks represent shares of equity ownership in a company, whereas Bonds are fixed-income loans made by an investor to a corporate or government borrower."
+  },
+  {
+    "id": 60,
+    "topicRef": "Financial Literacy: Mutual Funds & UITFs",
+    "question": "What is the primary benefit of investing in Mutual Funds or Unit Investment Trust Funds (UITFs) for beginning teachers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Professional fund management and automatic diversification across hundreds of securities with modest starting capital."
+      },
+      {
+        "key": "B",
+        "text": "Guaranteed 100% profit within 24 hours."
+      },
+      {
+        "key": "C",
+        "text": "Exemption from paying any electricity bills."
+      },
+      {
+        "key": "D",
+        "text": "Free airline tickets."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Mutual funds pool money from many investors to buy a professionally managed, diversified portfolio of stocks and bonds, mitigating risk for retail investors."
+  },
+  {
+    "id": 61,
+    "topicRef": "Social Literacy: Bullying vs Teasing",
+    "question": "In school psychology, what distinguishes 'Bullying' from playful mutual teasing among peers?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Bullying involves an intentional, repetitive imbalance of physical or psychological power designed to harm and intimidate the victim."
+      },
+      {
+        "key": "B",
+        "text": "Teasing only occurs during recess."
+      },
+      {
+        "key": "C",
+        "text": "Bullying involves equal friendship and mutual laughter."
+      },
+      {
+        "key": "D",
+        "text": "There is no difference."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Bullying is defined by three criteria: 1. Intentional harm, 2. Power imbalance (physical, social, or emotional), and 3. Repetition over time."
+  },
+  {
+    "id": 62,
+    "topicRef": "Emotional Literacy: Self-Regulation",
+    "question": "A teacher who feels frustrated by a misbehaving student, pauses, takes a deep breath, and responds calmly and firmly rather than exploding in anger demonstrates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Self-Regulation (Emotional Impulse Control)"
+      },
+      {
+        "key": "B",
+        "text": "Emotional Repression"
+      },
+      {
+        "key": "C",
+        "text": "Lack of Authority"
+      },
+      {
+        "key": "D",
+        "text": "Passive Indifference"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Self-regulation (Goleman) is the ability to manage disruptive emotions, stay composed under pressure, and think before acting."
+  },
+  {
+    "id": 63,
+    "topicRef": "Multicultural Literacy: Culturally Responsive Teaching (Gay)",
+    "question": "Geneva Gay's 'Culturally Responsive Teaching' framework emphasizes that teachers must:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Use the cultural knowledge, prior experiences, and performance styles of diverse students to make learning encounters more relevant and effective."
+      },
+      {
+        "key": "B",
+        "text": "Ignore students' cultural backgrounds and treat everyone as identical robots."
+      },
+      {
+        "key": "C",
+        "text": "Teach only in a foreign language."
+      },
+      {
+        "key": "D",
+        "text": "Segregate classrooms by tribe."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Culturally Responsive Teaching connects curriculum content to students' cultural frames of reference, validating their cultural identity to boost achievement."
+  },
+  {
+    "id": 64,
+    "topicRef": "Global Competence: UN Sustainable Development Goals",
+    "question": "Why should 21st-century teachers integrate the 17 UN SDGs into lesson plans across various disciplines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To connect classroom concepts to authentic, urgent global challenges (poverty, climate change, clean water, clean energy, peace) and inspire local civic action."
+      },
+      {
+        "key": "B",
+        "text": "Because the UN pays students a cash allowance."
+      },
+      {
+        "key": "C",
+        "text": "To replace all national history lessons."
+      },
+      {
+        "key": "D",
+        "text": "Because math cannot be taught without politics."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Integrating SDGs bridges academic theory with real-world global challenges, developing civic agency, empathy, and global problem-solving competencies."
+  },
+  {
+    "id": 65,
+    "topicRef": "Eco-Literacy: Urban Gardening in Schools (Gulayan sa Paaralan)",
+    "question": "DepEd's 'Gulayan sa Paaralan Program' (GPP) promotes eco-literacy and food security primarily by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Engaging students in organic vegetable gardening on school grounds to supplement feeding programs and teach hands-on agricultural sustainability."
+      },
+      {
+        "key": "B",
+        "text": "Buying fast food burgers for students."
+      },
+      {
+        "key": "C",
+        "text": "Selling school land to commercial developers."
+      },
+      {
+        "key": "D",
+        "text": "Replacing science classes with cooking shows."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gulayan sa Paaralan provides hands-on agro-ecological literacy, addresses malnutrition via school-grown organic crops, and builds environmental responsibility."
+  },
+  {
+    "id": 66,
+    "topicRef": "Financial Literacy: Credit Card Interest Calculation",
+    "question": "Why is paying only the 'Minimum Amount Due' on credit card statements each month a dangerous financial pitfall?",
+    "options": [
+      {
+        "key": "A",
+        "text": "High compound interest charges continue to accumulate on the remaining principal balance, trapping the borrower in decades of debt."
+      },
+      {
+        "key": "B",
+        "text": "The bank will confiscate your house immediately."
+      },
+      {
+        "key": "C",
+        "text": "It improves your credit score faster than paying in full."
+      },
+      {
+        "key": "D",
+        "text": "Credit cards automatically cancel after one month."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Paying only the minimum leaves the vast majority of debt subject to hefty compounding interest rates (often 36%+ annually), prolonging debt repayment indefinitely."
+  },
+  {
+    "id": 67,
+    "topicRef": "Information Literacy: Lateral Reading (Wineburg)",
+    "question": "Stanford researcher Sam Wineburg found that professional fact-checkers evaluate online news credibility through 'Lateral Reading', which means:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Opening new browser tabs to search what independent, reputable third-party sources say about the author or organization before trusting their website."
+      },
+      {
+        "key": "B",
+        "text": "Reading a single webpage from top to bottom without leaving the page."
+      },
+      {
+        "key": "C",
+        "text": "Reading text sideways with the monitor tilted."
+      },
+      {
+        "key": "D",
+        "text": "Looking only at the font size of the title."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Lateral reading leaves the unfamiliar site immediately to search external corroborating sources across multiple tabs to verify credibility, authority, and bias."
+  },
+  {
+    "id": 68,
+    "topicRef": "Visual Literacy: Semiotics",
+    "question": "In visual media literacy, 'Semiotics' is the study of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Signs, symbols, and visual codes, and how they construct meaning and convey cultural messages."
+      },
+      {
+        "key": "B",
+        "text": "The physical weight of paper."
+      },
+      {
+        "key": "C",
+        "text": "The speed of light in lenses."
+      },
+      {
+        "key": "D",
+        "text": "The cost of digital cameras."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Semiotics (Ferdinand de Saussure, Charles Sanders Peirce) explores how signifiers (visual symbols, gestures, colors) produce signified meanings within cultural frameworks."
+  },
+  {
+    "id": 69,
+    "topicRef": "Financial Literacy: S.M.A.R.T. Financial Goals",
+    "question": "Which of the following is a properly formulated S.M.A.R.T. financial goal for a beginning teacher?",
+    "options": [
+      {
+        "key": "A",
+        "text": "'Save ₱5,000 every month from my salary into a high-yield savings account for 12 months to accumulate a ₱60,000 emergency fund by December 2027.'"
+      },
+      {
+        "key": "B",
+        "text": "'Become rich someday.'"
+      },
+      {
+        "key": "C",
+        "text": "'Buy a luxury car without saving any money.'"
+      },
+      {
+        "key": "D",
+        "text": "'Win the lottery next week.'"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A SMART goal is Specific (save ₱5k/month), Measurable (₱60k), Attainable, Relevant (emergency fund), and Time-bound (by Dec 2027)."
+  },
+  {
+    "id": 70,
+    "topicRef": "Eco-Literacy: The 7 Principles of Ecology (Barry Commoner)",
+    "question": "Barry Commoner's famous First Law of Ecology states that 'Everything is connected to everything else'. In curriculum, this principle demonstrates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Systemic Interdependence: An action in one part of an environmental, social, or economic system triggers ripple effects across the entire biosphere."
+      },
+      {
+        "key": "B",
+        "text": "That science subjects should never be taught."
+      },
+      {
+        "key": "C",
+        "text": "That human technology can destroy nature without consequences."
+      },
+      {
+        "key": "D",
+        "text": "That species live in total isolation."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Commoner's laws (Everything is connected, goes somewhere, nature knows best, no free lunch) underscore ecological interconnectedness and systemic balance."
+  },
+  {
+    "id": 71,
+    "topicRef": "Social-Emotional Learning (CASEL 5 Competencies)",
+    "question": "The Collaborative for Academic, Social, and Emotional Learning (CASEL) identifies which 5 core SEL competencies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making"
+      },
+      {
+        "key": "B",
+        "text": "Reading, Writing, Arithmetic, Art, and Athletics"
+      },
+      {
+        "key": "C",
+        "text": "Testing, Grading, Ranking, Lecturing, and Disciplining"
+      },
+      {
+        "key": "D",
+        "text": "Grammar, Spelling, Pronunciation, Punctuation, and Penmanship"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CASEL's framework is structured on 5 competencies: Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making."
+  },
+  {
+    "id": 72,
+    "topicRef": "Financial Literacy: Health Maintenance Organization (HMO)",
+    "question": "What is the primary role of an HMO (Health Maintenance Organization) / PhilHealth coverage in a personal financial plan?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Protecting personal savings and investments from being wiped out by sudden catastrophic hospitalization and medical expenses."
+      },
+      {
+        "key": "B",
+        "text": "Providing luxury vacation travel discounts."
+      },
+      {
+        "key": "C",
+        "text": "Acting as a high-risk stock trading account."
+      },
+      {
+        "key": "D",
+        "text": "Paying your monthly electricity bills."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Health insurance and HMOs act as risk-transfer shields, absorbing medical and hospitalization bills so family savings and investment portfolios remain protected."
+  },
+  {
+    "id": 73,
+    "topicRef": "Cybersecurity: Social Engineering Defense",
+    "question": "What is the most effective defense against Social Engineering scams (vishing, smishing, pretexting)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Healthy skepticism: Never disclose OTPs, PINs, or sensitive information over unsolicited phone calls or SMS, and independently verify callers via official hotlines."
+      },
+      {
+        "key": "B",
+        "text": "Immediately giving callers your bank password when they say they are bank managers."
+      },
+      {
+        "key": "C",
+        "text": "Throwing away your smartphone."
+      },
+      {
+        "key": "D",
+        "text": "Clicking every text link offering free cash prizes."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Social engineering targets human psychology; critical awareness, skepticism, verifying through official channels, and never sharing OTPs/passwords are the primary defenses."
+  },
+  {
+    "id": 74,
+    "topicRef": "Arts Literacy: Creative Problem-Solving (Osborn-Parnes CPS)",
+    "question": "In the Osborn-Parnes Creative Problem Solving (CPS) model, why do divergent and convergent thinking alternate in pairs across every stage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Divergence opens up a broad pool of creative possibilities without judgment, while Convergence selects and refines the most promising ideas."
+      },
+      {
+        "key": "B",
+        "text": "Because students get bored doing only one thing."
+      },
+      {
+        "key": "C",
+        "text": "To confuse the team."
+      },
+      {
+        "key": "D",
+        "text": "To ensure that all projects take at least ten years to complete."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "CPS balances creative expansion (divergent generation of wild ideas without evaluation) followed by analytical narrowing (convergent evaluation and selection)."
+  },
+  {
+    "id": 75,
+    "topicRef": "Holistic 21st-Century Literacy Integration",
+    "question": "A teacher tasks students with creating a multimedia campaign on climate resilience: students budget a micro-grant, verify scientific climate data, produce an infographic, and present solutions to local government leaders. This capstone project integrates which 21st-century literacies?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Eco-Literacy, Financial Literacy, Media & Digital Literacy, Visual Literacy, and Civic/Social Literacy"
+      },
+      {
+        "key": "B",
+        "text": "Rote Spelling only"
+      },
+      {
+        "key": "C",
+        "text": "Physical Education only"
+      },
+      {
+        "key": "D",
+        "text": "Ancient Latin Translation only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This authentic multidisciplinary capstone seamlessly combines ecological knowledge, financial budgeting, digital media creation, visual design, and civic engagement."
   }
 ];

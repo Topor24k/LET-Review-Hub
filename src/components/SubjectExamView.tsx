@@ -112,7 +112,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
     }
   }, [subject.id, questions, currentQuestionIndex, userAnswers, isSubmitted]);
 
-  const totalQuestions = questions.length || 50;
+  const totalQuestions = questions.length || 75;
   const currentQ = questions[currentQuestionIndex];
   const currentQuestionNumber = currentQuestionIndex + 1;
 
@@ -556,7 +556,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
             <div className="px-6 sm:px-8 py-3 flex justify-between items-center border-b border-slate-100">
               <span className="text-xs sm:text-sm text-slate-500 font-medium flex items-center gap-1.5">
                 <Flame className="w-4 h-4 text-amber-700" />
-                50-Item Comprehensive LET Drill • Unlimited Tries
+                {totalQuestions}-Item Comprehensive LET Drill • Unlimited Tries
               </span>
               <span className="text-xs sm:text-sm font-bold text-slate-800 tracking-wide">
                 {remainingCount} <span className="font-normal text-slate-500">OF {totalQuestions} QUESTIONS REMAINING</span>
@@ -1177,7 +1177,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                     <CheckCircle2 className="w-3.5 h-3.5 text-amber-700" />
                   </div>
                   <div className="mt-2 font-serif text-2xl font-bold text-amber-950">
-                    {stats.bestScore ? `${stats.bestScore.score} / 50` : '—'}
+                    {stats.bestScore ? `${stats.bestScore.score} / ${stats.bestScore.totalQuestions || totalQuestions}` : '—'}
                   </div>
                   <p className="text-[11px] text-amber-800 mt-0.5">
                     {stats.bestScore ? `${stats.bestScore.percentage}% accuracy` : 'No attempts yet'}
@@ -1202,7 +1202,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                   <p className="text-[11px] text-slate-500 mt-0.5">
                     {stats.passedAttempts > 0 
                       ? `${stats.passedAttempts} of ${stats.totalAttempts} tries ≥ 75%` 
-                      : 'Target: 38/50 (75%)'}
+                      : `Target: ${Math.ceil(totalQuestions * 0.75)}/${totalQuestions} (75%)`}
                   </p>
                 </div>
 
@@ -1223,7 +1223,7 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                 {getSubjectExamHistory(subject.id).length === 0 ? (
                   <div className="bg-slate-50 border border-slate-200/80 rounded-xl p-6 text-center text-xs text-slate-500 space-y-1">
                     <p className="font-semibold text-slate-700">No previous attempts recorded yet.</p>
-                    <p>When you complete the 50-item exam, your score and answers will be saved here so you can track your progress over time.</p>
+                    <p>When you complete the {totalQuestions}-item exam, your score and answers will be saved here so you can track your progress over time.</p>
                   </div>
                 ) : (
                   <div className="space-y-2.5 max-h-72 overflow-y-auto pr-1">

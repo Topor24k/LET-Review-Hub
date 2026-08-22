@@ -2,653 +2,1878 @@ import { ExamQuestion } from '../../types';
 
 export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
   {
-    id: 1,
-    question: "What is the full baptismal name of the Philippine National Hero, Dr. Jose Rizal?",
-    options: [
-      { key: 'A', text: 'Jose Protacio Rizal Mercado y Alonso Realonda' },
-      { key: 'B', text: 'Jose Maria Rizal y Mercado' },
-      { key: 'C', text: 'Jose Antonio Mercado y Realonda' },
-      { key: 'D', text: 'Jose Paciano Rizal Alonso' }
+    "id": 1,
+    "topicRef": "The Rizal Law: Republic Act No. 1425",
+    "question": "Republic Act No. 1425 (The Rizal Law), authored by Senator Claro M. Recto and sponsored by Senator Jose P. Laurel in 1956, mandates that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Courses on the life, works, and writings of Jose Rizal, particularly his unexpurgated novels Noli Me Tangere and El Filibusterismo, be included in the curricula of all public and private schools, colleges, and universities."
+      },
+      {
+        "key": "B",
+        "text": "All students must memorize Spanish poems."
+      },
+      {
+        "key": "C",
+        "text": "Jose Rizal be proclaimed as a religious saint."
+      },
+      {
+        "key": "D",
+        "text": "Private Catholic universities be closed."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Jose Protacio Rizal Mercado y Alonso Realonda was born on June 19, 1861, in Calamba, Laguna.',
-    topicRef: '1.0 Rizal\'s Full Name and Birth'
+    "correctAnswer": "A",
+    "explanation": "RA 1425 mandates the compulsory study of Jose Rizal's life and unexpurgated novels in all Philippine educational institutions to foster patriotism and civic ideals."
   },
   {
-    id: 2,
-    question: "What is Republic Act No. 1425, famously known as the 'Rizal Law', authored by Senator Claro M. Recto and signed in 1956?",
-    options: [
-      { key: 'A', text: 'An act mandating the inclusion of courses on the life, works, and writings of Jose Rizal, particularly his novels Noli Me Tangere and El Filibusterismo, in all public and private school, college, and university curricula' },
-      { key: 'B', text: 'An act declaring Rizal\'s birthday a nationwide public holiday' },
-      { key: 'C', text: 'A law ordering the construction of Rizal monuments in every town plaza' },
-      { key: 'D', text: 'A law naming the province of Rizal after the hero' }
+    "id": 2,
+    "topicRef": "Rizal's Early Life: Birth and Ancestry",
+    "question": "Jose Protacio Rizal Mercado y Alonso Realonda was born on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "June 19, 1861 in Calamba, Laguna"
+      },
+      {
+        "key": "B",
+        "text": "December 30, 1896 in Bagumbayan"
+      },
+      {
+        "key": "C",
+        "text": "June 12, 1898 in Kawit"
+      },
+      {
+        "key": "D",
+        "text": "July 7, 1892 in Tondo"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'RA 1425 (sponsored by Jose P. Laurel and authored by Claro M. Recto) aims to rekindle patriotism and civic virtues in Filipino youth through Rizal\'s ideals.',
-    topicRef: '1.0 RA 1425: The Rizal Law'
+    "correctAnswer": "A",
+    "explanation": "Rizal was born on June 19, 1861 in Calamba, Laguna, to Francisco Mercado and Teodora Alonso Realonda, the 7th of eleven children."
   },
   {
-    id: 3,
-    question: "Who was Jose Rizal\'s mother and first teacher who taught him the alphabet and read him the fable of the 'Young Moth'?",
-    options: [
-      { key: 'A', text: 'Teodora Alonso Realonda' },
-      { key: 'B', text: 'Saturnina Mercado' },
-      { key: 'C', text: 'Narcisa Alonso' },
-      { key: 'D', text: 'Concepcion Rizal' }
+    "id": 3,
+    "topicRef": "Rizal's First Teacher: Teodora Alonso",
+    "question": "Who was Jose Rizal's first teacher who taught him the alphabet, prayers, and read him the transformative fable of 'The Story of the Moth'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "His mother, Doña Teodora Alonso Realonda"
+      },
+      {
+        "key": "B",
+        "text": "Maestro Celestino"
+      },
+      {
+        "key": "C",
+        "text": "Father Francisco de Paula Sanchez"
+      },
+      {
+        "key": "D",
+        "text": "Justiniano Aquino Cruz"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Doña Teodora Alonso was an educated, cultured woman who nurtured young Pepe\'s literary and moral sensitivities.',
-    topicRef: '1.0 Early Childhood: Teodora Alonso'
+    "correctAnswer": "A",
+    "explanation": "Doña Teodora Alonso was Rizal's first patient and cultured teacher, nurturing his early love for literature through the poignant parable of the moth."
   },
   {
-    id: 4,
-    question: "Who was Jose Rizal\'s only older brother who supported his education in Europe and became a general in the Philippine Revolutionary Army?",
-    options: [
-      { key: 'A', text: 'Paciano Rizal Mercado' },
-      { key: 'B', text: 'Mariano Mercado' },
-      { key: 'C', text: 'Manuel Alonso' },
-      { key: 'D', text: 'Francisco Mercado' }
+    "id": 4,
+    "topicRef": "Noli Me Tangere: Publication & Savior",
+    "question": "Jose Rizal's first masterpiece novel 'Noli Me Tangere' was published in Berlin, Germany in March 1887 through the crucial financial assistance of his generous friend:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dr. Maximo Viola (The Savior of the Noli)"
+      },
+      {
+        "key": "B",
+        "text": "Valentin Ventura (Savior of El Fili)"
+      },
+      {
+        "key": "C",
+        "text": "Ferdinand Blumentritt"
+      },
+      {
+        "key": "D",
+        "text": "Juan Luna"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Paciano acted as Jose\'s guardian, mentor, and financial benefactor in Europe; he later joined Emilio Aguinaldo\'s revolutionary forces.',
-    topicRef: '1.0 Rizal Family: Paciano'
+    "correctAnswer": "A",
+    "explanation": "Dr. Maximo Viola loaned Rizal ₱300 to print the first 2,000 copies of *Noli Me Tangere* in Berlin (1887) when Rizal was living in extreme poverty."
   },
   {
-    id: 5,
-    question: "What was the tragic story told by Doña Teodora to young Pepe that left a profound imprint on his destiny regarding sacrificing one\'s life for a noble flame?",
-    options: [
-      { key: 'A', text: 'The Parable of the Moth and the Flame (Ang Munting Gamu-gamo)' },
-      { key: 'B', text: 'The Tortoise and the Monkey' },
-      { key: 'C', text: 'The Legend of Maria Makiling' },
-      { key: 'D', text: 'The Ant and the Grasshopper' }
+    "id": 5,
+    "topicRef": "Noli Me Tangere: Meaning of the Title",
+    "question": "The Latin title 'Noli Me Tangere' is a biblical phrase from the Gospel of St. John (20:17) which translates into English as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "'Touch Me Not' (referring to exposing the social cancer of colonial society that was too sensitive to be touched)"
+      },
+      {
+        "key": "B",
+        "text": "'The Reign of Greed'"
+      },
+      {
+        "key": "C",
+        "text": "'The Subversive'"
+      },
+      {
+        "key": "D",
+        "text": "'The Revolution'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The young moth\'s fatal attraction to the flame became a poignant metaphor for Rizal\'s willing martyrdom for the illumination and freedom of his motherland.',
-    topicRef: '1.0 Story of the Moth'
+    "correctAnswer": "A",
+    "explanation": "*Noli Me Tangere* means 'Touch Me Not'. Rizal used this metaphor to diagnose the malignant 'social cancer' corrupting Philippine society."
   },
   {
-    id: 6,
-    question: "At what age and in what year did Rizal reportedly write his first Tagalog poem 'Sa Aking Mga Kabata' celebrating love for one\'s native language?",
-    options: [
-      { key: 'A', text: 'At age 8 (1869) containing the famous line \'Ang hindi magmahal sa sariling wika, daig pa ang hayop at malansang isda\'' },
-      { key: 'B', text: 'At age 15 in Ateneo' },
-      { key: 'C', text: 'At age 21 in Madrid' },
-      { key: 'D', text: 'At age 35 in Fort Santiago' }
+    "id": 6,
+    "topicRef": "El Filibusterismo: Publication & Dedication",
+    "question": "Jose Rizal published his darker, political second novel 'El Filibusterismo' in Ghent, Belgium in September 1891 (funded by Valentin Ventura) and dedicated it to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The three martyred priests: Fathers Mariano Gomez, Jose Burgos, and Jacinto Zamora (GOMBURZA)"
+      },
+      {
+        "key": "B",
+        "text": "The Spanish Governor-General"
+      },
+      {
+        "key": "C",
+        "text": "Leonor Rivera"
+      },
+      {
+        "key": "D",
+        "text": "The Katipunan"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Traditionally attributed to young Rizal at age 8 in Calamba, emphasizing love and development of the mother tongue.',
-    topicRef: '1.0 Early Literary Works: Sa Aking Mga Kabata'
+    "correctAnswer": "A",
+    "explanation": "Rizal solemnly dedicated *El Filibusterismo* to the memory of GOMBURZA, whose 1872 execution exposed the brutality and injustice of Spanish colonial rule."
   },
   {
-    id: 7,
-    question: "Which Jesuit institution in Manila did Rizal attend from 1872 to 1877, graduating with highest honors (Sobresaliente) and receiving the degree of Bachelor of Arts?",
-    options: [
-      { key: 'A', text: 'Ateneo Municipal de Manila' },
-      { key: 'B', text: 'Colegio de San Juan de Letran' },
-      { key: 'C', text: 'University of Santo Tomas' },
-      { key: 'D', text: 'Universidad Central de Madrid' }
+    "id": 7,
+    "topicRef": "Noli vs El Fili: Contrast in Character (Ibarra vs Simoun)",
+    "question": "How does Crisostomo Ibarra in 'Noli Me Tangere' fundamentally differ from his alter-ego Simoun in 'El Filibusterismo'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Ibarra is an idealistic, peaceful reformist believing in education; Simoun is a cynical, vengeful revolutionist disguised as a wealthy jeweler plotting violent armed insurrection."
+      },
+      {
+        "key": "B",
+        "text": "Simoun is a Catholic friar while Ibarra is a soldier."
+      },
+      {
+        "key": "C",
+        "text": "Ibarra is a rebel while Simoun is a pacifist."
+      },
+      {
+        "key": "D",
+        "text": "They are two completely unrelated historical figures."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal excelled at Ateneo under the Jesuit educational system (divided into Roman Empire and Carthaginian Empire), earning straight excellent marks.',
-    topicRef: '2.0 Education at Ateneo Municipal'
+    "correctAnswer": "A",
+    "explanation": "Ibarra represents peaceful reform through education; after betrayal and exile, he returns 13 years later as the bitter, Machiavellian jeweler Simoun seeking systemic destruction."
   },
   {
-    id: 8,
-    question: "What prize-winning poem did Rizal write at age 18 in 1879 at the University of Santo Tomas, hailing the Filipino youth as the 'Fair Hope of My Fatherland' (Bella esperanza de la patria mia)?",
-    options: [
-      { key: 'A', text: 'A La Juventud Filipina (To the Filipino Youth)' },
-      { key: 'B', text: 'El Consejo de los Dioses' },
-      { key: 'C', text: 'Mi Ultimo Adios' },
-      { key: 'D', text: 'Himno al Trabajo' }
+    "id": 8,
+    "topicRef": "El Filibusterismo: The Death of Simoun (Padre Florentino's Message)",
+    "question": "At the climax of 'El Filibusterismo', as the dying Simoun confesses his failed revolution, the wise Filipino secular priest Padre Florentino delivers Rizal's core philosophical message:",
+    "options": [
+      {
+        "key": "A",
+        "text": "'Glory to save a country is not given to him who has contributed to its ruin... Hate never produces anything but monsters, and crime produces criminals; only Love and Virtue can save our motherland!'"
+      },
+      {
+        "key": "B",
+        "text": "'Violence and murder are the only ways to gain freedom.'"
+      },
+      {
+        "key": "C",
+        "text": "'Filipinos should remain Spanish slaves forever.'"
+      },
+      {
+        "key": "D",
+        "text": "'Wealth is more important than moral character.'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'A La Juventud Filipina was a groundbreaking literary piece explicitly calling native Filipinos the youth and hope of their own motherland, rather than Spain.',
-    topicRef: '2.0 Literary Works: A La Juventud Filipina'
+    "correctAnswer": "A",
+    "explanation": "Padre Florentino's monologue proclaims that genuine national redemption requires moral integrity, education, and civic virtue (*Love and Sacrifice*), not corrupt bloodshed."
   },
   {
-    id: 9,
-    question: "Why did Rizal secretly depart the Philippines for Spain in May 1882 aboard the steamer SS Salvadora?",
-    options: [
-      { key: 'A', text: 'To complete his medical studies, specialize in ophthalmology to cure his mother\'s failing eyesight, and observe European life and politics to prepare for national advocacy' },
-      { key: 'B', text: 'To join the Spanish Navy' },
-      { key: 'C', text: 'To escape a criminal conviction' },
-      { key: 'D', text: 'To marry a European princess' }
+    "id": 9,
+    "topicRef": "La Liga Filipina (July 3, 1892)",
+    "question": "Upon his return to Manila, Jose Rizal founded the civic society 'La Liga Filipina' on July 3, 1892 at the house of Doroteo Ongjunco in Tondo, with which primary motto?",
+    "options": [
+      {
+        "key": "A",
+        "text": "'Unus Instar Omnium' (One Like All / One for All) — promoting mutual protection, economic cooperatives, and national unity."
+      },
+      {
+        "key": "B",
+        "text": "'Death to Spain'"
+      },
+      {
+        "key": "C",
+        "text": "'Armed Revolt Today'"
+      },
+      {
+        "key": "D",
+        "text": "'Gold over Country'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal\'s secret mission was to acquire modern medical expertise in ophthalmology and study European liberal institutions for the Filipino reform movement.',
-    topicRef: '2.0 Secret Departure to Europe (1882)'
+    "correctAnswer": "A",
+    "explanation": "La Liga Filipina aimed for peaceful civic unity, mutual defense, mutual aid, and agricultural-commercial development under the motto *Unus Instar Omnium*."
   },
   {
-    id: 10,
-    question: "At which university in Spain did Rizal earn his Licentiate in Medicine and Licentiate in Philosophy and Letters in 1884–1885?",
-    options: [
-      { key: 'A', text: 'Universidad Central de Madrid' },
-      { key: 'B', text: 'University of Barcelona' },
-      { key: 'C', text: 'University of Salamanca' },
-      { key: 'D', text: 'University of Heidelberg' }
+    "id": 10,
+    "topicRef": "Rizal's Exile in Dapitan (1892-1896)",
+    "question": "During his four-year exile in Dapitan, Zamboanga del Norte (1892–1896), Jose Rizal demonstrated multifaceted genius by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Practicing medicine/ophthalmology, constructing a community waterworks system, establishing a modern school for boys, discovering new animal species (*Draco rizali*), and farming."
+      },
+      {
+        "key": "B",
+        "text": "Leading an army of soldiers in battle."
+      },
+      {
+        "key": "C",
+        "text": "Sitting in a prison cell without speaking."
+      },
+      {
+        "key": "D",
+        "text": "Manufacturing firearms for the Katipunan."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal studied diligently in Madrid while actively participating in the Circulo Hispano-Filipino and Freemasonry (Lodge Acacia).',
-    topicRef: '2.0 Higher Education in Madrid'
+    "correctAnswer": "A",
+    "explanation": "In Dapitan, Rizal exemplified community leadership: he built a water reservoir, provided free eye surgery, taught youth without tuition, and collected botanical/zoological specimens."
   },
   {
-    id: 11,
-    question: "Under which renowned German ophthalmologist did Rizal train in eye surgery at the eye clinic in Paris and the University Eye Hospital in Heidelberg?",
-    options: [
-      { key: 'A', text: 'Dr. Louis de Wecker (Paris) and Dr. Otto Becker (Heidelberg)' },
-      { key: 'B', text: 'Dr. Rudolf Virchow' },
-      { key: 'C', text: 'Dr. Adolf Meyer' },
-      { key: 'D', text: 'Dr. Ferdinand Blumentritt' }
+    "id": 11,
+    "topicRef": "Rizal's Execution & 'Mi Ultimo Adios'",
+    "question": "On the eve of his execution at Bagumbayan on December 30, 1896, Jose Rizal wrote his final, untitled 14-stanza master poem hidden inside an alcohol cooking stove, later titled:",
+    "options": [
+      {
+        "key": "A",
+        "text": "'Mi Ultimo Adios' (My Last Farewell)"
+      },
+      {
+        "key": "B",
+        "text": "'A La Juventud Filipina'"
+      },
+      {
+        "key": "C",
+        "text": "'Sa Aking Mga Kabata'"
+      },
+      {
+        "key": "D",
+        "text": "'Hymn to Talisay'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal apprenticed under Dr. Louis de Wecker in Paris and Dr. Otto Becker in Heidelberg to master cataract surgery techniques.',
-    topicRef: '2.0 Specialization in Ophthalmology'
+    "correctAnswer": "A",
+    "explanation": "Rizal wrote *Mi Ultimo Adios* before his martyrdom, handing the alcohol lamp to his sister Trinidad whispering, 'There is something inside.'"
   },
   {
-    id: 12,
-    question: "What poem did Rizal write while captivated by the blooming spring flowers along the Neckar River in Germany in April 1886?",
-    options: [
-      { key: 'A', text: 'A Las Flores de Heidelberg (To the Flowers of Heidelberg)' },
-      { key: 'B', text: 'Mi Retiro' },
-      { key: 'C', text: 'Canto del Viajero' },
-      { key: 'D', text: 'Kundiman' }
+    "id": 12,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #12)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'In A Las Flores de Heidelberg, Rizal sent poetic messages of love, peace, and fidelity to his native Philippines through German forget-me-nots.',
-    topicRef: '2.0 Literary Works: To the Flowers of Heidelberg'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 13,
-    question: "Where, in what year, and with whose financial assistance was Rizal\'s first novel 'Noli Me Tangere' published?",
-    options: [
-      { key: 'A', text: 'Berlin, Germany in March 1887, with a loan of ₱300 from his wealthy friend Dr. Maximo Viola' },
-      { key: 'B', text: 'Ghent, Belgium in 1891 with Valentin Ventura' },
-      { key: 'C', text: 'Madrid, Spain in 1884 with Marcelo del Pilar' },
-      { key: 'D', text: 'Manila in 1896 with Emilio Aguinaldo' }
+    "id": 13,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #13)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Dr. Maximo Viola was the \'Savior of the Noli Me Tangere\', providing the crucial funds needed to print 2,000 copies in Berlin.',
-    topicRef: '3.0 Noli Me Tangere: Publication'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 14,
-    question: "What does the Latin title 'Noli Me Tangere' mean, and from which Biblical passage is it derived?",
-    options: [
-      { key: 'A', text: '\'Touch Me Not\', taken from the Gospel of St. John (John 20:17), where the resurrected Jesus speaks to Mary Magdalene' },
-      { key: 'B', text: '\'Do Not Forget Me\', from Psalms' },
-      { key: 'C', text: '\'The Social Cancer\', from Genesis' },
-      { key: 'D', text: '\'Fight For Freedom\', from Matthew' }
+    "id": 14,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #14)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal chose \'Touch Me Not\' because his novel exposed the malignant social cancer of Spanish friar corruption that had long been taboo to touch.',
-    topicRef: '3.0 Noli Me Tangere: Meaning and Theme'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 15,
-    question: "To whom did Jose Rizal dedicate his masterpiece novel 'Noli Me Tangere'?",
-    options: [
-      { key: 'A', text: 'To the Motherland (A Mi Patria / To My Country)' },
-      { key: 'B', text: 'To GOMBURZA' },
-      { key: 'C', text: 'To his parents' },
-      { key: 'D', text: 'To Leonor Rivera' }
+    "id": 15,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #15)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Noli Me Tangere was dedicated to his beloved motherland (To My Country) to expose the systemic societal cancer afflicting Filipino society.',
-    topicRef: '3.0 Noli Me Tangere: Dedication'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 16,
-    question: "Who is the protagonist of 'Noli Me Tangere', representing the educated, idealistic Filipino youth returning from Europe full of reformist dreams?",
-    options: [
-      { key: 'A', text: 'Juan Crisostomo Ibarra y Magsalin' },
-      { key: 'B', text: 'Elias' },
-      { key: 'C', text: 'Basilio' },
-      { key: 'D', text: 'Isagani' }
+    "id": 16,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #16)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Crisostomo Ibarra represents liberal reformism through secular education, seeking progress without bloody armed revolution.',
-    topicRef: '3.0 Noli Characters: Crisostomo Ibarra'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 17,
-    question: "Which character in 'Noli Me Tangere' symbolizes the heroic, oppressed Filipino masses, who rescues Ibarra multiple times and dies saying: 'I die without seeing the dawn brighten over my native land'?",
-    options: [
-      { key: 'A', text: 'Elias' },
-      { key: 'B', text: 'Tasio the Philosopher' },
-      { key: 'C', text: 'Capitan Tiago' },
-      { key: 'D', text: 'Padre Damaso' }
+    "id": 17,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #17)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Elias represents revolutionary consciousness and martyrdom, sacrificing his life on the lake so Ibarra could escape.',
-    topicRef: '3.0 Noli Characters: Elias'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 18,
-    question: "Which character in 'Noli Me Tangere' represents the tragic archetype of the pure Filipina maiden, the biological daughter of Padre Damaso, who enters the Santa Clara nunnery?",
-    options: [
-      { key: 'A', text: 'Maria Clara de los Santos' },
-      { key: 'B', text: 'Sisa' },
-      { key: 'C', text: 'Doña Victorina' },
-      { key: 'D', text: 'Paulita Gomez' }
+    "id": 18,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #18)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Maria Clara embodies feminine virtue and the tragic colonial heritage of the Philippines caught between church power and true love.',
-    topicRef: '3.0 Noli Characters: Maria Clara'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 19,
-    question: "Which character in 'Noli Me Tangere' symbolizes the tragic maternal suffering and insanity caused by colonial brutality and the loss of her sons Crispin and Basilio?",
-    options: [
-      { key: 'A', text: 'Sisa' },
-      { key: 'B', text: 'Doña Consolacion' },
-      { key: 'C', text: 'Doña Victorina' },
-      { key: 'D', text: 'Tia Isabel' }
+    "id": 19,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #19)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Sisa symbolizes the agonizing torment, helplessness, and psychological trauma of the oppressed Filipino motherland.',
-    topicRef: '3.0 Noli Characters: Sisa'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 20,
-    question: "Which character in 'Noli Me Tangere' represents the hilarious yet tragic colonial mentality, pretending to be Spanish, wearing heavy makeup, and despising fellow Filipinos?",
-    options: [
-      { key: 'A', text: 'Doña Victorina de los Reyes de de Espadaña' },
-      { key: 'B', text: 'Doña Consolacion' },
-      { key: 'C', text: 'Sinang' },
-      { key: 'D', text: 'Salome' }
+    "id": 20,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #20)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Doña Victorina is the satirical personification of extreme xenocentrism and colonial cringe in Philippine society.',
-    topicRef: '3.0 Noli Characters: Doña Victorina'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 21,
-    question: "Who was Jose Rizal\'s closest and most loyal Austrian scholar friend with whom he maintained lifelong correspondence on ethnology, linguistics, and Philippine history?",
-    options: [
-      { key: 'A', text: 'Professor Ferdinand Blumentritt' },
-      { key: 'B', text: 'Dr. Reinhold Rost' },
-      { key: 'C', text: 'Dr. Feodor Jagor' },
-      { key: 'D', text: 'Eduard de Sloet' }
+    "id": 21,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #21)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Ferdinand Blumentritt was Rizal\'s spiritual brother and intellectual champion in Europe, writing the prologue to Rizal\'s edition of Morga.',
-    topicRef: '2.0 Rizal\'s Friends: Ferdinand Blumentritt'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 22,
-    question: "What historic 1609 book by Antonio de Morga did Rizal spend months annotating in the British Museum in London (published in Paris in 1890) to prove pre-colonial Filipino civilization?",
-    options: [
-      { key: 'A', text: 'Sucesos de las Islas Filipinas (Events in the Philippine Islands)' },
-      { key: 'B', text: 'Doctrina Christiana' },
-      { key: 'C', text: 'Flora de Filipinas' },
-      { key: 'D', text: 'Labor Evangelica' }
+    "id": 22,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #22)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal\'s Morga annotations established that Filipinos had an advanced civilization, maritime trade, and rich culture prior to Spanish arrival.',
-    topicRef: '4.0 Historical Studies: Annotation of Morga'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 23,
-    question: "What was Rizal\'s famous sociological essay published in La Solidaridad in 1890 analyzing the alleged 'Indolence of the Filipinos'?",
-    options: [
-      { key: 'A', text: 'Sobre la Indolencia de los Filipinos (On the Indolence of the Filipinos)' },
-      { key: 'B', text: 'Filipinas Dentro de Cien Años' },
-      { key: 'C', text: 'El Amor Patrio' },
-      { key: 'D', text: 'Sa Mga Kababayang Dalaga sa Malolos' }
+    "id": 23,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #23)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal demonstrated that Filipino \'indolence\' was not an inherent racial flaw, but the direct consequence of tropical climate, forced labor (polo), lack of incentives, and colonial exploitation.',
-    topicRef: '4.0 Essays: Sobre la Indolencia de los Filipinos'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 24,
-    question: "What was Rizal\'s visionary geopolitical essay forecasting the future of the archipelago over the next century, predicting that Spain would lose the islands and the United States might conquer them?",
-    options: [
-      { key: 'A', text: 'Filipinas Dentro de Cien Años (The Philippines a Century Hence)' },
-      { key: 'B', text: 'Sobre la Indolencia de los Filipinos' },
-      { key: 'C', text: 'A La Juventud Filipina' },
-      { key: 'D', text: 'La Vision del Fray Rodriguez' }
+    "id": 24,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #24)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'In Filipinas Dentro de Cien Años (1889–1890), Rizal presciently predicted the rise of the American empire in the Pacific and Philippine independence.',
-    topicRef: '4.0 Essays: The Philippines a Century Hence'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 25,
-    question: "What famous letter in Tagalog did Rizal write in February 1889 praising 20 young women who bravely petitioned Governor-General Weyler for permission to establish a night school to learn Spanish?",
-    options: [
-      { key: 'A', text: 'Sa Mga Kababayang Dalaga sa Malolos (To the Young Women of Malolos)' },
-      { key: 'B', text: 'Sa Aking Mga Kabata' },
-      { key: 'C', text: 'Kartilya ng Katipunan' },
-      { key: 'D', text: 'Pahimakas' }
+    "id": 25,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #25)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal\'s Letter to the Young Women of Malolos emphasized the crucial role of mothers in raising enlightened, dignified, and patriotic children free from blind religious servitude.',
-    topicRef: '4.0 Writings: Letter to the Young Women of Malolos'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 26,
-    question: "Where, in what year, and with whose financial backing was Rizal\'s second novel 'El Filibusterismo' published?",
-    options: [
-      { key: 'A', text: 'Ghent, Belgium in September 1891, with financial assistance from Valentin Ventura' },
-      { key: 'B', text: 'Berlin, Germany in 1887 with Maximo Viola' },
-      { key: 'C', text: 'London, England in 1888 with Antonio Regidor' },
-      { key: 'D', text: 'Madrid, Spain in 1890 with Graciano Lopez Jaena' }
+    "id": 26,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #26)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Valentin Ventura sent the needed money to complete printing in Ghent, earning the title \'Savior of El Filibusterismo\'.',
-    topicRef: '5.0 El Filibusterismo: Publication'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 27,
-    question: "To whom did Jose Rizal solemnly dedicate his second novel 'El Filibusterismo'?",
-    options: [
-      { key: 'A', text: 'To the three martyred priests Fathers Mariano Gomez, Jose Burgos, and Jacinto Zamora (GOMBURZA)' },
-      { key: 'B', text: 'To his mother Teodora Alonso' },
-      { key: 'C', text: 'To the Spanish Governor-General' },
-      { key: 'D', text: 'To the Katipunan' }
+    "id": 27,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #27)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal dedicated the Fili to Gomburza, whose unjust martyrdom in 1872 ignited his lifelong mission for Philippine liberty.',
-    topicRef: '5.0 El Filibusterismo: Dedication to GOMBURZA'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 28,
-    question: "What is the primary difference in theme and tone between 'Noli Me Tangere' and 'El Filibusterismo'?",
-    options: [
-      { key: 'A', text: 'Noli is a romantic, idealistic novel of social diagnosis and reform; Fili is a dark, bitter, political novel of impending revolution, vengeance, and moral retribution' },
-      { key: 'B', text: 'Noli is in Tagalog; Fili is in English' },
-      { key: 'C', text: 'Fili is a comedy; Noli is a tragedy' },
-      { key: 'D', text: 'They have identical plots and tones' }
+    "id": 28,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #28)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'While the Noli appeals to reason and peaceful reform, the Fili grapples with radicalized armed insurgency and its ethical dilemmas.',
-    topicRef: '5.0 Noli vs Fili: Thematic Comparison'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 29,
-    question: "Who is the sinister, enigmatic protagonist of 'El Filibusterismo'—a wealthy jeweler with tinted glasses plotting violent revolution—who is revealed to be Crisostomo Ibarra in disguise?",
-    options: [
-      { key: 'A', text: 'Simoun' },
-      { key: 'B', text: 'Isagani' },
-      { key: 'C', text: 'Basilio' },
-      { key: 'D', text: 'Makaraig' }
+    "id": 29,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #29)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Simoun returns after 13 years, seeking to accelerate the downfall of Spanish rule by fomenting corruption and orchestrating a bloody bomb plot.',
-    topicRef: '5.0 Fili Characters: Simoun'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 30,
-    question: "What instrument of mass destruction did Simoun design to assassinate the Governor-General and colonial elites at the wedding banquet of Paulita Gomez and Juanito Pelaez?",
-    options: [
-      { key: 'A', text: 'A nitroglycerin bomb concealed inside an elegant gold pomegranate lamp (lampara)' },
-      { key: 'B', text: 'Poisoned wine glasses' },
-      { key: 'C', text: 'A dynamite cannon' },
-      { key: 'D', text: 'An infected letter' }
+    "id": 30,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #30)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The exploding lamp was intended to detonate when the wick was turned up, triggering an armed uprising throughout Manila.',
-    topicRef: '5.0 El Filibusterismo: Simoun\'s Bomb Plot'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 31,
-    question: "Who grabbed the exploding lamp from the wedding table and threw it into the Pasig River, thwarting Simoun\'s catastrophic conspiracy to save Paulita Gomez?",
-    options: [
-      { key: 'A', text: 'Isagani' },
-      { key: 'B', text: 'Basilio' },
-      { key: 'C', text: 'Padre Florentino' },
-      { key: 'D', text: 'Sandoval' }
+    "id": 31,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #31)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Isagani, moved by romantic love for Paulita Gomez despite her betrayal, rushed into the mansion, seized the lamp, and hurled it into the river.',
-    topicRef: '5.0 Fili Plot: Isagani & The Lamp'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 32,
-    question: "Which character in 'El Filibusterismo' delivers Rizal\'s profound philosophical monologue on why Simoun\'s revolution failed: 'Hate never produces anything but monsters; crime, criminals! Love alone can work miracles, only virtue can save!'?",
-    options: [
-      { key: 'A', text: 'Padre Florentino' },
-      { key: 'B', text: 'Padre Fernandez' },
-      { key: 'C', text: 'Padre Salvi' },
-      { key: 'D', text: 'Capitan Tiago' }
+    "id": 32,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #32)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Padre Florentino hears the dying confession of Simoun, explaining that freedom achieved through hatred and crime cannot endure.',
-    topicRef: '5.0 Fili Characters: Padre Florentino'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 33,
-    question: "Who was the peasant farmer in 'El Filibusterismo' whose land was unjustly confiscated by the friars, driving him to join the bandits as the terrifying outlaw 'Matanglawin'?",
-    options: [
-      { key: 'A', text: 'Kabesang Tales (Telesforo Juan de Dios)' },
-      { key: 'B', text: 'Tandang Selo' },
-      { key: 'C', text: 'Tano' },
-      { key: 'D', text: 'Sinong' }
+    "id": 33,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #33)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Kabesang Tales represents the agrarian land dispossession suffered by Calamba tenant farmers (including Rizal\'s own family) at the hands of the Dominicans.',
-    topicRef: '5.0 Fili Characters: Kabesang Tales'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 34,
-    question: "Who was the young maiden who threw herself from the convent belfry of San Diego to escape the lustful advances of Padre Camorra?",
-    options: [
-      { key: 'A', text: 'Juli (Juliana, daughter of Kabesang Tales and sweetheart of Basilio)' },
-      { key: 'B', text: 'Paulita Gomez' },
-      { key: 'C', text: 'Pepay' },
-      { key: 'D', text: 'Salome' }
+    "id": 34,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #34)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Juli preferred death over dishonor when forced to beg Padre Camorra for Basilio\'s release from prison.',
-    topicRef: '5.0 Fili Characters: Juli'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 35,
-    question: "What civic organization did Jose Rizal found in Ilaya Street, Tondo, Manila on July 3, 1892, with the motto 'Unus Instar Omnium' (One Like All)?",
-    options: [
-      { key: 'A', text: 'La Liga Filipina' },
-      { key: 'B', text: 'Katipunan (KKK)' },
-      { key: 'C', text: 'La Solidaridad' },
-      { key: 'D', text: 'Circulo Hispano-Filipino' }
+    "id": 35,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #35)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'La Liga Filipina sought to unite the entire archipelago into a compact, vigorous body promoting mutual protection, education, and economic cooperation.',
-    topicRef: '6.0 La Liga Filipina (1892)'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 36,
-    question: "Which Spanish Governor-General ordered Rizal\'s immediate arrest and deportation to Dapitan, Zamboanga del Norte, on July 6–7, 1892?",
-    options: [
-      { key: 'A', text: 'Governor-General Eulogio Despujol' },
-      { key: 'B', text: 'Governor-General Camilo de Polavieja' },
-      { key: 'C', text: 'Governor-General Ramon Blanco' },
-      { key: 'D', text: 'Governor-General Rafael de Izquierdo' }
+    "id": 36,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #36)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Despujol exiled Rizal to Dapitan following the discovery of alleged anti-friar handbills (Pobres Frailes) in his luggage.',
-    topicRef: '6.0 Exile to Dapitan: Despujol'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 37,
-    question: "During his four-year exile in Dapitan (1892–1896), what remarkable accomplishments did Rizal achieve as a polymath?",
-    options: [
-      { key: 'A', text: 'Practiced medicine, built a school for boys, constructed a town waterworks system, engaged in agriculture, and discovered new animal species (Draco rizali, Apogonia rizali, Rhacophorus rizali)' },
-      { key: 'B', text: 'Led an armed rebellion in Mindanao' },
-      { key: 'C', text: 'Built a battleship' },
-      { key: 'D', text: 'Founded a private bank' }
+    "id": 37,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #37)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'In Dapitan, Rizal exemplified practical civic nation-building through education, community sanitation, scientific discovery, and progressive farming.',
-    topicRef: '6.0 Rizal in Dapitan: Polymath Achievements'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 38,
-    question: "Who was the young Irish woman who arrived in Dapitan with her blind adoptive father George Taufer, fell in love with Rizal, and became his common-law wife (described as 'Dulce extranjera' in his farewell poem)?",
-    options: [
-      { key: 'A', text: 'Josephine Bracken' },
-      { key: 'B', text: 'Leonor Rivera' },
-      { key: 'C', text: 'Suzanne Jacoby' },
-      { key: 'D', text: 'O-Sei-San' }
+    "id": 38,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #38)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Josephine Bracken lived with Rizal in Dapitan and accompanied him until his final moments at Bagumbayan.',
-    topicRef: '6.0 Exile in Dapitan: Josephine Bracken'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 39,
-    question: "Who was the Katipunan emissary sent by Andres Bonifacio in disguise to Dapitan in June 1896 to consult Rizal on launching an armed revolution?",
-    options: [
-      { key: 'A', text: 'Dr. Pio Valenzuela' },
-      { key: 'B', text: 'Emilio Jacinto' },
-      { key: 'C', text: 'Procopio Bonifacio' },
-      { key: 'D', text: 'Macario Sakay' }
+    "id": 39,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #39)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Dr. Pio Valenzuela brought the blind patient Raymundo Mata as cover; Rizal cautioned against premature revolution without sufficient arms, funds, and naval support.',
-    topicRef: '6.0 Katipunan Mission to Dapitan: Pio Valenzuela'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 40,
-    question: "Why was Rizal traveling to Cuba when he was arrested aboard the steamer Isla de Panay in September 1896?",
-    options: [
-      { key: 'A', text: 'He had volunteered and been accepted by Governor-General Blanco to serve as a military surgeon in the Spanish army hospital in Cuba during the Yellow Fever epidemic' },
-      { key: 'B', text: 'To buy tobacco for Europe' },
-      { key: 'C', text: 'To join the Cuban rebels' },
-      { key: 'D', text: 'To escape to the United States' }
+    "id": 40,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #40)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal sought to leave Dapitan peacefully by volunteering his medical expertise to treat victims of yellow fever in Cuba.',
-    topicRef: '7.0 Journey to Cuba and Arrest'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 41,
-    question: "Where was Rizal imprisoned upon his return to Manila to face a military court-martial for alleged rebellion, sedition, and illegal association?",
-    options: [
-      { key: 'A', text: 'Fort Santiago (Intramuros, Manila)' },
-      { key: 'B', text: 'Bilibid Prison' },
-      { key: 'C', text: 'Fort San Pedro' },
-      { key: 'D', text: 'Corregidor Island' }
+    "id": 41,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #41)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal was held in solitary confinement in Fort Santiago throughout his December 1896 court-martial.',
-    topicRef: '7.0 Imprisonment at Fort Santiago'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 42,
-    question: "Who was the Spanish military officer chosen by Rizal to act as his defense counsel during his court-martial?",
-    options: [
-      { key: 'A', text: 'Lt. Luis Taviel de Andrade' },
-      { key: 'B', text: 'Lt. Jose Taviel de Andrade' },
-      { key: 'C', text: 'Col. Francisco Olive' },
-      { key: 'D', text: 'Capt. Rafael Dominguez' }
+    "id": 42,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #42)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Lt. Luis Taviel de Andrade defended Rizal with great eloquence and courage before the biased military tribunal.',
-    topicRef: '7.0 Rizal\'s Trial: Luis Taviel de Andrade'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 43,
-    question: "Which ruthless Spanish Governor-General approved the death sentence and ordered the execution of Jose Rizal by firing squad?",
-    options: [
-      { key: 'A', text: 'Governor-General Camilo de Polavieja' },
-      { key: 'B', text: 'Governor-General Ramon Blanco' },
-      { key: 'C', text: 'Governor-General Valeriano Weyler' },
-      { key: 'D', text: 'Governor-General Emilio Terrero' }
+    "id": 43,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #43)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Polavieja, heavily influenced by reactionary friars, signed the death decree on December 28, 1896.',
-    topicRef: '7.0 Death Sentence: Camilo de Polavieja'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 44,
-    question: "What is the title of the untitled 14-stanza farewell poem written by Rizal in Fort Santiago on the eve of his execution, concealed inside an alcohol cooking stove (cocinilla)?",
-    options: [
-      { key: 'A', text: 'Mi Ultimo Adios (My Last Farewell)' },
-      { key: 'B', text: 'A La Juventud Filipina' },
-      { key: 'C', text: 'Mi Retiro' },
-      { key: 'D', text: 'Hukom ng Langit' }
+    "id": 44,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #44)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal handed the stove containing the poem to his sister Trinidad, whispering \'There is something inside.\' It was later titled \'Mi Ultimo Adios\' by Mariano Ponce.',
-    topicRef: '7.0 Mi Ultimo Adios'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 45,
-    question: "On what exact date and time was Dr. Jose Rizal executed by firing squad in Bagumbayan (now Rizal Park / Luneta), Manila?",
-    options: [
-      { key: 'A', text: 'December 30, 1896 at exactly 7:03 AM' },
-      { key: 'B', text: 'June 19, 1861 at midnight' },
-      { key: 'C', text: 'June 12, 1898 at 4:00 PM' },
-      { key: 'D', text: 'August 23, 1896 at 8:00 AM' }
+    "id": 45,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #45)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal faced the firing squad calmly; his pulse was normal, and he turned to fall face upward toward the morning sun.',
-    topicRef: '7.0 Execution at Bagumbayan'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   },
   {
-    id: 46,
-    question: "What were the famous dying last words uttered by Jose Rizal as the rifle shots rang out at Bagumbayan?",
-    options: [
-      { key: 'A', text: 'Consummatum est! (\'It is finished!\')' },
-      { key: 'B', text: 'Mabuhay ang Pilipinas!' },
-      { key: 'C', text: 'Viva España!' },
-      { key: 'D', text: 'Lupang Hinirang!' }
+    "id": 46,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #46)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal uttered the Latin words of Christ \'Consummatum est\' (It is finished), fulfilling his sacrifice for Filipino liberation.',
-    topicRef: '7.0 Last Words: Consummatum Est'
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
   },
   {
-    id: 47,
-    question: "Who was Rizal\'s greatest childhood and lifelong romantic love, his cousin from Camiling, Tarlac, who was forced by her mother to marry the British engineer Charles Kipping?",
-    options: [
-      { key: 'A', text: 'Leonor Rivera (the inspiration for Maria Clara)' },
-      { key: 'B', text: 'Segunda Katigbak' },
-      { key: 'C', text: 'Leonor Valenzuela' },
-      { key: 'D', text: 'Consuelo Ortiga' }
+    "id": 47,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #47)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Leonor Rivera was Rizal\'s true love for 11 years and the literary inspiration behind Maria Clara.',
-    topicRef: '2.0 Rizal\'s Romances: Leonor Rivera'
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
   },
   {
-    id: 48,
-    question: "What was the 'Calamba Agrarian Dispute' (1887–1888) in which Rizal led the tenant farmers?",
-    options: [
-      { key: 'A', text: 'An investigation into exorbitant friar land rentals, arbitrary evictions, and tax evasion by the Dominican Order, which resulted in the brutal eviction of Rizal\'s family and exile of his brother Paciano' },
-      { key: 'B', text: 'A dispute between local farmers over water canals' },
-      { key: 'C', text: 'A strike by factory workers in Laguna' },
-      { key: 'D', text: 'A land purchase from the British' }
+    "id": 48,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #48)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal drafted a factual memorial detailing the unfair abuses of the Dominican hacienda in Calamba, which led to harsh colonial retaliation against his townspeople.',
-    topicRef: '4.0 The Calamba Agrarian Problem'
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
   },
   {
-    id: 49,
-    question: "What did Rizal believe was the ultimate, indispensable prerequisite for genuine national freedom and self-determination?",
-    options: [
-      { key: 'A', text: 'Enlightenment, mass education, moral integrity, and civic dignity (\'Why independence, if the slaves of today will become the tyrants of tomorrow?\')' },
-      { key: 'B', text: 'Blind violent revenge against foreigners' },
-      { key: 'C', text: 'Amassing personal wealth' },
-      { key: 'D', text: 'Foreign military conquest' }
+    "id": 49,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #49)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal emphasized that political freedom without education and ethical character merely replaces one tyrant with another.',
-    topicRef: '5.0 Rizal\'s Philosophy of Education & Freedom'
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
   },
   {
-    id: 50,
-    question: "Why remains the study of the Life and Works of Jose Rizal critically relevant in 21st-century Philippine teacher education?",
-    options: [
-      { key: 'A', text: 'It inspires critical thinking, unyielding moral courage, civic patriotism, and dedication to nation-building through transformative, enlightened education' },
-      { key: 'B', text: 'To memorize dates and trivia about Rizal\'s lovers' },
-      { key: 'C', text: 'To learn how to write 19th-century Spanish letters' },
-      { key: 'D', text: 'Because it is a routine government requirement with no real value' }
+    "id": 50,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #50)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rizal\'s life and writings provide an enduring moral and intellectual compass for educators in molding ethical, patriotic, and globally competent Filipino learners.',
-    topicRef: '1.0 Significance of Rizal in Modern Times'
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
+  },
+  {
+    "id": 51,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #51)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
+  },
+  {
+    "id": 52,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #52)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
+  },
+  {
+    "id": 53,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #53)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
+  },
+  {
+    "id": 54,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #54)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
+  },
+  {
+    "id": 55,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #55)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
+  },
+  {
+    "id": 56,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #56)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
+  },
+  {
+    "id": 57,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #57)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
+  },
+  {
+    "id": 58,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #58)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
+  },
+  {
+    "id": 59,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #59)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
+  },
+  {
+    "id": 60,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #60)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
+  },
+  {
+    "id": 61,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #61)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
+  },
+  {
+    "id": 62,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #62)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
+  },
+  {
+    "id": 63,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #63)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
+  },
+  {
+    "id": 64,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #64)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
+  },
+  {
+    "id": 65,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #65)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
+  },
+  {
+    "id": 66,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #66)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
+  },
+  {
+    "id": 67,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #67)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
+  },
+  {
+    "id": 68,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #68)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
+  },
+  {
+    "id": 69,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #69)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
+  },
+  {
+    "id": 70,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #70)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
+  },
+  {
+    "id": 71,
+    "topicRef": "Life and Works of Rizal: Rizal's Letter to the Young Women of Malolos (1889)",
+    "question": "In his celebrated letter to the 20 brave women of Malolos, Bulacan who petitioned for a night school to learn Spanish, Rizal emphasized that: (Item #71)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mothers are the primary educators who shape the moral character and intellectual independence of the future generation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal praised their courage, championing women's education, critical thinking, and civic empowerment."
+  },
+  {
+    "id": 72,
+    "topicRef": "Life and Works of Rizal: Rizal's Poem: A La Juventud Filipina (1879)",
+    "question": "In his prize-winning 1879 poem 'A La Juventud Filipina' (To the Filipino Youth), Rizal famously called the Filipino youth: (Item #72)",
+    "options": [
+      {
+        "key": "A",
+        "text": "'The Fair Hope of My Fatherland' (*Bella esperanza de la patria mia*), urging them to use their intellect and arts to unshackle the nation."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal inspired Filipino youth to develop their talents and lead the nation toward enlightenment."
+  },
+  {
+    "id": 73,
+    "topicRef": "Life and Works of Rizal: Annotations of Antonio de Morga's Sucesos (1890)",
+    "question": "Why did Jose Rizal spend months at the British Museum copying and annotating Antonio de Morga's 1609 book 'Sucesos de las Islas Filipinas'? (Item #73)",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prove scientifically that pre-colonial Filipinos already possessed an advanced culture, flourishing maritime trade, literacy, and rich civilization before the Spanish arrival."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal annotated Morga's historical chronicle to restore Filipino dignity and disprove colonial claims of native savagery."
+  },
+  {
+    "id": 74,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Indolence of the Filipinos (1890)",
+    "question": "In 'Sobre la Indolencia de los Filipinos', Rizal argued that the perceived 'indolence' (laziness) of Filipinos was not hereditary, but caused by: (Item #74)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Colonial exploitation, tropical climate, forced labor, friar land monopolies, and lack of economic incentives for native enterprise."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal analyzed the socio-political root causes that stifled native initiative under Spanish rule."
+  },
+  {
+    "id": 75,
+    "topicRef": "Life and Works of Rizal: Rizal's Essay: The Philippines A Century Hence (1889-1890)",
+    "question": "In 'Filipinas Dentro de Cien Años', Jose Rizal prophetically predicted that if Spain refused reforms: (Item #75)",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Philippines would inevitably declare independence after a bloody revolution, and the United States might attempt to colonize the archipelago."
+      },
+      {
+        "key": "B",
+        "text": "Complete submission to friar rule."
+      },
+      {
+        "key": "C",
+        "text": "Abolition of all schools in the Philippines."
+      },
+      {
+        "key": "D",
+        "text": "Blind obedience without questioning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Rizal accurately foresaw the 1898 revolution and subsequent American imperial conquest."
   }
 ];

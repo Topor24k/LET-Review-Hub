@@ -2,653 +2,1878 @@ import { ExamQuestion } from '../../types';
 
 export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
   {
-    id: 1,
-    question: "In Jean Piaget's Theory of Cognitive Development, at which stage does a child achieve 'Object Permanence' (realizing that objects continue to exist even when unseen)?",
-    options: [
-      { key: 'A', text: 'Sensorimotor Stage (0 to 2 years)' },
-      { key: 'B', text: 'Preoperational Stage (2 to 7 years)' },
-      { key: 'C', text: 'Concrete Operational Stage (7 to 11 years)' },
-      { key: 'D', text: 'Formal Operational Stage (11+ years)' }
+    "id": 1,
+    "topicRef": "Principles of Development: Cephalocaudal Trend",
+    "question": "An infant gains motor control of head balance and neck stability first, then learns to lift his upper chest, and finally learns to coordinate his legs for walking. This top-to-bottom developmental pattern is known as the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cephalocaudal Trend (Head-to-Tail)"
+      },
+      {
+        "key": "B",
+        "text": "Proximodistal Trend (Center-Outward)"
+      },
+      {
+        "key": "C",
+        "text": "Mass-to-Specific Trend"
+      },
+      {
+        "key": "D",
+        "text": "Bilateral Trend"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Object permanence develops during the sensorimotor stage (typically around 8–9 months), transitioning infants from reflexes to intentional goal-directed action.',
-    topicRef: '1.0 Piaget Cognitive Development'
+    "correctAnswer": "A",
+    "explanation": "The Cephalocaudal pattern (from the Latin 'head to tail') dictates that physical and motor development proceeds from the head downward to the lower extremities."
   },
   {
-    id: 2,
-    question: "A child in Piaget's Preoperational Stage believes that pouring water from a short wide glass into a tall thin glass makes the water quantity increase. Which cognitive limitation does this demonstrate?",
-    options: [
-      { key: 'A', text: 'Lack of Conservation and Centration' },
-      { key: 'B', text: 'Object Permanence' },
-      { key: 'C', text: 'Abstract Deductive Reasoning' },
-      { key: 'D', text: 'Metacognition' }
+    "id": 2,
+    "topicRef": "Principles of Development: Proximodistal Trend",
+    "question": "A toddler learns to move his entire arm and shoulder from the torso before developing fine-motor control over his wrist and fingertips to grasp a crayon. This pattern is the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proximodistal Trend (Near-to-Far / Center-Outward)"
+      },
+      {
+        "key": "B",
+        "text": "Cephalocaudal Trend"
+      },
+      {
+        "key": "C",
+        "text": "Sequential Trend"
+      },
+      {
+        "key": "D",
+        "text": "Discrete Trend"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Preoperational children struggle with conservation (understanding that quantity remains constant despite perceptual changes) due to centration (focusing only on one dimension like height).',
-    topicRef: '1.0 Piaget Cognitive Development'
+    "correctAnswer": "A",
+    "explanation": "The Proximodistal pattern states that growth and motor control proceed from the center (trunk/core) of the body outward toward the extremities (hands and fingers)."
   },
   {
-    id: 3,
-    question: "According to Erik Erikson's Psychosocial Stages of Development, what is the core psychosocial crisis faced by adolescents (ages 12 to 18)?",
-    options: [
-      { key: 'A', text: 'Identity vs. Role Confusion' },
-      { key: 'B', text: 'Industry vs. Inferiority' },
-      { key: 'C', text: 'Trust vs. Mistrust' },
-      { key: 'D', text: 'Intimacy vs. Isolation' }
+    "id": 3,
+    "topicRef": "Principles of Development: Critical vs Sensitive Periods",
+    "question": "What is the distinction between a 'Critical Period' and a 'Sensitive Period' in human child development?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A Critical Period is a strict biological window where specific environmental stimuli MUST occur for normal development (e.g. embryonic limb formation); a Sensitive Period is an optimal timeframe where a child is particularly responsive to learning (e.g. early language acquisition), but development can still occur later with greater difficulty."
+      },
+      {
+        "key": "B",
+        "text": "They are exact synonyms."
+      },
+      {
+        "key": "C",
+        "text": "Sensitive periods apply only to senior adults."
+      },
+      {
+        "key": "D",
+        "text": "Critical periods only happen after age 20."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Adolescents experience "Identity vs. Role Confusion" as they explore personal values, career aspirations, beliefs, and forge an integrated sense of self.',
-    topicRef: '2.0 Erikson Psychosocial Stages'
+    "correctAnswer": "A",
+    "explanation": "Critical periods are rigid biological windows with irreversible consequences if missed; Sensitive periods are optimal windows of heightened plasticity where learning occurs most naturally."
   },
   {
-    id: 4,
-    question: "In Erikson's fourth stage (Industry vs. Inferiority, ages 6 to 12 / elementary school age), what is the key developmental task?",
-    options: [
-      { key: 'A', text: 'Developing a sense of pride and competence in academic, social, and physical skills' },
-      { key: 'B', text: 'Learning to walk and talk' },
-      { key: 'C', text: 'Forming romantic relationships' },
-      { key: 'D', text: 'Reflecting on a long life with wisdom' }
+    "id": 4,
+    "topicRef": "Principles of Development: Nature vs Nurture",
+    "question": "Modern developmental psychology views human growth as the result of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A complex, dynamic, bidirectional interaction between genetic heredity (Nature) and environmental socio-cultural experiences (Nurture)."
+      },
+      {
+        "key": "B",
+        "text": "100% biological genetics with zero impact from schools."
+      },
+      {
+        "key": "C",
+        "text": "100% environment with zero genetic influence."
+      },
+      {
+        "key": "D",
+        "text": "Random luck."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Elementary school children develop "Industry" when encouraged to master academic and motor skills; if disparaged or overly criticized, they develop feelings of "Inferiority."',
-    topicRef: '2.0 Erikson Psychosocial Stages'
+    "correctAnswer": "A",
+    "explanation": "Epigenetics and contemporary developmental science prove that development is an intricate interplay where environmental inputs modulate gene expression and vice versa."
   },
   {
-    id: 5,
-    question: "In Lawrence Kohlberg's Theory of Moral Development, what motivates moral choices at the 'Preconventional' Level (Stages 1 and 2)?",
-    options: [
-      { key: 'A', text: 'Obedience to avoid physical punishment (Stage 1) and personal self-interest / mutual exchange (Stage 2)' },
-      { key: 'B', text: 'Universal ethical principles and human rights' },
-      { key: 'C', text: 'Maintaining social order and pleasing authority figures' },
-      { key: 'D', text: 'Democratic social contracts' }
+    "id": 5,
+    "topicRef": "Freud: Personality Structures (Id, Ego, Superego)",
+    "question": "In Sigmund Freud's Psychoanalytic Theory, which personality component operates entirely on the 'Pleasure Principle', demanding immediate gratification of instinctual biological impulses without regard for logic or morals?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Id"
+      },
+      {
+        "key": "B",
+        "text": "The Ego"
+      },
+      {
+        "key": "C",
+        "text": "The Superego"
+      },
+      {
+        "key": "D",
+        "text": "The Ego Ideal"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'At the Preconventional level, morality is externally controlled: actions are judged solely based on direct consequences (punishment vs. reward/self-benefit).',
-    topicRef: '3.0 Kohlberg Moral Development'
+    "correctAnswer": "A",
+    "explanation": "The Id is the primitive, unconscious psychic reservoir of instincts operating on the Pleasure Principle. The Ego operates on the Reality Principle, and the Superego represents the Moral Principle."
   },
   {
-    id: 6,
-    question: "A person refuses to break the law because 'laws maintain social order and if everyone broke the rules, society would descend into chaos.' Which Kohlberg moral stage is this?",
-    options: [
-      { key: 'A', text: 'Stage 4: Law and Order / Social-System Morality' },
-      { key: 'B', text: 'Stage 1: Punishment and Obedience' },
-      { key: 'C', text: 'Stage 2: Individualism and Exchange' },
-      { key: 'D', text: 'Stage 6: Universal Ethical Principles' }
+    "id": 6,
+    "topicRef": "Freud: Psychosexual Stages (Oral to Genital)",
+    "question": "What is the correct chronological sequence of Freud's Five Psychosexual Stages of Development?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oral -> Anal -> Phallic -> Latency -> Genital"
+      },
+      {
+        "key": "B",
+        "text": "Anal -> Oral -> Phallic -> Genital -> Latency"
+      },
+      {
+        "key": "C",
+        "text": "Oral -> Phallic -> Anal -> Latency -> Genital"
+      },
+      {
+        "key": "D",
+        "text": "Sensorimotor -> Preoperational -> Concrete -> Formal"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Stage 4 (Conventional level) focuses on duty, respecting authority, maintaining the social fabric, and upholding laws for societal stability.',
-    topicRef: '3.0 Kohlberg Moral Development'
+    "correctAnswer": "A",
+    "explanation": "Freud's 5 psychosexual stages: Oral (0-1 yr), Anal (1-3 yrs), Phallic (3-6 yrs), Latency (6-puberty), and Genital (puberty onwards)."
   },
   {
-    id: 7,
-    question: "In Albert Bandura's Social Learning Theory (Social Cognitive Theory), what was demonstrated by the famous 'Bobo Doll Experiment'?",
-    options: [
-      { key: 'A', text: 'Children learn aggressive behaviors by observing and imitating adult models (Observational Learning / Modeling)' },
-      { key: 'B', text: 'Children only learn through direct physical reinforcement' },
-      { key: 'C', text: 'Dolls improve mathematical computation' },
-      { key: 'D', text: 'Genetics is the sole determinant of human behavior' }
+    "id": 7,
+    "topicRef": "Freud: Phallic Stage (Oedipus / Electra Complex)",
+    "question": "During Freud's Phallic Stage (ages 3–6), what psychological conflict involves a young boy developing unconscious romantic rivalry with his father for his mother's affection, resolved through identification with the father?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Oedipus Complex"
+      },
+      {
+        "key": "B",
+        "text": "Electra Complex"
+      },
+      {
+        "key": "C",
+        "text": "Inferiority Complex"
+      },
+      {
+        "key": "D",
+        "text": "Peter Pan Syndrome"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Bandura proved that children acquire complex novel behaviors through observation, vicarious reinforcement, and imitation without direct conditioning.',
-    topicRef: '4.0 Bandura Social Cognitive Theory'
+    "correctAnswer": "A",
+    "explanation": "The Oedipus Complex (Phallic stage) is the boy's subconscious rivalry with the father for maternal affection, resolved by adopting the father's moral values and gender role."
   },
   {
-    id: 8,
-    question: "In Urie Bronfenbrenner's Bioecological Systems Theory, what system encompasses the direct, immediate settings in which the child interacts daily (e.g., family, classroom, peers, neighborhood)?",
-    options: [
-      { key: 'A', text: 'Microsystem' },
-      { key: 'B', text: 'Mesosystem' },
-      { key: 'C', text: 'Exosystem' },
-      { key: 'D', text: 'Macrosystem' }
+    "id": 8,
+    "topicRef": "Freud: Defense Mechanisms - Sublimation",
+    "question": "A high school student with intense aggressive impulses channels his energy into becoming an award-winning varsity champion in martial arts and boxing. Freud termed this healthy defense mechanism:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sublimation"
+      },
+      {
+        "key": "B",
+        "text": "Repression"
+      },
+      {
+        "key": "C",
+        "text": "Projection"
+      },
+      {
+        "key": "D",
+        "text": "Reaction Formation"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Microsystem is the innermost layer comprising face-to-face, bidirectional relationships directly experienced by the child (home, school, peer group).',
-    topicRef: '5.0 Bronfenbrenner Bioecological Systems'
+    "correctAnswer": "A",
+    "explanation": "Sublimation is the most mature defense mechanism, transforming unacceptable instinctual impulses (e.g. aggression) into socially constructive and productive pursuits."
   },
   {
-    id: 9,
-    question: "In Bronfenbrenner's theory, what is the 'Mesosystem'?",
-    options: [
-      { key: 'A', text: 'The interconnections and relationships between two or more of the child\'s microsystems (e.g., parent-teacher partnership)' },
-      { key: 'B', text: 'The broad cultural values and laws of the country' },
-      { key: 'C', text: 'Settings where the child is not physically present but is affected (e.g., parent\'s workplace)' },
-      { key: 'D', text: 'The passage of historical time' }
+    "id": 9,
+    "topicRef": "Erikson: Trust vs Mistrust (Stage 1)",
+    "question": "An infant whose mother consistently, warmly, and reliably responds to his cries for food, warmth, and affection develops which basic psychosocial virtue in Erikson's Stage 1?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Hope (Trust vs Mistrust)"
+      },
+      {
+        "key": "B",
+        "text": "Will (Autonomy vs Shame)"
+      },
+      {
+        "key": "C",
+        "text": "Purpose (Initiative vs Guilt)"
+      },
+      {
+        "key": "D",
+        "text": "Competence (Industry vs Inferiority)"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Mesosystem connects microsystems—for instance, how a child\'s family interacts with their school community directly influences their developmental outcomes.',
-    topicRef: '5.0 Bronfenbrenner Bioecological Systems'
+    "correctAnswer": "A",
+    "explanation": "Stage 1 (Infancy, 0-18 months) is Trust vs Mistrust; consistent loving care instills the foundational virtue of Hope that the world is a safe and trustworthy place."
   },
   {
-    id: 10,
-    question: "In Howard Gardner's Theory of Multiple Intelligences, which intelligence is characterized by strong self-reflection, understanding one's own emotional states, strengths, and metacognitive awareness?",
-    options: [
-      { key: 'A', text: 'Intrapersonal Intelligence' },
-      { key: 'B', text: 'Interpersonal Intelligence' },
-      { key: 'C', text: 'Spatial Intelligence' },
-      { key: 'D', text: 'Naturalistic Intelligence' }
+    "id": 10,
+    "topicRef": "Erikson: Autonomy vs Shame & Doubt (Stage 2)",
+    "question": "A 2-year-old toddler insists on putting on his own shoes and choosing his clothes. If parents excessively punish mistakes and over-restrict choices, the child develops:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Shame and Doubt"
+      },
+      {
+        "key": "B",
+        "text": "Role Confusion"
+      },
+      {
+        "key": "C",
+        "text": "Isolation"
+      },
+      {
+        "key": "D",
+        "text": "Stagnation"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Intrapersonal intelligence is self-smart: the capacity to understand oneself, one\'s inner feelings, motivations, fears, and personal goals.',
-    topicRef: '6.0 Gardner Multiple Intelligences'
+    "correctAnswer": "A",
+    "explanation": "Stage 2 (Toddlerhood, 18 mos - 3 yrs) is Autonomy vs Shame and Doubt; over-controlling or mocking attempts at independence causes feelings of inadequacy and self-doubt."
   },
   {
-    id: 11,
-    question: "Which of Gardner's intelligences is exhibited by individuals who excel at understanding other people, reading social cues, mediating conflicts, and leading groups?",
-    options: [
-      { key: 'A', text: 'Interpersonal Intelligence' },
-      { key: 'B', text: 'Intrapersonal Intelligence' },
-      { key: 'C', text: 'Bodily-Kinesthetic Intelligence' },
-      { key: 'D', text: 'Logical-Mathematical Intelligence' }
+    "id": 11,
+    "topicRef": "Erikson: Initiative vs Guilt (Stage 3)",
+    "question": "Preschoolers (ages 3–5) eagerly plan games, create make-believe role plays, and ask endless questions. When encouraged by teachers, they acquire the psychosocial virtue of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Purpose (Initiative vs Guilt)"
+      },
+      {
+        "key": "B",
+        "text": "Fidelity"
+      },
+      {
+        "key": "C",
+        "text": "Love"
+      },
+      {
+        "key": "D",
+        "text": "Wisdom"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Interpersonal intelligence is people-smart: the ability to empathize, communicate effectively, understand others\' perspectives, and collaborate.',
-    topicRef: '6.0 Gardner Multiple Intelligences'
+    "correctAnswer": "A",
+    "explanation": "Stage 3 (Preschool) is Initiative vs Guilt; supportive exploration and creative play allow children to develop a sense of Purpose."
   },
   {
-    id: 12,
-    question: "In Sigmund Freud's Psychosexual Stages of Development, during which stage (ages 6 to puberty) are sexual drives dormant and energy is channeled into academic learning, sports, and friendships?",
-    options: [
-      { key: 'A', text: 'Latency Stage' },
-      { key: 'B', text: 'Oral Stage' },
-      { key: 'C', text: 'Phallic Stage' },
-      { key: 'D', text: 'Genital Stage' }
+    "id": 12,
+    "topicRef": "Erikson: Industry vs Inferiority (Stage 4)",
+    "question": "During elementary school years (ages 6–12), children take pride in mastering reading, arithmetic, sports, and school projects. What crisis and resulting virtue characterize this stage?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Industry vs Inferiority -> Virtue: Competence"
+      },
+      {
+        "key": "B",
+        "text": "Identity vs Role Confusion -> Virtue: Fidelity"
+      },
+      {
+        "key": "C",
+        "text": "Trust vs Mistrust -> Virtue: Hope"
+      },
+      {
+        "key": "D",
+        "text": "Intimacy vs Isolation -> Virtue: Love"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Latency stage (school-age years) features repressed sexual impulses while children invest their psychic energy in intellectual, social, and motor development.',
-    topicRef: '7.0 Freud Psychosexual Stages'
+    "correctAnswer": "A",
+    "explanation": "Stage 4 (School Age) is Industry vs Inferiority; positive teacher recognition for task mastery fosters a sense of Competence and work ethic."
   },
   {
-    id: 13,
-    question: "According to Ivan Pavlov's Classical Conditioning, what was the meat powder in the famous dog experiment before conditioning occurred?",
-    options: [
-      { key: 'A', text: 'Unconditioned Stimulus (UCS)' },
-      { key: 'B', text: 'Conditioned Stimulus (CS)' },
-      { key: 'C', text: 'Conditioned Response (CR)' },
-      { key: 'D', text: 'Extinction' }
+    "id": 13,
+    "topicRef": "Erikson: Identity vs Role Confusion (Stage 5)",
+    "question": "An adolescent explores different career paths, personal values, religious beliefs, and social peer groups to answer the question 'Who am I?'. This represents Erikson's crisis of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identity vs Role Confusion (Virtue: Fidelity)"
+      },
+      {
+        "key": "B",
+        "text": "Generativity vs Stagnation"
+      },
+      {
+        "key": "C",
+        "text": "Integrity vs Despair"
+      },
+      {
+        "key": "D",
+        "text": "Autonomy vs Shame"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The meat powder naturally and automatically triggered salivation without prior training, making it the Unconditioned Stimulus (UCS).',
-    topicRef: '8.0 Classical Conditioning'
+    "correctAnswer": "A",
+    "explanation": "Stage 5 (Adolescence, 12-18 yrs) centers on Identity vs Role Confusion, resolving through forming an integrated personal self-concept and the virtue of Fidelity."
   },
   {
-    id: 14,
-    question: "In B.F. Skinner's Operant Conditioning, what is 'Negative Reinforcement'?",
-    options: [
-      { key: 'A', text: 'Removing or terminating an unpleasant/aversive stimulus following a desired behavior to increase the likelihood of that behavior recurring' },
-      { key: 'B', text: 'Spanking a child for misbehavior' },
-      { key: 'C', text: 'Ignoring good behavior' },
-      { key: 'D', text: 'Taking away a child\'s favorite toy' }
+    "id": 14,
+    "topicRef": "Identity Statuses (James Marcia)",
+    "question": "According to James Marcia, an adolescent who has experienced no identity crisis and simply blindly adopted the religious and political views dictated by his parents is in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identity Foreclosure"
+      },
+      {
+        "key": "B",
+        "text": "Identity Diffusion"
+      },
+      {
+        "key": "C",
+        "text": "Identity Moratorium"
+      },
+      {
+        "key": "D",
+        "text": "Identity Achievement"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Negative reinforcement strengthens a desired behavior by removing an aversive condition (e.g., turning off an annoying buzzer once a seatbelt is fastened).',
-    topicRef: '8.0 Operant Conditioning'
+    "correctAnswer": "A",
+    "explanation": "Marcia's 4 statuses: Foreclosure (commitment without exploration/blind conformity), Diffusion (no exploration, no commitment), Moratorium (active crisis/exploring), Achievement (commitment after crisis)."
   },
   {
-    id: 15,
-    question: "What is 'Egocentrism' in Piaget's Preoperational Stage of cognitive development?",
-    options: [
-      { key: 'A', text: 'The child\'s inability to perceive a physical situation or perspective from someone else\'s point of view' },
-      { key: 'B', text: 'Extreme selfishness and greed' },
-      { key: 'C', text: 'Advanced leadership ability' },
-      { key: 'D', text: 'High self-esteem' }
+    "id": 15,
+    "topicRef": "Piaget: Schema, Assimilation, Accommodation",
+    "question": "A toddler who knows the word 'dog' sees a four-legged cat for the first time and calls it a 'doggy'. According to Piaget, what cognitive process just occurred?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Assimilation (fitting new information into an existing schema)"
+      },
+      {
+        "key": "B",
+        "text": "Accommodation (modifying existing schema to fit new reality)"
+      },
+      {
+        "key": "C",
+        "text": "Equilibration"
+      },
+      {
+        "key": "D",
+        "text": "Decentration"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Piaget demonstrated through the Three Mountain Task that young children assume everyone sees, hears, and feels exactly what they do.',
-    topicRef: '1.0 Piaget Preoperational Thought'
+    "correctAnswer": "A",
+    "explanation": "Assimilation fits new sensory data into pre-existing cognitive structures (schemas). When the child is corrected and creates a new category for 'cat', Accommodation occurs."
   },
   {
-    id: 16,
-    question: "In Lev Vygotsky's theory, what is 'Private Speech' in young children?",
-    options: [
-      { key: 'A', text: 'Self-directed talk used by children to guide, regulate, and plan their own thinking and problem-solving actions before it becomes internalized as inner thought' },
-      { key: 'B', text: 'Whispering gossip to friends' },
-      { key: 'C', text: 'A speech impediment' },
-      { key: 'D', text: 'Talking in one\'s sleep' }
+    "id": 16,
+    "topicRef": "Piaget: Sensorimotor Stage - Object Permanence",
+    "question": "A 5-month-old infant stops looking for a ball when it rolls behind a sofa cushion as if it ceased to exist. Around 8–9 months, the infant actively searches for the hidden ball. Piaget called this milestone:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Object Permanence"
+      },
+      {
+        "key": "B",
+        "text": "Conservation"
+      },
+      {
+        "key": "C",
+        "text": "Egocentrism"
+      },
+      {
+        "key": "D",
+        "text": "Seriation"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Vygotsky viewed private speech (talking aloud to oneself) as a critical metacognitive tool that facilitates self-regulation and executive control.',
-    topicRef: '9.0 Vygotsky Socio-Cultural Theory'
+    "correctAnswer": "A",
+    "explanation": "Object Permanence (mastered in Sensorimotor Stage, 0-2 yrs) is the understanding that objects continue to exist even when they cannot be seen, heard, or touched."
   },
   {
-    id: 17,
-    question: "In Information Processing Theory, what are the three basic structural memory stores?",
-    options: [
-      { key: 'A', text: 'Sensory Memory, Short-Term / Working Memory, and Long-Term Memory' },
-      { key: 'B', text: 'Hard drive, RAM, and Monitor' },
-      { key: 'C', text: 'Conscious, Subconscious, and Unconscious' },
-      { key: 'D', text: 'Oral, Anal, and Phallic' }
+    "id": 17,
+    "topicRef": "Piaget: Preoperational Stage - Centration & Conservation",
+    "question": "A 4-year-old insists that water poured from a short, wide glass into a tall, thin glass became 'more water' because the liquid level is higher. What cognitive limitation is demonstrated?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Centration (focusing on only one perceptual feature—height—while ignoring width) and lack of Conservation"
+      },
+      {
+        "key": "B",
+        "text": "Formal Deductive Logic"
+      },
+      {
+        "key": "C",
+        "text": "Hypothetico-Deductive Reasoning"
+      },
+      {
+        "key": "D",
+        "text": "Transitive Inference"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Atkinson-Shiffrin model organizes memory flow from brief Sensory Memory (milliseconds) to Working Memory (7±2 items) to permanent Long-Term Memory.',
-    topicRef: '10.0 Information Processing Theory'
+    "correctAnswer": "A",
+    "explanation": "Preoperational children (2-7 yrs) exhibit Centration (centering on one visual dimension like height) and lack Conservation (understanding quantity remains identical despite shape change)."
   },
   {
-    id: 18,
-    question: "What is 'Schema' (or Scheme) in Piaget's cognitive theory?",
-    options: [
-      { key: 'A', text: 'A cognitive framework or mental building block of knowledge that helps individuals organize and interpret information' },
-      { key: 'B', text: 'A devious criminal plot' },
-      { key: 'C', text: 'A written syllabus outline' },
-      { key: 'D', text: 'A multiple choice question' }
+    "id": 18,
+    "topicRef": "Piaget: Preoperational Stage - Egocentrism (Three Mountain Task)",
+    "question": "In Piaget's Three Mountain Task, preoperational children believe that a doll seated on the opposite side of the table sees the exact same mountain view as they do. This illustrates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Egocentrism (inability to perceive the physical or emotional perspective of another person)"
+      },
+      {
+        "key": "B",
+        "text": "Animism"
+      },
+      {
+        "key": "C",
+        "text": "Reversibility"
+      },
+      {
+        "key": "D",
+        "text": "Metacognition"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Schemata are mental structures that organize categories of knowledge and relationships.',
-    topicRef: '1.0 Piagetian Concepts'
+    "correctAnswer": "A",
+    "explanation": "Preoperational Egocentrism is the cognitive limitation where the child assumes everyone sees, hears, and feels the world exactly as they do."
   },
   {
-    id: 19,
-    question: "What is 'Accommodation' compared to 'Assimilation' in Piaget's equilibration process?",
-    options: [
-      { key: 'A', text: 'Assimilation fits new information into existing schemas; Accommodation modifies or creates new schemas when new information contradicts existing understanding' },
-      { key: 'B', text: 'Accommodation is physical lodging' },
-      { key: 'C', text: 'Assimilation is forgetting; accommodation is remembering' },
-      { key: 'D', text: 'There is no difference' }
+    "id": 19,
+    "topicRef": "Piaget: Preoperational - Animism",
+    "question": "When a 3-year-old child bumps his head against a table and says: 'The bad table is angry and hurt me on purpose!', he is demonstrating:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Animism (attributing lifelike qualities, emotions, and intentions to inanimate objects)"
+      },
+      {
+        "key": "B",
+        "text": "Artificialism"
+      },
+      {
+        "key": "C",
+        "text": "Deduction"
+      },
+      {
+        "key": "D",
+        "text": "Class Inclusion"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Assimilation integrates new inputs into pre-existing cognitive structures, while accommodation reshapes cognitive structures in response to novel disequilibrium.',
-    topicRef: '1.0 Piaget Assimilation vs Accommodation'
+    "correctAnswer": "A",
+    "explanation": "Animism is the preoperational belief that inanimate objects (tables, sun, clouds, toys) possess conscious life, feelings, and intentions."
   },
   {
-    id: 20,
-    question: "In John Bowlby and Mary Ainsworth's Attachment Theory, which attachment style is characterized by a child who explores freely in the caregiver's presence, is distressed when the caregiver leaves, and is easily soothed upon the caregiver's return?",
-    options: [
-      { key: 'A', text: 'Secure Attachment' },
-      { key: 'B', text: 'Insecure-Avoidant Attachment' },
-      { key: 'C', text: 'Insecure-Resistant / Ambivalent Attachment' },
-      { key: 'D', text: 'Disorganized Attachment' }
+    "id": 20,
+    "topicRef": "Piaget: Concrete Operational Stage (7–11 yrs)",
+    "question": "A 9-year-old student can arrange sticks in order from shortest to longest (Seriation) and understands that if Stick A > Stick B and Stick B > Stick C, then Stick A > Stick C (Transitivity). This child is in the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Concrete Operational Stage"
+      },
+      {
+        "key": "B",
+        "text": "Sensorimotor Stage"
+      },
+      {
+        "key": "C",
+        "text": "Preoperational Stage"
+      },
+      {
+        "key": "D",
+        "text": "Post-Formal Stage"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Secure attachment stems from sensitive, responsive parenting, providing the child with a secure emotional base for healthy socio-emotional exploration.',
-    topicRef: '11.0 Attachment Theory'
+    "correctAnswer": "A",
+    "explanation": "The Concrete Operational Stage (7-11 yrs) is marked by logical operations on concrete tangible objects: Decentration, Reversibility, Conservation, Seriation, and Classification."
   },
   {
-    id: 21,
-    question: "What is 'Animism' in Piaget's Preoperational stage?",
-    options: [
-      { key: 'A', text: 'The belief that inanimate objects (such as the sun, toys, or rocks) have lifelike qualities, feelings, and intentions' },
-      { key: 'B', text: 'Loving biological animals' },
-      { key: 'C', text: 'Drawing cartoon animations' },
-      { key: 'D', text: 'Fear of insects' }
+    "id": 21,
+    "topicRef": "Piaget: Formal Operational Stage (11+ yrs)",
+    "question": "An adolescent can formulate abstract hypotheses, test variables systematically, contemplate philosophical possibilities, and engage in 'Hypothetico-Deductive Reasoning'. Piaget placed this in the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Formal Operational Stage"
+      },
+      {
+        "key": "B",
+        "text": "Concrete Operational Stage"
+      },
+      {
+        "key": "C",
+        "text": "Preoperational Stage"
+      },
+      {
+        "key": "D",
+        "text": "Sensorimotor Stage"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Preoperational children naturally attribute human consciousness, thoughts, and emotions to non-living objects (e.g., "The sidewalk was mad at me and tripped me").',
-    topicRef: '1.0 Piaget Preoperational Stage'
+    "correctAnswer": "A",
+    "explanation": "Formal Operational Stage (11-15+ yrs) introduces abstract logic, hypothetical thinking, deductive reasoning, and metacognitive reflection beyond tangible physical objects."
   },
   {
-    id: 22,
-    question: "In Diana Baumrind's Parenting Styles, which parenting style is characterized by high warmth and high expectations, open communication, and democratic reasoning?",
-    options: [
-      { key: 'A', text: 'Authoritative Parenting' },
-      { key: 'B', text: 'Authoritarian Parenting' },
-      { key: 'C', text: 'Permissive Parenting' },
-      { key: 'D', text: 'Neglectful / Uninvolved Parenting' }
+    "id": 22,
+    "topicRef": "Vygotsky: Private Speech",
+    "question": "According to Lev Vygotsky, why do young children engage in 'Private Speech' (talking aloud to themselves while solving a difficult puzzle)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It serves as an essential tool for self-regulation, cognitive guidance, and planning behavior, which later internalizes into silent inner thought."
+      },
+      {
+        "key": "B",
+        "text": "It is a sign of psychiatric illness."
+      },
+      {
+        "key": "C",
+        "text": "It is meaningless babble that should be strictly punished."
+      },
+      {
+        "key": "D",
+        "text": "It indicates hearing impairment."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Authoritative parenting produces the highest emotional resilience, academic self-efficacy, and social competence in children and youth.',
-    topicRef: '12.0 Parenting Styles & Development'
+    "correctAnswer": "A",
+    "explanation": "Vygotsky demonstrated that Private Speech is a vital developmental bridge where external verbal communication transforms into internal self-regulation and thought."
   },
   {
-    id: 23,
-    question: "What is 'Self-Efficacy' in Albert Bandura's theory?",
-    options: [
-      { key: 'A', text: 'An individual\'s belief in their own capability to successfully execute specific tasks and achieve designated performance outcomes' },
-      { key: 'B', text: 'General high self-esteem' },
-      { key: 'C', text: 'Being selfish and arrogant' },
-      { key: 'D', text: 'Physical hand strength' }
+    "id": 23,
+    "topicRef": "Vygotsky: More Knowledgeable Other (MKO)",
+    "question": "In Vygotsky's theory, the 'More Knowledgeable Other' (MKO) can be:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A teacher, parent, skilled peer, or even educational computer software with greater competence than the learner in a specific task."
+      },
+      {
+        "key": "B",
+        "text": "Only a university professor with a PhD."
+      },
+      {
+        "key": "C",
+        "text": "Only a parent."
+      },
+      {
+        "key": "D",
+        "text": "The younger sibling."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Self-efficacy (task-specific confidence) determines how much effort people expend, their persistence in the face of obstacles, and their resilience.',
-    topicRef: '4.0 Bandura Self-Efficacy'
+    "correctAnswer": "A",
+    "explanation": "The MKO refers to anyone (adult, expert peer, or interactive digital mentor) who has a higher ability level or better understanding than the learner regarding a specific concept."
   },
   {
-    id: 24,
-    question: "What is 'Metacognition' and its two primary components identified by John Flavell?",
-    options: [
-      { key: 'A', text: 'Knowledge of Cognition (person, task, strategy) and Regulation of Cognition (planning, monitoring, evaluating)' },
-      { key: 'B', text: 'IQ score and EQ score' },
-      { key: 'C', text: 'Input and output' },
-      { key: 'D', text: 'Short-term memory and long-term memory' }
+    "id": 24,
+    "topicRef": "Kohlberg: Level 1 - Pre-Conventional Morality (Stage 1)",
+    "question": "In Kohlberg's Heinz Dilemma, a child reasons: 'Heinz should not steal the medicine because if he gets caught, the police will put him in prison.' This reasoning represents:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage 1: Punishment and Obedience Orientation (Pre-Conventional)"
+      },
+      {
+        "key": "B",
+        "text": "Stage 3: Good Boy / Nice Girl Orientation"
+      },
+      {
+        "key": "C",
+        "text": "Stage 5: Social Contract Orientation"
+      },
+      {
+        "key": "D",
+        "text": "Stage 6: Universal Ethical Principles"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Flavell defined metacognition as awareness of one\'s own cognitive processes (knowledge) and the conscious control over those processes (self-regulation).',
-    topicRef: '10.0 Metacognitive Development'
+    "correctAnswer": "A",
+    "explanation": "Stage 1 morality evaluates right and wrong purely on external physical consequences (avoiding punishment from superior authority)."
   },
   {
-    id: 25,
-    question: "In Lawrence Kohlberg's Heinz Dilemma, if a participant argues that Heinz should steal the drug because 'a human life is inherently worth more than a pharmacist\'s property right and universal human dignity must be protected,' which stage is represented?",
-    options: [
-      { key: 'A', text: 'Stage 6: Universal Ethical Principles' },
-      { key: 'B', text: 'Stage 1: Punishment and Obedience' },
-      { key: 'C', text: 'Stage 3: Good Boy / Nice Girl' },
-      { key: 'D', text: 'Stage 4: Law and Order' }
+    "id": 25,
+    "topicRef": "Kohlberg: Level 1 - Stage 2 (Individualism & Exchange)",
+    "question": "A student agrees to share his homework answers with a classmate only because the classmate promised to buy him lunch in return ('You scratch my back, I'll scratch yours'). This is Kohlberg's:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage 2: Instrumental Relativist / Naive Hedonistic Orientation"
+      },
+      {
+        "key": "B",
+        "text": "Stage 1: Punishment & Obedience"
+      },
+      {
+        "key": "C",
+        "text": "Stage 4: Law and Order"
+      },
+      {
+        "key": "D",
+        "text": "Stage 6: Universal Ethics"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Stage 6 represents postconventional reasoning grounded in universal ethical principles of justice, equality, and the absolute sanctity of human life.',
-    topicRef: '3.0 Kohlberg Heinz Dilemma'
+    "correctAnswer": "A",
+    "explanation": "Stage 2 is transactional and self-interested: right behavior satisfies one's own immediate needs and involves pragmatic marketplace reciprocity."
   },
   {
-    id: 26,
-    question: "In Maria Montessori's educational philosophy, what are 'Sensitive Periods' in child development?",
-    options: [
-      { key: 'A', text: 'Genetically programmed time windows during early childhood where the brain is exceptionally receptive to acquiring specific skills (e.g., language, order, movement)' },
-      { key: 'B', text: 'Times when a child is crying' },
-      { key: 'C', text: 'Periods of severe physical illness' },
-      { key: 'D', text: 'Recess breaks' }
+    "id": 26,
+    "topicRef": "Kohlberg: Level 2 - Stage 3 (Good Boy / Nice Girl)",
+    "question": "A student refrains from cheating on an exam because she wants her teacher and classmates to view her as an honest, trustworthy, and good person. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage 3: Interpersonal Conformity / 'Good Boy - Nice Girl' Orientation"
+      },
+      {
+        "key": "B",
+        "text": "Stage 1: Punishment and Obedience"
+      },
+      {
+        "key": "C",
+        "text": "Stage 5: Social Contract"
+      },
+      {
+        "key": "D",
+        "text": "Stage 2: Marketplace Exchange"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Montessori identified sensitive periods where children have an intense, natural fascination and effortless capacity for mastering particular developmental competencies.',
-    topicRef: '13.0 Montessori Developmental Principles'
+    "correctAnswer": "A",
+    "explanation": "Stage 3 (Conventional) defines right action by living up to social expectations, seeking peer/teacher approval, and being seen as 'good'."
   },
   {
-    id: 27,
-    question: "What is 'Centration' in Piaget's Preoperational Stage?",
-    options: [
-      { key: 'A', text: 'The tendency of young children to focus on only one salient aspect of a situation while completely ignoring other relevant dimensions' },
-      { key: 'B', text: 'Sitting in the exact center of a classroom' },
-      { key: 'C', text: 'Meditating quietly' },
-      { key: 'D', text: 'Balancing a scale' }
+    "id": 27,
+    "topicRef": "Kohlberg: Level 2 - Stage 4 (Law and Order / Authority)",
+    "question": "'Rules must be obeyed strictly by everyone without exception, because without laws, society would collapse into total chaos.' Kohlberg classifies this as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage 4: Law and Order / Social System Maintenance Orientation"
+      },
+      {
+        "key": "B",
+        "text": "Stage 2: Individual Exchange"
+      },
+      {
+        "key": "C",
+        "text": "Stage 6: Universal Principles"
+      },
+      {
+        "key": "D",
+        "text": "Stage 1: Obedience"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Centration limits preoperational logical reasoning because the child fixes attention on one visual clue (like water height) while neglecting width.',
-    topicRef: '1.0 Piaget Preoperational Stage'
+    "correctAnswer": "A",
+    "explanation": "Stage 4 focuses on maintaining social order, respecting institutional authority, and performing one's prescribed civic duty."
   },
   {
-    id: 28,
-    question: "In Erikson's psychosocial model, what is the crisis experienced during Toddlerhood (ages 1 to 3)?",
-    options: [
-      { key: 'A', text: 'Autonomy vs. Shame and Doubt' },
-      { key: 'B', text: 'Generativity vs. Stagnation' },
-      { key: 'C', text: 'Ego Integrity vs. Despair' },
-      { key: 'D', text: 'Identity vs. Role Confusion' }
+    "id": 28,
+    "topicRef": "Kohlberg: Level 3 - Post-Conventional Morality (Stage 5 & 6)",
+    "question": "A person breaks an unjust discriminatory segregation law and willingly accepts arrest, arguing that human rights, justice, and human dignity transcend unjust statutory laws. This reasoning represents:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage 6: Universal Ethical Principles (Post-Conventional)"
+      },
+      {
+        "key": "B",
+        "text": "Stage 1: Punishment and Obedience"
+      },
+      {
+        "key": "C",
+        "text": "Stage 2: Hedonistic Exchange"
+      },
+      {
+        "key": "D",
+        "text": "Stage 4: Law and Order"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Toddlers develop "Autonomy" when given supportive opportunities to make simple choices (potty training, dressing); over-control or ridicule breeds "Shame and Doubt."',
-    topicRef: '2.0 Erikson Psychosocial Stages'
+    "correctAnswer": "A",
+    "explanation": "Stage 6 represents the pinnacle of post-conventional moral reasoning: self-chosen universal ethical principles of justice, equality, and human dignity that transcend civil laws."
   },
   {
-    id: 29,
-    question: "What is 'Cephalocaudal' development in physical motor growth?",
-    options: [
-      { key: 'A', text: 'Development proceeds from the head downward to the feet (Head-to-Toe progression)' },
-      { key: 'B', text: 'Development proceeds from the center of the body outward to the extremities' },
-      { key: 'C', text: 'Development proceeds from right to left' },
-      { key: 'D', text: 'Development that occurs only during sleep' }
+    "id": 29,
+    "topicRef": "Bronfenbrenner: Ecological Systems Theory (5 Systems)",
+    "question": "In Urie Bronfenbrenner's Bioecological Model, which system consists of the direct, immediate face-to-face environments where the child lives and interacts daily (family, classroom, peer group)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Microsystem"
+      },
+      {
+        "key": "B",
+        "text": "Mesosystem"
+      },
+      {
+        "key": "C",
+        "text": "Exosystem"
+      },
+      {
+        "key": "D",
+        "text": "Macrosystem"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cephalocaudal pattern (head-to-tail) dictates that infants gain control over neck and facial muscles first, followed by arms, torso, and finally legs.',
-    topicRef: '14.0 Physical & Motor Development'
+    "correctAnswer": "A",
+    "explanation": "The Microsystem is the innermost layer of immediate direct relationships and face-to-face settings (home, school classroom, neighborhood play area)."
   },
   {
-    id: 30,
-    question: "What is 'Proximodistal' development in physical motor growth?",
-    options: [
-      { key: 'A', text: 'Development proceeds from the center / trunk of the body outward toward the extremities (limbs, fingers, and toes)' },
-      { key: 'B', text: 'Head to toe' },
-      { key: 'C', text: 'Back to front' },
-      { key: 'D', text: 'Outer skin to inner organs' }
+    "id": 30,
+    "topicRef": "Bronfenbrenner: Mesosystem",
+    "question": "A collaborative parent-teacher conference (PTA meeting) where parents and teachers coordinate strategies to support a struggling learner is an interaction within the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mesosystem (interconnections between microsystems)"
+      },
+      {
+        "key": "B",
+        "text": "Exosystem"
+      },
+      {
+        "key": "C",
+        "text": "Macrosystem"
+      },
+      {
+        "key": "D",
+        "text": "Chronosystem"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Proximodistal progression explains why children develop gross motor arm and leg control before mastering fine motor finger dexterity.',
-    topicRef: '14.0 Physical & Motor Development'
+    "correctAnswer": "A",
+    "explanation": "The Mesosystem encompasses linkages and interactions between two or more of the child's microsystems (e.g. home-school relationship)."
   },
   {
-    id: 31,
-    question: "In Thorndike's Connectionism, what does the 'Law of Effect' state?",
-    options: [
-      { key: 'A', text: 'Responses followed by satisfying consequences are strengthened and more likely to recur; responses followed by discomfort are weakened' },
-      { key: 'B', text: 'Practice makes perfect automatically without feedback' },
-      { key: 'C', text: 'Students learn only when threatened' },
-      { key: 'D', text: 'Learning occurs in one second' }
+    "id": 31,
+    "topicRef": "Bronfenbrenner: Exosystem",
+    "question": "A mother's workplace implements flexible work hours and paid family leave, reducing parental stress at home and indirectly benefiting her child's emotional well-being. This workplace setting is part of the child's:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Exosystem"
+      },
+      {
+        "key": "B",
+        "text": "Microsystem"
+      },
+      {
+        "key": "C",
+        "text": "Mesosystem"
+      },
+      {
+        "key": "D",
+        "text": "Chronosystem"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Edward Thorndike\'s Law of Effect formed the historical foundation for operant conditioning: positive outcomes reinforce stimulus-response connections.',
-    topicRef: '8.0 Thorndike Laws of Learning'
+    "correctAnswer": "A",
+    "explanation": "The Exosystem contains settings that do not physically contain the developing child, but indirectly affect the child's immediate environment (e.g., parents' workplace, school board policies)."
   },
   {
-    id: 32,
-    question: "What is 'Premack Principle' (Grandma's Rule) in behavioral motivation?",
-    options: [
-      { key: 'A', text: 'A high-probability / preferred behavior (e.g., playing video games) can be used to reinforce a low-probability / less-preferred behavior (e.g., finishing math homework)' },
-      { key: 'B', text: 'Grandmothers should teach all primary grades' },
-      { key: 'C', text: 'Giving dessert before dinner' },
-      { key: 'D', text: 'Punishing children with chores' }
+    "id": 32,
+    "topicRef": "Bronfenbrenner: Macrosystem",
+    "question": "The overarching cultural values, religious ideologies, socio-economic laws, and national educational policies of a society constitute Bronfenbrenner's:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Macrosystem"
+      },
+      {
+        "key": "B",
+        "text": "Microsystem"
+      },
+      {
+        "key": "C",
+        "text": "Exosystem"
+      },
+      {
+        "key": "D",
+        "text": "Mesosystem"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Premack Principle states that access to a desirable activity serves as a powerful contingent reinforcer for completing a less desirable task.',
-    topicRef: '8.0 Behavioral Principles'
+    "correctAnswer": "A",
+    "explanation": "The Macrosystem is the broad cultural blueprint: cultural values, national belief systems, socio-economic structures, and state laws that permeate all lower systems."
   },
   {
-    id: 33,
-    question: "What is 'Personal Fable' in adolescent cognitive egocentrism (David Elkind)?",
-    options: [
-      { key: 'A', text: 'An adolescent\'s belief that their feelings and experiences are completely unique, and that they are invulnerable to harm or tragedy ("It won\'t happen to me")' },
-      { key: 'B', text: 'Writing an autobiography in English class' },
-      { key: 'C', text: 'Telling lies to parents' },
-      { key: 'D', text: 'A fairy tale read by children' }
+    "id": 33,
+    "topicRef": "Bronfenbrenner: Chronosystem",
+    "question": "The socio-historical timing of growing up during a global pandemic (COVID-19) or transitioning through a parental divorce at age 7 belongs to the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chronosystem (the temporal dimension / changes over time)"
+      },
+      {
+        "key": "B",
+        "text": "Microsystem"
+      },
+      {
+        "key": "C",
+        "text": "Mesosystem"
+      },
+      {
+        "key": "D",
+        "text": "Exosystem"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Personal fable leads adolescents to feel special, misunderstood, and invincible, often contributing to high-risk behaviors.',
-    topicRef: '1.0 Adolescent Egocentrism'
+    "correctAnswer": "A",
+    "explanation": "The Chronosystem incorporates the temporal dimension: life transitions, cumulative historical events, and socio-historical circumstances that alter developmental trajectories over time."
   },
   {
-    id: 34,
-    question: "What is 'Imaginary Audience' in adolescent cognitive egocentrism (David Elkind)?",
-    options: [
-      { key: 'A', text: 'An adolescent\'s belief that everyone around them is constantly watching, judging, and scrutinizing their appearance and actions' },
-      { key: 'B', text: 'Listening to an empty radio frequency' },
-      { key: 'C', text: 'Performing on a theatre stage with no spectators' },
-      { key: 'D', text: 'Having an imaginary childhood friend' }
+    "id": 34,
+    "topicRef": "Attachment Theory: Strange Situation (Ainsworth)",
+    "question": "In Mary Ainsworth's Strange Situation experiment, a child who explores the room freely in the mother's presence, becomes distressed when she leaves, and is quickly comforted and happy upon her return exhibits:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Secure Attachment"
+      },
+      {
+        "key": "B",
+        "text": "Insecure-Avoidant Attachment"
+      },
+      {
+        "key": "C",
+        "text": "Insecure-Resistant / Ambivalent Attachment"
+      },
+      {
+        "key": "D",
+        "text": "Disorganized Attachment"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Imaginary audience causes acute self-consciousness in teens, who feel they are permanently on stage under public evaluation.',
-    topicRef: '1.0 Adolescent Egocentrism'
+    "correctAnswer": "A",
+    "explanation": "Secure attachment reflects healthy emotional bonding; the caregiver serves as a secure base for confident environmental exploration."
   },
   {
-    id: 35,
-    question: "In Noam Chomsky's Nativist Theory of Language Acquisition, what is the 'Language Acquisition Device' (LAD)?",
-    options: [
-      { key: 'A', text: 'An innate biological brain mechanism pre-wired with universal grammar principles that enables children to rapidly acquire spoken language' },
-      { key: 'B', text: 'A digital audio translator gadget' },
-      { key: 'C', text: 'A grammar textbook' },
-      { key: 'D', text: 'A microphone used by speech teachers' }
+    "id": 35,
+    "topicRef": "Attachment Theory: Insecure-Avoidant",
+    "question": "An infant who shows little to no distress when the mother leaves the room and actively avoids or ignores her upon her return exhibits:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Insecure-Avoidant Attachment"
+      },
+      {
+        "key": "B",
+        "text": "Secure Attachment"
+      },
+      {
+        "key": "C",
+        "text": "Insecure-Resistant Attachment"
+      },
+      {
+        "key": "D",
+        "text": "Disorganized Attachment"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Chomsky argued that human children possess an innate biological LAD that explains how language is acquired so swiftly without explicit formal training.',
-    topicRef: '15.0 Language Development'
+    "correctAnswer": "A",
+    "explanation": "Insecure-Avoidant infants show emotional detachment and avoidance of proximity upon reunion, often resulting from consistently unresponsive or rejecting maternal care."
   },
   {
-    id: 36,
-    question: "In Erikson's Psychosocial Theory, what is the positive virtue resulting from successful resolution of the crisis 'Trust vs. Mistrust' in Infancy?",
-    options: [
-      { key: 'A', text: 'Hope' },
-      { key: 'B', text: 'Will' },
-      { key: 'C', text: 'Purpose' },
-      { key: 'D', text: 'Competence' }
+    "id": 36,
+    "topicRef": "Social Learning Theory: Bobo Doll Experiment (Bandura)",
+    "question": "Albert Bandura's famous Bobo Doll experiment proved that children learn aggressive behaviors through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Observational learning and modeling (watching an adult model behave aggressively without direct reinforcement)."
+      },
+      {
+        "key": "B",
+        "text": "Inborn biological aggression only."
+      },
+      {
+        "key": "C",
+        "text": "Classical Pavlovian conditioning."
+      },
+      {
+        "key": "D",
+        "text": "Genetic inheritance exclusively."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Consistent, loving caregiving in infancy instills a fundamental trust in the world, cultivating the enduring psychosocial strength of "Hope."',
-    topicRef: '2.0 Erikson Virtues'
+    "correctAnswer": "A",
+    "explanation": "Bandura demonstrated that children vicariously acquire complex behaviors through observation and cognitive modeling of live adult models without receiving direct reinforcement."
   },
   {
-    id: 37,
-    question: "What is 'Reversibility' in Piaget's Concrete Operational Stage (ages 7 to 11)?",
-    options: [
-      { key: 'A', text: 'The cognitive understanding that actions and operations can be mentally undone or reversed back to their original state (e.g., 3 + 2 = 5, so 5 - 2 = 3)' },
-      { key: 'B', text: 'Walking backwards' },
-      { key: 'C', text: 'Rewinding a video' },
-      { key: 'D', text: 'Writing in mirror script' }
+    "id": 37,
+    "topicRef": "Bandura: 4 Core Observational Learning Processes",
+    "question": "What are the 4 sequential cognitive processes required for Observational Learning in Bandura's theory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attention -> Retention -> Motor Reproduction -> Motivation / Reinforcement"
+      },
+      {
+        "key": "B",
+        "text": "Stimulus -> Response -> Reward -> Extinction"
+      },
+      {
+        "key": "C",
+        "text": "Perception -> Memorization -> Testing -> Grading"
+      },
+      {
+        "key": "D",
+        "text": "Input -> Encoding -> Processing -> Output"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Reversibility enables concrete operational children to grasp conservation, mathematical inverses, and logical transformations.',
-    topicRef: '1.0 Piaget Concrete Operations'
+    "correctAnswer": "A",
+    "explanation": "Bandura's 4 modeling phases: 1. Attention (focusing on model), 2. Retention (remembering the behavior), 3. Reproduction (executing the physical action), and 4. Motivation (incentive/reinforcement to act)."
   },
   {
-    id: 38,
-    question: "In Bronfenbrenner's ecological model, what is the 'Chronosystem'?",
-    options: [
-      { key: 'A', text: 'The temporal dimension encompassing life transitions, socio-historical events, and the passage of time over a person\'s lifespan (e.g., living through a pandemic or war)' },
-      { key: 'B', text: 'A classroom wall clock' },
-      { key: 'C', text: 'The child\'s peer circle' },
-      { key: 'D', text: 'The school curriculum' }
+    "id": 38,
+    "topicRef": "Bandura: Self-Efficacy",
+    "question": "According to Albert Bandura, what is 'Self-Efficacy'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "An individual's personal belief in their own capability to successfully execute the actions required to achieve a specific goal."
+      },
+      {
+        "key": "B",
+        "text": "General self-esteem and pride."
+      },
+      {
+        "key": "C",
+        "text": "A physical endurance rating."
+      },
+      {
+        "key": "D",
+        "text": "IQ score."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Chronosystem captures how socio-historical epochs, technological changes, and timing of family transitions (e.g., divorce) impact development over time.',
-    topicRef: '5.0 Bronfenbrenner Bioecological Systems'
+    "correctAnswer": "A",
+    "explanation": "Self-Efficacy is task-specific confidence in one's agency to master challenges and achieve desired outcomes (built through mastery experiences, vicarious models, and verbal persuasion)."
   },
   {
-    id: 39,
-    question: "What did John B. Watson demonstrate in the controversial 'Little Albert' experiment?",
-    options: [
-      { key: 'A', text: 'Emotional responses (like fear) can be classically conditioned and generalized to similar stimuli (stimulus generalization)' },
-      { key: 'B', text: 'Children are born with natural math skills' },
-      { key: 'C', text: 'Rats make great childhood pets' },
-      { key: 'D', text: 'Fear is 100% hereditary' }
+    "id": 39,
+    "topicRef": "Bandura: Triadic Reciprocal Determinism",
+    "question": "Bandura's Triadic Reciprocal Determinism asserts that human behavior is continuously influenced by the interlocking interaction of which three components?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Personal / Cognitive Factors, Environmental Influences, and Behavior itself"
+      },
+      {
+        "key": "B",
+        "text": "Id, Ego, and Superego"
+      },
+      {
+        "key": "C",
+        "text": "Reading, Writing, and Arithmetic"
+      },
+      {
+        "key": "D",
+        "text": "Parents, Teachers, and Principals"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Watson and Rayner paired a white rat with a loud clang, conditioning Little Albert to fear white rats and generalizing the phobia to other furry white objects.',
-    topicRef: '8.0 Behavioral Conditioning'
+    "correctAnswer": "A",
+    "explanation": "Triadic Reciprocity models human functioning as a dynamic, bidirectional interplay among: 1. Internal cognitive/biological factors, 2. Environmental external forces, and 3. Ongoing Behavior."
   },
   {
-    id: 40,
-    question: "In Lawrence Kohlberg's theory, what is 'Stage 3' (Conventional Level) moral reasoning?",
-    options: [
-      { key: 'A', text: 'Good Boy / Nice Girl Orientation (Interpersonal Concordance, seeking social approval and being liked by significant others)' },
-      { key: 'B', text: 'Punishment Avoidance' },
-      { key: 'C', text: 'Social Contract' },
-      { key: 'D', text: 'Universal Human Rights' }
+    "id": 40,
+    "topicRef": "Information Processing: Memory Stores (Atkinson & Shiffrin)",
+    "question": "In the Atkinson-Shiffrin Multi-Store Model, incoming environmental sensory stimuli first enter the Sensory Memory, which has a duration of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A fraction of a second to a few seconds (1-3 seconds)"
+      },
+      {
+        "key": "B",
+        "text": "5 hours"
+      },
+      {
+        "key": "C",
+        "text": "Permanent lifetime storage"
+      },
+      {
+        "key": "D",
+        "text": "Exactly 20 minutes"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Stage 3 judges actions by intentions and conformity to peer and family expectations, seeking approval and avoiding interpersonal disapproval.',
-    topicRef: '3.0 Kohlberg Conventional Morality'
+    "correctAnswer": "A",
+    "explanation": "Sensory memory holds fleeting sensory impressions (iconic visual, echoic auditory) for very brief intervals (0.5 to 3 seconds) before fading unless attended to."
   },
   {
-    id: 41,
-    question: "What is 'Seriation' in Piaget's Concrete Operational stage?",
-    options: [
-      { key: 'A', text: 'The ability to logically arrange objects along a quantitative dimension, such as length, weight, or size (e.g., ordering sticks from shortest to longest)' },
-      { key: 'B', text: 'Watching television series' },
-      { key: 'C', text: 'Counting numbers aloud' },
-      { key: 'D', text: 'Drawing straight lines' }
+    "id": 41,
+    "topicRef": "Working Memory Capacity (George Miller)",
+    "question": "George Miller's classic 'Magic Number 7 ± 2' established that the capacity of Short-Term / Working Memory is approximately:",
+    "options": [
+      {
+        "key": "A",
+        "text": "5 to 9 chunks of information at a time"
+      },
+      {
+        "key": "B",
+        "text": "1,000 items"
+      },
+      {
+        "key": "C",
+        "text": "Unlimited"
+      },
+      {
+        "key": "D",
+        "text": "1 item"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Seriation reflects operational logic, allowing learners to order elements systematically along a continuum.',
-    topicRef: '1.0 Piaget Concrete Operations'
+    "correctAnswer": "A",
+    "explanation": "Miller (1956) showed that short-term working memory can hold 7 ± 2 items/chunks of information concurrently without conscious rehearsal strategies."
   },
   {
-    id: 42,
-    question: "In Carol Gilligan's critique of Lawrence Kohlberg's moral development model, what was her primary argument?",
-    options: [
-      { key: 'A', text: 'Kohlberg\'s model was biased toward a male "Ethic of Justice," neglecting female moral development centered around an "Ethic of Care," empathy, and relationships' },
-      { key: 'B', text: 'Kohlberg studied only animals' },
-      { key: 'C', text: 'Morality does not exist in children' },
-      { key: 'D', text: 'Kohlberg used invalid math equations' }
+    "id": 42,
+    "topicRef": "Maintenance Rehearsal vs Elaborative Rehearsal (Craik & Lockhart)",
+    "question": "Why is 'Elaborative Rehearsal' vastly superior to 'Maintenance Rehearsal' for long-term memory encoding?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Elaborative rehearsal connects new information meaningfully to existing prior knowledge and real-world examples (deep processing), while maintenance rehearsal is shallow rote repetition."
+      },
+      {
+        "key": "B",
+        "text": "Maintenance rehearsal takes 10 times longer."
+      },
+      {
+        "key": "C",
+        "text": "Elaborative rehearsal is done only by computers."
+      },
+      {
+        "key": "D",
+        "text": "Maintenance rehearsal requires singing."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Carol Gilligan (In a Different Voice) demonstrated that females often frame moral decisions around relationships, care, and responsibility rather than abstract justice.',
-    topicRef: '3.0 Gilligan Ethic of Care'
+    "correctAnswer": "A",
+    "explanation": "Levels of Processing Theory (Craik & Lockhart) shows that deep semantic elaboration creates rich neural pathways, dramatically enhancing long-term retrieval."
   },
   {
-    id: 43,
-    question: "In Lev Vygotsky's theory, who can serve as a 'More Knowledgeable Other' (MKO)?",
-    options: [
-      { key: 'A', text: 'Anyone who has a better understanding or a higher ability level than the learner for a specific task (a teacher, peer, parent, coach, or even software)' },
-      { key: 'B', text: 'Only university professors with doctorates' },
-      { key: 'C', text: 'Only biological parents' },
-      { key: 'D', text: 'Only government officials' }
+    "id": 43,
+    "topicRef": "Long-Term Memory Types: Declarative vs Procedural",
+    "question": "Remembering how to ride a bicycle, swim, or type on a keyboard without conscious verbal recitation involves which type of Long-Term Memory?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Procedural / Implicit Memory"
+      },
+      {
+        "key": "B",
+        "text": "Episodic Memory"
+      },
+      {
+        "key": "C",
+        "text": "Semantic Memory"
+      },
+      {
+        "key": "D",
+        "text": "Echoic Memory"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'An MKO is anyone with superior competence in a specific task, including more advanced classmates during peer tutoring.',
-    topicRef: '9.0 Vygotsky Socio-Cultural Theory'
+    "correctAnswer": "A",
+    "explanation": "Procedural Memory (implicit/motor memory) stores motor skills, habits, and classical conditioned responses executed automatically."
   },
   {
-    id: 44,
-    question: "What is 'Epigenetics' in modern developmental psychology?",
-    options: [
-      { key: 'A', text: 'The study of how environmental influences and life experiences (nutrition, stress, toxins) alter gene expression without changing the underlying DNA sequence' },
-      { key: 'B', text: 'A mathematical formula for IQ' },
-      { key: 'C', text: 'A physical posture exercise' },
-      { key: 'D', text: 'An ancient writing system' }
+    "id": 44,
+    "topicRef": "Long-Term Memory: Episodic vs Semantic",
+    "question": "Recalling what you had for breakfast this morning is an example of Episodic Memory, whereas knowing that 'Manila is the capital of the Philippines' is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Semantic Memory (general factual knowledge and concepts)"
+      },
+      {
+        "key": "B",
+        "text": "Procedural Memory"
+      },
+      {
+        "key": "C",
+        "text": "Sensory Memory"
+      },
+      {
+        "key": "D",
+        "text": "Flashbulb Memory"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Epigenetics demonstrates that Nature (genes) and Nurture (environment) dynamically interact: environmental factors can turn gene expressions on or off.',
-    topicRef: '14.0 Nature vs Nurture & Genetics'
+    "correctAnswer": "A",
+    "explanation": "Semantic memory stores impersonal facts, concepts, definitions, and academic rules, while Episodic memory stores personally experienced autobiographical events tied to specific times/places."
   },
   {
-    id: 45,
-    question: "What is 'Chunking' in working memory strategies?",
-    options: [
-      { key: 'A', text: 'Grouping individual pieces of information into meaningful, larger cognitive units to overcome working memory capacity limitations (e.g., 0917-123-4567)' },
-      { key: 'B', text: 'Eating heavy snacks while studying' },
-      { key: 'C', text: 'Throwing away textbook pages' },
-      { key: 'D', text: 'Memorizing dictionary definitions backward' }
+    "id": 45,
+    "topicRef": "Forgetting: Proactive vs Retroactive Interference",
+    "question": "A teacher learns the names of her new students in June, but finds that her memory of last year's student names makes it difficult to remember the new names. This is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proactive Interference (Old learning interferes with recall of new learning)"
+      },
+      {
+        "key": "B",
+        "text": "Retroactive Interference (New learning interferes with recall of old learning)"
+      },
+      {
+        "key": "C",
+        "text": "Decay Theory"
+      },
+      {
+        "key": "D",
+        "text": "Repression"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Chunking expands short-term memory capacity by consolidating isolated digits or words into structured, recognizable semantic packages.',
-    topicRef: '10.0 Memory & Cognitive Strategies'
+    "correctAnswer": "A",
+    "explanation": "Proactive Interference occurs when previously learned information (Old) impairs the retrieval of newly acquired information (New). (Remember: PRO = old hinders new; RETRO = new hinders old)."
   },
   {
-    id: 46,
-    question: "What is 'Transductive Reasoning' in Piaget's Preoperational stage?",
-    options: [
-      { key: 'A', text: 'Faulty logic that connects two particular events that occur close in time, assuming one caused the other (e.g., "I haven\'t taken my afternoon nap, so it is not afternoon yet")' },
-      { key: 'B', text: 'Formal algebraic deduction' },
-      { key: 'C', text: 'Inductive scientific reasoning' },
-      { key: 'D', text: 'Mathematical calculus' }
+    "id": 46,
+    "topicRef": "Forgetting: Retroactive Interference",
+    "question": "After studying Spanish for one semester, a student struggles to remember the French vocabulary words she mastered two years ago. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Retroactive Interference"
+      },
+      {
+        "key": "B",
+        "text": "Proactive Interference"
+      },
+      {
+        "key": "C",
+        "text": "Chunking"
+      },
+      {
+        "key": "D",
+        "text": "Primacy Effect"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Transductive thinking reasons from particular to particular rather than from general to specific (deduction) or specific to general (induction).',
-    topicRef: '1.0 Piaget Preoperational Stage'
+    "correctAnswer": "A",
+    "explanation": "Retroactive Interference happens when newly learned information (Spanish) interferes with the recall of older memories (French)."
   },
   {
-    id: 47,
-    question: "In Erikson's Psychosocial Theory, what is the core crisis of Young Adulthood (ages 18 to 40)?",
-    options: [
-      { key: 'A', text: 'Intimacy vs. Isolation' },
-      { key: 'B', text: 'Generativity vs. Stagnation' },
-      { key: 'C', text: 'Industry vs. Inferiority' },
-      { key: 'D', text: 'Initiative vs. Guilt' }
+    "id": 47,
+    "topicRef": "Maslow's Hierarchy of Needs",
+    "question": "A student arrives at school severely hungry, sleep-deprived, and shivering from cold rain. According to Abraham Maslow's Hierarchy of Needs, why will this student struggle to concentrate on higher-order mathematics?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Lower-level deficiency physiological needs (food, warmth, sleep) must be met before an individual can allocate cognitive energy toward higher growth needs (intellectual understanding, self-actualization)."
+      },
+      {
+        "key": "B",
+        "text": "Mathematics requires sleep-deprivation to master."
+      },
+      {
+        "key": "C",
+        "text": "The student has low IQ."
+      },
+      {
+        "key": "D",
+        "text": "Maslow's theory only applies to animals."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Young adults grapple with forming deep, committed, reciprocal loving relationships (Intimacy); failure leads to emotional isolation and loneliness.',
-    topicRef: '2.0 Erikson Psychosocial Stages'
+    "correctAnswer": "A",
+    "explanation": "Maslow's Hierarchy states that basic Physiological and Safety needs prepotently dominate human motivation; until deficiency needs are satisfied, higher cognitive and self-actualization drives remain blocked."
   },
   {
-    id: 48,
-    question: "What is 'Decentration' in Piaget's Concrete Operational stage?",
-    options: [
-      { key: 'A', text: 'The ability to pay attention to multiple aspects of a problem or object simultaneously (e.g., considering both height and width when assessing volume)' },
-      { key: 'B', text: 'Moving to the corner of a room' },
-      { key: 'C', text: 'Losing one\'s balance' },
-      { key: 'D', text: 'Daydreaming' }
+    "id": 48,
+    "topicRef": "Self-Determination Theory (Deci & Ryan)",
+    "question": "According to Edward Deci and Richard Ryan's Self-Determination Theory (SDT), intrinsic motivation flourishes when the learning environment satisfies which three basic psychological needs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Autonomy, Competence, and Relatedness"
+      },
+      {
+        "key": "B",
+        "text": "Power, Money, and Fame"
+      },
+      {
+        "key": "C",
+        "text": "Food, Water, and Shelter"
+      },
+      {
+        "key": "D",
+        "text": "Grades, Tests, and Medals"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Decentration is the cognitive milestone where a child overcomes tunnel-vision centration and coordinates multiple dimensions of reality.',
-    topicRef: '1.0 Piaget Concrete Operations'
+    "correctAnswer": "A",
+    "explanation": "SDT identifies 3 universal psychological needs essential for self-motivation: Autonomy (self-direction), Competence (feeling capable), and Relatedness (belonging and connection)."
   },
   {
-    id: 49,
-    question: "In Sigmund Freud's Structural Model of Personality, what represents the moral conscience and internalized societal ideals?",
-    options: [
-      { key: 'A', text: 'Superego' },
-      { key: 'B', text: 'Id' },
-      { key: 'C', text: 'Ego' },
-      { key: 'D', text: 'Libido' }
+    "id": 49,
+    "topicRef": "Attribution Theory (Bernard Weiner)",
+    "question": "A student fails an exam and thinks: 'I failed because I am naturally stupid and nothing I do can ever change that.' According to Bernard Weiner's Attribution Theory, this attribution is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Internal, Stable, and Uncontrollable (leading to learned helplessness and low motivation)"
+      },
+      {
+        "key": "B",
+        "text": "Internal, Unstable, and Controllable (Effort)"
+      },
+      {
+        "key": "C",
+        "text": "External, Unstable, and Controllable (Luck)"
+      },
+      {
+        "key": "D",
+        "text": "External, Stable, and Uncontrollable (Task difficulty)"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Superego operates as the moral compass, internalizing parental and societal values to judge righteousness and induce guilt.',
-    topicRef: '7.0 Freud Structural Personality Model'
+    "correctAnswer": "A",
+    "explanation": "Attributing failure to low ability (Internal, Stable, Uncontrollable) generates learned helplessness. Effective teachers guide students to attribute outcomes to Effort/Strategy (Internal, Unstable, Controllable)."
   },
   {
-    id: 50,
-    question: "Why is a thorough understanding of Child and Adolescent Development vital for classroom teachers?",
-    options: [
-      { key: 'A', text: 'It allows teachers to design developmentally appropriate instruction, anticipate behavioral challenges, scaffold learning effectively, and support holistic well-being' },
-      { key: 'B', text: 'To predict the future lottery numbers of students' },
-      { key: 'C', text: 'To assign identical punishments to everyone' },
-      { key: 'D', text: 'To force all students into a single mold' }
+    "id": 50,
+    "topicRef": "Expectancy-Value Theory (Eccles & Wigfield)",
+    "question": "In Expectancy-Value Theory, student motivation to engage in an academic task is determined by the product of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The student's Expectancy of success (belief that they can achieve the task) multiplied by the Value they place on the task (interest, importance, utility)."
+      },
+      {
+        "key": "B",
+        "text": "Teacher salary and class size."
+      },
+      {
+        "key": "C",
+        "text": "Test score divided by textbook weight."
+      },
+      {
+        "key": "D",
+        "text": "Number of homework questions."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Developmental science provides the pedagogical foundation for responsive teaching, authentic empathy, and effective learning design.',
-    topicRef: '1.0 Pedagogical Implications of Development'
+    "correctAnswer": "A",
+    "explanation": "Motivation = Expectancy × Value. If either expectancy of success is zero ('I can't do this') OR task value is zero ('This is useless to me'), overall academic motivation drops to zero."
+  },
+  {
+    "id": 51,
+    "topicRef": "Growth Mindset: Praise for Effort vs Praise for Intelligence",
+    "question": "Carol Dweck's research demonstrates that praising students for 'being smart' fosters a fragile Fixed Mindset, whereas praising students for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Effort, strategy, perseverance, and effective learning processes fosters a resilient Growth Mindset."
+      },
+      {
+        "key": "B",
+        "text": "Getting 100% without trying."
+      },
+      {
+        "key": "C",
+        "text": "Being naturally gifted."
+      },
+      {
+        "key": "D",
+        "text": "Finishing tests faster than peers."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Process-praise (praising effort, strategic focus, and persistence) encourages students to view challenges as growth opportunities rather than threats to innate intelligence."
+  },
+  {
+    "id": 52,
+    "topicRef": "Language Acquisition: Chomsky's LAD",
+    "question": "Noam Chomsky's Nativist Theory of language development posits that human children are biologically pre-wired with an innate neurological mechanism called the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Language Acquisition Device (LAD) and Universal Grammar"
+      },
+      {
+        "key": "B",
+        "text": "Operant Conditioning Center"
+      },
+      {
+        "key": "C",
+        "text": "Speech Translation Machine"
+      },
+      {
+        "key": "D",
+        "text": "Sensory Register"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chomsky argues that humans possess an innate biological LAD containing Universal Grammar principles, allowing rapid language acquisition from minimal environmental input."
+  },
+  {
+    "id": 53,
+    "topicRef": "Language Acquisition: Skinner's Behaviorist View",
+    "question": "In contrast to Chomsky, B.F. Skinner argued that children acquire language entirely through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Environmental imitation, adult reinforcement, and operant conditioning (shaping of vocal sounds)."
+      },
+      {
+        "key": "B",
+        "text": "Inborn biological genetics."
+      },
+      {
+        "key": "C",
+        "text": "Telepathic mental transfer."
+      },
+      {
+        "key": "D",
+        "text": "Dream states."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Skinner's 'Verbal Behavior' (1957) viewed language acquisition as learned behavior reinforced by adult feedback, praise, and association."
+  },
+  {
+    "id": 54,
+    "topicRef": "Emotional Development: Epigenetic Landscape",
+    "question": "How do supportive, warm teacher-student attachments biologically buffer against toxic stress in vulnerable children?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They lower cortisol levels and activate the prefrontal cortex for executive functioning and emotional calm."
+      },
+      {
+        "key": "B",
+        "text": "They eliminate the necessity of sleep."
+      },
+      {
+        "key": "C",
+        "text": "They alter eye color."
+      },
+      {
+        "key": "D",
+        "text": "They stop biological cell growth."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Responsive, secure relationships calm the amygdala, lower toxic stress hormones (cortisol/adrenaline), and facilitate higher-order prefrontal executive functioning."
+  },
+  {
+    "id": 55,
+    "topicRef": "Peer Sociometry: Peer Statuses",
+    "question": "In developmental sociometry, a child who receives many negative nominations and very few positive nominations from classmates is classified as a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rejected Child (at high risk for academic withdrawal, loneliness, and delinquency)"
+      },
+      {
+        "key": "B",
+        "text": "Popular Child"
+      },
+      {
+        "key": "C",
+        "text": "Neglected Child"
+      },
+      {
+        "key": "D",
+        "text": "Controversial Child"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Sociometric statuses: Popular (many +, few -), Rejected (many -, few + / high risk), Neglected (few +, few - / ignored), Controversial (many +, many -)."
+  },
+  {
+    "id": 56,
+    "topicRef": "Play in Early Childhood (Mildred Parten)",
+    "question": "Children play alongside each other with similar toys (e.g. building blocks), observing each other but without direct joint collaboration or organized division of labor. Mildred Parten classified this as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parallel Play"
+      },
+      {
+        "key": "B",
+        "text": "Solitary Play"
+      },
+      {
+        "key": "C",
+        "text": "Cooperative Play"
+      },
+      {
+        "key": "D",
+        "text": "Onlooker Behavior"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Parten's 6 stages of play: Unoccupied -> Solitary -> Onlooker -> Parallel (playing side-by-side without interaction) -> Associative -> Cooperative (organized shared goal)."
+  },
+  {
+    "id": 57,
+    "topicRef": "Play: Cooperative Play",
+    "question": "When children collaboratively build a single large cardboard castle with assigned roles (e.g. architect, bricklayer, guard), Parten classifies this highest play stage as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cooperative Play"
+      },
+      {
+        "key": "B",
+        "text": "Parallel Play"
+      },
+      {
+        "key": "C",
+        "text": "Solitary Play"
+      },
+      {
+        "key": "D",
+        "text": "Unoccupied Play"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cooperative play is organized around a common goal, with division of labor, group identity, and structured rules."
+  },
+  {
+    "id": 58,
+    "topicRef": "Physical Development: Gross vs Fine Motor Skills",
+    "question": "Which of the following activities is classified as a 'Fine Motor Skill'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Threading beads onto a string, buttoning a shirt, and cutting with scissors"
+      },
+      {
+        "key": "B",
+        "text": "Running a 100-meter sprint"
+      },
+      {
+        "key": "C",
+        "text": "Jumping over hurdles"
+      },
+      {
+        "key": "D",
+        "text": "Kicking a soccer ball"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Fine motor skills involve small muscle coordination in the hands and fingers, whereas Gross motor skills involve large muscle groups (running, jumping)."
+  },
+  {
+    "id": 59,
+    "topicRef": "Adolescent Egocentrism: Imaginary Audience (David Elkind)",
+    "question": "A 14-year-old girl refuses to attend school because she has a small pimple on her chin, believing that everyone in the entire campus will stare at and judge her all day. David Elkind terms this:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Imaginary Audience"
+      },
+      {
+        "key": "B",
+        "text": "The Personal Fable"
+      },
+      {
+        "key": "C",
+        "text": "Object Permanence"
+      },
+      {
+        "key": "D",
+        "text": "Animism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adolescent Egocentrism (Elkind) features the 'Imaginary Audience'—the egocentric belief that one is constantly under the critical surveillance of everyone around them."
+  },
+  {
+    "id": 60,
+    "topicRef": "Adolescent Egocentrism: Personal Fable",
+    "question": "A teenager engages in reckless motorcycle drag racing without a helmet, thinking: 'Tragic accidents only happen to other people, nothing bad can ever happen to me.' This cognitive distortion is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The Personal Fable (sense of personal invulnerability and uniqueness)"
+      },
+      {
+        "key": "B",
+        "text": "The Imaginary Audience"
+      },
+      {
+        "key": "C",
+        "text": "Centration"
+      },
+      {
+        "key": "D",
+        "text": "Decentration"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Personal Fable is the adolescent belief in their personal uniqueness and invulnerability, leading to high-risk behaviors and the feeling that 'no one understands me'."
+  },
+  {
+    "id": 61,
+    "topicRef": "Brain Development: Prefrontal Cortex vs Amygdala",
+    "question": "Why do adolescents frequently engage in impulsive, emotionally driven, and risk-taking decisions?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The socio-emotional Amygdala and reward systems mature early in puberty, while the rational Prefrontal Cortex (responsible for executive control and impulse inhibition) is not fully developed until the mid-20s."
+      },
+      {
+        "key": "B",
+        "text": "Adolescents have no brain cells."
+      },
+      {
+        "key": "C",
+        "text": "Their vision is impaired."
+      },
+      {
+        "key": "D",
+        "text": "It is caused entirely by school uniforms."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Neurodevelopmental research shows an evolutionary mismatch: the limbic emotional system develops during early puberty, while the prefrontal cortex finishes synaptic pruning around age 25."
+  },
+  {
+    "id": 62,
+    "topicRef": "Sleep Architecture in Adolescents",
+    "question": "The biological 'Circadian Sleep Phase Delay' in adolescents shifts their natural melatonin secretion schedule by 1–2 hours, meaning that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adolescents naturally feel tired later at night (around 11 PM) and need to sleep later in the morning for optimal cognitive functioning."
+      },
+      {
+        "key": "B",
+        "text": "Adolescents do not need any sleep at all."
+      },
+      {
+        "key": "C",
+        "text": "Adolescents should wake up at 3:00 AM every day."
+      },
+      {
+        "key": "D",
+        "text": "Sleep patterns never change across the lifespan."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Puberty triggers a natural biological circadian shift, releasing melatonin later at night and causing late sleepiness, which conflicts with early school start times."
+  },
+  {
+    "id": 63,
+    "topicRef": "Parenting Styles & Adolescent Outcomes (Diana Baumrind)",
+    "question": "Which parenting style produces adolescents with the highest academic achievement, self-reliance, emotional resilience, and prosocial leadership?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Authoritative Parenting (High warmth + High clear expectations)"
+      },
+      {
+        "key": "B",
+        "text": "Authoritarian Parenting (Low warmth + High harsh control)"
+      },
+      {
+        "key": "C",
+        "text": "Permissive Parenting (High warmth + Zero demands)"
+      },
+      {
+        "key": "D",
+        "text": "Uninvolved Parenting (Low warmth + Zero demands)"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Authoritative parenting (democratic balance of high expectations, clear boundaries, reasoned communication, and deep emotional support) yields the best developmental outcomes."
+  },
+  {
+    "id": 64,
+    "topicRef": "Moral Development: Carol Gilligan's Care Perspective",
+    "question": "Carol Gilligan critiqued Kohlberg's moral theory as gender-biased, proposing that females often approach moral dilemmas from an 'Ethic of Care' which values:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interpersonal relationships, empathy, caregiving, and preventing harm to others rather than purely abstract mathematical justice rules."
+      },
+      {
+        "key": "B",
+        "text": "Physical strength in military combat."
+      },
+      {
+        "key": "C",
+        "text": "Strict monetary greed."
+      },
+      {
+        "key": "D",
+        "text": "Absolute isolation from society."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Gilligan proposed that female moral reasoning often centers on relational responsibility, connection, and an 'Ethic of Care' complementing the 'Ethic of Justice'."
+  },
+  {
+    "id": 65,
+    "topicRef": "Child Malnutrition: Stunting vs Wasting",
+    "question": "In early childhood physical assessment, 'Stunting' is defined as low height-for-age, indicating:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chronic, long-term undernutrition and persistent poverty impairing physical and cognitive growth."
+      },
+      {
+        "key": "B",
+        "text": "Acute, sudden severe starvation (low weight-for-height)."
+      },
+      {
+        "key": "C",
+        "text": "Excessive weight from obesity."
+      },
+      {
+        "key": "D",
+        "text": "A temporary athletic injury."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Stunting reflects cumulative, chronic undernutrition and frequent illness over early childhood; Wasting reflects acute, severe short-term food deprivation."
+  },
+  {
+    "id": 66,
+    "topicRef": "Cognitive Apprenticeship in Adolescent Mentoring",
+    "question": "When a master vocational teacher guides an adolescent student by modeling, scaffolding, coaching, and gradually 'fading' support, this pedagogical model is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cognitive Apprenticeship"
+      },
+      {
+        "key": "B",
+        "text": "Rote Conditioning"
+      },
+      {
+        "key": "C",
+        "text": "Operant Extinction"
+      },
+      {
+        "key": "D",
+        "text": "Trial and Error"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cognitive Apprenticeship (Collins, Brown, Newman) brings tacit expert cognitive processes into the open through modeling, coaching, scaffolding, and gradual fading."
+  },
+  {
+    "id": 67,
+    "topicRef": "Learned Helplessness (Martin Seligman)",
+    "question": "A student repeatedly experiences academic failure despite effort and concludes: 'No matter how hard I study, I will always fail.' Martin Seligman terms this psychological state:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Learned Helplessness"
+      },
+      {
+        "key": "B",
+        "text": "Self-Efficacy"
+      },
+      {
+        "key": "C",
+        "text": "Intrinsic Motivation"
+      },
+      {
+        "key": "D",
+        "text": "Cognitive Dissonance"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Learned Helplessness occurs when organisms perceive that negative outcomes are uncontrollable, resulting in passivity, depression, and cessation of all effort."
+  },
+  {
+    "id": 68,
+    "topicRef": "Cognitive Dissonance (Leon Festinger)",
+    "question": "When a learner discovers a scientific fact that directly contradicts their deeply held personal intuition, the resulting psychological discomfort that motivates mental accommodation is called:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cognitive Dissonance / Disequilibrium"
+      },
+      {
+        "key": "B",
+        "text": "Habituation"
+      },
+      {
+        "key": "C",
+        "text": "Sensory Adaptation"
+      },
+      {
+        "key": "D",
+        "text": "Operant Extinction"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cognitive Dissonance (Festinger) / Disequilibrium (Piaget) is the uncomfortable mental tension caused by holding conflicting ideas, driving the mind to reorganize its schemas."
+  },
+  {
+    "id": 69,
+    "topicRef": "Transfer of Learning: Near vs Far Transfer",
+    "question": "Practicing driving in a parking lot and then driving on a real street is 'Near Transfer', while using chess strategy principles to navigate corporate management is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Far Transfer"
+      },
+      {
+        "key": "B",
+        "text": "Zero Transfer"
+      },
+      {
+        "key": "C",
+        "text": "Negative Transfer"
+      },
+      {
+        "key": "D",
+        "text": "Lateral Transfer only"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Near Transfer applies skills to closely similar contexts; Far Transfer applies abstract principles to fundamentally different domains and novel life challenges."
+  },
+  {
+    "id": 70,
+    "topicRef": "Transfer of Learning: Negative Transfer",
+    "question": "An experienced manual car driver accidentally steps on the brake thinking it is a clutch pedal when driving an automatic vehicle for the first time. This interference is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Negative Transfer (Prior learning impairs performance in a new situation)"
+      },
+      {
+        "key": "B",
+        "text": "Positive Transfer"
+      },
+      {
+        "key": "C",
+        "text": "Zero Transfer"
+      },
+      {
+        "key": "D",
+        "text": "Far Transfer"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Negative Transfer occurs when past learning hinders, interferes with, or degrades performance in a new task requiring different responses."
+  },
+  {
+    "id": 71,
+    "topicRef": "Developmental Readiness for Reading",
+    "question": "Which of the following is the single best predictor of early reading success in young Kindergarten children?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Phonological and Phonemic Awareness (the ability to hear, identify, and manipulate individual sounds in spoken words)"
+      },
+      {
+        "key": "B",
+        "text": "Physical height"
+      },
+      {
+        "key": "C",
+        "text": "Handwriting speed"
+      },
+      {
+        "key": "D",
+        "text": "The color of their school bag"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Phonemic awareness (blending, segmenting spoken phonemes) is the premier evidence-based foundational prerequisite for reading and phonics decoding."
+  },
+  {
+    "id": 72,
+    "topicRef": "Adolescent Identity Diffusion",
+    "question": "According to James Marcia, a teenager who is unconcerned about his future career, has explored zero options, made zero commitments, and drifts apathetically from day to day is in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identity Diffusion"
+      },
+      {
+        "key": "B",
+        "text": "Identity Foreclosure"
+      },
+      {
+        "key": "C",
+        "text": "Identity Moratorium"
+      },
+      {
+        "key": "D",
+        "text": "Identity Achievement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Identity Diffusion is characterized by lack of exploration and lack of commitment, leading to apathy, aimlessness, and low self-direction."
+  },
+  {
+    "id": 73,
+    "topicRef": "Adolescent Identity Moratorium",
+    "question": "An 18-year-old college freshman actively experiments with different majors, internships, and philosophies but has not yet settled on a final career decision. Marcia identifies this as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identity Moratorium (Active crisis / exploration phase)"
+      },
+      {
+        "key": "B",
+        "text": "Identity Foreclosure"
+      },
+      {
+        "key": "C",
+        "text": "Identity Diffusion"
+      },
+      {
+        "key": "D",
+        "text": "Identity Achievement"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Moratorium is the active exploration state: in the midst of an identity crisis, vigorously testing alternatives without having made definitive commitments."
+  },
+  {
+    "id": 74,
+    "topicRef": "Psychosocial Moratorium (Erikson)",
+    "question": "Erik Erikson coined the term 'Psychosocial Moratorium' to describe adolescence as a developmental period where society grants youth:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A sanctioned time-out to freely experiment with different social roles and career paths before taking on adult commitments."
+      },
+      {
+        "key": "B",
+        "text": "A permanent prison sentence."
+      },
+      {
+        "key": "C",
+        "text": "An immediate mandate to marry at age 12."
+      },
+      {
+        "key": "D",
+        "text": "Exemption from all laws."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Psychosocial Moratorium is a protected developmental buffer where youth explore diverse identities, passions, and vocations without premature adult obligations."
+  },
+  {
+    "id": 75,
+    "topicRef": "Holistic Child Development",
+    "question": "In designing effective teaching methodologies, professional teachers must view the learner as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A dynamic, whole individual whose cognitive, physical, emotional, moral, and social dimensions develop interdependently."
+      },
+      {
+        "key": "B",
+        "text": "A purely cognitive brain on a stick with no emotional needs."
+      },
+      {
+        "key": "C",
+        "text": "An identical, passive receptacle waiting to be filled with facts."
+      },
+      {
+        "key": "D",
+        "text": "A mini-adult with fully matured neurological reasoning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Holistic child development recognizes that learning is bio-psycho-social: physical health, emotional well-being, and social safety are inextricably linked to cognitive achievement."
   }
 ];

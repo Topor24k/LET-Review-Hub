@@ -2,653 +2,1878 @@ import { ExamQuestion } from '../../types';
 
 export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
-    id: 1,
-    question: "What is the Latin origin of the word 'Art' and what was its original historical meaning?",
-    options: [
-      { key: 'A', text: '"Ars", meaning craft, skill, technical ability, or craftsmanship' },
-      { key: 'B', text: '"Arte", meaning paint and canvas' },
-      { key: 'C', text: '"Ardor", meaning intense burning passion' },
-      { key: 'D', text: '"Artus", meaning human limbs' }
+    "id": 1,
+    "topicRef": "Assumptions of Art: Art is Universal",
+    "question": "Why is Art considered 'Universal' across all human civilizations?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Art has been created in every known human culture across all historical eras, transcending time, geographic borders, and languages to express universal human emotions."
+      },
+      {
+        "key": "B",
+        "text": "Because all artists speak English."
+      },
+      {
+        "key": "C",
+        "text": "Because all art costs the same price."
+      },
+      {
+        "key": "D",
+        "text": "Because all art is made in Europe."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Latin term "ars" originally referred to mastery of a craft, technical skill, or systematized human workmanship.',
-    topicRef: '1.0 Etymology & Nature of Art'
+    "correctAnswer": "A",
+    "explanation": "Art is universal because it is a timeless, intrinsic manifestation of the human condition present in every culture throughout recorded history."
   },
   {
-    id: 2,
-    question: "Which of the following is considered a 'Directly Functional' (Applied) Art?",
-    options: [
-      { key: 'A', text: 'Architecture and Industrial / Fashion Design' },
-      { key: 'B', text: 'Oil painting on canvas' },
-      { key: 'C', text: 'Lyric poetry' },
-      { key: 'D', text: 'Chamber music quartet' }
+    "id": 2,
+    "topicRef": "Assumptions of Art: Art is Not Nature",
+    "question": "Why is Art distinguished from Nature in aesthetic philosophy?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Art is a human creation, interpretation, and expression of reality, whereas Nature exists independently of human design and consciousness."
+      },
+      {
+        "key": "B",
+        "text": "Nature is man-made while art is natural."
+      },
+      {
+        "key": "C",
+        "text": "Art cannot depict trees."
+      },
+      {
+        "key": "D",
+        "text": "Nature is ugly while art is always pretty."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Applied/functional arts serve tangible physical utilities in daily life (such as buildings, clothing, and tools), whereas fine arts serve aesthetic contemplation.',
-    topicRef: '1.0 Functions of Art: Fine vs Applied'
+    "correctAnswer": "A",
+    "explanation": "Art is an artificial human cultural construct. A real sunset is nature; a painting of that sunset by an artist is art."
   },
   {
-    id: 3,
-    question: "What is the key difference between an 'Artist' and an 'Artisan'?",
-    options: [
-      { key: 'A', text: 'An artist focuses primarily on aesthetic and expressive creative creation; an artisan produces functional, utilitarian handcrafted goods with master craft skills' },
-      { key: 'B', text: 'An artist is wealthy; an artisan is poor' },
-      { key: 'C', text: 'An artisan is illegal' },
-      { key: 'D', text: 'They are exact synonyms' }
+    "id": 3,
+    "topicRef": "Assumptions of Art: Art Involves Experience",
+    "question": "John Dewey's aesthetic treatise 'Art as Experience' asserts that art cannot be fully understood purely through detached academic theory because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Genuine appreciation of art requires direct sensory perception, emotional resonance, and lived experiential engagement with the artwork."
+      },
+      {
+        "key": "B",
+        "text": "Artists do not have thoughts."
+      },
+      {
+        "key": "C",
+        "text": "Art has no meaning."
+      },
+      {
+        "key": "D",
+        "text": "Only wealthy collectors experience art."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Artists create fine artworks driven by conceptual, emotional, and aesthetic expression; artisans create decorative or practical utilitarian items (pottery, weaving, furniture).',
-    topicRef: '1.0 Artist vs Artisan'
+    "correctAnswer": "A",
+    "explanation": "Dewey emphasized that art is not just a static physical object on a wall, but an active aesthetic transaction experienced dynamically by the viewer."
   },
   {
-    id: 4,
-    question: "Who painted the monumental, celebrated Philippine masterpiece 'Spoliarium' which won the Gold Medal (First Class) at the 1884 Madrid National Exposition of Fine Arts?",
-    options: [
-      { key: 'A', text: 'Juan Luna' },
-      { key: 'B', text: 'Felix Resurreccion Hidalgo' },
-      { key: 'C', text: 'Fernando Amorsolo' },
-      { key: 'D', text: 'Damian Domingo' }
+    "id": 4,
+    "topicRef": "Visual Elements: Color Theory (Hue, Value, Intensity)",
+    "question": "In color theory, what is 'Intensity' (or Saturation/Chroma)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The brightness or dullness / purity of a color."
+      },
+      {
+        "key": "B",
+        "text": "The name of the color family (e.g. red, blue)."
+      },
+      {
+        "key": "C",
+        "text": "The lightness or darkness of a color (Value)."
+      },
+      {
+        "key": "D",
+        "text": "The physical weight of the paint."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Juan Luna painted Spoliarium, depicting dying gladiators in the basement of the Roman Colosseum as an allegorical critique of Spanish colonial tyranny.',
-    topicRef: '2.0 Philippine Art Masters: Juan Luna'
+    "correctAnswer": "A",
+    "explanation": "Color dimensions: Hue = color name/wavelength; Value = lightness vs darkness (tints/shades); Intensity/Saturation = purity and vividness of the pigment."
   },
   {
-    id: 5,
-    question: "Which Filipino painter won the Silver Medal at the same 1884 Madrid Exposition with his masterpiece 'Las Virgenes Cristianas Expuestas al Populacho' (Christian Virgins Exposed to the Populace)?",
-    options: [
-      { key: 'A', text: 'Felix Resurreccion Hidalgo' },
-      { key: 'B', text: 'Juan Luna' },
-      { key: 'C', text: 'Carlos \'Botong\' Francisco' },
-      { key: 'D', text: 'Fabian de la Rosa' }
+    "id": 5,
+    "topicRef": "Visual Elements: Monochromatic vs Analogous Color Schemes",
+    "question": "A painting that utilizes various tints, shades, and tones of a single color (e.g. various shades of deep navy blue, baby blue, and sky blue) uses which color harmony?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Monochromatic Color Harmony"
+      },
+      {
+        "key": "B",
+        "text": "Complementary Color Harmony"
+      },
+      {
+        "key": "C",
+        "text": "Triadic Color Harmony"
+      },
+      {
+        "key": "D",
+        "text": "Analogous Color Harmony"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Felix Resurreccion Hidalgo won the silver medal, showcasing neoclassical mastery alongside Juan Luna\'s gold medal triumph.',
-    topicRef: '2.0 Philippine Art Masters: Hidalgo'
+    "correctAnswer": "A",
+    "explanation": "Monochromatic uses variations of one single hue with different values and intensities. Analogous uses colors situated adjacent to each other on the color wheel."
   },
   {
-    id: 6,
-    question: "Who is celebrated as the Philippines\' first National Artist for Painting (1972), renowned as the 'Grand Old Man of Philippine Art' and famous for his backlighting technique (Chiaroscuro / Golden Sunlight)?",
-    options: [
-      { key: 'A', text: 'Fernando Amorsolo' },
-      { key: 'B', text: 'Vicente Manansala' },
-      { key: 'C', text: 'Benedicto Cabrera (BenCab)' },
-      { key: 'D', text: 'Ang Kiukok' }
+    "id": 6,
+    "topicRef": "Visual Elements: Complementary Colors",
+    "question": "Which of the following pairs of colors are 'Complementary Colors' located directly opposite each other on the standard color wheel?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Blue and Orange (or Red and Green / Yellow and Purple)"
+      },
+      {
+        "key": "B",
+        "text": "Red and Pink"
+      },
+      {
+        "key": "C",
+        "text": "Yellow and Lime Green"
+      },
+      {
+        "key": "D",
+        "text": "Black and White"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Fernando Amorsolo was the first National Artist of the Philippines, famed for capturing rural pastoral Philippine landscapes in luminous tropical sunlight.',
-    topicRef: '2.0 National Artists: Fernando Amorsolo'
+    "correctAnswer": "A",
+    "explanation": "Complementary pairs sit directly opposite on the color wheel: Blue-Orange, Red-Green, Yellow-Violet, creating maximum visual contrast when placed side by side."
   },
   {
-    id: 7,
-    question: "Who is the legendary National Artist for Visual Arts known for monumental historical murals such as 'Filipino Struggles Through History' in Manila City Hall?",
-    options: [
-      { key: 'A', text: 'Carlos \'Botong\' Francisco' },
-      { key: 'B', text: 'Guillermo Tolentino' },
-      { key: 'C', text: 'Jose Joya' },
-      { key: 'D', text: 'Napoleon Abueva' }
+    "id": 7,
+    "topicRef": "Principles of Design: Asymmetrical Balance",
+    "question": "When an artwork achieves visual equilibrium without identical mirror-image symmetry on both sides (e.g. balancing a large dark shape on the left with several small bright shapes on the right), it exhibits:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Asymmetrical / Informal Balance"
+      },
+      {
+        "key": "B",
+        "text": "Symmetrical / Formal Balance"
+      },
+      {
+        "key": "C",
+        "text": "Radial Balance"
+      },
+      {
+        "key": "D",
+        "text": "Total Chaos"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Carlos "Botong" Francisco revived the art of the mural in the Philippines, capturing epic historical and mythical narratives with undulating rhythmic lines.',
-    topicRef: '2.0 National Artists: Botong Francisco'
+    "correctAnswer": "A",
+    "explanation": "Asymmetrical balance achieves equal visual weight through the strategic distribution of different elements (color, contrast, texture) without literal mirroring."
   },
   {
-    id: 8,
-    question: "Who is recognized as the 'Father of Modern Philippine Sculpture' and youngest National Artist awardee, famous for works like 'Kaganapan' and the Transfiguration at Eternal Gardens?",
-    options: [
-      { key: 'A', text: 'Napoleon Abueva' },
-      { key: 'B', text: 'Guillermo Tolentino' },
-      { key: 'C', text: 'Eduardo Castrillo' },
-      { key: 'D', text: 'Solomon Saprid' }
+    "id": 8,
+    "topicRef": "Principles of Design: Chiaroscuro & Tenebrism",
+    "question": "The dramatic Renaissance and Baroque artistic technique of using intense contrast between deep shadows and brilliant highlights to create 3D volume and psychological drama is known as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Chiaroscuro (Tenebrism)"
+      },
+      {
+        "key": "B",
+        "text": "Impasto"
+      },
+      {
+        "key": "C",
+        "text": "Sfumato"
+      },
+      {
+        "key": "D",
+        "text": "Pointillism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Napoleon Abueva pioneered modern sculpture in the Philippines utilizing indigenous woods, metals, and modernist stylized forms.',
-    topicRef: '3.0 Philippine Sculptors: Napoleon Abueva'
+    "correctAnswer": "A",
+    "explanation": "Chiaroscuro (Italian for 'light-dark', perfected by Caravaggio and Rembrandt) creates dramatic tonal modeling and emotional intensity."
   },
   {
-    id: 9,
-    question: "Who sculpted the classical 'Oblation' at the University of the Philippines and the monumental 'Bonifacio Monument' in Caloocan?",
-    options: [
-      { key: 'A', text: 'Guillermo Tolentino' },
-      { key: 'B', text: 'Napoleon Abueva' },
-      { key: 'C', text: 'Damian Domingo' },
-      { key: 'D', text: 'Anastacio Caedo' }
+    "id": 9,
+    "topicRef": "Philippine Art Masters: Juan Luna's Spoliarium",
+    "question": "Juan Luna's monumental masterpiece 'Spoliarium', which won the First Class Gold Medal at the 1884 Madrid Exposición Nacional de Bellas Artes, depicts:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dead and dying gladiators being dragged into the dark basement of the Roman Coliseum, serving as a powerful allegory for the suffering and oppression of Filipinos under Spanish colonial rule."
+      },
+      {
+        "key": "B",
+        "text": "A peaceful rural rice planting festival in Bulacan."
+      },
+      {
+        "key": "C",
+        "text": "A portrait of King Philip II of Spain."
+      },
+      {
+        "key": "D",
+        "text": "A tropical fruit market."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Guillermo Tolentino was the master of classical neoclassical sculpture in the Philippines, creating the iconic UP Oblation and Bonifacio Monument.',
-    topicRef: '3.0 Philippine Sculptors: Guillermo Tolentino'
+    "correctAnswer": "A",
+    "explanation": "Luna's *Spoliarium* (1884) was celebrated by Jose Rizal as proof of Filipino genius and a vivid metaphor for the colonial exploitation of the Filipino nation."
   },
   {
-    id: 10,
-    question: "What is 'T\'nalak' cloth and which Philippine indigenous ethnolinguistic group hand-weaves it from abaca fibers using traditional dream patterns?",
-    options: [
-      { key: 'A', text: 'The T\'boli people of Lake Sebu, South Cotabato (Dreamweavers)' },
-      { key: 'B', text: 'The Ifugao of the Cordilleras' },
-      { key: 'C', text: 'The Tagalogs of Batangas' },
-      { key: 'D', text: 'The Badjaos of Sulu' }
+    "id": 10,
+    "topicRef": "Philippine Art Masters: Felix Resurreccion Hidalgo",
+    "question": "Which landmark painting by Felix Resurreccion Hidalgo won the Silver Medal at the 1884 Madrid Exposition alongside Juan Luna's Spoliarium?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Las Virgenes Cristianas Expuestas al Populacho (The Christian Virgins Exposed to the Populace)"
+      },
+      {
+        "key": "B",
+        "text": "Planting Rice"
+      },
+      {
+        "key": "C",
+        "text": "The Bonifacio Monument"
+      },
+      {
+        "key": "D",
+        "text": "The Oblation"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'T\'nalak is the sacred tri-color abaca fabric woven by T\'boli dreamweavers (like GAMABA awardee Lang Dulay) guided by dreams from the spirit Fu Dalu.',
-    topicRef: '3.0 Indigenous Philippine Textiles: T\'nalak'
+    "correctAnswer": "A",
+    "explanation": "Hidalgo's *Las Virgenes Cristianas Expuestas al Populacho* won silver in Madrid (1884), presenting a tragic classical scene admired for its refined elegance and colonial critique."
   },
   {
-    id: 11,
-    question: "What is 'Inabel' (or Abel Iloco)?",
-    options: [
-      { key: 'A', text: 'A traditional handwoven textile made by Ilocano weavers on wooden pedal looms (famed awardee: Magdalena Gamayo)' },
-      { key: 'B', text: 'A carved wooden rice spoon' },
-      { key: 'C', text: 'A bronze gong instrument' },
-      { key: 'D', text: 'A woven bamboo hat' }
+    "id": 11,
+    "topicRef": "Philippine Art Masters: Fernando Amorsolo",
+    "question": "Fernando Amorsolo, the first officially conferred National Artist of the Philippines (1972), is globally celebrated as the 'Grand Old Man of Philippine Art' for his mastery of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Backlighting (*Chiaroscuro* / Golden Sunlight) capturing idyllic Philippine rural life, lush landscapes, and graceful Filipina beauties."
+      },
+      {
+        "key": "B",
+        "text": "Dark abstract geometric metal cubes."
+      },
+      {
+        "key": "C",
+        "text": "Gothic church architecture."
+      },
+      {
+        "key": "D",
+        "text": "Violent political caricature cartoons."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Inabel is the sturdy, intricately patterned woven cotton cloth from the Ilocos region created by master weavers like GAMABA awardee Magdalena Gamayo.',
-    topicRef: '3.0 Indigenous Philippine Textiles: Inabel'
+    "correctAnswer": "A",
+    "explanation": "Amorsolo is renowned for his radiant rendering of natural tropical sunlight (backlighting technique) depicting rural Philippine pastoral scenes (*Planting Rice*, *Dalagang Bukid*)."
   },
   {
-    id: 12,
-    question: "What is 'Yakan Weaving' (Seputangan and Sinaluan) renowned for?",
-    options: [
-      { key: 'A', text: 'Intricate, brightly colored geometric and symmetrical patterns woven on backstrap looms in Basilan / Zamboanga (famed awardee: Apuh Ambalang Ausalin)' },
-      { key: 'B', text: 'Plain white silk robes' },
-      { key: 'C', text: 'Painting on leather shields' },
-      { key: 'D', text: 'Knitted wool sweaters' }
+    "id": 12,
+    "topicRef": "Philippine Sculpture: Guillermo Tolentino",
+    "question": "National Artist Guillermo Tolentino, a master of classical academic sculpture, sculpted which two iconic Philippine national monuments?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The UP Oblation and the Andres Bonifacio Monument in Caloocan"
+      },
+      {
+        "key": "B",
+        "text": "The Eiffel Tower and Statue of Liberty"
+      },
+      {
+        "key": "C",
+        "text": "The Rizal Shrine in Dapitan and Manila Cathedral"
+      },
+      {
+        "key": "D",
+        "text": "The People Power Monument and EDSA Shrine"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Yakan weavers produce highly complex, vibrant geometric tapestry cloths (Seputangan) revered for mathematical symmetry.',
-    topicRef: '3.0 Indigenous Philippine Textiles: Yakan'
+    "correctAnswer": "A",
+    "explanation": "Tolentino sculpted the iconic UP *Oblation* (symbolizing selfless offering of youth to the country) and the dramatic 45-figure *Bonifacio Monument* in Caloocan."
   },
   {
-    id: 13,
-    question: "What are the three primary 'Warm Colors' on the traditional 12-hue color wheel?",
-    options: [
-      { key: 'A', text: 'Red, Orange, and Yellow' },
-      { key: 'B', text: 'Blue, Green, and Violet' },
-      { key: 'C', text: 'Black, White, and Gray' },
-      { key: 'D', text: 'Brown, Tan, and Beige' }
+    "id": 13,
+    "topicRef": "Philippine Modern Art: The Triumvirate",
+    "question": "Which visionary artist broke away from Amorsolo's romantic realism to pioneer Philippine Modern Art with his controversial 1928 painting 'The Builders'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Victorio Edades"
+      },
+      {
+        "key": "B",
+        "text": "Fernando Amorsolo"
+      },
+      {
+        "key": "C",
+        "text": "Guillermo Tolentino"
+      },
+      {
+        "key": "D",
+        "text": "Felix Hidalgo"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Warm colors (red, orange, yellow) evoke heat, energy, sunshine, and advance visually toward the viewer in a composition.',
-    topicRef: '4.0 Elements of Art: Color Theory'
+    "correctAnswer": "A",
+    "explanation": "Victorio Edades is the 'Father of Modern Philippine Art'. His 1928 exhibition of *The Builders* shocked traditionalists by depicting raw, distorted working-class labor."
   },
   {
-    id: 14,
-    question: "What are 'Complementary Colors'?",
-    options: [
-      { key: 'A', text: 'Colors that sit directly opposite each other on the color wheel (e.g., Blue and Orange, Red and Green, Yellow and Violet), creating maximum visual contrast' },
-      { key: 'B', text: 'Colors that sit next to each other on the wheel' },
-      { key: 'C', text: 'Different shades of a single color' },
-      { key: 'D', text: 'Colors that say polite compliments' }
+    "id": 14,
+    "topicRef": "Philippine Art: GAMABA (Gawad sa Manlilikha ng Bayan)",
+    "question": "Under RA 7355, what is the 'Gawad sa Manlilikha ng Bayan' (GAMABA) or National Living Treasures Award?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The highest state recognition conferred upon traditional folk and indigenous artists who preserve and pass on ancestral artistic traditions."
+      },
+      {
+        "key": "B",
+        "text": "A commercial pop singing contest."
+      },
+      {
+        "key": "C",
+        "text": "A movie acting trophy."
+      },
+      {
+        "key": "D",
+        "text": "A culinary cooking award."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Complementary color pairs create maximum chromatic vibration and contrast when placed side-by-side.',
-    topicRef: '4.0 Color Schemes'
+    "correctAnswer": "A",
+    "explanation": "GAMABA honors indigenous and traditional folk masters (e.g. Lang Dulay for T'nalak weaving, Salinta Monon for Bagobo Inabal, Whang-Od for Kalinga tattooing)."
   },
   {
-    id: 15,
-    question: "What is an 'Analogous' color scheme?",
-    options: [
-      { key: 'A', text: 'Colors that sit immediately adjacent to each other on the color wheel (e.g., Yellow, Yellow-Green, and Green), creating harmonious unity' },
-      { key: 'B', text: 'Colors on opposite sides of the wheel' },
-      { key: 'C', text: 'Black and white only' },
-      { key: 'D', text: 'Three colors forming an equilateral triangle' }
+    "id": 15,
+    "topicRef": "Art Movements: Impressionism (Monet)",
+    "question": "The Impressionist art movement (Claude Monet, Pierre-Auguste Renoir) revolted against academic painting by focusing on:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Capturing the fleeting effects of natural light and atmosphere outdoors (*En Plein Air*) using quick, visible brushstrokes and pure unmixed colors."
+      },
+      {
+        "key": "B",
+        "text": "Photorealistic portraits painted in dark basements."
+      },
+      {
+        "key": "C",
+        "text": "Geometric cubes and collage newspaper clippings."
+      },
+      {
+        "key": "D",
+        "text": "Strict mythical religious allegories."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Analogous colors share common undertones and produce serene, unified, and cohesive visual compositions.',
-    topicRef: '4.0 Color Schemes'
+    "correctAnswer": "A",
+    "explanation": "Impressionism (named after Monet's *Impression, Sunrise*) emphasized outdoor plein-air painting, rapid loose brushwork, and the visual physics of shifting sunlight."
   },
   {
-    id: 16,
-    question: "What does the Italian term 'Chiaroscuro' mean in painting and drawing?",
-    options: [
-      { key: 'A', text: 'The strong dramatic contrast between light (chiaro) and dark/shadow (scuro) to create a convincing illusion of three-dimensional volume' },
-      { key: 'B', text: 'Painting on wet plaster' },
-      { key: 'C', text: 'Mixing paint with egg yolk' },
-      { key: 'D', text: 'Drawing with charcoal only' }
+    "id": 16,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #16)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Chiaroscuro (mastered by Leonardo da Vinci, Caravaggio, and Rembrandt) models light and shadow to create lifelike depth.',
-    topicRef: '4.0 Elements of Art: Value & Chiaroscuro'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 17,
-    question: "What is 'Sfumato' painting technique developed by Leonardo da Vinci (evident in the Mona Lisa)?",
-    options: [
-      { key: 'A', text: 'Subtle, imperceptible blending of colors and tones without harsh outlines, creating a soft, hazy, smokelike transition' },
-      { key: 'B', text: 'Carving stone with a hammer' },
-      { key: 'C', text: 'Thick globby paint applied with a knife' },
-      { key: 'D', text: 'Drawing geometric outlines in black ink' }
+    "id": 17,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #17)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Sfumato (from Italian fumo, smoke) layers translucent glazes to eliminate sharp borders, giving portraits a soft, lifelike atmospheric glow.',
-    topicRef: '2.0 Renaissance Art Techniques'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 18,
-    question: "What is 'Impasto' painting technique (prominently used by Vincent van Gogh)?",
-    options: [
-      { key: 'A', text: 'Applying thick, heavy layers of paint onto the canvas such that brush strokes and palette knife textures stand out in physical 3D relief' },
-      { key: 'B', text: 'Watering down paint until it is completely transparent' },
-      { key: 'C', text: 'Spraying paint through a stencil' },
-      { key: 'D', text: 'Burning wood with hot metal' }
+    "id": 18,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #18)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Impasto uses unthinned, thick paint (as seen in Van Gogh\'s The Starry Night) to create rich tactile texture and emotional dynamism.',
-    topicRef: '2.0 Painting Mediums & Techniques'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 19,
-    question: "Which of the following is a painting technique using pigments mixed with hot molten beeswax?",
-    options: [
-      { key: 'A', text: 'Encaustic' },
-      { key: 'B', text: 'Fresco' },
-      { key: 'C', text: 'Tempera' },
-      { key: 'D', text: 'Gouache' }
+    "id": 19,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #19)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Encaustic painting (practiced in ancient Greece and Egyptian Fayum mummy portraits) binds dry pigments in molten beeswax.',
-    topicRef: '2.0 Painting Mediums'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 20,
-    question: "What is 'Buon Fresco' (True Fresco)?",
-    options: [
-      { key: 'A', text: 'Painting with water-based pigments directly onto freshly laid, wet lime plaster so the pigment chemically bonds with the wall as it dries' },
-      { key: 'B', text: 'Painting on dry wooden boards' },
-      { key: 'C', text: 'Drawing with wax crayons' },
-      { key: 'D', text: 'Painting on silk fabric' }
+    "id": 20,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #20)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Buon Fresco (used by Michelangelo on the Sistine Chapel ceiling) permanently integrates pigment into the plaster wall as calcium carbonate forms.',
-    topicRef: '2.0 Painting Mediums: Fresco'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 21,
-    question: "What is 'Tempera' painting\'s traditional binding agent?",
-    options: [
-      { key: 'A', text: 'Egg yolk (egg tempera)' },
-      { key: 'B', text: 'Linseed oil' },
-      { key: 'C', text: 'Synthetic acrylic polymer' },
-      { key: 'D', text: 'Tree sap gum arabic' }
+    "id": 21,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #21)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Traditional egg tempera mixes powdered pigments with egg yolk and water, drying rapidly to a crisp, durable matte finish.',
-    topicRef: '2.0 Painting Mediums: Tempera'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 22,
-    question: "What are the seven recognized 'Principles of Design' in visual arts?",
-    options: [
-      { key: 'A', text: 'Balance, Contrast, Emphasis, Movement/Rhythm, Pattern/Repetition, Proportion/Scale, and Unity/Harmony' },
-      { key: 'B', text: 'Line, Shape, Form, Color, Value, Texture, and Space' },
-      { key: 'C', text: 'North, South, East, West, Up, Down, and Center' },
-      { key: 'D', text: 'Pencil, Pen, Brush, Canvas, Easel, Paint, and Water' }
+    "id": 22,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #22)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Principles of Design describe how the Elements of Art (line, shape, color, etc.) are organized and composed to create compelling visual works.',
-    topicRef: '5.0 Principles of Design'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 23,
-    question: "What is 'Asymmetrical Balance' (Occult / Informal Balance)?",
-    options: [
-      { key: 'A', text: 'Balance achieved when two sides of a composition are visually different in elements yet equal in overall visual weight' },
-      { key: 'B', text: 'An exact mirror image on both left and right sides' },
-      { key: 'C', text: 'A completely blank canvas' },
-      { key: 'D', text: 'A painting where all objects are grouped in one tiny corner' }
+    "id": 23,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #23)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Asymmetrical balance creates dynamic harmony by balancing contrasting shapes, colors, and textures without identical bilateral symmetry.',
-    topicRef: '5.0 Principles of Design: Balance'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 24,
-    question: "What is 'Linear Perspective' invented by Filippo Brunelleschi during the Italian Renaissance?",
-    options: [
-      { key: 'A', text: 'A mathematical system for creating the illusion of 3D depth and space on a 2D surface using a horizon line, orthogonal lines, and vanishing points' },
-      { key: 'B', text: 'Drawing lines with a crooked stick' },
-      { key: 'C', text: 'A technique for painting curved arches' },
-      { key: 'D', text: 'Carving lines into marble' }
+    "id": 24,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #24)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Brunelleschi\'s linear perspective revolutionized Western art by formulating geometric converging lines toward vanishing points on the horizon.',
-    topicRef: '4.0 Elements of Art: Space & Perspective'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 25,
-    question: "What is 'Atmospheric Perspective' (Aerial Perspective)?",
-    options: [
-      { key: 'A', text: 'Creating the illusion of depth by making distant objects appear lighter, lower in contrast, blurrier, and bluish/cooler in tone' },
-      { key: 'B', text: 'Drawing airplanes in the sky' },
-      { key: 'C', text: 'Painting during a thunderstorm' },
-      { key: 'D', text: 'Looking at art through binoculars' }
+    "id": 25,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #25)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Atmospheric perspective mimics how atmospheric particles scatter light, making distant mountains and horizons appear pale, hazy, and blue.',
-    topicRef: '4.0 Space & Aerial Perspective'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 26,
-    question: "Who is the legendary National Artist for Visual Arts known for 'Transparent Cubism' depicting Philippine genre scenes (e.g., 'Market Scene', 'Madonna of the Slums')?",
-    options: [
-      { key: 'A', text: 'Vicente Manansala' },
-      { key: 'B', text: 'Cesar Legaspi' },
-      { key: 'C', text: 'Hernando R. Ocampo' },
-      { key: 'D', text: 'Arturo Luz' }
+    "id": 26,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #26)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Vicente Manansala developed Transparent Cubism, layering delicate geometric planes to depict Philippine urban and rural scenes.',
-    topicRef: '2.0 Philippine Modernists: Vicente Manansala'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 27,
-    question: "Who painted the celebrated masterpiece 'The Last Supper' (Il Cenacolo) in the refectory of the Convent of Santa Maria delle Grazie in Milan?",
-    options: [
-      { key: 'A', text: 'Leonardo da Vinci' },
-      { key: 'B', text: 'Michelangelo Buonarroti' },
-      { key: 'C', text: 'Raphael Sanzio' },
-      { key: 'D', text: 'Donatello' }
+    "id": 27,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #27)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Leonardo da Vinci painted The Last Supper (1495-1498), capturing the dramatic moment Jesus announces that one disciple will betray him.',
-    topicRef: '2.0 High Renaissance Masters: Leonardo'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 28,
-    question: "Who sculpted the monumental, emotionally profound marble masterpieces 'David' and 'Pieta' in Rome?",
-    options: [
-      { key: 'A', text: 'Michelangelo Buonarroti' },
-      { key: 'B', text: 'Gian Lorenzo Bernini' },
-      { key: 'C', text: 'Auguste Rodin' },
-      { key: 'D', text: 'Donatello' }
+    "id": 28,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #28)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Michelangelo carved David (Florence) and the Pieta (St. Peter\'s Basilica, Rome) from single blocks of Carrara marble with astonishing anatomical perfection.',
-    topicRef: '2.0 High Renaissance Masters: Michelangelo'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 29,
-    question: "Who painted the celebrated High Renaissance fresco 'The School of Athens' in the Apostolic Palace in the Vatican, celebrating philosophy and sciences?",
-    options: [
-      { key: 'A', text: 'Raphael Sanzio' },
-      { key: 'B', text: 'Leonardo da Vinci' },
-      { key: 'C', text: 'Titian' },
-      { key: 'D', text: 'Sandro Botticelli' }
+    "id": 29,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #29)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Raphael\'s School of Athens gathers ancient philosophers (Plato pointing up, Aristotle gesturing down) in an idealized grand classical architectural setting.',
-    topicRef: '2.0 High Renaissance Masters: Raphael'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 30,
-    question: "What is 'Impressionism' (Claude Monet, Pierre-Auguste Renoir, Edgar Degas)?",
-    options: [
-      { key: 'A', text: 'A 19th-century French art movement characterized by short, visible brushstrokes, open composition, everyday subjects, and accurate depiction of changing light and atmospheric effects (en plein air)' },
-      { key: 'B', text: 'Making impressions on clay with stamps' },
-      { key: 'C', text: 'Drawing exact mathematical geometric shapes' },
-      { key: 'D', text: 'Painting only at midnight inside dark rooms' }
+    "id": 30,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #30)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Impressionists captured transient optical impressions of natural sunlight using rapid brushwork directly outdoors (plein air).',
-    topicRef: '2.0 Art Movements: Impressionism'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 31,
-    question: "Which painting by Claude Monet gave its name to the entire Impressionist movement?",
-    options: [
-      { key: 'A', text: 'Impression, Sunrise (Impression, soleil levant)' },
-      { key: 'B', text: 'Water Lilies' },
-      { key: 'C', text: 'The Starry Night' },
-      { key: 'D', text: 'The Scream' }
+    "id": 31,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #31)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Monet\'s 1872 painting Impression, Sunrise inspired art critic Louis Leroy to derisively coin the term "Impressionists," which the artists proudly adopted.',
-    topicRef: '2.0 Art Movements: Impressionism'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 32,
-    question: "What was 'Cubism' co-founded by Pablo Picasso and Georges Braque?",
-    options: [
-      { key: 'A', text: 'An avant-garde art movement that shattered single-point perspective, deconstructing subjects into geometric facets and displaying multiple viewpoints simultaneously' },
-      { key: 'B', text: 'Carving wooden cubic boxes' },
-      { key: 'C', text: 'Painting only in shades of blue' },
-      { key: 'D', text: 'An ancient Roman mosaic style' }
+    "id": 32,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #32)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cubism revolutionized modern art by dismantling traditional illusionistic perspective, reassembling objects into multi-angled geometric planes.',
-    topicRef: '2.0 Art Movements: Cubism'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 33,
-    question: "What is 'Surrealism' (Salvador Dalí, René Magritte, Max Ernst)?",
-    options: [
-      { key: 'A', text: 'An art movement inspired by psychoanalysis that sought to liberate the unconscious mind, depicting dreamlike, bizarre, illogical, and hyper-realistic juxtapositions' },
-      { key: 'B', text: 'Drawing portraits that look 100% like photographs' },
-      { key: 'C', text: 'Painting real estate advertisements' },
-      { key: 'D', text: 'Designing highway billboards' }
+    "id": 33,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #33)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Surrealism channeled Freud\'s theories of dreams and the subconscious, creating fantastical scenes like Dalí\'s melting clocks in The Persistence of Memory.',
-    topicRef: '2.0 Art Movements: Surrealism'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 34,
-    question: "Who painted the iconic expressionist masterpiece 'The Scream' (1893), capturing existential human anguish under a blood-red sky?",
-    options: [
-      { key: 'A', text: 'Edvard Munch' },
-      { key: 'B', text: 'Vincent van Gogh' },
-      { key: 'C', text: 'Gustav Klimt' },
-      { key: 'D', text: 'Paul Gauguin' }
+    "id": 34,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #34)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Norwegian artist Edvard Munch painted The Scream, an archetype of Expressionist agony reflecting the psychological trauma of modern existence.',
-    topicRef: '2.0 Art Movements: Expressionism'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 35,
-    question: "What is 'Manunggul Jar' and why is it a supreme national treasure of ancient Philippine art?",
-    options: [
-      { key: 'A', text: 'A Neolithic secondary burial jar discovered in Palawan featuring a boat with two figures on the lid, symbolizing the soul\'s voyage to the afterlife' },
-      { key: 'B', text: 'A Spanish colonial wine jar' },
-      { key: 'C', text: 'A cooking pot from Intramuros' },
-      { key: 'D', text: 'A modern decorative flower vase' }
+    "id": 35,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #35)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Manunggul Jar (890–710 BCE) found in Tabon Caves, Palawan, is a masterpiece of maritime animist spirituality and pottery craft.',
-    topicRef: '3.0 Ancient Philippine Art: Manunggul Jar'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 36,
-    question: "What is 'Bulul' in Cordillera indigenous art?",
-    options: [
-      { key: 'A', text: 'A carved wooden anthropomorphic figure representing an Ifugao rice deity, guardian spirit, and ancestor that protects rice granaries' },
-      { key: 'B', text: 'A bamboo musical flute' },
-      { key: 'C', text: 'A brass combat knife' },
-      { key: 'D', text: 'A traditional woven hat' }
+    "id": 36,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #36)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Bulul statues are ritualistic carved granary deities of the Ifugao, consecrated through pig blood rituals to ensure bountiful rice harvests.',
-    topicRef: '3.0 Cordillera Indigenous Art: Bulul'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 37,
-    question: "What is 'Okir' (or Okkil) in Maranao and Muslim Filipino art?",
-    options: [
-      { key: 'A', text: 'The curvilinear floral, leaf, and geometric carving and design motifs (Okir a Datu / Okir a Bay) found in torogans, panolong, and metalwork' },
-      { key: 'B', text: 'A type of spicy rice dish' },
-      { key: 'C', text: 'A martial arts fighting dance' },
-      { key: 'D', text: 'A religious prayer book' }
+    "id": 37,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #37)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Okir is the distinct artistic visual language of the Maranao and Maguindanao, featuring flowing wave, scroll, and leaf motifs.',
-    topicRef: '3.0 Islamic & Mindanao Art: Okir'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 38,
-    question: "What is the 'Sarimanok' in Maranao mythology and visual art?",
-    options: [
-      { key: 'A', text: 'A legendary mythical bird with colorful, elaborate okir feathers, holding a fish in its beak or claws, symbolizing prosperity, royalty, and fortune' },
-      { key: 'B', text: 'A domestic fighting rooster' },
-      { key: 'C', text: 'A mythical mountain dragon' },
-      { key: 'D', text: 'A sea turtle carving' }
+    "id": 38,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #38)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Sarimanok is the cultural totem bird of the Maranao, embodying links to the spirit realm and nobility.',
-    topicRef: '3.0 Mindanao Cultural Symbols: Sarimanok'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 39,
-    question: "What is 'Torogan' in Philippine architectural heritage?",
-    options: [
-      { key: 'A', text: 'The traditional ancestral communal house of the Maranao royal datu clan, famous for its wing-like protruding carved floor-beam ends called Panolong' },
-      { key: 'B', text: 'A bamboo raft' },
-      { key: 'C', text: 'A Spanish fortress stone wall' },
-      { key: 'D', text: 'A rice storage hut' }
+    "id": 39,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #39)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Torogan is a majestic Maranao royal residence constructed without nails, resting on tree-trunk boulders to withstand earthquakes, adorned with Panolong carvings.',
-    topicRef: '3.0 Philippine Vernacular Architecture'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 40,
-    question: "Which Philippine Catholic church is internationally renowned for its 'Earthquake Baroque' architecture and massive, sculptural side buttresses (UNESCO World Heritage)?",
-    options: [
-      { key: 'A', text: 'San Agustin Church in Paoay, Ilocos Norte (Paoay Church)' },
-      { key: 'B', text: 'Manila Cathedral in Intramuros' },
-      { key: 'C', text: 'Quiapo Church' },
-      { key: 'D', text: 'Baclaran Church' }
+    "id": 40,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #40)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Paoay Church is the iconic masterpiece of Philippine Earthquake Baroque, engineered with 24 colossal, stepped stone buttresses to resist seismic destruction.',
-    topicRef: '3.0 Philippine Heritage Churches'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 41,
-    question: "What is 'Kudyapi' in Philippine traditional music and instruments?",
-    options: [
-      { key: 'A', text: 'A two-stringed fretted wooden boat-lute played by the Maranao, Maguindanao, and Palaw\'an people (famed GAMABA awardee: Samaon Sulaiman)' },
-      { key: 'B', text: 'A bamboo nose flute' },
-      { key: 'C', text: 'A brass gong set' },
-      { key: 'D', text: 'A skin-covered war drum' }
+    "id": 41,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #41)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Kudyapi (or Kutiyapi) is a master lute instrument held like a guitar, plucked with a rattan plectrum to accompany poetry and ballads.',
-    topicRef: '3.0 Traditional Instruments: GAMABA'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 42,
-    question: "What does the 'GAMABA' award (Gawad sa Manlilikha ng Bayan / National Living Treasures) honor in the Philippines (Republic Act No. 7355)?",
-    options: [
-      { key: 'A', text: 'Filipino traditional and folk artists who have achieved the highest technical and artistic excellence in indigenous crafts, preserving heritage for future generations' },
-      { key: 'B', text: 'Modern pop music singers on television' },
-      { key: 'C', text: 'Commercial fashion models' },
-      { key: 'D', text: 'Hollywood film directors' }
+    "id": 42,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #42)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'GAMABA recognizes master traditional cultural bearers (weavers, bards, chanters, metalworkers) who uphold indigenous ancestral Philippine artistic heritage.',
-    topicRef: '3.0 GAMABA Award & Heritage'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 43,
-    question: "What is 'Pop Art' (Andy Warhol, Roy Lichtenstein) in 20th-century art history?",
-    options: [
-      { key: 'A', text: 'An art movement that drew inspiration from popular and commercial mass culture (advertisements, comic strips, soup cans, celebrities)' },
-      { key: 'B', text: 'Popping bubble wrap as an art performance' },
-      { key: 'C', text: 'Painting only portraits of grandfathers' },
-      { key: 'D', text: 'Classical oil painting of Roman gods' }
+    "id": 43,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #43)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Pop Art blurred the line between high fine art and low mass consumer culture, using screen printing and comic aesthetics.',
-    topicRef: '2.0 Art Movements: Pop Art'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 44,
-    question: "What is 'Ready-Made' (Found Object art) pioneered by Marcel Duchamp (e.g., 'Fountain', 1917)?",
-    options: [
-      { key: 'A', text: 'Taking a pre-manufactured, ordinary utilitarian object and elevating it to art status by choosing it, signing it, and placing it in an art context (Conceptual Art)' },
-      { key: 'B', text: 'Buying a pre-made canvas at an art supply store' },
-      { key: 'C', text: 'A microwave instant dinner' },
-      { key: 'D', text: 'A painting completed in under 5 minutes' }
+    "id": 44,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #44)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Marcel Duchamp challenged the definition of art by submitting a porcelain urinal signed "R. Mutt 1917", establishing Conceptual Art (the idea is the art).',
-    topicRef: '2.0 Dadaism & Conceptual Art'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 45,
-    question: "Who is the famous Mexican painter known for deeply personal, vibrant, and painful surreal self-portraits exploring indigenous Mexican culture and disability?",
-    options: [
-      { key: 'A', text: 'Frida Kahlo' },
-      { key: 'B', text: 'Diego Rivera' },
-      { key: 'C', text: 'David Alfaro Siqueiros' },
-      { key: 'D', text: 'Georgia O\'Keeffe' }
+    "id": 45,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #45)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Frida Kahlo created iconic self-portraits confronting physical pain from a bus accident, identity, and Mexican folk heritage.',
-    topicRef: '2.0 Global Master Artists: Frida Kahlo'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   },
   {
-    id: 46,
-    question: "What is 'Relief Sculpture' (Bas-Relief vs High-Relief)?",
-    options: [
-      { key: 'A', text: 'A sculpted artwork where forms project outward from a solid supporting background plane, rather than being free-standing in the round' },
-      { key: 'B', text: 'A sculpture that makes you feel relaxed' },
-      { key: 'C', text: 'A sculpture carved from ice' },
-      { key: 'D', text: 'A hollow clay vase' }
+    "id": 46,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #46)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Relief sculpture remains attached to a background matrix: Bas-relief has shallow projection (coins), while High-relief projects prominently.',
-    topicRef: '3.0 Sculpture Types'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
   },
   {
-    id: 47,
-    question: "What is 'Lost-Wax Casting' (Cire Perdue) in bronze metallurgy and sculpture?",
-    options: [
-      { key: 'A', text: 'A sculptural casting method where a molten metal is poured into a mold created around a wax model, which melts away when heated' },
-      { key: 'B', text: 'Losing a candle in a dark room' },
-      { key: 'C', text: 'Carving statues from solid candle wax' },
-      { key: 'D', text: 'Polishing bronze with wax' }
+    "id": 47,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #47)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The lost-wax method has been used for millennia to duplicate intricate wax sculptures into durable hollow bronze or metal castings.',
-    topicRef: '3.0 Sculpture Casting Techniques'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
   },
   {
-    id: 48,
-    question: "What is the 'Rule of Thirds' in visual composition and photography?",
-    options: [
-      { key: 'A', text: 'Dividing an image into a 3x3 grid with two horizontal and two vertical lines, placing key subjects along the lines or at their four intersection points for balance' },
-      { key: 'B', text: 'Taking exactly three photos of everything' },
-      { key: 'C', text: 'Using only three colors in a painting' },
-      { key: 'D', text: 'Leaving two-thirds of the canvas completely blank' }
+    "id": 48,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #48)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Rule of Thirds avoids static dead-center compositions by positioning focal points along aesthetic grid intersections.',
-    topicRef: '5.0 Compositional Rules'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
   },
   {
-    id: 49,
-    question: "What are 'Tertiary Colors' on the color wheel?",
-    options: [
-      { key: 'A', text: 'Colors created by mixing equal parts of a primary color and its adjacent secondary color (e.g., Red-Orange, Yellow-Green, Blue-Violet)' },
-      { key: 'B', text: 'Black, white, and gray' },
-      { key: 'C', text: 'Colors made by mixing water with dirt' },
-      { key: 'D', text: 'Fluorescent neon colors' }
+    "id": 49,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #49)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'There are 6 tertiary colors named with the primary color first: Red-Orange, Red-Violet, Yellow-Orange, Yellow-Green, Blue-Green, and Blue-Violet.',
-    topicRef: '4.0 Color Theory'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
   },
   {
-    id: 50,
-    question: "Why is Art Appreciation crucial in 21st-century holistic education?",
-    options: [
-      { key: 'A', text: 'It nurtures creative imagination, aesthetic sensibility, cultural empathy, critical visual literacy, and humanistic values in an increasingly visual world' },
-      { key: 'B', text: 'To force everyone to become professional gallery painters' },
-      { key: 'C', text: 'To eliminate written books' },
-      { key: 'D', text: 'To make classrooms look expensive' }
+    "id": 50,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #50)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Art appreciation expands human emotional depth, cultivates critical perception, and fosters reverence for diverse cultural expressions.',
-    topicRef: '1.0 Value & Role of Art Appreciation'
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
+  },
+  {
+    "id": 51,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #51)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
+  },
+  {
+    "id": 52,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #52)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
+  },
+  {
+    "id": 53,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #53)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
+  },
+  {
+    "id": 54,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #54)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
+  },
+  {
+    "id": 55,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #55)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
+  },
+  {
+    "id": 56,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #56)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
+  },
+  {
+    "id": 57,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #57)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
+  },
+  {
+    "id": 58,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #58)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
+  },
+  {
+    "id": 59,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #59)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
+  },
+  {
+    "id": 60,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #60)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
+  },
+  {
+    "id": 61,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #61)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
+  },
+  {
+    "id": 62,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #62)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
+  },
+  {
+    "id": 63,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #63)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
+  },
+  {
+    "id": 64,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #64)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
+  },
+  {
+    "id": 65,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #65)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
+  },
+  {
+    "id": 66,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #66)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
+  },
+  {
+    "id": 67,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #67)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
+  },
+  {
+    "id": 68,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #68)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
+  },
+  {
+    "id": 69,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #69)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
+  },
+  {
+    "id": 70,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #70)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
+  },
+  {
+    "id": 71,
+    "topicRef": "Art Movement Analysis: Surrealism (Salvador Dali)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Explored the subconscious mind, dreamscapes, Freudian psychoanalysis, and bizarre juxtaposition of irrational objects. (Item #71)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Surrealism (Salvador Dali)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Surrealism (Salvador Dali)."
+  },
+  {
+    "id": 72,
+    "topicRef": "Art Movement Analysis: Cubism (Pablo Picasso & Georges Braque)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Deconstructed subjects into geometric facets and represented multiple viewpoints simultaneously on a 2D canvas. (Item #72)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Cubism (Pablo Picasso & Georges Braque)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Cubism (Pablo Picasso & Georges Braque)."
+  },
+  {
+    "id": 73,
+    "topicRef": "Art Movement Analysis: Expressionism (Edvard Munch's The Scream)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Distorted visual reality with intense emotional color and jagged lines to convey deep psychological angst and inner torment. (Item #73)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Expressionism (Edvard Munch's The Scream)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Expressionism (Edvard Munch's The Scream)."
+  },
+  {
+    "id": 74,
+    "topicRef": "Art Movement Analysis: Pop Art (Andy Warhol)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Appropriated mass media imagery, consumer commodities (Campbell soup cans), and celebrity culture into high art. (Item #74)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pop Art (Andy Warhol)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Pop Art (Andy Warhol)."
+  },
+  {
+    "id": 75,
+    "topicRef": "Art Movement Analysis: Baroque Art (Caravaggio & Bernini)",
+    "question": "Which international art movement is fundamentally defined by the following aesthetic philosophy: Characterized by grand theatrical scale, intense emotional drama, dramatic chiaroscuro lighting, and dynamic movement. (Item #75)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Baroque Art (Caravaggio & Bernini)"
+      },
+      {
+        "key": "B",
+        "text": "Ancient Cave Petrographs"
+      },
+      {
+        "key": "C",
+        "text": "Minimalism"
+      },
+      {
+        "key": "D",
+        "text": "Photorealism"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This corresponds to the hallmark aesthetic characteristics of Baroque Art (Caravaggio & Bernini)."
   }
 ];

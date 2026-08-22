@@ -2,653 +2,1878 @@ import { ExamQuestion } from '../../types';
 
 export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
-    id: 1,
-    question: "Under the Salamanca Statement and Framework for Action (UNESCO, 1994), what is the foundational principle of inclusive education?",
-    options: [
-      { key: 'A', text: 'All children should learn together, wherever possible, regardless of any difficulties or differences they may have' },
-      { key: 'B', text: 'Children with disabilities must be permanently isolated in separate residential institutions' },
-      { key: 'C', text: 'Only children with mild physical disabilities are allowed in regular schools' },
-      { key: 'D', text: 'Special education is purely optional and should only be offered in private schools' }
+    "id": 1,
+    "topicRef": "Inclusive Education vs SPED",
+    "question": "What is the fundamental philosophical difference between 'Special Education (SPED)' and 'Inclusive Education'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "SPED typically educates children with disabilities in segregated specialized settings or self-contained classrooms, whereas Inclusive Education modifies general education classrooms to welcome and support all diverse learners together."
+      },
+      {
+        "key": "B",
+        "text": "SPED is only for high school while Inclusive Education is only for college."
+      },
+      {
+        "key": "C",
+        "text": "SPED does not require certified teachers."
+      },
+      {
+        "key": "D",
+        "text": "Inclusive Education excludes students with sensory impairments."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Salamanca Statement established the global mandate that regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes and achieving Education for All.',
-    topicRef: '1.0 Global Frameworks for Inclusion'
+    "correctAnswer": "A",
+    "explanation": "Inclusion transforms the regular general education school to adapt to all learners (child-centered adaptation), whereas traditional SPED often pulled students into segregated environments."
   },
   {
-    id: 2,
-    question: "In the Philippines, which landmark law enacted in 2022 institutes a policy of inclusion and services for learners with disabilities in support of the Inclusive Education Act?",
-    options: [
-      { key: 'A', text: 'Republic Act No. 11650' },
-      { key: 'B', text: 'Republic Act No. 7836' },
-      { key: 'C', text: 'Republic Act No. 4670' },
-      { key: 'D', text: 'Republic Act No. 1425' }
+    "id": 2,
+    "topicRef": "WHO Disability Classifications (ICIDH)",
+    "question": "According to the World Health Organization (WHO), what is the distinction between an 'Impairment', a 'Disability', and a 'Handicap'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Impairment is biological/structural loss (e.g. damaged retina); Disability is functional limitation in performing an activity (e.g. cannot read standard print); Handicap is environmental/social disadvantage imposed by barriers (e.g. lack of Braille books)."
+      },
+      {
+        "key": "B",
+        "text": "They are all identical medical synonyms."
+      },
+      {
+        "key": "C",
+        "text": "Handicap is biological while impairment is legal."
+      },
+      {
+        "key": "D",
+        "text": "Disability applies only to senior citizens."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'R.A. 11650 mandates the establishment of Inclusive Learning Resource Centers (ILRCs) and ensures free, appropriate public education for learners with disabilities.',
-    topicRef: '1.0 Philippine Inclusive Education Laws'
+    "correctAnswer": "A",
+    "explanation": "WHO defines: Impairment = physical/physiological loss; Disability = functional reduction of ability; Handicap = societal/environmental barrier that prevents fulfillment of a normal role."
   },
   {
-    id: 3,
-    question: "What is the key distinction between 'Accommodations' and 'Modifications' in special and inclusive education?",
-    options: [
-      { key: 'A', text: 'Accommodations change HOW a student learns (e.g., extra time, large font) without changing learning standards; Modifications change WHAT a student is expected to learn (curriculum complexity/standards altered)' },
-      { key: 'B', text: 'Accommodations are illegal; modifications are mandatory' },
-      { key: 'C', text: 'Accommodations are only for gifted students' },
-      { key: 'D', text: 'There is no difference between them' }
+    "id": 3,
+    "topicRef": "Medical Model vs Social Model of Disability",
+    "question": "A school administrator claims: 'The problem is that the child is in a wheelchair and has a defective body, so he belongs in a hospital.' This perspective is rooted in the:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Medical / Deficit Model of Disability"
+      },
+      {
+        "key": "B",
+        "text": "Social Model of Disability"
+      },
+      {
+        "key": "C",
+        "text": "Human Rights Model"
+      },
+      {
+        "key": "D",
+        "text": "Biopsychosocial Model"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Accommodations provide access adjustments without lowering curriculum standards, whereas modifications adapt the curriculum objectives and expectations to match the learner\'s developmental level.',
-    topicRef: '3.0 Accommodations vs Modifications'
+    "correctAnswer": "A",
+    "explanation": "The Medical Model views disability as an individual pathology/deficit requiring medical cure or isolation, whereas the Social Model views disability as created by inaccessible societal barriers."
   },
   {
-    id: 4,
-    question: "In Universal Design for Learning (UDL, CAST), what are the three core principles?",
-    options: [
-      { key: 'A', text: 'Multiple Means of Representation, Multiple Means of Action and Expression, Multiple Means of Engagement' },
-      { key: 'B', text: 'Reading, Writing, and Arithmetic' },
-      { key: 'C', text: 'Diagnosis, Segregation, and Treatment' },
-      { key: 'D', text: 'Testing, Grading, and Ranking' }
+    "id": 4,
+    "topicRef": "Social Model of Disability (UPIAS / Oliver)",
+    "question": "In the Social Model of Disability, what is the primary cause of a student's inability to participate in a school activity?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inaccessible physical architecture (no ramps/elevators), inflexible curricula, and negative social attitudes/prejudices."
+      },
+      {
+        "key": "B",
+        "text": "The student's biological chromosomes."
+      },
+      {
+        "key": "C",
+        "text": "Lack of medical surgery."
+      },
+      {
+        "key": "D",
+        "text": "The student's personal karma."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'UDL provides a framework for flexible learning environments: Representation (the "what" of learning), Action & Expression (the "how"), and Engagement (the "why").',
-    topicRef: '2.0 Universal Design for Learning (UDL)'
+    "correctAnswer": "A",
+    "explanation": "The Social Model asserts that disability is socially constructed by systemic environmental, architectural, curricular, and attitudinal barriers that society fails to accommodate."
   },
   {
-    id: 5,
-    question: "What is an 'Individualized Education Plan' (IEP)?",
-    options: [
-      { key: 'A', text: 'A legally binding written document tailored for a learner with special needs, detailing present performance, measurable annual goals, services, and accommodations' },
-      { key: 'B', text: 'A daily attendance sheet' },
-      { key: 'C', text: 'A standard multiple-choice final exam' },
-      { key: 'D', text: 'A punishment contract for unruly behavior' }
+    "id": 5,
+    "topicRef": "Salamanca Statement (UNESCO, 1994)",
+    "question": "The landmark 1994 UNESCO Salamanca Statement and Framework for Action established the international principle that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes, creating welcoming communities, and achieving education for all."
+      },
+      {
+        "key": "B",
+        "text": "All students with disabilities should be placed in institutional asylums."
+      },
+      {
+        "key": "C",
+        "text": "Only wealthy nations should provide inclusive education."
+      },
+      {
+        "key": "D",
+        "text": "General education schools must reject students who cannot keep up with high academic speed."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'An IEP is developed collaboratively by a multidisciplinary team (teachers, SPED specialist, parents, therapists) to outline customized educational goals and services.',
-    topicRef: '3.0 The IEP Process'
+    "correctAnswer": "A",
+    "explanation": "The Salamanca Statement (1994) is the foundational global charter proclaiming that general schools with inclusive education provide the most effective barrier against discrimination."
   },
   {
-    id: 6,
-    question: "What is 'Least Restrictive Environment' (LRE) under inclusive education principles?",
-    options: [
-      { key: 'A', text: 'The educational setting that provides a student with disabilities maximum appropriate integration with non-disabled peers to the greatest extent possible' },
-      { key: 'B', text: 'A classroom with no doors or windows' },
-      { key: 'C', text: 'Keeping all students at home permanently' },
-      { key: 'D', text: 'An empty playground' }
+    "id": 6,
+    "topicRef": "Philippine Accessibility Law: BP 344",
+    "question": "What does Batas Pambansa Blg. 344 (The Accessibility Law) mandate for all educational institutions and public buildings?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Installation of architectural accessibility facilities: ramps, handrails, tactile paving, accessible restrooms, and designated parking for persons with disabilities."
+      },
+      {
+        "key": "B",
+        "text": "Free laptops for all college students."
+      },
+      {
+        "key": "C",
+        "text": "Exemption of schools from paying water bills."
+      },
+      {
+        "key": "D",
+        "text": "Mandatory uniform colors."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'LRE mandates that students with disabilities must be educated alongside their typically developing peers unless the severity of disability prevents satisfactory education with supplementary aids.',
-    topicRef: '1.0 Inclusive Education Principles'
+    "correctAnswer": "A",
+    "explanation": "BP 344 requires physical barrier-free accessibility in buildings, schools, and transportation to ensure mobility for persons with disabilities."
   },
   {
-    id: 7,
-    question: "A child displays marked difficulties with accurate and fluent word recognition, poor decoding skills, and spelling difficulties despite having normal intelligence and vision. What specific learning disability is this?",
-    options: [
-      { key: 'A', text: 'Dyslexia' },
-      { key: 'B', text: 'Dyscalculia' },
-      { key: 'C', text: 'Dysgraphia' },
-      { key: 'D', text: 'Dyspraxia' }
+    "id": 7,
+    "topicRef": "Magna Carta for Disabled Persons: RA 7277",
+    "question": "Under Republic Act 7277 (Magna Carta for Disabled Persons), what percentage of all government agency personnel positions should ideally be reserved for PWDs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "At least 1% of all positions in all government agencies, offices, or corporations (expanded by RA 10524)"
+      },
+      {
+        "key": "B",
+        "text": "50%"
+      },
+      {
+        "key": "C",
+        "text": "0%"
+      },
+      {
+        "key": "D",
+        "text": "100%"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Dyslexia is a neurobiological learning disability characterized by difficulties with phonological processing, accurate/fluent word recognition, and decoding.',
-    topicRef: '4.0 Specific Learning Disabilities'
+    "correctAnswer": "A",
+    "explanation": "RA 7277, as amended by RA 10524, mandates that at least one percent (1%) of all regular positions in all government agencies and departments be reserved for persons with disabilities."
   },
   {
-    id: 8,
-    question: "Which learning disability is characterized by severe difficulty in understanding numbers, learning math facts, calculating arithmetic, and grasping mathematical symbols?",
-    options: [
-      { key: 'A', text: 'Dyscalculia' },
-      { key: 'B', text: 'Dyslexia' },
-      { key: 'C', text: 'Dysgraphia' },
-      { key: 'D', text: 'Aphasia' }
+    "id": 8,
+    "topicRef": "Inclusive Education Act: RA 11650",
+    "question": "Republic Act No. 11650 (enacted in 2022) mandates the establishment of which specialized support centers in all school districts in the Philippines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inclusive Learning Resource Centers (ILRCs)"
+      },
+      {
+        "key": "B",
+        "text": "Military Detention Units"
+      },
+      {
+        "key": "C",
+        "text": "Commercial Shopping Kiosks"
+      },
+      {
+        "key": "D",
+        "text": "Isolated Testing Asylums"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Dyscalculia involves severe challenges with number sense, arithmetic computation, and mathematical reasoning.',
-    topicRef: '4.0 Specific Learning Disabilities'
+    "correctAnswer": "A",
+    "explanation": "RA 11650 (Instituting a Policy of Inclusion and Services for Learners with Disabilities in Support of Inclusive Education Act) mandates ILRCs in all cities and municipalities."
   },
   {
-    id: 9,
-    question: "What is 'Dysgraphia'?",
-    options: [
-      { key: 'A', text: 'A learning disability affecting fine motor skills and handwriting, resulting in illegible writing, inconsistent spacing, and poor spatial organization on paper' },
-      { key: 'B', text: 'Inability to calculate percentages' },
-      { key: 'C', text: 'Loss of hearing in one ear' },
-      { key: 'D', text: 'Color blindness' }
+    "id": 9,
+    "topicRef": "IDEA 13 Disability Categories",
+    "question": "Under the Individuals with Disabilities Education Act (IDEA), which of the following is the largest and most prevalent category of disability served in basic education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Specific Learning Disability (SLD)"
+      },
+      {
+        "key": "B",
+        "text": "Deaf-Blindness"
+      },
+      {
+        "key": "C",
+        "text": "Traumatic Brain Injury (TBI)"
+      },
+      {
+        "key": "D",
+        "text": "Multiple Disabilities"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Dysgraphia is a neurological condition that impairs the physical act of writing, fine motor coordination, and written coherence.',
-    topicRef: '4.0 Specific Learning Disabilities'
+    "correctAnswer": "A",
+    "explanation": "Specific Learning Disability (SLD) — which includes dyslexia, dysgraphia, and dyscalculia — accounts for approximately 35-40% of all students receiving special education services."
   },
   {
-    id: 10,
-    question: "What are the two core diagnostic criteria for Autism Spectrum Disorder (ASD) according to the DSM-5?",
-    options: [
-      { key: 'A', text: '1) Persistent deficits in social communication and social interaction, and 2) Restricted, repetitive patterns of behavior, interests, or activities' },
-      { key: 'B', text: 'High fever and stomach pain' },
-      { key: 'C', text: 'Aggressive physical violence and defiance' },
-      { key: 'D', text: 'Inability to walk and run' }
+    "id": 10,
+    "topicRef": "Specific Learning Disability: Dyslexia",
+    "question": "A student with normal intelligence struggles significantly with phonological processing, decoding written words, letter reversals (b vs d), and reading fluency. This neurodevelopmental condition is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dyslexia"
+      },
+      {
+        "key": "B",
+        "text": "Dyscalculia"
+      },
+      {
+        "key": "C",
+        "text": "Dysgraphia"
+      },
+      {
+        "key": "D",
+        "text": "Dyspraxia"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'DSM-5 specifies ASD as characterized by persistent challenges in social communication/interaction and restricted, repetitive behaviors/sensory sensitivities.',
-    topicRef: '4.0 Autism Spectrum Disorder'
+    "correctAnswer": "A",
+    "explanation": "Dyslexia is a specific learning disability characterized by difficulties with accurate and fluent word recognition, decoding, phonological awareness, and spelling."
   },
   {
-    id: 11,
-    question: "What are the three primary symptom domains of Attention-Deficit/Hyperactivity Disorder (ADHD)?",
-    options: [
-      { key: 'A', text: 'Inattention, Hyperactivity, and Impulsivity' },
-      { key: 'B', text: 'Sadness, Lethargy, and Sleepiness' },
-      { key: 'C', text: 'Vision loss, Hearing loss, and Speech loss' },
-      { key: 'D', text: 'Fever, Cough, and Chills' }
+    "id": 11,
+    "topicRef": "Specific Learning Disability: Dyscalculia",
+    "question": "A child has persistent, severe difficulty comprehending number concepts, estimating quantities, telling time on analog clocks, and remembering basic arithmetic facts despite quality instruction. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dyscalculia"
+      },
+      {
+        "key": "B",
+        "text": "Dyslexia"
+      },
+      {
+        "key": "C",
+        "text": "Dysgraphia"
+      },
+      {
+        "key": "D",
+        "text": "Dysphasia"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'ADHD presents in three presentations: Predominantly Inattentive, Predominantly Hyperactive-Impulsive, or Combined Presentation.',
-    topicRef: '4.0 ADHD & Neurodevelopmental Conditions'
+    "correctAnswer": "A",
+    "explanation": "Dyscalculia is a specific learning disorder involving severe, persistent impairment in learning mathematical concepts, number sense, and arithmetic calculations."
   },
   {
-    id: 12,
-    question: "What is the 'Mainstreaming' approach compared to full 'Inclusion'?",
-    options: [
-      { key: 'A', text: 'Mainstreaming places students with special needs into regular classes only when they can keep up with the existing standard curriculum; Inclusion restructures the regular classroom to support all learners regardless of ability' },
-      { key: 'B', text: 'Mainstreaming is illegal' },
-      { key: 'C', text: 'Mainstreaming means swimming classes only' },
-      { key: 'D', text: 'There is no difference' }
+    "id": 12,
+    "topicRef": "Specific Learning Disability: Dysgraphia",
+    "question": "A student exhibits extremely poor handwriting, awkward pencil grip, illegible spatial letter spacing, and severe difficulty translating mental thoughts into written text. This condition is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Dysgraphia"
+      },
+      {
+        "key": "B",
+        "text": "Dyslexia"
+      },
+      {
+        "key": "C",
+        "text": "Dyscalculia"
+      },
+      {
+        "key": "D",
+        "text": "Aphasia"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'In mainstreaming, the child must adapt to the standard classroom; in inclusion, the school system adapts its environment, teaching methods, and resources to welcome the child.',
-    topicRef: '1.0 Integration vs Mainstreaming vs Inclusion'
+    "correctAnswer": "A",
+    "explanation": "Dysgraphia is a neurological condition causing impaired handwriting, fine-motor coordination difficulties, spelling deficits, and spatial motor planning issues in writing."
   },
   {
-    id: 13,
-    question: "Under the Magna Carta for Disabled Persons (Republic Act No. 7277), what are Persons with Disabilities (PWDs) guaranteed in the educational sector?",
-    options: [
-      { key: 'A', text: 'Equal access to quality education, prohibition of discrimination in admission, and provision of special facilities/scholarships' },
-      { key: 'B', text: 'Automatic exemption from all homework' },
-      { key: 'C', text: 'Mandatory placement in separate institutions' },
-      { key: 'D', text: 'Expulsion from universities' }
+    "id": 13,
+    "topicRef": "Attention-Deficit/Hyperactivity Disorder (ADHD)",
+    "question": "Under IDEA, which disability category typically covers students diagnosed with Attention-Deficit/Hyperactivity Disorder (ADHD) whose condition adversely impacts educational performance?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Other Health Impairment (OHI)"
+      },
+      {
+        "key": "B",
+        "text": "Orthopedic Impairment"
+      },
+      {
+        "key": "C",
+        "text": "Visual Impairment"
+      },
+      {
+        "key": "D",
+        "text": "Hearing Impairment"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'R.A. 7277 guarantees equal educational rights, reasonable accessibility, barrier-free environments, and anti-discrimination protections for PWDs.',
-    topicRef: '1.0 Legal Foundations: RA 7277'
+    "correctAnswer": "A",
+    "explanation": "ADHD is categorized under 'Other Health Impairment' (OHI) under IDEA due to heightened alertness to environmental stimuli resulting in limited alertness to instructional tasks."
   },
   {
-    id: 14,
-    question: "In intellectual disability classification (formerly mental retardation), what two components must be significantly impaired for diagnosis?",
-    options: [
-      { key: 'A', text: 'Intellectual functioning (IQ score below 70) and Adaptive behavior (conceptual, social, and practical life skills)' },
-      { key: 'B', text: 'Height and weight' },
-      { key: 'C', text: 'Eye color and hair color' },
-      { key: 'D', text: 'Running speed and vocal pitch' }
+    "id": 14,
+    "topicRef": "Autism Spectrum Disorder (ASD)",
+    "question": "Autism Spectrum Disorder (ASD) is clinically characterized by persistent deficits in which two core developmental domains (DSM-5)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1. Social communication & social interaction; 2. Restricted, repetitive patterns of behavior, interests, or activities."
+      },
+      {
+        "key": "B",
+        "text": "1. Blindness; 2. Deafness."
+      },
+      {
+        "key": "C",
+        "text": "1. Poor spelling; 2. Weak math skills."
+      },
+      {
+        "key": "D",
+        "text": "1. Physical paralysis; 2. Broken bones."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Intellectual Disability requires deficits in both general mental abilities (IQ approximately 2 standard deviations below mean) and adaptive functioning in daily life.',
-    topicRef: '4.0 Intellectual Disabilities'
+    "correctAnswer": "A",
+    "explanation": "The DSM-5 criteria for ASD focus on: 1. Persistent social communication/interaction deficits (eye contact, reciprocity), and 2. Restricted, repetitive behaviors, rituals, and sensory sensitivities."
   },
   {
-    id: 15,
-    question: "What is 'Twice-Exceptional' (2e) learner?",
-    options: [
-      { key: 'A', text: 'A student who is identified as gifted and talented in one or more areas while simultaneously having one or more learning disabilities or neurodevelopmental disorders' },
-      { key: 'B', text: 'A student who has failed two subjects' },
-      { key: 'C', text: 'A student who is enrolled in two different schools' },
-      { key: 'D', text: 'A student who has twins in the family' }
+    "id": 15,
+    "topicRef": "Intellectual Disability (ID)",
+    "question": "An Intellectual Disability is diagnosed when an individual exhibits significant limitations in both intellectual functioning (IQ score below ~70) and in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adaptive Behavior (conceptual, social, and practical everyday life skills) originating before age 18."
+      },
+      {
+        "key": "B",
+        "text": "Running speed in sports."
+      },
+      {
+        "key": "C",
+        "text": "Handwriting neatness."
+      },
+      {
+        "key": "D",
+        "text": "Singing pitch accuracy."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Twice-exceptional (2e) students exhibit high cognitive/creative gifts alongside disabilities like dyslexia, ADHD, or autism, requiring dual-differentiated support.',
-    topicRef: '4.0 Gifted & Twice-Exceptional Learners'
+    "correctAnswer": "A",
+    "explanation": "Intellectual Disability requires significant deficits in both intellectual functioning (IQ < 70) and Adaptive Behavior (daily living, communication, social responsibility), with onset during the developmental period."
   },
   {
-    id: 16,
-    question: "Which of the following is an effective environmental accommodation for a student with ADHD who struggles with sitting still and sustained attention?",
-    options: [
-      { key: 'A', text: 'Allowing flexible seating (e.g., wobble stool, standing desk), movement breaks, and chunking tasks into 10-minute intervals' },
-      { key: 'B', text: 'Locking the student in a dark closet' },
-      { key: 'C', text: 'Giving 3-hour continuous lectures without breaks' },
-      { key: 'D', text: 'Publicly scolding the student every time they fidget' }
+    "id": 16,
+    "topicRef": "Emotional and Behavioral Disorders (EBD)",
+    "question": "A student who exhibits chronic, severe, and persistent aggression, profound depressive withdrawal, inability to build or maintain satisfactory interpersonal relationships with peers/teachers, and inappropriate emotional responses under normal conditions may be identified with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Emotional Disturbance / Emotional and Behavioral Disorder (EBD)"
+      },
+      {
+        "key": "B",
+        "text": "Giftedness"
+      },
+      {
+        "key": "C",
+        "text": "Temporary laziness"
+      },
+      {
+        "key": "D",
+        "text": "Orthopedic Impairment"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Sensory accommodations, kinesthetic seating, structured brain breaks, and segmented tasks help regulate dopamine and attention in ADHD learners.',
-    topicRef: '3.0 Inclusive Classroom Accommodations'
+    "correctAnswer": "A",
+    "explanation": "IDEA defines Emotional Disturbance by chronic patterns: inability to learn not explained by sensory/intellectual factors, inability to maintain relationships, inappropriate behaviors, and general pervasive unhappiness."
   },
   {
-    id: 17,
-    question: "What is the primary mode of tactile reading and writing used by individuals who are blind?",
-    options: [
-      { key: 'A', text: 'Braille' },
-      { key: 'B', text: 'Morse Code' },
-      { key: 'C', text: 'Hieroglyphics' },
-      { key: 'D', text: 'Shorthand' }
+    "id": 17,
+    "topicRef": "Speech or Language Impairment: Receptive vs Expressive",
+    "question": "A student can easily articulate complex speech sounds and vocabulary but cannot comprehend or decode spoken instructions from the teacher. This child exhibits a deficit in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Receptive Language"
+      },
+      {
+        "key": "B",
+        "text": "Expressive Language"
+      },
+      {
+        "key": "C",
+        "text": "Stuttering"
+      },
+      {
+        "key": "D",
+        "text": "Voice Disorder"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Invented by Louis Braille, Braille is a tactile writing system consisting of raised six-dot cells representing letters, numbers, and symbols.',
-    topicRef: '4.0 Visual Impairments & Braille'
+    "correctAnswer": "A",
+    "explanation": "Receptive language involves understanding and processing incoming verbal messages/syntax, while Expressive language is the ability to produce speech and express thoughts."
   },
   {
-    id: 18,
-    question: "Under Republic Act No. 11106, what is recognized as the official sign language of the Philippine government and used in schools for Deaf learners?",
-    options: [
-      { key: 'A', text: 'Filipino Sign Language (FSL)' },
-      { key: 'B', text: 'American Sign Language (ASL) only' },
-      { key: 'C', text: 'British Sign Language (BSL)' },
-      { key: 'D', text: 'International Semaphore' }
+    "id": 18,
+    "topicRef": "Sensory Impairment: Deaf Culture & Sign Language",
+    "question": "Under Republic Act 11106 (The Filipino Sign Language Act), what is declared as the official national sign language of the government and the medium of instruction for deaf learners in the Philippines?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Filipino Sign Language (FSL)"
+      },
+      {
+        "key": "B",
+        "text": "American Sign Language (ASL)"
+      },
+      {
+        "key": "C",
+        "text": "British Sign Language (BSL)"
+      },
+      {
+        "key": "D",
+        "text": "International Sign"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'R.A. 11106 declares Filipino Sign Language (FSL) as the national sign language of the Philippines and mandates its use in all public institutions and schools.',
-    topicRef: '1.0 Deaf Education & RA 11106'
+    "correctAnswer": "A",
+    "explanation": "RA 11106 declares Filipino Sign Language (FSL) as the official national sign language of the Philippines and the mandatory language of instruction for deaf education."
   },
   {
-    id: 19,
-    question: "What is 'Response to Intervention' (RTI)?",
-    options: [
-      { key: 'A', text: 'A multi-tiered approach to the early identification and support of students with learning and behavior needs' },
-      { key: 'B', text: 'Calling the police whenever a student enters late' },
-      { key: 'C', text: 'An emergency fire evacuation drill' },
-      { key: 'D', text: 'A standardized high school exit exam' }
+    "id": 19,
+    "topicRef": "Individualized Education Program (IEP)",
+    "question": "What is an Individualized Education Program (IEP)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A legally binding written educational plan tailored to the unique strengths, needs, annual measurable goals, and specialized support services for a child with a disability."
+      },
+      {
+        "key": "B",
+        "text": "A standard textbook given to all students."
+      },
+      {
+        "key": "C",
+        "text": "A school budget balance sheet."
+      },
+      {
+        "key": "D",
+        "text": "A punishment contract for misbehaving students."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'RTI features 3 tiers of support: Tier 1 (universal high-quality classroom instruction), Tier 2 (targeted small-group interventions), and Tier 3 (intensive individualized intervention/SPED assessment).',
-    topicRef: '2.0 Multi-Tiered Systems of Support (MTSS/RTI)'
+    "correctAnswer": "A",
+    "explanation": "An IEP is a personalized legal document created by a multidisciplinary team outlining present levels of performance, measurable annual goals, accommodations, and related services."
   },
   {
-    id: 20,
-    question: "What is 'Stuttering' (Childhood-Onset Fluency Disorder) in speech pathology?",
-    options: [
-      { key: 'A', text: 'A communication disorder characterized by frequent disruptions in the normal flow and rhythm of speech (repetitions, prolongations, blocks)' },
-      { key: 'B', text: 'Inability to write on a blackboard' },
-      { key: 'C', text: 'Speaking too quietly' },
-      { key: 'D', text: 'Speaking multiple languages fluently' }
+    "id": 20,
+    "topicRef": "IEP Team Composition",
+    "question": "Under standard special education mandates, which key members MUST participate in the IEP team meeting?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parent/guardian, Regular education teacher, Special education teacher, School administrative representative (LEA), and the child when appropriate."
+      },
+      {
+        "key": "B",
+        "text": "Only the school janitor."
+      },
+      {
+        "key": "C",
+        "text": "Only external politicians."
+      },
+      {
+        "key": "D",
+        "text": "Only the student's classmates."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Stuttering is a fluency disorder affecting speech rhythm through sound/syllable repetitions, prolongations, and silent postural fixations.',
-    topicRef: '4.0 Speech & Language Impairments'
+    "correctAnswer": "A",
+    "explanation": "Mandatory IEP team members: Parents, General Education Teacher, Special Education Teacher, School Administrator/LEA representative, Specialist/evaluator, and the Student (when appropriate)."
   },
   {
-    id: 21,
-    question: "In gifted education, what is Joseph Renzulli's 'Three-Ring Conception of Giftedness'?",
-    options: [
-      { key: 'A', text: 'Above-Average Ability, High Creativity, and Task Commitment' },
-      { key: 'B', text: 'High Wealth, Good Looks, and Athletic Ability' },
-      { key: 'C', text: 'Speed, Memory, and Obedience' },
-      { key: 'D', text: 'Reading, Writing, and Reciting' }
+    "id": 21,
+    "topicRef": "Accommodations vs Modifications",
+    "question": "Allowing a student with low vision to use large-print font and audio text-to-speech for the same Grade 10 English literature exam is an example of an:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accommodation (changes HOW the student learns or accesses the test without changing the core learning standard)"
+      },
+      {
+        "key": "B",
+        "text": "Modification (changes WHAT the student is expected to master)"
+      },
+      {
+        "key": "C",
+        "text": "Academic Exemption"
+      },
+      {
+        "key": "D",
+        "text": "Disciplinary Waiver"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Renzulli posits that gifted behaviors result from the intersection of above-average general/specific ability, high levels of creativity, and high task commitment (perseverance/passion).',
-    topicRef: '4.0 Gifted & Talented Education'
+    "correctAnswer": "A",
+    "explanation": "Accommodations change how content is accessed/demonstrated without lowering or altering the academic standard. Modifications alter the actual curriculum content/expectations."
   },
   {
-    id: 22,
-    question: "What is 'Cerebral Palsy'?",
-    options: [
-      { key: 'A', text: 'A group of non-progressive neurological disorders that appear in early childhood affecting body movement, muscle coordination, tone, and posture' },
-      { key: 'B', text: 'A bacterial stomach infection' },
-      { key: 'C', text: 'A temporary broken bone' },
-      { key: 'D', text: 'An emotional anxiety reaction' }
+    "id": 22,
+    "topicRef": "Curricular Modifications",
+    "question": "Assigning a Grade 8 student with significant intellectual disabilities to count single-digit numbers while classmates calculate quadratic equations is an example of a:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Modification"
+      },
+      {
+        "key": "B",
+        "text": "Accommodation"
+      },
+      {
+        "key": "C",
+        "text": "Acceleration"
+      },
+      {
+        "key": "D",
+        "text": "Gifted Enrichment"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Cerebral Palsy is caused by non-progressive damage to the developing brain before, during, or shortly after birth, impacting motor control and muscle tone.',
-    topicRef: '4.0 Physical & Motor Disabilities'
+    "correctAnswer": "A",
+    "explanation": "A Modification fundamentally alters, lowers, or simplifies the standard learning expectations to match the student's developmental capacity."
   },
   {
-    id: 23,
-    question: "What is 'Sensory Overload' frequently experienced by individuals with Autism Spectrum Disorder?",
-    options: [
-      { key: 'A', text: 'Overstimulation when one or more of the body\'s senses experiences too much input from the environment (e.g., loud noises, flickering fluorescent lights), triggering intense distress' },
-      { key: 'B', text: 'Eating too much candy' },
-      { key: 'C', text: 'Sleeping for 12 hours' },
-      { key: 'D', text: 'Watching a quiet movie' }
+    "id": 23,
+    "topicRef": "Least Restrictive Environment (LRE)",
+    "question": "The principle of 'Least Restrictive Environment' (LRE) dictates that students with disabilities must be educated:",
+    "options": [
+      {
+        "key": "A",
+        "text": "To the maximum extent appropriate with peers who are non-disabled in the general education classroom before considering more segregated placements."
+      },
+      {
+        "key": "B",
+        "text": "Always in a basement isolation room."
+      },
+      {
+        "key": "C",
+        "text": "Strictly at home via mail."
+      },
+      {
+        "key": "D",
+        "text": "Only with other students who have identical medical diagnoses."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Autistic individuals often have atypical sensory processing; overwhelming visual/auditory/tactile stimuli can trigger fight-or-flight meltdowns or shutdowns.',
-    topicRef: '4.0 Autism & Sensory Processing'
+    "correctAnswer": "A",
+    "explanation": "LRE requires that students with disabilities be educated alongside their non-disabled peers in regular classrooms to the greatest extent appropriate."
   },
   {
-    id: 24,
-    question: "Which of the following is a classic example of 'Co-Teaching' in an inclusive classroom?",
-    options: [
-      { key: 'A', text: 'A General Education teacher and a Special Education teacher collaboratively planning, instructing, and assessing a diverse group of students in a single shared classroom' },
-      { key: 'B', text: 'One teacher grading papers in the faculty room while another teaches' },
-      { key: 'C', text: 'Two teachers arguing over classroom keys' },
-      { key: 'D', text: 'A teacher having students teach the class all year' }
+    "id": 24,
+    "topicRef": "Mainstreaming vs Full Inclusion",
+    "question": "What distinguishes 'Mainstreaming' from 'Full Inclusion'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "In Mainstreaming, a SPED student visits the general classroom only for specific subjects where they can keep up; in Full Inclusion, the general classroom is the primary placement where supports are brought to the child 100% of the day."
+      },
+      {
+        "key": "B",
+        "text": "Mainstreaming is only for blind students."
+      },
+      {
+        "key": "C",
+        "text": "Full inclusion means zero teacher support."
+      },
+      {
+        "key": "D",
+        "text": "Mainstreaming excludes non-academic subjects like PE."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Co-teaching (Friend & Cook) pairs general and SPED educators (Team Teaching, Station Teaching, One Teach/One Assist) to meet all learners\' needs in inclusive settings.',
-    topicRef: '3.0 Co-Teaching Models in Inclusion'
+    "correctAnswer": "A",
+    "explanation": "Mainstreaming places the student in general classes selectively if they can demonstrate standard competence, whereas Full Inclusion makes the general classroom the default home base."
   },
   {
-    id: 25,
-    question: "What is 'Positive Behavioral Interventions and Supports' (PBIS)?",
-    options: [
-      { key: 'A', text: 'An evidence-based tiered framework for supporting students\' behavioral, academic, social, and emotional needs through proactive expectations and positive reinforcement rather than punitive discipline' },
-      { key: 'B', text: 'A corporal punishment system' },
-      { key: 'C', text: 'Expelling any student who makes a noise' },
-      { key: 'D', text: 'A grading curve formula' }
+    "id": 25,
+    "topicRef": "Co-Teaching: One Teach, One Observe",
+    "question": "In inclusive co-teaching, Teacher A leads whole-class instruction on photosynthesis while Teacher B systematically collects behavioral and academic observation data on target students. This model is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "One Teach, One Observe"
+      },
+      {
+        "key": "B",
+        "text": "Parallel Teaching"
+      },
+      {
+        "key": "C",
+        "text": "Station Teaching"
+      },
+      {
+        "key": "D",
+        "text": "Alternative Teaching"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'PBIS replaces reactive punishment with explicit teaching of behavioral expectations, consistent positive reinforcement, and structured interventions.',
-    topicRef: '2.0 Behavioral Support Systems (PBIS)'
+    "correctAnswer": "A",
+    "explanation": "One Teach, One Observe allows one teacher to lead whole-class instruction while the co-teacher gathers targeted observational data on student engagement or misconceptions."
   },
   {
-    id: 26,
-    question: "What is 'Down Syndrome' (Trisomy 21)?",
-    options: [
-      { key: 'A', text: 'A genetic disorder caused by the presence of all or part of a third copy of chromosome 21, associated with intellectual disability, characteristic physical features, and health considerations' },
-      { key: 'B', text: 'An infectious viral disease' },
-      { key: 'C', text: 'A dietary allergic reaction' },
-      { key: 'D', text: 'A temporary speech delay' }
+    "id": 26,
+    "topicRef": "Co-Teaching: One Teach, One Assist",
+    "question": "Teacher A delivers the primary lecture from the front whiteboard, while Teacher B circulates through the aisles providing discreet individual assistance and redirection. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "One Teach, One Assist (One Teach, One Drift)"
+      },
+      {
+        "key": "B",
+        "text": "Team Teaching"
+      },
+      {
+        "key": "C",
+        "text": "Parallel Teaching"
+      },
+      {
+        "key": "D",
+        "text": "Station Teaching"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Trisomy 21 is a chromosomal condition resulting in mild to moderate intellectual disability, distinct craniofacial features, hypotonia, and potential cardiac conditions.',
-    topicRef: '4.0 Genetic & Chromosomal Conditions'
+    "correctAnswer": "A",
+    "explanation": "One Teach, One Assist (One Teach, One Support) has one lead instructor while the second teacher circulates to offer real-time scaffolding and behavioral support."
   },
   {
-    id: 27,
-    question: "What is the purpose of a 'Transition Plan' in the IEP of an adolescent with special needs?",
-    options: [
-      { key: 'A', text: 'To prepare the student for post-secondary life, independent living, vocational training, community participation, and employment' },
-      { key: 'B', text: 'To transfer the student to a new seat in the front row' },
-      { key: 'C', text: 'To change the student\'s school uniform color' },
-      { key: 'D', text: 'To schedule annual sports events' }
+    "id": 27,
+    "topicRef": "Co-Teaching: Station Teaching",
+    "question": "The classroom is divided into three learning zones: Teacher A leads Station 1 (guided reading), Teacher B leads Station 2 (vocabulary drill), and Station 3 is independent computer practice. Students rotate through all three. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Station Teaching"
+      },
+      {
+        "key": "B",
+        "text": "Team Teaching"
+      },
+      {
+        "key": "C",
+        "text": "Alternative Teaching"
+      },
+      {
+        "key": "D",
+        "text": "Parallel Teaching"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Individualized Transition Plans (ITP) bridge secondary schooling to adulthood, equipping youth with vocational, daily living, and self-advocacy competencies.',
-    topicRef: '3.0 Transition Planning in SPED'
+    "correctAnswer": "A",
+    "explanation": "Station Teaching divides instructional content and students into separate learning stations, with each teacher facilitating a station while students rotate."
   },
   {
-    id: 28,
-    question: "Which of the following describes 'Executive Functioning' deficits commonly found in students with ADHD and learning disabilities?",
-    options: [
-      { key: 'A', text: 'Difficulties with working memory, cognitive flexibility, impulse inhibition, organization, time management, and task initiation' },
-      { key: 'B', text: 'Inability to run fast' },
-      { key: 'C', text: 'Loss of visual acuity' },
-      { key: 'D', text: 'Having a high fever' }
+    "id": 28,
+    "topicRef": "Co-Teaching: Parallel Teaching",
+    "question": "Teachers A and B split the class into two equal, heterogeneous halves and teach the exact same lesson simultaneously on opposite sides of the room. The primary advantage is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Parallel Teaching halves the student-teacher ratio, increasing student participation opportunities and behavior monitoring."
+      },
+      {
+        "key": "B",
+        "text": "It allows one teacher to sleep."
+      },
+      {
+        "key": "C",
+        "text": "It creates a sports competition."
+      },
+      {
+        "key": "D",
+        "text": "It eliminates the need for lesson plans."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Executive functions are prefrontal cortex mental processes that enable goal-directed behavior, planning, prioritization, and emotional self-regulation.',
-    topicRef: '4.0 Neurodevelopmental Deficits'
+    "correctAnswer": "A",
+    "explanation": "Parallel Teaching lowers the student-to-teacher ratio (e.g. 15:1 instead of 30:1), doubling opportunities for student response and individualized feedback."
   },
   {
-    id: 29,
-    question: "What is 'Social Story' (Carol Gray) used for in autism interventions?",
-    options: [
-      { key: 'A', text: 'A short, personalized narrative with visual illustrations that describes a social situation, skill, or concept to help an autistic individual understand social cues and expected behaviors' },
-      { key: 'B', text: 'A fictional novel sold in commercial bookstores' },
-      { key: 'C', text: 'A gossip article on social media' },
-      { key: 'D', text: 'A fairy tale read before bedtime' }
+    "id": 29,
+    "topicRef": "Co-Teaching: Alternative Teaching",
+    "question": "Teacher A manages the large group (25 students) for general review, while Teacher B takes a small group of 5 students to a side table for pre-teaching, remediation, or enrichment. This model is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Alternative Teaching"
+      },
+      {
+        "key": "B",
+        "text": "Team Teaching"
+      },
+      {
+        "key": "C",
+        "text": "One Teach, One Observe"
+      },
+      {
+        "key": "D",
+        "text": "Station Teaching"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Social Stories provide clear, reassuring, and concrete breakdowns of social scenarios, helping individuals on the spectrum anticipate routines and navigate social expectations.',
-    topicRef: '3.0 Autism Interventions'
+    "correctAnswer": "A",
+    "explanation": "Alternative Teaching utilizes one teacher for large-group instruction while the other provides targeted small-group intervention (remediation, pre-teaching, or advanced enrichment)."
   },
   {
-    id: 30,
-    question: "What is 'Assistive Technology' (AT) in inclusive education?",
-    options: [
-      { key: 'A', text: 'Any item, piece of equipment, or software used to increase, maintain, or improve the functional capabilities of individuals with disabilities' },
-      { key: 'B', text: 'A computer used exclusively by the school accountant' },
-      { key: 'C', text: 'An expensive gaming console' },
-      { key: 'D', text: 'A school bus engine' }
+    "id": 30,
+    "topicRef": "Co-Teaching: Team Teaching (Teaming)",
+    "question": "Both teachers stand at the front together, fluidly co-lecturing, modeling academic debate, demonstrating dialogues, and sharing equal responsibility for total class instruction. This is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Team Teaching (Teaming)"
+      },
+      {
+        "key": "B",
+        "text": "One Teach, One Assist"
+      },
+      {
+        "key": "C",
+        "text": "Alternative Teaching"
+      },
+      {
+        "key": "D",
+        "text": "Parallel Teaching"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Assistive technology ranges from low-tech (pencil grips, slant boards) to high-tech (speech-generating devices, eye-tracking communicators) to empower independence.',
-    topicRef: '3.0 Assistive Technology'
+    "correctAnswer": "A",
+    "explanation": "Team Teaching represents full parity: both educators teach collaboratively as equal partners, conversing, role-playing, and co-instructing seamlessly."
   },
   {
-    id: 31,
-    question: "What is 'Deaf Culture' and why is it important in inclusive deaf education?",
-    options: [
-      { key: 'A', text: 'A distinct social and cultural community that shares a visual sign language (e.g., FSL), rich heritage, traditions, and values, viewing deafness as a linguistic identity rather than a medical deficit' },
-      { key: 'B', text: 'A medical illness that needs to be erased' },
-      { key: 'C', text: 'A musical genre' },
-      { key: 'D', text: 'A foreign country' }
+    "id": 31,
+    "topicRef": "Action Research: ORPA Cycle",
+    "question": "In classroom-based Action Research for inclusive education, what does the acronym ORPA stand for?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Observe -> Reflect -> Plan -> Act"
+      },
+      {
+        "key": "B",
+        "text": "Order -> Read -> Pass -> Assess"
+      },
+      {
+        "key": "C",
+        "text": "Organize -> Record -> Print -> Audit"
+      },
+      {
+        "key": "D",
+        "text": "Outline -> Review -> Practice -> Apply"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Deaf culture embraces deafness as a proud cultural-linguistic identity centered around natural sign language rather than a pathology to be "fixed."',
-    topicRef: '4.0 Deaf Culture & Linguistic Rights'
+    "correctAnswer": "A",
+    "explanation": "The ORPA Action Research cycle (Kurt Lewin / Stringer) follows: 1. Observe (gather baseline data on classroom problem), 2. Reflect (analyze root causes), 3. Plan (design intervention), and 4. Act (implement intervention and measure impact)."
   },
   {
-    id: 32,
-    question: "What is 'Curriculum Compacting' in gifted education?",
-    options: [
-      { key: 'A', text: 'An instructional technique that assesses students on upcoming content, streamlines or eliminates already-mastered concepts, and replaces them with enrichment or acceleration opportunities' },
-      { key: 'B', text: 'Compressing PDF files on a computer' },
-      { key: 'C', text: 'Reducing school hours for everyone' },
-      { key: 'D', text: 'Skipping all science experiments' }
+    "id": 32,
+    "topicRef": "Universal Design for Learning: Representation",
+    "question": "Providing digital text with adjustable font sizes, audio narration, graphic organizers, and video clips with captions embodies which UDL principle?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiple Means of Representation (The 'What' of Learning)"
+      },
+      {
+        "key": "B",
+        "text": "Multiple Means of Action and Expression"
+      },
+      {
+        "key": "C",
+        "text": "Multiple Means of Engagement"
+      },
+      {
+        "key": "D",
+        "text": "Standardized Testing"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Developed by Joseph Renzulli, curriculum compacting prevents boredom for advanced learners by pre-testing mastery and replacing redundant work with advanced investigations.',
-    topicRef: '3.0 Differentiated Gifted Strategies'
+    "correctAnswer": "A",
+    "explanation": "Multiple Means of Representation presents information in diverse formats (visual, auditory, tactile) to give all learners equal access to content."
   },
   {
-    id: 33,
-    question: "What is 'Expressive Language Disorder' versus 'Receptive Language Disorder'?",
-    options: [
-      { key: 'A', text: 'Expressive affects the ability to produce speech, put words together, and communicate ideas; Receptive affects the ability to understand and process what others are saying' },
-      { key: 'B', text: 'Expressive is physical; receptive is emotional' },
-      { key: 'C', text: 'They are identical conditions' },
-      { key: 'D', text: 'Expressive is blindness; receptive is deafness' }
+    "id": 33,
+    "topicRef": "Universal Design for Learning: Action and Expression",
+    "question": "Allowing students to demonstrate mastery of a history unit through either a written essay, an oral podcast, a dramatic skit, or an infographic represents:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiple Means of Action and Expression (The 'How' of Learning)"
+      },
+      {
+        "key": "B",
+        "text": "Multiple Means of Representation"
+      },
+      {
+        "key": "C",
+        "text": "Multiple Means of Engagement"
+      },
+      {
+        "key": "D",
+        "text": "Rote Drill"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Expressive disorder involves deficits in spoken language output; receptive disorder involves difficulties comprehending verbal or written language input.',
-    topicRef: '4.0 Communication Disorders'
+    "correctAnswer": "A",
+    "explanation": "Multiple Means of Action and Expression allows learners to express and demonstrate what they know using flexible media, tools, and response modes."
   },
   {
-    id: 34,
-    question: "In UDL, which principle is being applied when a teacher offers students the option to demonstrate understanding of a historical event through an essay, a podcast, a comic strip, or a dramatic reenactment?",
-    options: [
-      { key: 'A', text: 'Multiple Means of Action and Expression' },
-      { key: 'B', text: 'Multiple Means of Segregation' },
-      { key: 'C', text: 'Rote Standardization' },
-      { key: 'D', text: 'Punitive Assessment' }
+    "id": 34,
+    "topicRef": "Universal Design for Learning: Engagement",
+    "question": "Offering learners choices in project topics, optimizing authentic relevance, fostering peer collaboration, and providing tiered difficulty levels promotes:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Multiple Means of Engagement (The 'Why' of Learning)"
+      },
+      {
+        "key": "B",
+        "text": "Multiple Means of Representation"
+      },
+      {
+        "key": "C",
+        "text": "Multiple Means of Expression"
+      },
+      {
+        "key": "D",
+        "text": "Compulsory Conformity"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Providing multiple avenues for expression allows diverse learners to demonstrate their mastery through the media that best matches their strengths.',
-    topicRef: '2.0 Universal Design for Learning'
+    "correctAnswer": "A",
+    "explanation": "Multiple Means of Engagement taps into learners' interests, provides appropriate challenges, fosters intrinsic motivation, and builds self-regulation."
   },
   {
-    id: 35,
-    question: "What is 'Oppositional Defiant Disorder' (ODD)?",
-    options: [
-      { key: 'A', text: 'A recurrent pattern of angry/irritable mood, argumentative/defiant behavior, and vindictiveness persisting for at least 6 months' },
-      { key: 'B', text: 'Severe shyness during public speaking' },
-      { key: 'C', text: 'A temporary disagreement between two friends' },
-      { key: 'D', text: 'A physical muscle spasm' }
+    "id": 35,
+    "topicRef": "Response to Intervention (RTI) Framework",
+    "question": "In the Response to Intervention (RTI) multi-tiered support framework, what percentage of the student population is typically expected to achieve mastery under Tier 1 (Universal Core Instruction)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Approximately 80% to 85% of all students"
+      },
+      {
+        "key": "B",
+        "text": "Only 10%"
+      },
+      {
+        "key": "C",
+        "text": "100%"
+      },
+      {
+        "key": "D",
+        "text": "5%"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'ODD is an emotional-behavioral disorder involving persistent defiance, vindictiveness, and hostility towards authority figures beyond typical developmental boundaries.',
-    topicRef: '4.0 Emotional & Behavioral Disorders'
+    "correctAnswer": "A",
+    "explanation": "In RTI: Tier 1 (Universal high-quality core instruction) meets the needs of ~80-85% of students; Tier 2 (Targeted small group intervention) serves ~10-15%; Tier 3 (Intensive individualized intervention/SPED evaluation) serves ~1-5%."
   },
   {
-    id: 36,
-    question: "What is 'Person-First Language' (e.g., 'a student with autism' rather than 'an autistic kid')?",
-    options: [
-      { key: 'A', text: 'Language etiquette that emphasizes the individuality and personhood of human beings before their disability diagnosis' },
-      { key: 'B', text: 'Speaking in the first person singular exclusively' },
-      { key: 'C', text: 'A grammar rule for nouns and verbs' },
-      { key: 'D', text: 'Using legal courtroom phrasing in class' }
+    "id": 36,
+    "topicRef": "RTI: Tier 2 Intervention",
+    "question": "A small group of 4 students who scored below benchmark on a phonics screening receives 30 minutes of daily supplemental guided reading intervention. This is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tier 2 Targeted Supplemental Instruction"
+      },
+      {
+        "key": "B",
+        "text": "Tier 1 Universal Instruction"
+      },
+      {
+        "key": "C",
+        "text": "Tier 3 Special Education Placement"
+      },
+      {
+        "key": "D",
+        "text": "Grade Retention"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Person-first language emphasizes dignity and humanity first, preventing a medical or educational diagnosis from defining a person\'s entire identity.',
-    topicRef: '1.0 Inclusive Language & Etiquette'
+    "correctAnswer": "A",
+    "explanation": "Tier 2 provides targeted, evidence-based small-group intervention for students who show learning gaps under Tier 1 general instruction."
   },
   {
-    id: 37,
-    question: "What is 'Visual Schedule' in SPED and inclusive classrooms?",
-    options: [
-      { key: 'A', text: 'A visual representation of daily tasks and activities using pictures, icons, or text to provide predictability, reduce anxiety, and foster independent transitions' },
-      { key: 'B', text: 'A movie poster in the hallway' },
-      { key: 'C', text: 'A teacher\'s payroll slip' },
-      { key: 'D', text: 'An eye examination chart' }
+    "id": 37,
+    "topicRef": "RTI: Tier 3 Intensive Support",
+    "question": "When a student fails to respond to Tier 1 and Tier 2 evidence-based interventions over multiple months, the next step under RTI is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tier 3 intensive individualized intervention and comprehensive multidisciplinary evaluation for special education eligibility."
+      },
+      {
+        "key": "B",
+        "text": "Expulsion from school."
+      },
+      {
+        "key": "C",
+        "text": "Failing the student for the entire year without testing."
+      },
+      {
+        "key": "D",
+        "text": "Ignoring the problem completely."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Visual schedules offer structure and clarity, especially for learners with autism or ADHD who benefit from visual predictability during classroom transitions.',
-    topicRef: '3.0 Environmental Accommodations'
+    "correctAnswer": "A",
+    "explanation": "Tier 3 provides individualized, high-intensity interventions and triggers formal multidisciplinary evaluation for specific learning disabilities under IDEA."
   },
   {
-    id: 38,
-    question: "What is 'Task Analysis' in teaching daily living and academic skills to students with developmental disabilities?",
-    options: [
-      { key: 'A', text: 'Breaking down a complex multi-step skill or routine into small, discrete, sequential steps that can be taught and mastered incrementally' },
-      { key: 'B', text: 'Analyzing the teacher\'s annual income' },
-      { key: 'C', text: 'Grading 100 exams simultaneously' },
-      { key: 'D', text: 'Assigning a 50-page essay' }
+    "id": 38,
+    "topicRef": "Positive Behavioral Interventions and Supports (PBIS)",
+    "question": "What is the primary operational philosophy of School-Wide Positive Behavioral Interventions and Supports (PBIS)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proactively defining, teaching, modeling, and positively reinforcing expected behaviors school-wide rather than relying solely on punitive reactions."
+      },
+      {
+        "key": "B",
+        "text": "Expelling any student who commits a minor infraction."
+      },
+      {
+        "key": "C",
+        "text": "Eliminating all school rules."
+      },
+      {
+        "key": "D",
+        "text": "Paying students cash for every correct answer."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Task analysis deconstructs complex routines (e.g., washing hands, long division) into step-by-step observable behaviors for systematic chaining and prompting.',
-    topicRef: '3.0 Applied Behavioral & Instructional Strategies'
+    "correctAnswer": "A",
+    "explanation": "PBIS is a tiered behavioral framework that explicitly teaches positive social expectations, creates predictable environments, and reinforces prosocial conduct."
   },
   {
-    id: 39,
-    question: "What is 'Echolalia' commonly observed in some individuals with Autism Spectrum Disorder?",
-    options: [
-      { key: 'A', text: 'The repetition or echoing of words, phrases, or vocal sounds spoken by other people, either immediately or delayed' },
-      { key: 'B', text: 'Loss of hearing' },
-      { key: 'C', text: 'Difficulty walking in a straight line' },
-      { key: 'D', text: 'Speaking in foreign accents' }
+    "id": 39,
+    "topicRef": "Functional Behavioral Assessment (FBA)",
+    "question": "A Functional Behavioral Assessment (FBA) is conducted by an educational team primarily to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Identify the underlying function / purpose (escape, attention, sensory, tangible) and environmental triggers driving a student's problem behavior."
+      },
+      {
+        "key": "B",
+        "text": "Assign a criminal penalty."
+      },
+      {
+        "key": "C",
+        "text": "Calculate the student's grade point average."
+      },
+      {
+        "key": "D",
+        "text": "Check physical eye vision."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Echolalia is repetitive speech repetition that may serve diverse communication functions (processing language, self-regulation, or expressing intent).',
-    topicRef: '4.0 Autism Characteristics'
+    "correctAnswer": "A",
+    "explanation": "An FBA identifies the ABCs of behavior (Antecedent -> Behavior -> Consequence) to understand why the student misbehaves and design a positive replacement behavior."
   },
   {
-    id: 40,
-    question: "What is 'Chaining' in behavioral instruction (Forward vs Backward Chaining)?",
-    options: [
-      { key: 'A', text: 'Reinforcing individual component steps in a task analysis in sequence until the entire multi-step task is completed independently' },
-      { key: 'B', text: 'Tying student desks together' },
-      { key: 'C', text: 'Locking classroom doors' },
-      { key: 'D', text: 'Assigning repetitive spelling drills' }
+    "id": 40,
+    "topicRef": "Behavior Intervention Plan (BIP)",
+    "question": "Following an FBA, the team creates a Behavior Intervention Plan (BIP) which must include:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Proactive environmental modifications, positive replacement behaviors that serve the same function, and positive reinforcement strategies."
+      },
+      {
+        "key": "B",
+        "text": "Only a list of suspensions and detentions."
+      },
+      {
+        "key": "C",
+        "text": "A contract to transfer to another school."
+      },
+      {
+        "key": "D",
+        "text": "A medical prescription for drugs."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Chaining systematically builds complex behaviors by reinforcing consecutive steps forwards from the start or backwards from the final completed step.',
-    topicRef: '3.0 Instructional Strategies in SPED'
+    "correctAnswer": "A",
+    "explanation": "A BIP outlines positive strategies, proactive antecedent triggers, explicit teaching of functionally equivalent replacement behaviors, and reinforcement schedules."
   },
   {
-    id: 41,
-    question: "What is 'Sensory Diet' in occupational therapy for neurodivergent children?",
-    options: [
-      { key: 'A', text: 'A carefully planned, individualized schedule of sensory-motor activities designed to provide the necessary sensory input to keep a child calm, alert, and organized' },
-      { key: 'B', text: 'Eating only organic vegetables' },
-      { key: 'C', text: 'A strict weight-loss diet' },
-      { key: 'D', text: 'Avoiding all physical exercise' }
+    "id": 41,
+    "topicRef": "Trauma-Informed Teaching",
+    "question": "Trauma-informed teaching in inclusive classrooms fundamentally shifts the educator's question from 'What is wrong with you?' to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "'What happened to you, and how can I help you feel safe and supported?'"
+      },
+      {
+        "key": "B",
+        "text": "'Why are you always failing my class?'"
+      },
+      {
+        "key": "C",
+        "text": "'Who gave you permission to speak?'"
+      },
+      {
+        "key": "D",
+        "text": "'Why can't you be like your sister?'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'A sensory diet (Patricia Wilbarger) provides tailored vestibular, proprioceptive, and tactile inputs throughout the day to optimize neurological arousal and focus.',
-    topicRef: '3.0 Occupational Therapy in Schools'
+    "correctAnswer": "A",
+    "explanation": "Trauma-informed pedagogy understands that adverse childhood experiences (ACEs) alter brain development, emphasizing emotional safety, predictability, and connection."
   },
   {
-    id: 42,
-    question: "What is 'Bilingual-Bicultural' (Bi-Bi) education in Deaf education?",
-    options: [
-      { key: 'A', text: 'An educational philosophy where sign language (FSL) is taught as the child\'s first natural language, and written national languages (Filipino/English) are taught as second languages' },
-      { key: 'B', text: 'Forbidding sign language completely' },
-      { key: 'C', text: 'Teaching only spoken Latin' },
-      { key: 'D', text: 'Excluding Deaf students from school' }
+    "id": 42,
+    "topicRef": "Twice-Exceptional (2e) Learners",
+    "question": "Who is a 'Twice-Exceptional (2e)' learner in inclusive education?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A student who is gifted and talented in one or more areas (e.g. superior IQ, mathematical brilliance) while simultaneously having a learning disability, ADHD, or autism."
+      },
+      {
+        "key": "B",
+        "text": "A student who was held back two grade levels."
+      },
+      {
+        "key": "C",
+        "text": "A student with two biological siblings in the same school."
+      },
+      {
+        "key": "D",
+        "text": "A student who plays two sports."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Bi-Bi approach honors Deaf culture and sign language as the primary linguistic foundation while cultivating literacy in the majority written languages.',
-    topicRef: '1.0 Deaf Education Models'
+    "correctAnswer": "A",
+    "explanation": "Twice-Exceptional (2e) students possess high intellectual or creative gifts alongside co-occurring learning challenges (e.g., gifted with dyslexia or ADHD)."
   },
   {
-    id: 43,
-    question: "Which of the following is a physical barrier that violates the accessibility standards mandated by Batas Pambansa Blg. 344 (Philippine Accessibility Law)?",
-    options: [
-      { key: 'A', text: 'School buildings with stairs only, lacking wheelchair ramps, handrails, tactile paving, and accessible restroom stalls' },
-      { key: 'B', text: 'Wide automatic doors' },
-      { key: 'C', text: 'Elevators with braille buttons and auditory floor chimes' },
-      { key: 'D', text: 'Wheelchair ramps with gentle slopes and non-skid surfaces' }
+    "id": 43,
+    "topicRef": "Gifted and Talented Education (GATE)",
+    "question": "Which instructional strategy is best suited for challenging mathematically gifted students in an inclusive regular classroom?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tiered problem-solving tasks, curriculum compacting, and open-ended mathematical investigations that demand higher-order analysis."
+      },
+      {
+        "key": "B",
+        "text": "Giving them 100 extra identical basic worksheets to keep them quiet."
+      },
+      {
+        "key": "C",
+        "text": "Making them act as an unpaid teacher's aide grading papers all day."
+      },
+      {
+        "key": "D",
+        "text": "Telling them to sit silently and wait for others."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'B.P. 344 mandates that public and private institutions provide architectural facilities and features (ramps, wide doors, grab bars) to enable PWD mobility.',
-    topicRef: '1.0 Accessibility Laws: BP 344'
+    "correctAnswer": "A",
+    "explanation": "Gifted students require intellectual acceleration, tiered depth, creative problem-solving, and curriculum compacting rather than mere volume of low-level busywork."
   },
   {
-    id: 44,
-    question: "What is 'Tier 3' in the Multi-Tiered System of Supports (MTSS)?",
-    options: [
-      { key: 'A', text: 'Intensive, highly individualized, and specialized interventions designed for students who demonstrate significant, persistent difficulties' },
-      { key: 'B', text: 'Universal classroom instruction for everyone' },
-      { key: 'C', text: 'Recess and sports activities' },
-      { key: 'D', text: 'School cafeteria lunch schedules' }
+    "id": 44,
+    "topicRef": "Sensory Processing in Autism",
+    "question": "A student with Autism Spectrum Disorder covers his ears, screams, and hides under a table during the noisy morning bell. The teacher should:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Recognize auditory sensory overload, provide noise-canceling headphones, and create a calm sensory quiet corner."
+      },
+      {
+        "key": "B",
+        "text": "Yell at the student to stop acting like a baby."
+      },
+      {
+        "key": "C",
+        "text": "Ring the bell louder to desensitize the child."
+      },
+      {
+        "key": "D",
+        "text": "Send the student to the principal's office for detention."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Tier 3 provides high-intensity, customized individual instruction, behavioral supports, or formal comprehensive special education services.',
-    topicRef: '2.0 MTSS Framework'
+    "correctAnswer": "A",
+    "explanation": "Hypersensitivity to loud auditory frequencies causes genuine neurological pain in autistic individuals; proactive sensory accommodations (headphones, quiet zones) are vital."
   },
   {
-    id: 45,
-    question: "What is 'Self-Advocacy' for learners with disabilities?",
-    options: [
-      { key: 'A', text: 'The ability to understand one\'s own strengths and needs, identify goals, and effectively communicate one\'s rights and accommodations to others' },
-      { key: 'B', text: 'Demanding special privileges unfairly' },
-      { key: 'C', text: 'Refusing to do any work' },
-      { key: 'D', text: 'Blaming others for all mistakes' }
+    "id": 45,
+    "topicRef": "Social Stories (Carol Gray)",
+    "question": "In inclusive education for autistic children, a 'Social Story' (Carol Gray) is used to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Visually and textually describe a social situation, expectations, and cues to help the child understand social norms and manage anxiety."
+      },
+      {
+        "key": "B",
+        "text": "Write fictional fairy tales."
+      },
+      {
+        "key": "C",
+        "text": "Post student gossip on social media."
+      },
+      {
+        "key": "D",
+        "text": "Test reading speed on standardized exams."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Self-advocacy empowers individuals with disabilities to make informed decisions, articulate needed accommodations, and lead their own life plans.',
-    topicRef: '3.0 Self-Determination & Advocacy'
+    "correctAnswer": "A",
+    "explanation": "Social Stories break down social scenarios (taking turns, fire drills, making friends) into clear, literal, predictable steps with visual cues to build social understanding."
   },
   {
-    id: 46,
-    question: "What is 'Fetal Alcohol Spectrum Disorder' (FASD)?",
-    options: [
-      { key: 'A', text: 'A group of conditions that can occur in an individual whose mother consumed alcohol during pregnancy, resulting in lifelong physical, behavioral, and intellectual impairments' },
-      { key: 'B', text: 'An allergy to fruit juice' },
-      { key: 'C', text: 'A temporary childhood illness' },
-      { key: 'D', text: 'A dietary vitamin deficiency' }
+    "id": 46,
+    "topicRef": "Visual Schedules in Inclusive Classrooms",
+    "question": "Why are Picture Exchange / Visual Schedules extremely effective in inclusive classrooms?",
+    "options": [
+      {
+        "key": "A",
+        "text": "They provide predictable visual structure, reduce transition anxiety, and support learners with executive functioning and receptive language challenges."
+      },
+      {
+        "key": "B",
+        "text": "They replace the teacher's voice."
+      },
+      {
+        "key": "C",
+        "text": "They make classrooms look like art galleries."
+      },
+      {
+        "key": "D",
+        "text": "They eliminate the necessity of following daily routines."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'FASD results from prenatal alcohol exposure, leading to permanent central nervous system damage, facial abnormalities, executive dysfunction, and learning deficits.',
-    topicRef: '4.0 Prenatal Etiologies'
+    "correctAnswer": "A",
+    "explanation": "Visual schedules make abstract time concrete and predictable, drastically lowering anxiety and behavioral resistance during classroom activity transitions."
   },
   {
-    id: 47,
-    question: "What is 'Peer-Mediated Instruction' in inclusive classrooms?",
-    options: [
-      { key: 'A', text: 'Structured instructional arrangements where students act as tutors, mentors, or collaborative partners to support classmates\' academic and social learning' },
-      { key: 'B', text: 'Allowing students to grade each other\'s report cards secretly' },
-      { key: 'C', text: 'Leaving the classroom completely unsupervised' },
-      { key: 'D', text: 'Student fights during recess' }
+    "id": 47,
+    "topicRef": "Task Analysis in Special Education",
+    "question": "What is 'Task Analysis' when teaching a complex vocational or daily living skill to students with intellectual disabilities?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Breaking down a complex multi-step skill (e.g., washing hands, making a bed) into small, discrete, sequentially chained individual steps."
+      },
+      {
+        "key": "B",
+        "text": "Giving a 50-item written multiple choice quiz."
+      },
+      {
+        "key": "C",
+        "text": "Analyzing the chemical composition of soap."
+      },
+      {
+        "key": "D",
+        "text": "Assigning homework without instructions."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Peer tutoring and peer buddy systems foster social inclusion, academic engagement, and mutual empathy in inclusive educational communities.',
-    topicRef: '3.0 Inclusive Instructional Strategies'
+    "correctAnswer": "A",
+    "explanation": "Task Analysis decomposes complex behaviors into chained micro-steps (e.g. Step 1: Turn on faucet, Step 2: Wet hands, Step 3: Apply soap), facilitating systematic mastery."
   },
   {
-    id: 48,
-    question: "What is 'Hydrocephalus'?",
-    options: [
-      { key: 'A', text: 'The buildup of excess cerebrospinal fluid (CSF) within the ventricles of the brain, causing increased intracranial pressure and potential cognitive or motor damage' },
-      { key: 'B', text: 'Fear of drinking water' },
-      { key: 'C', text: 'Swallowing too much air' },
-      { key: 'D', text: 'A temporary ear infection' }
+    "id": 48,
+    "topicRef": "Chaining & Forward/Backward Chaining",
+    "question": "In 'Backward Chaining', when does the student perform the task independently?",
+    "options": [
+      {
+        "key": "A",
+        "text": "The teacher completes all initial steps, and the learner completes the final step of the chain to experience immediate success and reinforcement."
+      },
+      {
+        "key": "B",
+        "text": "The student does the first step only."
+      },
+      {
+        "key": "C",
+        "text": "The student works in reverse alphabetical order."
+      },
+      {
+        "key": "D",
+        "text": "The student takes the test backwards."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Hydrocephalus involves abnormal CSF accumulation that can cause head enlargement in infants and requires surgical shunting to alleviate brain pressure.',
-    topicRef: '4.0 Neurological Impairments'
+    "correctAnswer": "A",
+    "explanation": "Backward chaining scaffolds all prior steps so the student performs the final step, receiving instant gratification and reinforcement of a completed task."
   },
   {
-    id: 49,
-    question: "What is 'Differentiation by Readiness' in inclusive classroom pedagogy?",
-    options: [
-      { key: 'A', text: 'Matching the complexity and pace of instructional tasks to the student\'s current entry-level knowledge, skill mastery, and cognitive readiness' },
-      { key: 'B', text: 'Teaching only the smartest student in class' },
-      { key: 'C', text: 'Giving everyone the identical worksheet regardless of understanding' },
-      { key: 'D', text: 'Dismissing class early' }
+    "id": 49,
+    "topicRef": "Prompt Hierarchy in Special Education",
+    "question": "Which of the following represents the Prompt Hierarchy from Least Intrusive to Most Intrusive?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Independent -> Visual -> Verbal -> Gestural -> Modeling -> Physical (Hand-over-Hand)"
+      },
+      {
+        "key": "B",
+        "text": "Physical -> Modeling -> Independent"
+      },
+      {
+        "key": "C",
+        "text": "Verbal -> Physical -> Independent"
+      },
+      {
+        "key": "D",
+        "text": "Punishment -> Isolation -> Reward"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Differentiating by readiness (Carol Ann Tomlinson) adjusts scaffolding and task difficulty so every student works within their Zone of Proximal Development.',
-    topicRef: '2.0 Differentiated Instruction'
+    "correctAnswer": "A",
+    "explanation": "The Least-to-Most prompting hierarchy fosters maximum independence by starting with minimal cues (visual/verbal) and progressing to physical prompts only when necessary."
   },
   {
-    id: 50,
-    question: "Why is 'Inclusive Education' considered a fundamental human right rather than a mere charitable favor?",
-    options: [
-      { key: 'A', text: 'Because all children possess equal human dignity, the right to non-discrimination, and the entitlement to quality education that fulfills their full human potential' },
-      { key: 'B', text: 'To reduce school operational expenses' },
-      { key: 'C', text: 'Because special schools are too expensive to build' },
-      { key: 'D', text: 'To win political awards' }
+    "id": 50,
+    "topicRef": "Prompt Fading",
+    "question": "Why must teachers systematically 'Fade' prompts as a student masters a skill?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To prevent 'prompt dependency' and ensure the student can perform the target skill autonomously in natural settings."
+      },
+      {
+        "key": "B",
+        "text": "To confuse the learner."
+      },
+      {
+        "key": "C",
+        "text": "To save the teacher's physical energy."
+      },
+      {
+        "key": "D",
+        "text": "Because prompting is illegal."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The UN Convention on the Rights of Persons with Disabilities (UNCRPD) enshrines inclusive education as a non-negotiable human right grounded in universal dignity and equity.',
-    topicRef: '1.0 Philosophy & Human Rights Foundation'
+    "correctAnswer": "A",
+    "explanation": "Prompt fading gradually withdraws assistance, preventing prompt dependency and ensuring true generalization and self-directed independence."
+  },
+  {
+    "id": 51,
+    "topicRef": "Assistive Technology: High-Tech vs Low-Tech",
+    "question": "Which of the following is an example of a 'Low-Tech' assistive tool in an inclusive classroom?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Pencil grips, slant boards, tactile rulers, and color-coded highlighted reading strips"
+      },
+      {
+        "key": "B",
+        "text": "Eye-tracking speech computers"
+      },
+      {
+        "key": "C",
+        "text": "Brain-computer interface helmets"
+      },
+      {
+        "key": "D",
+        "text": "AI humanoid robots"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Low-Tech AT devices are inexpensive, non-electronic, simple physical adaptations (pencil grips, slant boards, magnifying glasses, tactile strips)."
+  },
+  {
+    "id": 52,
+    "topicRef": "Assistive Technology: High-Tech",
+    "question": "Which of the following is categorized as 'High-Tech' assistive technology?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Sip-and-puff motorized wheelchair controls, dynamic speech-generating devices (AAC), and screen readers with refreshable Braille"
+      },
+      {
+        "key": "B",
+        "text": "A wooden clipboard"
+      },
+      {
+        "key": "C",
+        "text": "A paper sticky note"
+      },
+      {
+        "key": "D",
+        "text": "A rubber band on a pen"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "High-Tech AT involves sophisticated computerized, digital, electronic, and microchip-based accessibility systems."
+  },
+  {
+    "id": 53,
+    "topicRef": "Transition Services in Inclusive Education",
+    "question": "Under IDEA and RA 11650, 'Transition Services' for adolescents with disabilities are designed to facilitate movement from school to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Post-secondary education, vocational training, integrated employment, adult independent living, and community participation."
+      },
+      {
+        "key": "B",
+        "text": "Permanent institutional confinement."
+      },
+      {
+        "key": "C",
+        "text": "Kindergarten again."
+      },
+      {
+        "key": "D",
+        "text": "A hospital ward."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Transition planning (beginning at age 14-16) prepares youth with disabilities for adulthood, employment, higher education, financial literacy, and independent community living."
+  },
+  {
+    "id": 54,
+    "topicRef": "Person-First Language vs Identity-First Language",
+    "question": "Which phrase exemplifies 'Person-First Language' according to modern disability sensitivity standards?",
+    "options": [
+      {
+        "key": "A",
+        "text": "'A student with autism' (focusing on the individual first before the condition)"
+      },
+      {
+        "key": "B",
+        "text": "'The autistic'"
+      },
+      {
+        "key": "C",
+        "text": "'The wheelchair-bound victim'"
+      },
+      {
+        "key": "D",
+        "text": "'The handicapped child'"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Person-First Language (e.g. 'child with a disability', 'person who uses a wheelchair') emphasizes the person's humanity rather than defining them exclusively by their medical label."
+  },
+  {
+    "id": 55,
+    "topicRef": "Deficit Language to Avoid",
+    "question": "Professional educators should avoid archaic, derogatory terms such as 'retarded', 'crippled', or 'mentally defective' because:",
+    "options": [
+      {
+        "key": "A",
+        "text": "They perpetuate stigmatizing deficits, devalue human dignity, and lower social expectations for learners with disabilities."
+      },
+      {
+        "key": "B",
+        "text": "They are too long to write."
+      },
+      {
+        "key": "C",
+        "text": "They only apply to adults."
+      },
+      {
+        "key": "D",
+        "text": "They have no linguistic meaning."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Archaic medicalized slurs strip individuals of dignity, foster pity or prejudice, and violate the ethical principles of human rights and inclusion."
+  },
+  {
+    "id": 56,
+    "topicRef": "Classroom Peer Support Networks",
+    "question": "Implementing a 'Peer Buddy System' where neurotypical students support classmates with disabilities during group projects and lunch fosters:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mutual empathy, natural social inclusion, reduced bullying, and authentic friendships."
+      },
+      {
+        "key": "B",
+        "text": "Lower test scores for all students."
+      },
+      {
+        "key": "C",
+        "text": "Unfair labor exploitation."
+      },
+      {
+        "key": "D",
+        "text": "Classroom anarchy."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Peer support networks break down social isolation, normalize diversity, build empathy, and provide authentic natural scaffolding in inclusive schools."
+  },
+  {
+    "id": 57,
+    "topicRef": "Sensory Diets (Occupational Therapy)",
+    "question": "In inclusive education, what is a 'Sensory Diet' prescribed for a child with sensory processing differences?",
+    "options": [
+      {
+        "key": "A",
+        "text": "A carefully planned schedule of personalized physical activities and sensory inputs (heavy work, movement breaks, weighted vests) that keep the child's nervous system regulated and focused."
+      },
+      {
+        "key": "B",
+        "text": "A strict nutritional diet of only eating green vegetables."
+      },
+      {
+        "key": "C",
+        "text": "Starving a child before exams."
+      },
+      {
+        "key": "D",
+        "text": "Drinking only fruit juice."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Sensory Diet (Wilbarger) provides tailored proprioceptive, vestibular, and tactile inputs throughout the school day to maintain optimal neurological arousal for learning."
+  },
+  {
+    "id": 58,
+    "topicRef": "Cerebral Palsy (CP) in the Classroom",
+    "question": "A student with Cerebral Palsy exhibits muscle stiffness, spasticity, and uncoordinated motor movements. What is the most critical classroom accommodation?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adaptive ergonomic seating, slant boards, speech-to-text or assistive typing devices, and barrier-free classroom pathways."
+      },
+      {
+        "key": "B",
+        "text": "Exempting the student from thinking."
+      },
+      {
+        "key": "C",
+        "text": "Keeping the student tied to a chair."
+      },
+      {
+        "key": "D",
+        "text": "Forcing the student to write with a heavy iron pen."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Cerebral palsy is a motor disorder, not an intellectual impairment; physical accessibility, ergonomic postural support, and assistive typing ensure equal academic participation."
+  },
+  {
+    "id": 59,
+    "topicRef": "Tourette Syndrome in the Classroom",
+    "question": "A student with Tourette Syndrome involuntarily blurt out vocal sounds and exhibits physical facial tics during tests. What is the teacher's correct response?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Provide a private, quiet testing room, educate peers to prevent teasing, and never punish involuntary neurological tics."
+      },
+      {
+        "key": "B",
+        "text": "Tape the student's mouth shut."
+      },
+      {
+        "key": "C",
+        "text": "Send the student to detention for being rude."
+      },
+      {
+        "key": "D",
+        "text": "Expel the student immediately."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Tics in Tourette Syndrome are involuntary neurological impulses; forcing suppression increases anxiety. Accommodations include quiet testing rooms and stress-reduction strategies."
+  },
+  {
+    "id": 60,
+    "topicRef": "Executive Functioning Deficits",
+    "question": "Students with Executive Functioning deficits struggle predominantly with:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Working memory, task initiation, organization, time management, impulse control, and cognitive flexibility."
+      },
+      {
+        "key": "B",
+        "text": "Blood circulation."
+      },
+      {
+        "key": "C",
+        "text": "Color blindness."
+      },
+      {
+        "key": "D",
+        "text": "Physical bone fractures."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Executive functions (governed by the prefrontal cortex) manage self-regulation, planning, organizing, prioritizing, initiating tasks, and working memory."
+  },
+  {
+    "id": 61,
+    "topicRef": "Scaffolding Executive Functioning",
+    "question": "How can an inclusive teacher best support a student with severe executive functioning deficits during a multi-week science project?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Break the project into chunked sub-deadlines, provide a visual checklist, use graphic organizers, and schedule weekly progress check-ins."
+      },
+      {
+        "key": "B",
+        "text": "Give the assignment on Day 1 and never mention it until the final due date."
+      },
+      {
+        "key": "C",
+        "text": "Fail the student on the first day."
+      },
+      {
+        "key": "D",
+        "text": "Do the entire project for the student."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Chunking projects, explicit checklists, interim milestones, and structured monitoring externalize executive functioning support, enabling successful completion."
+  },
+  {
+    "id": 62,
+    "topicRef": "Inclusive Physical Education (Adapted PE)",
+    "question": "In Adapted Physical Education (APE), how are team sports modified for learners in wheelchairs?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Adapting rules, using larger lighter balls, lowering basketball hoops, and allowing wheelchair dribbling rules (e.g. 2 pushes per bounce)."
+      },
+      {
+        "key": "B",
+        "text": "Banning wheelchair users from entering the gymnasium."
+      },
+      {
+        "key": "C",
+        "text": "Making disabled students sit on the bleachers and watch others play."
+      },
+      {
+        "key": "D",
+        "text": "Scoring zero for all students with physical disabilities."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Adapted Physical Education modifies rules, equipment, and playing areas so students with motor limitations participate fully in physical fitness and team games."
+  },
+  {
+    "id": 63,
+    "topicRef": "Screening vs Diagnosis in Special Needs",
+    "question": "What is the difference between a Teacher's 'Developmental Screening' and a Doctor's 'Diagnostic Evaluation'?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Screening is a brief preliminary check to identify children who may need further evaluation; Diagnostic Evaluation is a comprehensive formal medical/psychological assessment that identifies specific clinical disorders."
+      },
+      {
+        "key": "B",
+        "text": "Teachers are authorized to prescribe medication."
+      },
+      {
+        "key": "C",
+        "text": "Doctors only check height and weight."
+      },
+      {
+        "key": "D",
+        "text": "There is no difference."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Screening identifies at-risk flags; formal diagnosis requires multidisciplinary licensed specialists (developmental pediatricians, child psychologists, audiologists)."
+  },
+  {
+    "id": 64,
+    "topicRef": "DepEd Child Find Program",
+    "question": "DepEd's 'Child Find' mandate requires school districts to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Actively locate, identify, and evaluate all children with disabilities (from birth to 24 years old) in the community who are unreached or out-of-school and enroll them in appropriate inclusive educational programs."
+      },
+      {
+        "key": "B",
+        "text": "Arrest parents who have children with disabilities."
+      },
+      {
+        "key": "C",
+        "text": "Find lost toys in school playgrounds."
+      },
+      {
+        "key": "D",
+        "text": "Lock school gates to keep students inside."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Child Find is a legal mandate requiring public education systems to systematically identify, locate, and assess all children with special needs and provide inclusive services."
+  },
+  {
+    "id": 65,
+    "topicRef": "Universal Design vs Retrofitting",
+    "question": "Why is designing accessible curricula from the beginning (Universal Design) vastly superior to 'Retrofitting' after lessons fail?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Universal Design proactively embeds accessibility, multiple modalities, and accommodations for everyone from Day 1, avoiding stigmatizing patchwork fixes."
+      },
+      {
+        "key": "B",
+        "text": "Retrofitting is cheaper."
+      },
+      {
+        "key": "C",
+        "text": "Universal Design applies only to concrete buildings."
+      },
+      {
+        "key": "D",
+        "text": "Retrofitting guarantees 100% scores."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Proactive Universal Design builds accessible ramps, captions, and multimodal pathways into the foundation, eliminating the clumsy cost and stigma of reactive retrofitting."
+  },
+  {
+    "id": 66,
+    "topicRef": "Parental Engagement in IEP",
+    "question": "When parents disagree with an IEP team recommendation, what right do they have under special education procedural safeguards?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Due Process and Independent Educational Evaluation (IEE) rights to dispute, mediate, or appeal placement decisions."
+      },
+      {
+        "key": "B",
+        "text": "They must accept the school's decision with zero right to complain."
+      },
+      {
+        "key": "C",
+        "text": "They lose custody of their child."
+      },
+      {
+        "key": "D",
+        "text": "They must pay a fine to the school."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Procedural safeguards grant parents the right to prior written notice, access to educational records, mediation, independent assessments, and impartial due process hearings."
+  },
+  {
+    "id": 67,
+    "topicRef": "Inclusive Assessment: Extended Time",
+    "question": "Providing 50% additional time (Time-and-a-Half) on an exam for a student with processing speed deficits is categorized as an accommodation in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Timing / Scheduling"
+      },
+      {
+        "key": "B",
+        "text": "Presentation"
+      },
+      {
+        "key": "C",
+        "text": "Setting"
+      },
+      {
+        "key": "D",
+        "text": "Response"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Accommodations are grouped into 4 categories: Presentation (how test is shown), Response (how student answers), Setting (location), and Timing/Scheduling (extended time/breaks)."
+  },
+  {
+    "id": 68,
+    "topicRef": "Inclusive Assessment: Separate Setting",
+    "question": "Allowing a student with severe sensory distractibility or anxiety to take an exam in a quiet, low-stimulus room is an accommodation in:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Setting"
+      },
+      {
+        "key": "B",
+        "text": "Content"
+      },
+      {
+        "key": "C",
+        "text": "Grading Standard"
+      },
+      {
+        "key": "D",
+        "text": "Passing Mark"
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Setting accommodations adjust the physical testing environment (e.g. quiet room, special lighting, study carrel) without changing test content."
+  },
+  {
+    "id": 69,
+    "topicRef": "Differentiated Questioning in Inclusion",
+    "question": "How can a teacher differentiate oral questioning during an inclusive whole-class discussion to include all ability levels?",
+    "options": [
+      {
+        "key": "A",
+        "text": "Targeting questions matched to individual ZPDs: asking foundational factual recall questions to build confidence, and open-ended evaluative questions to challenge advanced thinkers."
+      },
+      {
+        "key": "B",
+        "text": "Only asking questions to the top 2 students."
+      },
+      {
+        "key": "C",
+        "text": "Never calling on students with speech impediments."
+      },
+      {
+        "key": "D",
+        "text": "Refusing to ask any questions."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Strategic differentiated questioning aligns question complexity with each student's Zone of Proximal Development, engaging all learners meaningfully."
+  },
+  {
+    "id": 70,
+    "topicRef": "Sensory Accommodations: Slant Board",
+    "question": "Why is a 20-degree Slant Board recommended for children with fine-motor handwriting difficulties and poor posture?",
+    "options": [
+      {
+        "key": "A",
+        "text": "It promotes optimal wrist extension, stabilizes the paper, and improves visual tracking and neck alignment."
+      },
+      {
+        "key": "B",
+        "text": "It prevents pencils from rolling off."
+      },
+      {
+        "key": "C",
+        "text": "It is required by law for all students."
+      },
+      {
+        "key": "D",
+        "text": "It makes students write faster than computers."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Slant boards position the wrist at a functional 20-degree extension, easing finger grasp fatigue and aligning visual focus."
+  },
+  {
+    "id": 71,
+    "topicRef": "Inclusive Classroom Layout",
+    "question": "When arranging desks in an inclusive classroom containing wheelchair users and visually impaired students, the teacher must ensure:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wide, uncluttered aisles (at least 36 inches wide), predictable furniture arrangements, and zero tripping hazards."
+      },
+      {
+        "key": "B",
+        "text": "Desks crammed tightly against each other."
+      },
+      {
+        "key": "C",
+        "text": "Electric cords stretched across doorways."
+      },
+      {
+        "key": "D",
+        "text": "Dim lighting in all corners."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Universal accessibility requires wide passageways, clear tactile boundaries, consistent furniture placement, and eliminating hazardous floor clutter."
+  },
+  {
+    "id": 72,
+    "topicRef": "Circle of Friends (Peer Network Intervention)",
+    "question": "What is the primary objective of establishing a 'Circle of Friends' in inclusive schooling?",
+    "options": [
+      {
+        "key": "A",
+        "text": "To mobilize a structured support group of peer volunteers who intentionally build social bonds, accompany, and advocate for an isolated classmate with special needs."
+      },
+      {
+        "key": "B",
+        "text": "To form an exclusive secret club."
+      },
+      {
+        "key": "C",
+        "text": "To exclude new transfer students."
+      },
+      {
+        "key": "D",
+        "text": "To gossip about teachers."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Circle of Friends is an evidence-based intervention mobilizing peer allies to integrate socially isolated children into natural peer networks and shared activities."
+  },
+  {
+    "id": 73,
+    "topicRef": "Inclusion of Indigenous Learners (IPEd)",
+    "question": "Under DepEd Order 62, s. 2011 (National Indigenous Peoples Education Policy Framework), inclusive education for indigenous learners mandates:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Respecting cultural integrity, ancestral domain knowledge, mother tongue instruction, and validating Indigenous Knowledge Systems and Practices (IKSPs)."
+      },
+      {
+        "key": "B",
+        "text": "Forcing indigenous youth to erase their cultural traditions."
+      },
+      {
+        "key": "C",
+        "text": "Banning indigenous traditional dress."
+      },
+      {
+        "key": "D",
+        "text": "Teaching only foreign history."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DepEd IPEd policy protects indigenous rights to cultural identity, ancestral heritage, mother tongue literacy, and contextualized learning reflecting community traditions."
+  },
+  {
+    "id": 74,
+    "topicRef": "Inclusion of Gender and SOGIESC",
+    "question": "Creating an inclusive, gender-fair learning environment in line with DepEd Gender-Responsive Basic Education Policy (DO 32, s. 2017) requires:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Eliminating gender stereotyping in learning materials, ensuring safe gender-neutral sanitation, and protecting all students from gender-based bullying and discrimination."
+      },
+      {
+        "key": "B",
+        "text": "Assigning cleaning tasks only to female students."
+      },
+      {
+        "key": "C",
+        "text": "Barring male students from home economics."
+      },
+      {
+        "key": "D",
+        "text": "Ignoring harassment claims."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "DO 32, s. 2017 mandates gender-responsive, anti-discriminatory learning environments free from stereotyping, harassment, and marginalization."
+  },
+  {
+    "id": 75,
+    "topicRef": "Vision of Inclusive Education",
+    "question": "In its truest sense, the ultimate goal of Inclusive Education is to create a society where:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Human diversity is celebrated, every individual is recognized with inherent dignity, and all persons have equitable access, participation, and belonging in community life."
+      },
+      {
+        "key": "B",
+        "text": "All people think and act exactly the same."
+      },
+      {
+        "key": "C",
+        "text": "Only high-performing individuals receive education."
+      },
+      {
+        "key": "D",
+        "text": "Schools operate as profit-driven corporations."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Inclusive education envisions an equitable, compassionate society where diversity is valued as a collective strength and every human being belongs and flourishes unconditionally."
   }
 ];

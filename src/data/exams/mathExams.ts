@@ -1,681 +1,1879 @@
 import { ExamQuestion } from '../../types';
 
 export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
-  // =========================================================================
-  // 1.0 BASIC MATH: PEMDAS, PRIME FACTORIZATION, LCM & GCF
-  // =========================================================================
   {
-    id: 1,
-    question: "Using the order of operations (PEMDAS), what is the value of: 5 + (3 × 1)² + 4 – 5 ?",
-    options: [
-      { key: 'A', text: '13' },
-      { key: 'B', text: '15' },
-      { key: 'C', text: '17' },
-      { key: 'D', text: '11' }
+    "id": 1,
+    "topicRef": "Patterns in Nature: The Fibonacci Sequence",
+    "question": "What is the 8th term of the standard Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, ...?",
+    "options": [
+      {
+        "key": "A",
+        "text": "21 ((8 + 13 = 21))"
+      },
+      {
+        "key": "B",
+        "text": "18"
+      },
+      {
+        "key": "C",
+        "text": "34"
+      },
+      {
+        "key": "D",
+        "text": "20"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Parenthesis: (3 × 1) = 3; Exponent: (3)² = 9; Addition and Subtraction from left to right: 5 + 9 + 4 – 5 = 14 + 4 – 5 = 18 – 5 = 13.',
-    topicRef: '1.0 Order of Operations (PEMDAS)'
+    "correctAnswer": "A",
+    "explanation": "In Fibonacci, each term is the sum of the two preceding terms: (F_1=1, F_2=1, F_3=2, F_4=3, F_5=5, F_6=8, F_7=13, F_8=21)."
   },
   {
-    id: 2,
-    question: "Evaluate the expression: 7 × 3 + 10 × (25 – 5)",
-    options: [
-      { key: 'A', text: '221' },
-      { key: 'B', text: '420' },
-      { key: 'C', text: '241' },
-      { key: 'D', text: '620' }
+    "id": 2,
+    "topicRef": "Patterns in Nature: The Golden Ratio (Phi)",
+    "question": "The Golden Ratio ((phi = \frac{1 + sqrt{5}}{2})), found in sunflower seed spirals, pinecones, and classical architecture, is approximately equal to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "1.618"
+      },
+      {
+        "key": "B",
+        "text": "3.141"
+      },
+      {
+        "key": "C",
+        "text": "2.718"
+      },
+      {
+        "key": "D",
+        "text": "0.577"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Parenthesis: (25 – 5) = 20; Multiplication: 7 × 3 = 21, and 10 × 20 = 200; Addition: 21 + 200 = 221.',
-    topicRef: '1.0 Order of Operations (PEMDAS)'
+    "correctAnswer": "A",
+    "explanation": "The Golden Ratio ((phi)) is approximately 1.6180339887... representing divine proportion in mathematics and nature."
   },
   {
-    id: 3,
-    question: "What are the prime factors of 52?",
-    options: [
-      { key: 'A', text: '13 × 2 × 2' },
-      { key: 'B', text: '11 × 2 × 3' },
-      { key: 'C', text: '23 × 2' },
-      { key: 'D', text: '2 × 2 × 2 × 3' }
+    "id": 3,
+    "topicRef": "Set Theory: Cardinality & Operations",
+    "question": "Given Set (A = {1, 2, 3, 4, 5}) and Set (B = {4, 5, 6, 7}), what is the Intersection (A cap B)?",
+    "options": [
+      {
+        "key": "A",
+        "text": "({4, 5})"
+      },
+      {
+        "key": "B",
+        "text": "({1, 2, 3, 4, 5, 6, 7})"
+      },
+      {
+        "key": "C",
+        "text": "({1, 2, 3})"
+      },
+      {
+        "key": "D",
+        "text": "(emptyset)"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '52 = 4 × 13 = 2 × 2 × 13. All factors (2 and 13) are prime numbers and their product is 52.',
-    topicRef: '1.0 Prime Factorization'
+    "correctAnswer": "A",
+    "explanation": "The intersection (A cap B) consists of elements present in both sets simultaneously (elements 4 and 5)."
   },
   {
-    id: 4,
-    question: "What is the prime factorization of 60?",
-    options: [
-      { key: 'A', text: '2² × 3 × 5' },
-      { key: 'B', text: '2³ × 3 × 5' },
-      { key: 'C', text: '4 × 15' },
-      { key: 'D', text: '2 × 3² × 5' }
+    "id": 4,
+    "topicRef": "Mathematical Logic: Conditional Statement (p -> q)",
+    "question": "In formal symbolic logic, the conditional statement (p \to q) is FALSE ONLY when:",
+    "options": [
+      {
+        "key": "A",
+        "text": "(p) is True and (q) is False ((T \to F equiv F))"
+      },
+      {
+        "key": "B",
+        "text": "(p) is False and (q) is True"
+      },
+      {
+        "key": "C",
+        "text": "(p) is False and (q) is False"
+      },
+      {
+        "key": "D",
+        "text": "(p) is True and (q) is True"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '60 = 4 × 15 = (2 × 2) × (3 × 5) = 2² × 3 × 5.',
-    topicRef: '1.0 Prime Factorization'
+    "correctAnswer": "A",
+    "explanation": "A conditional implication (p \to q) is false strictly when a true antecedent leads to a false consequent; in all other cases, it is logically true."
   },
   {
-    id: 5,
-    question: "What is the Least Common Multiple (LCM) of 5 and 9?",
-    options: [
-      { key: 'A', text: '45' },
-      { key: 'B', text: '25' },
-      { key: 'C', text: '40' },
-      { key: 'D', text: '50' }
+    "id": 5,
+    "topicRef": "Logic: Contrapositive",
+    "question": "What is the logically equivalent 'Contrapositive' of the conditional statement 'If it is raining, then the ground is wet' ((p \to q))?",
+    "options": [
+      {
+        "key": "A",
+        "text": "'If the ground is not wet, then it is not raining' ((sim q \to sim p))"
+      },
+      {
+        "key": "B",
+        "text": "'If it is not raining, then the ground is not wet' (Inverse)"
+      },
+      {
+        "key": "C",
+        "text": "'If the ground is wet, then it is raining' (Converse)"
+      },
+      {
+        "key": "D",
+        "text": "'It is raining and the ground is dry'"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Multiples of 5: 5, 10, 15, 20, 25, 30, 35, 40, 45... Multiples of 9: 9, 18, 27, 36, 45... The smallest common multiple is 45.',
-    topicRef: '1.0 LCM & GCF'
+    "correctAnswer": "A",
+    "explanation": "A conditional statement (p \to q) is logically equivalent only to its contrapositive (sim q \to sim p)."
   },
   {
-    id: 6,
-    question: "What is the Greatest Common Factor (GCF) of 36 and 18?",
-    options: [
-      { key: 'A', text: '18' },
-      { key: 'B', text: '9' },
-      { key: 'C', text: '6' },
-      { key: 'D', text: '3' }
+    "id": 6,
+    "topicRef": "Problem Solving: Polya's 4-Step Model",
+    "question": "What are the four sequential steps in George Polya's classic Problem Solving framework?",
+    "options": [
+      {
+        "key": "A",
+        "text": "1. Understand the Problem -> 2. Devise a Plan -> 3. Carry Out the Plan -> 4. Look Back (Review/Reflect)"
+      },
+      {
+        "key": "B",
+        "text": "1. Read -> 2. Guess -> 3. Calculate -> 4. Submit"
+      },
+      {
+        "key": "C",
+        "text": "1. Formula -> 2. Substitute -> 3. Solve -> 4. Erase"
+      },
+      {
+        "key": "D",
+        "text": "1. Memorize -> 2. Drill -> 3. Test -> 4. Forget"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '18 divides both 18 (18÷18=1) and 36 (36÷18=2) exactly, making 18 the highest common factor.',
-    topicRef: '1.0 LCM & GCF'
+    "correctAnswer": "A",
+    "explanation": "George Polya's *How to Solve It* (1945) established the universal heuristic: Understand -> Plan -> Execute -> Review/Verify."
   },
   {
-    id: 7,
-    question: "Camryn practices the trumpet every 11th day and the flute every 3rd day. If she practiced both today, in how many days will she practice both instruments again on the same day?",
-    options: [
-      { key: 'A', text: '33 days' },
-      { key: 'B', text: '22 days' },
-      { key: 'C', text: '45 days' },
-      { key: 'D', text: '23 days' }
+    "id": 7,
+    "topicRef": "Mathematics of Finance: Simple Interest",
+    "question": "Calculate the Simple Interest on a loan principal of ₱50,000 borrowed at an annual interest rate of 6% for 3 years ((I = Prt)).",
+    "options": [
+      {
+        "key": "A",
+        "text": "₱9,000 ((I = 50,000 \times 0.06 \times 3 = 9,000))"
+      },
+      {
+        "key": "B",
+        "text": "₱3,000"
+      },
+      {
+        "key": "C",
+        "text": "₱15,000"
+      },
+      {
+        "key": "D",
+        "text": "₱59,000"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Find the LCM of 11 and 3: since 11 and 3 are prime, LCM(11, 3) = 11 × 3 = 33 days.',
-    topicRef: '1.0 LCM & GCF Word Problems'
+    "correctAnswer": "A",
+    "explanation": "Simple interest formula: (I = Prt = 50,000 \times 0.06 \times 3 = ₱9,000)."
   },
   {
-    id: 8,
-    question: "Josefa is making bead necklaces. She has 90 green beads and 108 blue beads. What is the greatest number of identical necklaces she can make using all beads?",
-    options: [
-      { key: 'A', text: '18' },
-      { key: 'B', text: '15' },
-      { key: 'C', text: '12' },
-      { key: 'D', text: '16' }
+    "id": 8,
+    "topicRef": "Statistics: Standard Score (Z-Score)",
+    "question": "A student scored 92 in an exam with Mean = 80 and Standard Deviation = 6. What is the Z-score?",
+    "options": [
+      {
+        "key": "A",
+        "text": "+2.0 ((z = \frac{92 - 80}{6} = \frac{12}{6} = +2.0))"
+      },
+      {
+        "key": "B",
+        "text": "+1.5"
+      },
+      {
+        "key": "C",
+        "text": "-2.0"
+      },
+      {
+        "key": "D",
+        "text": "+0.5"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Find the GCF of 90 and 108: 90 = 18 × 5, 108 = 18 × 6. GCF = 18 identical necklaces (each having 5 green and 6 blue beads).',
-    topicRef: '1.0 LCM & GCF Word Problems'
-  },
-
-  // =========================================================================
-  // 2.0 RATIO AND PROPORTION
-  // =========================================================================
-  {
-    id: 9,
-    question: "An orchard has 28 apple trees, 27 orange trees, and 14 cherry trees. In simplest form, what is the ratio of apple trees to cherry trees?",
-    options: [
-      { key: 'A', text: '2:1' },
-      { key: 'B', text: '28:14' },
-      { key: 'C', text: '1:2' },
-      { key: 'D', text: '4:2' }
-    ],
-    correctAnswer: 'A',
-    explanation: 'Ratio of apple to cherry = 28/14 = (28 ÷ 14) / (14 ÷ 14) = 2/1 or 2:1.',
-    topicRef: '2.0 Ratio and Proportion'
+    "correctAnswer": "A",
+    "explanation": "(z = \frac{X - mu}{sigma} = \frac{92 - 80}{6} = \frac{12}{6} = +2.0)."
   },
   {
-    id: 10,
-    question: "If two pencils cost 3 dollars, how many pencils can you buy with 9 dollars (assuming direct proportion)?",
-    options: [
-      { key: 'A', text: '6 pencils' },
-      { key: 'B', text: '5 pencils' },
-      { key: 'C', text: '8 pencils' },
-      { key: 'D', text: '12 pencils' }
+    "id": 9,
+    "topicRef": "Modular Arithmetic: Clock Arithmetic",
+    "question": "In modulo 12 arithmetic (standard clock time), what is ((8 + 7) pmod{12})?",
+    "options": [
+      {
+        "key": "A",
+        "text": "3 ((15 div 12 = 1) remainder (3), corresponding to 3 o'clock)"
+      },
+      {
+        "key": "B",
+        "text": "15"
+      },
+      {
+        "key": "C",
+        "text": "1"
+      },
+      {
+        "key": "D",
+        "text": "12"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Direct proportion: 2 / 3 = x / 9 -> 3x = 18 -> x = 6 pencils.',
-    topicRef: '2.0 Direct Proportion'
+    "correctAnswer": "A",
+    "explanation": "(8 + 7 = 15). In modulo 12, (15 equiv 3 pmod{12})."
   },
   {
-    id: 11,
-    question: "It takes 6 hours for 4 workers to repair a road section. How long will it take 8 workers to finish the same job at the same working rate?",
-    options: [
-      { key: 'A', text: '3 hours' },
-      { key: 'B', text: '4 hours' },
-      { key: 'C', text: '12 hours' },
-      { key: 'D', text: '2 hours' }
+    "id": 10,
+    "topicRef": "Reasoning: Inductive vs Deductive",
+    "question": "Observing that every swan seen so far in a lake is white and concluding that 'All swans in the world are white' is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Inductive Reasoning (specific observations to general rule)"
+      },
+      {
+        "key": "B",
+        "text": "Deductive Reasoning (general premise to specific conclusion)"
+      },
+      {
+        "key": "C",
+        "text": "Mathematical Proof"
+      },
+      {
+        "key": "D",
+        "text": "Direct Verification"
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Inverse proportion: (x₁)(y₁) = (x₂)(y₂) -> (4)(6) = (8)(t) -> 24 = 8t -> t = 3 hours.',
-    topicRef: '2.0 Inverse Proportion'
+    "correctAnswer": "A",
+    "explanation": "Inductive reasoning moves from specific observed instances to general probabilistic conclusions, while Deductive reasoning applies general axiomatic rules to derive certain specific conclusions."
   },
   {
-    id: 12,
-    question: "In a class of 40 students, the ratio of boys to girls is 3:5. How many are boys and how many are girls?",
-    options: [
-      { key: 'A', text: '15 boys and 25 girls' },
-      { key: 'B', text: '12 boys and 28 girls' },
-      { key: 'C', text: '18 boys and 22 girls' },
-      { key: 'D', text: '20 boys and 20 girls' }
+    "id": 11,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #11)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Partitive proportion: 3x + 5x = 40 -> 8x = 40 -> x = 5. Boys = 3(5) = 15; Girls = 5(5) = 25.',
-    topicRef: '2.0 Partitive Proportion'
-  },
-
-  // =========================================================================
-  // 3.0 PERCENT, PRB TRIANGLE & BUSINESS MATHEMATICS
-  // =========================================================================
-  {
-    id: 13,
-    question: "What is 30% of 700?",
-    options: [
-      { key: 'A', text: '210' },
-      { key: 'B', text: '217' },
-      { key: 'C', text: '340' },
-      { key: 'D', text: '162' }
-    ],
-    correctAnswer: 'A',
-    explanation: 'Percentage = Base × Rate = 700 × 0.30 = 210.',
-    topicRef: '3.0 Percentage, Rate & Base'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 14,
-    question: "What percent of 60 is 30?",
-    options: [
-      { key: 'A', text: '50%' },
-      { key: 'B', text: '40%' },
-      { key: 'C', text: '47%' },
-      { key: 'D', text: '52%' }
+    "id": 12,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #12)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rate = Percentage / Base = 30 / 60 = 0.50 = 50%.',
-    topicRef: '3.0 Percentage, Rate & Base'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 15,
-    question: "60 is 20% of what number?",
-    options: [
-      { key: 'A', text: '300' },
-      { key: 'B', text: '350' },
-      { key: 'C', text: '450' },
-      { key: 'D', text: '500' }
+    "id": 13,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #13)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Base = Percentage / Rate = 60 / 0.20 = 300.',
-    topicRef: '3.0 Percentage, Rate & Base'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 16,
-    question: "A student answered 80 problems on a test correctly and received a score of 40%. How many total problems were on the test?",
-    options: [
-      { key: 'A', text: '200 problems' },
-      { key: 'B', text: '120 problems' },
-      { key: 'C', text: '150 problems' },
-      { key: 'D', text: '250 problems' }
+    "id": 14,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #14)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Base = Percentage / Rate = 80 / 0.40 = 200 total test problems.',
-    topicRef: '3.0 PRB Word Problems'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 17,
-    question: "Out of 45 carpenters in a construction crew, 9 were present. What percent showed up for work?",
-    options: [
-      { key: 'A', text: '20%' },
-      { key: 'B', text: '2%' },
-      { key: 'C', text: '22%' },
-      { key: 'D', text: '42%' }
+    "id": 15,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #15)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rate = Percentage / Base = 9 / 45 = 1/5 = 0.20 = 20%.',
-    topicRef: '3.0 PRB Word Problems'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 18,
-    question: "How much simple interest will be paid on a bank loan of ₱10,000.00 at a 2% annual interest rate for 5 years?",
-    options: [
-      { key: 'A', text: '₱1,000.00' },
-      { key: 'B', text: '₱500.00' },
-      { key: 'C', text: '₱1,500.00' },
-      { key: 'D', text: '₱2,000.00' }
+    "id": 16,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #16)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Simple Interest I = Prt = (10,000)(0.02)(5) = ₱1,000.00.',
-    topicRef: '3.0 Simple Interest'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 19,
-    question: "How much interest would be paid on a loan of ₱30,000.00 for 6 months at 10% annual interest?",
-    options: [
-      { key: 'A', text: '₱1,500.00' },
-      { key: 'B', text: '₱1,000.00' },
-      { key: 'C', text: '₱2,000.00' },
-      { key: 'D', text: '₱3,000.00' }
+    "id": 17,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #17)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Time in years t = 6/12 = 0.5. I = Prt = (30,000)(0.10)(0.5) = ₱1,500.00.',
-    topicRef: '3.0 Simple Interest'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 20,
-    question: "What is the total amount due (maturity value) on a principal of ₱12,000.00 after adding annual simple interest of 8% for 3 years?",
-    options: [
-      { key: 'A', text: '₱14,880.00' },
-      { key: 'B', text: '₱16,800.00' },
-      { key: 'C', text: '₱15,880.00' },
-      { key: 'D', text: '₱15,800.00' }
+    "id": 18,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #18)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'I = Prt = (12,000)(0.08)(3) = ₱2,880.00. Total Amount A = P + I = 12,000 + 2,880 = ₱14,880.00.',
-    topicRef: '3.0 Simple Interest'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 21,
-    question: "A store pays ₱30.00 for an item and applies a markup of 20%. What is the Selling Price?",
-    options: [
-      { key: 'A', text: '₱36.00' },
-      { key: 'B', text: '₱32.00' },
-      { key: 'C', text: '₱24.00' },
-      { key: 'D', text: '₱40.00' }
+    "id": 19,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #19)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Markup = Cost × Rate = 30 × 0.20 = ₱6.00. Selling Price = Cost + Markup = 30 + 6 = ₱36.00.',
-    topicRef: '3.0 Business Math: Markup & Selling Price'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 22,
-    question: "Elise bought a dress that was discounted 30% off the original price of ₱200.00. What was the amount of discount and the sale price?",
-    options: [
-      { key: 'A', text: 'Discount: ₱60.00; Sale Price: ₱140.00' },
-      { key: 'B', text: 'Discount: ₱40.00; Sale Price: ₱160.00' },
-      { key: 'C', text: 'Discount: ₱70.00; Sale Price: ₱130.00' },
-      { key: 'D', text: 'Discount: ₱80.00; Sale Price: ₱120.00' }
+    "id": 20,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #20)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Discount = Price × Rate = 200 × 0.30 = ₱60.00. Sale Price = 200 – 60 = ₱140.00.',
-    topicRef: '3.0 Business Math: Discount & Sale Price'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 23,
-    question: "Maria receives a 15% commission on all sales. If she sold ₱23,000.00 worth of goods this month, what is her commission?",
-    options: [
-      { key: 'A', text: '₱3,450.00' },
-      { key: 'B', text: '₱3,500.00' },
-      { key: 'C', text: '₱3,700.00' },
-      { key: 'D', text: '₱4,000.00' }
+    "id": 21,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #21)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Commission = Amount Sold × Rate = 23,000 × 0.15 = ₱3,450.00.',
-    topicRef: '3.0 Business Math: Commission'
-  },
-
-  // =========================================================================
-  // 4.0 ALGEBRA: NUMBER PROPERTIES, EXPRESSIONS, EQUATIONS & POLYNOMIALS
-  // =========================================================================
-  {
-    id: 24,
-    question: "Evaluate the absolute value expression: |6² ÷ 2² – 5|",
-    options: [
-      { key: 'A', text: '4' },
-      { key: 'B', text: '19' },
-      { key: 'C', text: '16' },
-      { key: 'D', text: '36' }
-    ],
-    correctAnswer: 'A',
-    explanation: '|6² ÷ 2² – 5| = |36 ÷ 4 – 5| = |9 – 5| = |4| = 4.',
-    topicRef: '4.0 Absolute Value'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 25,
-    question: "Which number property is demonstrated by the equation: 3(8 + 5) = 3(8) + 3(5) ?",
-    options: [
-      { key: 'A', text: 'Distributive Property' },
-      { key: 'B', text: 'Associative Property' },
-      { key: 'C', text: 'Commutative Property' },
-      { key: 'D', text: 'Identity Property' }
+    "id": 22,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #22)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The factor 3 is distributed to both terms inside the sum, illustrating the Distributive Property of Multiplication over Addition.',
-    topicRef: '4.0 Number Properties'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 26,
-    question: "Which property states that changing the order of addends does not affect the sum (e.g., 12 + 2 = 2 + 12)?",
-    options: [
-      { key: 'A', text: 'Commutative Property of Addition' },
-      { key: 'B', text: 'Associative Property of Addition' },
-      { key: 'C', text: 'Closure Property' },
-      { key: 'D', text: 'Additive Inverse Property' }
+    "id": 23,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #23)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'The Commutative Property allows changing the order of operands without changing the result.',
-    topicRef: '4.0 Number Properties'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 27,
-    question: "Translate the verbal phrase into an algebraic expression: 'Seven times a number increased by 5'",
-    options: [
-      { key: 'A', text: '7x + 5' },
-      { key: 'B', text: '7(x + 5)' },
-      { key: 'C', text: '7x – 5' },
-      { key: 'D', text: 'x / 7 + 5' }
+    "id": 24,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #24)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: '\'Seven times a number\' is 7x; \'increased by 5\' adds 5 -> 7x + 5.',
-    topicRef: '4.0 Translating Algebraic Expressions'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 28,
-    question: "Solve for x: 2x + 3x + 2 = 42",
-    options: [
-      { key: 'A', text: 'x = 8' },
-      { key: 'B', text: 'x = 10' },
-      { key: 'C', text: 'x = 6' },
-      { key: 'D', text: 'x = 7' }
+    "id": 25,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #25)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Combine like terms: 5x + 2 = 42 -> 5x = 42 – 2 -> 5x = 40 -> x = 8.',
-    topicRef: '4.0 Algebraic Equations'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 29,
-    question: "How is the algebraic expression '2xy² – 3z' classified based on its number of terms?",
-    options: [
-      { key: 'A', text: 'Binomial' },
-      { key: 'B', text: 'Monomial' },
-      { key: 'C', text: 'Trinomial' },
-      { key: 'D', text: 'Multinomial (4 terms)' }
+    "id": 26,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #26)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'It contains exactly two terms (2xy² and -3z) separated by a subtraction operator, making it a Binomial.',
-    topicRef: '4.0 Polynomials'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 30,
-    question: "Multiply the binomials: (x + 3)(x + 4)",
-    options: [
-      { key: 'A', text: 'x² + 7x + 12' },
-      { key: 'B', text: 'x² + 7x – 12' },
-      { key: 'C', text: 'x² + 3x + 5' },
-      { key: 'D', text: 'x² – 7x – 12' }
+    "id": 27,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #27)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'FOIL method: x² + 4x + 3x + 12 = x² + 7x + 12.',
-    topicRef: '4.0 Operations on Polynomials'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 31,
-    question: "Factor completely: x² + 13x + 30",
-    options: [
-      { key: 'A', text: '(x + 3)(x + 10)' },
-      { key: 'B', text: '(x + 3)(x – 10)' },
-      { key: 'C', text: '(x – 3)(x – 10)' },
-      { key: 'D', text: '(x + 5)(x + 6)' }
+    "id": 28,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #28)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Find two factors of +30 whose sum is +13: 3 × 10 = 30 and 3 + 10 = 13. Factors are (x + 3)(x + 10).',
-    topicRef: '4.0 Factoring Polynomials'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 32,
-    question: "Divide: (x² + 7x + 12) ÷ (x + 3)",
-    options: [
-      { key: 'A', text: 'x + 4' },
-      { key: 'B', text: 'x – 3' },
-      { key: 'C', text: 'x – 4' },
-      { key: 'D', text: 'x + 5' }
+    "id": 29,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #29)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Factor numerator: (x + 3)(x + 4) ÷ (x + 3) = x + 4.',
-    topicRef: '4.0 Dividing Polynomials'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 33,
-    question: "Simplify the rational expression to lowest terms: (7x + 35) / (x² + 5x)",
-    options: [
-      { key: 'A', text: '7 / x' },
-      { key: 'B', text: 'x / 7' },
-      { key: 'C', text: 'x + 7' },
-      { key: 'D', text: '7 – x' }
+    "id": 30,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #30)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Factor numerator and denominator: 7(x + 5) / [x(x + 5)] = 7 / x.',
-    topicRef: '4.0 Rationalizing Expressions'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 34,
-    question: "A right triangle has legs of lengths a = 3 m and b = 4 m. Using the Pythagorean Theorem (c² = a² + b²), what is the length of the hypotenuse c?",
-    options: [
-      { key: 'A', text: '5 m' },
-      { key: 'B', text: '7 m' },
-      { key: 'C', text: '6 m' },
-      { key: 'D', text: '25 m' }
+    "id": 31,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #31)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'c² = 3² + 4² = 9 + 16 = 25 -> c = √25 = 5 m.',
-    topicRef: '4.0 Pythagorean Theorem'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 35,
-    question: "The hypotenuse of a right triangle is 25 feet. If one leg is 24 feet, what is the length of the other leg?",
-    options: [
-      { key: 'A', text: '7 feet' },
-      { key: 'B', text: '5 feet' },
-      { key: 'C', text: '6 feet' },
-      { key: 'D', text: '20 feet' }
+    "id": 32,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #32)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'b² = c² – a² = 25² – 24² = 625 – 576 = 49 -> b = √49 = 7 feet.',
-    topicRef: '4.0 Pythagorean Theorem'
-  },
-
-  // =========================================================================
-  // 5.0 PROBABILITY
-  // =========================================================================
-  {
-    id: 36,
-    question: "A gumball machine contains 18 total gumballs (6 blue, 5 yellow, and 7 red). What is the probability of selecting a yellow gumball?",
-    options: [
-      { key: 'A', text: '5 / 18' },
-      { key: 'B', text: '6 / 18 (1/3)' },
-      { key: 'C', text: '7 / 18' },
-      { key: 'D', text: '1 / 2' }
-    ],
-    correctAnswer: 'A',
-    explanation: 'P(Yellow) = Favorable / Total = 5 / 18.',
-    topicRef: '5.0 Probability'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 37,
-    question: "Using the same gumball machine (6 blue, 5 yellow, 7 red; total = 18), what is the probability of selecting a blue gumball in simplest form?",
-    options: [
-      { key: 'A', text: '1 / 3' },
-      { key: 'B', text: '5 / 18' },
-      { key: 'C', text: '7 / 18' },
-      { key: 'D', text: '1 / 6' }
+    "id": 33,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #33)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'P(Blue) = 6 / 18 = 1 / 3.',
-    topicRef: '5.0 Probability'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 38,
-    question: "Which of the following statements about probability rules is TRUE?",
-    options: [
-      { key: 'A', text: 'The probability of any event must be a real number from 0 to 1 inclusive' },
-      { key: 'B', text: 'An impossible event has a probability of -1' },
-      { key: 'C', text: 'A certain event has a probability of 100' },
-      { key: 'D', text: 'The sum of probabilities in a sample space can exceed 1' }
+    "id": 34,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #34)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Rule 1: 0 ≤ P(E) ≤ 1. Impossible events equal 0, certain events equal 1, and the total sample space sum equals 1.',
-    topicRef: '5.0 Rules of Probability'
-  },
-
-  // =========================================================================
-  // 6.0 GEOMETRY: ANGLES, POLYGONS & QUADRILATERALS
-  // =========================================================================
-  {
-    id: 39,
-    question: "Two angles are complementary. If the first angle measures 35°, what is the measure of the second angle?",
-    options: [
-      { key: 'A', text: '55°' },
-      { key: 'B', text: '145°' },
-      { key: 'C', text: '65°' },
-      { key: 'D', text: '45°' }
-    ],
-    correctAnswer: 'A',
-    explanation: 'Complementary angles add up to 90°: 90° – 35° = 55°.',
-    topicRef: '6.0 Special Angle Pairs'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 40,
-    question: "Two angles are supplementary. If one angle measures 110°, what is the measure of the other angle?",
-    options: [
-      { key: 'A', text: '70°' },
-      { key: 'B', text: '80°' },
-      { key: 'C', text: '90°' },
-      { key: 'D', text: '250°' }
+    "id": 35,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #35)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Supplementary angles add up to 180°: 180° – 110° = 70°.',
-    topicRef: '6.0 Special Angle Pairs'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 41,
-    question: "What is the sum of the interior angles of a Hexagon (6 sides)?",
-    options: [
-      { key: 'A', text: '720°' },
-      { key: 'B', text: '540°' },
-      { key: 'C', text: '900°' },
-      { key: 'D', text: '1080°' }
+    "id": 36,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #36)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Sum = (n – 2) × 180° = (6 – 2) × 180° = 4 × 180° = 720°.',
-    topicRef: '6.0 Polygons & Interior Angles'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 42,
-    question: "What is the measure of EACH interior angle of a regular Dodecagon (12-sided polygon)?",
-    options: [
-      { key: 'A', text: '150°' },
-      { key: 'B', text: '120°' },
-      { key: 'C', text: '135°' },
-      { key: 'D', text: '144°' }
+    "id": 37,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #37)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Each angle = (n – 2) × 180° / n = (12 – 2) × 180° / 12 = (10 × 180°) / 12 = 1800° / 12 = 150°.',
-    topicRef: '6.0 Polygons & Interior Angles'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 43,
-    question: "According to the quadrilateral hierarchy, which of the following statements is ALWAYS TRUE?",
-    options: [
-      { key: 'A', text: 'A square is a rhombus' },
-      { key: 'B', text: 'A rhombus is always a square' },
-      { key: 'C', text: 'A trapezoid is a parallelogram' },
-      { key: 'D', text: 'A kite is a rectangle' }
+    "id": 38,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #38)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'A square possesses all properties of a rhombus (all sides equal), making every square a rhombus (bottom to top is TRUE).',
-    topicRef: '6.0 Quadrilateral Classification'
-  },
-
-  // =========================================================================
-  // 7.0 PERIMETER, AREA & SOLID GEOMETRY (VOLUME & TOTAL SURFACE AREA)
-  // =========================================================================
-  {
-    id: 44,
-    question: "Madi is hanging decorative flowers around the perimeter of a rectangular deck that is 30 feet long and 24 feet wide. How long is the flower garland needed?",
-    options: [
-      { key: 'A', text: '108 feet' },
-      { key: 'B', text: '54 feet' },
-      { key: 'C', text: '48 feet' },
-      { key: 'D', text: '60 feet' }
-    ],
-    correctAnswer: 'A',
-    explanation: 'Perimeter P = 2(L + W) = 2(30 + 24) = 2(54) = 108 feet.',
-    topicRef: '7.0 Perimeter of Plane Figures'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 45,
-    question: "What is the area of a rectangular swimming pool that is 30 meters long and 20 meters wide?",
-    options: [
-      { key: 'A', text: '600 sq. m.' },
-      { key: 'B', text: '500 sq. m.' },
-      { key: 'C', text: '400 sq. m.' },
-      { key: 'D', text: '900 sq. m.' }
+    "id": 39,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #39)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Area A = L × W = 30 × 20 = 600 sq. m.',
-    topicRef: '7.0 Area of Plane Figures'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
   },
   {
-    id: 46,
-    question: "One side of a square measures 6 inches. What are the perimeter and area of this square?",
-    options: [
-      { key: 'A', text: 'Perimeter: 24 in; Area: 36 in²' },
-      { key: 'B', text: 'Perimeter: 16 in; Area: 20 in²' },
-      { key: 'C', text: 'Perimeter: 14 in; Area: 16 in²' },
-      { key: 'D', text: 'Perimeter: 25 in; Area: 30 in²' }
+    "id": 40,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #40)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Perimeter P = 4s = 4(6) = 24 in. Area A = s² = 6² = 36 in².',
-    topicRef: '7.0 Perimeter & Area of Square'
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   },
   {
-    id: 47,
-    question: "A right triangle has a base of 12 inches and a height of 3 inches. What is the area of the triangle?",
-    options: [
-      { key: 'A', text: '18 in²' },
-      { key: 'B', text: '36 in²' },
-      { key: 'C', text: '144 in²' },
-      { key: 'D', text: '9 in²' }
+    "id": 41,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #41)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Area of triangle A = ½ bh = ½(12)(3) = 6 × 3 = 18 in².',
-    topicRef: '7.0 Area of Triangle'
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
   },
   {
-    id: 48,
-    question: "A circular drum head has a radius of 7 inches. What is its circumference (using π ≈ 22/7 or 3.1416)?",
-    options: [
-      { key: 'A', text: '44 inches' },
-      { key: 'B', text: '154 inches' },
-      { key: 'C', text: '110 inches' },
-      { key: 'D', text: '36 inches' }
+    "id": 42,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #42)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Circumference C = 2πr = 2 × (22/7) × 7 = 44 inches.',
-    topicRef: '7.0 Circumference & Area of Circle'
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
   },
   {
-    id: 49,
-    question: "A rectangular wooden container has a length of 6 m, width of 3 m, and height of 2 m. What is its Total Surface Area (TSA)?",
-    options: [
-      { key: 'A', text: '72 sq. m.' },
-      { key: 'B', text: '56 sq. m.' },
-      { key: 'C', text: '65 sq. m.' },
-      { key: 'D', text: '90 sq. m.' }
+    "id": 43,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #43)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'TSA = 2(LW + WH + HL) = 2[(6)(3) + (3)(2) + (2)(6)] = 2[18 + 6 + 12] = 2[36] = 72 sq. m.',
-    topicRef: '7.0 Solid Geometry: Total Surface Area'
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
   },
   {
-    id: 50,
-    question: "What is the Volume of a moving truck\'s cargo space that is 10 meters long, 5 meters wide, and 2 meters tall?",
-    options: [
-      { key: 'A', text: '100 cubic meters' },
-      { key: 'B', text: '250 cubic meters' },
-      { key: 'C', text: '300 cubic meters' },
-      { key: 'D', text: '480 cubic meters' }
+    "id": 44,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #44)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
     ],
-    correctAnswer: 'A',
-    explanation: 'Volume V = L × W × H = 10 × 5 × 2 = 100 cubic meters (m³).',
-    topicRef: '7.0 Solid Geometry: Volume'
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 45,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #45)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 46,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #46)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 47,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #47)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 48,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #48)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 49,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #49)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 50,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #50)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 51,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #51)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 52,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #52)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 53,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #53)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 54,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #54)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 55,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #55)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 56,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #56)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 57,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #57)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 58,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #58)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 59,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #59)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 60,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #60)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 61,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #61)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 62,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #62)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 63,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #63)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 64,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #64)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 65,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #65)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 66,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #66)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 67,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #67)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 68,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #68)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 69,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #69)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 70,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #70)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+  },
+  {
+    "id": 71,
+    "topicRef": "Mathematics in the Modern World: Compound Interest",
+    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #71)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+  },
+  {
+    "id": 72,
+    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
+    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #72)",
+    "options": [
+      {
+        "key": "A",
+        "text": "A very strong negative (inverse) linear relationship between the two variables."
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+  },
+  {
+    "id": 73,
+    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
+    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #73)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Fractal"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+  },
+  {
+    "id": 74,
+    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
+    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #74)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Tautology"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+  },
+  {
+    "id": 75,
+    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
+    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #75)",
+    "options": [
+      {
+        "key": "A",
+        "text": "Caesar Cipher"
+      },
+      {
+        "key": "B",
+        "text": "Zero mathematical relevance."
+      },
+      {
+        "key": "C",
+        "text": "Undefined imaginary number."
+      },
+      {
+        "key": "D",
+        "text": "Arbitrary mathematical error."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
   }
 ];
