@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bg)"/>
+  <g transform="translate(64, 64) scale(0.75)">
+    <!-- Book/Education Icon -->
+    <path d="M256 120 L400 60 L400 380 L256 440 L112 380 L112 60 Z" fill="#ffffff" opacity="0.1" stroke="#ffffff" stroke-width="12" stroke-linejoin="round"/>
+    <path d="M256 120 L256 440" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+    <!-- Center Letter L in Serif -->
+    <text x="256" y="310" font-family="Georgia, serif" font-size="200" font-weight="bold" fill="url(#gold)" text-anchor="middle">L</text>
+    <!-- Star badge -->
+    <circle cx="380" cy="100" r="32" fill="url(#gold)"/>
+    <path d="M380 82 L386 94 L399 96 L389 105 L392 118 L380 111 L368 118 L371 105 L361 96 L374 94 Z" fill="#0f172a"/>
+  </g>
+</svg>

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw } from 'lucide-react';
+import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw, Download } from 'lucide-react';
 import { SubjectCategory } from '../types';
 import { subscribeSyncStatus, syncWithCloud, SyncStatus } from '../lib/cloudSync';
 
@@ -33,10 +33,29 @@ export const Header: React.FC<HeaderProps> = ({
   onLogout,
 }) => {
   const [syncStatus, setSyncStatus] = useState<SyncStatus>('synced');
+  const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
 
   useEffect(() => {
     return subscribeSyncStatus((s) => setSyncStatus(s));
   }, []);
+
+  useEffect(() => {
+    const handler = (e: any) => {
+      e.preventDefault();
+      setDeferredPrompt(e);
+    };
+    window.addEventListener('beforeinstallprompt', handler);
+    return () => window.removeEventListener('beforeinstallprompt', handler);
+  }, []);
+
+  const handleInstallClick = async () => {
+    if (!deferredPrompt) return;
+    deferredPrompt.prompt();
+    const { outcome } = await deferredPrompt.userChoice;
+    if (outcome === 'accepted') {
+      setDeferredPrompt(null);
+    }
+  };
   return (
     <header className="w-full bg-[#faf9f6] border-b border-slate-200 sticky top-0 z-30 shadow-xs backdrop-blur-md bg-[#faf9f6]/95">
       {/* Top Header Bar */}
@@ -152,6 +171,18 @@ export const Header: React.FC<HeaderProps> = ({
                 {syncStatus === 'syncing' ? 'Syncing...' : syncStatus === 'error' ? 'Retry Sync' : syncStatus === 'offline' ? 'Offline' : 'Cloud Synced'}
               </span>
             </button>
+
+            {/* PWA Install Button */}
+            {deferredPrompt && (
+              <button
+                onClick={handleInstallClick}
+                title="Install LET Reviewer App on your device for offline studying"
+                className="flex items-center gap-1.5 px-3 py-2 text-xs font-bold rounded-full bg-amber-500 hover:bg-amber-600 text-slate-950 transition-all cursor-pointer shadow-xs animate-bounce"
+              >
+                <Download className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline">Install App</span>
+              </button>
+            )}
 
             {/* Desktop Logout Button */}
             {onLogout && (
