@@ -349,55 +349,75 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
   }, []);
 
   // ---------------------------------------------------------------
-  // MOBILE-FIRST HIGHLIGHT: floating "Tap to Highlight" button
+  // MOBILE HIGHLIGHT — ref-based, auto-applies on finger release
   // ---------------------------------------------------------------
-  // Instead of relying on touchend (unreliable — browser's Copy/Share
-  // menu steals the gesture), we:
-  //  1. Listen to document.selectionchange to detect when text is selected
-  //  2. Snapshot the selection data (text + range bounding rect + location key)
-  //  3. Show a floating pill button above the selection
-  //  4. When tapped/clicked, apply the highlight from the snapshot
-  // This works on both desktop (mouseup -> selectionchange) and mobile
-  // (long-press -> drag -> selectionchange fires before browser menu).
+  // pendingSelectionRef always holds the latest snapshotted selection.
+  // Using a ref (not state) means touchend always reads the freshest data.
+  // pendingSelectionState drives the floating button UI only.
   // ---------------------------------------------------------------
 
-  // Snapshot of a pending selection waiting to be confirmed as a highlight
-  const [pendingSelection, setPendingSelection] = useState<{
+  type PendingSelectionData = {
     text: string;
     locationKey: string;
     pageNumber: number;
     startOffset?: number;
     endOffset?: number;
     rect: { top: number; left: number; width: number };
-  } | null>(null);
+  };
 
-  // Reads the current window selection and builds a snapshot if valid
+  const pendingSelectionRef = useRef<PendingSelectionData | null>(null);
+  const [pendingSelection, setPendingSelection] = useState<PendingSelectionData | null>(null);
+
+  // Snapshot selection into ref AND state
   const snapshotSelection = useCallback(() => {
-    if (!isHighlightMode) { setPendingSelection(null); return; }
+    if (!isHighlightMode) {
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
+    }
 
     const selection = window.getSelection();
-    if (!selection || selection.isCollapsed) { setPendingSelection(null); return; }
+    if (!selection || selection.isCollapsed) {
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
+    }
 
     const rawText = selection.toString().trim();
-    if (rawText.length < 1) { setPendingSelection(null); return; }
+    if (rawText.length < 1) {
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
+    }
 
     if (!articleContainerRef.current || !articleContainerRef.current.contains(selection.anchorNode)) {
-      setPendingSelection(null); return;
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
     }
 
     const anchorNode = selection.anchorNode;
     const anchorElement = anchorNode instanceof HTMLElement ? anchorNode : anchorNode?.parentElement;
     const targetContainer = anchorElement?.closest('[data-location-key]') as HTMLElement | null;
-    if (!targetContainer) { setPendingSelection(null); return; }
+    if (!targetContainer) {
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
+    }
 
     const locationKey = targetContainer.getAttribute('data-location-key');
-    if (!locationKey) { setPendingSelection(null); return; }
+    if (!locationKey) {
+      pendingSelectionRef.current = null;
+      setPendingSelection(null);
+      return;
+    }
 
     const pageMatch = locationKey.match(/^p(\d+)-/);
     const pageNumber = pageMatch ? parseInt(pageMatch[1], 10) : (currentRawPageNumbers[0] || 1);
 
     let startOffset: number | undefined;
     let endOffset: number | undefined;
+    // Use viewport coords (for floating button position) — not scroll-relative
     let rect = { top: 0, left: 0, width: 0 };
 
     try {
@@ -409,59 +429,76 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       endOffset = startOffset + rawText.length;
 
       const domRect = range.getBoundingClientRect();
-      rect = { top: domRect.top + window.scrollY, left: domRect.left, width: domRect.width };
+      // top in viewport coords (not page coords) so it moves with scroll correctly
+      rect = { top: domRect.top, left: domRect.left, width: domRect.width };
     } catch (e) {
       console.error('Could not compute range offset', e);
     }
 
-    setPendingSelection({ text: rawText, locationKey, pageNumber, startOffset, endOffset, rect });
+    const snap: PendingSelectionData = { text: rawText, locationKey, pageNumber, startOffset, endOffset, rect };
+    pendingSelectionRef.current = snap;
+    setPendingSelection(snap);
   }, [isHighlightMode, currentRawPageNumbers]);
 
-  // Listen to selectionchange — fires reliably on both desktop and mobile
+  // selectionchange fires during drag — continuously updates the snapshot
   useEffect(() => {
-    const handler = () => {
-      // Small delay so range is finalized after browser processes the touch/drag
-      setTimeout(snapshotSelection, 50);
-    };
+    const handler = () => setTimeout(snapshotSelection, 30);
     document.addEventListener('selectionchange', handler);
     return () => document.removeEventListener('selectionchange', handler);
   }, [snapshotSelection]);
 
-  // Apply the pending selection as a real highlight
-  const applyPendingHighlight = useCallback(() => {
-    if (!pendingSelection) return;
+  // Core: build and save a HighlightItem from snapshot data
+  const buildAndSaveHighlight = useCallback((snap: PendingSelectionData) => {
     const newHighlight: HighlightItem = {
       id: `hl-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
       subjectId: subject.id,
-      pageNumber: pendingSelection.pageNumber,
-      locationKey: pendingSelection.locationKey,
-      startOffset: pendingSelection.startOffset,
-      endOffset: pendingSelection.endOffset,
-      text: pendingSelection.text,
+      pageNumber: snap.pageNumber,
+      locationKey: snap.locationKey,
+      startOffset: snap.startOffset,
+      endOffset: snap.endOffset,
+      text: snap.text,
       color: activeHighlightColor,
       createdAt: Date.now(),
     };
     setHighlights(prev => [newHighlight, ...prev]);
     window.getSelection()?.removeAllRanges();
+    pendingSelectionRef.current = null;
     setPendingSelection(null);
-  }, [pendingSelection, subject.id, activeHighlightColor]);
+  }, [subject.id, activeHighlightColor]);
 
-  // Desktop mouseup still works as before (selectionchange will also fire, but
-  // applyPendingHighlight requires an explicit tap/click on the floating button)
-  const handleMouseUp = useCallback(() => {
-    // On desktop: immediately apply on mouseup if in highlight mode
-    // (snapshotSelection will have already captured it via selectionchange)
+  // applyPendingHighlight reads from ref so it always has the latest data
+  const applyPendingHighlight = useCallback(() => {
+    const snap = pendingSelectionRef.current;
+    if (!snap) return;
+    buildAndSaveHighlight(snap);
+  }, [buildAndSaveHighlight]);
+
+  // MOBILE: touchend auto-applies immediately — finger up = highlight done
+  // Reads from ref, not state, so it's never stale
+  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
     if (!isHighlightMode) return;
-    // Short defer to let selectionchange fire first
+    // Small delay to let selectionchange finalize the snapshot first
     setTimeout(() => {
-      const sel = window.getSelection();
-      if (sel && !sel.isCollapsed) {
-        applyPendingHighlight();
+      const snap = pendingSelectionRef.current;
+      if (snap && snap.text.length > 0) {
+        e.preventDefault?.();
+        buildAndSaveHighlight(snap);
+      }
+    }, 80);
+  }, [isHighlightMode, buildAndSaveHighlight]);
+
+  // DESKTOP: mouseup auto-applies
+  const handleMouseUp = useCallback(() => {
+    if (!isHighlightMode) return;
+    setTimeout(() => {
+      const snap = pendingSelectionRef.current;
+      if (snap && snap.text.length > 0) {
+        buildAndSaveHighlight(snap);
       }
     }, 60);
-  }, [isHighlightMode, applyPendingHighlight]);
+  }, [isHighlightMode, buildAndSaveHighlight]);
 
-  const handleTouchEnd = undefined; // handled by selectionchange + floating button
+
 
   // Update Highlight Color
   const handleUpdateHighlightColor = (id: string, color: HighlightColor) => {
@@ -960,35 +997,36 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       <main 
         ref={articleContainerRef}
         onMouseUp={handleMouseUp}
+        onTouchEnd={handleTouchEnd}
         className="flex-1 max-w-5xl xl:max-w-6xl w-full mx-auto px-3.5 sm:px-8 md:px-10 lg:px-12 pt-4 sm:pt-8 pb-28 sm:pb-12 select-text"
       >
 
         {/* ============================================================ */}
-        {/* FLOATING "TAP TO HIGHLIGHT" BUTTON (mobile-first)            */}
-        {/* Appears above any text selection when highlight mode is ON.  */}
-        {/* On mobile: select text → native menu shows AND this pops up. */}
-        {/* Tap this button to commit the highlight.                     */}
+        {/* FLOATING HIGHLIGHT INDICATOR — shows selection is captured   */}
+        {/* Auto-applies on finger-up (touchend). This button is a       */}
+        {/* fallback: if auto-apply misses (copy menu intercepted), tap  */}
+        {/* this to still apply. Uses fixed viewport positioning.        */}
         {/* ============================================================ */}
         {isHighlightMode && pendingSelection && (
           <div
-            className="fixed z-[90] animate-fadeIn"
+            className="fixed z-[90] pointer-events-auto animate-fadeIn"
             style={{
-              top: `${Math.max(64, pendingSelection.rect.top - 52)}px`,
-              left: `${Math.max(8, Math.min(window.innerWidth - 180, pendingSelection.rect.left + pendingSelection.rect.width / 2 - 80))}px`,
+              // rect.top is viewport-relative so no scrollY needed
+              top: `${Math.max(64, pendingSelection.rect.top - 46)}px`,
+              left: `${Math.max(8, Math.min(window.innerWidth - 190, pendingSelection.rect.left + pendingSelection.rect.width / 2 - 90))}px`,
             }}
           >
             <button
               onMouseDown={(e) => { e.preventDefault(); e.stopPropagation(); applyPendingHighlight(); }}
               onTouchStart={(e) => { e.preventDefault(); e.stopPropagation(); applyPendingHighlight(); }}
-              className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-bold text-white shadow-xl cursor-pointer border-2 border-white/30 active:scale-95 transition-transform"
-              style={{ backgroundColor: HIGHLIGHT_COLORS[activeHighlightColor]?.hex ? `color-mix(in srgb, ${HIGHLIGHT_COLORS[activeHighlightColor].hex} 80%, #000 20%)` : '#ca8a04' }}
+              className="flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold text-slate-900 shadow-xl cursor-pointer border-2 border-white active:scale-95 transition-transform"
+              style={{ backgroundColor: HIGHLIGHT_COLORS[activeHighlightColor]?.hex ?? '#fde047' }}
             >
               <Highlighter className="w-4 h-4" />
-              <span>Tap to Highlight</span>
+              <span>Highlight ✓</span>
             </button>
           </div>
         )}
-
 
         {/* If this subject has structured page groups */}
         {hasPages && currentPageGroup ? (
