@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw, Download } from 'lucide-react';
+import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw, Download, X } from 'lucide-react';
 import { SubjectCategory } from '../types';
 import { subscribeSyncStatus, syncWithCloud, SyncStatus } from '../lib/cloudSync';
 
@@ -34,6 +34,7 @@ export const Header: React.FC<HeaderProps> = ({
 }) => {
   const [syncStatus, setSyncStatus] = useState<SyncStatus>('synced');
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
+  const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
 
   useEffect(() => {
     return subscribeSyncStatus((s) => setSyncStatus(s));
@@ -49,11 +50,14 @@ export const Header: React.FC<HeaderProps> = ({
   }, []);
 
   const handleInstallClick = async () => {
-    if (!deferredPrompt) return;
-    deferredPrompt.prompt();
-    const { outcome } = await deferredPrompt.userChoice;
-    if (outcome === 'accepted') {
-      setDeferredPrompt(null);
+    if (deferredPrompt) {
+      deferredPrompt.prompt();
+      const { outcome } = await deferredPrompt.userChoice;
+      if (outcome === 'accepted') {
+        setDeferredPrompt(null);
+      }
+    } else {
+      setIsInstallModalOpen(true);
     }
   };
   return (
@@ -86,6 +90,15 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Mobile Actions Container */}
             <div className="flex items-center gap-1.5 md:hidden">
+              {/* Install App Button (Mobile) */}
+              <button
+                onClick={handleInstallClick}
+                title="Install LET Reviewer App on your device for offline studying"
+                className="p-2 rounded-full bg-slate-900 text-white hover:bg-slate-800 border border-slate-800 shadow-xs flex items-center justify-center cursor-pointer active:scale-95 shrink-0"
+              >
+                <Download className="w-4 h-4 text-amber-400" />
+              </button>
+
               {/* Cloud Sync Status Indicator */}
               <button
                 onClick={() => syncWithCloud()}
@@ -318,6 +331,58 @@ export const Header: React.FC<HeaderProps> = ({
 
         </div>
       </nav>
+
+      {/* Mobile Install Guide Modal */}
+      {isInstallModalOpen && (
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-4 bg-slate-950/60 backdrop-blur-xs animate-fadeIn">
+          <div className="bg-white border border-slate-200 rounded-2xl w-full max-w-md p-5 sm:p-6 shadow-2xl space-y-4 animate-slideUp">
+            <div className="flex items-center justify-between pb-3 border-b border-slate-100">
+              <div className="flex items-center gap-2.5">
+                <div className="w-8 h-8 rounded-xl bg-slate-900 text-white flex items-center justify-center font-bold">
+                  <Download className="w-4 h-4 text-amber-400" />
+                </div>
+                <div>
+                  <h3 className="font-serif font-bold text-slate-950 text-base">Install LET Reviewer</h3>
+                  <p className="text-[11px] text-slate-500">Study anywhere with 100% offline support</p>
+                </div>
+              </div>
+              <button
+                onClick={() => setIsInstallModalOpen(false)}
+                className="p-1 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 cursor-pointer"
+              >
+                <X className="w-4 h-4" />
+              </button>
+            </div>
+
+            <div className="space-y-3 text-xs sm:text-sm text-slate-700 font-sans">
+              <div className="p-3.5 rounded-xl bg-amber-50/80 border border-amber-200/80 space-y-1">
+                <p className="font-bold text-amber-950 flex items-center gap-1.5">
+                  <span>📱 On Android (Chrome)</span>
+                </p>
+                <p className="text-amber-900 leading-relaxed text-xs">
+                  Tap the <strong>3 dots (⋮)</strong> at the top-right of Chrome, then tap <strong>"Install app"</strong> or <strong>"Add to Home screen"</strong>.
+                </p>
+              </div>
+
+              <div className="p-3.5 rounded-xl bg-slate-50 border border-slate-200 space-y-1">
+                <p className="font-bold text-slate-900 flex items-center gap-1.5">
+                  <span>🍏 On iPhone / iPad (Safari)</span>
+                </p>
+                <p className="text-slate-600 leading-relaxed text-xs">
+                  Tap the <strong>Share button</strong> (square with up arrow), scroll down, and tap <strong>"Add to Home Screen"</strong>.
+                </p>
+              </div>
+            </div>
+
+            <button
+              onClick={() => setIsInstallModalOpen(false)}
+              className="w-full py-2.5 rounded-xl bg-slate-900 text-white font-bold text-xs hover:bg-slate-800 transition-colors shadow-xs cursor-pointer"
+            >
+              Got It
+            </button>
+          </div>
+        </div>
+      )}
     </header>
   );
 };
