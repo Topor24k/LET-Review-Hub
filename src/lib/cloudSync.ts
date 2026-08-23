@@ -1,4 +1,4 @@
-﻿import { SubjectProgressMap, HighlightItem, FlashcardItem, SubjectExamHistoryMap } from '../types';
+import { SubjectProgressMap, HighlightItem, FlashcardItem, SubjectExamHistoryMap } from '../types';
 import { ActiveExamDraft } from './examHistory';
 
 export interface CloudStudyData {
@@ -238,7 +238,14 @@ export async function syncWithCloud(): Promise<void> {
     const res = await fetch('/api/sync', { method: 'GET' });
 
     if (!res.ok) {
-      throw new Error(`Failed to fetch cloud sync (${res.status})`);
+      let errDetails = '';
+      try {
+        const errJson = await res.json();
+        errDetails = errJson.error || errJson.details || JSON.stringify(errJson);
+      } catch {
+        errDetails = await res.text();
+      }
+      throw new Error(`Failed to fetch cloud sync (${res.status}): ${errDetails}`);
     }
 
     const cloudDoc = await res.json();
