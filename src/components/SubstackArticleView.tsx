@@ -348,73 +348,120 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
     return () => window.removeEventListener('keydown', handleKeyDown);
   }, []);
 
-  // Text Selection Highlight Handler with precise Location & Offsets
-  // Works for both mouse (desktop) and touch (mobile — user selects text then lifts finger)
-  const handleTextSelection = useCallback(() => {
-    if (!isHighlightMode) return;
+  // ---------------------------------------------------------------
+  // MOBILE-FIRST HIGHLIGHT: floating "Tap to Highlight" button
+  // ---------------------------------------------------------------
+  // Instead of relying on touchend (unreliable — browser's Copy/Share
+  // menu steals the gesture), we:
+  //  1. Listen to document.selectionchange to detect when text is selected
+  //  2. Snapshot the selection data (text + range bounding rect + location key)
+  //  3. Show a floating pill button above the selection
+  //  4. When tapped/clicked, apply the highlight from the snapshot
+  // This works on both desktop (mouseup -> selectionchange) and mobile
+  // (long-press -> drag -> selectionchange fires before browser menu).
+  // ---------------------------------------------------------------
+
+  // Snapshot of a pending selection waiting to be confirmed as a highlight
+  const [pendingSelection, setPendingSelection] = useState<{
+    text: string;
+    locationKey: string;
+    pageNumber: number;
+    startOffset?: number;
+    endOffset?: number;
+    rect: { top: number; left: number; width: number };
+  } | null>(null);
+
+  // Reads the current window selection and builds a snapshot if valid
+  const snapshotSelection = useCallback(() => {
+    if (!isHighlightMode) { setPendingSelection(null); return; }
 
     const selection = window.getSelection();
-    if (!selection || selection.isCollapsed) return;
+    if (!selection || selection.isCollapsed) { setPendingSelection(null); return; }
 
     const rawText = selection.toString().trim();
-    if (rawText.length < 1) return;
+    if (rawText.length < 1) { setPendingSelection(null); return; }
 
-    // Check if selection is within the article and on an annotatable location
-    if (articleContainerRef.current && articleContainerRef.current.contains(selection.anchorNode)) {
-      const anchorNode = selection.anchorNode;
-      const anchorElement = anchorNode instanceof HTMLElement ? anchorNode : anchorNode?.parentElement;
-      const targetContainer = anchorElement?.closest('[data-location-key]') as HTMLElement | null;
-
-      // Strictly only allow highlighting on lesson paragraphs / sections with locationKey
-      if (!targetContainer) return;
-      const locationKey = targetContainer.getAttribute('data-location-key');
-      if (!locationKey) return;
-
-      // Extract raw page number from locationKey (format: p{rawPageNumber}-sec...)
-      const pageMatch = locationKey.match(/^p(\d+)-/);
-      const highlightedRawPage = pageMatch ? parseInt(pageMatch[1], 10) : (currentRawPageNumbers[0] || 1);
-
-      let startOffset: number | undefined = undefined;
-      let endOffset: number | undefined = undefined;
-
-      try {
-        const range = selection.getRangeAt(0);
-        const preRange = range.cloneRange();
-        preRange.selectNodeContents(targetContainer);
-        preRange.setEnd(range.startContainer, range.startOffset);
-        startOffset = preRange.toString().length;
-        endOffset = startOffset + rawText.length;
-      } catch (e) {
-        console.error('Could not compute precise range offset', e);
-      }
-
-      const newHighlight: HighlightItem = {
-        id: `hl-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
-        subjectId: subject.id,
-        pageNumber: highlightedRawPage,
-        locationKey,
-        startOffset,
-        endOffset,
-        text: rawText,
-        color: activeHighlightColor,
-        createdAt: Date.now(),
-      };
-
-      setHighlights(prev => [newHighlight, ...prev]);
-      selection.removeAllRanges();
+    if (!articleContainerRef.current || !articleContainerRef.current.contains(selection.anchorNode)) {
+      setPendingSelection(null); return;
     }
-  }, [isHighlightMode, subject.id, currentRawPageNumbers, activeHighlightColor]);
 
-  // On mobile, touchend fires after the user lifts their finger from a text selection.
-  // We use a short delay so the browser has time to finalize the selection range.
-  const handleTouchEnd = useCallback(() => {
+    const anchorNode = selection.anchorNode;
+    const anchorElement = anchorNode instanceof HTMLElement ? anchorNode : anchorNode?.parentElement;
+    const targetContainer = anchorElement?.closest('[data-location-key]') as HTMLElement | null;
+    if (!targetContainer) { setPendingSelection(null); return; }
+
+    const locationKey = targetContainer.getAttribute('data-location-key');
+    if (!locationKey) { setPendingSelection(null); return; }
+
+    const pageMatch = locationKey.match(/^p(\d+)-/);
+    const pageNumber = pageMatch ? parseInt(pageMatch[1], 10) : (currentRawPageNumbers[0] || 1);
+
+    let startOffset: number | undefined;
+    let endOffset: number | undefined;
+    let rect = { top: 0, left: 0, width: 0 };
+
+    try {
+      const range = selection.getRangeAt(0);
+      const preRange = range.cloneRange();
+      preRange.selectNodeContents(targetContainer);
+      preRange.setEnd(range.startContainer, range.startOffset);
+      startOffset = preRange.toString().length;
+      endOffset = startOffset + rawText.length;
+
+      const domRect = range.getBoundingClientRect();
+      rect = { top: domRect.top + window.scrollY, left: domRect.left, width: domRect.width };
+    } catch (e) {
+      console.error('Could not compute range offset', e);
+    }
+
+    setPendingSelection({ text: rawText, locationKey, pageNumber, startOffset, endOffset, rect });
+  }, [isHighlightMode, currentRawPageNumbers]);
+
+  // Listen to selectionchange — fires reliably on both desktop and mobile
+  useEffect(() => {
+    const handler = () => {
+      // Small delay so range is finalized after browser processes the touch/drag
+      setTimeout(snapshotSelection, 50);
+    };
+    document.addEventListener('selectionchange', handler);
+    return () => document.removeEventListener('selectionchange', handler);
+  }, [snapshotSelection]);
+
+  // Apply the pending selection as a real highlight
+  const applyPendingHighlight = useCallback(() => {
+    if (!pendingSelection) return;
+    const newHighlight: HighlightItem = {
+      id: `hl-${Date.now()}-${Math.random().toString(36).substr(2, 5)}`,
+      subjectId: subject.id,
+      pageNumber: pendingSelection.pageNumber,
+      locationKey: pendingSelection.locationKey,
+      startOffset: pendingSelection.startOffset,
+      endOffset: pendingSelection.endOffset,
+      text: pendingSelection.text,
+      color: activeHighlightColor,
+      createdAt: Date.now(),
+    };
+    setHighlights(prev => [newHighlight, ...prev]);
+    window.getSelection()?.removeAllRanges();
+    setPendingSelection(null);
+  }, [pendingSelection, subject.id, activeHighlightColor]);
+
+  // Desktop mouseup still works as before (selectionchange will also fire, but
+  // applyPendingHighlight requires an explicit tap/click on the floating button)
+  const handleMouseUp = useCallback(() => {
+    // On desktop: immediately apply on mouseup if in highlight mode
+    // (snapshotSelection will have already captured it via selectionchange)
     if (!isHighlightMode) return;
+    // Short defer to let selectionchange fire first
     setTimeout(() => {
-      handleTextSelection();
-    }, 120);
-  }, [isHighlightMode, handleTextSelection]);
+      const sel = window.getSelection();
+      if (sel && !sel.isCollapsed) {
+        applyPendingHighlight();
+      }
+    }, 60);
+  }, [isHighlightMode, applyPendingHighlight]);
 
-  const handleMouseUp = handleTextSelection;
+  const handleTouchEnd = undefined; // handled by selectionchange + floating button
 
   // Update Highlight Color
   const handleUpdateHighlightColor = (id: string, color: HighlightColor) => {
@@ -913,10 +960,36 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       <main 
         ref={articleContainerRef}
         onMouseUp={handleMouseUp}
-        onTouchEnd={handleTouchEnd}
         className="flex-1 max-w-5xl xl:max-w-6xl w-full mx-auto px-3.5 sm:px-8 md:px-10 lg:px-12 pt-4 sm:pt-8 pb-28 sm:pb-12 select-text"
       >
-        
+
+        {/* ============================================================ */}
+        {/* FLOATING "TAP TO HIGHLIGHT" BUTTON (mobile-first)            */}
+        {/* Appears above any text selection when highlight mode is ON.  */}
+        {/* On mobile: select text → native menu shows AND this pops up. */}
+        {/* Tap this button to commit the highlight.                     */}
+        {/* ============================================================ */}
+        {isHighlightMode && pendingSelection && (
+          <div
+            className="fixed z-[90] animate-fadeIn"
+            style={{
+              top: `${Math.max(64, pendingSelection.rect.top - 52)}px`,
+              left: `${Math.max(8, Math.min(window.innerWidth - 180, pendingSelection.rect.left + pendingSelection.rect.width / 2 - 80))}px`,
+            }}
+          >
+            <button
+              onMouseDown={(e) => { e.preventDefault(); e.stopPropagation(); applyPendingHighlight(); }}
+              onTouchStart={(e) => { e.preventDefault(); e.stopPropagation(); applyPendingHighlight(); }}
+              className="flex items-center gap-2 px-4 py-2.5 rounded-full text-sm font-bold text-white shadow-xl cursor-pointer border-2 border-white/30 active:scale-95 transition-transform"
+              style={{ backgroundColor: HIGHLIGHT_COLORS[activeHighlightColor]?.hex ? `color-mix(in srgb, ${HIGHLIGHT_COLORS[activeHighlightColor].hex} 80%, #000 20%)` : '#ca8a04' }}
+            >
+              <Highlighter className="w-4 h-4" />
+              <span>Tap to Highlight</span>
+            </button>
+          </div>
+        )}
+
+
         {/* If this subject has structured page groups */}
         {hasPages && currentPageGroup ? (
           <div className="space-y-8">
