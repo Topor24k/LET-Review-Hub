@@ -8,7 +8,7 @@ interface HighlightsDigestModalProps {
   onClose: () => void;
   highlights: HighlightItem[];
   currentSubject: SubjectModule;
-  onJumpToHighlight: (pageNumber: number, highlightId: string) => void;
+  onJumpToHighlight: (pageNumber: number, highlightId: string, locationKey?: string) => void;
   onDeleteHighlight: (id: string) => void;
   onUpdateNote: (id: string, note: string) => void;
 }
@@ -288,7 +288,7 @@ export const HighlightsDigestModal: React.FC<HighlightsDigestModalProps> = ({
                       {/* Jump to exact reading spot */}
                       <button
                         onClick={() => {
-                          onJumpToHighlight(h.pageNumber, h.id);
+                          onJumpToHighlight(h.pageNumber, h.id, h.locationKey);
                           onClose();
                         }}
                         className="ml-auto inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 bg-slate-100 hover:bg-slate-900 hover:text-white px-3 py-1.5 rounded-lg transition-all cursor-pointer shadow-2xs active:scale-95"

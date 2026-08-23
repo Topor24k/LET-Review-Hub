@@ -250,17 +250,32 @@ export async function syncWithCloud(): Promise<void> {
 
     const cloudDoc = await res.json();
     const local = getLocalSnapshot();
-    const merged = mergeStudyData(local, cloudDoc || {});
 
-    // Save merged to local
-    applyCloudSnapshotToLocal(merged);
+    const hasCloudData = cloudDoc && (
+      (Array.isArray(cloudDoc.highlights) && cloudDoc.highlights.length > 0) ||
+      (cloudDoc.userProgress && Object.keys(cloudDoc.userProgress).length > 0) ||
+      (Array.isArray(cloudDoc.flashcards) && cloudDoc.flashcards.length > 0) ||
+      (cloudDoc.examHistory && Object.keys(cloudDoc.examHistory).length > 0)
+    );
 
-    // Push merged back to MongoDB to ensure database has complete unified state
-    await fetch('/api/sync', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(merged),
-    });
+    const hasLocalData = local && (
+      (Array.isArray(local.highlights) && local.highlights.length > 0) ||
+      (local.userProgress && Object.keys(local.userProgress).length > 0) ||
+      (Array.isArray(local.flashcards) && local.flashcards.length > 0) ||
+      (local.examHistory && Object.keys(local.examHistory).length > 0)
+    );
+
+    if (hasCloudData) {
+      // Cloud has existing data -> update local device so it mirrors cloud
+      applyCloudSnapshotToLocal(cloudDoc);
+    } else if (hasLocalData) {
+      // Cloud was empty (or just reset) -> push local state to MongoDB
+      await fetch('/api/sync', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(local),
+      });
+    }
 
     setSyncStatus('synced');
   } catch (error) {

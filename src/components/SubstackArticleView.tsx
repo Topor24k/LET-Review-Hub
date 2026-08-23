@@ -446,6 +446,13 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
 
     try {
       const range = selection.getRangeAt(0);
+      // Ensure the selection is within the targetContainer content
+      if (!targetContainer.contains(range.commonAncestorContainer)) {
+        pendingSelectionRef.current = null;
+        setPendingSelection(null);
+        return;
+      }
+
       const preRange = range.cloneRange();
       preRange.selectNodeContents(targetContainer);
       preRange.setEnd(range.startContainer, range.startOffset);
@@ -490,7 +497,12 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       color: activeHighlightColor,
       createdAt: Date.now(),
     };
-    setHighlights(prev => [newHighlight, ...prev]);
+    setHighlights(prev => {
+      const updated = [newHighlight, ...prev];
+      saveStoredHighlights(updated);
+      pushCloudChange({ highlights: updated });
+      return updated;
+    });
     window.getSelection()?.removeAllRanges();
     pendingSelectionRef.current = null;
     setPendingSelection(null);
@@ -525,25 +537,40 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
 
 
 
-  // Update Highlight Color
+  // Update Highlight Color & Sync to MongoDB
   const handleUpdateHighlightColor = (id: string, color: HighlightColor) => {
-    setHighlights(prev => prev.map(h => h.id === id ? { ...h, color } : h));
+    setHighlights(prev => {
+      const updated = prev.map(h => h.id === id ? { ...h, color } : h);
+      saveStoredHighlights(updated);
+      pushCloudChange({ highlights: updated });
+      return updated;
+    });
     if (activePopover && activePopover.highlight.id === id) {
       setActivePopover(prev => prev ? { ...prev, highlight: { ...prev.highlight, color } } : null);
     }
   };
 
-  // Update Highlight Note
+  // Update Highlight Note & Sync to MongoDB
   const handleUpdateHighlightNote = (id: string, note: string) => {
-    setHighlights(prev => prev.map(h => h.id === id ? { ...h, note } : h));
+    setHighlights(prev => {
+      const updated = prev.map(h => h.id === id ? { ...h, note } : h);
+      saveStoredHighlights(updated);
+      pushCloudChange({ highlights: updated });
+      return updated;
+    });
     if (activePopover && activePopover.highlight.id === id) {
       setActivePopover(prev => prev ? { ...prev, highlight: { ...prev.highlight, note } } : null);
     }
   };
 
-  // Delete Highlight
+  // Delete Highlight — immediately updates local storage and syncs deletion to MongoDB
   const handleDeleteHighlight = (id: string) => {
-    setHighlights(prev => prev.filter(h => h.id !== id));
+    setHighlights(prev => {
+      const updated = prev.filter(h => h.id !== id);
+      saveStoredHighlights(updated);
+      pushCloudChange({ highlights: updated });
+      return updated;
+    });
     setActivePopover(null);
   };
 
@@ -558,14 +585,32 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       createdAt: Date.now(),
     };
 
-    setFlashcards(prev => [newCard, ...prev]);
+    setFlashcards(prev => {
+      const updated = [newCard, ...prev];
+      saveStoredFlashcards(updated);
+      pushCloudChange({ flashcards: updated });
+      return updated;
+    });
     setActivePopover(null);
     setIsFlashcardsModalOpen(true);
   };
 
-  // Jump precisely to a specific highlighted word / passage
-  const handleJumpToHighlight = (pageNumber: number, highlightId: string) => {
-    const targetGroupIdx = pageGroups.findIndex(g => g.rawPages.some(p => p.pageNumber === pageNumber));
+  // Jump precisely to a specific highlighted word / passage in reading view
+  const handleJumpToHighlight = (pageNumber: number, highlightId: string, locationKey?: string) => {
+    let targetGroupIdx = -1;
+
+    if (locationKey) {
+      const match = locationKey.match(/^p(\d+)-/);
+      if (match) {
+        const parsedRaw = parseInt(match[1], 10);
+        targetGroupIdx = pageGroups.findIndex(g => g.rawPages.some(p => p.pageNumber === parsedRaw));
+      }
+    }
+
+    if (targetGroupIdx === -1) {
+      targetGroupIdx = pageGroups.findIndex(g => g.rawPages.some(p => p.pageNumber === pageNumber));
+    }
+
     if (targetGroupIdx !== -1 && targetGroupIdx !== currentPageIndex) {
       setCurrentPageIndex(targetGroupIdx);
     }
@@ -578,8 +623,8 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
         el.scrollIntoView({ behavior: 'smooth', block: 'center' });
         setTimeout(() => {
           setTargetHighlightId(prev => (prev === highlightId ? null : prev));
-        }, 3000);
-      } else if (attempts < 15) {
+        }, 3500);
+      } else if (attempts < 25) {
         setTimeout(() => attemptScroll(attempts + 1), 60);
       }
     };
@@ -593,7 +638,10 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       const subjectList = prev[subject.id] || [];
       const exists = subjectList.includes(sectionKey);
       const updated = exists ? subjectList.filter(k => k !== sectionKey) : [...subjectList, sectionKey];
-      return { ...prev, [subject.id]: updated };
+      const nextBookmarks = { ...prev, [subject.id]: updated };
+      saveStoredParagraphBookmarks(nextBookmarks);
+      pushCloudChange({ paragraphBookmarks: nextBookmarks });
+      return nextBookmarks;
     });
   };
 
@@ -642,20 +690,40 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
         if (!hl.text) return;
 
         let startIdx = -1;
+        const targetLen = hl.text.length;
+
         // Check if startOffset is precisely accurate
         if (
           typeof hl.startOffset === 'number' &&
-          rawText.substring(hl.startOffset, hl.startOffset + hl.text.length).toLowerCase() === hl.text.toLowerCase()
+          rawText.substring(hl.startOffset, hl.startOffset + targetLen).toLowerCase() === hl.text.toLowerCase()
         ) {
           startIdx = hl.startOffset;
         } else {
-          startIdx = rawText.toLowerCase().indexOf(hl.text.toLowerCase());
+          // Find occurrence CLOSEST to hl.startOffset so duplicate words elsewhere never trigger wrong highlights
+          const targetOffset = typeof hl.startOffset === 'number' ? hl.startOffset : 0;
+          let bestIdx = -1;
+          let minDiff = Infinity;
+          let searchPos = 0;
+          const searchKey = hl.text.toLowerCase();
+          const lowerRaw = rawText.toLowerCase();
+
+          while (true) {
+            const foundPos = lowerRaw.indexOf(searchKey, searchPos);
+            if (foundPos === -1) break;
+            const diff = Math.abs(foundPos - targetOffset);
+            if (diff < minDiff) {
+              minDiff = diff;
+              bestIdx = foundPos;
+            }
+            searchPos = foundPos + 1;
+          }
+          startIdx = bestIdx;
         }
 
         if (startIdx !== -1) {
           highlightIntervals.push({
             start: startIdx,
-            end: startIdx + hl.text.length,
+            end: startIdx + targetLen,
             highlight: hl,
           });
         }
