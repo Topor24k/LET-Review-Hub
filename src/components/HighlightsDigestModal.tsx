@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { HighlightItem, HighlightColor, SubjectModule } from '../types';
 import { HIGHLIGHT_COLORS } from '../lib/highlightConstants';
 import { X, ArrowUpRight, Trash2, Highlighter, Sparkles, MessageSquare, BookOpen, Check, Pencil } from 'lucide-react';
@@ -26,6 +26,20 @@ export const HighlightsDigestModal: React.FC<HighlightsDigestModalProps> = ({
   const [editingNoteId, setEditingNoteId] = useState<string | null>(null);
   const [tempNoteText, setTempNoteText] = useState('');
 
+  // Lock background body scroll when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      const originalOverflow = document.body.style.overflow;
+      const originalTouchAction = document.body.style.touchAction;
+      document.body.style.overflow = 'hidden';
+      document.body.style.touchAction = 'none';
+      return () => {
+        document.body.style.overflow = originalOverflow;
+        document.body.style.touchAction = originalTouchAction;
+      };
+    }
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const subjectHighlights = highlights.filter(h => h.subjectId === currentSubject.id);
@@ -42,10 +56,14 @@ export const HighlightsDigestModal: React.FC<HighlightsDigestModalProps> = ({
   ];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-950/50 backdrop-blur-xs animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center p-0 sm:p-4 bg-slate-950/50 backdrop-blur-xs animate-fadeIn overscroll-none">
       
-      {/* Background click to dismiss */}
-      <div className="fixed inset-0" onClick={onClose} />
+      {/* Background click to dismiss — blocks touchmove propagation to background */}
+      <div 
+        className="fixed inset-0" 
+        onClick={onClose} 
+        onTouchMove={(e) => e.preventDefault()} 
+      />
 
       {/* Main Modal Card (Full bottom-sheet on phone, centered modal on desktop) */}
       <div className="relative bg-white rounded-t-3xl sm:rounded-2xl border border-slate-200/90 shadow-2xl max-w-2xl w-full max-h-[92vh] sm:max-h-[85vh] flex flex-col overflow-hidden z-10 animate-slideUp sm:animate-fadeIn">
@@ -122,8 +140,8 @@ export const HighlightsDigestModal: React.FC<HighlightsDigestModalProps> = ({
           })}
         </div>
 
-        {/* Highlights Cards List Body */}
-        <div className="p-3 sm:p-6 overflow-y-auto flex-1 space-y-3 bg-[#faf9f6]/40 divide-y divide-slate-100">
+        {/* Highlights Cards List Body — isolated scrolling */}
+        <div className="p-3 sm:p-6 overflow-y-auto flex-1 space-y-3 bg-[#faf9f6]/40 divide-y divide-slate-100 overscroll-contain touch-pan-y">
           {filteredHighlights.length === 0 ? (
             <div className="text-center py-12 px-4 text-slate-400 space-y-3">
               <div className="w-12 h-12 rounded-full bg-amber-50 text-amber-700 flex items-center justify-center mx-auto">

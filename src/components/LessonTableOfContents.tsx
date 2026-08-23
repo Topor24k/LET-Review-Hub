@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { LessonPage } from '../data/methodsAndStrategiesContent';
 
 export interface PageGroup {
@@ -33,16 +33,31 @@ export const LessonTableOfContents: React.FC<LessonTableOfContentsProps> = ({
   paragraphBookmarks,
   subjectId,
 }) => {
+  // Lock background body scroll when modal is open
+  useEffect(() => {
+    if (isOpen) {
+      const originalOverflow = document.body.style.overflow;
+      const originalTouchAction = document.body.style.touchAction;
+      document.body.style.overflow = 'hidden';
+      document.body.style.touchAction = 'none';
+      return () => {
+        document.body.style.overflow = originalOverflow;
+        document.body.style.touchAction = originalTouchAction;
+      };
+    }
+  }, [isOpen]);
+
   if (!isOpen) return null;
 
   const bookmarkedSections = paragraphBookmarks[subjectId] || [];
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-900/35 backdrop-blur-xs animate-fadeIn">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 bg-slate-900/35 backdrop-blur-xs animate-fadeIn overscroll-none">
       {/* Backdrop click to close */}
       <div 
         className="fixed inset-0" 
         onClick={onClose} 
+        onTouchMove={(e) => e.preventDefault()}
         aria-hidden="true" 
       />
 
