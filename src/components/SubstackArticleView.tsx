@@ -480,20 +480,23 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
     buildAndSaveHighlight(snap);
   }, [buildAndSaveHighlight]);
 
-  // On touch/mouse release: update snapshot to show the floating button
-  // Does NOT auto-highlight — user must tap "Highlight ✓" button to confirm
+  // Desktop mouseup: immediately highlights on mouse drag release on PC/Laptop
+  const handleMouseUp = useCallback(() => {
+    if (!isHighlightMode) return;
+    setTimeout(() => {
+      const snap = pendingSelectionRef.current;
+      if (snap && snap.text && snap.text.length > 0) {
+        buildAndSaveHighlight(snap);
+      }
+    }, 40);
+  }, [isHighlightMode, buildAndSaveHighlight]);
+
+  // Mobile touch release: update snapshot so the floating "Highlight ✓" button appears below the word on phones
   const handleTouchEnd = useCallback(() => {
     if (!isHighlightMode) return;
     setTimeout(() => {
       snapshotSelection();
     }, 60);
-  }, [isHighlightMode, snapshotSelection]);
-
-  const handleMouseUp = useCallback(() => {
-    if (!isHighlightMode) return;
-    setTimeout(() => {
-      snapshotSelection();
-    }, 40);
   }, [isHighlightMode, snapshotSelection]);
 
 
@@ -1015,13 +1018,14 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       >
 
         {/* ============================================================ */}
-        {/* FLOATING HIGHLIGHT BUTTON (Placed BELOW the selection)       */}
+        {/* FLOATING HIGHLIGHT BUTTON (Mobile Phone View ONLY)           */}
         {/* Positioned below the word to avoid the native Android        */}
         {/* "Copy, Share, Select all" popup which appears above the word.*/}
+        {/* On PC/Laptop (sm:), mouseup applies highlights immediately.  */}
         {/* ============================================================ */}
         {isHighlightMode && pendingSelection && (
           <div
-            className="fixed z-[90] pointer-events-auto animate-fadeIn"
+            className="fixed z-[90] pointer-events-auto animate-fadeIn sm:hidden"
             style={{
               // Position 8px below the bottom of the selection
               top: `${Math.min(window.innerHeight - 80, (pendingSelection.rect.bottom || (pendingSelection.rect.top + 32)) + 8)}px`,

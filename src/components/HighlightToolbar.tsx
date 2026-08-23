@@ -109,27 +109,8 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
         </div>
       )}
 
-      {/* ================= BOTTOM-RIGHT QUICK HIGHLIGHTER / DIGEST BUTTONS ================= */}
+      {/* ================= BOTTOM-RIGHT QUICK HIGHLIGHTER TOGGLE ================= */}
       <div className="fixed bottom-6 right-6 z-30 flex items-center gap-2">
-        {/* My Highlights — always visible so user can always find their saved highlights */}
-        <button
-          onClick={onOpenDigest}
-          className={`flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs font-semibold shadow-md transition-all cursor-pointer ${
-            highlightCount > 0
-              ? 'bg-amber-50 border border-amber-200 text-amber-900 hover:bg-amber-100'
-              : 'bg-white/95 backdrop-blur-md border border-slate-200 text-slate-500 hover:bg-slate-50'
-          }`}
-          title="Open My Highlights & Notes"
-        >
-          <Sparkles className={`w-3.5 h-3.5 ${highlightCount > 0 ? 'text-amber-600' : 'text-slate-400'}`} />
-          <span>My Highlights</span>
-          {highlightCount > 0 && (
-            <span className="bg-amber-200 text-amber-900 font-bold text-[10px] px-1.5 py-0.5 rounded-full">
-              {highlightCount}
-            </span>
-          )}
-        </button>
-
         <button
           onClick={onToggleHighlightMode}
           className={`flex items-center gap-1.5 px-3.5 py-2 rounded-full text-xs font-semibold shadow-md transition-all cursor-pointer ${
