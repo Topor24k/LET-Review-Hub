@@ -362,7 +362,7 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
     pageNumber: number;
     startOffset?: number;
     endOffset?: number;
-    rect: { top: number; left: number; width: number };
+    rect: { top: number; bottom: number; left: number; width: number; height: number };
   };
 
   const pendingSelectionRef = useRef<PendingSelectionData | null>(null);
@@ -418,7 +418,7 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
     let startOffset: number | undefined;
     let endOffset: number | undefined;
     // Use viewport coords (for floating button position) — not scroll-relative
-    let rect = { top: 0, left: 0, width: 0 };
+    let rect = { top: 0, bottom: 0, left: 0, width: 0, height: 0 };
 
     try {
       const range = selection.getRangeAt(0);
@@ -429,8 +429,14 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       endOffset = startOffset + rawText.length;
 
       const domRect = range.getBoundingClientRect();
-      // top in viewport coords (not page coords) so it moves with scroll correctly
-      rect = { top: domRect.top, left: domRect.left, width: domRect.width };
+      // viewport coords so it moves with scroll correctly
+      rect = { 
+        top: domRect.top, 
+        bottom: domRect.bottom, 
+        left: domRect.left, 
+        width: domRect.width, 
+        height: domRect.height 
+      };
     } catch (e) {
       console.error('Could not compute range offset', e);
     }
@@ -843,6 +849,21 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
               </button>
             )}
 
+            {/* My Highlights & Notes Digest */}
+            <button
+              onClick={() => setIsDigestOpen(true)}
+              className="relative p-1.5 sm:p-2 rounded-lg text-slate-600 hover:text-slate-950 hover:bg-slate-100 transition-colors cursor-pointer flex items-center gap-1 shrink-0"
+              title="View My Highlights & Notes"
+            >
+              <Highlighter className="w-4 h-4 text-amber-600" />
+              <span className="text-xs font-semibold text-amber-900 hidden md:inline">Highlights</span>
+              {subjectHighlights.length > 0 && (
+                <span className="px-1.5 py-0.2 rounded-full bg-amber-500 text-white font-mono text-[9px] font-bold">
+                  {subjectHighlights.length}
+                </span>
+              )}
+            </button>
+
             {/* Flashcards Review Mode (Desktop view) */}
             <button
               onClick={() => setIsFlashcardsModalOpen(true)}
@@ -1002,17 +1023,16 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       >
 
         {/* ============================================================ */}
-        {/* FLOATING HIGHLIGHT INDICATOR — shows selection is captured   */}
-        {/* Auto-applies on finger-up (touchend). This button is a       */}
-        {/* fallback: if auto-apply misses (copy menu intercepted), tap  */}
-        {/* this to still apply. Uses fixed viewport positioning.        */}
+        {/* FLOATING HIGHLIGHT BUTTON (Placed BELOW the selection)       */}
+        {/* Positioned below the word to avoid the native Android        */}
+        {/* "Copy, Share, Select all" popup which appears above the word.*/}
         {/* ============================================================ */}
         {isHighlightMode && pendingSelection && (
           <div
             className="fixed z-[90] pointer-events-auto animate-fadeIn"
             style={{
-              // rect.top is viewport-relative so no scrollY needed
-              top: `${Math.max(64, pendingSelection.rect.top - 46)}px`,
+              // Position 8px below the bottom of the selection
+              top: `${Math.min(window.innerHeight - 80, (pendingSelection.rect.bottom || (pendingSelection.rect.top + 32)) + 8)}px`,
               left: `${Math.max(8, Math.min(window.innerWidth - 190, pendingSelection.rect.left + pendingSelection.rect.width / 2 - 90))}px`,
             }}
           >
@@ -1589,6 +1609,24 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
         >
           <Highlighter className="w-3.5 h-3.5" />
           <span className="text-[11px]">{isHighlightMode ? 'Highlighting' : 'Highlight'}</span>
+        </button>
+
+        {/* My Highlights Digest Button */}
+        <button
+          onClick={() => setIsDigestOpen(true)}
+          className={`relative p-2 rounded-xl transition-colors cursor-pointer shrink-0 ${
+            subjectHighlights.length > 0
+              ? 'text-amber-400 bg-amber-400/15 active:bg-amber-400/25'
+              : 'text-slate-300 hover:text-white active:bg-slate-800'
+          }`}
+          title="View My Highlights & Notes"
+        >
+          <Highlighter className="w-4 h-4 text-amber-300" />
+          {subjectHighlights.length > 0 && (
+            <span className="absolute -top-1 -right-1 px-1 min-w-[15px] h-3.5 bg-amber-400 text-slate-950 rounded-full font-mono text-[9px] font-bold flex items-center justify-center">
+              {subjectHighlights.length}
+            </span>
+          )}
         </button>
 
         {/* Flashcards */}

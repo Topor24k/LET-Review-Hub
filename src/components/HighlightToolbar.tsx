@@ -71,6 +71,19 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
               {currentColorConfig.meaning}
             </span>
 
+            {/* Quick View Highlights count button */}
+            {highlightCount > 0 && (
+              <button
+                type="button"
+                onClick={onOpenDigest}
+                className="flex items-center gap-1 font-semibold text-[10px] sm:text-xs text-amber-900 bg-amber-100 hover:bg-amber-200 px-2 py-0.5 sm:py-1 rounded-full transition-colors cursor-pointer shrink-0"
+                title="View All My Highlights & Notes"
+              >
+                <Sparkles className="w-3 h-3 text-amber-700" />
+                <span>{highlightCount} Saved</span>
+              </button>
+            )}
+
             {/* Exit Mode Button / Esc key tip */}
             <button
               onClick={onToggleHighlightMode}
@@ -82,7 +95,7 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
           </div>
           {/* Mobile tip: shows below the pill on small screens */}
           <p className="sm:hidden mt-1.5 text-center text-[10px] text-slate-500 font-medium px-2">
-            Long-press &amp; drag to select text, then lift your finger to highlight
+            Long-press &amp; drag to select text, then tap Highlight ✓ or lift finger
           </p>
         </div>
       )}
