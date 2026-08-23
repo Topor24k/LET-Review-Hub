@@ -10,7 +10,6 @@ import { SubjectCategory, SubjectModule, SubjectProgressMap, StudyStatus, UserSu
 import { BookOpen, SlidersHorizontal, Sparkles } from 'lucide-react';
 import { initCloudSync, pushCloudChange } from './lib/cloudSync';
 
-const STORAGE_KEY = 'let_reviewer_user_progress_v1';
 const AUTH_KEY = 'let_reviewer_authenticated';
 const NAV_STATE_KEY = 'let_reviewer_nav_state_v1';
 
@@ -50,15 +49,8 @@ export default function App() {
     return null;
   });
 
-  // Initialize progress state from localStorage
-  const [userProgress, setUserProgress] = useState<SubjectProgressMap>(() => {
-    try {
-      const saved = localStorage.getItem(STORAGE_KEY);
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
-  });
+  // User progress backed strictly by MongoDB
+  const [userProgress, setUserProgress] = useState<SubjectProgressMap>({});
 
   // Start MongoDB Cloud Synchronization & listen for multi-device updates
   useEffect(() => {
@@ -73,16 +65,6 @@ export default function App() {
     window.addEventListener('cloud-sync-applied', handleCloudSync);
     return () => window.removeEventListener('cloud-sync-applied', handleCloudSync);
   }, []);
-
-  // Save progress changes to localStorage & push to MongoDB cloud
-  useEffect(() => {
-    try {
-      localStorage.setItem(STORAGE_KEY, JSON.stringify(userProgress));
-      pushCloudChange({ userProgress });
-    } catch (e) {
-      console.error('Failed to save progress to localStorage', e);
-    }
-  }, [userProgress]);
 
   // Save active view state to localStorage so refreshes keep user in place
   useEffect(() => {
@@ -110,7 +92,7 @@ export default function App() {
     setIsAuthenticated(false);
   };
 
-  // Handlers for updating status, notes, bookmarks
+  // Handlers for updating status, notes, bookmarks with instant MongoDB push
   const handleToggleBookmark = (subjectId: string, e?: React.MouseEvent) => {
     if (e) e.stopPropagation();
     setUserProgress(prev => {
@@ -119,13 +101,15 @@ export default function App() {
         status: 'NOT_STARTED',
         userNotes: '',
       };
-      return {
+      const updated = {
         ...prev,
         [subjectId]: {
           ...current,
           bookmarked: !current.bookmarked,
         },
       };
+      pushCloudChange({ userProgress: updated });
+      return updated;
     });
   };
 
@@ -137,7 +121,7 @@ export default function App() {
         status: 'NOT_STARTED',
         userNotes: '',
       };
-      return {
+      const updated = {
         ...prev,
         [subjectId]: {
           ...current,
@@ -145,6 +129,8 @@ export default function App() {
           lastStudied: new Date().toISOString(),
         },
       };
+      pushCloudChange({ userProgress: updated });
+      return updated;
     });
   };
 
@@ -155,13 +141,15 @@ export default function App() {
         status: 'NOT_STARTED',
         userNotes: '',
       };
-      return {
+      const updated = {
         ...prev,
         [subjectId]: {
           ...current,
           userNotes: notes,
         },
       };
+      pushCloudChange({ userProgress: updated });
+      return updated;
     });
   };
 

@@ -10,26 +10,52 @@ export interface CloudStudyData {
   examHistory?: SubjectExamHistoryMap;
   examDrafts?: Record<string, ActiveExamDraft>;
   studyPages?: Record<string, number>;
-  readerSettings?: { fontSize?: string; isFocusMode?: boolean };
+  readerSettings?: { fontSize?: 'normal' | 'large' | 'xlarge'; isFocusMode?: boolean };
   lastSyncedAt?: string;
 }
 
 export type SyncStatus = 'synced' | 'syncing' | 'offline' | 'error';
 
-const STORAGE_KEYS = {
-  progress: 'let_reviewer_user_progress_v1',
-  highlights: 'let_reviewer_highlights_v1',
-  flashcards: 'let_reviewer_flashcards_v1',
-  flashcardMastery: 'let_reviewer_flashcard_mastery_v1',
-  paragraphBookmarks: 'let_reviewer_paragraph_bookmarks_v1',
-  examHistory: 'let_reviewer_exam_history_v1',
-  readerSettings: 'let_reviewer_reader_settings_v1',
-};
-
 let currentSyncStatus: SyncStatus = 'synced';
 const statusListeners = new Set<(status: SyncStatus) => void>();
 let pushDebounceTimer: any = null;
 let pendingPushData: CloudStudyData = {};
+
+// In-memory single source of truth for active session
+let memoryStore: CloudStudyData = {
+  userProgress: {},
+  highlights: [],
+  flashcards: [],
+  flashcardMastery: [],
+  paragraphBookmarks: {},
+  examHistory: {},
+  examDrafts: {},
+  studyPages: {},
+  readerSettings: { fontSize: 'normal', isFocusMode: false },
+};
+
+export function getMemoryStore(): CloudStudyData {
+  return memoryStore;
+}
+
+export function updateMemoryStore(partial: Partial<CloudStudyData>): void {
+  memoryStore = {
+    ...memoryStore,
+    ...partial,
+    examDrafts: {
+      ...(memoryStore.examDrafts || {}),
+      ...(partial.examDrafts || {}),
+    },
+    studyPages: {
+      ...(memoryStore.studyPages || {}),
+      ...(partial.studyPages || {}),
+    },
+    paragraphBookmarks: {
+      ...(memoryStore.paragraphBookmarks || {}),
+      ...(partial.paragraphBookmarks || {}),
+    },
+  };
+}
 
 export function getSyncStatus(): SyncStatus {
   return currentSyncStatus;
@@ -50,183 +76,34 @@ function setSyncStatus(status: SyncStatus) {
   }
 }
 
-// Gather all local study data into a snapshot
-export function getLocalSnapshot(): CloudStudyData {
+// Purge all legacy study data from localStorage on all devices
+export function purgeLegacyLocalStorage(): void {
   try {
-    const rawProgress = localStorage.getItem(STORAGE_KEYS.progress);
-    const rawHighlights = localStorage.getItem(STORAGE_KEYS.highlights);
-    const rawFlashcards = localStorage.getItem(STORAGE_KEYS.flashcards);
-    const rawMastery = localStorage.getItem(STORAGE_KEYS.flashcardMastery);
-    const rawBookmarks = localStorage.getItem(STORAGE_KEYS.paragraphBookmarks);
-    const rawExamHistory = localStorage.getItem(STORAGE_KEYS.examHistory);
-    const rawSettings = localStorage.getItem(STORAGE_KEYS.readerSettings);
+    const keysToRemove = [
+      'let_reviewer_user_progress_v1',
+      'let_reviewer_highlights_v1',
+      'let_reviewer_flashcards_v1',
+      'let_reviewer_flashcard_mastery_v1',
+      'let_reviewer_paragraph_bookmarks_v1',
+      'let_reviewer_exam_history_v1',
+      'let_reviewer_reader_settings_v1',
+    ];
+    keysToRemove.forEach(k => localStorage.removeItem(k));
 
-    // Collect active drafts
-    const examDrafts: Record<string, ActiveExamDraft> = {};
-    const studyPages: Record<string, number> = {};
-
+    const extraKeys: string[] = [];
     for (let i = 0; i < localStorage.length; i++) {
       const key = localStorage.key(i);
-      if (!key) continue;
-
-      if (key.startsWith('let_active_exam_draft_v2_')) {
-        const subId = key.replace('let_active_exam_draft_v2_', '');
-        try {
-          const val = JSON.parse(localStorage.getItem(key) || '');
-          if (val) examDrafts[subId] = val;
-        } catch {}
-      } else if (key.startsWith('let_study_page_')) {
-        const subId = key.replace('let_study_page_', '');
-        const pageNum = parseInt(localStorage.getItem(key) || '0', 10);
-        if (!isNaN(pageNum)) studyPages[subId] = pageNum;
+      if (key && (key.startsWith('let_active_exam_draft_') || key.startsWith('let_study_page_'))) {
+        extraKeys.push(key);
       }
     }
-
-    return {
-      userProgress: rawProgress ? JSON.parse(rawProgress) : {},
-      highlights: rawHighlights ? JSON.parse(rawHighlights) : [],
-      flashcards: rawFlashcards ? JSON.parse(rawFlashcards) : [],
-      flashcardMastery: rawMastery ? JSON.parse(rawMastery) : [],
-      paragraphBookmarks: rawBookmarks ? JSON.parse(rawBookmarks) : {},
-      examHistory: rawExamHistory ? JSON.parse(rawExamHistory) : {},
-      examDrafts,
-      studyPages,
-      readerSettings: rawSettings ? JSON.parse(rawSettings) : {},
-    };
+    extraKeys.forEach(k => localStorage.removeItem(k));
   } catch (e) {
-    console.error('Error gathering local study snapshot', e);
-    return {};
+    console.error('Failed to purge legacy localStorage', e);
   }
 }
 
-// Save cloud data down into localStorage
-export function applyCloudSnapshotToLocal(cloud: CloudStudyData): void {
-  try {
-    if (cloud.userProgress) {
-      localStorage.setItem(STORAGE_KEYS.progress, JSON.stringify(cloud.userProgress));
-    }
-    if (cloud.highlights) {
-      localStorage.setItem(STORAGE_KEYS.highlights, JSON.stringify(cloud.highlights));
-    }
-    if (cloud.flashcards) {
-      localStorage.setItem(STORAGE_KEYS.flashcards, JSON.stringify(cloud.flashcards));
-    }
-    if (cloud.flashcardMastery) {
-      localStorage.setItem(STORAGE_KEYS.flashcardMastery, JSON.stringify(cloud.flashcardMastery));
-    }
-    if (cloud.paragraphBookmarks) {
-      localStorage.setItem(STORAGE_KEYS.paragraphBookmarks, JSON.stringify(cloud.paragraphBookmarks));
-    }
-    if (cloud.examHistory) {
-      localStorage.setItem(STORAGE_KEYS.examHistory, JSON.stringify(cloud.examHistory));
-    }
-    if (cloud.readerSettings) {
-      localStorage.setItem(STORAGE_KEYS.readerSettings, JSON.stringify(cloud.readerSettings));
-    }
-
-    if (cloud.examDrafts) {
-      Object.entries(cloud.examDrafts).forEach(([subId, draft]) => {
-        if (draft) {
-          localStorage.setItem(`let_active_exam_draft_v2_${subId}`, JSON.stringify(draft));
-        }
-      });
-    }
-
-    if (cloud.studyPages) {
-      Object.entries(cloud.studyPages).forEach(([subId, pageNum]) => {
-        localStorage.setItem(`let_study_page_${subId}`, pageNum.toString());
-      });
-    }
-
-    // Broadcast event so UI re-syncs immediately across all components
-    window.dispatchEvent(new CustomEvent('cloud-sync-applied', { detail: cloud }));
-  } catch (e) {
-    console.error('Error applying cloud snapshot to local storage', e);
-  }
-}
-
-// Deep merge local and cloud data to ensure no progress is lost across devices
-function mergeStudyData(local: CloudStudyData, cloud: CloudStudyData): CloudStudyData {
-  // 1. Highlights: deduplicate by ID, keeping newest
-  const highlightMap = new Map<string, HighlightItem>();
-  (cloud.highlights || []).forEach(h => highlightMap.set(h.id, h));
-  (local.highlights || []).forEach(h => highlightMap.set(h.id, h));
-  const mergedHighlights = Array.from(highlightMap.values());
-
-  // 2. Flashcards: deduplicate by ID
-  const flashcardMap = new Map<string, FlashcardItem>();
-  (cloud.flashcards || []).forEach(f => flashcardMap.set(f.id, f));
-  (local.flashcards || []).forEach(f => flashcardMap.set(f.id, f));
-  const mergedFlashcards = Array.from(flashcardMap.values());
-
-  // 3. Flashcard mastery: union of IDs
-  const mergedMastery = Array.from(new Set([
-    ...(cloud.flashcardMastery || []),
-    ...(local.flashcardMastery || []),
-  ]));
-
-  // 4. Paragraph bookmarks: union per subject
-  const mergedBookmarks: Record<string, string[]> = { ...(cloud.paragraphBookmarks || {}) };
-  Object.entries(local.paragraphBookmarks || {}).forEach(([subId, keys]) => {
-    const existing = mergedBookmarks[subId] || [];
-    mergedBookmarks[subId] = Array.from(new Set([...existing, ...keys]));
-  });
-
-  // 5. Exam History: deduplicate attempts by attempt.id
-  const mergedExamHistory: SubjectExamHistoryMap = { ...(cloud.examHistory || {}) };
-  Object.entries(local.examHistory || {}).forEach(([subId, attempts]) => {
-    const cloudAttempts = mergedExamHistory[subId] || [];
-    const attemptMap = new Map<string, any>();
-    cloudAttempts.forEach(a => attemptMap.set(a.id, a));
-    attempts.forEach(a => attemptMap.set(a.id, a));
-    // Sort descending by date
-    mergedExamHistory[subId] = Array.from(attemptMap.values()).sort(
-      (a, b) => new Date(b.completedAt).getTime() - new Date(a.completedAt).getTime()
-    );
-  });
-
-  // 6. User Progress (notes, status, bookmark)
-  const mergedProgress: SubjectProgressMap = { ...(cloud.userProgress || {}) };
-  Object.entries(local.userProgress || {}).forEach(([subId, prog]) => {
-    if (!mergedProgress[subId]) {
-      mergedProgress[subId] = prog;
-    } else {
-      // Merge: if local has notes, prefer longest/newest; preserve true for bookmarked
-      mergedProgress[subId] = {
-        bookmarked: prog.bookmarked || mergedProgress[subId].bookmarked,
-        status: prog.status !== 'NOT_STARTED' ? prog.status : mergedProgress[subId].status,
-        userNotes: (prog.userNotes && prog.userNotes.length > (mergedProgress[subId].userNotes || '').length)
-          ? prog.userNotes
-          : mergedProgress[subId].userNotes || prog.userNotes || '',
-      };
-    }
-  });
-
-  // 7. Study pages (max page)
-  const mergedPages: Record<string, number> = { ...(cloud.studyPages || {}) };
-  Object.entries(local.studyPages || {}).forEach(([subId, pageNum]) => {
-    mergedPages[subId] = Math.max(pageNum, mergedPages[subId] || 0);
-  });
-
-  // 8. Exam drafts & Reader settings
-  const mergedDrafts = { ...(cloud.examDrafts || {}), ...(local.examDrafts || {}) };
-  const mergedSettings = { ...(cloud.readerSettings || {}), ...(local.readerSettings || {}) };
-
-  return {
-    userProgress: mergedProgress,
-    highlights: mergedHighlights,
-    flashcards: mergedFlashcards,
-    flashcardMastery: mergedMastery,
-    paragraphBookmarks: mergedBookmarks,
-    examHistory: mergedExamHistory,
-    examDrafts: mergedDrafts,
-    studyPages: mergedPages,
-    readerSettings: mergedSettings,
-    lastSyncedAt: new Date().toISOString(),
-  };
-}
-
-// Fetch from MongoDB and reconcile
+// Fetch authoritative profile directly from MongoDB
 export async function syncWithCloud(): Promise<void> {
   if (!navigator.onLine) {
     setSyncStatus('offline');
@@ -249,44 +126,38 @@ export async function syncWithCloud(): Promise<void> {
     }
 
     const cloudDoc = await res.json();
-    const local = getLocalSnapshot();
 
-    const hasCloudData = cloudDoc && (
-      (Array.isArray(cloudDoc.highlights) && cloudDoc.highlights.length > 0) ||
-      (cloudDoc.userProgress && Object.keys(cloudDoc.userProgress).length > 0) ||
-      (Array.isArray(cloudDoc.flashcards) && cloudDoc.flashcards.length > 0) ||
-      (cloudDoc.examHistory && Object.keys(cloudDoc.examHistory).length > 0)
-    );
+    // Populate in-memory store directly from MongoDB
+    memoryStore = {
+      userProgress: cloudDoc?.userProgress || {},
+      highlights: cloudDoc?.highlights || [],
+      flashcards: cloudDoc?.flashcards || [],
+      flashcardMastery: cloudDoc?.flashcardMastery || [],
+      paragraphBookmarks: cloudDoc?.paragraphBookmarks || {},
+      examHistory: cloudDoc?.examHistory || {},
+      examDrafts: cloudDoc?.examDrafts || {},
+      studyPages: cloudDoc?.studyPages || {},
+      readerSettings: cloudDoc?.readerSettings || { fontSize: 'normal', isFocusMode: false },
+      lastSyncedAt: cloudDoc?.lastSyncedAt || new Date().toISOString(),
+    };
 
-    const hasLocalData = local && (
-      (Array.isArray(local.highlights) && local.highlights.length > 0) ||
-      (local.userProgress && Object.keys(local.userProgress).length > 0) ||
-      (Array.isArray(local.flashcards) && local.flashcards.length > 0) ||
-      (local.examHistory && Object.keys(local.examHistory).length > 0)
-    );
+    // Clean any old localStorage data from browser
+    purgeLegacyLocalStorage();
 
-    if (hasCloudData) {
-      // Cloud has existing data -> update local device so it mirrors cloud
-      applyCloudSnapshotToLocal(cloudDoc);
-    } else if (hasLocalData) {
-      // Cloud was empty (or just reset) -> push local state to MongoDB
-      await fetch('/api/sync', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(local),
-      });
-    }
-
+    // Broadcast update across active React components
+    window.dispatchEvent(new CustomEvent('cloud-sync-applied', { detail: memoryStore }));
     setSyncStatus('synced');
   } catch (error) {
-    console.warn('Could not sync with MongoDB cloud (using local cache):', error);
+    console.warn('Could not sync with MongoDB cloud:', error);
     setSyncStatus('error');
   }
 }
 
-// Queue a change to be pushed to MongoDB (debounced to avoid spamming network)
+// Push user changes directly to MongoDB
 export function pushCloudChange(partial: CloudStudyData): void {
-  // Merge into pending buffer
+  // Update memory store immediately for instant 0ms UI reactivity
+  updateMemoryStore(partial);
+
   pendingPushData = {
     ...pendingPushData,
     ...partial,
@@ -323,20 +194,23 @@ export function pushCloudChange(partial: CloudStudyData): void {
       console.warn('Failed to push change to MongoDB:', e);
       setSyncStatus('error');
     }
-  }, 400);
+  }, 350);
 }
 
-// Initialize listeners on startup
+// Initialize cloud sync on startup
 let isInitialized = false;
 
 export function initCloudSync(): void {
   if (isInitialized || typeof window === 'undefined') return;
   isInitialized = true;
 
-  // Initial sync on app load
+  // Immediately wipe legacy local storage keys
+  purgeLegacyLocalStorage();
+
+  // Load clean data from MongoDB
   syncWithCloud();
 
-  // Sync automatically when window regains focus or becomes visible (switching between devices / tabs)
+  // Re-sync on tab focus or visibility change (switching devices)
   window.addEventListener('focus', () => syncWithCloud());
   document.addEventListener('visibilitychange', () => {
     if (document.visibilityState === 'visible') {
@@ -344,11 +218,11 @@ export function initCloudSync(): void {
     }
   });
 
-  // Sync on online reconnect
+  // Re-sync on network reconnect
   window.addEventListener('online', () => syncWithCloud());
   window.addEventListener('offline', () => setSyncStatus('offline'));
 
-  // Background polling every 45s to fetch updates made on other active devices
+  // Background sync polling every 45s
   setInterval(() => {
     if (document.visibilityState === 'visible') {
       syncWithCloud();

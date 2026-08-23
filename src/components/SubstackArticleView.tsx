@@ -30,7 +30,7 @@ import {
   getStoredReaderSettings, saveStoredReaderSettings,
   HIGHLIGHT_COLORS
 } from '../lib/highlightConstants';
-import { pushCloudChange } from '../lib/cloudSync';
+import { pushCloudChange, getMemoryStore } from '../lib/cloudSync';
 import { cleanBulletText, cleanNumberedText } from '../lib/textSanitizer';
 import { HighlightToolbar } from './HighlightToolbar';
 import { HighlightPopover } from './HighlightPopover';
@@ -221,16 +221,11 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
 
   // Persist current page index for this subject & push to MongoDB cloud
   useEffect(() => {
-    try {
-      localStorage.setItem(`let_study_page_${subject.id}`, currentPageIndex.toString());
-      pushCloudChange({
-        studyPages: {
-          [subject.id]: currentPageIndex,
-        },
-      });
-    } catch (e) {
-      console.error(e);
-    }
+    pushCloudChange({
+      studyPages: {
+        [subject.id]: currentPageIndex,
+      },
+    });
   }, [currentPageIndex, subject.id]);
 
   // Listen to live Cloud Sync updates applied from other devices
@@ -253,17 +248,13 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
 
   // Sync page index & notes when switching subjects
   useEffect(() => {
-    try {
-      const savedPage = localStorage.getItem(`let_study_page_${subject.id}`);
-      setCurrentPageIndex(savedPage ? parseInt(savedPage, 10) || 0 : 0);
-    } catch {
-      setCurrentPageIndex(0);
-    }
+    const savedPage = getMemoryStore().studyPages?.[subject.id] || 0;
+    setCurrentPageIndex(savedPage);
     setNotes(userProgress[subject.id]?.userNotes || '');
     setActivePopover(null);
   }, [subject.id]);
 
-  // Auto-sync notes with parent and localStorage (debounced)
+  // Auto-sync notes with parent and MongoDB (debounced)
   useEffect(() => {
     const timer = setTimeout(() => {
       if (notes !== (userProgress[subject.id]?.userNotes || '')) {

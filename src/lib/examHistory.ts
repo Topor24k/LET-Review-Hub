@@ -1,16 +1,8 @@
 import { ExamAttempt, SubjectExamHistoryMap, ExamQuestion } from '../types';
-import { pushCloudChange } from './cloudSync';
-
-const EXAM_HISTORY_STORAGE_KEY = 'let_reviewer_exam_history_v1';
+import { getMemoryStore, pushCloudChange } from './cloudSync';
 
 export function getAllExamHistory(): SubjectExamHistoryMap {
-  try {
-    const raw = localStorage.getItem(EXAM_HISTORY_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch (e) {
-    console.error('Failed to read exam history from localStorage', e);
-    return {};
-  }
+  return getMemoryStore().examHistory || {};
 }
 
 export function getSubjectExamHistory(subjectId: string): ExamAttempt[] {
@@ -19,20 +11,14 @@ export function getSubjectExamHistory(subjectId: string): ExamAttempt[] {
 }
 
 export function saveExamAttempt(attempt: ExamAttempt): SubjectExamHistoryMap {
-  try {
-    const all = getAllExamHistory();
-    const existing = all[attempt.subjectId] || [];
-    // Append new attempt (unlimited tries)
-    const updatedAttempts = [attempt, ...existing];
-    all[attempt.subjectId] = updatedAttempts;
-    localStorage.setItem(EXAM_HISTORY_STORAGE_KEY, JSON.stringify(all));
-    // Push to MongoDB Cloud
-    pushCloudChange({ examHistory: all });
-    return all;
-  } catch (e) {
-    console.error('Failed to save exam attempt to localStorage', e);
-    return getAllExamHistory();
-  }
+  const all = { ...getAllExamHistory() };
+  const existing = all[attempt.subjectId] || [];
+  // Append new attempt (unlimited tries)
+  const updatedAttempts = [attempt, ...existing];
+  all[attempt.subjectId] = updatedAttempts;
+  // Push to MongoDB Cloud
+  pushCloudChange({ examHistory: all });
+  return all;
 }
 
 export function getTop3ScoresForSubject(subjectId: string): ExamAttempt[] {
@@ -75,48 +61,25 @@ export interface ActiveExamDraft {
 }
 
 export function getStoredExamDraft(subjectId: string): ActiveExamDraft | null {
-  try {
-    const raw = localStorage.getItem(`let_active_exam_draft_v2_${subjectId}`);
-    if (!raw) {
-      // Clear any legacy v1 draft
-      localStorage.removeItem(`let_active_exam_draft_${subjectId}`);
-      return null;
-    }
-    const parsed = JSON.parse(raw);
-    if (parsed && parsed.questions && parsed.questions.length >= 75) {
-      return parsed;
-    }
-    // Invalidate non-75 item drafts
-    localStorage.removeItem(`let_active_exam_draft_v2_${subjectId}`);
-    return null;
-  } catch (e) {
-    return null;
+  const draft = getMemoryStore().examDrafts?.[subjectId] || null;
+  if (draft && draft.questions && draft.questions.length >= 75) {
+    return draft;
   }
+  return null;
 }
 
 export function saveStoredExamDraft(draft: ActiveExamDraft): void {
-  try {
-    localStorage.setItem(`let_active_exam_draft_v2_${draft.subjectId}`, JSON.stringify(draft));
-    pushCloudChange({
-      examDrafts: {
-        [draft.subjectId]: draft,
-      },
-    });
-  } catch (e) {
-    console.error('Failed to save active exam draft', e);
-  }
+  pushCloudChange({
+    examDrafts: {
+      [draft.subjectId]: draft,
+    },
+  });
 }
 
 export function clearStoredExamDraft(subjectId: string): void {
-  try {
-    localStorage.removeItem(`let_active_exam_draft_v2_${subjectId}`);
-    localStorage.removeItem(`let_active_exam_draft_${subjectId}`);
-    pushCloudChange({
-      examDrafts: {
-        [subjectId]: null as any,
-      },
-    });
-  } catch (e) {
-    console.error('Failed to clear exam draft', e);
-  }
+  pushCloudChange({
+    examDrafts: {
+      [subjectId]: null as any,
+    },
+  });
 }

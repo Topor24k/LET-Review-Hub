@@ -1,5 +1,5 @@
 import { HighlightColor, HighlightColorConfig, HighlightItem, FlashcardItem } from '../types';
-import { pushCloudChange } from './cloudSync';
+import { getMemoryStore, pushCloudChange } from './cloudSync';
 
 export const HIGHLIGHT_COLORS: Record<HighlightColor, HighlightColorConfig> = {
   yellow: {
@@ -40,86 +40,36 @@ export const HIGHLIGHT_COLORS: Record<HighlightColor, HighlightColorConfig> = {
   }
 };
 
-const HIGHLIGHTS_STORAGE_KEY = 'let_reviewer_highlights_v1';
-const FLASHCARDS_STORAGE_KEY = 'let_reviewer_flashcards_v1';
-const FLASHCARD_MASTERY_KEY = 'let_reviewer_flashcard_mastery_v1';
-const PARAGRAPH_BOOKMARKS_KEY = 'let_reviewer_paragraph_bookmarks_v1';
-const READER_SETTINGS_KEY = 'let_reviewer_reader_settings_v1';
-
 export function getStoredHighlights(): HighlightItem[] {
-  try {
-    const raw = localStorage.getItem(HIGHLIGHTS_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch (e) {
-    console.error('Failed to load stored highlights', e);
-    return [];
-  }
+  return getMemoryStore().highlights || [];
 }
 
 export function saveStoredHighlights(highlights: HighlightItem[]): void {
-  try {
-    localStorage.setItem(HIGHLIGHTS_STORAGE_KEY, JSON.stringify(highlights));
-    pushCloudChange({ highlights });
-  } catch (e) {
-    console.error('Failed to save highlights', e);
-  }
+  pushCloudChange({ highlights });
 }
 
 export function getStoredFlashcards(): FlashcardItem[] {
-  try {
-    const raw = localStorage.getItem(FLASHCARDS_STORAGE_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch (e) {
-    console.error('Failed to load flashcards', e);
-    return [];
-  }
+  return getMemoryStore().flashcards || [];
 }
 
 export function saveStoredFlashcards(cards: FlashcardItem[]): void {
-  try {
-    localStorage.setItem(FLASHCARDS_STORAGE_KEY, JSON.stringify(cards));
-    pushCloudChange({ flashcards: cards });
-  } catch (e) {
-    console.error('Failed to save flashcards', e);
-  }
+  pushCloudChange({ flashcards: cards });
 }
 
 export function getStoredFlashcardMastery(): string[] {
-  try {
-    const raw = localStorage.getItem(FLASHCARD_MASTERY_KEY);
-    return raw ? JSON.parse(raw) : [];
-  } catch (e) {
-    console.error('Failed to load flashcard mastery', e);
-    return [];
-  }
+  return getMemoryStore().flashcardMastery || [];
 }
 
 export function saveStoredFlashcardMastery(masteredIds: string[]): void {
-  try {
-    localStorage.setItem(FLASHCARD_MASTERY_KEY, JSON.stringify(masteredIds));
-    pushCloudChange({ flashcardMastery: masteredIds });
-  } catch (e) {
-    console.error('Failed to save flashcard mastery', e);
-  }
+  pushCloudChange({ flashcardMastery: masteredIds });
 }
 
 export function getStoredParagraphBookmarks(): Record<string, string[]> {
-  try {
-    const raw = localStorage.getItem(PARAGRAPH_BOOKMARKS_KEY);
-    return raw ? JSON.parse(raw) : {};
-  } catch (e) {
-    console.error('Failed to load paragraph bookmarks', e);
-    return {};
-  }
+  return getMemoryStore().paragraphBookmarks || {};
 }
 
 export function saveStoredParagraphBookmarks(data: Record<string, string[]>): void {
-  try {
-    localStorage.setItem(PARAGRAPH_BOOKMARKS_KEY, JSON.stringify(data));
-    pushCloudChange({ paragraphBookmarks: data });
-  } catch (e) {
-    console.error('Failed to save paragraph bookmarks', e);
-  }
+  pushCloudChange({ paragraphBookmarks: data });
 }
 
 export interface ReaderSettings {
@@ -128,19 +78,9 @@ export interface ReaderSettings {
 }
 
 export function getStoredReaderSettings(): ReaderSettings {
-  try {
-    const raw = localStorage.getItem(READER_SETTINGS_KEY);
-    return raw ? JSON.parse(raw) : { fontSize: 'normal', isFocusMode: false };
-  } catch (e) {
-    return { fontSize: 'normal', isFocusMode: false };
-  }
+  return getMemoryStore().readerSettings || { fontSize: 'normal', isFocusMode: false };
 }
 
 export function saveStoredReaderSettings(settings: ReaderSettings): void {
-  try {
-    localStorage.setItem(READER_SETTINGS_KEY, JSON.stringify(settings));
-    pushCloudChange({ readerSettings: settings });
-  } catch (e) {
-    console.error('Failed to save reader settings', e);
-  }
+  pushCloudChange({ readerSettings: settings });
 }
