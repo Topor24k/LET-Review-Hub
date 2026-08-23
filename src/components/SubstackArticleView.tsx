@@ -473,36 +473,28 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
   }, [subject.id, activeHighlightColor]);
 
   // applyPendingHighlight reads from ref so it always has the latest data
+  // ONLY called when user explicitly clicks/taps the floating "Highlight ✓" button
   const applyPendingHighlight = useCallback(() => {
     const snap = pendingSelectionRef.current;
-    if (!snap) return;
+    if (!snap || !snap.text || snap.text.length < 1) return;
     buildAndSaveHighlight(snap);
   }, [buildAndSaveHighlight]);
 
-  // MOBILE: touchend auto-applies immediately — finger up = highlight done
-  // Reads from ref, not state, so it's never stale
-  const handleTouchEnd = useCallback((e: React.TouchEvent) => {
+  // On touch/mouse release: update snapshot to show the floating button
+  // Does NOT auto-highlight — user must tap "Highlight ✓" button to confirm
+  const handleTouchEnd = useCallback(() => {
     if (!isHighlightMode) return;
-    // Small delay to let selectionchange finalize the snapshot first
     setTimeout(() => {
-      const snap = pendingSelectionRef.current;
-      if (snap && snap.text.length > 0) {
-        e.preventDefault?.();
-        buildAndSaveHighlight(snap);
-      }
-    }, 80);
-  }, [isHighlightMode, buildAndSaveHighlight]);
+      snapshotSelection();
+    }, 60);
+  }, [isHighlightMode, snapshotSelection]);
 
-  // DESKTOP: mouseup auto-applies
   const handleMouseUp = useCallback(() => {
     if (!isHighlightMode) return;
     setTimeout(() => {
-      const snap = pendingSelectionRef.current;
-      if (snap && snap.text.length > 0) {
-        buildAndSaveHighlight(snap);
-      }
-    }, 60);
-  }, [isHighlightMode, buildAndSaveHighlight]);
+      snapshotSelection();
+    }, 40);
+  }, [isHighlightMode, snapshotSelection]);
 
 
 
