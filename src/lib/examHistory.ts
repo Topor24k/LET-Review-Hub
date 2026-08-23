@@ -1,4 +1,5 @@
 import { ExamAttempt, SubjectExamHistoryMap, ExamQuestion } from '../types';
+import { pushCloudChange } from './cloudSync';
 
 const EXAM_HISTORY_STORAGE_KEY = 'let_reviewer_exam_history_v1';
 
@@ -25,6 +26,8 @@ export function saveExamAttempt(attempt: ExamAttempt): SubjectExamHistoryMap {
     const updatedAttempts = [attempt, ...existing];
     all[attempt.subjectId] = updatedAttempts;
     localStorage.setItem(EXAM_HISTORY_STORAGE_KEY, JSON.stringify(all));
+    // Push to MongoDB Cloud
+    pushCloudChange({ examHistory: all });
     return all;
   } catch (e) {
     console.error('Failed to save exam attempt to localStorage', e);
@@ -94,6 +97,11 @@ export function getStoredExamDraft(subjectId: string): ActiveExamDraft | null {
 export function saveStoredExamDraft(draft: ActiveExamDraft): void {
   try {
     localStorage.setItem(`let_active_exam_draft_v2_${draft.subjectId}`, JSON.stringify(draft));
+    pushCloudChange({
+      examDrafts: {
+        [draft.subjectId]: draft,
+      },
+    });
   } catch (e) {
     console.error('Failed to save active exam draft', e);
   }
@@ -103,6 +111,11 @@ export function clearStoredExamDraft(subjectId: string): void {
   try {
     localStorage.removeItem(`let_active_exam_draft_v2_${subjectId}`);
     localStorage.removeItem(`let_active_exam_draft_${subjectId}`);
+    pushCloudChange({
+      examDrafts: {
+        [subjectId]: null as any,
+      },
+    });
   } catch (e) {
     console.error('Failed to clear exam draft', e);
   }

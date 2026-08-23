@@ -1,4 +1,5 @@
 import { HighlightColor, HighlightColorConfig, HighlightItem, FlashcardItem } from '../types';
+import { pushCloudChange } from './cloudSync';
 
 export const HIGHLIGHT_COLORS: Record<HighlightColor, HighlightColorConfig> = {
   yellow: {
@@ -58,6 +59,7 @@ export function getStoredHighlights(): HighlightItem[] {
 export function saveStoredHighlights(highlights: HighlightItem[]): void {
   try {
     localStorage.setItem(HIGHLIGHTS_STORAGE_KEY, JSON.stringify(highlights));
+    pushCloudChange({ highlights });
   } catch (e) {
     console.error('Failed to save highlights', e);
   }
@@ -76,6 +78,7 @@ export function getStoredFlashcards(): FlashcardItem[] {
 export function saveStoredFlashcards(cards: FlashcardItem[]): void {
   try {
     localStorage.setItem(FLASHCARDS_STORAGE_KEY, JSON.stringify(cards));
+    pushCloudChange({ flashcards: cards });
   } catch (e) {
     console.error('Failed to save flashcards', e);
   }
@@ -94,6 +97,7 @@ export function getStoredFlashcardMastery(): string[] {
 export function saveStoredFlashcardMastery(masteredIds: string[]): void {
   try {
     localStorage.setItem(FLASHCARD_MASTERY_KEY, JSON.stringify(masteredIds));
+    pushCloudChange({ flashcardMastery: masteredIds });
   } catch (e) {
     console.error('Failed to save flashcard mastery', e);
   }
@@ -112,6 +116,7 @@ export function getStoredParagraphBookmarks(): Record<string, string[]> {
 export function saveStoredParagraphBookmarks(data: Record<string, string[]>): void {
   try {
     localStorage.setItem(PARAGRAPH_BOOKMARKS_KEY, JSON.stringify(data));
+    pushCloudChange({ paragraphBookmarks: data });
   } catch (e) {
     console.error('Failed to save paragraph bookmarks', e);
   }
@@ -134,6 +139,7 @@ export function getStoredReaderSettings(): ReaderSettings {
 export function saveStoredReaderSettings(settings: ReaderSettings): void {
   try {
     localStorage.setItem(READER_SETTINGS_KEY, JSON.stringify(settings));
+    pushCloudChange({ readerSettings: settings });
   } catch (e) {
     console.error('Failed to save reader settings', e);
   }

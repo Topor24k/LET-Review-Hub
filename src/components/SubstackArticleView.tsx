@@ -30,6 +30,7 @@ import {
   getStoredReaderSettings, saveStoredReaderSettings,
   HIGHLIGHT_COLORS
 } from '../lib/highlightConstants';
+import { pushCloudChange } from '../lib/cloudSync';
 import { cleanBulletText, cleanNumberedText } from '../lib/textSanitizer';
 import { HighlightToolbar } from './HighlightToolbar';
 import { HighlightPopover } from './HighlightPopover';
@@ -218,14 +219,37 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
     saveStoredReaderSettings({ fontSize, isFocusMode });
   }, [fontSize, isFocusMode]);
 
-  // Persist current page index for this subject
+  // Persist current page index for this subject & push to MongoDB cloud
   useEffect(() => {
     try {
       localStorage.setItem(`let_study_page_${subject.id}`, currentPageIndex.toString());
+      pushCloudChange({
+        studyPages: {
+          [subject.id]: currentPageIndex,
+        },
+      });
     } catch (e) {
       console.error(e);
     }
   }, [currentPageIndex, subject.id]);
+
+  // Listen to live Cloud Sync updates applied from other devices
+  useEffect(() => {
+    const handleCloudSync = (e: any) => {
+      const detail = e.detail;
+      if (detail?.highlights) setHighlights(detail.highlights);
+      if (detail?.flashcards) setFlashcards(detail.flashcards);
+      if (detail?.paragraphBookmarks) setParagraphBookmarks(detail.paragraphBookmarks);
+      if (detail?.studyPages && detail.studyPages[subject.id] !== undefined) {
+        setCurrentPageIndex(Math.min(detail.studyPages[subject.id], totalPages - 1));
+      }
+      if (detail?.userProgress && detail.userProgress[subject.id]?.userNotes !== undefined) {
+        setNotes(detail.userProgress[subject.id].userNotes);
+      }
+    };
+    window.addEventListener('cloud-sync-applied', handleCloudSync);
+    return () => window.removeEventListener('cloud-sync-applied', handleCloudSync);
+  }, [subject.id, totalPages]);
 
   // Sync page index & notes when switching subjects
   useEffect(() => {

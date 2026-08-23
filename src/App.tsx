@@ -8,6 +8,7 @@ import { LoginScreen } from './components/LoginScreen';
 import { SUBJECTS_DATA } from './data/subjects';
 import { SubjectCategory, SubjectModule, SubjectProgressMap, StudyStatus, UserSubjectState } from './types';
 import { BookOpen, SlidersHorizontal, Sparkles } from 'lucide-react';
+import { initCloudSync, pushCloudChange } from './lib/cloudSync';
 
 const STORAGE_KEY = 'let_reviewer_user_progress_v1';
 const AUTH_KEY = 'let_reviewer_authenticated';
@@ -59,10 +60,25 @@ export default function App() {
     }
   });
 
-  // Save progress changes to localStorage
+  // Start MongoDB Cloud Synchronization & listen for multi-device updates
+  useEffect(() => {
+    initCloudSync();
+
+    const handleCloudSync = (e: any) => {
+      if (e.detail?.userProgress) {
+        setUserProgress(e.detail.userProgress);
+      }
+    };
+
+    window.addEventListener('cloud-sync-applied', handleCloudSync);
+    return () => window.removeEventListener('cloud-sync-applied', handleCloudSync);
+  }, []);
+
+  // Save progress changes to localStorage & push to MongoDB cloud
   useEffect(() => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(userProgress));
+      pushCloudChange({ userProgress });
     } catch (e) {
       console.error('Failed to save progress to localStorage', e);
     }
