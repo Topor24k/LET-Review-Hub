@@ -59,11 +59,11 @@ export const Header: React.FC<HeaderProps> = ({
   return (
     <header className="w-full bg-[#faf9f6] border-b border-slate-200 sticky top-0 z-30 shadow-xs backdrop-blur-md bg-[#faf9f6]/95">
       {/* Top Header Bar */}
-      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-4">
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 sm:gap-4">
+      <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-3.5">
+        <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 sm:gap-4">
           
-          {/* Logo / Brand */}
-          <div className="flex items-center justify-between gap-3">
+          {/* Top Row on Mobile: Logo (Left) + Actions (Right) */}
+          <div className="flex items-center justify-between gap-3 shrink-0">
             <button 
               onClick={() => {
                 onSelectCategory('ALL');
@@ -75,7 +75,7 @@ export const Header: React.FC<HeaderProps> = ({
                 L
               </div>
               <div>
-                <span className="font-serif text-xl sm:text-2xl md:text-3xl font-bold tracking-tight text-slate-950 block leading-tight">
+                <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-slate-950 block leading-tight">
                   LET Reviewer<span className="text-amber-700">.</span>
                 </span>
                 <span className="text-[10px] sm:text-[11px] font-semibold uppercase tracking-widest text-slate-500 block">
@@ -84,51 +84,104 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </button>
 
-            {/* Mobile quick logout if on small screen */}
-            {onLogout && (
+            {/* Mobile Actions Container */}
+            <div className="flex items-center gap-1.5 md:hidden">
+              {/* Cloud Sync Status Indicator */}
               <button
-                onClick={onLogout}
-                title="Lock Review Portal"
-                className="sm:hidden p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors cursor-pointer border border-transparent"
+                onClick={() => syncWithCloud()}
+                title={
+                  syncStatus === 'syncing'
+                    ? 'Syncing with MongoDB Atlas...'
+                    : syncStatus === 'offline'
+                    ? 'Offline (changes saved locally)'
+                    : syncStatus === 'error'
+                    ? 'Sync warning (tap to retry sync with MongoDB)'
+                    : 'Multi-device Cloud Sync active with MongoDB (tap to refresh)'
+                }
+                className={`p-2 rounded-full border transition-all cursor-pointer ${
+                  syncStatus === 'syncing'
+                    ? 'bg-amber-50 text-amber-900 border-amber-200'
+                    : syncStatus === 'error'
+                    ? 'bg-rose-50 text-rose-800 border-rose-200'
+                    : syncStatus === 'offline'
+                    ? 'bg-slate-100 text-slate-500 border-slate-200'
+                    : 'bg-emerald-50 text-emerald-900 border-emerald-200'
+                }`}
               >
-                <LogOut className="w-4 h-4" />
+                <Cloud className={`w-4 h-4 ${
+                  syncStatus === 'syncing'
+                    ? 'text-amber-600 animate-spin'
+                    : syncStatus === 'error'
+                    ? 'text-rose-600'
+                    : syncStatus === 'offline'
+                    ? 'text-slate-400'
+                    : 'text-emerald-700'
+                }`} />
               </button>
-            )}
+
+              {/* Bookmarks Toggle (Mobile) */}
+              <button
+                onClick={onToggleBookmarksOnly}
+                title="View Bookmarked Subjects"
+                className={`p-2 rounded-full border transition-all cursor-pointer ${
+                  showOnlyBookmarks
+                    ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
+                    : 'bg-white text-slate-700 border-slate-200'
+                }`}
+              >
+                <Bookmark className={`w-4 h-4 ${showOnlyBookmarks ? 'fill-white' : 'text-slate-500'}`} />
+              </button>
+
+              {/* Mobile Logout */}
+              {onLogout && (
+                <button
+                  onClick={onLogout}
+                  title="Lock Review Portal"
+                  className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors cursor-pointer border border-transparent"
+                >
+                  <LogOut className="w-4 h-4" />
+                </button>
+              )}
+            </div>
           </div>
 
-          {/* Search & Actions */}
-          <div className="flex items-center gap-2 sm:gap-3 flex-1 w-full max-w-full sm:max-w-lg sm:ml-auto">
-            <div className="relative flex-1">
-              <Search className="absolute left-3.5 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
+          {/* Center: Wide, Prominent Search Bar */}
+          <div className="flex-1 w-full max-w-full md:max-w-2xl md:mx-4 lg:mx-8">
+            <div className="relative w-full">
+              <Search className="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" />
               <input
                 type="text"
-                placeholder="Search subjects, topics, terms..."
+                placeholder="Search subjects, topics, competencies, keywords..."
                 value={searchQuery}
                 onChange={(e) => onSearchChange(e.target.value)}
-                className="w-full pl-9 sm:pl-10 pr-12 py-2 text-xs sm:text-sm bg-white border border-slate-200 rounded-full text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-slate-800 focus:ring-1 focus:ring-slate-800 transition-all shadow-xs"
+                className="w-full pl-10 sm:pl-11 pr-14 py-2.5 sm:py-2 text-xs sm:text-sm bg-white border border-slate-200/90 rounded-full text-slate-900 placeholder:text-slate-400 focus:outline-none focus:border-slate-800 focus:ring-2 focus:ring-slate-800/10 transition-all shadow-xs"
               />
               {searchQuery && (
                 <button
                   onClick={() => onSearchChange('')}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-700 px-1 cursor-pointer font-medium"
+                  className="absolute right-3.5 top-1/2 -translate-y-1/2 text-xs text-slate-400 hover:text-slate-800 px-1 cursor-pointer font-semibold"
                 >
                   Clear
                 </button>
               )}
             </div>
+          </div>
 
+          {/* Right Actions on Desktop */}
+          <div className="hidden md:flex items-center gap-2 sm:gap-2.5 shrink-0">
+            
             {/* Bookmarks Toggle */}
             <button
               onClick={onToggleBookmarksOnly}
               title="View Bookmarked Subjects"
-              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-full border transition-all whitespace-nowrap cursor-pointer shrink-0 ${
+              className={`flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-full border transition-all whitespace-nowrap cursor-pointer shrink-0 ${
                 showOnlyBookmarks
                   ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
                   : 'bg-white text-slate-700 border-slate-200 hover:border-slate-400 hover:bg-slate-50'
               }`}
             >
               <Bookmark className={`w-3.5 h-3.5 ${showOnlyBookmarks ? 'fill-white' : 'text-slate-500'}`} />
-              <span className="hidden xs:inline sm:inline">Saved</span>
+              <span>Saved</span>
               <span className={`px-1.5 py-0.2 text-[10px] rounded-full font-bold ${
                 showOnlyBookmarks ? 'bg-white/20 text-white' : 'bg-slate-100 text-slate-600'
               }`}>
@@ -148,13 +201,13 @@ export const Header: React.FC<HeaderProps> = ({
                   ? 'Sync warning (tap to retry sync with MongoDB)'
                   : 'Multi-device Cloud Sync active with MongoDB (tap to refresh)'
               }
-              className={`flex items-center gap-1.5 px-2.5 sm:px-3 py-2 text-xs font-semibold rounded-full border transition-all cursor-pointer shrink-0 ${
+              className={`flex items-center gap-1.5 px-3 py-2 text-xs font-semibold rounded-full border transition-all cursor-pointer shrink-0 ${
                 syncStatus === 'syncing'
                   ? 'bg-amber-50 text-amber-900 border-amber-200'
                   : syncStatus === 'error'
                   ? 'bg-rose-50 text-rose-800 border-rose-200'
                   : syncStatus === 'offline'
-                  ? 'bg-slate-100 text-slate-500 border-slate-200'
+                  ? 'bg-slate-100 text-slate-600 border-slate-200'
                   : 'bg-emerald-50 text-emerald-900 border-emerald-200 hover:bg-emerald-100/80'
               }`}
             >
@@ -167,20 +220,20 @@ export const Header: React.FC<HeaderProps> = ({
                   ? 'text-slate-400'
                   : 'text-emerald-700'
               }`} />
-              <span className="hidden sm:inline text-[11px]">
+              <span className="text-[11px]">
                 {syncStatus === 'syncing' ? 'Syncing...' : syncStatus === 'error' ? 'Retry Sync' : syncStatus === 'offline' ? 'Offline' : 'Cloud Synced'}
               </span>
             </button>
 
-            {/* PWA Install Button */}
+            {/* Professional Install App Button (Static, No Bounce) */}
             {deferredPrompt && (
               <button
                 onClick={handleInstallClick}
                 title="Install LET Reviewer App on your device for offline studying"
-                className="flex items-center gap-1.5 px-3 py-2 text-xs font-bold rounded-full bg-amber-500 hover:bg-amber-600 text-slate-950 transition-all cursor-pointer shadow-xs animate-bounce"
+                className="flex items-center gap-1.5 px-3.5 py-2 text-xs font-semibold rounded-full bg-slate-900 hover:bg-slate-800 text-white transition-all cursor-pointer shadow-xs border border-slate-800 shrink-0 active:scale-95"
               >
-                <Download className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline">Install App</span>
+                <Download className="w-3.5 h-3.5 text-amber-400" />
+                <span>Install App</span>
               </button>
             )}
 
@@ -189,7 +242,7 @@ export const Header: React.FC<HeaderProps> = ({
               <button
                 onClick={onLogout}
                 title="Lock Review Portal"
-                className="hidden sm:flex p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors cursor-pointer border border-transparent hover:border-slate-200"
+                className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors cursor-pointer border border-transparent hover:border-slate-200 shrink-0"
               >
                 <LogOut className="w-4 h-4" />
               </button>
