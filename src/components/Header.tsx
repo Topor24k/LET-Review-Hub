@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw, Download, X } from 'lucide-react';
+import { Search, Bookmark, CheckCircle2, LogOut, Sparkles, Cloud, RefreshCw, Download, X, Menu } from 'lucide-react';
 import { SubjectCategory } from '../types';
 import { subscribeSyncStatus, syncWithCloud, SyncStatus } from '../lib/cloudSync';
 
@@ -35,6 +35,7 @@ export const Header: React.FC<HeaderProps> = ({
   const [syncStatus, setSyncStatus] = useState<SyncStatus>('synced');
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   useEffect(() => {
     return subscribeSyncStatus((s) => setSyncStatus(s));
@@ -66,7 +67,7 @@ export const Header: React.FC<HeaderProps> = ({
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-3 sm:py-3.5">
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3 sm:gap-4">
           
-          {/* Top Row on Mobile: Logo (Left) + Actions (Right) */}
+          {/* Top Row on Mobile: Logo (Left) + Hamburger Menu (Right) */}
           <div className="flex items-center justify-between gap-3 shrink-0">
             <button 
               onClick={() => {
@@ -88,75 +89,121 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </button>
 
-            {/* Mobile Actions Container */}
-            <div className="flex items-center gap-1.5 md:hidden">
-              {/* Install App Button (Mobile) */}
+            {/* Mobile Hamburger Toggle */}
+            <div className="flex items-center md:hidden">
               <button
-                onClick={handleInstallClick}
-                title="Install LET Reviewer App on your device for offline studying"
-                className="p-2 rounded-full bg-slate-900 text-white hover:bg-slate-800 border border-slate-800 shadow-xs flex items-center justify-center cursor-pointer active:scale-95 shrink-0"
-              >
-                <Download className="w-4 h-4 text-amber-400" />
-              </button>
-
-              {/* Cloud Sync Status Indicator */}
-              <button
-                onClick={() => syncWithCloud()}
-                title={
-                  syncStatus === 'syncing'
-                    ? 'Syncing with MongoDB Atlas...'
-                    : syncStatus === 'offline'
-                    ? 'Offline (changes saved locally)'
-                    : syncStatus === 'error'
-                    ? 'Sync warning (tap to retry sync with MongoDB)'
-                    : 'Multi-device Cloud Sync active with MongoDB (tap to refresh)'
-                }
-                className={`p-2 rounded-full border transition-all cursor-pointer ${
-                  syncStatus === 'syncing'
-                    ? 'bg-amber-50 text-amber-900 border-amber-200'
-                    : syncStatus === 'error'
-                    ? 'bg-rose-50 text-rose-800 border-rose-200'
-                    : syncStatus === 'offline'
-                    ? 'bg-slate-100 text-slate-500 border-slate-200'
-                    : 'bg-emerald-50 text-emerald-900 border-emerald-200'
-                }`}
-              >
-                <Cloud className={`w-4 h-4 ${
-                  syncStatus === 'syncing'
-                    ? 'text-amber-600 animate-spin'
-                    : syncStatus === 'error'
-                    ? 'text-rose-600'
-                    : syncStatus === 'offline'
-                    ? 'text-slate-400'
-                    : 'text-emerald-700'
-                }`} />
-              </button>
-
-              {/* Bookmarks Toggle (Mobile) */}
-              <button
-                onClick={onToggleBookmarksOnly}
-                title="View Bookmarked Subjects"
-                className={`p-2 rounded-full border transition-all cursor-pointer ${
-                  showOnlyBookmarks
+                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+                className={`p-2 rounded-xl border transition-all cursor-pointer ${
+                  isMobileMenuOpen
                     ? 'bg-slate-900 text-white border-slate-900 shadow-xs'
-                    : 'bg-white text-slate-700 border-slate-200'
+                    : 'bg-white text-slate-800 border-slate-200 hover:bg-slate-50'
+                }`}
+                title="Menu"
+                aria-label="Toggle navigation menu"
+              >
+                {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+              </button>
+            </div>
+          </div>
+
+          {/* Collapsible Mobile Hamburger Menu */}
+          {isMobileMenuOpen && (
+            <div className="md:hidden w-full bg-white border border-slate-200/90 rounded-2xl p-3 shadow-lg space-y-2 animate-slideDown">
+              {/* 1. Saved Subjects */}
+              <button
+                onClick={() => {
+                  onToggleBookmarksOnly();
+                  setIsMobileMenuOpen(false);
+                }}
+                className={`w-full flex items-center justify-between p-2.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  showOnlyBookmarks
+                    ? 'bg-slate-900 text-white shadow-xs'
+                    : 'bg-slate-50 text-slate-800 hover:bg-slate-100'
                 }`}
               >
-                <Bookmark className={`w-4 h-4 ${showOnlyBookmarks ? 'fill-white' : 'text-slate-500'}`} />
+                <div className="flex items-center gap-2.5">
+                  <Bookmark className={`w-4 h-4 ${showOnlyBookmarks ? 'fill-white' : 'text-slate-600'}`} />
+                  <span>Saved Subjects</span>
+                </div>
+                <span className={`px-2 py-0.5 text-[10px] rounded-full font-bold ${
+                  showOnlyBookmarks ? 'bg-white/20 text-white' : 'bg-slate-200 text-slate-700'
+                }`}>
+                  {bookmarkedCount}
+                </span>
               </button>
 
-              {/* Mobile Logout */}
+              {/* 2. Cloud Sync Status */}
+              <button
+                onClick={() => {
+                  syncWithCloud();
+                }}
+                className={`w-full flex items-center justify-between p-2.5 rounded-xl text-xs font-semibold transition-all cursor-pointer ${
+                  syncStatus === 'syncing'
+                    ? 'bg-amber-50 text-amber-950 border border-amber-200'
+                    : syncStatus === 'error'
+                    ? 'bg-rose-50 text-rose-950 border border-rose-200'
+                    : syncStatus === 'offline'
+                    ? 'bg-slate-100 text-slate-700'
+                    : 'bg-emerald-50 text-emerald-950 border border-emerald-200'
+                }`}
+              >
+                <div className="flex items-center gap-2.5">
+                  <Cloud className={`w-4 h-4 ${
+                    syncStatus === 'syncing'
+                      ? 'text-amber-600 animate-spin'
+                      : syncStatus === 'error'
+                      ? 'text-rose-600'
+                      : syncStatus === 'offline'
+                      ? 'text-slate-500'
+                      : 'text-emerald-700'
+                  }`} />
+                  <span>
+                    {syncStatus === 'syncing'
+                      ? 'Syncing with MongoDB...'
+                      : syncStatus === 'error'
+                      ? 'Sync Warning (Tap to Retry)'
+                      : syncStatus === 'offline'
+                      ? 'Offline Mode (Saved Locally)'
+                      : 'Cloud Synced (MongoDB Atlas)'}
+                  </span>
+                </div>
+                <span className="text-[10px] font-bold text-slate-500 underline">
+                  {syncStatus === 'syncing' ? 'Syncing' : 'Sync Now'}
+                </span>
+              </button>
+
+              {/* 3. Install App for Offline Study */}
+              <button
+                onClick={() => {
+                  handleInstallClick();
+                  setIsMobileMenuOpen(false);
+                }}
+                className="w-full flex items-center justify-between p-2.5 rounded-xl text-xs font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-all cursor-pointer shadow-xs"
+              >
+                <div className="flex items-center gap-2.5">
+                  <Download className="w-4 h-4 text-amber-400" />
+                  <span>Install App (Offline Study)</span>
+                </div>
+                <span className="text-[10px] bg-amber-400/20 text-amber-300 px-2 py-0.5 rounded-full font-bold">
+                  Free
+                </span>
+              </button>
+
+              {/* 4. Logout / Lock */}
               {onLogout && (
                 <button
-                  onClick={onLogout}
-                  title="Lock Review Portal"
-                  className="p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 rounded-full transition-colors cursor-pointer border border-transparent"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false);
+                    onLogout();
+                  }}
+                  className="w-full flex items-center gap-2.5 p-2.5 rounded-xl text-xs font-semibold text-rose-600 hover:bg-rose-50 transition-colors cursor-pointer"
                 >
-                  <LogOut className="w-4 h-4" />
+                  <LogOut className="w-4 h-4 text-rose-500" />
+                  <span>Lock Review Portal / Logout</span>
                 </button>
               )}
             </div>
-          </div>
+          )}
 
           {/* Center: Wide, Prominent Search Bar */}
           <div className="flex-1 w-full max-w-full md:max-w-2xl md:mx-4 lg:mx-8">
