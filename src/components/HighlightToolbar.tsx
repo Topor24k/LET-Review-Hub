@@ -80,6 +80,10 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
               <X className="w-4 h-4" />
             </button>
           </div>
+          {/* Mobile tip: shows below the pill on small screens */}
+          <p className="sm:hidden mt-1.5 text-center text-[10px] text-slate-500 font-medium px-2">
+            Long-press &amp; drag to select text, then lift your finger to highlight
+          </p>
         </div>
       )}
 
@@ -115,7 +119,7 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
           title="Toggle Highlighting (Press H)"
         >
           <Highlighter className={`w-4 h-4 ${isHighlightMode ? 'text-white animate-pulse' : 'text-emerald-700'}`} />
-          <span className="hidden sm:inline">{isHighlightMode ? 'Highlighting ON' : 'Highlight (H)'}</span>
+          <span>{isHighlightMode ? 'Highlighting ON' : 'Highlight'}</span>
         </button>
       </div>
     </>

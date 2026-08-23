@@ -349,7 +349,8 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
   }, []);
 
   // Text Selection Highlight Handler with precise Location & Offsets
-  const handleMouseUp = useCallback(() => {
+  // Works for both mouse (desktop) and touch (mobile — user selects text then lifts finger)
+  const handleTextSelection = useCallback(() => {
     if (!isHighlightMode) return;
 
     const selection = window.getSelection();
@@ -403,6 +404,17 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       selection.removeAllRanges();
     }
   }, [isHighlightMode, subject.id, currentRawPageNumbers, activeHighlightColor]);
+
+  // On mobile, touchend fires after the user lifts their finger from a text selection.
+  // We use a short delay so the browser has time to finalize the selection range.
+  const handleTouchEnd = useCallback(() => {
+    if (!isHighlightMode) return;
+    setTimeout(() => {
+      handleTextSelection();
+    }, 120);
+  }, [isHighlightMode, handleTextSelection]);
+
+  const handleMouseUp = handleTextSelection;
 
   // Update Highlight Color
   const handleUpdateHighlightColor = (id: string, color: HighlightColor) => {
@@ -901,6 +913,7 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
       <main 
         ref={articleContainerRef}
         onMouseUp={handleMouseUp}
+        onTouchEnd={handleTouchEnd}
         className="flex-1 max-w-5xl xl:max-w-6xl w-full mx-auto px-3.5 sm:px-8 md:px-10 lg:px-12 pt-4 sm:pt-8 pb-28 sm:pb-12 select-text"
       >
         
