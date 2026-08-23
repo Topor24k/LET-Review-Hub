@@ -100,15 +100,6 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
         </div>
       )}
 
-      {/* ================= MODE INDICATOR PILL (Top-Right of Column) ================= */}
-      {isHighlightMode && (
-        <div className="fixed top-16 right-4 sm:right-8 z-40 hidden md:flex items-center gap-2 bg-emerald-50/95 backdrop-blur-md border border-emerald-200 text-emerald-800 px-3 py-1.5 rounded-full shadow-2xs text-xs font-medium animate-fadeIn">
-          <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: currentColorConfig.hex }} />
-          <span>🖊 Highlighting · {currentColorConfig.name}</span>
-          <span className="text-[10px] text-emerald-600/80 bg-emerald-100/70 px-1.5 py-0.5 rounded font-mono">Esc to exit</span>
-        </div>
-      )}
-
       {/* ================= BOTTOM-RIGHT QUICK HIGHLIGHTER TOGGLE ================= */}
       <div className="fixed bottom-6 right-6 z-30 flex items-center gap-2">
         <button
