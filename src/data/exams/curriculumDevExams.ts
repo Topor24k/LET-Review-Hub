@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "Curriculum Definitions: Traditional vs Progressive",
-    "question": "Robert Hutchins and Arthur Bestor view the curriculum as a body of cumulative wisdom and foundational intellectual disciplines (3Rs and Great Books). This viewpoint represents the:",
+    "topicRef": "Philosophical Foundations: Essentialism (Bagley)",
+    "question": "A school curriculum that strictly prioritizes traditional core academic disciplines (3Rs: Reading, wRiting, aRithmetic) and teacher-centered transmission of cultural heritage exemplifies:",
     "options": [
       {
         "key": "A",
-        "text": "Critical Pedagogy View"
+        "text": "Progressivism (John Dewey)."
       },
       {
         "key": "B",
-        "text": "Traditional / Perennialist View"
+        "text": "Existentialism (Jean-Paul Sartre)."
       },
       {
         "key": "C",
-        "text": "Progressive / Pragmatist View"
+        "text": "Reconstructionism (Theodore Brameld)."
       },
       {
         "key": "D",
-        "text": "Reconstructionist View"
+        "text": "Essentialism (William Bagley)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Traditionalists (Hutchins, Bestor, Adler) view the curriculum as a permanent body of academic subjects and foundational disciplines centered on intellectual rigor and timeless wisdom."
+    "correctAnswer": "D",
+    "explanation": "Essentialism focuses on traditional academic basics, core knowledge, teacher authority, and cultural heritage transmission."
   },
   {
     "id": 2,
-    "topicRef": "Curriculum Definitions: Progressive View (John Dewey)",
-    "question": "John Dewey defined curriculum as 'the continuous reconstruction of direct student experiences'. This reflects which philosophical perspective?",
+    "topicRef": "Philosophical Foundations: Perennialism (Hutchins & Adler)",
+    "question": "A university curriculum centered on studying the 'Great Books of the Western World' and timeless, enduring universal truths that have stood the test of centuries is rooted in:",
     "options": [
       {
         "key": "A",
-        "text": "Essentialism"
+        "text": "Progressivism."
       },
       {
         "key": "B",
-        "text": "Scholasticism"
+        "text": "Behaviorism."
       },
       {
         "key": "C",
-        "text": "Progressivism (Learner-Centered)"
+        "text": "Perennialism (Robert Maynard Hutchins & Mortimer Adler)."
       },
       {
         "key": "D",
-        "text": "Perennialism"
+        "text": "Essentialism."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Progressivism (Dewey, Caswell & Campbell, Marsh & Willis) defines curriculum broadly as all the authentic, guided experiences a learner undergoes under the direction of the school."
+    "explanation": "Perennialism views truth as timeless and universal; curriculum should focus on the enduring great works of literature, philosophy, and classical human achievements."
   },
   {
     "id": 3,
-    "topicRef": "7 Types of Curricula: Recommended Curriculum",
-    "question": "Curriculum frameworks, policy guidelines, and competencies proposed by professional organizations (e.g. UNESCO, PAFTE) or national agencies (DepEd, CHED, TESDA) belong to the:",
+    "topicRef": "Philosophical Foundations: Progressivism (John Dewey)",
+    "question": "John Dewey's 'Progressivism' views education not as preparation for life, but as life itself. A progressive curriculum is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Recommended Curriculum"
+        "text": "Strict religious dogmatic indoctrination."
       },
       {
         "key": "B",
-        "text": "Taught Curriculum"
+        "text": "Learner-centered inquiry, experiential learning ('learning by doing'), hands-on problem solving, and democratic classroom processes."
       },
       {
         "key": "C",
-        "text": "Hidden Curriculum"
+        "text": "Rigid rote memorization of static canonical facts."
       },
       {
         "key": "D",
-        "text": "Written Curriculum"
+        "text": "Teacher-centered authoritative lecturing with zero student input."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Recommended Curriculum comes from basic education/higher education policymaking bodies, professional academic associations, and international organizations recommending standards."
+    "correctAnswer": "B",
+    "explanation": "Progressivism emphasizes active, experiential learning, real-world problem-solving, reflective inquiry, and democratic student participation."
   },
   {
     "id": 4,
-    "topicRef": "7 Types of Curricula: Written Curriculum",
-    "question": "Course syllabi, lesson plans (Daily Lesson Logs / Detailed Lesson Plans), curriculum guides, and official school learning modules are tangible examples of the:",
+    "topicRef": "Philosophical Foundations: Social Reconstructionism (Brameld & Counts)",
+    "question": "George Counts in Dare the School Build a New Social Order? and Theodore Brameld advocated 'Social Reconstructionism', which asserts that the curriculum must:",
     "options": [
       {
         "key": "A",
-        "text": "Assessed Curriculum"
+        "text": "Critique systemic social injustices and empower students to become active change-agents who reconstruct and improve society."
       },
       {
         "key": "B",
-        "text": "Hidden Curriculum"
+        "text": "Preserve existing social stratification and economic inequality uncritically."
       },
       {
         "key": "C",
-        "text": "Learned Curriculum"
+        "text": "Focus exclusively on ancient Greek Latin grammar without modern application."
       },
       {
         "key": "D",
-        "text": "Written Curriculum"
+        "text": "Prepare students to be obedient corporate factory workers without political voice."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Written Curriculum includes all officially documented and sanctioned materials: curriculum guides, course syllabi, textbooks, lesson plans, and learning modules."
+    "correctAnswer": "A",
+    "explanation": "Reconstructionism views schools as instruments of social reform and transformation, addressing pressing societal crises such as poverty, racism, and inequality."
   },
   {
     "id": 5,
-    "topicRef": "7 Types of Curricula: Taught Curriculum",
-    "question": "The actual day-to-day instructional activities, demonstrations, peer discussions, and learning tasks executed by the teacher inside the classroom constitute the:",
+    "topicRef": "Philosophical Foundations: Existentialism in Curriculum",
+    "question": "An existentialist approach to curriculum design emphasizes:",
     "options": [
       {
         "key": "A",
-        "text": "Supported Curriculum"
+        "text": "Standardized uniform pacing where all students must produce identical assignments."
       },
       {
         "key": "B",
-        "text": "Taught Curriculum"
+        "text": "Strict behavioral conditioning through operant rewards and punishments."
       },
       {
         "key": "C",
-        "text": "Recommended Curriculum"
+        "text": "Passive compliance with corporate workforce mandates."
       },
       {
         "key": "D",
-        "text": "Hidden Curriculum"
+        "text": "Individual freedom of choice, personal self-definition, authenticity, and exploring personal values through the humanities and arts."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Taught Curriculum is what is actually implemented, delivered, and facilitated by the teacher in interaction with the learners inside the learning environment."
+    "correctAnswer": "D",
+    "explanation": "Existentialism stresses individual autonomy, self-determination, personal responsibility, and subjective meaning-making in education."
   },
   {
     "id": 6,
-    "topicRef": "7 Types of Curricula: Supported Curriculum",
-    "question": "Physical science laboratories, multimedia projectors, textbooks, internet access, and library reference collections that aid instructional delivery are categorized as the:",
+    "topicRef": "Historical Foundations: Franklin Bobbitt (The Curriculum, 1918)",
+    "question": "Franklin Bobbitt, who published the first textbook on curriculum in 1918, viewed curriculum as:",
     "options": [
       {
         "key": "A",
-        "text": "Assessed Curriculum"
+        "text": "A random collection of unrelated classroom games."
       },
       {
         "key": "B",
-        "text": "Written Curriculum"
+        "text": "A purely administrative budget allocation document."
       },
       {
         "key": "C",
-        "text": "Supported Curriculum"
+        "text": "A scientific series of structured educational experiences designed to train students for specific adult occupational and social roles."
       },
       {
         "key": "D",
-        "text": "Learned Curriculum"
+        "text": "A spiritual voyage into medieval monastic mysticism."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Supported Curriculum comprises all instructional materials, facilities, physical equipment, books, laboratories, and resources that support teaching and learning."
+    "explanation": "Bobbitt pioneered the scientific, efficiency-oriented approach to curriculum, analyzing adult activities to formulate specific educational training objectives."
   },
   {
     "id": 7,
-    "topicRef": "7 Types of Curricula: Assessed Curriculum",
-    "question": "Quizzes, periodic examinations, National Achievement Tests (NAT), and authentic performance-based rubrics designed to evaluate mastery are part of the:",
+    "topicRef": "Historical Foundations: Werrett Charters & Activity Analysis",
+    "question": "Werrett Charters expanded Bobbitt's work by developing 'Activity Analysis' in curriculum, which involves:",
     "options": [
       {
         "key": "A",
-        "text": "Assessed Curriculum"
+        "text": "Eliminating all vocational subjects from secondary schools."
       },
       {
         "key": "B",
-        "text": "Recommended Curriculum"
+        "text": "Systematically analyzing occupational tasks and activities to derive precise, measurable learning objectives and instructional content."
       },
       {
         "key": "C",
-        "text": "Hidden Curriculum"
+        "text": "Memorizing classical poetry without practical relevance."
       },
       {
         "key": "D",
-        "text": "Taught Curriculum"
+        "text": "Letting students design curricula with zero teacher involvement."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Assessed Curriculum refers to the assessment series, tests, evaluations, and criteria used to determine student progress and measure mastery."
+    "correctAnswer": "B",
+    "explanation": "Charters emphasized activity and job analysis as the scientific basis for determining curriculum objectives and instructional content."
   },
   {
     "id": 8,
-    "topicRef": "7 Types of Curricula: Learned Curriculum",
-    "question": "The actual knowledge, enduring concepts, skills, and values that students truly retain, internalize, and demonstrate in their daily lives represent the:",
+    "topicRef": "Historical Foundations: William Kilpatrick (The Project Method)",
+    "question": "William Heard Kilpatrick, a student of John Dewey, introduced the 'Project Method' in curriculum, defining a project as:",
     "options": [
       {
         "key": "A",
-        "text": "Recommended Curriculum"
+        "text": "A 'hearty purposeful act' carried on in a social environment that engages learners in real-world creative construction."
       },
       {
         "key": "B",
-        "text": "Supported Curriculum"
+        "text": "A 100-item multiple-choice pencil-and-paper quiz."
       },
       {
         "key": "C",
-        "text": "Written Curriculum"
+        "text": "A silent individual reading of dictionary definitions."
       },
       {
         "key": "D",
-        "text": "Learned Curriculum"
+        "text": "A punitive disciplinary assignment given to misbehaving pupils."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Learned Curriculum denotes the actual learning outcomes: the cognitive changes, behavioral transformations, and internalized values mastered by students."
+    "correctAnswer": "A",
+    "explanation": "Kilpatrick's Project Method emphasizes wholehearted, purposeful activity carried out by students in a social context (producer, consumer, problem, or drill projects)."
   },
   {
     "id": 9,
-    "topicRef": "7 Types of Curricula: Hidden Curriculum",
-    "question": "The unintended, implicit lessons that students absorb regarding school culture, unwritten social norms, peer dynamics, gender expectations, and institutional power hierarchies are called the:",
+    "topicRef": "Historical Foundations: Harold Rugg & Integrated Curriculum",
+    "question": "Harold Rugg advocated that the curriculum should NOT be fragmented into isolated, rigid academic subjects, but instead should:",
     "options": [
       {
         "key": "A",
-        "text": "Written Curriculum"
+        "text": "Focus strictly on Latin grammar drills."
       },
       {
         "key": "B",
-        "text": "Taught Curriculum"
+        "text": "Separate all subjects into watertight isolated compartments."
       },
       {
         "key": "C",
-        "text": "Hidden / Implicit Curriculum"
+        "text": "Eliminate all social science courses from public high schools."
       },
       {
         "key": "D",
-        "text": "Recommended Curriculum"
+        "text": "Integrate social studies, history, economics, and sociology around real-world contemporary social problems and active student research."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Hidden Curriculum consists of the unintended, subtle messages, organizational values, cultural assumptions, and behavioral codes transmitted informally in schools."
+    "correctAnswer": "D",
+    "explanation": "Rugg pioneered integrated social studies textbooks, organizing content around critical social problems, democratic issues, and active student inquiry."
   },
   {
     "id": 10,
-    "topicRef": "7 Roles of a Curricularist",
-    "question": "When a teacher designs learning activities, selects learning materials, writes a lesson plan, and organizes the sequence of classroom topics, which role of a curricularist is being performed?",
+    "topicRef": "Historical Foundations: Hollis Caswell (Curriculum as Experiences)",
+    "question": "Hollis Caswell redefined curriculum by shifting the concept from a fixed course of study or syllabus to:",
     "options": [
       {
         "key": "A",
-        "text": "Spectator"
+        "text": "The physical architecture of classroom school buildings."
       },
       {
         "key": "B",
-        "text": "Planner and Writer"
+        "text": "The municipal budget allocated for teacher salaries."
       },
       {
         "key": "C",
-        "text": "Innovator only"
+        "text": "'All the learning experiences children have under the guidance of teachers.'"
       },
       {
         "key": "D",
-        "text": "Evaluator only"
+        "text": "Only the physical printed textbooks purchased by the school."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A Curricularist wears 7 key hats: Planner (makes yearly/daily plans), Writer (creates modules/lesson plans), Initiator (introduces change), Innovator (creates creative approaches), Implementor (delivers in class), Manager (organizes resources), and Evaluator (determines effectiveness)."
+    "correctAnswer": "C",
+    "explanation": "Caswell and Campbell (1935) famously defined curriculum as all the experiences learners have under the direction and guidance of the school."
   },
   {
     "id": 11,
-    "topicRef": "Foundations: Philosophical Foundations",
-    "question": "A school whose curriculum focuses exclusively on timeless classical literature, ancient languages, unchanging spiritual truths, and cultivating the intellect reflects which philosophy?",
+    "topicRef": "Curriculum Models: Ralph Tyler's Objective-Centered Model (1949)",
+    "question": "Ralph Tyler's seminal Basic Principles of Curriculum and Instruction presents a linear model structured around four fundamental questions in which sequence?",
     "options": [
       {
         "key": "A",
-        "text": "Existentialism"
+        "text": "1. Exams -> 2. Homework -> 3. Grading -> 4. Graduation."
       },
       {
         "key": "B",
-        "text": "Reconstructionism"
+        "text": "1. Purpose/Objectives -> 2. Learning Experiences -> 3. Organization of Experiences -> 4. Evaluation of Outcomes."
       },
       {
         "key": "C",
-        "text": "Perennialism"
+        "text": "1. Evaluation -> 2. Textbooks -> 3. Class Schedule -> 4. Objectives."
       },
       {
         "key": "D",
-        "text": "Progressivism"
+        "text": "1. Budget -> 2. Building -> 3. Hiring -> 4. Teaching."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Perennialism advocates for a curriculum centered on eternal truths, classical Great Books, and universal human themes that remain unchanged across centuries."
+    "correctAnswer": "B",
+    "explanation": "The Tyler Rationale is the classic deductive, linear curriculum model: Determine objectives, select learning experiences, organize experiences, and evaluate effectiveness."
   },
   {
     "id": 12,
-    "topicRef": "Foundations: Essentialism (William Bagley)",
-    "question": "William Bagley advocated for an Essentialist curriculum that emphasizes:",
+    "topicRef": "Tyler's Model: Sources of Objectives",
+    "question": "According to Ralph Tyler, curriculum planners must derive educational objectives from which three primary sources?",
     "options": [
       {
         "key": "A",
-        "text": "Mastery of essential basic skills (Reading, Writing, Arithmetic), rigorous academic disciplines, and teacher-directed classroom authority."
+        "text": "Studies of the Learners, Studies of Contemporary Life, and Suggestions from Subject Specialists (screened through Philosophy and Psychology)."
       },
       {
         "key": "B",
-        "text": "Complete student freedom to choose whether or not to attend class."
+        "text": "Government military decrees, Corporate marketing goals, and Royal edicts."
       },
       {
         "key": "C",
-        "text": "Overthrowing society through political revolution."
+        "text": "Textbook sales records, Real estate prices, and School tuition rates."
       },
       {
         "key": "D",
-        "text": "Abolishing textbooks and tests."
+        "text": "Standardized test score distributions only."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Essentialism prioritizes the 'essentials': core academic knowledge, basic skills (3Rs), systematic subject-matter mastery, discipline, and hard work."
+    "explanation": "Tyler identified three sources: the learners themselves, contemporary societal needs, and subject specialists, which are then screened through the school's educational philosophy and psychology of learning."
   },
   {
     "id": 13,
-    "topicRef": "Foundations: Reconstructionism (Theodore Brameld / George Counts)",
-    "question": "Which curriculum philosophy envisions the school as a primary instrument to solve societal crises (poverty, injustice, environmental degradation) and reconstruct the social order?",
+    "topicRef": "Curriculum Models: Hilda Taba's Grassroots (Inductive) Model",
+    "question": "Hilda Taba criticized Tyler's top-down approach, proposing an 'Inductive / Grassroots Model' based on the core conviction that:",
     "options": [
       {
         "key": "A",
-        "text": "Idealism"
+        "text": "Curriculum must be dictated exclusively by centralized national ministries without teacher input."
       },
       {
         "key": "B",
-        "text": "Perennialism"
+        "text": "Curriculum should be created by commercial textbook sales corporations."
       },
       {
         "key": "C",
-        "text": "Social Reconstructionism"
+        "text": "Students should write all national curriculum standards alone."
       },
       {
         "key": "D",
-        "text": "Essentialism"
+        "text": "Teachers, who actually teach the curriculum, should be the primary designers who develop curriculum units inductively from classroom practice."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Social Reconstructionism (Brameld, Counts, Paulo Freire) positions the curriculum as a catalyst for social reform, critical consciousness (*conscientization*), and active democratic change."
+    "correctAnswer": "D",
+    "explanation": "Taba's Grassroots Approach argues that curriculum development should begin from the bottom up (teachers diagnosing needs, formulating objectives, selecting content, and organizing learning)."
   },
   {
     "id": 14,
-    "topicRef": "Foundations: Historical Foundations (Franklin Bobbitt)",
-    "question": "Who is recognized as the pioneer of curriculum development as a specialized field of study and author of the landmark 1918 book 'The Curriculum'?",
+    "topicRef": "Curriculum Models: Saylor, Alexander, and Lewis Model",
+    "question": "The Saylor, Alexander, and Lewis curriculum model conceptualizes curriculum planning as a systematic process progressing through:",
     "options": [
       {
         "key": "A",
-        "text": "Franklin Bobbitt"
+        "text": "Testing -> Failing -> Retesting -> Passing."
       },
       {
         "key": "B",
-        "text": "Ralph Tyler"
+        "text": "Syllabus -> Textbook -> Exam -> Graduation."
       },
       {
         "key": "C",
-        "text": "Hilda Taba"
+        "text": "Goals/Objectives -> Curriculum Designing -> Curriculum Implementation (Instruction) -> Curriculum Evaluation."
       },
       {
         "key": "D",
-        "text": "Werrett Charters"
+        "text": "Hiring -> Budgeting -> Purchasing -> Grading."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "John Franklin Bobbitt published 'The Curriculum' in 1918, viewing curriculum as a science that prepares individuals for adult societal roles through task analysis."
+    "correctAnswer": "C",
+    "explanation": "Saylor and Alexander's model structures curriculum planning systematically across goals/domains, design selection, instructional implementation, and comprehensive evaluation."
   },
   {
     "id": 15,
-    "topicRef": "Foundations: Historical (Werrett Charters)",
-    "question": "Werrett Charters emphasized that curriculum objectives should be aligned with:",
+    "topicRef": "Curriculum Models: Peter Oliva's 12-Component Model",
+    "question": "Peter Oliva's comprehensive curriculum model is characterized as:",
     "options": [
       {
         "key": "A",
-        "text": "Random student whims"
+        "text": "A model designed exclusively for technical automotive schools."
       },
       {
         "key": "B",
-        "text": "Purely ancient Latin poetry"
+        "text": "A systematic, step-by-step, comprehensive 12-component framework that bridges philosophical foundations with classroom instructional implementation and evaluation."
       },
       {
         "key": "C",
-        "text": "Astrological calendars"
+        "text": "A purely theoretical essay without practical applicability."
       },
       {
         "key": "D",
-        "text": "Specific measurable student activities and social ideals connected to occupational tasks."
+        "text": "A 2-step process that eliminates all evaluation."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Charters advocated that curriculum construction must connect subject matter directly to verified adult life activities and specific functional objectives."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Models: Peter Oliva's 12-Component Model. A systematic, step-by-step, comprehensive 12-component framework that bridges philosophical foundations with classroom instructional implementation and evaluation. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 16,
-    "topicRef": "Foundations: Historical (William Kilpatrick)",
-    "question": "William Kilpatrick popularized which famous progressive curriculum method where students undertake purposeful, self-directed projects in natural social settings?",
+    "topicRef": "Curriculum Types: Allan Glatthorn's Seven Types",
+    "question": "Allan Glatthorn categorized curriculum into operational types. The official curriculum documents, syllabi, course guides, and curriculum standards issued by DepEd/CHED represent the:",
     "options": [
       {
         "key": "A",
-        "text": "The Socratic Dialogue"
+        "text": "Written (Official) Curriculum."
       },
       {
         "key": "B",
-        "text": "The Project Method"
+        "text": "Taught Curriculum."
       },
       {
         "key": "C",
-        "text": "The Expository Method"
+        "text": "Supported Curriculum."
       },
       {
         "key": "D",
-        "text": "The Lecture Method"
+        "text": "Assessed Curriculum."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "William Heard Kilpatrick developed 'The Project Method' (purposeful student-directed activities carried out in real-world social environments)."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Types: Allan Glatthorn's Seven Types. Written (Official) Curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 17,
-    "topicRef": "Foundations: Historical (Harold Rugg)",
-    "question": "Harold Rugg advocated that the curriculum should prioritize:",
+    "topicRef": "Curriculum Types: Taught Curriculum",
+    "question": "The actual day-to-day instructional activities, lessons, discussions, and pedagogical methods executed by the teacher inside the classroom constitute the:",
     "options": [
       {
         "key": "A",
-        "text": "Whole child development, social studies integration, and empowering students to plan curriculum with teachers."
+        "text": "Written Curriculum."
       },
       {
         "key": "B",
-        "text": "Elimination of science education"
+        "text": "Hidden Curriculum."
       },
       {
         "key": "C",
-        "text": "Strict rote memorization of multiplication tables exclusively."
+        "text": "Null Curriculum."
       },
       {
         "key": "D",
-        "text": "Corporal punishment"
+        "text": "Taught Curriculum."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Harold Rugg emphasized integrating social studies and developing the 'whole child' to address social issues collaboratively."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Types: Taught Curriculum. Taught Curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 18,
-    "topicRef": "Foundations: Historical (Hollis Caswell)",
-    "question": "Hollis Caswell shifted curriculum definitions from static 'sets of courses' to:",
+    "topicRef": "Curriculum Types: Supported Curriculum",
+    "question": "The instructional resources, textbooks, science laboratories, digital learning platforms, audio-visual materials, and library facilities that support teaching represent the:",
     "options": [
       {
         "key": "A",
-        "text": "The physical school blueprint"
+        "text": "Assessed Curriculum."
       },
       {
         "key": "B",
-        "text": "The official salary scale of school heads"
+        "text": "Learned Curriculum."
       },
       {
         "key": "C",
-        "text": "All learning experiences children have under the guidance of teachers."
+        "text": "Supported Curriculum."
       },
       {
         "key": "D",
-        "text": "Only the textbooks stored in the library."
+        "text": "Taught Curriculum."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Caswell and Campbell redefined curriculum as 'all experiences children have under the guidance of teachers', organizing learning around social functions."
+    "explanation": "This item assesses competence in Curriculum Types: Supported Curriculum. Supported Curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 19,
-    "topicRef": "Tyler's Rationale (Ralph Tyler)",
-    "question": "Ralph Tyler's classic Objective-Centered Model ('Basic Principles of Curriculum and Instruction', 1949) is structured around how many fundamental questions?",
+    "topicRef": "Curriculum Types: Assessed Curriculum",
+    "question": "The formative quizzes, quarterly summative tests, performance task rubrics, and national achievement examinations used to measure student mastery constitute the:",
     "options": [
       {
         "key": "A",
-        "text": "Seven (7) fundamental questions"
+        "text": "Hidden Curriculum."
       },
       {
         "key": "B",
-        "text": "Ten (10) fundamental questions"
+        "text": "Assessed Curriculum."
       },
       {
         "key": "C",
-        "text": "Two (2) fundamental questions"
+        "text": "Supported Curriculum."
       },
       {
         "key": "D",
-        "text": "Four (4) fundamental questions"
+        "text": "Written Curriculum."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Tyler's 4 questions: 1. What educational purposes should the school seek to attain? 2. What experiences can attain them? 3. How can experiences be effectively organized? 4. How can we evaluate whether purposes are attained?"
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Types: Assessed Curriculum. Assessed Curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 20,
-    "topicRef": "Tyler's Rationale: The Screens",
-    "question": "In Tyler's model, prospective learning objectives derived from learners, contemporary life, and subject matter must be filtered through which two educational screens?",
+    "topicRef": "Curriculum Types: Learned Curriculum",
+    "question": "The actual learning outcomes, knowledge, skills, values, and behavioral changes that students demonstrably internalize and achieve represent the:",
     "options": [
       {
         "key": "A",
-        "text": "Financial Screen and Administrative Screen"
+        "text": "Learned Curriculum."
       },
       {
         "key": "B",
-        "text": "Political Screen and Demographic Screen"
+        "text": "Written Curriculum."
       },
       {
         "key": "C",
-        "text": "Philosophical Screen and Psychological Screen"
+        "text": "Taught Curriculum."
       },
       {
         "key": "D",
-        "text": "Technological Screen and Media Screen"
+        "text": "Supported Curriculum."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Tyler posits that tentative objectives must be filtered through: 1. Educational Philosophy (school values/aims) and 2. Psychology of Learning (developmental feasibility)."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Types: Learned Curriculum. Learned Curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 21,
-    "topicRef": "Taba's Grassroots Model (Hilda Taba)",
-    "question": "Why is Hilda Taba's curriculum development model known as the 'Grassroots / Inductive Model'?",
+    "topicRef": "Curriculum Types: Hidden Curriculum (Jackson & Apple)",
+    "question": "Philip Jackson coined the term 'Hidden Curriculum' to describe:",
     "options": [
       {
         "key": "A",
-        "text": "Because it focuses only on agricultural botany courses."
+        "text": "The official printed syllabus published by the ministry of education."
       },
       {
         "key": "B",
-        "text": "Because it argues that curriculum should be designed by classroom teachers who teach the students, starting inductively from specific classroom units rather than top-down administrators."
+        "text": "Textbooks locked in storage basements that students cannot access."
       },
       {
         "key": "C",
-        "text": "Because it was created in rural farm communities."
+        "text": "Elective courses that students choose to take secretly."
       },
       {
         "key": "D",
-        "text": "Because it eliminates national curriculum standards."
+        "text": "The unintended, implicit, unwritten messages, social values, norms, obedience habits, and behavioral expectations absorbed from school culture and social structure."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Hilda Taba believed that teachers who directly interact with students should develop the curriculum (bottom-up/grassroots), moving inductively from specific teaching units to general design."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Types: Hidden Curriculum (Jackson & Apple). The unintended, implicit, unwritten messages, social values, norms, obedience habits, and behavioral expectations absorbed from school culture and social structure. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 22,
-    "topicRef": "Taba's 7 Steps",
-    "question": "What is the very first step in Hilda Taba's 7-step Inductive Curriculum Model?",
+    "topicRef": "Curriculum Types: Null Curriculum (Elliot Eisner)",
+    "question": "Elliot Eisner introduced the concept of the 'Null Curriculum' to refer to:",
     "options": [
       {
         "key": "A",
-        "text": "Diagnosis of Learners' Needs"
+        "text": "Lessons that students fail on final examinations."
       },
       {
         "key": "B",
-        "text": "Selection of Learning Content"
+        "text": "Curriculum documents that have expired legally."
       },
       {
         "key": "C",
-        "text": "Determination of What to Evaluate"
+        "text": "The topics, perspectives, critical histories, or knowledge domains that schools explicitly do NOT teach, thereby signaling they lack importance."
       },
       {
         "key": "D",
-        "text": "Formulation of Objectives"
+        "text": "The written course syllabus printed on blank paper."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Taba's 7-step sequence begins with: 1. Diagnosis of Needs -> 2. Formulation of Objectives -> 3. Selection of Content -> 4. Organization of Content -> 5. Selection of Learning Experiences -> 6. Organization of Learning Experiences -> 7. Evaluation."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Types: Null Curriculum (Elliot Eisner). The topics, perspectives, critical histories, or knowledge domains that schools explicitly do NOT teach, thereby signaling they lack importance. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 23,
-    "topicRef": "Saylor, Alexander, and Lewis Model",
-    "question": "The Saylor-Alexander Curriculum Model conceptualizes curriculum planning into four major domains: Goals/Objectives, Curriculum Designing, Curriculum Implementation, and:",
+    "topicRef": "Curriculum Design Models: Subject-Centered Design",
+    "question": "A curriculum design structured around separate, traditional academic subject disciplines (e.g., Biology, Chemistry, Physics, History) with a focus on logical content mastery is:",
     "options": [
       {
         "key": "A",
-        "text": "Political Negotiation"
+        "text": "Experience-Centered Design."
       },
       {
         "key": "B",
-        "text": "Financial Auditing"
+        "text": "Subject-Centered Curriculum Design."
       },
       {
         "key": "C",
-        "text": "Textbook Publishing"
+        "text": "Learner-Centered Design."
       },
       {
         "key": "D",
-        "text": "Curriculum Evaluation"
+        "text": "Problem-Centered Design."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Saylor, Alexander, and Lewis (1981) model comprises: 1. Goals, Objectives & Domains -> 2. Curriculum Designing -> 3. Curriculum Implementation (Instruction) -> 4. Curriculum Evaluation."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Design Models: Subject-Centered Design. Subject-Centered Curriculum Design. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 24,
-    "topicRef": "Peter Oliva's 10 Axioms for Curriculum Change",
-    "question": "According to Peter Oliva's Axioms for Curriculum Change, Axiom 1 states that 'Curriculum change is inevitable, necessary, and...':",
+    "topicRef": "Curriculum Design: Correlation vs Integration",
+    "question": "In subject-centered design, 'Correlated Design' links two related subjects while keeping them separate (e.g., studying Philippine literature alongside Philippine history), whereas 'Broad Fields Design':",
     "options": [
       {
         "key": "A",
-        "text": "Temporary"
+        "text": "Merges related subjects into a single comprehensive learning area (e.g., combining history, economics, geography into 'Social Studies' / Araling Panlipunan)."
       },
       {
         "key": "B",
-        "text": "Desirable (as society changes, schools must respond)"
+        "text": "Eliminates all social science subjects entirely."
       },
       {
         "key": "C",
-        "text": "Dangerous"
+        "text": "Teaches subjects in completely different languages."
       },
       {
         "key": "D",
-        "text": "Expensive"
+        "text": "Restricts all learning to mathematical calculations."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Oliva's Axiom 1 states that curriculum change is inevitable, necessary, and desirable because contemporary social and technological changes demand institutional adaptation."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Design: Correlation vs Integration. Merges related subjects into a single comprehensive learning area (e.g., combining history, economics, geography into 'Social Studies' / Araling Panlipunan). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 25,
-    "topicRef": "Oliva's Axiom: Product of Its Time",
-    "question": "Oliva's Axiom 2 ('Curriculum is a product of its time') means that:",
+    "topicRef": "Curriculum Design: Learner-Centered Design",
+    "question": "A curriculum design organized around the developmental needs, individual interests, self-expression, and real-life experiences of the student (championed by Rousseau, Pestalozzi, and Dewey) is:",
     "options": [
       {
         "key": "A",
-        "text": "Curriculum can only be taught during daytime hours."
+        "text": "Subject-Centered Design."
       },
       {
         "key": "B",
-        "text": "Ancient curricula are always better than modern ones."
+        "text": "Core Problem Design."
       },
       {
         "key": "C",
-        "text": "A contemporary curriculum reflects the social, political, economic, and cultural realities of the historical era in which it was created."
+        "text": "Discipline-Based Design."
       },
       {
         "key": "D",
-        "text": "Curriculum expires in exactly 12 months."
+        "text": "Learner-Centered / Child-Centered Design."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Axiom 2 emphasizes that curricula reflect the societal challenges, ideologies, and priorities of the specific historical context in which they are designed."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Design: Learner-Centered Design. Learner-Centered / Child-Centered Design. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 26,
-    "topicRef": "Oliva's Axiom: Coexistence and Integration",
-    "question": "Oliva's Axiom 3 states that curriculum changes made in earlier periods:",
+    "topicRef": "Curriculum Design: Problem-Centered Design (Life Situations)",
+    "question": "A curriculum design organized around persistent life situations, contemporary community problems, and social challenges (e.g., climate change, poverty, public health) is:",
     "options": [
       {
         "key": "A",
-        "text": "Are completely useless in modern times."
+        "text": "Traditional Discipline Design."
       },
       {
         "key": "B",
-        "text": "Can coexist with, and are often revised into, newer curriculum designs rather than being completely erased."
+        "text": "Static Rote Design."
       },
       {
         "key": "C",
-        "text": "Never have any relationship to current practices."
+        "text": "Problem-Centered / Life-Situations Design."
       },
       {
         "key": "D",
-        "text": "Must be burned and erased immediately."
+        "text": "Subject-Centered Design."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Axiom 3 notes that curriculum changes rarely start from a completely blank slate; prior curricular foundations overlap and integrate with new innovations."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Design: Problem-Centered Design (Life Situations). Problem-Centered / Life-Situations Design. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 27,
-    "topicRef": "Oliva's Axiom: People Make the Change",
-    "question": "Oliva's Axiom 5 ('Curriculum change results from changes in people') implies that:",
+    "topicRef": "K to 12 Basic Education Act: Republic Act 10533",
+    "question": "Republic Act 10533 (Enhanced Basic Education Act of 2013) expanded Philippine basic education from a 10-year cycle to a 13-year compulsory framework comprising:",
     "options": [
       {
         "key": "A",
-        "text": "Computers are more important than teachers."
+        "text": "8 years of Primary and 5 years of Technical School."
       },
       {
         "key": "B",
-        "text": "Only new buildings produce good curriculum."
+        "text": "1 year of Universal Kindergarten, 6 years of Elementary, 4 years of Junior High School, and 2 years of Senior High School."
       },
       {
         "key": "C",
-        "text": "Students should be replaced every semester."
+        "text": "10 years of Elementary and 3 years of College."
       },
       {
         "key": "D",
-        "text": "Real curriculum reform requires changing the attitudes, pedagogical beliefs, and competencies of teachers and administrators who implement it."
+        "text": "6 years of High School only with zero elementary education."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Axiom 5 stresses that curriculum documents on paper mean nothing without transforming the mindset, skills, and values of the educators who deliver it."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in K to 12 Basic Education Act: Republic Act 10533. 1 year of Universal Kindergarten, 6 years of Elementary, 4 years of Junior High School, and 2 years of Senior High School. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 28,
-    "topicRef": "Curriculum Design Principles: BASICS",
-    "question": "In the BASICS framework of curriculum design, what does the letter 'A' stand for?",
+    "topicRef": "K to 12 Curriculum Principles: Spiral Progression (Bruner)",
+    "question": "The 'Spiral Progression' approach in the K to 12 curriculum (rooted in Jerome Bruner's educational theory) dictates that concepts and skills are:",
     "options": [
       {
         "key": "A",
-        "text": "Articulation (Vertical and Horizontal alignment of content across grade levels)"
+        "text": "Taught across grade levels with increasing depth, breadth, and cognitive complexity, continuously revisiting and building upon foundational schemas."
       },
       {
         "key": "B",
-        "text": "Assessment"
+        "text": "Taught once in a single grade and never mentioned or reinforced again."
       },
       {
         "key": "C",
-        "text": "Administration"
+        "text": "Restricted exclusively to high school senior students."
       },
       {
         "key": "D",
-        "text": "Attendance"
+        "text": "Taught in reverse alphabetical order."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "BASICS stands for: Balance, Articulation (vertical & horizontal alignment), Sequence, Integration, Continuity, and Scope."
+    "explanation": "This item assesses competence in K to 12 Curriculum Principles: Spiral Progression (Bruner). Taught across grade levels with increasing depth, breadth, and cognitive complexity, continuously revisiting and building upon foundational schemas. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 29,
-    "topicRef": "BASICS: Scope",
-    "question": "Which dimension of curriculum design refers to the breadth, depth, and total coverage of content, topics, and learning experiences included in the program?",
+    "topicRef": "K to 12 Curriculum: Mother Tongue-Based Multilingual Education (MTB-MLE)",
+    "question": "Under the original K to 12 framework (RA 10533), MTB-MLE was mandated from Kindergarten to Grade 3 based on research demonstrating that:",
     "options": [
       {
         "key": "A",
-        "text": "Continuity"
+        "text": "Children should only hear foreign languages from birth."
       },
       {
         "key": "B",
-        "text": "Scope"
+        "text": "Local indigenous languages have zero linguistic vocabulary."
       },
       {
         "key": "C",
-        "text": "Balance"
+        "text": "English should be the sole spoken medium in kindergarten classrooms."
       },
       {
         "key": "D",
-        "text": "Sequence"
+        "text": "Children learn to read, write, and comprehend cognitive concepts faster and build stronger literacy when initial instruction is in their native Mother Tongue."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Scope refers to the totality of topics, themes, learning objectives, and depth of content covered within a curriculum."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in K to 12 Curriculum: Mother Tongue-Based Multilingual Education (MTB-MLE). Children learn to read, write, and comprehend cognitive concepts faster and build stronger literacy when initial instruction is in their native Mother Tongue. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 30,
-    "topicRef": "BASICS: Sequence",
-    "question": "Arranging learning topics from Simple-to-Complex, Concrete-to-Abstract, or Chronologically represents which curriculum design principle?",
+    "topicRef": "K to 12 Senior High School Curriculum Tracks",
+    "question": "Under DepEd's K to 12 Senior High School curriculum, which of the following represents the four official curricular tracks available to students?",
     "options": [
       {
         "key": "A",
-        "text": "Integration"
+        "text": "Primary Track, Secondary Track, Tertiary Track, and Post-Graduate Track."
       },
       {
         "key": "B",
-        "text": "Scope"
+        "text": "Science Track, Math Track, English Track, and Filipino Track."
       },
       {
         "key": "C",
-        "text": "Articulation"
+        "text": "Academic Track, Technical-Vocational-Livelihood (TVL) Track, Sports Track, and Arts & Design Track."
       },
       {
         "key": "D",
-        "text": "Sequence"
+        "text": "General Track, Military Track, Agricultural Track, and Maritime Track."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Sequence deals with the order and progression in which content and learning experiences are organized over time."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in K to 12 Senior High School Curriculum Tracks. Academic Track, Technical-Vocational-Livelihood (TVL) Track, Sports Track, and Arts & Design Track. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 31,
-    "topicRef": "BASICS: Continuity (Jerome Bruner Spiral Curriculum)",
-    "question": "Jerome Bruner's 'Spiral Curriculum' is the classic operationalization of which curriculum design principle?",
+    "topicRef": "Backward Design / Understanding by Design (UbD - Wiggins & McTighe)",
+    "question": "Grant Wiggins and Jay McTighe's 'Backward Design' (UbD) framework structures curriculum planning in which three sequential stages?",
     "options": [
       {
         "key": "A",
-        "text": "Compartmentalization"
+        "text": "Stage 1: Administer Finals -> Stage 2: Calculate GPA -> Stage 3: Write Syllabus."
       },
       {
         "key": "B",
-        "text": "Continuity (Vertical repetition and recurring revisiting of key concepts with increasing depth and complexity over time)"
+        "text": "Stage 1: Identify Desired Results -> Stage 2: Determine Acceptable Evidence -> Stage 3: Plan Learning Experiences and Instruction."
       },
       {
         "key": "C",
-        "text": "Terminal evaluation"
+        "text": "Stage 1: Plan Daily Activities -> Stage 2: Teach the Lesson -> Stage 3: Make up a Test."
       },
       {
         "key": "D",
-        "text": "Rote memorization"
+        "text": "Stage 1: Buy Textbooks -> Stage 2: Assign Grades -> Stage 3: Define Goals."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Continuity refers to the vertical recurrence and revisiting of major themes across grade levels at increasing sophistication (the Spiral Curriculum)."
+    "explanation": "This item assesses competence in Backward Design / Understanding by Design (UbD - Wiggins & McTighe). Stage 1: Identify Desired Results -> Stage 2: Determine Acceptable Evidence -> Stage 3: Plan Learning Experiences and Instruction. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 32,
-    "topicRef": "BASICS: Integration",
-    "question": "Designing interdisciplinary thematic units where a single theme (e.g. 'Environmental Preservation') connects science concepts, mathematical calculations, and social studies essays illustrates:",
+    "topicRef": "UbD: Stage 1 (Big Ideas & Essential Questions)",
+    "question": "In Stage 1 of UbD, teachers design 'Essential Questions' which are characterized as:",
     "options": [
       {
         "key": "A",
-        "text": "Divergence"
+        "text": "Open-ended, thought-provoking, intellectually engaging questions that spark inquiry and recur throughout life (e.g., 'What makes a society just?')."
       },
       {
         "key": "B",
-        "text": "Isolation"
+        "text": "Closed factual questions that can be answered in one second with a yes/no."
       },
       {
         "key": "C",
-        "text": "Integration"
+        "text": "Multiple-choice exam questions copied from standardized test banks."
       },
       {
         "key": "D",
-        "text": "Fragmentation"
+        "text": "Administrative queries regarding school supply inventories."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Integration connects disparate subject disciplines horizontally, enabling learners to see unified, holistic relationships across knowledge domains."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in UbD: Stage 1 (Big Ideas & Essential Questions). Open-ended, thought-provoking, intellectually engaging questions that spark inquiry and recur throughout life (e.g., 'What makes a society just?'). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 33,
-    "topicRef": "BASICS: Balance",
-    "question": "Ensuring that equitable instructional time and weight are allocated across cognitive, affective, and psychomotor domains without overemphasizing one subject area represents:",
+    "topicRef": "UbD: Six Facets of Understanding",
+    "question": "Wiggins and McTighe define genuine conceptual understanding through the 'Six Facets of Understanding':",
     "options": [
       {
         "key": "A",
-        "text": "Balance"
+        "text": "Recall, Recognition, Repetition, Recitation, Retention, and Response."
       },
       {
         "key": "B",
-        "text": "Continuity"
+        "text": "Reading, Writing, Arithmetic, Art, Athletics, and Attendance."
       },
       {
         "key": "C",
-        "text": "Articulation"
+        "text": "Observation, Measurement, Classification, Prediction, Inference, and Communication."
       },
       {
         "key": "D",
-        "text": "Sequence"
+        "text": "Explanation, Interpretation, Application, Perspective, Empathy, and Self-Knowledge."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Balance ensures that fair weighting and time allocations are maintained across disciplines, domains of learning, and student interests."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in UbD: Six Facets of Understanding. Explanation, Interpretation, Application, Perspective, Empathy, and Self-Knowledge. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 34,
-    "topicRef": "Kurt Lewin's Force Field Theory",
-    "question": "According to Kurt Lewin's Force Field Analysis, curriculum change will successfully occur only when:",
+    "topicRef": "Curriculum Implementation: Models of Curriculum Change",
+    "question": "In curriculum implementation, the 'Concerns-Based Adoption Model' (CBAM) tracks how teachers adopt innovations through:",
     "options": [
       {
         "key": "A",
-        "text": "Restraining forces are maximized."
+        "text": "Immediate financial penalties for teachers asking questions."
       },
       {
         "key": "B",
-        "text": "All teachers remain completely passive."
+        "text": "Standardized student multiple-choice score tracking only."
       },
       {
         "key": "C",
-        "text": "The school stops communicating with stakeholders."
+        "text": "Stages of Concern (from awareness/informational concerns to collaboration and refocusing) and Levels of Use."
       },
       {
         "key": "D",
-        "text": "Driving forces (promoters of change) outweigh and overcome Restraining forces (resisters to change)."
+        "text": "Mandatory physical compliance inspections by armed police."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Lewin's Force Field Analysis asserts that change occurs when driving forces (facilitating change) are strengthened and restraining forces (barriers/resistance) are reduced or eliminated."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Implementation: Models of Curriculum Change. Stages of Concern (from awareness/informational concerns to collaboration and refocusing) and Levels of Use. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 35,
-    "topicRef": "Kurt Lewin 3-Step Change Model",
-    "question": "What are the three sequential stages in Kurt Lewin's Change Process Model?",
+    "topicRef": "Curriculum Change: Overcoming Resistance to Change",
+    "question": "To overcome teacher resistance to a new curriculum reform, educational leadership research recommends:",
     "options": [
       {
         "key": "A",
-        "text": "Planning -> Testing -> Grading"
+        "text": "Replacing all senior teachers with temporary interns."
       },
       {
         "key": "B",
-        "text": "Unfreezing -> Changing (Moving) -> Refreezing"
+        "text": "Involving teachers in planning, providing continuous professional training and coaching, and ensuring adequate instructional resources."
       },
       {
         "key": "C",
-        "text": "Drafting -> Debating -> Discarding"
+        "text": "Issuing punitive top-down administrative reprimands for any hesitancy."
       },
       {
         "key": "D",
-        "text": "Ignoring -> Resisting -> Submitting"
+        "text": "Implementing the change secretly without informing faculty members."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Lewin's 3-stage model is: 1. Unfreezing (breaking old habits/preparing for change), 2. Changing/Moving (transitioning to new practices), and 3. Refreezing (institutionalizing and stabilizing new norms)."
+    "explanation": "This item assesses competence in Curriculum Change: Overcoming Resistance to Change. Involving teachers in planning, providing continuous professional training and coaching, and ensuring adequate instructional resources. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 36,
-    "topicRef": "Curriculum Quality Audit (CQA)",
-    "question": "What is the primary purpose of a Curriculum Quality Audit (CQA)?",
+    "topicRef": "Curriculum Evaluation: Stufflebeam's CIPP Model",
+    "question": "Daniel Stufflebeam's CIPP Evaluation Model is a comprehensive framework that evaluates curriculum across which four dimensions?",
     "options": [
       {
         "key": "A",
-        "text": "To calculate total tuition profits."
+        "text": "Context Evaluation, Input Evaluation, Process Evaluation, and Product Evaluation."
       },
       {
         "key": "B",
-        "text": "To check the alignment and congruence between the written curriculum, taught curriculum, and assessed curriculum against national standards (e.g. PPST)."
+        "text": "Content, Instruction, Pedagogy, and Performance."
       },
       {
         "key": "C",
-        "text": "To count the number of desks in a school."
+        "text": "Curriculum, Infrastructure, Personnel, and Profit."
       },
       {
         "key": "D",
-        "text": "To fire teachers who lack tenure."
+        "text": "Cognitive, Interpersonal, Physical, and Psychological."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "CQA rigorously evaluates whether what is written (syllabi), what is taught (classroom instruction), and what is tested (assessments) are tightly aligned with professional standards."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Evaluation: Stufflebeam's CIPP Model. Context Evaluation, Input Evaluation, Process Evaluation, and Product Evaluation. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 37,
-    "topicRef": "Subject-Centered vs Learner-Centered vs Problem-Centered Design",
-    "question": "A medical school organizes its entire curriculum around clinical cases, disease diagnostics, and hospital patient scenarios. This curriculum design is categorized as:",
+    "topicRef": "CIPP Model: Context Evaluation",
+    "question": "In Stufflebeam's CIPP model, 'Context Evaluation' serves primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Problem-Centered Design"
+        "text": "Evaluate the final standardized test scores of graduating students."
       },
       {
         "key": "B",
-        "text": "Broad Fields Design"
+        "text": "Audit the financial receipts of textbook publishers."
       },
       {
         "key": "C",
-        "text": "Child-Centered Design"
+        "text": "Observe daily teacher classroom attendance records."
       },
       {
         "key": "D",
-        "text": "Subject-Centered Discipline Design"
+        "text": "Assess the underlying baseline needs, problems, assets, and educational context of the target community to determine goals."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Problem-Centered designs (Case-based, Problem-based, Life situations, Core design) organize learning around authentic problems and life dilemmas."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in CIPP Model: Context Evaluation. Assess the underlying baseline needs, problems, assets, and educational context of the target community to determine goals. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 38,
-    "topicRef": "Broad Fields Curriculum Design",
-    "question": "Combining separate subjects like Geography, History, Economics, and Sociology into a single integrated subject called 'Social Studies' (Araling Panlipunan) is an example of:",
+    "topicRef": "CIPP Model: Input Evaluation",
+    "question": "In Stufflebeam's CIPP model, 'Input Evaluation' assesses:",
     "options": [
       {
         "key": "A",
-        "text": "Child-Centered Design"
+        "text": "The final career placement rates of alumni."
       },
       {
         "key": "B",
-        "text": "Correlation Design"
+        "text": "The physical room temperature of school classrooms."
       },
       {
         "key": "C",
-        "text": "Separate Subjects Design"
+        "text": "The available human resources, budget, alternative strategies, facilities, and action plans to determine how best to achieve goals."
       },
       {
         "key": "D",
-        "text": "Broad Fields Design"
+        "text": "The historical origin of ancient curriculum theories."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Broad Fields Design merges related individual disciplines into an expansive interdisciplinary subject area (e.g., General Science, Social Studies, Language Arts)."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in CIPP Model: Input Evaluation. The available human resources, budget, alternative strategies, facilities, and action plans to determine how best to achieve goals. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 39,
-    "topicRef": "Core Curriculum Design",
-    "question": "What characterizes a 'Core Curriculum' in general education?",
+    "topicRef": "CIPP Model: Process Evaluation",
+    "question": "In the CIPP model, 'Process Evaluation' is conducted during implementation to:",
     "options": [
       {
         "key": "A",
-        "text": "An elective chosen by only 5% of students."
+        "text": "Calculate the annual property tax of school buildings."
       },
       {
         "key": "B",
-        "text": "A remedial course for failing students."
+        "text": "Monitor the ongoing execution of curriculum activities, identify operational bottlenecks, and provide formative feedback for refinement."
       },
       {
         "key": "C",
-        "text": "A set of common, essential learning experiences and foundational subjects required for all students regardless of specialization."
+        "text": "Decide whether to permanently cancel the program before it begins."
       },
       {
         "key": "D",
-        "text": "A sports training program."
+        "text": "Record final letter grades on graduation diplomas."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "A Core Curriculum provides a common body of essential knowledge, values, and competencies deemed indispensable for all educated citizens in a democratic society."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in CIPP Model: Process Evaluation. Monitor the ongoing execution of curriculum activities, identify operational bottlenecks, and provide formative feedback for refinement. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 40,
-    "topicRef": "Curriculum Implementation: Stakeholder Roles",
-    "question": "Why are parents and community leaders considered vital stakeholders in curriculum development and implementation?",
+    "topicRef": "CIPP Model: Product Evaluation",
+    "question": "In the CIPP model, 'Product Evaluation' measures:",
     "options": [
       {
         "key": "A",
-        "text": "They determine daily lesson plans independently of teachers."
+        "text": "The actual outcomes, achievements, intended/unintended impacts, and long-term effectiveness of the curriculum against its objectives."
       },
       {
         "key": "B",
-        "text": "They provide resource support, authentic contextual learning environments, and ensure curriculum relevance to community needs."
+        "text": "The initial budget proposal submitted to legislators."
       },
       {
         "key": "C",
-        "text": "They are authorized to write national LET exams."
+        "text": "The physical dimensions of printed curriculum guides."
       },
       {
         "key": "D",
-        "text": "They teach all high school classes without licenses."
+        "text": "The daily morning announcements made over the school intercom."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Parents and community partners provide essential contextual backing, resource sharing, real-world learning linkages, and feedback on graduate readiness."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in CIPP Model: Product Evaluation. The actual outcomes, achievements, intended/unintended impacts, and long-term effectiveness of the curriculum against its objectives. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 41,
-    "topicRef": "Philippine K to 12 Act (RA 10533)",
-    "question": "Under RA 10533 (Enhanced Basic Education Act of 2013), how many years of basic education are legally mandated in the Philippines?",
+    "topicRef": "Curriculum Evaluation: Scriven's Formative vs Summative Evaluation",
+    "question": "Michael Scriven famously distinguished between Formative and Summative evaluation in curriculum: 'When the cook tastes the soup, that's Formative; when the guests taste the soup, that's Summative.' This means:",
     "options": [
       {
         "key": "A",
-        "text": "14 years"
+        "text": "Formative evaluation is for grading students; Summative is for grading teachers."
       },
       {
         "key": "B",
-        "text": "11 years"
+        "text": "Formative is conducted by parents; Summative is conducted by students."
       },
       {
         "key": "C",
-        "text": "13 years (1 year Kindergarten + 6 years Elementary + 4 years Junior HS + 2 years Senior HS)"
+        "text": "Formative is illegal; Summative is legally mandated."
       },
       {
         "key": "D",
-        "text": "10 years (6 Elementary + 4 High School)"
+        "text": "Formative evaluation is conducted during development to improve the program; Summative is conducted at the end to judge overall worth/effectiveness."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "RA 10533 established 13 years of compulsory basic education: Universal Kindergarten (1 yr), Elementary (6 yrs), Junior High (4 yrs), and Senior High (2 yrs)."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Evaluation: Scriven's Formative vs Summative Evaluation. Formative evaluation is conducted during development to improve the program; Summative is conducted at the end to judge overall worth/effectiveness. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 42,
-    "topicRef": "Mother Tongue-Based Multilingual Education (MTB-MLE)",
-    "question": "In the initial K to 12 design (RA 10533), what was the primary pedagogical rationale for implementing Mother Tongue-Based Multilingual Education (MTB-MLE) in Grades K to 3?",
+    "topicRef": "Curriculum Evaluation: Scriven's Goal-Free Evaluation",
+    "question": "In Michael Scriven's 'Goal-Free Evaluation' approach, the evaluator intentionally avoids knowing the program's official stated goals primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "To prevent students from travelling to other regions."
+        "text": "Allow the school principal to write the evaluation report without research."
       },
       {
         "key": "B",
-        "text": "To eliminate English and Filipino from schools completely."
+        "text": "Focus only on the financial balance sheet of the school."
       },
       {
         "key": "C",
-        "text": "Because teachers lacked English textbooks."
+        "text": "Discover and assess ALL actual outcomes, including unintended side-effects and serendipitous impacts, without preconceived bias."
       },
       {
         "key": "D",
-        "text": "Children learn to read, write, and grasp abstract concepts fastest and most solidly in their first language (L1), bridging smoothly to Filipino (L2) and English (L3)."
+        "text": "Save time by skipping data collection entirely."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Educational linguistics proves that foundational literacy and cognitive development are most effective in the learner's native tongue (L1), creating a strong bridge for additional languages."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Evaluation: Scriven's Goal-Free Evaluation. Discover and assess ALL actual outcomes, including unintended side-effects and serendipitous impacts, without preconceived bias. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 43,
-    "topicRef": "Senior High School (SHS) Tracks",
-    "question": "Which of the following represents the four official Tracks in the Philippine Senior High School Curriculum?",
+    "topicRef": "Curriculum Criteria: Continuity, Sequence, Integration (Tyler)",
+    "question": "Ralph Tyler identified three major criteria for effective curriculum organization. 'Sequence' requires that:",
     "options": [
       {
         "key": "A",
-        "text": "Primary, Intermediate, Secondary, and Tertiary"
+        "text": "All students finish assignments in identical amounts of time."
       },
       {
         "key": "B",
-        "text": "Medical, Engineering, Law, and Teaching"
+        "text": "Each successive learning experience builds upon preceding ones, taking concepts to progressively higher levels of depth and complexity."
       },
       {
         "key": "C",
-        "text": "Academic, Technical-Vocational-Livelihood (TVL), Sports, and Arts and Design"
+        "text": "All subjects are taught at the exact same hour every day."
       },
       {
         "key": "D",
-        "text": "Formal, Non-Formal, Informal, and Distance"
+        "text": "Textbooks are printed on glossy paper stock."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Senior High School offers four tracks: 1. Academic Track (STEM, ABM, HUMSS, GAS), 2. TVL Track, 3. Sports Track, and 4. Arts and Design Track."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Criteria: Continuity, Sequence, Integration (Tyler). Each successive learning experience builds upon preceding ones, taking concepts to progressively higher levels of depth and complexity. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 44,
-    "topicRef": "MATATAG Curriculum (DepEd)",
-    "question": "What is the primary pedagogical thrust of DepEd's 'MATATAG Curriculum' recalibration?",
+    "topicRef": "Curriculum Criteria: Integration",
+    "question": "Tyler's criterion of 'Integration' in curriculum organization ensures that:",
     "options": [
       {
         "key": "A",
-        "text": "Replacing all teachers with television broadcasts."
+        "text": "Learning experiences across different subject areas are horizontally connected, helping students perceive unified knowledge rather than fragmented facts."
       },
       {
         "key": "B",
-        "text": "'Decongesting' the curriculum to focus on foundational literacy, numeracy, and socio-emotional 21st-century skills while reducing overcrowded learning competencies."
+        "text": "Subjects are kept in completely isolated 45-minute compartments."
       },
       {
         "key": "C",
-        "text": "Abolishing all high schools nationwide."
+        "text": "Students are prohibited from discussing science concepts in math class."
       },
       {
         "key": "D",
-        "text": "Adding 50 new subjects to Kindergarten."
+        "text": "Textbooks are bound into a single 5,000-page heavy volume."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The MATATAG Curriculum decongested the overcrowded basic education curriculum by over 70%, focusing intensely on foundational literacy, numeracy, and essential competencies."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Criteria: Integration. Learning experiences across different subject areas are horizontally connected, helping students perceive unified knowledge rather than fragmented facts. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 45,
-    "topicRef": "Curriculum Evaluation: Stufflebeam's CIPP Model",
-    "question": "In Daniel Stufflebeam's CIPP Evaluation Model, what does the acronym CIPP stand for?",
+    "topicRef": "Curriculum Alignment: Horizontal vs Vertical Alignment",
+    "question": "While 'Vertical Alignment' ensures smooth progression of learning competencies from grade level to grade level, 'Horizontal Alignment' ensures that:",
     "options": [
       {
         "key": "A",
-        "text": "Content, Interest, Planning, and Practice"
+        "text": "Classroom whiteboards are hung parallel to the floor."
       },
       {
         "key": "B",
-        "text": "Cognition, Intelligence, Personality, and Progress"
+        "text": "All teachers in a school earn identical monthly salaries."
       },
       {
         "key": "C",
-        "text": "Curriculum, Instruction, Pedagogy, and Performance"
+        "text": "School desks are arranged in straight horizontal lines."
       },
       {
         "key": "D",
-        "text": "Context, Input, Process, and Product"
+        "text": "Curriculum standards, instructional materials, daily lessons, and classroom assessments within the SAME grade level are mutually congruent."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The CIPP Model evaluates: 1. Context (needs assessment/goals), 2. Input (resources/plans), 3. Process (implementation quality), and 4. Product (outcomes and impact)."
+    "explanation": "This item assesses competence in Curriculum Alignment: Horizontal vs Vertical Alignment. Curriculum standards, instructional materials, daily lessons, and classroom assessments within the SAME grade level are mutually congruent. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 46,
-    "topicRef": "CIPP Model: Context Evaluation",
-    "question": "When a school district surveys community demographics, student poverty rates, and local job market demands before designing a new TVL curriculum, it is conducting:",
+    "topicRef": "Curriculum Contextualization: Localization & Indigenization",
+    "question": "Under DepEd Order 35, s. 2016, what is the difference between 'Localization' and 'Indigenization' of the curriculum?",
     "options": [
       {
         "key": "A",
-        "text": "Process Evaluation"
+        "text": "Localization is for elementary; Indigenization is for high school."
       },
       {
         "key": "B",
-        "text": "Product Evaluation"
+        "text": "Localization is illegal; Indigenization is voluntary."
       },
       {
         "key": "C",
-        "text": "Context Evaluation"
+        "text": "Localization relates learning content to local information/materials, while Indigenization enhances the curriculum based on the indigenous community's cultural worldview and life systems."
       },
       {
         "key": "D",
-        "text": "Input Evaluation"
+        "text": "Localization translates English into Tagalog; Indigenization translates Tagalog into Spanish."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Context Evaluation diagnoses environment needs, problems, underlying assets, and opportunities to define relevant curricular goals."
+    "explanation": "This item assesses competence in Curriculum Contextualization: Localization & Indigenization. Localization relates learning content to local information/materials, while Indigenization enhances the curriculum based on the indigenous community's cultural worldview and life systems. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 47,
-    "topicRef": "CIPP Model: Process Evaluation",
-    "question": "Conducting regular classroom observations, monitoring teacher fidelity to lesson plans, and gathering mid-semester student feedback represent which CIPP evaluation component?",
+    "topicRef": "Curriculum Adaptation for Inclusive Education",
+    "question": "When a teacher adapts the regular general education curriculum for a learner with low vision by providing large-print texts, high-contrast digital displays, and extra time, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Process Evaluation"
+        "text": "A Complete Curriculum Exclusion."
       },
       {
         "key": "B",
-        "text": "Product Evaluation"
+        "text": "An Instructional Accommodation (adapting accessibility and format without lowering learning standards)."
       },
       {
         "key": "C",
-        "text": "Context Evaluation"
+        "text": "A Curricular Modification (substantially altering or lowering core learning standards)."
       },
       {
         "key": "D",
-        "text": "Input Evaluation"
+        "text": "A Punitive Disciplinary Sanction."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Process Evaluation monitors the ongoing execution and implementation of the curriculum to identify operational defects and guide instructional adjustments."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Adaptation for Inclusive Education. An Instructional Accommodation (adapting accessibility and format without lowering learning standards). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 48,
-    "topicRef": "Curriculum Evaluation: Stake's Responsive Model (Robert Stake)",
-    "question": "Robert Stake's Responsive Evaluation Model prioritizes which element above all?",
+    "topicRef": "Curricular Modifications vs Accommodations",
+    "question": "In inclusive education, how does a 'Curricular Modification' differ fundamentally from an 'Accommodation'?",
     "options": [
       {
         "key": "A",
-        "text": "Strict numerical cost-benefit profit calculations."
+        "text": "Modifications change WHAT the student is taught and alter performance expectations, while Accommodations change HOW the student accesses the identical curriculum."
       },
       {
         "key": "B",
-        "text": "Military compliance inspections."
+        "text": "Modifications apply only to sports; Accommodations apply only to math."
       },
       {
         "key": "C",
-        "text": "Responding directly to the real-time concerns, perspectives, and lived experiences of on-the-ground stakeholders rather than rigid pre-set objectives."
+        "text": "Modifications are free; Accommodations require monthly cash payments."
       },
       {
         "key": "D",
-        "text": "Standardized multiple-choice machine scoring."
+        "text": "Modifications are designed by parents; Accommodations are designed by students."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Stake's Responsive Model is transactional and qualitative, focusing on emergent stakeholder issues and personal meanings rather than strict predetermined objectives."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curricular Modifications vs Accommodations. Modifications change WHAT the student is taught and alter performance expectations, while Accommodations change HOW the student accesses the identical curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 49,
-    "topicRef": "Stake's Countenance Model: Antecedents, Transactions, Outcomes",
-    "question": "In Robert Stake's Countenance Evaluation Model, what are 'Antecedents'?",
+    "topicRef": "Curriculum Mapping: Mapping Matrix (Heidi Hayes Jacobs)",
+    "question": "According to Heidi Hayes Jacobs, the primary purpose of 'Curriculum Mapping' is to:",
     "options": [
       {
         "key": "A",
-        "text": "The final exam scores."
+        "text": "Calculate the physical square footage of school classrooms."
       },
       {
         "key": "B",
-        "text": "The graduation march."
+        "text": "Assign daily homework scores on report cards."
       },
       {
         "key": "C",
-        "text": "The classroom teacher's retirement age."
+        "text": "Design architectural blueprints for school building construction."
       },
       {
         "key": "D",
-        "text": "Any condition, prior student abilities, teacher qualifications, and resources existing prior to teaching that may affect outcomes."
+        "text": "Create visual temporal roadmaps of taught content, competencies, skills, and assessments to identify curriculum gaps, redundancies, and misalignments."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "In Stake's Countenance Model: Antecedents = pre-existing entry conditions; Transactions = classroom interactions during instruction; Outcomes = resulting learning achievements."
+    "explanation": "This item assesses competence in Curriculum Mapping: Mapping Matrix (Heidi Hayes Jacobs). Create visual temporal roadmaps of taught content, competencies, skills, and assessments to identify curriculum gaps, redundancies, and misalignments. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 50,
-    "topicRef": "Curriculum Alignment: Horizontal vs Vertical",
-    "question": "When all Grade 7 Science teachers in a school district teach synchronized, consistent concepts at the same point in the school year, this is an example of:",
+    "topicRef": "Curriculum Implementation: Fidelity of Implementation",
+    "question": "In curriculum research, 'Fidelity of Implementation' measures the extent to which:",
     "options": [
       {
         "key": "A",
-        "text": "Vertical Alignment"
+        "text": "School libraries buy 100 new books every semester."
       },
       {
         "key": "B",
-        "text": "Perpendicular Alignment"
+        "text": "Students memorize textbook chapters word-for-word."
       },
       {
         "key": "C",
-        "text": "Horizontal Alignment"
+        "text": "A newly adopted curriculum innovation is being delivered in classrooms as originally designed and intended by curriculum planners."
       },
       {
         "key": "D",
-        "text": "Diagonal Alignment"
+        "text": "Teachers arrive at school before 7:00 AM every morning."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Horizontal Alignment ensures consistency and equity across parallel classrooms and sections within the same grade level. Vertical Alignment ensures seamless progression from one grade level to the next (Grade 7 -> Grade 8)."
+    "explanation": "This item assesses competence in Curriculum Implementation: Fidelity of Implementation. A newly adopted curriculum innovation is being delivered in classrooms as originally designed and intended by curriculum planners. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 51,
-    "topicRef": "Curriculum Alignment: Vertical Alignment",
-    "question": "Ensuring that the algebraic concepts taught in Grade 8 build logically upon the pre-algebra foundations learned in Grade 7 is called:",
+    "topicRef": "Curriculum Implementation: Mutual Adaptation Model",
+    "question": "In contrast to strict fidelity, the 'Mutual Adaptation' perspective recognizes that:",
     "options": [
       {
         "key": "A",
-        "text": "Vertical Alignment"
+        "text": "Curriculum should never be changed after publication."
       },
       {
         "key": "B",
-        "text": "Horizontal Alignment"
+        "text": "Teachers and administrators actively adapt, adjust, and reshape the curriculum innovation to fit their unique local classroom realities and learner needs."
       },
       {
         "key": "C",
-        "text": "Lateral Articulation"
+        "text": "Teachers must strictly follow scripted manuals without changing a single word."
       },
       {
         "key": "D",
-        "text": "Random Sequence"
+        "text": "Innovations must fail in 100% of school districts."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Vertical Alignment links curriculum standards across successive grade levels so knowledge builds seamlessly without gaps or unnecessary redundancies."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Implementation: Mutual Adaptation Model. Teachers and administrators actively adapt, adjust, and reshape the curriculum innovation to fit their unique local classroom realities and learner needs. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 52,
-    "topicRef": "Null Curriculum (Elliot Eisner)",
-    "question": "According to Elliot Eisner, what is the 'Null Curriculum'?",
+    "topicRef": "Curriculum Stakeholders: Roles in Development",
+    "question": "Who are the primary curriculum implementers whose professional competence, attitudes, and pedagogical choices determine the actual success of any curriculum reform?",
     "options": [
       {
         "key": "A",
-        "text": "The topics, perspectives, values, and subject areas that schools consciously or unconsciously choose NOT to teach."
+        "text": "Teachers (the frontline curriculum implementers)."
       },
       {
         "key": "B",
-        "text": "A computer virus in school grading software."
+        "text": "School security guards."
       },
       {
         "key": "C",
-        "text": "A canceled class due to weather."
+        "text": "Commercial advertising agencies."
       },
       {
         "key": "D",
-        "text": "A blank sheet of paper in a workbook."
+        "text": "Textbook printing press operators."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Elliot Eisner coined 'Null Curriculum' to designate options, histories, viewpoints, and subjects that schools omit, which silently teaches students that those ideas are unimportant."
+    "explanation": "This item assesses competence in Curriculum Stakeholders: Roles in Development. Teachers (the frontline curriculum implementers). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 53,
-    "topicRef": "Overt vs Covert Curriculum",
-    "question": "The formal written syllabus and explicit lesson plans correspond to the Overt Curriculum, while the unwritten social norms and institutional culture correspond to the:",
+    "topicRef": "Curriculum Stakeholders: Learners as the Core",
+    "question": "In student-centered curriculum development, why are learners considered the central stakeholder and heart of the curriculum?",
     "options": [
       {
         "key": "A",
-        "text": "Supported Curriculum"
+        "text": "Because students pay taxes directly to the national treasury."
       },
       {
         "key": "B",
-        "text": "Recommended Curriculum"
+        "text": "Because students design all national educational laws."
       },
       {
         "key": "C",
-        "text": "Assessed Curriculum"
+        "text": "Because students grade teacher performance daily."
       },
       {
         "key": "D",
-        "text": "Covert / Hidden Curriculum"
+        "text": "Because the curriculum exists ultimately for their holistic development, cognitive growth, and life empowerment."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Overt Curriculum is open and explicit, whereas the Covert/Hidden Curriculum is implicit and unwritten."
+    "explanation": "This item assesses competence in Curriculum Stakeholders: Learners as the Core. Because the curriculum exists ultimately for their holistic development, cognitive growth, and life empowerment. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 54,
-    "topicRef": "Curriculum Adaptation & Localization (DO 35, s. 2016)",
-    "question": "Under DepEd Order 35, s. 2016, how does 'Localization' differ from 'Contextualization'?",
+    "topicRef": "Curriculum Development: Needs Assessment Phase",
+    "question": "The very first phase in any systematic curriculum development cycle is the 'Needs Assessment', which serves to:",
     "options": [
       {
         "key": "A",
-        "text": "Localization applies only to mathematics."
+        "text": "Hire construction workers to build new auditoriums."
       },
       {
         "key": "B",
-        "text": "Localization involves relating learning content to local materials, local dialect, and community culture; Contextualization is the broader process of making concepts meaningful to students' lived realities."
+        "text": "Assign final course grades to all enrolled students."
       },
       {
         "key": "C",
-        "text": "Localization is illegal while contextualization is legal."
+        "text": "Identify the discrepancy (gap) between current learner/societal conditions and desired educational outcomes to justify curriculum goals."
       },
       {
         "key": "D",
-        "text": "There is no distinction between the two."
+        "text": "Print 10,000 copies of the syllabus before testing."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Localization adapts curriculum content to local community resources and examples, while Contextualization attaches curriculum to relevant learner life contexts."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Development: Needs Assessment Phase. Identify the discrepancy (gap) between current learner/societal conditions and desired educational outcomes to justify curriculum goals. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 55,
-    "topicRef": "Indigenization of Curriculum",
-    "question": "Curriculum Indigenization specifically means:",
+    "topicRef": "Curriculum Design: Core Curriculum Design",
+    "question": "A 'Core Curriculum' design model ensures that:",
     "options": [
       {
         "key": "A",
-        "text": "Banning indigenous languages from schools."
+        "text": "All vocational subjects are eliminated from high schools."
       },
       {
         "key": "B",
-        "text": "Replacing science with mythology."
+        "text": "A common, foundational set of essential learning competencies and shared cultural knowledge is required for all learners regardless of specialization."
       },
       {
         "key": "C",
-        "text": "Embedding Indigenous Knowledge Systems and Practices (IKSPs), cultural perspectives, and community elders' wisdom into the curriculum framework."
+        "text": "Students choose 100% of their classes with zero required subjects."
       },
       {
         "key": "D",
-        "text": "Copying curricula from foreign Western countries verbatim."
+        "text": "Only students pursuing engineering take science classes."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Indigenization deepens contextualization by centering Indigenous Knowledge Systems and Practices (IKSPs) in learning competencies (IPEd Framework, DO 62, s. 2011)."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Design: Core Curriculum Design. A common, foundational set of essential learning competencies and shared cultural knowledge is required for all learners regardless of specialization. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 56,
-    "topicRef": "Curriculum Mapping",
-    "question": "What is a 'Curriculum Map' primarily used for by academic faculties?",
+    "topicRef": "Curriculum Scope and Sequence",
+    "question": "In curriculum documentation, 'Scope' defines the breadth and depth of content and skills covered, while 'Sequence' defines:",
     "options": [
       {
         "key": "A",
-        "text": "To visually align standards, competencies, instructional pacing, and assessments across all subjects and grade levels to identify gaps and redundancies."
+        "text": "The chronological order, logical progression, and pacing in which learning experiences are delivered across time."
       },
       {
         "key": "B",
-        "text": "To design the school sports festival banner."
+        "text": "The monetary budget allocated for purchasing textbooks."
       },
       {
         "key": "C",
-        "text": "To calculate classroom property taxes."
+        "text": "The physical weight of student backpacks."
       },
       {
         "key": "D",
-        "text": "To find the geographic directions to the school building."
+        "text": "The room numbers where classes are held."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Curriculum Mapping (Heidi Hayes Jacobs) visually charts taught content, competencies, timeline, and assessments to ensure alignment and eliminate curriculum overlaps."
+    "explanation": "This item assesses competence in Curriculum Scope and Sequence. The chronological order, logical progression, and pacing in which learning experiences are delivered across time. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 57,
-    "topicRef": "Differentiated Curriculum",
-    "question": "When a teacher provides tiered assignments where struggling students analyze fundamental concepts while advanced students evaluate complex case scenarios, the teacher is practicing:",
+    "topicRef": "Curriculum Balance: Cognitive, Affective, Psychomotor",
+    "question": "An effective, holistic curriculum maintains 'Balance' by ensuring equitable attention to which three learning domains (Bloom/Krathwohl/Dave)?",
     "options": [
       {
         "key": "A",
-        "text": "Punitive Grading"
+        "text": "Physical, Chemical, and Biological."
       },
       {
         "key": "B",
-        "text": "Curriculum Stagnation"
+        "text": "Reading, Writing, and Typing."
       },
       {
         "key": "C",
-        "text": "Curriculum Elimination"
+        "text": "Economic, Political, and Administrative."
       },
       {
         "key": "D",
-        "text": "Curriculum Differentiation"
+        "text": "Cognitive (Knowledge/Head), Affective (Values/Attitudes/Heart), and Psychomotor (Skills/Actions/Hands)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Curriculum Differentiation adjusts the complexity, pacing, content, and products to match diverse student readiness levels, interests, and learning profiles."
+    "explanation": "This item assesses competence in Curriculum Balance: Cognitive, Affective, Psychomotor. Cognitive (Knowledge/Head), Affective (Values/Attitudes/Heart), and Psychomotor (Skills/Actions/Hands). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 58,
-    "topicRef": "Curriculum Compacting (Joseph Renzulli)",
-    "question": "In gifted education, Joseph Renzulli's 'Curriculum Compacting' technique allows advanced students to:",
+    "topicRef": "Curriculum Articulation: Vertical and Horizontal",
+    "question": "Curriculum 'Articulation' refers to the smooth coordination and interconnectedness of learning experiences so that:",
     "options": [
       {
         "key": "A",
-        "text": "Skip school and sleep at home."
+        "text": "Students wear identical school uniforms in all grades."
       },
       {
         "key": "B",
-        "text": "Test out of concepts they have already mastered and replace that time with enrichment or accelerated learning opportunities."
+        "text": "Teachers teach for 8 hours without stopping."
       },
       {
         "key": "C",
-        "text": "Take double homework assignments on basic drills."
+        "text": "Transition from one grade level to the next (vertical) and across subjects within a grade (horizontal) occurs without gaps, overlaps, or contradictions."
       },
       {
         "key": "D",
-        "text": "Receive lower grades to teach them humility."
+        "text": "All school buildings are connected by covered walkways."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Curriculum Compacting pre-assesses gifted learners, eliminates already-mastered content, and frees up instructional time for deeper enrichment projects."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Articulation: Vertical and Horizontal. Transition from one grade level to the next (vertical) and across subjects within a grade (horizontal) occurs without gaps, overlaps, or contradictions. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 59,
-    "topicRef": "Outcomes-Based Education (OBE - William Spady)",
-    "question": "William Spady's Outcomes-Based Education (OBE) philosophy begins with which core principle?",
+    "topicRef": "Curriculum Pilot Testing / Try-Out Phase",
+    "question": "Before a new national curriculum is mandated across thousands of schools, curriculum developers conduct 'Pilot Testing' in sample schools to:",
     "options": [
       {
         "key": "A",
-        "text": "Teaching whatever the teacher feels like on that day."
+        "text": "Eliminate all teacher input from the revision process."
       },
       {
         "key": "B",
-        "text": "'Design Down / Backward Planning' — starting with a clear picture of what graduates should ultimately demonstrate at the end of their education, and organizing curriculum around that outcome."
+        "text": "Gather empirical formative feedback on feasibility, clarity, pacing, and instructional materials to make necessary revisions."
       },
       {
         "key": "C",
-        "text": "Focusing strictly on textbook page numbers."
+        "text": "Prove that the original curriculum draft was 100% perfect without flaws."
       },
       {
         "key": "D",
-        "text": "Grading based on classroom attendance percentage."
+        "text": "Spend surplus government funds before the fiscal year ends."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Spady's 4 OBE principles: 1. Clarity of focus, 2. Design Down (start with end outcomes), 3. High expectations, and 4. Expanded opportunities."
+    "explanation": "This item assesses competence in Curriculum Pilot Testing / Try-Out Phase. Gather empirical formative feedback on feasibility, clarity, pacing, and instructional materials to make necessary revisions. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 60,
-    "topicRef": "OBE: Constructive Alignment",
-    "question": "In Outcomes-Based Teaching and Learning (OBTL), what must be 100% congruent?",
+    "topicRef": "Curriculum Reform: MATATAG Curriculum (DepEd)",
+    "question": "The revised 'MATATAG Curriculum' in Philippine basic education was designed specifically to:",
     "options": [
       {
         "key": "A",
-        "text": "Classroom paint color and uniform color"
+        "text": "Decongest curriculum competencies, strengthen foundational literacy and numeracy, and emphasize character building and peace education."
       },
       {
         "key": "B",
-        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
+        "text": "Add 500 new memorization competencies to every grade level."
       },
       {
         "key": "C",
-        "text": "Teacher salary and student test scores"
+        "text": "Eliminate all teaching of reading and writing in early grades."
       },
       {
         "key": "D",
-        "text": "Textbook weight and desk size"
+        "text": "Replace all certified teachers with automated tablet screens."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "In OBTL, ILOs, TLAs, and ATs must be constructively aligned so every activity directly fosters and measures the intended outcome."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Reform: MATATAG Curriculum (DepEd). Decongest curriculum competencies, strengthen foundational literacy and numeracy, and emphasize character building and peace education. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 61,
-    "topicRef": "Curriculum Innovation",
-    "question": "What is the key difference between Curriculum Improvement and Curriculum Innovation?",
+    "topicRef": "Curriculum Change: Types of Change (McNeil)",
+    "question": "According to John McNeil, a 'Substitution' curriculum change occurs when:",
     "options": [
       {
         "key": "A",
-        "text": "Improvement introduces minor incremental tweaks to existing materials; Innovation introduces novel, paradigm-shifting models, structures, or methodologies."
+        "text": "The entire philosophy and structure of the school system is overhauled (Restructuring)."
       },
       {
         "key": "B",
-        "text": "Improvement is only done by principals."
+        "text": "Minor modifications are made to lesson sequence (Alteration)."
       },
       {
         "key": "C",
-        "text": "Improvement is expensive while innovation is free."
+        "text": "A completely new learning track is added (Perturbation)."
       },
       {
         "key": "D",
-        "text": "There is no difference."
+        "text": "One existing instructional element (e.g., an outdated textbook) is replaced by a newer element with no fundamental change in curriculum structure."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Improvement refines and tunes existing curricular components, whereas Innovation introduces qualitatively new structures, philosophies, or transformative practices."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Change: Types of Change (McNeil). One existing instructional element (e.g., an outdated textbook) is replaced by a newer element with no fundamental change in curriculum structure. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 62,
-    "topicRef": "Curriculum Implementation: Fidelity vs Mutual Adaptation",
-    "question": "When teachers implement a national curriculum with 'Mutual Adaptation', they:",
+    "topicRef": "Curriculum Change: Restructuring / Fundamental Change",
+    "question": "When a national education system transitions from a 10-year basic education cycle to the K to 12 system with senior high tracks, this represents:",
     "options": [
       {
         "key": "A",
-        "text": "Refuse to teach."
+        "text": "A temporary 1-week curriculum perturbation."
       },
       {
         "key": "B",
-        "text": "Follow every single word of the teacher's guide with zero flexibility."
+        "text": "Routine daily lesson planning."
       },
       {
         "key": "C",
-        "text": "Adjust and adapt the curriculum to fit local classroom realities and learner needs while maintaining the integrity of core standards."
+        "text": "Restructuring (system-wide, fundamental structural and organizational transformation)."
       },
       {
         "key": "D",
-        "text": "Throw away the national curriculum completely."
+        "text": "Minor substitution of one textbook."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Mutual Adaptation views implementation as an active dialogue where both the curriculum design and the classroom environment adjust to optimize learning."
+    "explanation": "This item assesses competence in Curriculum Change: Restructuring / Fundamental Change. Restructuring (system-wide, fundamental structural and organizational transformation). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 63,
-    "topicRef": "Curriculum Fidelity Model",
-    "question": "The 'Fidelity Approach' to curriculum implementation insists that teachers must:",
+    "topicRef": "Curriculum Evaluation: Formative vs Summative Decisions",
+    "question": "A curriculum evaluation committee decides to revise Grade 7 science modules during mid-year implementation based on quarterly feedback. This decision is:",
     "options": [
       {
         "key": "A",
-        "text": "Never use textbooks."
+        "text": "An administrative budget audit."
       },
       {
         "key": "B",
-        "text": "Deliver the curriculum exactly as originally scripted and intended by the curriculum developers without unauthorized modifications."
+        "text": "Formative in nature (aimed at ongoing improvement, refinement, and pedagogical adjustment)."
       },
       {
         "key": "C",
-        "text": "Allow students to choose test answers freely."
+        "text": "Summative in nature (aimed at final program termination or accreditation)."
       },
       {
         "key": "D",
-        "text": "Make up their own syllabus every week."
+        "text": "A punitive disciplinary sanction against authors."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Fidelity Approach measures implementation success by how faithfully practitioners replicate the exact curriculum design as planned."
+    "explanation": "This item assesses competence in Curriculum Evaluation: Formative vs Summative Decisions. Formative in nature (aimed at ongoing improvement, refinement, and pedagogical adjustment). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 64,
-    "topicRef": "School-Based Curriculum Development (SBCD)",
-    "question": "What is the primary advantage of School-Based Curriculum Development (SBCD)?",
+    "topicRef": "Curriculum Evaluation: Summative Decisions",
+    "question": "After 5 years of implementing a national scholarship curriculum, the department conducts a comprehensive evaluation to decide whether to continue, expand, or terminate the program. This is:",
     "options": [
       {
         "key": "A",
-        "text": "It eliminates national licensing exams."
+        "text": "Summative evaluation (evaluating overall merit, worth, and long-term viability)."
       },
       {
         "key": "B",
-        "text": "It removes all science subjects."
+        "text": "Formative diagnostic checking."
       },
       {
         "key": "C",
-        "text": "It lowers teacher accountability."
+        "text": "Pilot testing."
       },
       {
         "key": "D",
-        "text": "It empowers local school teachers and leaders to tailor programs to their specific community context, student culture, and available resources."
+        "text": "Needs assessment."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "SBCD promotes decentralization, institutional ownership, responsiveness to local community ecology, and high teacher professional autonomy."
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Evaluation: Summative Decisions. Summative evaluation (evaluating overall merit, worth, and long-term viability). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 65,
-    "topicRef": "Curriculum Spiral Progression in Science & Math",
-    "question": "Under the K to 12 Basic Education Program, how are Science and Math structured across Grade 7 to 10?",
+    "topicRef": "Curriculum Materials: Textbook Quality Standards",
+    "question": "When evaluating instructional textbooks for curriculum adoption, the primary pedagogical criteria must include:",
     "options": [
       {
         "key": "A",
-        "text": "Discipline-based: 1 year pure Biology, 1 year pure Chemistry, 1 year pure Physics, 1 year pure Earth Science."
+        "text": "The brightness and glossy sheen of the outer cover page."
       },
       {
         "key": "B",
-        "text": "Spiral Progression: Integrated strands (Biology, Chemistry, Physics, Earth Science) are taught every school year with increasing depth each year."
+        "text": "The physical weight of the bound book."
       },
       {
         "key": "C",
-        "text": "Only Biology is taught in all 4 years."
+        "text": "The commercial marketing fame of the publishing corporation."
       },
       {
         "key": "D",
-        "text": "No science is taught until college."
+        "text": "Content accuracy, alignment with curriculum standards, absence of bias, developmental appropriateness, and quality of pedagogical activities."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The K to 12 Science curriculum replaced discipline-based yearly isolation with a Spiral Progression approach, revisiting all 4 branches with expanding complexity annually."
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Materials: Textbook Quality Standards. Content accuracy, alignment with curriculum standards, absence of bias, developmental appropriateness, and quality of pedagogical activities. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 66,
-    "topicRef": "Curriculum Pilot Testing",
-    "question": "Before implementing a new nationwide curriculum across all public schools, what is the vital role of 'Pilot Testing'?",
+    "topicRef": "Curriculum Alignment: The Intended vs Implemented vs Achieved Curriculum",
+    "question": "In international curriculum studies (e.g., TIMSS/PISA), learning gaps occur primarily when there is a significant mismatch between:",
     "options": [
       {
         "key": "A",
-        "text": "To test the curriculum on a representative sample of schools, identify operational bottlenecks, and refine materials based on empirical feedback."
+        "text": "The school principal's salary and the school tuition rate."
       },
       {
         "key": "B",
-        "text": "To award medals to administrators."
+        "text": "The morning flag ceremony and the afternoon dismissal time."
       },
       {
         "key": "C",
-        "text": "To generate commercial profits from book sales."
+        "text": "The Intended Curriculum (what is officially prescribed), the Implemented Curriculum (what is actually taught), and the Achieved Curriculum (what students learn)."
       },
       {
         "key": "D",
-        "text": "To delay educational reform indefinitely."
+        "text": "The color of classroom chalk and the color of school buses."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Pilot testing validates feasibility, exposes instructional flaws, tests teacher readiness, and allows evidence-based revisions before full-scale national rollout."
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Alignment: The Intended vs Implemented vs Achieved Curriculum. The Intended Curriculum (what is officially prescribed), the Implemented Curriculum (what is actually taught), and the Achieved Curriculum (what students learn). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 67,
-    "topicRef": "Curriculum Maintenance vs Institutionalization",
-    "question": "In Kurt Lewin's Change Theory, when new curriculum practices become standard operational culture and daily classroom habits, this stage is:",
+    "topicRef": "Curriculum Design: Discipline-Based vs Interdisciplinary Design",
+    "question": "While 'Discipline-Based Design' teaches subjects in isolation according to academic domains, 'Interdisciplinary Design':",
     "options": [
       {
         "key": "A",
-        "text": "Refreezing / Institutionalization"
+        "text": "Eliminates all scientific research in high schools."
       },
       {
         "key": "B",
-        "text": "Disruption"
+        "text": "Combines knowledge, concepts, and inquiry methods from two or more disciplines to explore a central theme or real-world problem."
       },
       {
         "key": "C",
-        "text": "Moving"
+        "text": "Prohibits students from reading books outside their major subject."
       },
       {
         "key": "D",
-        "text": "Unfreezing"
+        "text": "Forces all teachers to teach all subjects simultaneously."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Refreezing (Institutionalization) stabilizes curriculum innovations into sustainable daily institutional policies, culture, and permanent teacher practices."
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Design: Discipline-Based vs Interdisciplinary Design. Combines knowledge, concepts, and inquiry methods from two or more disciplines to explore a central theme or real-world problem. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   },
   {
     "id": 68,
-    "topicRef": "Curriculum Leadership",
-    "question": "A school principal who observes classes, mentors teachers on pedagogical strategies, organizes LAC sessions, and reviews curriculum alignment is acting as an:",
+    "topicRef": "Curriculum Evaluation: Teacher Evaluation in Curriculum",
+    "question": "Why is continuous teacher evaluation and classroom observation an integral component of curriculum evaluation?",
     "options": [
       {
         "key": "A",
-        "text": "Administrative Bureaucrat only"
+        "text": "Because the quality and fidelity of classroom instructional delivery directly determine the success of the curriculum."
       },
       {
         "key": "B",
-        "text": "External Auditor"
+        "text": "To find excuses to fire experienced senior teachers."
       },
       {
         "key": "C",
-        "text": "Authoritarian Manager"
+        "text": "To replace teacher observations with automated computer surveillance."
       },
       {
         "key": "D",
-        "text": "Instructional / Curriculum Leader"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "Instructional leadership focuses directly on teaching quality, curriculum alignment, collaborative professional learning communities (LAC), and student outcomes."
-  },
-  {
-    "id": 69,
-    "topicRef": "Curriculum Congruence",
-    "question": "What does 'Curriculum Congruence' mean?",
-    "options": [
-      {
-        "key": "A",
-        "text": "When all teachers have identical handwriting."
-      },
-      {
-        "key": "B",
-        "text": "When school desks are arranged in circles."
-      },
-      {
-        "key": "C",
-        "text": "The degree of perfect matching and harmony between intended learning outcomes, actual classroom teaching, and evaluation tests."
-      },
-      {
-        "key": "D",
-        "text": "When tuition fees equal teacher salaries."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Curriculum Congruence refers to the exact alignment and alignment fit among the intended (written), taught, and assessed curricula."
-  },
-  {
-    "id": 70,
-    "topicRef": "Curriculum Decongestion",
-    "question": "Why was the 2002 Basic Education Curriculum (BEC) and later the MATATAG curriculum recalibrated to 'decongest' competencies?",
-    "options": [
-      {
-        "key": "A",
-        "text": "To shorten school days to 1 hour."
-      },
-      {
-        "key": "B",
-        "text": "Because having too many superficial topics led to 'a mile wide and an inch deep' learning without deep mastery of foundational literacies."
-      },
-      {
-        "key": "C",
-        "text": "Because printing books became illegal."
-      },
-      {
-        "key": "D",
-        "text": "To eliminate teacher jobs."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Curriculum decongestion strips away bloated, overlapping competencies to ensure adequate depth, mastery, and application of foundational literacies."
-  },
-  {
-    "id": 71,
-    "topicRef": "Curriculum Benchmarking",
-    "question": "What is 'Curriculum Benchmarking' against international frameworks (e.g. TIMSS, PISA, ASEAN Qualifications Framework)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Copying exam questions from international websites without translation."
-      },
-      {
-        "key": "B",
-        "text": "Banning international students from visiting."
-      },
-      {
-        "key": "C",
-        "text": "Comparing national curriculum standards and student competencies against premier international benchmarks to ensure global competitiveness."
-      },
-      {
-        "key": "D",
-        "text": "Ordering wooden benches for school gardens."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Benchmarking evaluates national curricular rigor against international performance standards (PISA, TIMSS, ASEAN Framework) to ensure global comparability."
-  },
-  {
-    "id": 72,
-    "topicRef": "Curriculum Articulation: Horizontal Articulation",
-    "question": "When the Grade 9 English teacher coordinates with the Grade 9 Science teacher so that students learn scientific research essay writing concurrently, this is:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Disciplinary Segregation"
-      },
-      {
-        "key": "B",
-        "text": "Vertical Articulation"
-      },
-      {
-        "key": "C",
-        "text": "Curriculum Fragmentation"
-      },
-      {
-        "key": "D",
-        "text": "Horizontal Articulation / Correlation"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "Horizontal articulation creates cross-disciplinary correlations and reinforces skills simultaneously across parallel subjects at the same grade level."
-  },
-  {
-    "id": 73,
-    "topicRef": "Curriculum Articulation: Vertical Articulation",
-    "question": "A lack of 'Vertical Articulation' in a K-12 Mathematics program manifests when:",
-    "options": [
-      {
-        "key": "A",
-        "text": "The math teacher is absent."
-      },
-      {
-        "key": "B",
-        "text": "Grade 8 teachers assume students know geometric proofs that were never included in the Grade 7 curriculum guide."
-      },
-      {
-        "key": "C",
-        "text": "Two sections in the same grade use different colored notebooks."
-      },
-      {
-        "key": "D",
-        "text": "Students score 100% on the quiz."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "A breakdown in vertical articulation creates curricular gaps, where prerequisite knowledge expected in upper grades was omitted in lower grades."
-  },
-  {
-    "id": 74,
-    "topicRef": "Curriculum Evaluation: Formative vs Summative",
-    "question": "Formative evaluation of a curriculum during its development phase is intended to:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Render a final verdict to permanently terminate a program."
-      },
-      {
-        "key": "B",
-        "text": "Collect ongoing data to revise, improve, and refine curricular components before full completion."
-      },
-      {
-        "key": "C",
-        "text": "Calculate final graduation honors."
-      },
-      {
-        "key": "D",
-        "text": "Rank schools on national news."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Formative curriculum evaluation provides diagnostic feedback during development to make in-flight improvements, whereas Summative evaluation judges overall effectiveness at the conclusion."
-  },
-  {
-    "id": 75,
-    "topicRef": "Curricularist as Change Agent",
-    "question": "In Philippine education reform, the classroom teacher as a curricularist is fundamentally regarded as:",
-    "options": [
-      {
-        "key": "A",
-        "text": "The primary architect, dynamic implementor, and reflective evaluator who breathes life into the curriculum."
-      },
-      {
-        "key": "B",
-        "text": "A mere clerk recording student attendance."
-      },
-      {
-        "key": "C",
-        "text": "A textbook delivery courier."
-      },
-      {
-        "key": "D",
-        "text": "A passive robot who merely obeys administrative orders without question."
+        "text": "To calculate the annual electricity consumption of classrooms."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Teachers are the heart of curriculum development: they plan, translate, contextualize, execute, and evaluate learning, acting as transformational change agents."
+    "explanation": "This item assesses competence in Curriculum Evaluation: Teacher Evaluation in Curriculum. Because the quality and fidelity of classroom instructional delivery directly determine the success of the curriculum. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 69,
+    "topicRef": "Curriculum Integration: Theme-Based Learning Units",
+    "question": "In an integrated curriculum, a Grade 4 team designs a 3-week unit around the theme 'Water: Life, Ecology, and Society' integrating Science, Math, Social Studies, and English. This is an example of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Subject-Centered isolated compartmentalization."
+      },
+      {
+        "key": "B",
+        "text": "Null curriculum omission."
+      },
+      {
+        "key": "C",
+        "text": "Rote drill-and-practice curriculum."
+      },
+      {
+        "key": "D",
+        "text": "Thematic / Interdisciplinary Curriculum Integration."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Integration: Theme-Based Learning Units. Thematic / Interdisciplinary Curriculum Integration. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 70,
+    "topicRef": "Curriculum Innovation: Service-Learning in the Curriculum",
+    "question": "Service-Learning integrates meaningful community service with academic curriculum study primarily to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Replace academic learning with unguided social socializing."
+      },
+      {
+        "key": "B",
+        "text": "Avoid classroom instructional hours."
+      },
+      {
+        "key": "C",
+        "text": "Enrich learning experiences, teach civic responsibility, and strengthen local communities through structured reflective practice."
+      },
+      {
+        "key": "D",
+        "text": "Use students as unpaid manual laborers for private commercial businesses."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Innovation: Service-Learning in the Curriculum. Enrich learning experiences, teach civic responsibility, and strengthen local communities through structured reflective practice. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 71,
+    "topicRef": "Curriculum Standards: Content Standards vs Performance Standards (DepEd)",
+    "question": "In DepEd's K to 12 curriculum guides, 'Content Standards' define what learners should know and understand, while 'Performance Standards' define:",
+    "options": [
+      {
+        "key": "A",
+        "text": "The physical dimensions of the classroom bulletin board."
+      },
+      {
+        "key": "B",
+        "text": "What learners should be able to do, produce, or perform using their knowledge and skills in authentic contexts."
+      },
+      {
+        "key": "C",
+        "text": "The exact percentage of students who will pass the course."
+      },
+      {
+        "key": "D",
+        "text": "The number of hours the teacher must spend lecturing."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Standards: Content Standards vs Performance Standards (DepEd). What learners should be able to do, produce, or perform using their knowledge and skills in authentic contexts. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 72,
+    "topicRef": "Curriculum Competencies: Learning Competencies (LCs)",
+    "question": "In DepEd curriculum guides, a 'Learning Competency' (LC) is defined as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A specific statement of knowledge, skills, and attitudes that a learner is expected to demonstrate in every lesson/grading period."
+      },
+      {
+        "key": "B",
+        "text": "A general philosophical motto of the school district."
+      },
+      {
+        "key": "C",
+        "text": "A commercial brand of educational software."
+      },
+      {
+        "key": "D",
+        "text": "A list of rules for school cafeteria behavior."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This item assesses competence in Curriculum Competencies: Learning Competencies (LCs). A specific statement of knowledge, skills, and attitudes that a learner is expected to demonstrate in every lesson/grading period. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 73,
+    "topicRef": "Curriculum Supervision: Clinical Supervision Model",
+    "question": "In curriculum supervision, Goldhammer and Cogan's 'Clinical Supervision' model is characterized as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "An authoritarian inspection aimed at catching and punishing teacher mistakes."
+      },
+      {
+        "key": "B",
+        "text": "A medical examination conducted by school physicians in the clinic."
+      },
+      {
+        "key": "C",
+        "text": "A standardized written multiple-choice test administered to school principals."
+      },
+      {
+        "key": "D",
+        "text": "A collaborative, collegial, data-based cycle (Pre-conference, Observation, Analysis, Post-conference) aimed at improving teacher instructional practice."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item assesses competence in Curriculum Supervision: Clinical Supervision Model. A collaborative, collegial, data-based cycle (Pre-conference, Observation, Analysis, Post-conference) aimed at improving teacher instructional practice. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 74,
+    "topicRef": "Curriculum Alignment: Curriculum-Instruction-Assessment Triad",
+    "question": "The cornerstone principle of effective curriculum design requires the seamless alignment of the 'CIA Triad', which encompasses:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Classrooms, Internet, and Audio-visuals."
+      },
+      {
+        "key": "B",
+        "text": "Computers, Incentives, and Attendance."
+      },
+      {
+        "key": "C",
+        "text": "Curriculum (Objectives/Standards), Instruction (Pedagogical Activities), and Assessment (Evidence of Learning)."
+      },
+      {
+        "key": "D",
+        "text": "Content, Infrastructure, and Administration."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item assesses competence in Curriculum Alignment: Curriculum-Instruction-Assessment Triad. Curriculum (Objectives/Standards), Instruction (Pedagogical Activities), and Assessment (Evidence of Learning). reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
+  },
+  {
+    "id": 75,
+    "topicRef": "Curriculum Foundations: Synthesis for 21st Century Learning",
+    "question": "Ultimately, an effective 21st-century curriculum must be dynamic, responsive, and holistic, preparing learners not merely to memorize static content, but to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Memorize encyclopedias word-for-word without real-world application."
+      },
+      {
+        "key": "B",
+        "text": "Think critically, innovate creatively, collaborate empathetically, and adapt flexibly as lifelong learners in an interconnected world."
+      },
+      {
+        "key": "C",
+        "text": "Passively obey authoritarian commands without questioning."
+      },
+      {
+        "key": "D",
+        "text": "Perform repetitive mechanical factory labor with zero critical voice."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item assesses competence in Curriculum Foundations: Synthesis for 21st Century Learning. Think critically, innovate creatively, collaborate empathetically, and adapt flexibly as lifelong learners in an interconnected world. reflects established curriculum theory, Philippine basic education policy (RA 10533), and instructional design principles."
   }
 ];

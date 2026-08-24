@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "21st Century Skills Framework (P21)",
-    "question": "Under the Partnership for 21st Century Learning (P21) framework, which cluster of competencies includes Critical Thinking, Creativity, Collaboration, and Communication (the 4Cs)?",
+    "topicRef": "21st Century Literacies: Traditional vs Modern Concept of Literacy",
+    "question": "While traditional literacy focused strictly on the basic ability to read, write, and calculate (the 3Rs), 21st-century literacy is reconceptualized as:",
     "options": [
       {
         "key": "A",
-        "text": "Life and Career Skills"
+        "text": "The physical speed of mechanical typing on a keyboard."
       },
       {
         "key": "B",
-        "text": "Information, Media, and Technology Skills"
+        "text": "The ability to memorize dictionary definitions word-for-word in silence."
       },
       {
         "key": "C",
-        "text": "Foundational Literacy Skills"
+        "text": "Strict compliance with ancient monastic recitation codes."
       },
       {
         "key": "D",
-        "text": "Learning and Innovation Skills"
+        "text": "A multimodal, dynamic set of cognitive, digital, socio-cultural, and ethical competencies needed to thrive in a complex, interconnected world."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "P21 categorizes skills into 3 core domains: 1. Learning and Innovation Skills (the 4Cs: Critical Thinking, Creativity, Collaboration, Communication), 2. Information, Media, and Technology Skills, and 3. Life and Career Skills."
+    "explanation": "This item evaluates competence in 21st Century Literacies: Traditional vs Modern Concept of Literacy. A multimodal, dynamic set of cognitive, digital, socio-cultural, and ethical competencies needed to thrive in a complex, interconnected world. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 2,
-    "topicRef": "21st Century Skills: Life and Career Skills",
-    "question": "Flexibility and Adaptability, Initiative and Self-Direction, Social and Cross-Cultural Skills, Productivity and Accountability, and Leadership and Responsibility belong to which P21 skill category?",
+    "topicRef": "Financial Literacy: Core Pillars and Budgeting",
+    "question": "In financial literacy education, what is the foundational rule of sound personal financial management encapsulated in the 'Pay Yourself First' principle?",
     "options": [
       {
         "key": "A",
-        "text": "Core Academic Subjects"
+        "text": "Borrowing high-interest payday loans to finance international vacations."
       },
       {
         "key": "B",
-        "text": "Life and Career Skills"
+        "text": "Relying entirely on credit card cash advances for daily grocery purchases."
       },
       {
         "key": "C",
-        "text": "Learning and Innovation Skills"
+        "text": "Setting aside a fixed percentage of income for savings and emergency investments BEFORE allocating money for living expenses and discretionary spending."
       },
       {
         "key": "D",
-        "text": "Media Literacy"
+        "text": "Spending entire salary on luxury consumer goods and saving whatever spare coins remain."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Life and Career Skills encompass personal agency, flexibility, cross-cultural competence, ethical leadership, productivity, and self-direction in navigating complex work and social environments."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Financial Literacy: Core Pillars and Budgeting. Setting aside a fixed percentage of income for savings and emergency investments BEFORE allocating money for living expenses and discretionary spending. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 3,
-    "topicRef": "Characteristics of a 21st Century Teacher",
-    "question": "A 21st-century educator acts as an 'adaptor', 'visionary', 'collaborator', and 'risk-taker'. What does it mean for a teacher to be an 'Adaptor'?",
+    "topicRef": "Financial Literacy: The 50-30-20 Budgeting Rule (Elizabeth Warren)",
+    "question": "According to the popular 50-30-20 budgeting framework, how should an individual's net income be systematically allocated?",
     "options": [
       {
         "key": "A",
-        "text": "Sticking rigidly to lesson notes prepared 20 years ago."
+        "text": "50% for Housing, 30% for Utilities, and 20% for Clothing only."
       },
       {
         "key": "B",
-        "text": "Adapting only when threatened with salary deduction."
+        "text": "50% for Needs (essential living costs), 30% for Wants (lifestyle/entertainment), and 20% for Savings, debt repayment, and investments."
       },
       {
         "key": "C",
-        "text": "Able to flexibly adapt curriculum software, teaching styles, and learning environments to dynamic student demographics and evolving societal demands."
+        "text": "50% for Luxury Wants, 30% for Gambling, and 20% for Taxes."
       },
       {
         "key": "D",
-        "text": "Refusing to use computers in class."
+        "text": "50% for Savings, 30% for Loans, and 20% for Food."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "An Adaptor embraces new technologies, responds proactively to diverse learning styles, and adjusts pedagogical strategies to dynamic classroom contexts."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Financial Literacy: The 50-30-20 Budgeting Rule (Elizabeth Warren). 50% for Needs (essential living costs), 30% for Wants (lifestyle/entertainment), and 20% for Savings, debt repayment, and investments. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 4,
-    "topicRef": "Digital Literacy Definitions (Paul Gilster)",
-    "question": "Paul Gilster defined 'Digital Literacy' primarily as:",
+    "topicRef": "Financial Literacy: Assets vs Liabilities (Robert Kiyosaki)",
+    "question": "In financial education, how does Robert Kiyosaki (*Rich Dad Poor Dad*) distinguish an 'Asset' from a 'Liability' in practical terms?",
     "options": [
       {
         "key": "A",
-        "text": "The ability to understand, evaluate, and integrate information in multiple formats from a wide range of digital sources via computers."
+        "text": "An Asset puts money INTO your pocket (generates passive cash flow/appreciation), while a Liability takes money OUT of your pocket (incurs ongoing expenses)."
       },
       {
         "key": "B",
-        "text": "Memorizing keyboard shortcuts."
+        "text": "An Asset is anything you purchase on credit, while a Liability is physical cash."
       },
       {
         "key": "C",
-        "text": "Knowing how to physically assemble computer hardware."
+        "text": "An Asset is always a brand-new luxury sports car, while a Liability is a university diploma."
       },
       {
         "key": "D",
-        "text": "The ability to type 100 words per minute."
+        "text": "An Asset is cash held in a piggy bank with zero interest."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Paul Gilster (1997) emphasized that digital literacy is not merely technical button-pressing, but the critical cognitive ability to evaluate, synthesize, and contextualize digital information."
+    "explanation": "This item evaluates competence in Financial Literacy: Assets vs Liabilities (Robert Kiyosaki). An Asset puts money INTO your pocket (generates passive cash flow/appreciation), while a Liability takes money OUT of your pocket (incurs ongoing expenses). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 5,
-    "topicRef": "Seven Dimensions of Media and Information Literacy (MIL)",
-    "question": "Under the UNESCO Media and Information Literacy (MIL) curriculum, which dimension focuses on understanding how media messages are constructed, identifying underlying biases, and recognizing commercial/political motives?",
+    "topicRef": "Financial Literacy: Inflation and Purchasing Power",
+    "question": "Why is it financially unwise to keep large sums of long-term savings exclusively in cash or non-interest-bearing checking accounts?",
     "options": [
       {
         "key": "A",
-        "text": "Physical Printing"
+        "text": "Because commercial paper bank notes decompose into dust within 12 months."
       },
       {
         "key": "B",
-        "text": "Hardware Maintenance"
+        "text": "Because national banks automatically confiscate cash savings annually."
       },
       {
         "key": "C",
-        "text": "Passive Consumption"
+        "text": "Because cash money loses its physical weight over time."
       },
       {
         "key": "D",
-        "text": "Critical Understanding and Evaluation of Media Content"
+        "text": "Because Inflation continuously erodes the real purchasing power of money over time, meaning the cash buys fewer goods in the future."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Critical evaluation in MIL trains citizens to deconstruct media representations, identify misinformation/propaganda, and analyze power dynamics behind media production."
+    "explanation": "This item evaluates competence in Financial Literacy: Inflation and Purchasing Power. Because Inflation continuously erodes the real purchasing power of money over time, meaning the cash buys fewer goods in the future. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 6,
-    "topicRef": "Cyber Threats: Spoofing vs Phishing",
-    "question": "How does 'Spoofing' differ from 'Phishing'?",
+    "topicRef": "Financial Literacy: Compound Interest (The Rule of 72)",
+    "question": "The 'Rule of 72' in financial literacy is a rapid mathematical heuristic used to estimate:",
     "options": [
       {
         "key": "A",
-        "text": "Spoofing involves forging an email sender header, IP address, or website domain to masquerade as a legitimate identity; Phishing is the broader social engineering scheme to trick users into divulging secrets."
+        "text": "The percentage of income an individual must pay in income taxes."
       },
       {
         "key": "B",
-        "text": "Spoofing is completely legal."
+        "text": "The total number of credit cards a consumer should own."
       },
       {
         "key": "C",
-        "text": "Phishing uses physical fishing rods."
+        "text": "The number of years required to DOUBLE an investment at a given annual fixed compound interest rate (Years = 72 / Interest Rate)."
       },
       {
         "key": "D",
-        "text": "There is no difference between them."
+        "text": "The exact monetary price of national real estate properties."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Spoofing is the technical masquerading/falsification of headers, caller IDs, or web addresses, while Phishing is the deceptive social-engineering attempt to lure victims into surrendering sensitive credentials."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Financial Literacy: Compound Interest (The Rule of 72). The number of years required to DOUBLE an investment at a given annual fixed compound interest rate (Years = 72 / Interest Rate). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 7,
-    "topicRef": "Cyber Threats: Man-in-the-Middle (MitM) Attack",
-    "question": "When a hacker intercepts and secretly relays communication between a student and a school portal on an unsecured public Wi-Fi network, this attack is called a:",
+    "topicRef": "Financial Literacy: Good Debt vs Bad Debt",
+    "question": "In consumer financial literacy, 'Good Debt' differs from 'Bad Debt' because good debt:",
     "options": [
       {
         "key": "A",
-        "text": "Zero-Day Exploit"
+        "text": "Is borrowed from unregulated illegal loan sharks."
       },
       {
         "key": "B",
-        "text": "Man-in-the-Middle (MitM) Attack"
+        "text": "Is an investment that finances an asset or opportunity with potential to increase future net worth or income (e.g., student education, affordable business loan)."
       },
       {
         "key": "C",
-        "text": "Trojan Horse"
+        "text": "Carries an annual percentage interest rate exceeding 50% on luxury fashion purchases."
       },
       {
         "key": "D",
-        "text": "Brute Force Attack"
+        "text": "Is used exclusively to fund impulsive consumer shopping sprees."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "A Man-in-the-Middle (MitM) attack occurs when an attacker secretly eavesdrops, intercepts, or alters communications between two parties who believe they are directly communicating with each other."
+    "explanation": "This item evaluates competence in Financial Literacy: Good Debt vs Bad Debt. Is an investment that finances an asset or opportunity with potential to increase future net worth or income (e.g., student education, affordable business loan). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 8,
-    "topicRef": "Cyber Threats: Spyware & Keyloggers",
-    "question": "Software covertly installed on a computer to record every keystroke typed by a user (including usernames and credit card numbers) is classified as a:",
+    "topicRef": "Financial Literacy: Ponzi & Pyramid Schemes (Scam Detection)",
+    "question": "A financial investment opportunity promises guaranteed returns of '30% profit every month with zero risk!' A financially literate teacher recognizes this as a classic red flag for:",
     "options": [
       {
         "key": "A",
-        "text": "Firewall"
+        "text": "A Ponzi / Pyramid Scheme, which relies on funds from newer investors to pay fictitious returns to older investors before inevitable collapse."
       },
       {
         "key": "B",
-        "text": "Virtual Private Network"
+        "text": "A secure, legitimate government sovereign treasury bond."
       },
       {
         "key": "C",
-        "text": "Antivirus"
+        "text": "A standard conservative mutual index fund."
       },
       {
         "key": "D",
-        "text": "Keylogger (Spyware)"
+        "text": "An accredited commercial savings bank account."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "A Keylogger is a malicious surveillance tool (spyware) that silently logs keystrokes to steal passwords, credentials, and private messages."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Financial Literacy: Ponzi & Pyramid Schemes (Scam Detection). A Ponzi / Pyramid Scheme, which relies on funds from newer investors to pay fictitious returns to older investors before inevitable collapse. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 9,
-    "topicRef": "Cyber Threats: Distributed Denial of Service (DDoS)",
-    "question": "A cyber attack that floods a school website server with millions of fake traffic requests simultaneously, causing it to crash and become unavailable to legitimate students, is called a:",
+    "topicRef": "Digital / Cyber Literacy: Information Evaluation (CRAAP Test)",
+    "question": "When teaching students to evaluate the credibility of online sources, the 'CRAAP' test evaluates which five core criteria?",
     "options": [
       {
         "key": "A",
-        "text": "DDoS (Distributed Denial of Service) Attack"
+        "text": "Clickbait, Resolution, Animation, Audio, and Performance."
       },
       {
         "key": "B",
-        "text": "SQL Injection"
+        "text": "Cost, Revenue, Advertising, Audience, and Profit."
       },
       {
         "key": "C",
-        "text": "Phishing Scam"
+        "text": "Cybersecurity, Routing, Algorithms, Analytics, and Programming."
       },
       {
         "key": "D",
-        "text": "Ransomware"
+        "text": "Currency (timeliness), Relevance (importance), Authority (source credentials), Accuracy (verifiability), and Purpose (reason for existence)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "A DDoS attack overburdens target servers with massive botnet traffic, making the system unavailable to legitimate users."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Digital / Cyber Literacy: Information Evaluation (CRAAP Test). Currency (timeliness), Relevance (importance), Authority (source credentials), Accuracy (verifiability), and Purpose (reason for existence). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 10,
-    "topicRef": "Information Literacy: Fact-Checking & Deepfakes",
-    "question": "Hyper-realistic synthetic video and audio generated by deep artificial neural networks to make real people appear to say or do things they never did are known as:",
+    "topicRef": "Digital Literacy: Online Disinformation vs Misinformation",
+    "question": "In digital media studies, what is the critical distinction between 'Misinformation' and 'Disinformation'?",
     "options": [
       {
         "key": "A",
-        "text": "Podcasts"
+        "text": "Misinformation is legally permitted; Disinformation is created only by computers."
       },
       {
         "key": "B",
-        "text": "Bitcoins"
+        "text": "Misinformation relates to sports; Disinformation relates to weather."
       },
       {
         "key": "C",
-        "text": "Deepfakes"
+        "text": "Misinformation is false information shared WITHOUT harmful intent, whereas Disinformation is false information DELIBERATELY manufactured to deceive, manipulate, or harm."
       },
       {
         "key": "D",
-        "text": "GIFs"
+        "text": "Misinformation is published in printed books; Disinformation is published online."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Deepfakes use Generative Adversarial Networks (GANs) and deep learning to manipulate or generate realistic audio-visual content for deceptive impersonation."
+    "explanation": "This item evaluates competence in Digital Literacy: Online Disinformation vs Misinformation. Misinformation is false information shared WITHOUT harmful intent, whereas Disinformation is false information DELIBERATELY manufactured to deceive, manipulate, or harm. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 11,
-    "topicRef": "Arts and Creative Literacy: Visual Literacy",
-    "question": "Visual Literacy in the 21st century enables students to:",
+    "topicRef": "Digital Literacy: Phishing and Social Engineering",
+    "question": "A student receives an SMS message claiming: 'Congratulations! You won Php 500,000 in the DepEd National Raffle! Click this link and send Php 1,000 processing fee to claim.' This is:",
     "options": [
       {
         "key": "A",
-        "text": "Draw realistic portraits with charcoal exclusively."
+        "text": "A mandatory administrative school fee announcement."
       },
       {
         "key": "B",
-        "text": "Interpret, analyze, evaluate, and create meaning from information presented in visual forms (infographics, diagrams, photographs, symbols)."
+        "text": "Smishing / Social Engineering fraud designed to steal money and personal credentials."
       },
       {
         "key": "C",
-        "text": "Wear glasses while reading."
+        "text": "A legitimate scholarship grant notification from the government."
       },
       {
         "key": "D",
-        "text": "Only read black-and-white text."
+        "text": "An authentic promotional lottery from a commercial telecommunication provider."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Visual literacy involves critically decoding visual representations (semiotics, graphic layout, iconography) and encoding original visual artifacts to communicate complex messages."
+    "explanation": "This item evaluates competence in Digital Literacy: Phishing and Social Engineering. Smishing / Social Engineering fraud designed to steal money and personal credentials. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 12,
-    "topicRef": "Aesthetic Literacy & Design Thinking",
-    "question": "What are the 5 sequential stages in the Stanford d.school Design Thinking process used in creative innovation?",
+    "topicRef": "Digital Literacy: Two-Factor Authentication (2FA)",
+    "question": "Why is enabling 'Two-Factor Authentication' (2FA) essential for securing educational, banking, and professional email accounts?",
     "options": [
       {
         "key": "A",
-        "text": "Plan -> Write -> Grade -> Repeat -> Exit"
+        "text": "It provides an extra layer of defense by requiring both a password AND a secondary verification method (e.g., SMS code, authenticator app), preventing unauthorized access."
       },
       {
         "key": "B",
-        "text": "Look -> Think -> Draw -> Paint -> Sell"
+        "text": "It doubles the download speed of broadband internet routers."
       },
       {
         "key": "C",
-        "text": "Lecture -> Homework -> Quiz -> Exam -> Graduate"
+        "text": "It eliminates the need to remember any password."
       },
       {
         "key": "D",
-        "text": "Empathize -> Define -> Ideate -> Prototype -> Test"
+        "text": "It automatically deletes spam emails from the inbox."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Design Thinking comprises: 1. Empathize (understand user needs), 2. Define (frame problem), 3. Ideate (brainstorm creative solutions), 4. Prototype (build tangible mockups), and 5. Test (user feedback)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Digital Literacy: Two-Factor Authentication (2FA). It provides an extra layer of defense by requiring both a password AND a secondary verification method (e.g., SMS code, authenticator app), preventing unauthorized access. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 13,
-    "topicRef": "Creativity: Divergent vs Convergent Thinking (Guilford)",
-    "question": "In J.P. Guilford's structure of intellect, Divergent Thinking is characterized by which four core cognitive traits?",
+    "topicRef": "Media Literacy: Core Concepts (Center for Media Literacy - CML)",
+    "question": "According to the Center for Media Literacy, which foundational concept reminds students that all media messages are NOT objective reality?",
     "options": [
       {
         "key": "A",
-        "text": "Speed, Accuracy, Memorization, and Neatness"
+        "text": "'Media messages are direct, unfiltered reflections of pure truth.'"
       },
       {
         "key": "B",
-        "text": "Fluency, Flexibility, Originality, and Elaboration"
+        "text": "'Television broadcasts are generated entirely by nature without human input.'"
       },
       {
         "key": "C",
-        "text": "Silence, Obedience, Conformity, and Punctuality"
+        "text": "'All news broadcasts are 100% free from any political or economic perspective.'"
       },
       {
         "key": "D",
-        "text": "Reading, Writing, Listening, and Speaking"
+        "text": "'All media messages are constructed'\u2014they are carefully crafted by creators using specific codes, conventions, and commercial motives."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Guilford's 4 dimensions of divergent creative production are: Fluency (number of ideas), Flexibility (variety of categories), Originality (novelty), and Elaboration (adding rich detail)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Media Literacy: Core Concepts (Center for Media Literacy - CML). 'All media messages are constructed'\u2014they are carefully crafted by creators using specific codes, conventions, and commercial motives. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 14,
-    "topicRef": "Financial Literacy: Emergency Fund",
-    "question": "According to standard personal finance principles, what is the recommended size of an individual's Emergency Fund before investing in volatile assets?",
+    "topicRef": "Media Literacy: Target Audience and Deconstruction",
+    "question": "When media-literate learners 'Deconstruct' a commercial advertisement, they critically analyze:",
     "options": [
       {
         "key": "A",
-        "text": "3 to 6 months of essential living expenses kept in safe, liquid savings"
+        "text": "The type of printing ink used on the magazine cover."
       },
       {
         "key": "B",
-        "text": "Zero pesos"
+        "text": "The brand name of the television monitor displaying the ad."
       },
       {
         "key": "C",
-        "text": "1 week of allowance"
+        "text": "Who created the message, what creative techniques were used to capture attention, what values/lifestyles are represented, and what is omitted."
       },
       {
         "key": "D",
-        "text": "50 years of total salary"
+        "text": "Only the physical pixel resolution of the digital video file."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Financial planners recommend establishing an Emergency Fund equivalent to 3–6 months of basic living expenses in liquid, accessible accounts to cushion against unexpected shocks."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Media Literacy: Target Audience and Deconstruction. Who created the message, what creative techniques were used to capture attention, what values/lifestyles are represented, and what is omitted. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 15,
-    "topicRef": "Financial Literacy: Budgeting (50-30-20 Rule)",
-    "question": "Under Senator Elizabeth Warren's popular 50-30-20 Budgeting Rule, how should monthly net income be distributed?",
+    "topicRef": "Media Literacy: Algorithmic Filter Bubbles & Echo Chambers",
+    "question": "How do engagement-driven social media recommendation algorithms contribute to political polarization and 'Echo Chambers'?",
     "options": [
       {
         "key": "A",
-        "text": "50% Needs (essentials), 30% Wants (discretionary), 20% Savings & Debt repayment"
+        "text": "By forcing all users to read academic peer-reviewed journal articles."
       },
       {
         "key": "B",
-        "text": "100% Discretionary shopping"
+        "text": "By repeatedly feeding users content that reinforces their existing biases and preconceptions, while filtering out opposing, diverse viewpoints."
       },
       {
         "key": "C",
-        "text": "50% Luxury, 30% Clothes, 20% Food"
+        "text": "By displaying completely random, neutral international news broadcasts to all users."
       },
       {
         "key": "D",
-        "text": "50% Savings, 30% Wants, 20% Needs"
+        "text": "By disconnecting users from the internet after 30 minutes of browsing."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The 50/30/20 budget allocates 50% of after-tax income to Needs (housing, utilities, food), 30% to Wants (dining, hobbies), and 20% to Savings, investments, and debt reduction."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Media Literacy: Algorithmic Filter Bubbles & Echo Chambers. By repeatedly feeding users content that reinforces their existing biases and preconceptions, while filtering out opposing, diverse viewpoints. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 16,
-    "topicRef": "Life Insurance Matrix: Term Insurance",
-    "question": "Which type of life insurance provides pure death benefit protection for a specified limited period (e.g. 10, 20 years) with the lowest premium cost and NO cash value accumulation?",
+    "topicRef": "Ecoliteracy: David Orr's Ecological Literacy",
+    "question": "David Orr defined 'Ecological Literacy' (Ecoliteracy) as:",
     "options": [
       {
         "key": "A",
-        "text": "Endowment Policy"
+        "text": "The fundamental understanding of how Earth's natural life-support systems function, creating citizens who live sustainably within ecological limits."
       },
       {
         "key": "B",
-        "text": "Variable Universal Life (VUL)"
+        "text": "The ability to memorize the Latin taxonomy of 5,000 insect species."
       },
       {
         "key": "C",
-        "text": "Whole Life Insurance"
+        "text": "The commercial extraction of timber from national protected rainforests."
       },
       {
         "key": "D",
-        "text": "Term Life Insurance"
+        "text": "The construction of concrete parking lots over natural wetlands."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Term Insurance offers affordable pure protection for a set duration. If the insured survives the term, no payout or cash value is returned."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Ecoliteracy: David Orr's Ecological Literacy. The fundamental understanding of how Earth's natural life-support systems function, creating citizens who live sustainably within ecological limits. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 17,
-    "topicRef": "Life Insurance Matrix: Whole Life Insurance",
-    "question": "What distinguishes 'Whole Life Insurance' from Term Insurance?",
+    "topicRef": "Ecoliteracy: Fritjof Capra's Principles of Ecology",
+    "question": "According to physicist Fritjof Capra (Center for Ecoliteracy), which of the following is a core organizational principle of living ecosystems that should guide sustainable human communities?",
     "options": [
       {
         "key": "A",
-        "text": "Whole Life expires after 5 years."
+        "text": "Linear extraction, Monoculture uniformity, and Fossil fuel exploitation."
       },
       {
         "key": "B",
-        "text": "Whole Life does not pay any death benefit."
+        "text": "Unlimited exponential growth and resource depletion."
       },
       {
         "key": "C",
-        "text": "Whole Life provides permanent lifetime coverage (up to age 100) with guaranteed level premiums and builds guaranteed cash surrender value over time."
+        "text": "Total isolation of individual biological species."
       },
       {
         "key": "D",
-        "text": "Whole Life is only for children under 5 years old."
+        "text": "Interdependence, Recycling of matter (Zero Waste), Solar Energy, Diversity, and Flexibility/Dynamic Balance."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Whole Life Insurance covers the insured for their entire lifespan, with fixed premiums and guaranteed accumulating cash values."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Ecoliteracy: Fritjof Capra's Principles of Ecology. Interdependence, Recycling of matter (Zero Waste), Solar Energy, Diversity, and Flexibility/Dynamic Balance. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 18,
-    "topicRef": "Life Insurance Matrix: Endowment Policy",
-    "question": "An 'Endowment Policy' is specifically designed to:",
+    "topicRef": "Ecoliteracy: Ecological Footprint (Wackernagel & Rees)",
+    "question": "In environmental education, an individual's 'Ecological Footprint' measures:",
     "options": [
       {
         "key": "A",
-        "text": "Insure only corporate office buildings against fire."
+        "text": "The distance walked by a student between home and school."
       },
       {
         "key": "B",
-        "text": "Pay out the full face amount either upon the death of the insured within the term OR as a living cash lump sum upon reaching the maturity date (e.g. college fund)."
+        "text": "The number of trees planted in a private residential backyard."
       },
       {
         "key": "C",
-        "text": "Cover car repair accidents."
+        "text": "The total amount of biologically productive land and water area required to produce the resources consumed and absorb the wastes generated by that person."
       },
       {
         "key": "D",
-        "text": "Provide medical health insurance without death coverage."
+        "text": "The physical size of a person's hiking boots."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Endowment policies combine life insurance with forced savings: if you die, beneficiaries receive the benefit; if you survive to maturity, you receive the full endowment lump sum."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Ecoliteracy: Ecological Footprint (Wackernagel & Rees). The total amount of biologically productive land and water area required to produce the resources consumed and absorb the wastes generated by that person. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 19,
-    "topicRef": "Life Insurance Matrix: Variable Universal Life (VUL)",
-    "question": "What is a 'Variable Universal Life (VUL)' insurance policy?",
+    "topicRef": "Ecoliteracy: The 7Rs of Waste Management",
+    "question": "Beyond the traditional '3Rs' (Reduce, Reuse, Recycle), modern ecoliteracy incorporates comprehensive sustainability habits including:",
     "options": [
       {
         "key": "A",
-        "text": "A mandatory road tax."
+        "text": "React, Reorganize, Restructure, Realign, Re-evaluate, Re-elect, and Reform."
       },
       {
         "key": "B",
-        "text": "A savings account with zero interest."
+        "text": "Rethink, Refuse, Reduce, Reuse, Repurpose, Recycle, and Rot (Compost)."
       },
       {
         "key": "C",
-        "text": "A hybrid policy combining life insurance protection with an investment component where cash values are invested in stocks, bonds, or mutual funds and fluctuate with market performance."
+        "text": "Run, Rest, Read, Review, Repeat, Recite, and Reward."
       },
       {
         "key": "D",
-        "text": "A health insurance policy for government employees only."
+        "text": "Rent, Rebuy, Resell, Refund, Reloan, Reinvest, and Redeem."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "VUL policies allocate part of premiums to life insurance protection and the remainder to market-linked investment funds, offering variable returns without guaranteed cash values."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Ecoliteracy: The 7Rs of Waste Management. Rethink, Refuse, Reduce, Reuse, Repurpose, Recycle, and Rot (Compost). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 20,
-    "topicRef": "Financial Literacy: Compound Interest (Albert Einstein)",
-    "question": "The formula for Compound Interest (A = P(1 + \frac{r}{n})^{nt}) demonstrates the financial principle that:",
+    "topicRef": "Ecoliteracy: Anthropocene & Climate Literacy",
+    "question": "In ecoliteracy curriculum integration, 'Climate Literacy' empowers learners to:",
     "options": [
       {
         "key": "A",
-        "text": "Borrowing credit card debt at 36% annual interest makes you wealthy."
+        "text": "Understand the human drivers of climate change, evaluate climate risks, and take collective, evidence-based mitigation and adaptation actions in their communities."
       },
       {
         "key": "B",
-        "text": "Inflation destroys all wealth within one year."
+        "text": "Deny all meteorological and oceanic scientific data."
       },
       {
         "key": "C",
-        "text": "Keeping cash under a mattress is the best financial strategy."
+        "text": "Wait passively for foreign nations to solve local environmental disasters."
       },
       {
         "key": "D",
-        "text": "Money grows exponentially over time because interest is earned not only on the initial principal but also on accumulated prior interest."
+        "text": "Increase personal consumption of single-use plastic packaging."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Compound interest is 'interest on interest', leading to exponential wealth accumulation over long time horizons (the '8th wonder of the world')."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Ecoliteracy: Anthropocene & Climate Literacy. Understand the human drivers of climate change, evaluate climate risks, and take collective, evidence-based mitigation and adaptation actions in their communities. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 21,
-    "topicRef": "Financial Literacy: Rule of 72",
-    "question": "If an investment yields an 8% annual compound return, approximately how many years will it take for the money to double according to the 'Rule of 72'?",
+    "topicRef": "Multicultural & Global Literacy: Cultural Relativism vs Ethnocentrism",
+    "question": "A globally and multiculturally literate teacher avoids 'Ethnocentrism' by demonstrating that:",
     "options": [
       {
         "key": "A",
-        "text": "8 years"
+        "text": "Western European cultures are inherently superior to all indigenous Asian cultures."
       },
       {
         "key": "B",
-        "text": "9 years ((72 div 8 = 9))"
+        "text": "All traditional languages should be replaced by a single global dialect."
       },
       {
         "key": "C",
-        "text": "72 years"
+        "text": "Minority students must completely abandon their cultural heritage to assimilate."
       },
       {
         "key": "D",
-        "text": "15 years"
+        "text": "Different cultural traditions, beliefs, and practices must be understood within their own cultural context, treating all cultural identities with dignity and mutual respect."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Rule of 72 estimates doubling time: divide 72 by the annual interest rate ((72 div 8 = 9) years)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Multicultural & Global Literacy: Cultural Relativism vs Ethnocentrism. Different cultural traditions, beliefs, and practices must be understood within their own cultural context, treating all cultural identities with dignity and mutual respect. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 22,
-    "topicRef": "Financial Literacy: Assets vs Liabilities (Robert Kiyosaki)",
-    "question": "In Robert Kiyosaki's 'Rich Dad Poor Dad' financial framework, how is an 'Asset' defined?",
+    "topicRef": "Multicultural Literacy: James Banks' Dimensions of Multicultural Education",
+    "question": "James Banks identifies five dimensions of multicultural education. 'Content Integration' involves:",
     "options": [
       {
         "key": "A",
-        "text": "Anything that takes money out of your pocket (expenses/maintenance)."
+        "text": "Grouping students strictly according to their socioeconomic class."
       },
       {
         "key": "B",
-        "text": "Anything that puts positive cash flow into your pocket."
+        "text": "Separating classrooms into distinct linguistic tribal divisions."
       },
       {
         "key": "C",
-        "text": "The clothes in your closet."
+        "text": "Using examples and content from a variety of cultures and groups to illustrate key concepts, principles, and theories across subject areas."
       },
       {
         "key": "D",
-        "text": "Any luxury item bought on credit card installment."
+        "text": "Teaching about ethnic minorities only during one single holiday week each year."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Kiyosaki simply defines Assets as things that generate positive cash flow (stocks, rental properties, businesses), while Liabilities take money out of your pocket."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Multicultural Literacy: James Banks' Dimensions of Multicultural Education. Using examples and content from a variety of cultures and groups to illustrate key concepts, principles, and theories across subject areas. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 23,
-    "topicRef": "Financial Literacy: Good Debt vs Bad Debt",
-    "question": "Which of the following is considered 'Good Debt'?",
+    "topicRef": "Multicultural Literacy: Banks' Equity Pedagogy",
+    "question": "According to James Banks, 'Equity Pedagogy' exists when teachers:",
     "options": [
       {
         "key": "A",
-        "text": "Maxing out credit cards on party drinks."
+        "text": "Assign failing grades automatically to students from minority communities."
       },
       {
         "key": "B",
-        "text": "Taking a salary advance to gamble at a casino."
+        "text": "Modify their teaching styles and instructional methods to facilitate the academic achievement of students from diverse racial, cultural, gender, and social-class groups."
       },
       {
         "key": "C",
-        "text": "Borrowing from a 5-6 loan shark at 20% monthly interest to buy a designer handbag."
+        "text": "Apply a single, rigid, unbending teaching style that favors only mainstream pupils."
       },
       {
         "key": "D",
-        "text": "A low-interest loan used to purchase a cash-flowing real estate property or fund graduate professional education that increases earning capacity."
+        "text": "Lower all academic standards to zero for marginalized learners."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Good debt finances assets, education, or ventures that increase net worth or income potential at low borrowing costs, while bad debt finances depreciating consumer goods."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Multicultural Literacy: Banks' Equity Pedagogy. Modify their teaching styles and instructional methods to facilitate the academic achievement of students from diverse racial, cultural, gender, and social-class groups. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 24,
-    "topicRef": "Eco-Literacy (David Orr & Fritjof Capra)",
-    "question": "Fritjof Capra defined 'Ecological Literacy' (Eco-literacy) as the ability to:",
+    "topicRef": "Global Literacy: Global Competence (PISA / OECD)",
+    "question": "The OECD-PISA Global Competence framework assesses a 21st-century learner's capacity to:",
     "options": [
       {
         "key": "A",
-        "text": "Live in a forest without electricity."
+        "text": "Examine local and global issues, understand multiple worldviews, engage in respectful intercultural interactions, and take action for collective well-being."
       },
       {
         "key": "B",
-        "text": "Memorize the Latin names of 500 plants."
+        "text": "Memorize the capital cities and flags of 200 nations without understanding geopolitical relations."
       },
       {
         "key": "C",
-        "text": "Understand the basic principles of ecology and live accordingly, recognizing that all human systems are embedded in living ecological networks."
+        "text": "Speak fluent English with an American accent."
       },
       {
         "key": "D",
-        "text": "Abolish all manufacturing factories."
+        "text": "Win commercial business marketing contracts in overseas markets."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Eco-literacy is the capacity to understand the natural cycles, interdependence, biodiversity, and energy flows of ecosystems and embody sustainable living."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Global Literacy: Global Competence (PISA / OECD). Examine local and global issues, understand multiple worldviews, engage in respectful intercultural interactions, and take action for collective well-being. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 25,
-    "topicRef": "Carbon Footprint vs Ecological Footprint",
-    "question": "What does an individual's 'Ecological Footprint' measure?",
+    "topicRef": "Social-Emotional Literacy (SEL): CASEL's Five Core Competencies",
+    "question": "The Collaborative for Academic, Social, and Emotional Learning (CASEL) framework structures SEL around which five interrelated competencies?",
     "options": [
       {
         "key": "A",
-        "text": "The amount of biologically productive land and water area required to produce the resources an individual consumes and absorb their generated waste."
+        "text": "Reading, Writing, Mathematics, Science, and Social Studies."
       },
       {
         "key": "B",
-        "text": "The number of trees in a school yard."
+        "text": "Id, Ego, Superego, Libido, and Thanatos."
       },
       {
         "key": "C",
-        "text": "The physical shoe size of an athlete."
+        "text": "Speed, Agility, Strength, Endurance, and Flexibility."
       },
       {
         "key": "D",
-        "text": "The length of nature trails in a park."
+        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Ecological Footprint measures human demand on Earth's ecosystems by comparing resource consumption and waste assimilation against biocapacity."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy (SEL): CASEL's Five Core Competencies. Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 26,
-    "topicRef": "Green School Principles (DepEd Eco-Friendly Schools)",
-    "question": "A certified 'Green School' operationalizes environmental sustainability through which integrated dimensions?",
+    "topicRef": "Social-Emotional Literacy: Social Awareness (Empathy)",
+    "question": "Under the CASEL framework, a student who demonstrates 'Social Awareness' is able to:",
     "options": [
       {
         "key": "A",
-        "text": "Planting artificial plastic flowers."
+        "text": "Avoid all social interaction and isolate oneself in the library."
       },
       {
         "key": "B",
-        "text": "Banning science textbooks."
+        "text": "Judge classmates strictly based on their physical appearance."
       },
       {
         "key": "C",
-        "text": "Sustainable campus infrastructure (solar power, rainwater harvesting, zero-waste segregation), green curriculum integration, and community environmental outreach."
+        "text": "Understand the perspectives of and empathize with others, including those from diverse backgrounds, cultures, and contexts."
       },
       {
         "key": "D",
-        "text": "Painting all school walls green color."
+        "text": "Manipulate peers' emotions to win classroom elections."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Green Schools embody a whole-school approach: eco-friendly physical operations, environmental curriculum integration, resource conservation, and community partnerships."
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Social Awareness (Empathy). Understand the perspectives of and empathize with others, including those from diverse backgrounds, cultures, and contexts. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 27,
-    "topicRef": "Solid Waste Management: RA 9003",
-    "question": "Under Republic Act 9003 (Ecological Solid Waste Management Act of 2000), what is the correct hierarchy of waste management from most preferred to least preferred?",
+    "topicRef": "Social-Emotional Literacy: Responsible Decision-Making",
+    "question": "When a student faces peer pressure to cheat on an exam, pauses to evaluate ethical standards, safety concerns, and the long-term consequences of his actions before refusing, he demonstrates:",
     "options": [
       {
         "key": "A",
-        "text": "Open Burning (Siga) -> Ocean Dumping -> Recycling"
+        "text": "Moral disengagement."
       },
       {
         "key": "B",
-        "text": "Throwing trash in canals -> Burning -> Segregation"
+        "text": "Responsible Decision-Making (evaluating consequences and ethical considerations)."
       },
       {
         "key": "C",
-        "text": "Landfill -> Incineration -> Reuse"
+        "text": "Impulsive reactive behavior."
       },
       {
         "key": "D",
-        "text": "Source Reduction & Reuse -> Recycling & Composting -> Waste Treatment -> Safe Disposal (Sanitary Landfill)"
+        "text": "Social conformity compliance."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "RA 9003 establishes a waste hierarchy prioritizing waste avoidance/reduction at source, followed by reuse, recycling, composting, and sanitary landfill disposal."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Responsible Decision-Making. Responsible Decision-Making (evaluating consequences and ethical considerations). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 28,
-    "topicRef": "Climate Change Act: RA 9729",
-    "question": "Republic Act No. 9729 in the Philippines is officially known as the:",
+    "topicRef": "Arts and Creative Literacy: Divergent vs Convergent Thinking (Guilford)",
+    "question": "J.P. Guilford's research on creativity distinguishes 'Divergent Thinking' from 'Convergent Thinking' because divergent thinking involves:",
     "options": [
       {
         "key": "A",
-        "text": "Climate Change Act of 2009"
+        "text": "Generating multiple, unique, varied, and innovative solutions, ideas, or pathways in response to an open-ended challenge."
       },
       {
         "key": "B",
-        "text": "Clean Water Act"
+        "text": "Arriving at a single, predetermined, standardized correct answer."
       },
       {
         "key": "C",
-        "text": "Clean Air Act"
+        "text": "Copying an existing artwork brushstroke for brushstroke in complete silence."
       },
       {
         "key": "D",
-        "text": "Disaster Risk Reduction Act"
+        "text": "Memorizing mathematical algorithms without understanding."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "RA 9729 is the Climate Change Act of 2009, creating the Climate Change Commission to mainstream climate resilience and disaster risk reduction in state policies."
+    "explanation": "This item evaluates competence in Arts and Creative Literacy: Divergent vs Convergent Thinking (Guilford). Generating multiple, unique, varied, and innovative solutions, ideas, or pathways in response to an open-ended challenge. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 29,
-    "topicRef": "UN Sustainable Development Goals (SDGs)",
-    "question": "Which United Nations Sustainable Development Goal specifically guarantees 'Inclusive and equitable quality education and promotes lifelong learning opportunities for all'?",
+    "topicRef": "Arts Literacy: The Four Creative Domains (Fluency, Flexibility, Originality, Elaboration - Torrance)",
+    "question": "In E. Paul Torrance's framework of creative thinking, 'Flexibility' is demonstrated when a student:",
     "options": [
       {
         "key": "A",
-        "text": "SDG 4 (Quality Education)"
+        "text": "Generates a large quantity of nearly identical ideas."
       },
       {
         "key": "B",
-        "text": "SDG 1 (No Poverty)"
+        "text": "Adds intricate, fine decorative details to an existing drawing."
       },
       {
         "key": "C",
-        "text": "SDG 5 (Gender Equality)"
+        "text": "Copies an idea directly from a peer's notebook."
       },
       {
         "key": "D",
-        "text": "SDG 13 (Climate Action)"
+        "text": "Shifts perspectives effortlessly and generates diverse categories of ideas from varied conceptual angles."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "UN SDG 4 is dedicated to Quality Education: ensuring inclusive, equitable access and lifelong learning opportunities globally by 2030."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Arts Literacy: The Four Creative Domains (Fluency, Flexibility, Originality, Elaboration - Torrance). Shifts perspectives effortlessly and generates diverse categories of ideas from varied conceptual angles. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 30,
-    "topicRef": "Social Literacy",
-    "question": "Social Literacy in the 21st century involves the development of social skills, social etiquette, and the ability to:",
+    "topicRef": "Functional Literacy: Meaning and Societal Impact",
+    "question": "According to UNESCO, 'Functional Literacy' is defined as the capability of an individual to:",
     "options": [
       {
         "key": "A",
-        "text": "Navigate complex interpersonal relationships, communicate with empathy, resolve conflicts peacefully, and collaborate respectfully across diverse cultures."
+        "text": "Read simple nursery rhymes aloud without understanding the meaning."
       },
       {
         "key": "B",
-        "text": "Isolate oneself from society completely."
+        "text": "Memorize the letters of the alphabet in order."
       },
       {
         "key": "C",
-        "text": "Dominate and intimidate conversational partners."
+        "text": "Engage in all those activities in which literacy is required for effective functioning in one's group, workplace, and community, and for continuing personal development."
       },
       {
         "key": "D",
-        "text": "Get the highest number of likes on Facebook."
+        "text": "Sign one's name on an identification card but be unable to read instructions on a medicine bottle."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Social literacy is the ability to interact successfully, exhibit prosocial behavior, read social cues, build cooperative partnerships, and demonstrate empathy."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Functional Literacy: Meaning and Societal Impact. Engage in all those activities in which literacy is required for effective functioning in one's group, workplace, and community, and for continuing personal development. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 31,
-    "topicRef": "Emotional Intelligence (EQ - Daniel Goleman)",
-    "question": "According to Daniel Goleman, which of the following is NOT one of the five core components of Emotional Intelligence (EQ)?",
+    "topicRef": "Critical Literacy: Paulo Freire's 'Reading the Word and the World'",
+    "question": "Paulo Freire (*Pedagogy of the Oppressed*) founded 'Critical Literacy', asserting that true literacy involves:",
     "options": [
       {
         "key": "A",
-        "text": "Self-Awareness"
+        "text": "Pronouncing words with perfect phonetic precision while ignoring the meaning."
       },
       {
         "key": "B",
-        "text": "Self-Regulation"
+        "text": "'Reading the world'\u2014critically analyzing underlying power dynamics, systemic inequalities, ideologies, and biases embedded in texts, and taking action for social justice."
       },
       {
         "key": "C",
-        "text": "Empathy and Social Skills"
+        "text": "Passively absorbing printed words as unquestionable sacred facts ('Banking Concept')."
       },
       {
         "key": "D",
-        "text": "Spatial Navigation Intelligence"
+        "text": "Memorizing grammar rules without ever discussing societal problems."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Goleman's 5 EQ components are: 1. Self-Awareness, 2. Self-Regulation, 3. Internal Motivation, 4. Empathy, and 5. Social Skills."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Critical Literacy: Paulo Freire's 'Reading the Word and the World'. 'Reading the world'\u2014critically analyzing underlying power dynamics, systemic inequalities, ideologies, and biases embedded in texts, and taking action for social justice. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 32,
-    "topicRef": "Goleman: Empathy",
-    "question": "In Goleman's EQ framework, 'Empathy' is best described as:",
+    "topicRef": "Critical Literacy: Questioning Authorial Stance",
+    "question": "When critically literate students read a historical newspaper report on a labor union strike, they ask:",
     "options": [
       {
         "key": "A",
-        "text": "Agreeing with everything another person says."
+        "text": "'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing, and what is the underlying ideology?'"
       },
       {
         "key": "B",
-        "text": "The ability to understand, feel, and accurately sense the emotions and perspectives of other people."
+        "text": "'How many adjectives are in the first sentence?'"
       },
       {
         "key": "C",
-        "text": "Feeling sorry for someone and giving them money."
+        "text": "'What is the price of the newspaper at the newsstand?'"
       },
       {
         "key": "D",
-        "text": "Suppressing all personal emotions."
+        "text": "'What font size was used by the graphic typesetter?'"
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Empathy is the capacity to recognize, share, and understand another person's feelings and perspective, serving as the bedrock of interpersonal relationships."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Critical Literacy: Questioning Authorial Stance. 'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing, and what is the underlying ideology?' represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 33,
-    "topicRef": "Multicultural Literacy",
-    "question": "What is the primary goal of Multicultural Literacy in education?",
+    "topicRef": "Information Literacy: The Big6 Information Problem-Solving Model (Eisenberg & Berkowitz)",
+    "question": "The 'Big6' information literacy model structures research skills into six stages: Task Definition, Information Seeking Strategies, Location and Access, Use of Information, Synthesis, and:",
     "options": [
       {
         "key": "A",
-        "text": "Banning regional languages from being spoken."
+        "text": "Distribution to commercial bookstores."
       },
       {
         "key": "B",
-        "text": "Forcing all minority groups to abandon their cultural traditions."
+        "text": "Printing on high-gloss photo paper."
       },
       {
         "key": "C",
-        "text": "Fostering awareness, respect, and appreciation for ethnic, cultural, religious, and linguistic diversity while dismantling stereotypes and prejudices."
+        "text": "Deleting all source files from computers."
       },
       {
         "key": "D",
-        "text": "Teaching that one's own culture is superior to all others."
+        "text": "Evaluation (assessing the product's effectiveness and the research process)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Multicultural literacy develops cultural sensitivity, cross-cultural appreciation, equity, and eliminates ethnocentrism in diverse classrooms."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Information Literacy: The Big6 Information Problem-Solving Model (Eisenberg & Berkowitz). Evaluation (assessing the product's effectiveness and the research process). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 34,
-    "topicRef": "Global Competence (OECD PISA)",
-    "question": "According to the OECD PISA Global Competence framework, globally competent youth can:",
+    "topicRef": "Media Literacy: Clickbait & Sensation Detection",
+    "question": "An online headline reads: 'Shocking! You Will Never Believe What This Celebrity Did!' A media-literate person identifies this as:",
     "options": [
       {
         "key": "A",
-        "text": "Examine local and global issues, understand diverse worldviews, engage in open and effective intercultural interactions, and take action for collective well-being."
+        "text": "A legally certified national court announcement."
       },
       {
         "key": "B",
-        "text": "Refuse to interact with foreigners."
+        "text": "A peer-reviewed scientific discovery paper."
       },
       {
         "key": "C",
-        "text": "Memorize all country capitals without understanding global issues."
+        "text": "Clickbait\u2014sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content."
       },
       {
         "key": "D",
-        "text": "Speak only one language."
+        "text": "An objective, verified investigative journalism report."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Global competence (OECD) is the multidimensional capacity to analyze global challenges, understand intercultural perspectives, communicate effectively, and act for sustainability."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Media Literacy: Clickbait & Sensation Detection. Clickbait\u2014sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 35,
-    "topicRef": "Media Literacy: Echo Chambers & Filter Bubbles",
-    "question": "Algorithms on social media platforms that repeatedly feed users only content that confirms their existing biases while isolating them from opposing viewpoints create:",
+    "topicRef": "Cyber Literacy: Cyberbullying & Online Harassment",
+    "question": "Under Republic Act 10627 (Anti-Bullying Act of 2013), 'Cyberbullying' in school contexts is defined as:",
     "options": [
       {
         "key": "A",
-        "text": "Democratic Assemblies"
+        "text": "Sending a calendar invite for a school club meeting."
       },
       {
         "key": "B",
-        "text": "Peer-reviewed Journals"
+        "text": "Any bullying done through the use of technology or any electronic means (social media, messaging, texting) that causes physical, emotional, or psychological harm."
       },
       {
         "key": "C",
-        "text": "Open Forums"
+        "text": "Playing an online educational multiplayer math game with friends."
       },
       {
         "key": "D",
-        "text": "Filter Bubbles / Echo Chambers"
+        "text": "Submitting an assignment via email to a teacher before the deadline."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Filter bubbles (Eli Pariser) and echo chambers isolate users in intellectual silos where algorithms reinforce pre-existing beliefs and suppress counter-perspectives."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Cyber Literacy: Cyberbullying & Online Harassment. Any bullying done through the use of technology or any electronic means (social media, messaging, texting) that causes physical, emotional, or psychological harm. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 36,
-    "topicRef": "Media Literacy: Clickbait & Disinformation",
-    "question": "Sensationalized, misleading headlines engineered to exploit psychological curiosity and generate online advertising revenue at the expense of journalistic truth are called:",
+    "topicRef": "Ecoliteracy: Biodiversity & Biophilic Design in Schools",
+    "question": "Integrating 'Biophilic Design' and school garden ecosystems into the campus environment enhances ecoliteracy by:",
     "options": [
       {
         "key": "A",
-        "text": "Investigative Journalism"
+        "text": "Fostering students' innate biological connection to nature (Biophilia), improving mental well-being, and providing hands-on experiential science labs."
       },
       {
         "key": "B",
-        "text": "Clickbait"
+        "text": "Replacing all green grass with synthetic asphalt parking spaces."
       },
       {
         "key": "C",
-        "text": "Op-Ed"
+        "text": "Cutting down all campus shade trees to build billboard structures."
       },
       {
         "key": "D",
-        "text": "Academic Abstract"
+        "text": "Confining all students to windowless concrete classrooms."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Clickbait uses exaggerated, sensationalized text to bait readers into clicking hyperlinks to drive ad impressions regardless of factual accuracy."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Ecoliteracy: Biodiversity & Biophilic Design in Schools. Fostering students' innate biological connection to nature (Biophilia), improving mental well-being, and providing hands-on experiential science labs. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 37,
-    "topicRef": "Media Literacy: Misinformation vs Disinformation vs Malinformation",
-    "question": "How does 'Disinformation' differ from 'Misinformation'?",
+    "topicRef": "Financial Literacy: Emergency Fund Essentials",
+    "question": "In personal financial literacy, financial planners recommend that an individual build an 'Emergency Fund' consisting of:",
     "options": [
       {
         "key": "A",
-        "text": "There is no difference."
+        "text": "100% of all life savings invested in volatile cryptocurrency meme tokens."
       },
       {
         "key": "B",
-        "text": "Disinformation is intentionally created with malicious intent to deceive or harm; Misinformation is false information shared without harmful intent (e.g. honest mistake)."
+        "text": "Buying 10 lottery tickets every morning."
       },
       {
         "key": "C",
-        "text": "Disinformation is always true."
+        "text": "Purchasing luxury jewelry with high-interest credit card debt."
       },
       {
         "key": "D",
-        "text": "Misinformation is a criminal felony while disinformation is a misdemeanor."
+        "text": "3 to 6 months' worth of essential living expenses kept in a liquid, easily accessible savings account for unexpected crises (e.g., medical emergency, job loss)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Misinformation is false information distributed mistakenly; Disinformation is deliberately crafted and weaponized falsehood created with malicious intent to deceive."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Financial Literacy: Emergency Fund Essentials. 3 to 6 months' worth of essential living expenses kept in a liquid, easily accessible savings account for unexpected crises (e.g., medical emergency, job loss). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 38,
-    "topicRef": "Media Literacy: Malinformation",
-    "question": "What is 'Malinformation'?",
+    "topicRef": "Financial Literacy: Credit Card Literacy (APR & Minimum Due)",
+    "question": "Paying ONLY the 'Minimum Amount Due' on a credit card statement each month is a dangerous financial mistake because:",
     "options": [
       {
         "key": "A",
-        "text": "Weather forecasts."
+        "text": "The bank will confiscate the consumer's university diploma."
       },
       {
         "key": "B",
-        "text": "Scientific formulas."
+        "text": "The credit card becomes physically heavier in one's wallet."
       },
       {
         "key": "C",
-        "text": "Information that is based on genuine reality/facts, but is maliciously weaponized, leaked, or distorted out of context to inflict personal or institutional harm."
+        "text": "The remaining unpaid balance incurs high compounding interest charges, prolonging debt repayment for decades and multiplying total costs exponentially."
       },
       {
         "key": "D",
-        "text": "Fictional comic books."
+        "text": "The credit card company will immediately cancel all bank accounts."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Malinformation takes true, private, or real information and weaponizes it out of context (e.g. private hacked emails or revenge pornography) to deliberately harm someone."
+    "explanation": "This item evaluates competence in Financial Literacy: Credit Card Literacy (APR & Minimum Due). The remaining unpaid balance incurs high compounding interest charges, prolonging debt repayment for decades and multiplying total costs exponentially. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 39,
-    "topicRef": "Financial Literacy: Inflation",
-    "question": "What is 'Inflation' and how does it erode purchasing power over time?",
+    "topicRef": "Multicultural Literacy: Microaggressions in the Classroom",
+    "question": "In multicultural education, 'Microaggressions' refer to:",
     "options": [
       {
         "key": "A",
-        "text": "An increase in gold mining."
+        "text": "Standardized written examination scoring errors."
       },
       {
         "key": "B",
-        "text": "A temporary discount at shopping malls."
+        "text": "Subtle, brief, often unintentional everyday verbal, behavioral, or environmental indignities that communicate hostile or derogatory slights to marginalized groups."
       },
       {
         "key": "C",
-        "text": "When bank accounts automatically double in cash value."
+        "text": "Physical fistfights between large gangs of students."
       },
       {
         "key": "D",
-        "text": "A sustained general increase in price levels of goods and services, meaning a fixed amount of currency buys fewer goods over time."
+        "text": "Formal academic debates organized by the school debate society."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Inflation reduces real purchasing power over time. Financial literacy teaches individuals to invest in assets whose returns outpace the inflation rate."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Multicultural Literacy: Microaggressions in the Classroom. Subtle, brief, often unintentional everyday verbal, behavioral, or environmental indignities that communicate hostile or derogatory slights to marginalized groups. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 40,
-    "topicRef": "Financial Literacy: Diversification",
-    "question": "The time-tested investment adage 'Do not put all your eggs in one basket' refers to the risk-mitigation strategy of:",
+    "topicRef": "Multicultural Literacy: Culturally Sustaining Pedagogy (Paris)",
+    "question": "Django Paris' 'Culturally Sustaining Pedagogy' builds beyond culturally relevant teaching by arguing that schools must:",
     "options": [
       {
         "key": "A",
-        "text": "Day trading on margin"
+        "text": "Explicitly sustain and foster linguistic, cultural, and artistic practices of communities of color and indigenous peoples, rather than merely using culture as a bridge to assimilate."
       },
       {
         "key": "B",
-        "text": "Speculative gambling"
+        "text": "Force all students to adopt a single standardized corporate dialect."
       },
       {
         "key": "C",
-        "text": "Diversification (spreading capital across diverse asset classes such as stocks, bonds, real estate, and cash)"
+        "text": "Eradicate all indigenous cultural practices from classroom curricula."
       },
       {
         "key": "D",
-        "text": "Pyramid schemes"
+        "text": "Teach only the history of Western European imperial empires."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Diversification lowers investment portfolio risk by spreading capital across multiple uncorrelated asset categories."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Multicultural Literacy: Culturally Sustaining Pedagogy (Paris). Explicitly sustain and foster linguistic, cultural, and artistic practices of communities of color and indigenous peoples, rather than merely using culture as a bridge to assimilate. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 41,
-    "topicRef": "Financial Literacy: Ponzi / Pyramid Schemes",
-    "question": "A fraudulent investment scheme that promises unrealistically high, guaranteed returns with zero risk by paying existing investors with money collected from newer recruits is a:",
+    "topicRef": "Social-Emotional Literacy: Restorative Circles in SEL",
+    "question": "Implementing 'Restorative Circles' in the classroom fosters social-emotional literacy by:",
     "options": [
       {
         "key": "A",
-        "text": "Time Deposit"
+        "text": "Publicly shaming and isolating students who receive low quiz scores."
       },
       {
         "key": "B",
-        "text": "Ponzi / Pyramid Scheme"
+        "text": "Allowing the loudest students to shout down quieter peers."
       },
       {
         "key": "C",
-        "text": "Treasury Bond"
+        "text": "Administering silent individual multiple-choice exams."
       },
       {
         "key": "D",
-        "text": "Mutual Fund"
+        "text": "Providing a safe, structured, egalitarian space where every student has a voice to build community, share feelings, resolve conflicts, and repair relational harm."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Ponzi and pyramid schemes collapse inevitably because they generate no legitimate underlying economic value, relying solely on cash inflows from continuous new recruits."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Restorative Circles in SEL. Providing a safe, structured, egalitarian space where every student has a voice to build community, share feelings, resolve conflicts, and repair relational harm. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 42,
-    "topicRef": "Eco-Literacy: Circular Economy",
-    "question": "A 'Circular Economy' model replaces the traditional linear 'Take-Make-Dispose' industrial model with which sustainable loop?",
+    "topicRef": "Social-Emotional Literacy: Growth Mindset & Neuroplasticity (Dweck)",
+    "question": "Teaching students that the human brain can form new neural connections through effort, practice, and learning from failure (Neuroplasticity) fosters:",
     "options": [
       {
         "key": "A",
-        "text": "Extract, Burn, and Dump"
+        "text": "Instantaneous photographic memory without studying."
       },
       {
         "key": "B",
-        "text": "Produce, Consume, and Bury"
+        "text": "The complete elimination of the need for classroom instruction."
       },
       {
         "key": "C",
-        "text": "Import, Package, and Litter"
+        "text": "A Growth Mindset, boosting resilience, self-efficacy, and academic persistence."
       },
       {
         "key": "D",
-        "text": "Reduce, Reuse, Repair, Remanufacture, and Recycle (closed-loop zero waste)"
+        "text": "A Fixed Mindset of permanent personal helplessness."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "A Circular Economy designs out waste and pollution by keeping products and materials in high-value regenerative use indefinitely through closed loops."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Growth Mindset & Neuroplasticity (Dweck). A Growth Mindset, boosting resilience, self-efficacy, and academic persistence. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 43,
-    "topicRef": "Eco-Literacy: Biodiversity Hotspots",
-    "question": "Why is the Philippines classified by global conservation biologists as a 'Megadiverse Biodiversity Hotspot'?",
+    "topicRef": "Arts and Creative Literacy: Design Thinking Process (Stanford d.school)",
+    "question": "The five iterative stages of the 'Design Thinking' problem-solving process in creative literacy are:",
     "options": [
       {
         "key": "A",
-        "text": "It contains an exceptionally high concentration of unique endemic species found nowhere else on Earth, but is under severe threat of habitat destruction."
+        "text": "Lecture, Drill, Quiz, Exam, and Graduate."
       },
       {
         "key": "B",
-        "text": "It has no animal species."
+        "text": "Empathize (understand user needs), Define (state problem), Ideate (brainstorm solutions), Prototype (create sample), and Test (evaluate with users)."
       },
       {
         "key": "C",
-        "text": "It is covered entirely in ice glaciers."
+        "text": "Memorize, Recite, Write, Grade, and Dismiss."
       },
       {
         "key": "D",
-        "text": "It only has agricultural rice crops."
+        "text": "Plan, Budget, Hire, Build, and Terminate."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Philippines is one of the world's 17 megadiverse nations, harboring extraordinary terrestrial and marine endemism while facing high extinction risks from deforestation and overfishing."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Arts and Creative Literacy: Design Thinking Process (Stanford d.school). Empathize (understand user needs), Define (state problem), Ideate (brainstorm solutions), Prototype (create sample), and Test (evaluate with users). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 44,
-    "topicRef": "Social Literacy: Active Listening",
-    "question": "Which behavior exemplifies 'Active Listening' in collaborative communication?",
+    "topicRef": "Creative Literacy: Cross-Disciplinary STEAM Education",
+    "question": "STEAM education integrates 'Arts' (A) into traditional STEM (Science, Technology, Engineering, Math) subjects primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Maintaining eye contact, nodding, paraphrasing the speaker's key points to check understanding, and withholding premature judgment."
+        "text": "Foster creative divergent problem-solving, aesthetic human-centered design, and innovation in scientific and technological applications."
       },
       {
         "key": "B",
-        "text": "Pretending to listen while thinking about lunch."
+        "text": "Eliminate all science experiments in favor of watercolor painting only."
       },
       {
         "key": "C",
-        "text": "Checking smartphone notifications while someone is speaking."
+        "text": "Make math exams easier by removing all numbers."
       },
       {
         "key": "D",
-        "text": "Interrupting immediately to argue one's own viewpoint."
+        "text": "Replace engineering blueprints with abstract finger paintings."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Active listening requires full mental presence, non-verbal attentiveness, reflective clarifying, and empathetic validation before responding."
+    "explanation": "This item evaluates competence in Creative Literacy: Cross-Disciplinary STEAM Education. Foster creative divergent problem-solving, aesthetic human-centered design, and innovation in scientific and technological applications. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 45,
-    "topicRef": "Emotional Literacy: Growth vs Fixed Mindset (Carol Dweck)",
-    "question": "A teacher with a 'Growth Mindset' believes that student intelligence and creative abilities:",
+    "topicRef": "Critical Media Literacy: Deepfakes and Algorithmic Manipulation",
+    "question": "To prepare students for an era of generative AI and 'Deepfakes', critical media literacy curricula must train learners to:",
     "options": [
       {
         "key": "A",
-        "text": "Are determined by the student's horoscope."
+        "text": "Believe every video seen on social media as unquestionable proof."
       },
       {
         "key": "B",
-        "text": "Depend solely on genetic inheritance."
+        "text": "Completely stop using all forms of technology and internet."
       },
       {
         "key": "C",
-        "text": "Can be developed and expanded through effort, effective strategies, perseverance, and constructive feedback."
+        "text": "Assume that all news from all sources in world history is 100% fake."
       },
       {
         "key": "D",
-        "text": "Are completely fixed at birth and cannot be improved."
+        "text": "Triangulate information across multiple independent, verified sources, inspect metadata, examine provenance, and practice lateral reading."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Carol Dweck's Growth Mindset asserts that cognitive capabilities are malleable and grow like muscles through deliberate practice, resilience, and learning from mistakes."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Critical Media Literacy: Deepfakes and Algorithmic Manipulation. Triangulate information across multiple independent, verified sources, inspect metadata, examine provenance, and practice lateral reading. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 46,
-    "topicRef": "Financial Literacy: Time Value of Money (TVM)",
-    "question": "The 'Time Value of Money' principle states that a peso in hand today is worth more than a peso promised in the future because:",
+    "topicRef": "Digital Literacy: Lateral Reading (Wineburg & McGrew)",
+    "question": "Sam Wineburg's research at Stanford showed that professional fact-checkers evaluate online information using 'Lateral Reading', which means:",
     "options": [
       {
         "key": "A",
-        "text": "Banks refuse to accept old coins."
+        "text": "Checking the graphic beauty and color scheme of the website's logo."
       },
       {
         "key": "B",
-        "text": "Governments cancel currencies every month."
+        "text": "Trusting the website because it has an official-sounding '.org' domain."
       },
       {
         "key": "C",
-        "text": "Paper currency disintegrates in 24 hours."
+        "text": "Immediately opening multiple new browser tabs to research the credibility, funding, and reputation of the source BEFORE reading the article."
       },
       {
         "key": "D",
-        "text": "Money earned today can be invested to earn interest and returns, whereas future money is subjected to the erosive power of inflation."
+        "text": "Reading the article from top to bottom very slowly and carefully on a single tab (Vertical Reading)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Time Value of Money (TVM) recognizes that present money has earning potential (opportunity cost of interest) and preserves purchasing power against future inflation."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Digital Literacy: Lateral Reading (Wineburg & McGrew). Immediately opening multiple new browser tabs to research the credibility, funding, and reputation of the source BEFORE reading the article. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 47,
-    "topicRef": "Health & Wellness Literacy",
-    "question": "Health and Wellness Literacy in 21st-century education empowers learners to:",
+    "topicRef": "Digital Literacy: Netiquette & Professional Online Boundaries",
+    "question": "A teacher who maintains professional digital boundaries and adheres to netiquette will:",
     "options": [
       {
         "key": "A",
-        "text": "Self-medicate with unverified online pills."
+        "text": "Post negative personal complaints about struggling students online."
       },
       {
         "key": "B",
-        "text": "Rely solely on folk superstition for medical diagnoses."
+        "text": "Use official school communication channels (e.g., DepEd email, Google Classroom) for academic interactions and avoid informal private messaging with pupils on personal social accounts."
       },
       {
         "key": "C",
-        "text": "Obtain, process, and understand basic health information to make informed decisions regarding nutrition, physical fitness, mental wellness, and preventive healthcare."
+        "text": "Add all students as personal friends on private social media accounts to gossip."
       },
       {
         "key": "D",
-        "text": "Never visit a hospital."
+        "text": "Share confidential faculty room meetings on public TikTok videos."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Health literacy encompasses critical navigation of healthcare information, adopting nutritious lifestyles, recognizing mental health symptoms, and making sound health choices."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Digital Literacy: Netiquette & Professional Online Boundaries. Use official school communication channels (e.g., DepEd email, Google Classroom) for academic interactions and avoid informal private messaging with pupils on personal social accounts. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 48,
-    "topicRef": "Cybersecurity: Password Hygiene",
-    "question": "Which of the following is considered strong Password Hygiene for protecting digital educational portals?",
+    "topicRef": "Ecoliteracy: Circular Economy vs Linear Economy",
+    "question": "In modern sustainability literacy, how does a 'Circular Economy' fundamentally differ from a traditional 'Linear Economy' (Take-Make-Waste)?",
     "options": [
       {
         "key": "A",
-        "text": "Using a long passphrase (12+ characters) combining uppercase, lowercase, numbers, and symbols, and using unique passwords for each account managed via a password manager."
+        "text": "A Circular Economy designs out waste and pollution, keeps products and materials in high-value use through repair/recycling, and regenerates natural systems."
       },
       {
         "key": "B",
-        "text": "Using 'password123' for all personal and school accounts."
+        "text": "A Circular Economy produces 100% single-use plastic waste that is thrown into rivers."
       },
       {
         "key": "C",
-        "text": "Sharing your password with all your students."
+        "text": "A Circular Economy requires burning all industrial machinery every 5 years."
       },
       {
         "key": "D",
-        "text": "Writing passwords on a sticky note attached to the computer monitor."
+        "text": "A Circular Economy is restricted to circular wooden buildings."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Strong password hygiene involves using long, complex, unique passphrases for separate services, avoiding dictionary words, and enabling multi-factor authentication."
+    "explanation": "This item evaluates competence in Ecoliteracy: Circular Economy vs Linear Economy. A Circular Economy designs out waste and pollution, keeps products and materials in high-value use through repair/recycling, and regenerates natural systems. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 49,
-    "topicRef": "Civic Literacy: Democratic Engagement",
-    "question": "Civic Literacy in a democratic society prepares students to:",
+    "topicRef": "Ecoliteracy: Indigenous Knowledge Systems and Practices (IKSP)",
+    "question": "Recognizing IKSP in ecoliteracy acknowledges that indigenous communities (such as the Bontoc/Ifugao *payyo* rice terrace stewards or Mangyan foresters):",
     "options": [
       {
         "key": "A",
-        "text": "Ignore community problems completely."
+        "text": "Lack any understanding of nature and must be taught from scratch."
       },
       {
         "key": "B",
-        "text": "Blindly obey political propaganda without critical inquiry."
+        "text": "Destroy biodiversity through unsustainable commercial clear-cutting."
       },
       {
         "key": "C",
-        "text": "Understand government structures, exercise voting rights responsibly, participate in community civic dialogues, and hold public officials accountable."
+        "text": "Never interact with natural biological resources."
       },
       {
         "key": "D",
-        "text": "Sell their election votes for cash."
+        "text": "Possess sophisticated, time-tested ecological knowledge, sustainable resource management practices, and deep cultural reverence for ecosystems."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Civic literacy fosters informed, ethical citizenship, active participation in governance, advocacy for human rights, and critical civic duty."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Ecoliteracy: Indigenous Knowledge Systems and Practices (IKSP). Possess sophisticated, time-tested ecological knowledge, sustainable resource management practices, and deep cultural reverence for ecosystems. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 50,
-    "topicRef": "Ethical Literacy: Integrity & Plagiarism",
-    "question": "Copying text verbatim from an online article and submitting it as one's own academic work without quotation marks or proper source citation constitutes:",
+    "topicRef": "Financial Literacy: Insurance & Risk Management",
+    "question": "In personal finance, the primary economic purpose of purchasing Life, Health, or Property 'Insurance' is to:",
     "options": [
       {
         "key": "A",
-        "text": "Creative Paraphrasing"
+        "text": "Make an individual instantly wealthy like winning a lottery."
       },
       {
         "key": "B",
-        "text": "Fair Use Compliance"
+        "text": "Evade all municipal property taxes legally."
       },
       {
         "key": "C",
-        "text": "Open Access Collaboration"
+        "text": "Transfer the financial risk of catastrophic, unpredictable loss to an insurance company in exchange for regular premium payments, protecting family financial security."
       },
       {
         "key": "D",
-        "text": "Plagiarism (Intellectual Dishonesty)"
+        "text": "Guarantee that a person will never suffer a physical illness."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Plagiarism is the appropriation and unauthorized claiming of another person's words, ideas, or intellectual products as one's own without appropriate attribution."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Financial Literacy: Insurance & Risk Management. Transfer the financial risk of catastrophic, unpredictable loss to an insurance company in exchange for regular premium payments, protecting family financial security. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 51,
-    "topicRef": "Multicultural Literacy: Ethnocentrism vs Xenocentrism",
-    "question": "A person who believes that foreign Western imported goods and cultures are inherently superior to Philippine indigenous culture exhibits:",
+    "topicRef": "Financial Literacy: Investment Diversification (Asset Allocation)",
+    "question": "The fundamental investment principle 'Do not put all your eggs in one basket' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Cultural Relativism"
+        "text": "Investing exclusively in one speculative startup business."
       },
       {
         "key": "B",
-        "text": "Xenocentrism"
+        "text": "Diversification\u2014spreading investments across diverse asset classes (stocks, bonds, real estate, cash) to minimize overall portfolio risk."
       },
       {
         "key": "C",
-        "text": "Ethnocentrism"
+        "text": "Buying stock shares in only one single company with 100% of savings."
       },
       {
         "key": "D",
-        "text": "Cultural Nationalism"
+        "text": "Hiding physical cash in multiple locations inside a mattress."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Xenocentrism is the belief that other cultures and foreign products are superior to one's own (colonial mentality), whereas Ethnocentrism judges other cultures as inferior to one's own."
+    "explanation": "This item evaluates competence in Financial Literacy: Investment Diversification (Asset Allocation). Diversification\u2014spreading investments across diverse asset classes (stocks, bonds, real estate, cash) to minimize overall portfolio risk. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 52,
-    "topicRef": "Cultural Relativism",
-    "question": "Cultural Relativism in multicultural education teaches that:",
+    "topicRef": "Financial Literacy: PhilHealth, SSS, and GSIS in the Philippines",
+    "question": "In the Philippine workforce, public school teachers are mandatorily covered by the Government Service Insurance System (GSIS) and PhilHealth, which provide:",
     "options": [
       {
         "key": "A",
-        "text": "All cultures must be eradicated."
+        "text": "Social security protections including retirement pensions, disability compensation, life insurance, and universal health coverage subsidies."
       },
       {
         "key": "B",
-        "text": "Cultures never change over time."
+        "text": "Free luxury international travel flights annually."
       },
       {
         "key": "C",
-        "text": "A culture's beliefs, values, and practices should be understood based on that culture's own context and standards rather than judged through the lens of an external culture."
+        "text": "Private corporate stock options in foreign multinational tech firms."
       },
       {
         "key": "D",
-        "text": "One culture has the right to conquer all others."
+        "text": "Automatic exemptions from all electricity utility bills."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Cultural Relativism promotes objective cultural understanding without ethnocentric prejudice, respecting diverse cultural traditions within their own historical contexts."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Financial Literacy: PhilHealth, SSS, and GSIS in the Philippines. Social security protections including retirement pensions, disability compensation, life insurance, and universal health coverage subsidies. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 53,
-    "topicRef": "Eco-Literacy: Water Footprint",
-    "question": "What is an individual's 'Water Footprint'?",
+    "topicRef": "Multicultural Literacy: Acculturation vs Assimilation",
+    "question": "In cultural anthropology and literacy education, 'Acculturation' differs from 'Assimilation' because acculturation involves:",
     "options": [
       {
         "key": "A",
-        "text": "The total volume of freshwater consumed directly (drinking, bathing) and indirectly (water required to produce food, clothing, and energy consumed)."
+        "text": "Completely abandoning and erasing one's native cultural heritage, language, and customs to blend indistinguishably into the dominant culture."
       },
       {
         "key": "B",
-        "text": "The sound of rain falling on a roof."
+        "text": "Refusing to interact with any other human beings outside one's village."
       },
       {
         "key": "C",
-        "text": "The number of water bottles owned."
+        "text": "Living in complete geographical isolation."
       },
       {
         "key": "D",
-        "text": "The depth of a swimming pool."
+        "text": "Adopting aspects of a new culture while maintaining one's original cultural identity and heritage (cultural biculturalism / synthesis)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Water Footprint calculates the total direct and indirect (virtual water embedded in agricultural and industrial supply chains) freshwater used by an individual or nation."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Multicultural Literacy: Acculturation vs Assimilation. Adopting aspects of a new culture while maintaining one's original cultural identity and heritage (cultural biculturalism / synthesis). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 54,
-    "topicRef": "Financial Literacy: Net Worth Calculation",
-    "question": "How is an individual's Personal Net Worth mathematically calculated?",
+    "topicRef": "Multicultural Literacy: Culturally Responsive Assessment",
+    "question": "When designing assessments for a culturally diverse classroom, a teacher demonstrates multicultural literacy by:",
     "options": [
       {
         "key": "A",
-        "text": "Total Credit Card Limit"
+        "text": "Docking points whenever a student mentions their indigenous heritage."
       },
       {
         "key": "B",
-        "text": "Monthly Salary multiplied by 12"
+        "text": "Requiring all students to answer questions in 18th-century Elizabethan English."
       },
       {
         "key": "C",
-        "text": "Bank loan balance plus car price"
+        "text": "Using authentic scenarios, diverse cultural contexts, and multiple expression formats that do not penalize students for cultural or linguistic differences."
       },
       {
         "key": "D",
-        "text": "Total Assets minus Total Liabilities ((\\text{Net Worth} = \\text{Assets} - \\text{Liabilities}))"
+        "text": "Using standardized testing questions based exclusively on high-income elite urban lifestyle experiences."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Net worth is the fundamental snapshot of financial health: the total value of everything you own (assets) minus what you owe to creditors (liabilities)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Multicultural Literacy: Culturally Responsive Assessment. Using authentic scenarios, diverse cultural contexts, and multiple expression formats that do not penalize students for cultural or linguistic differences. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 55,
-    "topicRef": "Critical Literacy: Deconstructing Power",
-    "question": "Paulo Freire's Critical Literacy (*Pedagogy of the Oppressed*) encourages learners to 'read both the word and the world' in order to:",
+    "topicRef": "Social-Emotional Literacy: Emotional Regulation (The RULER Approach)",
+    "question": "The Yale Center for Emotional Intelligence 'RULER' approach to social-emotional literacy teaches students to:",
     "options": [
       {
         "key": "A",
-        "text": "Memorize grammar rules without questioning text meaning."
+        "text": "Read, Underline, Learn, Examine, and Recite vocabulary."
       },
       {
         "key": "B",
-        "text": "Critically interrogate systemic injustices, recognize oppressive power structures, and take transformative action for human liberation."
+        "text": "Recognize, Understand, Label, Express, and Regulate emotions effectively in personal and academic life."
       },
       {
         "key": "C",
-        "text": "Passive acceptance of political oppression."
+        "text": "Repress, Underestimate, Lock away, Eliminate, and Reject all emotions."
       },
       {
         "key": "D",
-        "text": "Score high on spelling bees."
+        "text": "React, Utter, Lash out, Escalate, and Repeat anger."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Critical literacy goes beyond basic decoding to examine whose voices are privileged or silenced in texts, empowering learners to act as agents of justice (*praxis*)."
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Emotional Regulation (The RULER Approach). Recognize, Understand, Label, Express, and Regulate emotions effectively in personal and academic life. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 56,
-    "topicRef": "Creativity: SCAMPER Technique",
-    "question": "In Alex Osborn and Bob Eberle's SCAMPER creative thinking tool, what does the letter 'C' represent?",
+    "topicRef": "Social-Emotional Literacy: Fixed vs Growth Mindset in Failure",
+    "question": "When an eighth-grade student receives a low score on a science project, a teacher cultivating a Growth Mindset responds by saying:",
     "options": [
       {
         "key": "A",
-        "text": "Cancel"
+        "text": "'This project was challenging, but mistakes show where we can learn. Let's analyze what strategies didn't work and try a new approach.'"
       },
       {
         "key": "B",
-        "text": "Calculate"
+        "text": "'You are just not naturally smart at science; maybe you should give up.'"
       },
       {
         "key": "C",
-        "text": "Combine (blend two ideas or products together)"
+        "text": "'Don't worry, some people are born geniuses and others are not.'"
       },
       {
         "key": "D",
-        "text": "Copy"
+        "text": "'This low score proves you will never succeed in high school.'"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "SCAMPER is an idea-generation mnemonic: Substitute, Combine, Adapt, Modify/Magnify, Put to another use, Eliminate, and Reverse/Rearrange."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Fixed vs Growth Mindset in Failure. 'This project was challenging, but mistakes show where we can learn. Let's analyze what strategies didn't work and try a new approach.' represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 57,
-    "topicRef": "Media Literacy: Confirmation Bias",
-    "question": "The psychological tendency for individuals to seek out, interpret, and remember information in a way that confirms their pre-existing beliefs while ignoring contrary evidence is called:",
+    "topicRef": "Arts Literacy: Aesthetic Experience (Maxine Greene)",
+    "question": "Philosopher Maxine Greene (*Releasing the Imagination*) argued that arts literacy and aesthetic education are essential because they:",
     "options": [
       {
         "key": "A",
-        "text": "Scientific Skepticism"
+        "text": "Teach students how to manufacture cheap commercial wall decorations."
       },
       {
         "key": "B",
-        "text": "Critical Thinking"
+        "text": "Force students to memorize rigid classical drawing formulas without personal expression."
       },
       {
         "key": "C",
-        "text": "Neutral Objectivity"
+        "text": "Prepare students to work in automated manufacturing assembly lines."
       },
       {
         "key": "D",
-        "text": "Confirmation Bias"
+        "text": "Awaken the human imagination to perceive the world 'as if it could be otherwise', fostering empathy, social critique, and transformation."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Confirmation bias leads people to embrace information supporting their preconceived notions while dismissing rigorous facts that contradict them."
+    "explanation": "This item evaluates competence in Arts Literacy: Aesthetic Experience (Maxine Greene). Awaken the human imagination to perceive the world 'as if it could be otherwise', fostering empathy, social critique, and transformation. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 58,
-    "topicRef": "Eco-Literacy: Renewable vs Non-Renewable Energy",
-    "question": "Which of the following energy sources is classified as 'Clean Renewable Energy'?",
+    "topicRef": "Creative Literacy: SCAMPER Brainstorming Technique (Eberle)",
+    "question": "The 'SCAMPER' creative thinking mnemonic for generating innovative ideas stands for:",
     "options": [
       {
         "key": "A",
-        "text": "Solar, Wind, Geothermal, and Hydroelectric power"
+        "text": "Structure, Create, Align, Manage, Protect, Evaluate, and Record."
       },
       {
         "key": "B",
-        "text": "Petroleum Crude Oil"
+        "text": "Study, Copy, Apply, Memorize, Practice, Examine, and Repeat."
       },
       {
         "key": "C",
-        "text": "Coal"
+        "text": "Substitute, Combine, Adapt, Modify/Magnify, Put to other uses, Eliminate, and Reverse/Rearrange."
       },
       {
         "key": "D",
-        "text": "Diesel Fuel"
+        "text": "Standardize, Calculate, Analyze, Measure, Program, Execute, and Review."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Renewable energy harnesses naturally replenished resources (sun, wind, geothermal heat, water currents) with near-zero greenhouse gas emissions."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Creative Literacy: SCAMPER Brainstorming Technique (Eberle). Substitute, Combine, Adapt, Modify/Magnify, Put to other uses, Eliminate, and Reverse/Rearrange. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 59,
-    "topicRef": "Financial Literacy: Stocks vs Bonds",
-    "question": "What is the fundamental difference between owning a 'Stock' and owning a 'Bond'?",
+    "topicRef": "Critical Literacy: Unpacking Dominant Ideologies",
+    "question": "Critical literacy empowers learners to recognize that texts (such as history textbooks or corporate advertisements) often:",
     "options": [
       {
         "key": "A",
-        "text": "A stock represents equity ownership in a corporation; a bond is a debt instrument where the investor acts as a lender earning fixed interest."
+        "text": "Contain zero perspective, bias, or subjective point of view."
       },
       {
         "key": "B",
-        "text": "A stock is guaranteed to never lose value; a bond is always a scam."
+        "text": "Reflect the dominant ideological perspectives, political interests, and socioeconomic priorities of the groups that created them."
       },
       {
         "key": "C",
-        "text": "Bonds are printed on silver paper."
+        "text": "Are direct, neutral transmissions of divine absolute truth."
       },
       {
         "key": "D",
-        "text": "Stocks are only sold by the government."
+        "text": "Are generated automatically by physical atmospheric weather patterns."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Stocks represent shares of equity ownership in a company, whereas Bonds are fixed-income loans made by an investor to a corporate or government borrower."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Critical Literacy: Unpacking Dominant Ideologies. Reflect the dominant ideological perspectives, political interests, and socioeconomic priorities of the groups that created them. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 60,
-    "topicRef": "Financial Literacy: Mutual Funds & UITFs",
-    "question": "What is the primary benefit of investing in Mutual Funds or Unit Investment Trust Funds (UITFs) for beginning teachers?",
+    "topicRef": "Functional Literacy in 21st Century Society: Multiliteracies Pedagogy",
+    "question": "The New London Group's 'Pedagogy of Multiliteracies' asserts that 21st-century education must equip learners to navigate:",
     "options": [
       {
         "key": "A",
-        "text": "Exemption from paying any electricity bills."
+        "text": "Multiple modes of meaning-making (linguistic, visual, audio, gestural, spatial, and multimodal) across diverse cultural contexts."
       },
       {
         "key": "B",
-        "text": "Professional fund management and automatic diversification across hundreds of securities with modest starting capital."
+        "text": "Only traditional printed monospaced black-and-white text."
       },
       {
         "key": "C",
-        "text": "Free airline tickets."
+        "text": "Solely mechanical oral pronunciation drills."
       },
       {
         "key": "D",
-        "text": "Guaranteed 100% profit within 24 hours."
+        "text": "Purely silent individual memorization of Latin vocabulary lists."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Mutual funds pool money from many investors to buy a professionally managed, diversified portfolio of stocks and bonds, mitigating risk for retail investors."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Functional Literacy in 21st Century Society: Multiliteracies Pedagogy. Multiple modes of meaning-making (linguistic, visual, audio, gestural, spatial, and multimodal) across diverse cultural contexts. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 61,
-    "topicRef": "Social Literacy: Bullying vs Teasing",
-    "question": "In school psychology, what distinguishes 'Bullying' from playful mutual teasing among peers?",
+    "topicRef": "Global Literacy: Global Interdependence and Supply Chains",
+    "question": "A globally literate student analyzing why an international maritime disruption in the Suez Canal increases local food prices in Manila understands the concept of:",
     "options": [
       {
         "key": "A",
-        "text": "Teasing only occurs during recess."
+        "text": "Total National Economic Isolationism."
       },
       {
         "key": "B",
-        "text": "Bullying involves equal friendship and mutual laughter."
+        "text": "Magical Mystical Synchronicity."
       },
       {
         "key": "C",
-        "text": "There is no difference."
+        "text": "Unrelated Random Coincidence."
       },
       {
         "key": "D",
-        "text": "Bullying involves an intentional, repetitive imbalance of physical or psychological power designed to harm and intimidate the victim."
+        "text": "Global Interdependence (the complex, interconnected economic, environmental, and trade linkages binding all nations)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Bullying is defined by three criteria: 1. Intentional harm, 2. Power imbalance (physical, social, or emotional), and 3. Repetition over time."
+    "explanation": "This item evaluates competence in Global Literacy: Global Interdependence and Supply Chains. Global Interdependence (the complex, interconnected economic, environmental, and trade linkages binding all nations). represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 62,
-    "topicRef": "Emotional Literacy: Self-Regulation",
-    "question": "A teacher who feels frustrated by a misbehaving student, pauses, takes a deep breath, and responds calmly and firmly rather than exploding in anger demonstrates:",
+    "topicRef": "Digital Citizenship: Cyber Hygiene Habits",
+    "question": "Practicing robust 'Cyber Hygiene' includes which of the following essential daily habits?",
     "options": [
       {
         "key": "A",
-        "text": "Self-Regulation (Emotional Impulse Control)"
+        "text": "Connecting to unencrypted public Wi-Fi to enter credit card details without VPN."
       },
       {
         "key": "B",
-        "text": "Emotional Repression"
+        "text": "Sharing master login passwords on social media message boards."
       },
       {
         "key": "C",
-        "text": "Lack of Authority"
+        "text": "Using strong, unique passwords with a password manager, updating software/patches regularly, and recognizing unverified links/attachments."
       },
       {
         "key": "D",
-        "text": "Passive Indifference"
+        "text": "Using the password '123456' for all banking and email accounts."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Self-regulation (Goleman) is the ability to manage disruptive emotions, stay composed under pressure, and think before acting."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Digital Citizenship: Cyber Hygiene Habits. Using strong, unique passwords with a password manager, updating software/patches regularly, and recognizing unverified links/attachments. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 63,
-    "topicRef": "Multicultural Literacy: Culturally Responsive Teaching (Gay)",
-    "question": "Geneva Gay's 'Culturally Responsive Teaching' framework emphasizes that teachers must:",
+    "topicRef": "Ecoliteracy: Climate Justice and Vulnerability",
+    "question": "In environmental literacy, the concept of 'Climate Justice' highlights the moral reality that:",
     "options": [
       {
         "key": "A",
-        "text": "Segregate classrooms by tribe."
+        "text": "Climate change is an economic myth invented by renewable energy companies."
       },
       {
         "key": "B",
-        "text": "Ignore students' cultural backgrounds and treat everyone as identical robots."
+        "text": "Vulnerable developing nations (like the Philippines) contribute the least to global greenhouse gas emissions yet suffer the most severe climate disasters."
       },
       {
         "key": "C",
-        "text": "Use the cultural knowledge, prior experiences, and performance styles of diverse students to make learning encounters more relevant and effective."
+        "text": "Developed nations should be exempt from all international environmental treaties."
       },
       {
         "key": "D",
-        "text": "Teach only in a foreign language."
+        "text": "Small island states are physically responsible for 100% of global industrial carbon smog."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Culturally Responsive Teaching connects curriculum content to students' cultural frames of reference, validating their cultural identity to boost achievement."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Ecoliteracy: Climate Justice and Vulnerability. Vulnerable developing nations (like the Philippines) contribute the least to global greenhouse gas emissions yet suffer the most severe climate disasters. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 64,
-    "topicRef": "Global Competence: UN Sustainable Development Goals",
-    "question": "Why should 21st-century teachers integrate the 17 UN SDGs into lesson plans across various disciplines?",
+    "topicRef": "Financial Literacy: The Time Value of Money (TVM)",
+    "question": "The foundational financial concept 'Time Value of Money' (TVM) establishes that:",
     "options": [
       {
         "key": "A",
-        "text": "To connect classroom concepts to authentic, urgent global challenges (poverty, climate change, clean water, clean energy, peace) and inspire local civic action."
+        "text": "A peso available today is worth MORE than the identical peso received in the future, because today's peso can earn interest or be invested to grow."
       },
       {
         "key": "B",
-        "text": "Because math cannot be taught without politics."
+        "text": "Money loses 100% of its value every 24 hours."
       },
       {
         "key": "C",
-        "text": "To replace all national history lessons."
+        "text": "Money received in 50 years is always worth ten times more than money today."
       },
       {
         "key": "D",
-        "text": "Because the UN pays students a cash allowance."
+        "text": "Time and money have zero mathematical relationship."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Integrating SDGs bridges academic theory with real-world global challenges, developing civic agency, empathy, and global problem-solving competencies."
+    "explanation": "This item evaluates competence in Financial Literacy: The Time Value of Money (TVM). A peso available today is worth MORE than the identical peso received in the future, because today's peso can earn interest or be invested to grow. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 65,
-    "topicRef": "Eco-Literacy: Urban Gardening in Schools (Gulayan sa Paaralan)",
-    "question": "DepEd's 'Gulayan sa Paaralan Program' (GPP) promotes eco-literacy and food security primarily by:",
+    "topicRef": "Multicultural Literacy: Language Rights and Mother Tongue",
+    "question": "Under international human rights conventions and multicultural literacy frameworks, preserving and validating a child's indigenous home language in school is essential because:",
     "options": [
       {
         "key": "A",
-        "text": "Selling school land to commercial developers."
+        "text": "Children should be punished whenever they speak their native dialect."
       },
       {
         "key": "B",
-        "text": "Replacing science classes with cooking shows."
+        "text": "Indigenous languages must be eliminated to achieve national uniformity."
       },
       {
         "key": "C",
-        "text": "Buying fast food burgers for students."
+        "text": "Speaking multiple languages causes brain damage."
       },
       {
         "key": "D",
-        "text": "Engaging students in organic vegetable gardening on school grounds to supplement feeding programs and teach hands-on agricultural sustainability."
+        "text": "Language is the living vessel of culture, identity, and cognitive heritage; respecting it validates the child's humanity and boosts academic success."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Gulayan sa Paaralan provides hands-on agro-ecological literacy, addresses malnutrition via school-grown organic crops, and builds environmental responsibility."
+    "explanation": "This item evaluates competence in Multicultural Literacy: Language Rights and Mother Tongue. Language is the living vessel of culture, identity, and cognitive heritage; respecting it validates the child's humanity and boosts academic success. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 66,
-    "topicRef": "Financial Literacy: Credit Card Interest Calculation",
-    "question": "Why is paying only the 'Minimum Amount Due' on credit card statements each month a dangerous financial pitfall?",
+    "topicRef": "Social-Emotional Literacy: Relationship Skills (Active Empathy)",
+    "question": "When resolving a bitter peer dispute between two classmates, a student demonstrating high 'Relationship Skills' will:",
     "options": [
       {
         "key": "A",
-        "text": "The bank will confiscate your house immediately."
+        "text": "Encourage the students to engage in a physical fight."
       },
       {
         "key": "B",
-        "text": "High compound interest charges continue to accumulate on the remaining principal balance, trapping the borrower in decades of debt."
+        "text": "Ignore the conflict completely and walk away laughing."
       },
       {
         "key": "C",
-        "text": "It improves your credit score faster than paying in full."
+        "text": "Listen attentively to both perspectives without interrupting, validate feelings, communicate clearly, and seek a collaborative win-win compromise."
       },
       {
         "key": "D",
-        "text": "Credit cards automatically cancel after one month."
+        "text": "Take sides immediately based on who is more physically popular."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Paying only the minimum leaves the vast majority of debt subject to hefty compounding interest rates (often 36%+ annually), prolonging debt repayment indefinitely."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates competence in Social-Emotional Literacy: Relationship Skills (Active Empathy). Listen attentively to both perspectives without interrupting, validate feelings, communicate clearly, and seek a collaborative win-win compromise. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 67,
-    "topicRef": "Information Literacy: Lateral Reading (Wineburg)",
-    "question": "Stanford researcher Sam Wineburg found that professional fact-checkers evaluate online news credibility through 'Lateral Reading', which means:",
+    "topicRef": "Arts and Creative Literacy: Creative Risk-Taking and Safe Failure",
+    "question": "A classroom climate that nurtures arts and creative literacy is one where:",
     "options": [
       {
         "key": "A",
-        "text": "Opening new browser tabs to search what independent, reputable third-party sources say about the author or organization before trusting their website."
+        "text": "Creativity is strictly banned in favor of silent textbook transcription."
       },
       {
         "key": "B",
-        "text": "Looking only at the font size of the title."
+        "text": "Mistakes and failed prototypes are celebrated as natural, necessary stepping stones for learning, iteration, and breakthrough innovation."
       },
       {
         "key": "C",
-        "text": "Reading a single webpage from top to bottom without leaving the page."
+        "text": "Any mistake is immediately met with harsh public humiliation and grade deductions."
       },
       {
         "key": "D",
-        "text": "Reading text sideways with the monitor tilted."
+        "text": "Students are forced to strictly copy the teacher's artwork with zero personal variation."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Lateral reading leaves the unfamiliar site immediately to search external corroborating sources across multiple tabs to verify credibility, authority, and bias."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in Arts and Creative Literacy: Creative Risk-Taking and Safe Failure. Mistakes and failed prototypes are celebrated as natural, necessary stepping stones for learning, iteration, and breakthrough innovation. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 68,
-    "topicRef": "Visual Literacy: Semiotics",
-    "question": "In visual media literacy, 'Semiotics' is the study of:",
+    "topicRef": "Critical Literacy: Recognizing Bias and Stereotyping in Media",
+    "question": "When reading a textbook that depicts women exclusively in subordinate domestic cleaning roles and men exclusively in executive corporate roles, a critically literate student will:",
     "options": [
       {
         "key": "A",
-        "text": "The speed of light in lenses."
+        "text": "Critique the gender stereotyping and historical bias, questioning why diverse real-world roles are omitted."
       },
       {
         "key": "B",
-        "text": "The cost of digital cameras."
+        "text": "Accept the depiction as the only natural and eternal truth of human society."
       },
       {
         "key": "C",
-        "text": "Signs, symbols, and visual codes, and how they construct meaning and convey cultural messages."
+        "text": "Assume that women are legally prohibited from holding executive positions."
       },
       {
         "key": "D",
-        "text": "The physical weight of paper."
+        "text": "Ignore the text because pictures have no meaning."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Semiotics (Ferdinand de Saussure, Charles Sanders Peirce) explores how signifiers (visual symbols, gestures, colors) produce signified meanings within cultural frameworks."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates competence in Critical Literacy: Recognizing Bias and Stereotyping in Media. Critique the gender stereotyping and historical bias, questioning why diverse real-world roles are omitted. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 69,
-    "topicRef": "Financial Literacy: S.M.A.R.T. Financial Goals",
-    "question": "Which of the following is a properly formulated S.M.A.R.T. financial goal for a beginning teacher?",
+    "topicRef": "Information Literacy: Primary Source Triangulation",
+    "question": "In academic research, 'Triangulation' involves:",
     "options": [
       {
         "key": "A",
-        "text": "'Win the lottery next week.'"
+        "text": "Drawing a physical three-sided geometric triangle on the title page of a thesis."
       },
       {
         "key": "B",
-        "text": "'Become rich someday.'"
+        "text": "Relying exclusively on a single unverified blog post for an entire dissertation."
       },
       {
         "key": "C",
-        "text": "'Buy a luxury car without saving any money.'"
+        "text": "Deleting all sources that disagree with one's personal preconceived opinion."
       },
       {
         "key": "D",
-        "text": "'Save ₱5,000 every month from my salary into a high-yield savings account for 12 months to accumulate a ₱60,000 emergency fund by December 2027.'"
+        "text": "Cross-verifying factual claims, data, and evidence across multiple independent, diverse primary and secondary sources to ensure accuracy and objectivity."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "A SMART goal is Specific (save ₱5k/month), Measurable (₱60k), Attainable, Relevant (emergency fund), and Time-bound (by Dec 2027)."
+    "explanation": "This item evaluates competence in Information Literacy: Primary Source Triangulation. Cross-verifying factual claims, data, and evidence across multiple independent, diverse primary and secondary sources to ensure accuracy and objectivity. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 70,
-    "topicRef": "Eco-Literacy: The 7 Principles of Ecology (Barry Commoner)",
-    "question": "Barry Commoner's famous First Law of Ecology states that 'Everything is connected to everything else'. In curriculum, this principle demonstrates:",
+    "topicRef": "Functional Literacy: Document Literacy (Interpreting Charts & Graphs)",
+    "question": "In functional literacy assessments (e.g., adult literacy surveys), 'Document Literacy' specifically tests the ability to:",
     "options": [
       {
         "key": "A",
-        "text": "That science subjects should never be taught."
+        "text": "Write calligraphy with a fountain pen."
       },
       {
         "key": "B",
-        "text": "That human technology can destroy nature without consequences."
+        "text": "Calculate the speed of light in a vacuum."
       },
       {
         "key": "C",
-        "text": "Systemic Interdependence: An action in one part of an environmental, social, or economic system triggers ripple effects across the entire biosphere."
+        "text": "Locate, interpret, and use information contained in complex non-prose formats such as tables, schedules, maps, pay slips, and nutritional labels."
       },
       {
         "key": "D",
-        "text": "That species live in total isolation."
+        "text": "Memorize Shakespearean sonnets word-for-word in old English."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Commoner's laws (Everything is connected, goes somewhere, nature knows best, no free lunch) underscore ecological interconnectedness and systemic balance."
+    "explanation": "This item evaluates competence in Functional Literacy: Document Literacy (Interpreting Charts & Graphs). Locate, interpret, and use information contained in complex non-prose formats such as tables, schedules, maps, pay slips, and nutritional labels. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 71,
-    "topicRef": "Social-Emotional Learning (CASEL 5 Competencies)",
-    "question": "The Collaborative for Academic, Social, and Emotional Learning (CASEL) identifies which 5 core SEL competencies?",
+    "topicRef": "Media Literacy: The Power of Visual Rhetoric (Framing and Cropping)",
+    "question": "A photograph of a public rally cropped closely on three shouting individuals makes the event appear violent, whereas a wide-angle shot shows 10,000 peaceful citizens holding candles. A media-literate person realizes:",
     "options": [
       {
         "key": "A",
-        "text": "Reading, Writing, Arithmetic, Art, and Athletics"
+        "text": "Camera lenses physically alter the reality of human nature."
       },
       {
         "key": "B",
-        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making"
+        "text": "Visual framing, cropping, and camera angles are deliberate rhetorical choices that construct specific narratives and emotional impressions."
       },
       {
         "key": "C",
-        "text": "Grammar, Spelling, Pronunciation, Punctuation, and Penmanship"
+        "text": "Photographs are always 100% objective and can never mislead the viewer."
       },
       {
         "key": "D",
-        "text": "Testing, Grading, Ranking, Lecturing, and Disciplining"
+        "text": "The wide-angle photograph is illegal under copyright law."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "CASEL's framework is structured on 5 competencies: Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making."
+    "explanation": "This item evaluates competence in Media Literacy: The Power of Visual Rhetoric (Framing and Cropping). Visual framing, cropping, and camera angles are deliberate rhetorical choices that construct specific narratives and emotional impressions. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 72,
-    "topicRef": "Financial Literacy: Health Maintenance Organization (HMO)",
-    "question": "What is the primary role of an HMO (Health Maintenance Organization) / PhilHealth coverage in a personal financial plan?",
+    "topicRef": "Digital Literacy: Net Neutrality and Digital Equity",
+    "question": "Why is the preservation of 'Net Neutrality' a critical digital literacy and social justice issue?",
     "options": [
       {
         "key": "A",
-        "text": "Protecting personal savings and investments from being wiped out by sudden catastrophic hospitalization and medical expenses."
+        "text": "Because it ensures Internet Service Providers must treat all data equally, preventing wealthy corporations from monopolizing high-speed digital access over public educational content."
       },
       {
         "key": "B",
-        "text": "Acting as a high-risk stock trading account."
+        "text": "Because it makes the internet physically free of charge for all commercial banks."
       },
       {
         "key": "C",
-        "text": "Paying your monthly electricity bills."
+        "text": "Because it blocks all educational websites permanently."
       },
       {
         "key": "D",
-        "text": "Providing luxury vacation travel discounts."
+        "text": "Because it limits daily internet access to 10 minutes per household."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Health insurance and HMOs act as risk-transfer shields, absorbing medical and hospitalization bills so family savings and investment portfolios remain protected."
+    "explanation": "This item evaluates competence in Digital Literacy: Net Neutrality and Digital Equity. Because it ensures Internet Service Providers must treat all data equally, preventing wealthy corporations from monopolizing high-speed digital access over public educational content. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 73,
-    "topicRef": "Cybersecurity: Social Engineering Defense",
-    "question": "What is the most effective defense against Social Engineering scams (vishing, smishing, pretexting)?",
+    "topicRef": "Ecoliteracy: Sustainable Consumption and Zero Waste Lifestyle",
+    "question": "A school community practicing ecoliteracy initiates a 'Zero-Waste Campus' by:",
     "options": [
       {
         "key": "A",
-        "text": "Healthy skepticism: Never disclose OTPs, PINs, or sensitive information over unsolicited phone calls or SMS, and independently verify callers via official hotlines."
+        "text": "Burning all plastic wrappers in open bonfires behind classrooms."
       },
       {
         "key": "B",
-        "text": "Immediately giving callers your bank password when they say they are bank managers."
+        "text": "Dumping all school cafeteria food waste into the local municipal river."
       },
       {
         "key": "C",
-        "text": "Throwing away your smartphone."
+        "text": "Purchasing 5,000 disposable plastic cups every morning."
       },
       {
         "key": "D",
-        "text": "Clicking every text link offering free cash prizes."
+        "text": "Banning single-use plastics, institutionalizing waste segregation, establishing organic composting, and maintaining drinking water refill stations."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Social engineering targets human psychology; critical awareness, skepticism, verifying through official channels, and never sharing OTPs/passwords are the primary defenses."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates competence in Ecoliteracy: Sustainable Consumption and Zero Waste Lifestyle. Banning single-use plastics, institutionalizing waste segregation, establishing organic composting, and maintaining drinking water refill stations. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 74,
-    "topicRef": "Arts Literacy: Creative Problem-Solving (Osborn-Parnes CPS)",
-    "question": "In the Osborn-Parnes Creative Problem Solving (CPS) model, why do divergent and convergent thinking alternate in pairs across every stage?",
+    "topicRef": "Financial Literacy: Understanding Credit Scores and FICO",
+    "question": "In modern financial systems, maintaining a high 'Credit Score' is important because it:",
     "options": [
       {
         "key": "A",
-        "text": "To ensure that all projects take at least ten years to complete."
+        "text": "Automatically exempts the consumer from all income tax liabilities."
       },
       {
         "key": "B",
-        "text": "Divergence opens up a broad pool of creative possibilities without judgment, while Convergence selects and refines the most promising ideas."
+        "text": "Guarantees a permanent government employment position."
       },
       {
         "key": "C",
-        "text": "Because students get bored doing only one thing."
+        "text": "Demonstrates a reliable history of debt repayment, enabling an individual to qualify for lower interest rates on home mortgages and business loans."
       },
       {
         "key": "D",
-        "text": "To confuse the team."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "CPS balances creative expansion (divergent generation of wild ideas without evaluation) followed by analytical narrowing (convergent evaluation and selection)."
-  },
-  {
-    "id": 75,
-    "topicRef": "Holistic 21st-Century Literacy Integration",
-    "question": "A teacher tasks students with creating a multimedia campaign on climate resilience: students budget a micro-grant, verify scientific climate data, produce an infographic, and present solutions to local government leaders. This capstone project integrates which 21st-century literacies?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Ancient Latin Translation only"
-      },
-      {
-        "key": "B",
-        "text": "Physical Education only"
-      },
-      {
-        "key": "C",
-        "text": "Eco-Literacy, Financial Literacy, Media & Digital Literacy, Visual Literacy, and Civic/Social Literacy"
-      },
-      {
-        "key": "D",
-        "text": "Rote Spelling only"
+        "text": "Proves that an individual has zero money in any bank account."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "This authentic multidisciplinary capstone seamlessly combines ecological knowledge, financial budgeting, digital media creation, visual design, and civic engagement."
+    "explanation": "This item evaluates competence in Financial Literacy: Understanding Credit Scores and FICO. Demonstrates a reliable history of debt repayment, enabling an individual to qualify for lower interest rates on home mortgages and business loans. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
+  },
+  {
+    "id": 75,
+    "topicRef": "21st Century Literacy Synthesis: The Empowered Global Citizen",
+    "question": "Ultimately, building and enhancing new literacies across the curriculum aims to develop learners who are:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Isolated individuals with zero empathy for their communities or the planet."
+      },
+      {
+        "key": "B",
+        "text": "Critically conscious, financially prudent, digitally responsible, ecologically mindful, multiculturally empathetic, and creatively empowered lifelong citizens."
+      },
+      {
+        "key": "C",
+        "text": "Passive, unquestioning consumers of commercial marketing and political propaganda."
+      },
+      {
+        "key": "D",
+        "text": "Rote memorizers who can only repeat textbook definitions without real-world application."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates competence in 21st Century Literacy Synthesis: The Empowered Global Citizen. Critically conscious, financially prudent, digitally responsible, ecologically mindful, multiculturally empathetic, and creatively empowered lifelong citizens. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   }
 ];

@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "PQF Legal Basis & Level 6",
-    "question": "Under Republic Act 10968 (Philippine Qualifications Framework Act), at what PQF qualification level does a graduate of a Bachelor of Secondary Education (BSEd) or Bachelor of Elementary Education (BEEd) belong?",
+    "topicRef": "PQF Legal Basis & Level 6 Descriptors",
+    "question": "Under Republic Act 10968 (Philippine Qualifications Framework Act), a graduate of a Bachelor of Secondary Education (BSEd) or Bachelor of Elementary Education (BEEd) program is classified at what PQF qualification level?",
     "options": [
       {
         "key": "A",
-        "text": "Level 5 (Diploma)"
+        "text": "Level 5 (Diploma / Technical-Vocational level)."
       },
       {
         "key": "B",
-        "text": "Level 6 (Baccalaureate)"
+        "text": "Level 7 (Post-Baccalaureate / Master's degree level)."
       },
       {
         "key": "C",
-        "text": "Level 8 (Doctoral and Post-Doctoral)"
+        "text": "Level 8 (Doctoral and Post-Doctoral level)."
       },
       {
         "key": "D",
-        "text": "Level 7 (Post-Baccalaureate)"
+        "text": "Level 6 (Baccalaureate degree level)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Under RA 10968 (PQF Act) and PQF-NCC Resolution No. 2014-03, Level 6 corresponds to Baccalaureate degree programs, which includes Teacher Education degrees (BEEd/BSEd). Level 5 is Diploma, Level 7 is Post-Baccalaureate/Master's, and Level 8 is Doctoral."
+    "correctAnswer": "D",
+    "explanation": "Under RA 10968, Level 6 corresponds to Baccalaureate degrees, which includes Teacher Education degrees. Level 5 is Diploma, Level 7 is Post-Baccalaureate/Master's, and Level 8 is Doctoral."
   },
   {
     "id": 2,
-    "topicRef": "PQF Level 6 Descriptors",
-    "question": "According to the PQF Level 6 descriptors, which of the following best describes the degree of independence expected of a baccalaureate teacher education graduate?",
+    "topicRef": "PQF Level 6: Expected Independence",
+    "question": "According to the PQF Level 6 descriptors, which of the following best describes the degree of independence expected of a licensed baccalaureate teacher education graduate?",
     "options": [
       {
         "key": "A",
-        "text": "Requires close, continuous direct supervision from senior school administrators in all lesson deliveries."
+        "text": "Acts strictly as an instructional aide under constant master teacher monitoring."
       },
       {
         "key": "B",
-        "text": "Operates strictly as an instructional aide under a master teacher's constant monitoring."
+        "text": "Autonomous only in preparing visual materials but completely dependent on supervisors for lesson objectives."
       },
       {
         "key": "C",
-        "text": "Autonomous only in preparing visual aids but dependent on administrative approval for lesson objectives."
+        "text": "Independent professional practice in specialized educational settings with self-directed competence."
       },
       {
         "key": "D",
-        "text": "Independent in professional teaching practice and in related educational fields."
+        "text": "Requires continuous direct step-by-step supervision from school heads in all daily lesson deliveries."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The PQF Level 6 descriptor for Degree of Independence explicitly states that graduates are 'Independent (as a teacher) and/or in terms of related field' with self-directed professional competence."
+    "correctAnswer": "C",
+    "explanation": "PQF Level 6 descriptors mandate that graduates demonstrate independent, self-directed professional practice and application in their field."
   },
   {
     "id": 3,
-    "topicRef": "PPST Career Stages",
-    "question": "Teacher Clara is a newly hired teacher who has just passed the Licensure Examination for Teachers (LET). According to the Philippine Professional Standards for Teachers (PPST, DepEd Order 42, s. 2017), in which career stage is Teacher Clara classified?",
+    "topicRef": "PPST Career Stages (DepEd Order 42, s. 2017)",
+    "question": "Teacher Clara is a newly hired teacher who has just passed the Licensure Examination for Teachers (LET). According to the Philippine Professional Standards for Teachers (PPST), in which career stage is Teacher Clara classified?",
     "options": [
       {
         "key": "A",
-        "text": "Career Stage 2: Proficient Teacher"
+        "text": "Career Stage 4: Distinguished Teacher."
       },
       {
         "key": "B",
-        "text": "Career Stage 4: Distinguished Teacher"
+        "text": "Career Stage 1: Beginning Teacher."
       },
       {
         "key": "C",
-        "text": "Career Stage 3: Highly Proficient Teacher"
+        "text": "Career Stage 2: Proficient Teacher."
       },
       {
         "key": "D",
-        "text": "Career Stage 1: Beginning Teacher"
+        "text": "Career Stage 3: Highly Proficient Teacher."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "PPST defines four career stages: Stage 1 = Beginning Teachers (newly licensed/pre-service to entry-level), Stage 2 = Proficient Teachers (professionally independent), Stage 3 = Highly Proficient Teachers (mentors/Master Teachers), and Stage 4 = Distinguished Teachers (educational leaders and model practitioners)."
+    "correctAnswer": "B",
+    "explanation": "Under the PPST (DepEd Order 42, s. 2017), newly licensed teachers entering the profession are classified as Beginning Teachers (Stage 1). They gain experience to reach Proficient (Stage 2), Highly Proficient/Master Teacher (Stage 3), and Distinguished (Stage 4)."
   },
   {
     "id": 4,
-    "topicRef": "PPST 7 Domains",
-    "question": "Which PPST Domain specifically emphasizes establishing learning environments that are safe, secure, fair, and supportive in order to promote learner responsibility and achievement?",
+    "topicRef": "PPST Career Stage 2: Proficient Teacher",
+    "question": "A teacher who professionally displays skills in planning, implementing, and managing learning programs independently, and who holds a regular permanent teaching item, is at which PPST career stage?",
     "options": [
       {
         "key": "A",
-        "text": "Domain 3: Diversity of Learners"
+        "text": "Career Stage 2: Proficient Teacher."
       },
       {
         "key": "B",
-        "text": "Domain 1: Content Knowledge and Pedagogy"
+        "text": "Career Stage 1: Beginning Teacher."
       },
       {
         "key": "C",
-        "text": "Domain 2: Learning Environment"
+        "text": "Career Stage 3: Highly Proficient Teacher."
       },
       {
         "key": "D",
-        "text": "Domain 4: Curriculum and Planning"
+        "text": "Career Stage 4: Distinguished Teacher."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "PPST Domain 2 is 'Learning Environment,' which focuses on providing safe, secure, clean, and supportive learning spaces, fair classroom discipline, and positive learner interactions."
+    "correctAnswer": "A",
+    "explanation": "Stage 2 (Proficient Teachers) are professionally independent in the application of skills vital to teaching and learning, providing focused support to learners."
   },
   {
     "id": 5,
-    "topicRef": "PPST 7 Domains",
-    "question": "A teacher designs differentiated learning tasks to cater to indigenous students, gifted learners, and students with special educational needs. Under which PPST Domain does this practice fall?",
+    "topicRef": "PPST Career Stage 3: Highly Proficient",
+    "question": "Master Teacher Eduardo regularly mentors colleagues, leads curriculum innovations in his department, and conducts action research. Under PPST, which career stage does he embody?",
     "options": [
       {
         "key": "A",
-        "text": "Domain 6: Community Linkages and Professional Engagement"
+        "text": "Career Stage 1: Beginning Teacher."
       },
       {
         "key": "B",
-        "text": "Domain 5: Assessment and Reporting"
+        "text": "Career Stage 2: Proficient Teacher."
       },
       {
         "key": "C",
-        "text": "Domain 2: Learning Environment"
+        "text": "Career Stage 4: Distinguished Teacher."
       },
       {
         "key": "D",
-        "text": "Domain 3: Diversity of Learners"
+        "text": "Career Stage 3: Highly Proficient Teacher."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "PPST Domain 3 is 'Diversity of Learners,' emphasizing responsive teaching for learners of varying gender, needs, backgrounds, cultures, socio-economic status, and indigenous heritage."
+    "explanation": "Stage 3 (Highly Proficient / Master Teachers) consistently display high performance, mentor colleagues, lead curriculum enrichment, and guide peers."
   },
   {
     "id": 6,
-    "topicRef": "PPST 7 Domains",
-    "question": "Teacher Mario actively participates in Learning Action Cell (LAC) sessions, engages in professional reflection, and pursues graduate studies to improve his pedagogy. Which PPST Domain does he demonstrate?",
+    "topicRef": "PPST Domains: Domain 1 (Content Knowledge & Pedagogy)",
+    "question": "A teacher utilizes in-depth subject mastery to teach difficult chemistry concepts while integrating literacy and numeracy skills across the lesson. Which PPST Domain is primarily demonstrated?",
     "options": [
       {
         "key": "A",
-        "text": "Domain 7: Personal Growth and Professional Development"
+        "text": "Domain 3: Diversity of Learners."
       },
       {
         "key": "B",
-        "text": "Domain 5: Assessment and Reporting"
+        "text": "Domain 4: Curriculum and Planning."
       },
       {
         "key": "C",
-        "text": "Domain 6: Community Linkages and Professional Engagement"
+        "text": "Domain 1: Content Knowledge and Pedagogy."
       },
       {
         "key": "D",
-        "text": "Domain 4: Curriculum and Planning"
+        "text": "Domain 2: Learning Environment."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Domain 7 is 'Personal Growth and Professional Development,' which focuses on teachers' personal philosophy of teaching, professional reflection, and continuous professional development."
+    "correctAnswer": "C",
+    "explanation": "Domain 1 emphasizes teachers' mastery of subject content, application of pedagogy, and integration of literacy, numeracy, and higher-order thinking skills."
   },
   {
     "id": 7,
-    "topicRef": "Classroom Management Styles",
-    "question": "Teacher Grace establishes clear, consistent classroom expectations while encouraging open communication, student autonomy, and mutual respect. What classroom management style does Teacher Grace exhibit?",
+    "topicRef": "PPST Domains: Domain 2 (Learning Environment)",
+    "question": "Teacher Roberto ensures his classroom is physically safe, promotes fair and inclusive participation, and manages learner behavior constructively without physical punishment. This aligns with:",
     "options": [
       {
         "key": "A",
-        "text": "Permissive (Laissez-faire)"
+        "text": "Domain 6: Community Linkages and Professional Engagement."
       },
       {
         "key": "B",
-        "text": "Authoritative"
+        "text": "Domain 2: Learning Environment."
       },
       {
         "key": "C",
-        "text": "Authoritarian"
+        "text": "Domain 1: Content Knowledge and Pedagogy."
       },
       {
         "key": "D",
-        "text": "Uninvolved (Neglectful)"
+        "text": "Domain 5: Assessment and Reporting."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Authoritative style combines high responsiveness with high behavioral expectations (structure + warmth), leading to the highest self-esteem, self-discipline, and academic success among learners."
+    "explanation": "Domain 2 focuses on creating safe, secure, fair, supportive, and positive classroom learning environments conducive to learning."
   },
   {
     "id": 8,
-    "topicRef": "Classroom Management Styles",
-    "question": "Mr. Santos dictates rigid rules without explanation, demands absolute unquestioning obedience, and metes out punitive sanctions for the slightest deviation. This management style is known as:",
+    "topicRef": "PPST Domains: Domain 3 (Diversity of Learners)",
+    "question": "Designing differentiated learning activities to accommodate gifted pupils, indigenous children, and students with learning difficulties demonstrates mastery in:",
     "options": [
       {
         "key": "A",
-        "text": "Authoritarian"
+        "text": "Domain 3: Diversity of Learners."
       },
       {
         "key": "B",
-        "text": "Authoritative"
+        "text": "Domain 4: Curriculum and Planning."
       },
       {
         "key": "C",
-        "text": "Democratic"
+        "text": "Domain 7: Personal Growth and Professional Development."
       },
       {
         "key": "D",
-        "text": "Permissive"
+        "text": "Domain 2: Learning Environment."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The Authoritarian style is characterized by high control and low warmth/responsiveness. Rules are enforced strictly with punitive measures, often fostering anxiety or rebellion."
+    "explanation": "Domain 3 highlights the teacher's ability to design instruction that responds to learners' linguistic, cultural, socio-economic, and physical/cognitive diversity."
   },
   {
     "id": 9,
-    "topicRef": "Teacher Bases of Power (French & Raven)",
-    "question": "Students admire Teacher Angela's warm personality, deep empathy, and genuine care, choosing to behave well because they identify with her and value her approval. What type of teacher power is being demonstrated?",
+    "topicRef": "Direct vs Indirect Instruction: Deductive Approach",
+    "question": "In a grammar class, Teacher Maria first states the rule for subject-verb agreement with singular subjects, provides clear examples on the board, and then instructs pupils to practice on worksheets. What instructional approach was used?",
     "options": [
       {
         "key": "A",
-        "text": "Referent Power"
+        "text": "Inductive / Inquiry-based approach (examples to rule)."
       },
       {
         "key": "B",
-        "text": "Legitimate Power"
+        "text": "Discovery learning approach."
       },
       {
         "key": "C",
-        "text": "Coercive Power"
+        "text": "Socratic dialogue approach."
       },
       {
         "key": "D",
-        "text": "Expert Power"
+        "text": "Deductive / Direct Instruction approach (rule to examples)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Referent Power stems from students' respect, admiration, personal identification, and liking for the teacher. When students behave because they like and identify with the teacher, referent power is at work."
+    "correctAnswer": "D",
+    "explanation": "The Deductive approach moves from the general rule or principle to specific applications and practice exercises (Rule -> Examples -> Practice)."
   },
   {
     "id": 10,
-    "topicRef": "Teacher Bases of Power (French & Raven)",
-    "question": "Teacher Dan commands student attention and respect because he demonstrates masterly grasp of advanced mathematical algorithms and clarifies difficult problems with unmatched clarity. What power is evident?",
+    "topicRef": "Inductive Instruction: Discovery Learning",
+    "question": "Teacher Juan shows students five different plant leaves, guides them to observe similarities and differences in leaf veins, and asks them to formulate the definition of parallel and netted venation on their own. This exemplifies:",
     "options": [
       {
         "key": "A",
-        "text": "Legitimate Power"
+        "text": "Expository lecture method."
       },
       {
         "key": "B",
-        "text": "Coercive Power"
+        "text": "Direct demonstration approach."
       },
       {
         "key": "C",
-        "text": "Reward Power"
+        "text": "Inductive / Discovery Instruction approach (examples to general principle)."
       },
       {
         "key": "D",
-        "text": "Expert Power"
+        "text": "Deductive rule-transmission method."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Expert Power arises from the teacher's demonstrated subject-matter mastery, specialized knowledge, and pedagogical competence."
+    "correctAnswer": "C",
+    "explanation": "The Inductive approach begins with specific observations, data, or examples, guiding learners to discover and formulate the underlying concept, rule, or generalization."
   },
   {
     "id": 11,
-    "topicRef": "Teacher Bases of Power",
-    "question": "A teacher tells a student: 'Because I am your assigned classroom teacher and the school authority, you must follow my directions without debate.' Which base of power is being invoked?",
+    "topicRef": "Constructivist Teaching Principles",
+    "question": "In a constructivist classroom, what is the primary role of the classroom teacher during instructional activities?",
     "options": [
       {
         "key": "A",
-        "text": "Legitimate Power"
+        "text": "A detached observer who provides zero instructional support or structure."
       },
       {
         "key": "B",
-        "text": "Reward Power"
+        "text": "A facilitator and guide who mediates learning and scaffolds students as they construct their own knowledge."
       },
       {
         "key": "C",
-        "text": "Referent Power"
+        "text": "An authoritarian lecturer who transmits fixed encyclopedic facts into passive student minds."
       },
       {
         "key": "D",
-        "text": "Expert Power"
+        "text": "A strict disciplinarian who enforces silent rote memorization without discussion."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Legitimate Power is derived from the official status, title, or legal position of the teacher as the appointed adult authority in the classroom."
+    "correctAnswer": "B",
+    "explanation": "Constructivism (Piaget, Vygotsky, Bruner) posits that learners actively construct knowledge; the teacher acts as a facilitator, guide, and creator of collaborative learning opportunities."
   },
   {
     "id": 12,
-    "topicRef": "Kounin Techniques: Withitness",
-    "question": "While writing a problem on the board, Teacher Carla notices two students whispering at the back and immediately addresses them without turning her entire body or stopping the lesson. Kounin calls this:",
+    "topicRef": "Inquiry-Based Learning: The 5E Model",
+    "question": "In the 5E Instructional Model (Engage, Explore, Explain, Elaborate, Evaluate), what occurs during the 'Explore' phase?",
     "options": [
       {
         "key": "A",
-        "text": "Stimulus-Boundedness"
+        "text": "Students actively investigate objects, conduct experiments, and gather data through hands-on collaborative activities."
       },
       {
         "key": "B",
-        "text": "Overlapping"
+        "text": "The teacher delivers a formal lecture introducing scientific vocabulary terms."
       },
       {
         "key": "C",
-        "text": "Withitness"
+        "text": "Students take a high-stakes standardized pen-and-paper summative test."
       },
       {
         "key": "D",
-        "text": "Thrust"
+        "text": "The teacher assigns homework reading from an encyclopedia."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Jacob Kounin defined 'Withitness' as the teacher's ability to know what is happening in all parts of the classroom at all times ('having eyes in the back of one's head') and nipping misbehavior in the bud."
+    "correctAnswer": "A",
+    "explanation": "In the Explore phase, learners actively explore the phenomenon through hands-on activities, collecting evidence before formal concept introduction."
   },
   {
     "id": 13,
-    "topicRef": "Kounin Techniques: Overlapping",
-    "question": "While assisting a small reading group at the front table, Teacher Ramon spots a student struggling with an independent seatwork across the room, discreetly hands her a reference worksheet, and continues the small-group discussion seamlessly. This demonstrates Kounin's concept of:",
+    "topicRef": "Problem-Based Learning (PBL)",
+    "question": "Students in a social studies class are given a real-world scenario: 'Our municipality is experiencing severe river flooding during typhoons. Propose a sustainable flood-mitigation plan for the local council.' This instructional strategy is:",
     "options": [
       {
         "key": "A",
-        "text": "Group Alerting"
+        "text": "Rote drill-and-practice instruction."
       },
       {
         "key": "B",
-        "text": "Smoothness"
+        "text": "Traditional didactic recitation."
       },
       {
         "key": "C",
-        "text": "Momentum"
+        "text": "Direct teacher-led demonstration."
       },
       {
         "key": "D",
-        "text": "Overlapping"
+        "text": "Problem-Based Learning (PBL)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Overlapping is the teacher's ability to attend to two or more events or situations simultaneously without being diverted from the primary instructional task."
+    "explanation": "Problem-Based Learning engages learners in solving complex, authentic, ill-structured real-world problems, promoting critical thinking and research skills."
   },
   {
     "id": 14,
-    "topicRef": "Kounin Techniques: Smoothness & Momentum",
-    "question": "A teacher suddenly interrupts a science explanation to scold a student about uncleaned shoes from the morning, and then returns to the science topic 5 minutes later. Which lesson movement error was committed?",
+    "topicRef": "Project-Based Learning (PjBL)",
+    "question": "How does Project-Based Learning (PjBL) differ from traditional classroom assignments?",
     "options": [
       {
         "key": "A",
-        "text": "Thrust"
+        "text": "The teacher reads a textbook chapter aloud while pupils sit quietly."
       },
       {
         "key": "B",
-        "text": "Flip-flop"
+        "text": "Students complete identical fill-in-the-blank worksheets."
       },
       {
         "key": "C",
-        "text": "Truncation"
+        "text": "Students work over an extended period to investigate a driving question and create a tangible, authentic public product or presentation."
       },
       {
         "key": "D",
-        "text": "Dangle"
+        "text": "Students memorize vocabulary lists for a 10-minute quiz."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "A 'Thrust' occurs when a teacher suddenly bursts into an ongoing activity or discussion with an unrelated topic or reprimand without assessing whether students are ready for the interruption."
+    "correctAnswer": "C",
+    "explanation": "Project-Based Learning involves sustained inquiry over time resulting in an authentic product, artifact, or public presentation that solves a driving question."
   },
   {
     "id": 15,
-    "topicRef": "Kounin Techniques: Flip-Flop",
-    "question": "Teacher John concludes a math exercise and tells the class to open their workbooks, but suddenly stops and says, 'Wait, go back to problem 4 on the board, let me explain one more step.' This movement error is known as:",
+    "topicRef": "Cooperative Learning: Essential Elements (Johnson & Johnson)",
+    "question": "According to David and Roger Johnson, which essential element of cooperative learning ensures that 'we sink or swim together'\u2014meaning each member's success depends on the success of all?",
     "options": [
       {
         "key": "A",
-        "text": "Flip-flop"
+        "text": "Group Processing."
       },
       {
         "key": "B",
-        "text": "Overdwelling"
+        "text": "Positive Interdependence."
       },
       {
         "key": "C",
-        "text": "Fragmentation"
+        "text": "Individual Accountability."
       },
       {
         "key": "D",
-        "text": "Dangle"
+        "text": "Face-to-Face Promotive Interaction."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "A 'Flip-flop' occurs when a teacher terminates one activity, starts a new one, and then suddenly jumps back to the previous activity that was already concluded."
+    "correctAnswer": "B",
+    "explanation": "Positive Interdependence is the core of cooperative learning where team members realize that individual success is linked to the collective success of the entire team."
   },
   {
     "id": 16,
-    "topicRef": "Kounin Techniques: Overdwelling",
-    "question": "Spending excessive time repeatedly preaching and scolding a student about why cheating is wrong long after the message has been understood illustrates which movement fault?",
+    "topicRef": "Cooperative Learning: Jigsaw Technique (Aronson)",
+    "question": "In Elliot Aronson's 'Jigsaw' cooperative learning strategy, how is content mastered and shared among students?",
     "options": [
       {
         "key": "A",
-        "text": "Fragmentation"
+        "text": "Each student becomes an expert on one section in an 'expert group' and returns to teach it to their 'home group'."
       },
       {
         "key": "B",
-        "text": "Dangle"
+        "text": "Students complete identical multiple-choice worksheets in complete silence."
       },
       {
         "key": "C",
-        "text": "Overdwelling"
+        "text": "The highest-scoring student completes the entire assignment for the group."
       },
       {
         "key": "D",
-        "text": "Thrust"
+        "text": "The teacher lectures to the whole class while students take verbatim notes."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Overdwelling occurs when a teacher spends excessive time giving instructions or preaching about behavior beyond what is needed for students to understand."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Cooperative Learning: Jigsaw Technique (Aronson). Each student becomes an expert on one section in an 'expert group' and returns to teach it to their 'home group'. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 17,
-    "topicRef": "Kounin Techniques: Ripple Effect",
-    "question": "When a teacher firmly and fairly disciplines one misbehaving student, the other observing students simultaneously improve their behavior and stay on task. Kounin referred to this phenomenon as the:",
+    "topicRef": "Cooperative Learning: Think-Pair-Share (Lyman)",
+    "question": "Frank Lyman's 'Think-Pair-Share' strategy promotes active cognitive engagement by structuring the sequence as:",
     "options": [
       {
         "key": "A",
-        "text": "Halo Effect"
+        "text": "Students listen to a lecture, take a partner test, and submit homework."
       },
       {
         "key": "B",
-        "text": "Hawthorne Effect"
+        "text": "The teacher calls on one student to answer on the spot without wait time."
       },
       {
         "key": "C",
-        "text": "Pygmalion Effect"
+        "text": "Students write an individual essay without any peer interaction."
       },
       {
         "key": "D",
-        "text": "Ripple Effect"
+        "text": "Students think individually about a prompt, discuss their thoughts with a partner, and then share insights with the larger class."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The 'Ripple Effect' (Kounin) describes how the teacher's handling of misbehavior in one student influences the behavior of other students who observe the interaction."
+    "explanation": "This question evaluates teaching competence in Cooperative Learning: Think-Pair-Share (Lyman). Students think individually about a prompt, discuss their thoughts with a partner, and then share insights with the larger class. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 18,
-    "topicRef": "Dreikurs Mistaken Goals: Attention Getting",
-    "question": "A student frequently makes funny noises, blurts out silly answers, and claps out of turn during serious discussions. Rudolf Dreikurs identifies this mistaken goal as:",
+    "topicRef": "Dale's Cone of Experience: Direct Purposeful Experiences",
+    "question": "At the very base of Edgar Dale's Cone of Experience, providing the most concrete, hands-on sensory learning, are:",
     "options": [
       {
         "key": "A",
-        "text": "Revenge"
+        "text": "Visual Symbols (charts, maps, diagrams)."
       },
       {
         "key": "B",
-        "text": "Display of Inadequacy"
+        "text": "Still Pictures and Audio Recordings."
       },
       {
         "key": "C",
-        "text": "Power Seeking"
+        "text": "Direct, Purposeful Experiences (firsthand physical experiences and real-life manipulation of objects)."
       },
       {
         "key": "D",
-        "text": "Attention Getting"
+        "text": "Verbal Symbols (reading printed text and spoken words)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "In Dreikurs' model, 'Attention Getting' manifests when a student believes they only belong when they are being noticed or served. Teachers usually feel annoyed or irritated."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Dale's Cone of Experience: Direct Purposeful Experiences. Direct, Purposeful Experiences (firsthand physical experiences and real-life manipulation of objects). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 19,
-    "topicRef": "Dreikurs Mistaken Goals: Power Seeking",
-    "question": "When told to put away his phone, Kevin defiantly states: 'You cannot make me do that, you're not the boss of me!' Dreikurs classifies this behavior under which mistaken goal?",
+    "topicRef": "Dale's Cone of Experience: Contrived Experiences",
+    "question": "When a real object is too dangerous, too massive, or inaccessible (e.g., the human circulatory system or a volcano), a teacher utilizes a 3D cutaway model. In Dale's Cone, this is a:",
     "options": [
       {
         "key": "A",
-        "text": "Power Seeking"
+        "text": "Verbal Symbol."
       },
       {
         "key": "B",
-        "text": "Revenge"
+        "text": "Contrived Experience (a realistic model, mockup, or simulation)."
       },
       {
         "key": "C",
-        "text": "Attention Getting"
+        "text": "Dramatized Experience."
       },
       {
         "key": "D",
-        "text": "Display of Inadequacy"
+        "text": "Demonstration."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "In 'Power Seeking', the student desires to be the boss and shows defiance. The teacher typically feels threatened, angry, or defeated and drawn into a power struggle."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Dale's Cone of Experience: Contrived Experiences. Contrived Experience (a realistic model, mockup, or simulation). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 20,
-    "topicRef": "Dreikurs Mistaken Goals: Revenge",
-    "question": "A learner maliciously scratches the teacher's car after receiving a failing grade on a quiz. According to Dreikurs, what mistaken goal drove this action?",
+    "topicRef": "Dale's Cone of Experience: Abstract Level",
+    "question": "At the very apex (top) of Dale's Cone of Experience, representing the most abstract and least sensory-rich instructional materials, are:",
     "options": [
       {
         "key": "A",
-        "text": "Revenge"
+        "text": "Verbal Symbols (spoken words, printed text, mathematical symbols)."
       },
       {
         "key": "B",
-        "text": "Display of Inadequacy"
+        "text": "Field Trips and Study Tours."
       },
       {
         "key": "C",
-        "text": "Power Seeking"
+        "text": "Educational Television."
       },
       {
         "key": "D",
-        "text": "Attention Getting"
+        "text": "Direct Hands-on Experiences."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Revenge occurs when the student feels deeply hurt and retaliates to hurt the teacher or others. The teacher's internal feeling is hurt, disbelief, or outrage."
+    "explanation": "This question evaluates teaching competence in Dale's Cone of Experience: Abstract Level. Verbal Symbols (spoken words, printed text, mathematical symbols). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 21,
-    "topicRef": "Dreikurs Mistaken Goals: Display of Inadequacy",
-    "question": "A student sits silently, refuses to touch his paper, repeatedly says 'I cannot do this, I am stupid,' and gives up before attempting. Dreikurs identifies this as:",
+    "topicRef": "Differentiated Instruction: Content, Process, Product (Tomlinson)",
+    "question": "Carol Ann Tomlinson defines Differentiated Instruction as adapting which three key curricular elements according to learner readiness, interest, and profile?",
     "options": [
       {
         "key": "A",
-        "text": "Silent Power Seeking"
+        "text": "Classroom Budget, School Calendar, and Administrative Staffing."
       },
       {
         "key": "B",
-        "text": "Negative Attention Seeking"
+        "text": "Textbook Publisher, Font Size, and Printing Paper Color."
       },
       {
         "key": "C",
-        "text": "Display of Inadequacy (Assumed Disability)"
+        "text": "School Building Code, Room Temperature, and Lighting Level."
       },
       {
         "key": "D",
-        "text": "Passive Revenge"
+        "text": "Content (what is learned), Process (how it is learned), and Product (how learning is demonstrated)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Display of Inadequacy (Learned Helplessness/Assumed Disability) occurs when a student gives up and wants to be left alone. The teacher's emotional response is feeling helpless or hopeless."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Differentiated Instruction: Content, Process, Product (Tomlinson). Content (what is learned), Process (how it is learned), and Product (how learning is demonstrated). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 22,
-    "topicRef": "Gardner Multiple Intelligences",
-    "question": "Student Miguel excels at understanding his own emotional triggers, regulates his moods through journaling, and sets realistic self-improvement goals. Miguel demonstrates high:",
+    "topicRef": "Differentiated Instruction: Tiered Activities",
+    "question": "When a teacher creates three versions of an assignment on fractions\u2014basic concept reinforcement, on-level application, and advanced problem solving\u2014the teacher is using:",
     "options": [
       {
         "key": "A",
-        "text": "Interpersonal Intelligence"
+        "text": "Rote memorization drills."
       },
       {
         "key": "B",
-        "text": "Intrapersonal Intelligence"
+        "text": "Punitive task tracking."
       },
       {
         "key": "C",
-        "text": "Spatial Intelligence"
+        "text": "Tiered Activities (differentiation by readiness level)."
       },
       {
         "key": "D",
-        "text": "Existential Intelligence"
+        "text": "Standardized uniform pacing."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Intrapersonal Intelligence (Gardner) refers to self-awareness, introspection, understanding one's own strengths, weaknesses, and emotional states."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Differentiated Instruction: Tiered Activities. Tiered Activities (differentiation by readiness level). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 23,
-    "topicRef": "Gardner Multiple Intelligences",
-    "question": "Which of Gardner's intelligences is most prominently displayed by an architect who can easily manipulate 3D spatial models mentally and design blueprint layouts?",
+    "topicRef": "Classroom Management: Kounin's 'Withitness'",
+    "question": "According to Jacob Kounin's classroom management research, a teacher who demonstrates 'Withitness' is one who:",
     "options": [
       {
         "key": "A",
-        "text": "Naturalist"
+        "text": "Strictly focuses on one student while ignoring the rest of the class."
       },
       {
         "key": "B",
-        "text": "Bodily-Kinesthetic"
+        "text": "Accurately perceives what is happening in all parts of the classroom at all times ('eyes in the back of the head') and addresses misbehavior early."
       },
       {
         "key": "C",
-        "text": "Visual-Spatial"
+        "text": "Ignores student disruptions until a major fight breaks out."
       },
       {
         "key": "D",
-        "text": "Logical-Mathematical"
+        "text": "Leaves the classroom unattended during group activities."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Visual-Spatial intelligence involves thinking in pictures, visualizing 3D objects, mentally transforming angles, and spatial navigation."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Kounin's 'Withitness'. Accurately perceives what is happening in all parts of the classroom at all times ('eyes in the back of the head') and addresses misbehavior early. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 24,
-    "topicRef": "Brain Hemispheric Specialization (Roger Sperry)",
-    "question": "According to Roger Sperry's Split-Brain Theory, which cognitive functions are predominantly processed by the Left Cerebral Hemisphere?",
+    "topicRef": "Classroom Management: Kounin's Overlapping",
+    "question": "A teacher is conducting a reading circle with six students at the front while smoothly gesturing to redirect a distracted student across the room without stopping the lesson. This skill is:",
     "options": [
       {
         "key": "A",
-        "text": "Kinesthetic coordination and non-verbal body language."
+        "text": "Overlapping (managing more than one classroom event simultaneously)."
       },
       {
         "key": "B",
-        "text": "Holistic processing, music appreciation, visual arts, and intuition."
+        "text": "Flip-flopping."
       },
       {
         "key": "C",
-        "text": "Spatial orientation, facial recognition, emotional synthesis, and daydreaming."
+        "text": "Dangle."
       },
       {
         "key": "D",
-        "text": "Linear logic, language grammar, sequential mathematical calculations, and analytical reasoning."
+        "text": "Thrust."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Left Hemisphere specializes in analytical, logical, linear, verbal, sequential, and mathematical operations. The Right Hemisphere specializes in global, holistic, artistic, spatial, and intuitive processing."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Kounin's Overlapping. Overlapping (managing more than one classroom event simultaneously). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 25,
-    "topicRef": "Thorndike Law of Readiness",
-    "question": "Teacher Liza begins her geometry class with a short fun motivational game to activate prior knowledge and stimulate student interest before introducing trigonometric ratios. Which of Thorndike's primary laws of learning is applied?",
+    "topicRef": "Classroom Management: Kounin's Smoothness & Momentum",
+    "question": "Kounin defines 'Momentum' and 'Smoothness' in lesson delivery as:",
     "options": [
       {
         "key": "A",
-        "text": "Law of Primacy"
+        "text": "Shouting instructions loudly to startle inattentive students."
       },
       {
         "key": "B",
-        "text": "Law of Effect"
+        "text": "Stopping the entire lesson to search for a lost whiteboard marker."
       },
       {
         "key": "C",
-        "text": "Law of Exercise"
+        "text": "Switching topics randomly without instructional connection."
       },
       {
         "key": "D",
-        "text": "Law of Readiness"
+        "text": "Maintaining appropriate instructional pacing and smooth transitions between activities without abrupt stops or digressions."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Thorndike's Law of Readiness states that when an individual is physiologically and psychologically prepared to learn, the act of doing so is satisfying; forcing learning when unready is annoying."
+    "explanation": "This question evaluates teaching competence in Classroom Management: Kounin's Smoothness & Momentum. Maintaining appropriate instructional pacing and smooth transitions between activities without abrupt stops or digressions. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 26,
-    "topicRef": "Thorndike Law of Exercise",
-    "question": "Drill-and-practice worksheets, regular flashcard sessions, and repetitive problem-solving reinforce neural connections and memory retention. This supports Thorndike's:",
+    "topicRef": "Classroom Management: Satiation (Kounin)",
+    "question": "In Kounin's framework, 'Satiation' occurs in the classroom when:",
     "options": [
       {
         "key": "A",
-        "text": "Law of Intensity"
+        "text": "The teacher provides immediate constructive feedback on essays."
       },
       {
         "key": "B",
-        "text": "Law of Effect"
+        "text": "The classroom environment is perfectly organized."
       },
       {
         "key": "C",
-        "text": "Law of Exercise (Use and Disuse)"
+        "text": "Students become bored, restless, and disengaged because a teacher prolongs an activity long after mastery has been achieved."
       },
       {
         "key": "D",
-        "text": "Law of Recency"
+        "text": "Students feel energized by a novel hands-on science experiment."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Law of Exercise consists of the Law of Use (connections are strengthened with practice) and the Law of Disuse (connections are weakened when practice ceases)."
+    "explanation": "This question evaluates teaching competence in Classroom Management: Satiation (Kounin). Students become bored, restless, and disengaged because a teacher prolongs an activity long after mastery has been achieved. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 27,
-    "topicRef": "Thorndike Law of Effect",
-    "question": "A teacher provides immediate positive praise and praise certificates when learners complete difficult tasks, causing students to repeat the desired study habits. This exemplifies:",
+    "topicRef": "Classroom Management: Canter's Assertive Discipline",
+    "question": "Lee Canter's 'Assertive Discipline' model is characterized by a teacher who:",
     "options": [
       {
         "key": "A",
-        "text": "Law of Effect"
+        "text": "Allows students to set all rules without teacher leadership."
       },
       {
         "key": "B",
-        "text": "Law of Exercise"
+        "text": "Clearly establishes rules, explicitly teaches behavioral expectations, and applies consistent, predictable consequences calmly and firmly."
       },
       {
         "key": "C",
-        "text": "Law of Primacy"
+        "text": "Uses passive avoidance and never corrects misbehavior."
       },
       {
         "key": "D",
-        "text": "Law of Readiness"
+        "text": "Uses hostile sarcasm and public humiliation against students."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Thorndike's Law of Effect states that behaviors followed by pleasant or satisfying consequences are strengthened and more likely to recur, whereas those followed by annoyance are weakened."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Canter's Assertive Discipline. Clearly establishes rules, explicitly teaches behavioral expectations, and applies consistent, predictable consequences calmly and firmly. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 28,
-    "topicRef": "Thorndike Secondary Laws: Primacy & Recency",
-    "question": "Why is it critically important for a teacher to ensure that the very first explanation and demonstration of a scientific formula is 100% accurate?",
+    "topicRef": "Questioning Techniques: Wait Time (Rowe)",
+    "question": "Mary Budd Rowe's research showed that when teachers increase 'Wait Time' (pausing after asking a question and after a student responds) to 3 to 5 seconds:",
     "options": [
       {
         "key": "A",
-        "text": "Because of the Law of Intensity: initial lessons require no subsequent review."
+        "text": "Student responses become longer, higher-order thinking increases, and more students participate."
       },
       {
         "key": "B",
-        "text": "Because of the Law of Disuse: initial concepts are discarded immediately."
+        "text": "Students completely forget the question asked."
       },
       {
         "key": "C",
-        "text": "Because of the Law of Primacy: things learned first create a strong, almost indelible impression that is hard to unlearn."
+        "text": "Classroom discipline breaks down into chaos."
       },
       {
         "key": "D",
-        "text": "Because of the Law of Recency: things learned first are forgotten fastest."
+        "text": "The pacing of the lesson becomes unacceptably delayed."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Law of Primacy states that what is learned first creates the strongest foundation; unlearning a false initial concept is far harder than teaching it correctly the first time."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Questioning Techniques: Wait Time (Rowe). Student responses become longer, higher-order thinking increases, and more students participate. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 29,
-    "topicRef": "Formulating SMART Objectives",
-    "question": "In the acronym SMART for behavioral instructional objectives, what does the letter 'M' stand for?",
+    "topicRef": "Questioning Techniques: Bloom's Taxonomy (HOTS vs LOTS)",
+    "question": "Which of the following teacher questions best targets 'Evaluation' in the Revised Bloom's Taxonomy (Anderson & Krathwohl)?",
     "options": [
       {
         "key": "A",
-        "text": "Measurable"
+        "text": "'List the four main steps of the scientific method.'"
       },
       {
         "key": "B",
-        "text": "Mastery-based"
+        "text": "'Calculate the area of a rectangle with length 10 cm and width 5 cm.'"
       },
       {
         "key": "C",
-        "text": "Motivational"
+        "text": "'Define the term photosynthesis in your own words.'"
       },
       {
         "key": "D",
-        "text": "Meaningful"
+        "text": "'Defend your position on whether the construction of a coastal bypass road justifies the environmental impact on mangrove reserves.'"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "SMART stands for Specific, Measurable, Attainable (or Achievable), Relevant (or Result-oriented), and Time-bound."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Questioning Techniques: Bloom's Taxonomy (HOTS vs LOTS). 'Defend your position on whether the construction of a coastal bypass road justifies the environmental impact on mangrove reserves.' represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 30,
-    "topicRef": "Bloom vs Anderson-Krathwohl Revised Taxonomy",
-    "question": "In the 2001 Revised Bloom's Taxonomy (Anderson & Krathwohl), what is the highest cognitive process dimension, replacing Bloom's 1956 'Evaluation'?",
+    "topicRef": "Questioning Techniques: Probing Questions",
+    "question": "When a student gives a correct but incomplete answer, the teacher asks: 'What evidence from the story supports that conclusion?' This is an example of:",
     "options": [
       {
         "key": "A",
-        "text": "Creating"
+        "text": "Rhetorical questioning requiring no response."
       },
       {
         "key": "B",
-        "text": "Evaluating"
+        "text": "Closed questioning limiting answers to yes or no."
       },
       {
         "key": "C",
-        "text": "Analyzing"
+        "text": "Probing / Clarifying questioning (prompting deeper elaboration and justification)."
       },
       {
         "key": "D",
-        "text": "Applying"
+        "text": "Leading questioning that gives away the answer."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Anderson and Krathwohl's 2001 revision changed nouns to verbs and positioned 'Creating' (generating new ideas/products) at the highest level (Level 6), above 'Evaluating' (Level 5)."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Questioning Techniques: Probing Questions. Probing / Clarifying questioning (prompting deeper elaboration and justification). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 31,
-    "topicRef": "Revised Bloom Taxonomy Levels",
-    "question": "Which behavioral verb is correctly classified under the 'Analyzing' level of the Revised Bloom's Taxonomy?",
+    "topicRef": "Lesson Planning: DepEd Order 42, s. 2016 (DLL / DLP)",
+    "question": "Under DepEd Order 42, s. 2016 (Policy Guidelines on Daily Lesson Preparation for K to 12), newly hired teachers during their first year are required to prepare a:",
     "options": [
       {
         "key": "A",
-        "text": "Define"
+        "text": "Weekly gradebook record only."
       },
       {
         "key": "B",
-        "text": "Differentiate"
+        "text": "Detailed Lesson Plan (DLP), providing step-by-step instructional procedures."
       },
       {
         "key": "C",
-        "text": "Recite"
+        "text": "Daily Lesson Log (DLL), which is a simplified template for experienced teachers."
       },
       {
         "key": "D",
-        "text": "Compose"
+        "text": "Syllabus outline without daily objectives."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "'Differentiate', 'dissect', 'deconstruct', and 'distinguish' require breaking material into constituent parts and determining relationships, which represents Analyzing (Level 4)."
+    "explanation": "This question evaluates teaching competence in Lesson Planning: DepEd Order 42, s. 2016 (DLL / DLP). Detailed Lesson Plan (DLP), providing step-by-step instructional procedures. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 32,
-    "topicRef": "Affective Domain Taxonomy (Krathwohl)",
-    "question": "In Krathwohl's Affective Domain Taxonomy, what is the highest level where a learner's values form a consistent, pervasive philosophy of life that directs their daily lifestyle?",
+    "topicRef": "Lesson Planning: Instructional Alignment (SMART Objectives)",
+    "question": "In formulating behavioral lesson objectives, which of the following adheres strictly to SMART criteria (Specific, Measurable, Attainable, Relevant, Time-bound)?",
     "options": [
       {
         "key": "A",
-        "text": "Valuing"
+        "text": "'At the end of the 60-minute lesson, Grade 8 learners will correctly solve at least 4 out of 5 linear equations in one variable.'"
       },
       {
         "key": "B",
-        "text": "Receiving"
+        "text": "'Students will appreciate the beauty of mathematics in daily life.'"
       },
       {
         "key": "C",
-        "text": "Characterization by a Value / Value Set"
+        "text": "'Learners will understand all algebra concepts completely by Friday.'"
       },
       {
         "key": "D",
-        "text": "Responding"
+        "text": "'The class will develop deep love for equation solving.'"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The hierarchy of Krathwohl's Affective Domain is: Receiving -> Responding -> Valuing -> Organization -> Characterization by a Value/Value Set (Internalization of values directing total behavior)."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Lesson Planning: Instructional Alignment (SMART Objectives). 'At the end of the 60-minute lesson, Grade 8 learners will correctly solve at least 4 out of 5 linear equations in one variable.' represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 33,
-    "topicRef": "Psychomotor Domain Taxonomy (Dave/Simpson)",
-    "question": "A student performs a complex chemistry titration smoothly, accurately, and automatically with effortless speed and minimal conscious thought. In Dave's Psychomotor Domain, this represents:",
+    "topicRef": "Explicit Instruction Model (Archer & Hughes)",
+    "question": "The Explicit Instruction model follows which structured pedagogical sequence for teaching skills?",
     "options": [
       {
         "key": "A",
-        "text": "Manipulation"
+        "text": "'You Do' first, followed by teacher correction at the end of the semester."
       },
       {
         "key": "B",
-        "text": "Precision"
+        "text": "'We Do' continuously without any individual independent practice."
       },
       {
         "key": "C",
-        "text": "Naturalization"
+        "text": "'I Do' for 60 minutes with zero student practice."
       },
       {
         "key": "D",
-        "text": "Imitation"
+        "text": "'I Do' (Teacher Modeling), 'We Do' (Guided Practice with Feedback), and 'You Do' (Independent Practice)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "RH Dave's Psychomotor taxonomy levels are: Imitation -> Manipulation -> Precision -> Articulation -> Naturalization (effortless, automatic, high-level mastery)."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Explicit Instruction Model (Archer & Hughes). 'I Do' (Teacher Modeling), 'We Do' (Guided Practice with Feedback), and 'You Do' (Independent Practice). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 34,
-    "topicRef": "Deductive vs Inductive Teaching",
-    "question": "Teacher Brenda states the grammar rule on Subject-Verb Agreement first, explains the formula, and then provides 10 practice sentences for students to apply the rule. What teaching approach did she employ?",
+    "topicRef": "Teaching Models: Gagne's Nine Events of Instruction",
+    "question": "In Robert Gagne's Nine Events of Instruction, what is the very FIRST event that a teacher must execute to initiate a lesson?",
     "options": [
       {
         "key": "A",
-        "text": "Discovery Approach"
+        "text": "Stimulate recall of prior learning."
       },
       {
         "key": "B",
-        "text": "Inductive Approach"
+        "text": "Assess performance."
       },
       {
         "key": "C",
-        "text": "Deductive Approach"
+        "text": "Gain Attention (stimulating interest and focus through a hook, challenge, or question)."
       },
       {
         "key": "D",
-        "text": "Inquiry Approach"
+        "text": "Inform learners of objectives."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Deductive Approach moves from General to Specific (Rule/Principle -> Examples -> Practice), whereas the Inductive Approach moves from Specific examples to the General rule."
+    "explanation": "This question evaluates teaching competence in Teaching Models: Gagne's Nine Events of Instruction. Gain Attention (stimulating interest and focus through a hook, challenge, or question). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 35,
-    "topicRef": "Inductive Teaching Method",
-    "question": "Teacher Mark presents 5 different sentences containing figurative language, guides students to notice similarities across all 5, and prompts them to formulate their own definition of a 'Metaphor'. This represents:",
+    "topicRef": "Teaching Models: Gagne's Stimulating Recall of Prior Learning",
+    "question": "Connecting today's lesson on multiplying fractions with yesterday's lesson on simplifying fractions fulfills which of Gagne's instructional events?",
     "options": [
       {
         "key": "A",
-        "text": "Rote memorization"
+        "text": "Enhancing retention and transfer."
       },
       {
         "key": "B",
-        "text": "Inductive method (Inquiry/Indirect)"
+        "text": "Stimulating recall of prior learning (activating relevant prerequisite schemas)."
       },
       {
         "key": "C",
-        "text": "Deductive method (Direct)"
+        "text": "Presenting the content stimulus."
       },
       {
         "key": "D",
-        "text": "Expository lecture"
+        "text": "Providing learner guidance."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Inductive Method leads learners from concrete, specific observations to formulating general concepts, rules, or definitions on their own."
+    "explanation": "This question evaluates teaching competence in Teaching Models: Gagne's Stimulating Recall of Prior Learning. Stimulating recall of prior learning (activating relevant prerequisite schemas). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 36,
-    "topicRef": "Direct Instruction Model (Rosenshine/Hunter)",
-    "question": "Which sequence correctly reflects the core steps of the Direct Instruction / Explicit Teaching Model?",
+    "topicRef": "Classroom Management: Dreikurs' Mistaken Goals of Behavior",
+    "question": "Rudolf Dreikurs identified four mistaken goals behind student misbehavior. When a student acts out to be the center of the teacher's focus, the goal is:",
     "options": [
       {
         "key": "A",
-        "text": "Independent Practice -> Guided Practice -> Modeling -> Review"
+        "text": "Attention-seeking (which can be redirected by giving positive attention for constructive behavior)."
       },
       {
         "key": "B",
-        "text": "Evaluation -> Motivation -> Direct Lecture"
+        "text": "Power and control."
       },
       {
         "key": "C",
-        "text": "Inquiry -> Unstructured Discovery -> Summative Test"
+        "text": "Revenge."
       },
       {
         "key": "D",
-        "text": "Daily Review -> Presentation/Modeling ('I Do') -> Guided Practice ('We Do') -> Independent Practice ('You Do')"
+        "text": "Display of inadequacy."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The classic Explicit/Direct Instruction Model follows: Review/State Objectives -> Teacher Modeling ('I Do') -> Guided Practice with feedback ('We Do') -> Independent Practice ('You Do')."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Dreikurs' Mistaken Goals of Behavior. Attention-seeking (which can be redirected by giving positive attention for constructive behavior). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 37,
-    "topicRef": "Inquiry-Based Learning",
-    "question": "In an Inquiry-Based Learning (IBL) science classroom, what is the primary role of the teacher?",
+    "topicRef": "Classroom Management: Glasser's Choice Theory",
+    "question": "William Glasser's 'Choice Theory' asserts that all human behavior is an attempt to satisfy five basic psychological needs:",
     "options": [
       {
         "key": "A",
-        "text": "Facilitator and questioner who guides learners to investigate and discover answers"
+        "text": "Food, Sleep, Shelter, Clothing, and Medicine."
       },
       {
         "key": "B",
-        "text": "Passive spectator who does not intervene in student discussions"
+        "text": "Money, Fame, Dominance, Status, and Luxury."
       },
       {
         "key": "C",
-        "text": "Authoritative disciplinarian checking workbook compliance"
+        "text": "Id, Ego, Superego, Libido, and Thanatos."
       },
       {
         "key": "D",
-        "text": "Sole dispenser of facts and definitive answers"
+        "text": "Survival, Love/Belonging, Power/Competence, Freedom, and Fun."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "In Inquiry-Based Learning, the teacher serves as a facilitator, scaffolding students' investigations, prompting critical questions, and guiding hypothesis testing."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Glasser's Choice Theory. Survival, Love/Belonging, Power/Competence, Freedom, and Fun. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 38,
-    "topicRef": "Problem-Based Learning (PBL)",
-    "question": "Students are presented with an ill-structured real-world problem: 'How can our municipality reduce plastic waste in the local river by 50% in six months?' Students research solutions in teams. This method is:",
+    "topicRef": "Classroom Management: Preventive Discipline",
+    "question": "Which of the following teacher actions represents 'Preventive Discipline' in the classroom?",
     "options": [
       {
         "key": "A",
-        "text": "Direct Instruction"
+        "text": "Assigning 100 math problems as a punitive measure for talking in class."
       },
       {
         "key": "B",
-        "text": "Problem-Based Learning (PBL)"
+        "text": "Posting a list of misbehaving students publicly on the school bulletin board."
       },
       {
         "key": "C",
-        "text": "Rote Drill"
+        "text": "Establishing clear classroom routines, smooth transitions, and engaging lesson materials before problems emerge."
       },
       {
         "key": "D",
-        "text": "Programmed Instruction"
+        "text": "Waiting for students to misbehave and immediately sending them to the guidance office."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Problem-Based Learning (PBL) uses authentic, messy, ill-structured real-world problems as the catalyst for students to acquire knowledge and problem-solving skills."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Preventive Discipline. Establishing clear classroom routines, smooth transitions, and engaging lesson materials before problems emerge. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 39,
-    "topicRef": "Experiential Learning (David Kolb)",
-    "question": "According to David Kolb's Experiential Learning Cycle, what step immediately follows 'Concrete Experience'?",
+    "topicRef": "Teaching Strategies: Socratic Method (Elenchus)",
+    "question": "The classical Socratic Method of teaching is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Abstract Conceptualization"
+        "text": "Administering multiple-choice standardized tests daily."
       },
       {
         "key": "B",
-        "text": "Active Experimentation"
+        "text": "Disciplined, systematic questioning to challenge assumptions, expose contradictions, and lead learners to deeper conceptual insights."
       },
       {
         "key": "C",
-        "text": "Rote Memorization"
+        "text": "Didactic lecturing where the teacher talks continuously for an hour."
       },
       {
         "key": "D",
-        "text": "Reflective Observation"
+        "text": "Silent individual reading of assigned textbook chapters without discussion."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Kolb's 4-stage cycle flows as follows: 1. Concrete Experience (Doing) -> 2. Reflective Observation (Reviewing/Reflecting) -> 3. Abstract Conceptualization (Concluding/Learning from experience) -> 4. Active Experimentation (Planning/Trying out what was learned)."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Socratic Method (Elenchus). Disciplined, systematic questioning to challenge assumptions, expose contradictions, and lead learners to deeper conceptual insights. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 40,
-    "topicRef": "Cooperative Learning: Jigsaw Technique",
-    "question": "In Elliot Aronson's Jigsaw classroom technique, what happens after students meet in their specialized 'Expert Groups'?",
+    "topicRef": "Teaching Strategies: Flipped Classroom Model",
+    "question": "In a 'Flipped Classroom' instructional model, how are classroom time and homework restructured?",
     "options": [
       {
         "key": "A",
-        "text": "The teacher lectures to the entire class while experts sit in front."
+        "text": "Direct instruction (video lectures/readings) is completed at home before class, freeing classroom time for active problem-solving and collaborative projects."
       },
       {
         "key": "B",
-        "text": "They return to their heterogeneous 'Home Groups' to teach their assigned segment to their teammates."
+        "text": "Students complete homework worksheets in silence during class while the teacher grades papers."
       },
       {
         "key": "C",
-        "text": "They disband and do solitary research in the library."
+        "text": "All exams are taken at home without teacher supervision."
       },
       {
         "key": "D",
-        "text": "They take the final exam individually without talking to anyone else."
+        "text": "Lectures are delivered in class and all group projects are done alone at home."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "In the Jigsaw Technique, students split into 'Expert Groups' to master one specific subtopic, then return to their original 'Home Groups' to teach that subtopic to their peers."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Flipped Classroom Model. Direct instruction (video lectures/readings) is completed at home before class, freeing classroom time for active problem-solving and collaborative projects. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 41,
-    "topicRef": "Cooperative Learning: STAD",
-    "question": "In Robert Slavin's Student Teams-Achievement Divisions (STAD), how are team reward points calculated?",
+    "topicRef": "Teaching Strategies: Reciprocal Teaching (Palincsar & Brown)",
+    "question": "Reciprocal Teaching improves reading comprehension through structured student dialogue utilizing which four core cognitive strategies?",
     "options": [
       {
         "key": "A",
-        "text": "Based purely on the highest individual score in the group."
+        "text": "Reading, Writing, Listening, and Speaking."
       },
       {
         "key": "B",
-        "text": "By averaging the physical speed at which worksheets are submitted."
+        "text": "Memorizing, Reciting, Drilling, and Testing."
       },
       {
         "key": "C",
-        "text": "Based on individual improvement scores over prior baseline performances."
+        "text": "Defining, Translating, Copying, and Repeating."
       },
       {
         "key": "D",
-        "text": "By giving all groups a flat bonus score regardless of effort."
+        "text": "Predicting, Questioning, Clarifying, and Summarizing."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "STAD motivates all learners by awarding team points based on each member's individual improvement over their previous past averages, ensuring low-achievers and high-achievers contribute equally."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Reciprocal Teaching (Palincsar & Brown). Predicting, Questioning, Clarifying, and Summarizing. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 42,
-    "topicRef": "Questioning Techniques: Wait Time (Mary Budd Rowe)",
-    "question": "Research by Mary Budd Rowe proves that when a teacher increases 'Wait Time' after asking a question from 1 second to 3–5 seconds, which positive outcome occurs?",
+    "topicRef": "Teaching Strategies: Mind Mapping & Graphic Organizers",
+    "question": "Using a Venn diagram to compare and contrast Mitosis and Meiosis in biology is an effective instructional strategy because:",
     "options": [
       {
         "key": "A",
-        "text": "Higher cognitive quality of answers, more voluntary contributions, and fewer 'I don't know' responses."
+        "text": "It replaces laboratory experiments with 2D drawings."
       },
       {
         "key": "B",
-        "text": "Students forget the original question completely."
+        "text": "It guarantees a perfect score on standardized tests."
       },
       {
         "key": "C",
-        "text": "Student responses become shorter and less confident."
+        "text": "Visual graphic organizers help learners spatially organize relationships, similarities, and differences between concepts."
       },
       {
         "key": "D",
-        "text": "Classroom discipline breaks down due to prolonged silence."
+        "text": "It eliminates the need for students to read scientific textbooks."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Extending Wait Time (3-5 seconds) increases the length and complexity of student responses, encourages higher-order thinking, and significantly reduces failure to respond."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Mind Mapping & Graphic Organizers. Visual graphic organizers help learners spatially organize relationships, similarities, and differences between concepts. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 43,
-    "topicRef": "Questioning Techniques: Convergent vs Divergent",
-    "question": "Which of the following is an example of a Divergent Question designed to foster creative thinking?",
+    "topicRef": "Assessment in Pedagogy: Formative Assessment Techniques",
+    "question": "Which of the following is an authentic 'Formative Assessment' technique used DURING instruction to check for student understanding and adjust pacing?",
     "options": [
       {
         "key": "A",
-        "text": "'How many sides does a regular hexagon have?'"
+        "text": "A permanent letter grade recorded on the report card."
       },
       {
         "key": "B",
-        "text": "'What is the chemical symbol for gold?'"
+        "text": "'Exit Tickets' where students write a 1-sentence summary and 1 lingering question before leaving class."
       },
       {
         "key": "C",
-        "text": "'What would our modern society look like if electricity had never been invented?'"
+        "text": "A 100-item end-of-term standardized comprehensive exam."
       },
       {
         "key": "D",
-        "text": "'In what year was the Malolos Constitution ratified?'"
+        "text": "A final graduation research thesis defense."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Divergent (open-ended/HOTS) questions have multiple possible creative answers and prompt hypothetical thinking, whereas Convergent questions seek a single predetermined factual answer."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Assessment in Pedagogy: Formative Assessment Techniques. 'Exit Tickets' where students write a 1-sentence summary and 1 lingering question before leaving class. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 44,
-    "topicRef": "Classroom Questioning: Probing Questions",
-    "question": "When a student gives an incomplete or superficial answer, the teacher asks: 'What evidence can you cite from the text to support that claim?' This type of questioning is called:",
+    "topicRef": "Classroom Seating Arrangements & Pedagogy",
+    "question": "Which classroom seating arrangement is most effective for promoting small-group collaborative problem-solving and peer interaction?",
     "options": [
       {
         "key": "A",
-        "text": "Probing question"
+        "text": "Cluster / Pod seating (desks grouped in tables of 4 to 5 students)."
       },
       {
         "key": "B",
-        "text": "Rhetorical question"
+        "text": "Traditional straight rows facing forward (best for direct instruction/individual testing)."
       },
       {
         "key": "C",
-        "text": "Leading question"
+        "text": "Auditorium tiered seating facing a stage."
       },
       {
         "key": "D",
-        "text": "Prompting question"
+        "text": "Placing all desks facing the back wall."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A Probing Question pushes the learner to elaborate, clarify, justify, or provide evidence for their initial response, deepening cognitive depth."
+    "explanation": "This question evaluates teaching competence in Classroom Seating Arrangements & Pedagogy. Cluster / Pod seating (desks grouped in tables of 4 to 5 students). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 45,
-    "topicRef": "Instructional Scaffolding (Bruner/Vygotsky)",
-    "question": "What is the primary objective of Instructional Scaffolding in modern learner-centered teaching?",
+    "topicRef": "Culturally Responsive Pedagogy (Gay & Ladson-Billings)",
+    "question": "A teacher in an indigenous community integrates local epic folklore, traditional farming seasons, and community elders' knowledge into science and social studies. This exemplifies:",
     "options": [
       {
         "key": "A",
-        "text": "To provide permanent spoon-fed answers to struggling students."
+        "text": "Linguistic assimilationism."
       },
       {
         "key": "B",
-        "text": "To provide temporary structured support that is gradually withdrawn as student autonomy increases."
+        "text": "Ethnocentric standardization."
       },
       {
         "key": "C",
-        "text": "To test students on material they have never seen before."
+        "text": "Pedagogical deficit orientation."
       },
       {
         "key": "D",
-        "text": "To separate slow learners into isolated cubicles."
+        "text": "Culturally Responsive Teaching (connecting curriculum to learners' cultural knowledge and lived experiences)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Scaffolding (Jerome Bruner) provides temporary structured assistance within the student's Zone of Proximal Development that is systematically faded as the student gains mastery and independence."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Culturally Responsive Pedagogy (Gay & Ladson-Billings). Culturally Responsive Teaching (connecting curriculum to learners' cultural knowledge and lived experiences). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 46,
-    "topicRef": "Differentiated Instruction (Carol Ann Tomlinson)",
-    "question": "According to Carol Ann Tomlinson, teachers can differentiate instruction according to student readiness, interests, and learning profiles through which three core classroom elements?",
+    "topicRef": "Metacognitive Teaching: Thinking Aloud",
+    "question": "When a math teacher models problem-solving by verbalizing her internal thought processes, questions, and error-checking steps at the board, she is using:",
     "options": [
       {
         "key": "A",
-        "text": "Content, Process, and Product"
+        "text": "Behaviorist stimulus-response conditioning."
       },
       {
         "key": "B",
-        "text": "Attendance, Participation, and Homework"
+        "text": "Silent lecture delivery."
       },
       {
         "key": "C",
-        "text": "Reading, Writing, and Arithmetic"
+        "text": "Think-Aloud modeling to develop students' metacognitive self-monitoring."
       },
       {
         "key": "D",
-        "text": "Objectives, Evaluation, and Remediation"
+        "text": "Rote computational drill."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Tomlinson identifies Content (what students learn), Process (activities through which they make sense of ideas), and Product (how they demonstrate learning) as the three core modifiable elements."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Metacognitive Teaching: Thinking Aloud. Think-Aloud modeling to develop students' metacognitive self-monitoring. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 47,
-    "topicRef": "Universal Design for Learning (UDL)",
-    "question": "Which of the following represents the three core principles of Universal Design for Learning (UDL)?",
+    "topicRef": "Scaffolding in Pedagogy (Bruner & Vygotsky)",
+    "question": "Instructional 'Scaffolding' is best defined as:",
     "options": [
       {
         "key": "A",
-        "text": "Oral Recitation, Silent Reading, and Written Exams"
+        "text": "Assigning work that is far beyond a student's cognitive capability without assistance."
       },
       {
         "key": "B",
-        "text": "Multiple Means of Representation, Action & Expression, and Engagement"
+        "text": "Temporary supportive structures, cues, or guidance provided by the teacher that are gradually removed as the learner gains independence."
       },
       {
         "key": "C",
-        "text": "Single Curriculum, Single Textbook, and Strict Uniformity"
+        "text": "Permanent physical hand-holding throughout the entire school year."
       },
       {
         "key": "D",
-        "text": "Multiple Tests, Lectures, and Memorization drills"
+        "text": "Giving students the exact answers to exam questions in advance."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "UDL is built on three neuroscience-based principles: 1. Multiple Means of Representation ('what' of learning), 2. Multiple Means of Action and Expression ('how' of learning), and 3. Multiple Means of Engagement ('why' of learning)."
+    "explanation": "This question evaluates teaching competence in Scaffolding in Pedagogy (Bruner & Vygotsky). Temporary supportive structures, cues, or guidance provided by the teacher that are gradually removed as the learner gains independence. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 48,
-    "topicRef": "Think-Pair-Share Technique",
-    "question": "In Frank Lyman's 'Think-Pair-Share' collaborative learning strategy, what occurs during the 'Pair' phase?",
+    "topicRef": "Teaching Models: Ausubel's Meaningful Verbal Learning",
+    "question": "David Ausubel's theory asserts that meaningful learning occurs when new information is subsumed under existing cognitive structures using:",
     "options": [
       {
         "key": "A",
-        "text": "Students write a formal paired term paper."
+        "text": "Advance Organizers (introductory conceptual frameworks that bridge what learners know and what they need to know)."
       },
       {
         "key": "B",
-        "text": "Students argue until one student admits defeat."
+        "text": "Mechanical rote repetition drills."
       },
       {
         "key": "C",
-        "text": "Students discuss their initial individual ideas with a designated partner to compare and refine thoughts."
+        "text": "Random guessing without schema connection."
       },
       {
         "key": "D",
-        "text": "The teacher pairs up with the highest scorer in the class."
+        "text": "Continuous multiple-choice quizzes."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Think-Pair-Share begins with individual reflection (Think), followed by dialogue with a neighbor (Pair) to refine thinking, and concludes with sharing insights with the wider class (Share)."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Teaching Models: Ausubel's Meaningful Verbal Learning. Advance Organizers (introductory conceptual frameworks that bridge what learners know and what they need to know). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 49,
-    "topicRef": "Reciprocal Teaching (Palincsar & Brown)",
-    "question": "Reciprocal Teaching improves reading comprehension through structured student dialogue utilizing which four cognitive strategies?",
+    "topicRef": "Teaching Strategies: Role-Playing & Simulation",
+    "question": "In a history class, students reenact the Malolos Congress debates on the separation of Church and State, adopting the roles of historical delegates. This strategy promotes:",
     "options": [
       {
         "key": "A",
-        "text": "Lecturing, Testing, Grading, and Correcting"
+        "text": "Passive rote memorization of historical dates."
       },
       {
         "key": "B",
-        "text": "Memorizing, Copying, Highlighting, and Translating"
+        "text": "Silent individual study of encyclopedias."
       },
       {
         "key": "C",
-        "text": "Predicting, Questioning, Clarifying, and Summarizing"
+        "text": "Authoritarian recitation of textbook paragraphs."
       },
       {
         "key": "D",
-        "text": "Skimming, Scanning, Pronouncing, and Spelling"
+        "text": "Experiential empathy, active critical analysis, and perspective-taking through dramatic simulation."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Reciprocal Teaching (Palincsar & Brown) uses four active reading strategies: Predicting, Questioning Generating, Clarifying ambiguities, and Summarizing."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Role-Playing & Simulation. Experiential empathy, active critical analysis, and perspective-taking through dramatic simulation. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 50,
-    "topicRef": "Graphic Organizers: Venn Diagram",
-    "question": "Which graphic organizer is best suited for guiding learners to analyze the similarities and differences between Parliamentary and Presidential forms of government?",
+    "topicRef": "Teaching Strategies: Debates & Structured Controversy",
+    "question": "Using Structured Academic Controversy in the classroom encourages students to:",
     "options": [
       {
         "key": "A",
-        "text": "Venn Diagram"
+        "text": "Refuse to listen to any differing perspectives."
       },
       {
         "key": "B",
-        "text": "Fishbone Diagram (Ishikawa)"
+        "text": "Conform blindly to the teacher's personal political opinion."
       },
       {
         "key": "C",
-        "text": "KWL Chart"
+        "text": "Research both sides of an issue, present evidence systematically, listen to opposing arguments, and synthesize a consensus position."
       },
       {
         "key": "D",
-        "text": "Flowchart"
+        "text": "Engage in personal ad hominem insults against classmates."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "A Venn Diagram uses overlapping circles to visually depict distinct features (differences) and overlapping traits (similarities) between two or more concepts."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Debates & Structured Controversy. Research both sides of an issue, present evidence systematically, listen to opposing arguments, and synthesize a consensus position. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 51,
-    "topicRef": "Graphic Organizers: Fishbone / Ishikawa Diagram",
-    "question": "A social studies teacher wants students to map out the root causes and contributing factors leading to the fall of the Roman Empire. What visual organizer is most appropriate?",
+    "topicRef": "Classroom Climate: High Expectations (Pygmalion Effect)",
+    "question": "Rosenthal and Jacobson's 'Pygmalion Effect' research in education demonstrated that:",
     "options": [
       {
         "key": "A",
-        "text": "Pie Chart"
+        "text": "Classroom seating position determines 100% of student learning outcomes."
       },
       {
         "key": "B",
-        "text": "Story Map"
+        "text": "Teacher expectations function as self-fulfilling prophecies\u2014holding high, supportive expectations significantly boosts student academic performance."
       },
       {
         "key": "C",
-        "text": "Cause-and-Effect Fishbone Diagram"
+        "text": "Student intelligence is unchangeable regardless of teacher behavior."
       },
       {
         "key": "D",
-        "text": "Venn Diagram"
+        "text": "Low teacher expectations encourage students to work harder independently."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Fishbone Diagram (Ishikawa Diagram) is explicitly designed for root-cause analysis, displaying multiple contributing causal factors leading to a specific effect/problem."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Climate: High Expectations (Pygmalion Effect). Teacher expectations function as self-fulfilling prophecies\u2014holding high, supportive expectations significantly boosts student academic performance. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 52,
-    "topicRef": "KWL Chart in Reading & Inquiry",
-    "question": "What does the 'L' column represent in Donna Ogle's KWL Chart (Know, Want to Know, Learned)?",
+    "topicRef": "Feedback in Instruction (Hattie & Timperley)",
+    "question": "According to John Hattie and Helen Timperley, the most effective instructional feedback answers which three fundamental questions for the learner?",
     "options": [
       {
         "key": "A",
-        "text": "Lesson plans drafted by the teacher"
+        "text": "'Where am I going?' (Feed Up), 'How am I doing?' (Feed Back), and 'Where to next?' (Feed Forward)."
       },
       {
         "key": "B",
-        "text": "Logical errors committed in homework"
+        "text": "'What grade did I get?', 'Who scored higher than me?', and 'When is vacation?'"
       },
       {
         "key": "C",
-        "text": "What new knowledge or insights the learner has gained after the lesson"
+        "text": "'Why did you fail?', 'Who made this mistake?', and 'What is the penalty?'"
       },
       {
         "key": "D",
-        "text": "Language difficulties observed during reading"
+        "text": "'How much does this test cost?', 'Where is the school office?', and 'Who is the principal?'"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "In a KWL Chart: K = What I Know (prior knowledge), W = What I Want to know (inquiry questions), L = What I Learned (new knowledge gained after reading/instruction)."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Feedback in Instruction (Hattie & Timperley). 'Where am I going?' (Feed Up), 'How am I doing?' (Feed Back), and 'Where to next?' (Feed Forward). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 53,
-    "topicRef": "Socratic Method & Dialectic",
-    "question": "The classic Socratic Method of teaching relies primarily on which instructional mechanism?",
+    "topicRef": "Feedback: Formative vs Praise",
+    "question": "A teacher writes on a student's essay: 'Good job!' versus 'Your thesis is clear, but paragraph 3 needs concrete historical evidence to support your claim on economic causes.' Why is the second comment superior?",
     "options": [
       {
         "key": "A",
-        "text": "Rote memorization of religious verses"
+        "text": "Because 'Good job!' damages student self-esteem."
       },
       {
         "key": "B",
-        "text": "Monologue lecture from an authoritative expert"
+        "text": "Because longer comments are legally mandated by DepEd orders."
       },
       {
         "key": "C",
-        "text": "Disciplined, probing questioning and dialectical dialogue to expose contradictions and elicit underlying truths"
+        "text": "Because critical comments lower student stress levels."
       },
       {
         "key": "D",
-        "text": "Unstructured sensory motor play"
+        "text": "It provides specific, actionable, task-level descriptive feedback that guides tangible improvement."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Socratic Method employs rigorous, disciplined questioning to challenge assumptions, expose logical fallacies, and guide the learner toward discovering truths."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Feedback: Formative vs Praise. It provides specific, actionable, task-level descriptive feedback that guides tangible improvement. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 54,
-    "topicRef": "Flipped Classroom Model",
-    "question": "In a 'Flipped Classroom' instructional model, when do students typically encounter direct instructional lectures or readings?",
+    "topicRef": "Classroom Management: Proximity Control",
+    "question": "When Teacher Carlos notices two students whispering and off-task during independent seatwork, he calmly walks over and stands near their desks while continuing to assist others. This technique is:",
     "options": [
       {
         "key": "A",
-        "text": "Independently at home before class via video/readings, reserving synchronous classroom time for active problem-solving and projects."
+        "text": "Sarcastic humiliation."
       },
       {
         "key": "B",
-        "text": "During recess under teacher supervision."
+        "text": "Sending students to detention immediately."
       },
       {
         "key": "C",
-        "text": "Only after failing a quarterly assessment."
+        "text": "Proximity Control (using physical presence non-verbally to redirect behavior without disrupting instruction)."
       },
       {
         "key": "D",
-        "text": "Exclusively during class time while homework is eliminated."
+        "text": "Authoritarian public scolding."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Flipped Classroom inverts traditional teaching: students absorb direct instruction (videos, readings) at home at their own pace, while classroom time is repurposed for collaborative, higher-order problem-solving."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Proximity Control. Proximity Control (using physical presence non-verbally to redirect behavior without disrupting instruction). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 55,
-    "topicRef": "Mastery Learning (Benjamin Bloom)",
-    "question": "Benjamin Bloom's Mastery Learning model is based on which fundamental pedagogical premise?",
+    "topicRef": "Classroom Management: Non-Verbal Cues",
+    "question": "A teacher maintains eye contact, smiles, and uses a gentle open-palm gesture to invite a hesitant student to share an idea. This demonstrates:",
     "options": [
       {
         "key": "A",
-        "text": "Teachers should move to new topics regardless of whether students understand prior prerequisites."
+        "text": "Inappropriate classroom boundary crossing."
       },
       {
         "key": "B",
-        "text": "Students should be grouped strictly according to IQ scores from birth."
+        "text": "Positive non-verbal communication that fosters psychological safety and encourages risk-taking in learning."
       },
       {
         "key": "C",
-        "text": "Virtually all students can master learning objectives if given sufficient time, formative feedback, and appropriate corrective instruction."
+        "text": "Aggressive non-verbal dominance that intimidates students."
       },
       {
         "key": "D",
-        "text": "Only the top 10% of students possess the biological capability to master academic content."
+        "text": "Passive indifference to student learning."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Mastery Learning asserts that given proper learning conditions, customized pacing, formative assessments, and corrective interventions, almost all students can achieve high mastery (typically 80-90%)."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Non-Verbal Cues. Positive non-verbal communication that fosters psychological safety and encourages risk-taking in learning. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 56,
-    "topicRef": "Classroom Discipline: Ginott Congruent Communication",
-    "question": "Haim Ginott's 'Congruent Communication' advises teachers to address which aspect of the student when correcting classroom misbehavior?",
+    "topicRef": "Instructional Technology Integration: SAMR Model",
+    "question": "A teacher transitions from having students write essays on paper to having them collaborate simultaneously on a shared Google Doc with peer comments and embedded multimedia. In the SAMR model, this reaches:",
     "options": [
       {
         "key": "A",
-        "text": "Public comparison with top-performing classmates."
+        "text": "Modification / Redefinition (significant task redesign and collaborative transformation)."
       },
       {
         "key": "B",
-        "text": "Sarcastic remarks in front of peers to deter future disobedience."
+        "text": "Substitution only (direct tech replacement with no functional change)."
       },
       {
         "key": "C",
-        "text": "Address the specific misbehavior and the situation, without attacking the student's character or personality."
+        "text": "Augmentation only."
       },
       {
         "key": "D",
-        "text": "Strict silent treatment until parents are called."
+        "text": "Elimination."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Ginott emphasized 'sane messages' and 'congruent communication': accept and acknowledge feelings, describe the situation and expected action, and never label, insult, or attack the child's character."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Instructional Technology Integration: SAMR Model. Modification / Redefinition (significant task redesign and collaborative transformation). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 57,
-    "topicRef": "Classroom Discipline: Canter Assertive Discipline",
-    "question": "Lee and Marlene Canter's 'Assertive Discipline' model emphasizes that effective teachers:",
+    "topicRef": "Teaching Competencies: Literacy across the Curriculum",
+    "question": "Under PPST Indicator 1.4.2, teachers must display proficiency in integrating literacy across learning areas. In a physical education class, this is achieved by:",
     "options": [
       {
         "key": "A",
-        "text": "Allow students to do whatever they want without boundaries."
+        "text": "Forcing students to memorize spelling words while doing pushups."
       },
       {
         "key": "B",
-        "text": "Clearly establish rules, consistently enforce pre-determined positive and negative consequences, and assert their right to teach."
+        "text": "Replacing all physical exercise with silent grammar reading."
       },
       {
         "key": "C",
-        "text": "Never praise students to avoid making them conceited."
+        "text": "Ignoring all verbal communication during sports activities."
       },
       {
         "key": "D",
-        "text": "Rely exclusively on physical punishments to maintain order."
+        "text": "Having students analyze sports rulebooks, write tactical game reflections, and explain biomechanical principles using academic terminology."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Assertive Discipline advocates establishing clear limits, expectations, and a systematic discipline hierarchy with calm, consistent enforcement and positive reinforcement."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Teaching Competencies: Literacy across the Curriculum. Having students analyze sports rulebooks, write tactical game reflections, and explain biomechanical principles using academic terminology. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 58,
-    "topicRef": "Classroom Discipline: Glasser Choice Theory",
-    "question": "According to William Glasser's Choice Theory / Reality Therapy, all human behavior is an attempt to satisfy which five basic psychological needs?",
+    "topicRef": "Teaching Competencies: Numeracy across the Curriculum",
+    "question": "In a secondary Social Studies class studying the Industrial Revolution, the teacher integrates numeracy by:",
     "options": [
       {
         "key": "A",
-        "text": "Obedience, Conformity, Silence, Subjugation, and Fear"
+        "text": "Eliminating all historical discussions in favor of basic arithmetic drills."
       },
       {
         "key": "B",
-        "text": "Money, Fame, Grades, Certificates, and Medals"
+        "text": "Having students calculate the physical weight of textbooks."
       },
       {
         "key": "C",
-        "text": "Survival, Love & Belonging, Power (Competence), Freedom, and Fun"
+        "text": "Guiding students to analyze demographic growth charts, interpret wage vs inflation graphs, and calculate percentage changes in urban populations."
       },
       {
         "key": "D",
-        "text": "Food, Water, Shelter, Sleep, and Clothing"
+        "text": "Requiring students to solve quadratic algebraic formulas without historical context."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Glasser posits that all human choices strive to meet five internal needs: 1. Survival, 2. Love and Belonging, 3. Power (Inner control/self-worth), 4. Freedom (Autonomy), and 5. Fun."
+    "explanation": "This question evaluates teaching competence in Teaching Competencies: Numeracy across the Curriculum. Guiding students to analyze demographic growth charts, interpret wage vs inflation graphs, and calculate percentage changes in urban populations. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 59,
-    "topicRef": "Jones Positive Classroom Discipline",
-    "question": "Fredric Jones emphasizes that teachers can prevent 90% of classroom disruptions through body language, physical proximity, and 'Say, See, Do Teaching'. This is known as:",
+    "topicRef": "Pedagogical Models: 4As Instructional Framework",
+    "question": "The widely used 4As Lesson Framework in Philippine basic education follows which systematic learning flow?",
     "options": [
       {
         "key": "A",
-        "text": "Isolated Confinement"
+        "text": "Acquisition, Assimilation, Adaptation, and Alignment."
       },
       {
         "key": "B",
-        "text": "Punitive Enforcement"
+        "text": "Activity, Analysis, Abstraction, and Application."
       },
       {
         "key": "C",
-        "text": "Withdrawn Supervision"
+        "text": "Attention, Assessment, Action, and Achievement."
       },
       {
         "key": "D",
-        "text": "Positive Classroom Discipline"
+        "text": "Aim, Approach, Assignment, and Appreciation."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Fred Jones' Positive Classroom Discipline highlights efficient classroom arrangement (interior loops), effective body language, 'Say, See, Do Teaching', and Preferred Activity Time (PAT)."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Pedagogical Models: 4As Instructional Framework. Activity, Analysis, Abstraction, and Application. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 60,
-    "topicRef": "Gagne Nine Events of Instruction",
-    "question": "What is the very first step in Robert Gagne's Nine Events of Instruction?",
+    "topicRef": "Pedagogical Framework: 4As (Abstraction Phase)",
+    "question": "During the 'Abstraction' phase of the 4As lesson plan, the teacher and learners:",
     "options": [
       {
         "key": "A",
-        "text": "Gaining Attention (Reception)"
+        "text": "Synthesize concepts, formulate general principles, and clarify the core generalizations derived from the analysis."
       },
       {
         "key": "B",
-        "text": "Stimulating Recall of Prior Learning"
+        "text": "Perform an icebreaker game without discussion."
       },
       {
         "key": "C",
-        "text": "Informing Learners of the Objective"
+        "text": "Take a 50-item multiple-choice final examination."
       },
       {
         "key": "D",
-        "text": "Presenting the Stimulus"
+        "text": "Pack their bags and prepare to leave the classroom."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Gagne's Nine Events begin with: 1. Gain Attention -> 2. Inform learners of objectives -> 3. Stimulate recall of prior learning -> 4. Present the content -> 5. Provide learning guidance, etc."
+    "explanation": "This question evaluates teaching competence in Pedagogical Framework: 4As (Abstraction Phase). Synthesize concepts, formulate general principles, and clarify the core generalizations derived from the analysis. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 61,
-    "topicRef": "Gagne Nine Events of Instruction",
-    "question": "When Teacher Rose asks students to recall the water cycle before introducing cloud formation, which Gagne Event of Instruction is she executing?",
+    "topicRef": "Classroom Management: Group Alerting (Kounin)",
+    "question": "A teacher asks a challenging question to the entire class, pauses for everyone to think, and then calls on a student at random. In Kounin's terms, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Event 3: Stimulating Recall of Prior Learning"
+        "text": "Unstructured calling out."
       },
       {
         "key": "B",
-        "text": "Event 1: Gaining Attention"
+        "text": "Targeting and intimidation."
       },
       {
         "key": "C",
-        "text": "Event 9: Enhancing Retention and Transfer"
+        "text": "Flip-flopping."
       },
       {
         "key": "D",
-        "text": "Event 7: Providing Feedback"
+        "text": "Group Alerting (keeping all students cognitively active and accountable before selecting a speaker)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Event 3 is 'Stimulating Recall of Prior Learning', connecting newly presented concepts to relevant existing schema in long-term memory."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Group Alerting (Kounin). Group Alerting (keeping all students cognitively active and accountable before selecting a speaker). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 62,
-    "topicRef": "Dale Cone of Experience",
-    "question": "According to Edgar Dale's Cone of Experience, which learning modality provides the highest sensory richness and retention rate for learners?",
+    "topicRef": "Classroom Management: Accountability (Kounin)",
+    "question": "Having all students hold up individual whiteboards with their worked-out math answers simultaneously is an example of:",
     "options": [
       {
         "key": "A",
-        "text": "Visual Symbols (Charts and diagrams)"
+        "text": "Over-dwelling on minor details."
       },
       {
         "key": "B",
-        "text": "Direct Purposeful Experiences (Hands-on real-world doing)"
+        "text": "Negative behavioral sanction."
       },
       {
         "key": "C",
-        "text": "Radio Recordings"
+        "text": "High learner accountability and active participation check."
       },
       {
         "key": "D",
-        "text": "Verbal Symbols (Reading and hearing words)"
+        "text": "Passive seatwork surveillance."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Direct, Purposeful Experiences sit at the broad base of Dale's Cone, offering direct multi-sensory hands-on engagement with real objects and contexts."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Accountability (Kounin). High learner accountability and active participation check. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 63,
-    "topicRef": "Dale Cone of Experience",
-    "question": "In Dale's Cone of Experience, which sits at the very pinnacle (most abstract level)?",
+    "topicRef": "Instructional Materials: Dale's Cone (Demonstrations)",
+    "question": "When a science teacher demonstrates the dissection of a flower under a document camera before students perform it, in Dale's Cone this is a:",
     "options": [
       {
         "key": "A",
-        "text": "Demonstrations"
+        "text": "Direct purposeful experience."
       },
       {
         "key": "B",
-        "text": "Dramatized Experiences"
+        "text": "Demonstration (visual and procedural modeling)."
       },
       {
         "key": "C",
-        "text": "Verbal Symbols"
+        "text": "Verbal symbol."
       },
       {
         "key": "D",
-        "text": "Direct Purposeful Experiences"
+        "text": "Abstract symbol."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Verbal Symbols (abstract text and words) sit at the pinnacle of the cone because they bear no physical resemblance to the concepts they symbolize."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Instructional Materials: Dale's Cone (Demonstrations). Demonstration (visual and procedural modeling). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 64,
-    "topicRef": "Constructivist Teaching Principles",
-    "question": "Which pedagogical practice is most aligned with Constructivist Learning Theory (Jean Piaget & Lev Vygotsky)?",
+    "topicRef": "21st Century Pedagogies: Gamification in Education",
+    "question": "In pedagogical design, 'Gamification' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Students memorize verbatim definitions from a single official textbook."
+        "text": "Applying game-design elements (such as points, badges, leaderboards, and quest-based challenges) in educational contexts to boost intrinsic motivation and engagement."
       },
       {
         "key": "B",
-        "text": "The teacher speaks for 60 minutes uninterrupted while students take silent notes."
+        "text": "Playing commercial action video games in class without learning objectives."
       },
       {
         "key": "C",
-        "text": "Students actively construct meaning by integrating new experiences with prior knowledge through social collaboration and hands-on tasks."
+        "text": "Replacing all academic curriculum with esports competitions."
       },
       {
         "key": "D",
-        "text": "Grading is based exclusively on multiple-choice recall tests."
+        "text": "Gambling with monetary stakes during classroom quizzes."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Constructivism posits that learners are active builders of knowledge, assimilating and accommodating new information through social interaction and authentic problem-solving."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in 21st Century Pedagogies: Gamification in Education. Applying game-design elements (such as points, badges, leaderboards, and quest-based challenges) in educational contexts to boost intrinsic motivation and engagement. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 65,
-    "topicRef": "Cognitive Apprenticeship Model (Collins, Brown, Newman)",
-    "question": "In the Cognitive Apprenticeship Model, what technique involves the teacher thinking aloud while solving a problem so students can observe the internal cognitive processes?",
+    "topicRef": "Pedagogical Models: Kolb's Experiential Learning Cycle",
+    "question": "David Kolb's Experiential Learning Cycle structures learning through four sequential stages:",
     "options": [
       {
         "key": "A",
-        "text": "Fading"
+        "text": "Input, Storage, Retrieval, and Output."
       },
       {
         "key": "B",
-        "text": "Coaching"
+        "text": "Remembering, Understanding, Applying, and Creating."
       },
       {
         "key": "C",
-        "text": "Modeling"
+        "text": "Stimulus, Response, Conditioning, and Extinction."
       },
       {
         "key": "D",
-        "text": "Scaffolding"
+        "text": "Concrete Experience, Reflective Observation, Abstract Conceptualization, and Active Experimentation."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Modeling in cognitive apprenticeship involves an expert demonstrating a task while explicitly verbalizing their internal cognitive strategies and reasoning steps."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates teaching competence in Pedagogical Models: Kolb's Experiential Learning Cycle. Concrete Experience, Reflective Observation, Abstract Conceptualization, and Active Experimentation. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 66,
-    "topicRef": "Metacognitive Teaching Strategies",
-    "question": "Teacher Leo requires students to complete 'Exit Tickets' answering: 'What was the most difficult concept today, and what strategy did you use to understand it?' This practice develops:",
+    "topicRef": "Differentiated Instruction: Learning Stations / Centers",
+    "question": "Setting up classroom stations where students rotate between independent reading, hands-on experimentation, digital simulations, and teacher-led conferences is an example of:",
     "options": [
       {
         "key": "A",
-        "text": "Sensory register duration"
+        "text": "Standardized tracking of low-performing students."
       },
       {
         "key": "B",
-        "text": "Metacognition (Self-regulated learning)"
+        "text": "Punitive isolation centers."
       },
       {
         "key": "C",
-        "text": "Operant Conditioning"
+        "text": "Learning Stations / Centers for differentiated instructional delivery."
       },
       {
         "key": "D",
-        "text": "Rote Recall"
+        "text": "Rigid whole-group lecture instruction."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Metacognition ('thinking about one's own thinking') involves self-monitoring, assessing comprehension difficulties, and evaluating learning strategies."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Differentiated Instruction: Learning Stations / Centers. Learning Stations / Centers for differentiated instructional delivery. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 67,
-    "topicRef": "Direct vs Indirect: Expository Method",
-    "question": "When is the Expository / Deductive Teaching Method most efficient and justifiable in the classroom?",
+    "topicRef": "Classroom Rules: Positive Phrasing",
+    "question": "Educational psychology recommends that classroom rules should be phrased positively (e.g., 'Walk safely in the hallway') rather than negatively (e.g., 'Do not run') because:",
     "options": [
       {
         "key": "A",
-        "text": "When conducting open-ended scientific investigations."
+        "text": "Positively stated rules eliminate the need for teacher supervision."
       },
       {
         "key": "B",
-        "text": "When students are evaluating moral dilemmas."
+        "text": "Positively stated rules clearly describe the desired expected behavior and foster a supportive climate."
       },
       {
         "key": "C",
-        "text": "When fostering creative divergent poetry writing."
+        "text": "Negative rules are illegal under DepEd orders."
       },
       {
         "key": "D",
-        "text": "When teaching complex, factual background information or emergency safety protocols within limited time."
+        "text": "Students cannot understand words with the letter 'N'."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Expository/Direct instruction is highly efficient for introducing foundational facts, clear procedural rules, and vital safety guidelines in a structured, time-effective manner."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Rules: Positive Phrasing. Positively stated rules clearly describe the desired expected behavior and foster a supportive climate. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 68,
-    "topicRef": "Classroom Transitions Management",
-    "question": "To ensure seamless transitions between activities and avoid loss of instructional time, effective teachers should:",
+    "topicRef": "Teaching Strategies: Gallery Walk",
+    "question": "In a 'Gallery Walk' instructional activity, students:",
     "options": [
       {
         "key": "A",
-        "text": "Let students roam freely for 10 minutes between every lesson."
+        "text": "Display their group project posters on classroom walls and rotate in teams to examine, analyze, and leave constructive sticky-note feedback on peers' work."
       },
       {
         "key": "B",
-        "text": "Establish clear transition routines, use visual/auditory cues, and prepare materials in advance."
+        "text": "Visit a commercial art museum in another city."
       },
       {
         "key": "C",
-        "text": "Demand complete silence without providing instructions for what to do next."
+        "text": "Sit in their chairs while the teacher displays museum slides."
       },
       {
         "key": "D",
-        "text": "Start passing out papers only after the previous activity has completely stopped."
+        "text": "Take a written essay examination in silence."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Smooth transitions require explicit routines, advance staging of instructional materials, and predictable cues to maintain momentum and student engagement."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Gallery Walk. Display their group project posters on classroom walls and rotate in teams to examine, analyze, and leave constructive sticky-note feedback on peers' work. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 69,
-    "topicRef": "Higher-Order Questioning Skills",
-    "question": "Which of the following questions is formulated at the 'Evaluating' level of cognitive processing?",
+    "topicRef": "Teaching Strategies: Socratic Seminars (Fishbowl)",
+    "question": "In an inner-outer circle 'Fishbowl' discussion, the inner circle students engage in dialogue on a text while the outer circle students:",
     "options": [
       {
         "key": "A",
-        "text": "'Who was the primary author of the Declaration of Independence?'"
+        "text": "Sleep or study for another subject."
       },
       {
         "key": "B",
-        "text": "'Calculate the speed of a projectile given initial velocity and launch angle.'"
+        "text": "Interrupt the inner circle by shouting corrections."
       },
       {
         "key": "C",
-        "text": "'Can you summarize the main argument of the author in one paragraph?'"
+        "text": "Leave the classroom to go to the canteen."
       },
       {
         "key": "D",
-        "text": "'Do you agree with the Supreme Court ruling on this case? Justify your stance based on constitutional principles.'"
+        "text": "Actively listen, observe discussion dynamics, track arguments, and take notes before rotating into the inner circle."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Evaluating requires making judgments based on criteria and standards, defending a position, and critiquing arguments based on evidence."
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Socratic Seminars (Fishbowl). Actively listen, observe discussion dynamics, track arguments, and take notes before rotating into the inner circle. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 70,
-    "topicRef": "Active Learning Strategies: 4 Corners",
-    "question": "In the 'Four Corners' active learning strategy, students physically move to labeled corners of the room (Strongly Agree, Agree, Disagree, Strongly Disagree) based on a debate prompt. What is the primary benefit of this technique?",
+    "topicRef": "Pedagogical Principles: Universal Design for Learning (UDL)",
+    "question": "The three core principles of Universal Design for Learning (UDL) mandate providing multiple means of:",
     "options": [
       {
         "key": "A",
-        "text": "It ensures all students choose the exact same answer."
+        "text": "Classroom lighting, Room temperature, and Seating height."
       },
       {
         "key": "B",
-        "text": "It serves as a formal paper-and-pencil summative test."
+        "text": "School budgeting, Teacher hiring, and Facility maintenance."
       },
       {
         "key": "C",
-        "text": "It combines kinesthetic movement with critical opinion formation and oral defense."
+        "text": "Representation (how content is presented), Action & Expression (how learners demonstrate knowledge), and Engagement (how learners are motivated)."
       },
       {
         "key": "D",
-        "text": "It eliminates the need for the teacher to be in the classroom."
+        "text": "Textbook printing, Standardized testing, and Letter grading."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Four Corners engages bodily-kinesthetic learning, forces students to commit to a stance on controversial issues, and encourages peer verbal argumentation."
+    "explanation": "This question evaluates teaching competence in Pedagogical Principles: Universal Design for Learning (UDL). Representation (how content is presented), Action & Expression (how learners demonstrate knowledge), and Engagement (how learners are motivated). represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 71,
-    "topicRef": "Peer Tutoring & Cross-Age Tutoring",
-    "question": "Research on Peer Tutoring shows which documented pedagogical advantage?",
+    "topicRef": "Classroom Management: Restorative Justice Practices",
+    "question": "When a conflict occurs between two students, a teacher using 'Restorative Justice' approaches the situation by:",
     "options": [
       {
         "key": "A",
-        "text": "It creates permanent antagonism between students."
+        "text": "Ignoring the conflict and telling students to fight outside school."
       },
       {
         "key": "B",
-        "text": "Only the tutee benefits while the tutor wastes their study time."
+        "text": "Bringing the involved parties together in a guided dialogue to understand harm, repair relationships, and restore community trust."
       },
       {
         "key": "C",
-        "text": "Both the tutor and tutee gain deeper cognitive mastery and positive academic self-concept."
+        "text": "Immediately issuing automatic suspensions without hearing both sides."
       },
       {
         "key": "D",
-        "text": "It violates child labor protection laws."
+        "text": "Publicly shaming the offending student on the school stage."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Peer tutoring produces mutual benefits: tutees receive individualized scaffolding from a peer, while tutors solidify and deepen their own understanding by explaining concepts ('teaching is learning twice')."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates teaching competence in Classroom Management: Restorative Justice Practices. Bringing the involved parties together in a guided dialogue to understand harm, repair relationships, and restore community trust. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 72,
-    "topicRef": "Inquiry Cycle: 5E Instructional Model",
-    "question": "Which of the following correctly orders the phases in the 5E Instructional Model (Bybee)?",
+    "topicRef": "Teaching Models: Inquiry-Based Learning Levels (Banchi & Bell)",
+    "question": "In 'Open Inquiry' (the highest level of inquiry learning), students are responsible for:",
     "options": [
       {
         "key": "A",
-        "text": "Evaluate -> Explain -> Engage -> Explore -> Elaborate"
+        "text": "Formulating their own research questions, designing the experimental procedure, and analyzing results with minimal teacher guidance."
       },
       {
         "key": "B",
-        "text": "Elaborate -> Evaluate -> Engage -> Explore -> Explain"
+        "text": "Following a step-by-step cookbook laboratory manual where all outcomes are predetermined."
       },
       {
         "key": "C",
-        "text": "Engage -> Explore -> Explain -> Elaborate -> Evaluate"
+        "text": "Listening to a teacher lecture on chemistry equations."
       },
       {
         "key": "D",
-        "text": "Explore -> Engage -> Evaluate -> Explain -> Elaborate"
+        "text": "Copying scientific definitions from an encyclopedia."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The 5E Model progresses through: 1. Engage (spark curiosity) -> 2. Explore (hands-on investigation) -> 3. Explain (concept clarification) -> 4. Elaborate (apply in new contexts) -> 5. Evaluate (assess understanding)."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates teaching competence in Teaching Models: Inquiry-Based Learning Levels (Banchi & Bell). Formulating their own research questions, designing the experimental procedure, and analyzing results with minimal teacher guidance. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 73,
-    "topicRef": "Constructive Alignment (John Biggs)",
-    "question": "John Biggs' concept of 'Constructive Alignment' in instructional design requires strict coherence between which three elements?",
+    "topicRef": "Teaching Strategies: Peer Tutoring",
+    "question": "Research on 'Cross-Age Peer Tutoring' demonstrates that:",
     "options": [
       {
         "key": "A",
-        "text": "Textbook brand, Whiteboard marker color, and Room temperature"
+        "text": "Only the tutee benefits, while the tutor loses valuable study time."
       },
       {
         "key": "B",
-        "text": "Intended Learning Outcomes (ILOs), Teaching-Learning Activities (TLAs), and Assessment Tasks (ATs)"
+        "text": "Peer tutoring causes severe behavioral conflicts in 100% of cases."
       },
       {
         "key": "C",
-        "text": "Teacher salary, Student attendance, and PTA donations"
+        "text": "Tutors should replace licensed teachers in the classroom."
       },
       {
         "key": "D",
-        "text": "Tuition fee, School uniform, and Campus location"
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Constructive Alignment (Biggs) demands that what we intend students to learn (ILOs) directly guides the instructional tasks we organize (TLAs) and matches how we evaluate their mastery (ATs)."
-  },
-  {
-    "id": 74,
-    "topicRef": "Zone of Proximal Development (ZPD)",
-    "question": "Lev Vygotsky's Zone of Proximal Development (ZPD) is defined as the gap between:",
-    "options": [
-      {
-        "key": "A",
-        "text": "The school budget and actual classroom expenditures."
-      },
-      {
-        "key": "B",
-        "text": "The first grade level and the twelfth grade level."
-      },
-      {
-        "key": "C",
-        "text": "A student's chronological age and their biological mental age."
-      },
-      {
-        "key": "D",
-        "text": "What a learner can do independently and what they can achieve with guidance from a More Knowledgeable Other (MKO)."
+        "text": "Both the tutor and the tutee make significant academic and social-emotional gains through cognitive restructuring and reinforcement."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "ZPD represents the fertile learning zone between a child's actual developmental level (independent problem solving) and potential development (problem solving under adult guidance or peer collaboration)."
+    "explanation": "This question evaluates teaching competence in Teaching Strategies: Peer Tutoring. Both the tutor and the tutee make significant academic and social-emotional gains through cognitive restructuring and reinforcement. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
-    "id": 75,
-    "topicRef": "Authentic Pedagogy & Transfer of Learning",
-    "question": "Which of the following classroom learning tasks best exemplifies 'Positive Far Transfer' of learning?",
+    "id": 74,
+    "topicRef": "Assessment for Learning: Rubric Types (Analytic vs Holistic)",
+    "question": "Why is an 'Analytic Rubric' (which scores individual criteria like Organization, Evidence, Mechanics separately) more pedagogically useful for formative feedback than a 'Holistic Rubric'?",
     "options": [
       {
         "key": "A",
-        "text": "A student memorizes the exact multiplication table for 7."
+        "text": "It assigns a single general letter grade without explanation."
       },
       {
         "key": "B",
-        "text": "A student uses mathematical principles of ratio, proportion, and unit pricing learned in class to smartly budget and manage a family grocery shopping trip."
+        "text": "It eliminates the need for students to write essays."
       },
       {
         "key": "C",
-        "text": "A student copies a poem from the blackboard onto their notebook."
+        "text": "It provides detailed diagnostic feedback identifying specific areas of strength and precise areas needing improvement."
       },
       {
         "key": "D",
-        "text": "A student repeats a memorized speech without knowing the meaning of the words."
+        "text": "It takes zero time for teachers to design and grade."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This question evaluates teaching competence in Assessment for Learning: Rubric Types (Analytic vs Holistic). It provides detailed diagnostic feedback identifying specific areas of strength and precise areas needing improvement. represents standard pedagogical best practice and DepEd/PPST policy."
+  },
+  {
+    "id": 75,
+    "topicRef": "Professional Reflection: Schon's Reflective Practice",
+    "question": "Donald Schon distinguished between 'Reflection-in-Action' and 'Reflection-on-Action'. 'Reflection-in-Action' occurs when a teacher:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Attends a weekend professional development seminar."
+      },
+      {
+        "key": "B",
+        "text": "Critically monitors, assesses, and adjusts instructional delivery and pacing IN REAL-TIME while teaching a lesson."
+      },
+      {
+        "key": "C",
+        "text": "Writes a post-lesson reflection in a journal hours after school ends."
+      },
+      {
+        "key": "D",
+        "text": "Reads educational research textbooks during vacation."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Far Transfer occurs when learners apply abstract knowledge and problem-solving skills learned in one domain to novel, authentic, real-world contexts and situations."
+    "explanation": "This question evaluates teaching competence in Professional Reflection: Schon's Reflective Practice. Critically monitors, assesses, and adjusts instructional delivery and pacing IN REAL-TIME while teaching a lesson. represents standard pedagogical best practice and DepEd/PPST policy."
   }
 ];

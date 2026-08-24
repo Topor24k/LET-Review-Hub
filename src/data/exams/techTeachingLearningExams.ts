@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "ICT Competency Standards (ICT-CFT)",
-    "question": "Under the UNESCO ICT Competency Framework for Teachers (ICT-CFT), which stage represents the highest level of ICT integration where teachers and students collaboratively design innovative solutions to community and global challenges?",
+    "topicRef": "TPACK Framework: Core Components (Mishra & Koehler)",
+    "question": "The Technological Pedagogical Content Knowledge (TPACK) framework posits that effective classroom technology integration requires the dynamic intersection of which three core knowledge bodies?",
     "options": [
       {
         "key": "A",
-        "text": "Technology Literacy"
+        "text": "Curriculum Knowledge, Administrative Knowledge, and Legal Knowledge."
       },
       {
         "key": "B",
-        "text": "Knowledge Deepening"
+        "text": "Hardware Knowledge, Software Knowledge, and Network Knowledge."
       },
       {
         "key": "C",
-        "text": "Digital Awareness"
+        "text": "Psychological Knowledge, Sociological Knowledge, and Anthropological Knowledge."
       },
       {
         "key": "D",
-        "text": "Knowledge Creation"
+        "text": "Content Knowledge (CK), Pedagogical Knowledge (PK), and Technological Knowledge (TK)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The UNESCO ICT-CFT comprises three progressive approaches: 1. Technology Literacy (basic ICT skills), 2. Knowledge Deepening (applying ICT to complex real problems), and 3. Knowledge Creation (highest level: creating new knowledge, innovations, and self-directed lifelong learning)."
+    "explanation": "Mishra and Koehler's TPACK framework models the complex interplay of Content Knowledge (subject matter), Pedagogical Knowledge (teaching methods), and Technological Knowledge (digital tools)."
   },
   {
     "id": 2,
-    "topicRef": "ICT-CFT Domains",
-    "question": "Which domain of the Philippine ICT Competency Standards for Pre-Service Teachers focuses on understanding ICT policies, safety guidelines, and national legal frameworks governing educational technology?",
+    "topicRef": "TPACK Framework: Technological Content Knowledge (TCK)",
+    "question": "A biology teacher understands how specialized 3D molecular simulation software transforms and represents protein folding concepts that cannot be shown in 2D textbooks. In TPACK, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Domain 1: Understanding ICT in Education"
+        "text": "Technological Pedagogical Knowledge (TPK)."
       },
       {
         "key": "B",
-        "text": "Domain 3: Pedagogy"
+        "text": "Technological Knowledge (TK) only."
       },
       {
         "key": "C",
-        "text": "Domain 4: Technology Tools"
+        "text": "Technological Content Knowledge (TCK)."
       },
       {
         "key": "D",
-        "text": "Domain 2: Curriculum and Assessment"
+        "text": "Pedagogical Content Knowledge (PCK)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Domain 1 focuses on Understanding ICT in Education, including national ICT policies, safety, legal frameworks, and digital equity in Philippine schooling."
+    "correctAnswer": "C",
+    "explanation": "TCK is understanding how technology and content influence and constrain one another\u2014how specific technological tools can represent and transform specific subject-matter concepts."
   },
   {
     "id": 3,
-    "topicRef": "TPACK Framework (Mishra & Koehler)",
-    "question": "In the TPACK framework developed by Punya Mishra and Matthew Koehler, what is the intersection called when a teacher knows the subject matter concepts AND understands the specific pedagogical strategies best suited to teach that particular content, regardless of technology?",
+    "topicRef": "TPACK Framework: Technological Pedagogical Knowledge (TPK)",
+    "question": "A teacher knows how to use an online collaborative whiteboard (e.g., Jamboard/Padlet) to facilitate small-group brainstorming across diverse subjects, regardless of topic. In TPACK, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Technological Pedagogical Knowledge (TPK)"
+        "text": "Pedagogical Content Knowledge (PCK)."
       },
       {
         "key": "B",
-        "text": "Technological Knowledge (TK)"
+        "text": "Technological Pedagogical Knowledge (TPK)."
       },
       {
         "key": "C",
-        "text": "Pedagogical Content Knowledge (PCK)"
+        "text": "Technological Content Knowledge (TCK)."
       },
       {
         "key": "D",
-        "text": "Technological Content Knowledge (TCK)"
+        "text": "Content Knowledge (CK)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "PCK (first coined by Lee Shulman) is the intersection of Pedagogy (P) and Content (C), representing how a teacher transforms specific subject content into pedagogically powerful and understandable lessons."
+    "correctAnswer": "B",
+    "explanation": "TPK is understanding how teaching and learning change when particular technologies are used, including pedagogical affordances and constraints of tools across learning activities."
   },
   {
     "id": 4,
-    "topicRef": "TPACK Framework",
-    "question": "A physics teacher uses an interactive 3D particle simulation software to help students visualize invisible magnetic field lines around electrical currents. This integration represents which specific intersection in TPACK?",
+    "topicRef": "TPACK Framework: True TPACK Synthesis",
+    "question": "When a mathematics teacher seamlessly designs an inquiry-based lesson using GeoGebra dynamic geometry software to guide students to discover the properties of parabolas, this embodies:",
     "options": [
       {
         "key": "A",
-        "text": "Content Knowledge (CK)"
+        "text": "True TPACK (Technological Pedagogical Content Knowledge)."
       },
       {
         "key": "B",
-        "text": "Technological Content Knowledge (TCK)"
+        "text": "Isolated Technological Knowledge (TK)."
       },
       {
         "key": "C",
-        "text": "Pedagogical Knowledge (PK)"
+        "text": "Pure Content Knowledge (CK)."
       },
       {
         "key": "D",
-        "text": "Technological Knowledge (TK)"
+        "text": "Traditional Pedagogical Knowledge (PK)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "TCK (Technological Content Knowledge) is understanding how technology and specific content influence and constrain one another (e.g., using specialized technological tools to represent specific scientific concepts)."
+    "correctAnswer": "A",
+    "explanation": "True TPACK is the emergent form of knowledge that goes beyond all three components in isolation, creatively integrating pedagogy, content, and technology for deep student learning."
   },
   {
     "id": 5,
-    "topicRef": "TPACK Framework: True TPACK",
-    "question": "True TPACK (Technological Pedagogical Content Knowledge) is achieved when a teacher:",
+    "topicRef": "SAMR Model: Ruben Puentedura's Four Levels",
+    "question": "The SAMR model describes four levels of technology integration in the classroom, arranged from enhancement to transformation in which ascending order?",
     "options": [
       {
         "key": "A",
-        "text": "Eliminates books completely and only lets students browse social media."
+        "text": "Simple, Advanced, Moderate, and Revolutionary."
       },
       {
         "key": "B",
-        "text": "Lectures for 60 minutes using standard PowerPoint bullet slides."
+        "text": "Software, Application, Media, and Resources."
       },
       {
         "key": "C",
-        "text": "Simply buys the latest iPad model for every student."
+        "text": "Selection, Adaptation, Mastery, and Review."
       },
       {
         "key": "D",
-        "text": "Seamlessly blends deep content knowledge, dynamic pedagogical strategies, and appropriate technology tools to create transformative learning experiences."
+        "text": "Substitution, Augmentation, Modification, and Redefinition."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "True TPACK is the synergistic integration of Content (what to teach), Pedagogy (how to teach), and Technology (which digital tools enhance the learning), working as an integrated whole."
+    "explanation": "Puentedura's SAMR model classifies tech integration into Enhancement (Substitution, Augmentation) and Transformation (Modification, Redefinition)."
   },
   {
     "id": 6,
-    "topicRef": "SAMR Model (Ruben Puentedura)",
-    "question": "In Ruben Puentedura's SAMR Model, what are the four sequential levels from lowest enhancement to highest transformation?",
+    "topicRef": "SAMR Model: Substitution Level",
+    "question": "A teacher asks students to read a PDF version of a textbook chapter on their tablets instead of reading the physical printed textbook, with zero functional change. In the SAMR model, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Stimulation, Activation, Motivation, Reflection"
+        "text": "Modification."
       },
       {
         "key": "B",
-        "text": "Selection, Application, Mastery, Retention"
+        "text": "Redefinition."
       },
       {
         "key": "C",
-        "text": "Software, Application, Multimedia, Robotics"
+        "text": "Substitution (direct tech substitute with no functional change)."
       },
       {
         "key": "D",
-        "text": "Substitution, Augmentation, Modification, Redefinition"
+        "text": "Augmentation."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "SAMR stands for: 1. Substitution (Enhancement), 2. Augmentation (Enhancement), 3. Modification (Transformation), and 4. Redefinition (Transformation)."
+    "correctAnswer": "C",
+    "explanation": "At the Substitution level, technology acts as a direct tool substitute with no functional improvement in the learning task."
   },
   {
     "id": 7,
-    "topicRef": "SAMR Model: Substitution",
-    "question": "Students type their essays using a word processor instead of writing them by hand on lined paper, with no functional change in the task or capabilities. In SAMR, this is:",
+    "topicRef": "SAMR Model: Augmentation Level",
+    "question": "Students read a digital e-book that includes interactive built-in dictionaries, audio narration, and hyperlinked self-check quizzes. In the SAMR model, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Modification"
+        "text": "Redefinition."
       },
       {
         "key": "B",
-        "text": "Augmentation"
+        "text": "Augmentation (direct tech substitute with functional improvements)."
       },
       {
         "key": "C",
-        "text": "Substitution"
+        "text": "Substitution."
       },
       {
         "key": "D",
-        "text": "Redefinition"
+        "text": "Modification."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Substitution acts as a direct tool substitute with no functional change to the learning task."
+    "correctAnswer": "B",
+    "explanation": "At the Augmentation level, technology is a direct tool substitute with functional enhancements (e.g., audio, search, hyperlinks) that improve the task."
   },
   {
     "id": 8,
-    "topicRef": "SAMR Model: Augmentation",
-    "question": "Students type their essay on a digital tool that provides automated spell-checking, built-in thesaurus lookup, and real-time voice-to-text dictation. This represents:",
+    "topicRef": "SAMR Model: Modification Level",
+    "question": "Students write historical essays on a shared cloud document, receive real-time peer feedback, embed multimedia primary source audio recordings, and co-author chapters. In SAMR, this represents:",
     "options": [
       {
         "key": "A",
-        "text": "Augmentation"
+        "text": "Modification (significant task redesign)."
       },
       {
         "key": "B",
-        "text": "Substitution"
+        "text": "Substitution."
       },
       {
         "key": "C",
-        "text": "Redefinition"
+        "text": "Augmentation."
       },
       {
         "key": "D",
-        "text": "Modification"
+        "text": "Redefinition."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Augmentation acts as a direct tool substitute with functional improvements/enhancements (e.g. spell check, word count, text-to-speech)."
+    "explanation": "At the Modification level, technology allows for significant task redesign that would be difficult to accomplish with traditional analog tools."
   },
   {
     "id": 9,
-    "topicRef": "SAMR Model: Modification",
-    "question": "Instead of writing an individual static essay, students use collaborative cloud documents to co-author an article with peers, embed interactive hyperlinks, and give peer comments in real-time. This level is:",
+    "topicRef": "SAMR Model: Redefinition Level",
+    "question": "Students produce a collaborative documentary video, conduct live video-conference interviews with international scientists, and publish their findings globally to solicit public feedback. In SAMR, this is:",
     "options": [
       {
         "key": "A",
-        "text": "Modification"
+        "text": "Substitution."
       },
       {
         "key": "B",
-        "text": "Substitution"
+        "text": "Augmentation."
       },
       {
         "key": "C",
-        "text": "Redefinition"
+        "text": "Modification."
       },
       {
         "key": "D",
-        "text": "Augmentation"
+        "text": "Redefinition (creation of novel tasks previously inconceivable without technology)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Modification represents the first level of Transformation, where technology allows significant task redesign."
+    "correctAnswer": "D",
+    "explanation": "At the Redefinition level, technology enables the creation of new learning tasks that were previously inconceivable in a traditional classroom."
   },
   {
     "id": 10,
-    "topicRef": "SAMR Model: Redefinition",
-    "question": "Students research climate change, produce a multi-episode documentary with global drone footage, conduct live video-conference interviews with scientists in Antarctica, and publish it to an international audience. This is:",
+    "topicRef": "ASSURE Instructional Design Model (Heinich & Molenda)",
+    "question": "In the ASSURE instructional design model for technology integration, what does the acronym ASSURE stand for?",
     "options": [
       {
         "key": "A",
-        "text": "Augmentation"
+        "text": "Acquire computers, Set up networks, Supervise classrooms, Upgrade servers, Run programs, and Execute grading."
       },
       {
         "key": "B",
-        "text": "Redefinition"
+        "text": "Apply pedagogy, Structure lessons, Systematize grading, Unify assessments, Regulate media, and Enhance retention."
       },
       {
         "key": "C",
-        "text": "Modification"
+        "text": "Analyze learners, State standards/objectives, Select strategies/media, Utilize media/materials, Require learner participation, and Evaluate/revise."
       },
       {
         "key": "D",
-        "text": "Substitution"
+        "text": "Assess readiness, Standardize curriculum, Survey technology, Utilize hardware, Review software, and Examine test scores."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Redefinition allows for the creation of new tasks that were previously inconceivable without digital technology."
+    "correctAnswer": "C",
+    "explanation": "ASSURE is an instructional model: Analyze learners, State objectives, Select strategies/technology/media, Utilize media/materials, Require learner participation, Evaluate and revise."
   },
   {
     "id": 11,
-    "topicRef": "ASSURE Model (Heinich, Molenda, Russell, Smaldino)",
-    "question": "What does the acronym ASSURE stand for in instructional media design?",
+    "topicRef": "ASSURE Model: 'R' (Require Learner Participation)",
+    "question": "Why is the step 'Require Learner Participation' crucial in the ASSURE model?",
     "options": [
       {
         "key": "A",
-        "text": "Analyze learners, State standards & objectives, Select strategies & technology, Utilize technology & media, Require learner participation, Evaluate & revise"
+        "text": "Because standardized testing requires computer software practice."
       },
       {
         "key": "B",
-        "text": "Analyze society, Structure schools, Upgrade radios, Reorganize exams"
+        "text": "Because effective learning requires active cognitive engagement, practice, and feedback rather than passive media consumption."
       },
       {
         "key": "C",
-        "text": "Assess students, Select software, Use resources, Require exams, Evaluate results"
+        "text": "Because students must manually clean the computer laboratory hardware."
       },
       {
         "key": "D",
-        "text": "Audio, Screens, Software, Universal access, Remote education"
+        "text": "Because teachers must record attendance every 5 minutes."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "ASSURE stands for: Analyze learners, State standards and objectives, Select strategies, technology, media and materials, Utilize technology and media, Require learner participation, and Evaluate and revise."
+    "correctAnswer": "B",
+    "explanation": "Active learner participation ensures that students interact meaningfully with the media, practice new skills, and receive formative feedback."
   },
   {
     "id": 12,
-    "topicRef": "ASSURE Model: 5 Ps in Utilizing Media",
-    "question": "Under the 'Utilize Media and Materials' step of ASSURE, what are the '5 Ps' of effective implementation?",
+    "topicRef": "UNESCO ICT Competency Framework for Teachers (ICT-CFT)",
+    "question": "The UNESCO ICT Competency Framework for Teachers outlines three successive approaches to ICT integration in schools in which order?",
     "options": [
       {
         "key": "A",
-        "text": "Pacing, Planning, Practicing, Performing, Publishing"
+        "text": "Technology Literacy, Knowledge Deepening, and Knowledge Creation."
       },
       {
         "key": "B",
-        "text": "Price, Product, Promotion, Placement, People"
+        "text": "Hardware Acquisition, Network Maintenance, and Server Programming."
       },
       {
         "key": "C",
-        "text": "Preview materials, Prepare materials, Prepare the environment, Prepare the learners, Provide the learning experience"
+        "text": "Basic Typing, Internet Surfing, and Social Media Posting."
       },
       {
         "key": "D",
-        "text": "Print, Power, Projector, Password, Play"
+        "text": "Textbook Digitization, Automated Testing, and Online Attendance."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The 5 Ps for utilizing media are: 1. Preview the materials, 2. Prepare the materials, 3. Prepare the environment, 4. Prepare the learners, and 5. Provide the learning experience."
+    "correctAnswer": "A",
+    "explanation": "The UNESCO ICT-CFT structures teacher development into three phases: Technology Literacy (basic tool use), Knowledge Deepening (complex problem solving), and Knowledge Creation (generating new knowledge and innovation)."
   },
   {
     "id": 13,
-    "topicRef": "Dale's Cone: Contrived Experiences",
-    "question": "When real objects are too dangerous, too large, or too small to bring to the classroom (e.g., the solar system or a human heart), a teacher uses scale models and mock-ups. In Dale's Cone, this is known as:",
+    "topicRef": "ICT-CFT: Knowledge Creation Approach",
+    "question": "A teacher who mentors students to identify community health challenges, design original mobile health apps, and collaborate with local clinics is operating at which UNESCO ICT-CFT approach?",
     "options": [
       {
         "key": "A",
-        "text": "Verbal Symbols"
+        "text": "Technology Literacy approach."
       },
       {
         "key": "B",
-        "text": "Contrived Experiences"
+        "text": "Knowledge Deepening approach."
       },
       {
         "key": "C",
-        "text": "Visual Symbols"
+        "text": "Basic ICT adoption approach."
       },
       {
         "key": "D",
-        "text": "Dramatized Experiences"
+        "text": "Knowledge Creation approach (fostering innovation, higher-order problem solving, and continuous learning)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Contrived Experiences involve models, mock-ups, specimens, and simulations that represent reality when the real object is inaccessible, dangerous, or unmanageable."
+    "correctAnswer": "D",
+    "explanation": "The Knowledge Creation approach aims to develop learners and citizens who innovate, create new knowledge, and solve complex societal problems using ICT."
   },
   {
     "id": 14,
-    "topicRef": "Dale's Cone: Dramatized Experiences",
-    "question": "Students enact a historical trial in costume to understand the socio-political tensions of the 1896 Philippine revolution. In Dale's Cone, this is categorized under:",
+    "topicRef": "PPST Domain 1: ICT Integration Indicator 1.3",
+    "question": "PPST Indicator 1.3.2 requires Proficient Teachers to 'Show skills in the positive use of ICT to facilitate the teaching and learning process.' A positive use of ICT means:",
     "options": [
       {
         "key": "A",
-        "text": "Exhibits"
+        "text": "Replacing all teacher-student human interactions with automated recorded videos."
       },
       {
         "key": "B",
-        "text": "Motion Pictures"
+        "text": "Using social media to publicly post students' low test scores."
       },
       {
         "key": "C",
-        "text": "Verbal Symbols"
+        "text": "Leveraging digital tools strategically to enhance learner engagement, critical thinking, and accessibility while ensuring digital safety."
       },
       {
         "key": "D",
-        "text": "Dramatized Experiences (Role-play / Pageants)"
+        "text": "Allowing students to play unmoderated online video games whenever they finish seatwork."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Dramatized Experiences allow learners to actively participate in simulated historical events, role plays, or plays, providing high emotional and sensory involvement."
+    "correctAnswer": "C",
+    "explanation": "Positive use of ICT entails pedagogically purposeful, safe, ethical, and effective application of digital tools to enhance learning."
   },
   {
     "id": 15,
-    "topicRef": "Media Selection Criteria",
-    "question": "Which of the following is the MOST important criterion when selecting digital media or educational software for a lesson?",
+    "topicRef": "Digital Citizenship (Ribble's Nine Elements)",
+    "question": "Mike Ribble identifies nine elements of Digital Citizenship. Which element encompasses the electronic exchange of information and adherence to professional online netiquette?",
     "options": [
       {
         "key": "A",
-        "text": "How expensive and prestigious the software brand is."
+        "text": "Digital Health & Wellness."
       },
       {
         "key": "B",
-        "text": "Direct alignment with the intended learning objectives and learner developmental level."
+        "text": "Digital Communication & Digital Etiquette (Netiquette)."
       },
       {
         "key": "C",
-        "text": "Whether it contains high-volume background pop music."
+        "text": "Digital Commerce."
       },
       {
         "key": "D",
-        "text": "Whether it takes up the entire 60 minutes so the teacher does not have to talk."
+        "text": "Digital Law."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Instructional alignment is paramount: technology and media must directly support the intended learning outcomes and match the cognitive maturity of the students."
+    "explanation": "Digital Communication addresses electronic exchange of information; Digital Etiquette focuses on the electronic standards of conduct and mindful online behavior."
   },
   {
     "id": 16,
-    "topicRef": "Digital Citizenship (Mike Ribble)",
-    "question": "According to Mike Ribble, Digital Citizenship is defined as:",
+    "topicRef": "Digital Citizenship: Digital Footprint",
+    "question": "In teaching digital citizenship, what is a 'Digital Footprint' and why must students be mindful of it?",
     "options": [
       {
         "key": "A",
-        "text": "The norms of appropriate, responsible, and ethical behavior with regard to technology use."
+        "text": "The permanent trail of data, posts, photos, and activity left behind on the internet that can impact future academic and career opportunities."
       },
       {
         "key": "B",
-        "text": "Creating multiple anonymous accounts to troll internet forums."
+        "text": "The physical size of a computer mousepad."
       },
       {
         "key": "C",
-        "text": "Owning at least three different computing devices."
+        "text": "The electrical energy consumed by a smartphone charger."
       },
       {
         "key": "D",
-        "text": "Playing competitive online video games for 10 hours a day."
+        "text": "The brand name of a student's tablet device."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Digital citizenship (Ribble) encompasses the norms of safe, legal, ethical, and responsible technology usage across 9 essential themes."
+    "explanation": "This item evaluates educational technology competence in Digital Citizenship: Digital Footprint. The permanent trail of data, posts, photos, and activity left behind on the internet that can impact future academic and career opportunities. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 17,
-    "topicRef": "9 Themes of Digital Citizenship: Digital Etiquette (Netiquette)",
-    "question": "Typing an email or message in ALL CAPS in online communication is considered a violation of Netiquette because:",
+    "topicRef": "Digital Citizenship: Digital Law & Intellectual Property",
+    "question": "Which of the following actions constitutes an ethical and legal violation of intellectual property in digital educational environments?",
     "options": [
       {
         "key": "A",
-        "text": "It consumes more electrical power from the monitor."
+        "text": "Citing a published open-access journal article with proper APA reference."
       },
       {
         "key": "B",
-        "text": "It violates copyright laws."
+        "text": "Using Creative Commons licensed images in accordance with their CC-BY terms."
       },
       {
         "key": "C",
-        "text": "It prevents email servers from delivering text."
+        "text": "Linking to a publicly available educational video on YouTube."
       },
       {
         "key": "D",
-        "text": "It is universally interpreted as online shouting and aggressive tone."
+        "text": "Downloading and distributing pirated commercial software or claiming copyrighted online artwork as one's own without attribution."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "In Netiquette standards, typing in all capital letters is perceived as shouting, harshness, and impoliteness."
+    "explanation": "This item evaluates educational technology competence in Digital Citizenship: Digital Law & Intellectual Property. Downloading and distributing pirated commercial software or claiming copyrighted online artwork as one's own without attribution. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 18,
-    "topicRef": "9 Themes: Digital Footprint",
-    "question": "What is a 'Digital Footprint'?",
+    "topicRef": "Copyright & Fair Use in Education",
+    "question": "Under Intellectual Property Law (RA 8293) and the Fair Use doctrine, a teacher is legally and ethically permitted to:",
     "options": [
       {
         "key": "A",
-        "text": "The battery consumption per hour of internet use."
+        "text": "Upload copyrighted commercial Hollywood blockbuster movies to a public website."
       },
       {
         "key": "B",
-        "text": "The walking distance measured by a smart watch."
+        "text": "Strip the original author's name from an academic article and replace it with the teacher's name."
       },
       {
         "key": "C",
-        "text": "The permanent trail of data, posts, search queries, and media left behind by a user on the internet."
+        "text": "Reproduce brief excerpts, poems, or diagrams from copyrighted works for non-profit, face-to-face educational commentary and classroom instruction."
       },
       {
         "key": "D",
-        "text": "The physical dimensions of a smartphone screen."
+        "text": "Photocopy an entire commercial textbook and sell it for profit to students."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "A Digital Footprint is the permanent trail of traceable digital activities, records, photos, comments, and uploads left behind when using online platforms."
+    "explanation": "This item evaluates educational technology competence in Copyright & Fair Use in Education. Reproduce brief excerpts, poems, or diagrams from copyrighted works for non-profit, face-to-face educational commentary and classroom instruction. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 19,
-    "topicRef": "Cybercrime Law: RA 10175",
-    "question": "In the Philippines, what is the official title of Republic Act No. 10175?",
+    "topicRef": "Creative Commons Licenses: CC BY-NC-ND",
+    "question": "What does a 'CC BY-NC-ND' Creative Commons license indicate regarding the reuse of an educational material?",
     "options": [
       {
         "key": "A",
-        "text": "Data Privacy Act of 2012"
+        "text": "Free to modify and remix for corporate advertisements."
       },
       {
         "key": "B",
-        "text": "Anti-Bullying Act of 2013"
+        "text": "Attribution required (BY), Non-Commercial use only (NC), and No Derivatives / adaptations permitted (ND)."
       },
       {
         "key": "C",
-        "text": "Cybercrime Prevention Act of 2012"
+        "text": "Public domain with zero copyright restrictions."
       },
       {
         "key": "D",
-        "text": "Electronic Commerce Act of 2000"
+        "text": "Commercial resale permitted with no author attribution."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "RA 10175 is the Cybercrime Prevention Act of 2012, penalizing offenses against confidentiality, integrity, cyber-libel, child pornography, and illegal access."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Creative Commons Licenses: CC BY-NC-ND. Attribution required (BY), Non-Commercial use only (NC), and No Derivatives / adaptations permitted (ND). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 20,
-    "topicRef": "Data Privacy Act: RA 10173",
-    "question": "Under Republic Act 10173 (Data Privacy Act of 2012), posting students' full names alongside their private exam scores, home addresses, and phone numbers on a public Facebook group without consent is:",
+    "topicRef": "Open Educational Resources (OER)",
+    "question": "What is the defining characteristic of Open Educational Resources (OER)?",
     "options": [
       {
         "key": "A",
-        "text": "An innovative best practice in public transparency."
+        "text": "Teaching and learning materials in the public domain or released under an open license that permit free access, reuse, adaptation, and sharing."
       },
       {
         "key": "B",
-        "text": "Acceptable as long as the teacher likes the post."
+        "text": "High-priced proprietary software requiring annual subscription fees."
       },
       {
         "key": "C",
-        "text": "A severe violation of personal identifiable data privacy rights."
+        "text": "Encrypted textbooks that self-delete after 30 days."
       },
       {
         "key": "D",
-        "text": "Mandated by the DepEd grading system."
+        "text": "Secret research documents restricted to university presidents."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Posting sensitive personal and educational information publicly without lawful consent violates RA 10173 (Data Privacy Act) and breaches professional ethics."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Open Educational Resources (OER). Teaching and learning materials in the public domain or released under an open license that permit free access, reuse, adaptation, and sharing. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 21,
-    "topicRef": "Anti-Bullying Act: RA 10627",
-    "question": "Which Philippine law specifically mandates all elementary and secondary schools to adopt anti-bullying policies that address cyberbullying?",
+    "topicRef": "Learning Management Systems (LMS)",
+    "question": "A platform such as Moodle, Canvas, or Google Classroom is classified as a Learning Management System (LMS) because it:",
     "options": [
       {
         "key": "A",
-        "text": "RA 4670"
+        "text": "Manufactures computer microchips and server hardware."
       },
       {
         "key": "B",
-        "text": "RA 9155"
+        "text": "Blocks all student internet access permanently."
       },
       {
         "key": "C",
-        "text": "RA 10627 (Anti-Bullying Act of 2013)"
+        "text": "Functions solely as an automated spreadsheet calculator."
       },
       {
         "key": "D",
-        "text": "RA 7836"
+        "text": "Administers, documents, tracks, reports, and delivers educational courses and learning content in a structured digital environment."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "RA 10627 is the Anti-Bullying Act of 2013, requiring all schools to implement policies against bullying, harassment, and cyberbullying on digital platforms."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Learning Management Systems (LMS). Administers, documents, tracks, reports, and delivers educational courses and learning content in a structured digital environment. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 22,
-    "topicRef": "Cyber Threats: Phishing",
-    "question": "A teacher receives an email disguised as an official DepEd notice asking her to immediately click a link and enter her payroll account password. This social engineering attack is called:",
+    "topicRef": "Blended Learning Models: Flipped Classroom",
+    "question": "In a Flipped Classroom blended learning rotation, how is instruction organized?",
     "options": [
       {
         "key": "A",
-        "text": "Phishing"
+        "text": "The teacher grades papers in silence during class hours while students sleep."
       },
       {
         "key": "B",
-        "text": "Denial of Service (DoS)"
+        "text": "All learning is 100% textbook reading without any teacher interaction."
       },
       {
         "key": "C",
-        "text": "Degaussing"
+        "text": "Direct instruction (recorded mini-lectures / readings) is accessed asynchronously at home, while synchronous class time is devoted to active collaborative problem solving."
       },
       {
         "key": "D",
-        "text": "Keylogging"
+        "text": "Students listen to lectures in class and do multiple-choice tests at home alone."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Phishing is a fraudulent attempt to obtain sensitive information (usernames, passwords, bank details) by disguising as a trustworthy entity in an electronic communication."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Blended Learning Models: Flipped Classroom. Direct instruction (recorded mini-lectures / readings) is accessed asynchronously at home, while synchronous class time is devoted to active collaborative problem solving. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 23,
-    "topicRef": "Cyber Threats: Ransomware",
-    "question": "Malicious software that encrypts a school's server files and demands financial payment in cryptocurrency to decrypt them is known as:",
+    "topicRef": "Blended Learning: Station Rotation Model",
+    "question": "In a 'Station Rotation' blended learning model, students within a single classroom rotate on a fixed schedule between:",
     "options": [
       {
         "key": "A",
-        "text": "Cookie"
+        "text": "Sleeping areas and study areas every 5 minutes."
       },
       {
         "key": "B",
-        "text": "Adware"
+        "text": "Online digital instruction, teacher-led small-group instruction, and collaborative peer project stations."
       },
       {
         "key": "C",
-        "text": "Ransomware"
+        "text": "Different physical schools across the province every week."
       },
       {
         "key": "D",
-        "text": "Spyware"
+        "text": "Different sports teams on the athletic field."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Ransomware is malicious malware designed to lock/encrypt victim files and extort ransom money for the decryption key."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Blended Learning: Station Rotation Model. Online digital instruction, teacher-led small-group instruction, and collaborative peer project stations. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 24,
-    "topicRef": "Open Educational Resources (OER)",
-    "question": "What are Open Educational Resources (OER)?",
+    "topicRef": "Synchronous vs Asynchronous Online Learning",
+    "question": "What is the fundamental pedagogical difference between Synchronous and Asynchronous online learning?",
     "options": [
       {
         "key": "A",
-        "text": "Confidential test questions locked in a bank vault."
+        "text": "Synchronous occurs in real-time with live interaction (e.g., live Zoom class), while Asynchronous occurs at flexible, self-paced times (e.g., discussion boards)."
       },
       {
         "key": "B",
-        "text": "Commercial textbooks that require a costly annual subscription fee."
+        "text": "Synchronous uses only text, while Asynchronous uses only video."
       },
       {
         "key": "C",
-        "text": "Pirated proprietary software downloaded illegally from torrent sites."
+        "text": "Synchronous requires zero internet connection, while Asynchronous requires satellites."
       },
       {
         "key": "D",
-        "text": "Teaching, learning, and research materials in any medium that reside in the public domain or under an open license allowing free access, reuse, and adaptation."
+        "text": "Synchronous is for elementary pupils, while Asynchronous is for doctoral students only."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "OER (UNESCO definition) are freely accessible, openly licensed text, media, and digital assets useful for teaching, learning, and researching without royalty charges."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Synchronous vs Asynchronous Online Learning. Synchronous occurs in real-time with live interaction (e.g., live Zoom class), while Asynchronous occurs at flexible, self-paced times (e.g., discussion boards). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 25,
-    "topicRef": "Creative Commons 5Rs (David Wiley)",
-    "question": "Under David Wiley's '5Rs' of Open Content permissions, which 'R' grants educators the legal right to translate, modify, adapt, or remap educational content to suit their local dialect?",
+    "topicRef": "Educational Multimedia: Mayer's Cognitive Theory of Multimedia Learning",
+    "question": "Richard Mayer's Cognitive Theory of Multimedia Learning is based on which three foundational assumptions?",
     "options": [
       {
         "key": "A",
-        "text": "Redistribute"
+        "text": "Infinite Memory, Single Channel, and Passive Absorption."
       },
       {
         "key": "B",
-        "text": "Revise"
+        "text": "Short-Term Reflex, Long-Term Instinct, and Genetic Imprinting."
       },
       {
         "key": "C",
-        "text": "Reuse"
+        "text": "Left Brain, Right Brain, and Subconscious Processing."
       },
       {
         "key": "D",
-        "text": "Retain"
+        "text": "Dual Channels (visual/auditory), Limited Capacity (working memory), and Active Processing (filtering/organizing/integrating)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The 5Rs are: Retain (make/own copies), Reuse (use in wide contexts), Revise (adapt, adjust, modify, translate), Remix (combine with other open content), and Redistribute (share copies)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Educational Multimedia: Mayer's Cognitive Theory of Multimedia Learning. Dual Channels (visual/auditory), Limited Capacity (working memory), and Active Processing (filtering/organizing/integrating). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 26,
-    "topicRef": "Creative Commons License Types: CC BY-NC-ND",
-    "question": "What does the Creative Commons license tag 'NC-ND' indicate to an educator?",
+    "topicRef": "Mayer's Multimedia Principle",
+    "question": "According to Mayer's Multimedia Principle, people learn significantly better from:",
     "options": [
       {
         "key": "A",
-        "text": "New Copy - New Design"
+        "text": "Continuous loud background music playing during lectures."
       },
       {
         "key": "B",
-        "text": "National Content - No Download"
+        "text": "Flashing neon animations on every single sentence."
       },
       {
         "key": "C",
-        "text": "Non-Commercial (cannot sell) and No Derivatives (cannot alter or modify original content)"
+        "text": "Words and pictures combined, rather than from words alone."
       },
       {
         "key": "D",
-        "text": "No Copyright - No Domain"
+        "text": "Monochrome text alone without any visual illustrations."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "'NC' stands for Non-Commercial (commercial use is prohibited) and 'ND' stands for NoDerivatives (the work may be shared, but not edited, translated, or altered)."
+    "explanation": "This item evaluates educational technology competence in Mayer's Multimedia Principle. Words and pictures combined, rather than from words alone. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 27,
-    "topicRef": "Learning Management Systems (LMS)",
-    "question": "Which of the following digital platforms is classified primarily as a Learning Management System (LMS) designed for course delivery, grading, and assignment tracking?",
+    "topicRef": "Mayer's Coherence Principle",
+    "question": "Mayer's 'Coherence Principle' in instructional design states that learners perform better when:",
     "options": [
       {
         "key": "A",
-        "text": "Canvas / Moodle / Google Classroom"
+        "text": "Unrelated funny memes are inserted into serious medical diagrams."
       },
       {
         "key": "B",
-        "text": "TikTok"
+        "text": "Extraneous words, pictures, sounds, and background music are EXCLUDED rather than included."
       },
       {
         "key": "C",
-        "text": "Photoshop"
+        "text": "Every available inch of the presentation slide is filled with decorative clip art."
       },
       {
         "key": "D",
-        "text": "Spotify"
+        "text": "Loud rock music plays continuously during science explanations."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Canvas, Moodle, Blackboard, and Google Classroom are dedicated Learning Management Systems providing course management, content repositories, quizzes, and gradebooks."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Mayer's Coherence Principle. Extraneous words, pictures, sounds, and background music are EXCLUDED rather than included. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 28,
-    "topicRef": "Synchronous vs Asynchronous Online Learning",
-    "question": "Which of the following is an example of Synchronous Distance Learning?",
+    "topicRef": "Mayer's Redundancy Principle",
+    "question": "According to Mayer's 'Redundancy Principle', learning is hindered when a presenter:",
     "options": [
       {
         "key": "A",
-        "text": "Submitting an essay via email at 2:00 AM."
+        "text": "Presents identical on-screen text, graphics, AND reads the text verbatim simultaneously, overloading the visual and auditory channels."
       },
       {
         "key": "B",
-        "text": "Students posting in a forum discussion board over a 7-day period."
+        "text": "Presents spoken narration accompanied by relevant graphics."
       },
       {
         "key": "C",
-        "text": "Students reading offline printed modules on a weekend."
+        "text": "Uses concise bullet points with visual diagrams."
       },
       {
         "key": "D",
-        "text": "A live, real-time interactive Zoom / Google Meet class session where teacher and students interact simultaneously."
+        "text": "Provides a printed summary handout after class."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Synchronous learning occurs in real-time with simultaneous live engagement, while Asynchronous learning occurs self-paced without simultaneous real-time presence."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Mayer's Redundancy Principle. Presents identical on-screen text, graphics, AND reads the text verbatim simultaneously, overloading the visual and auditory channels. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 29,
-    "topicRef": "Blended Learning Models",
-    "question": "In the 'Station Rotation' Blended Learning model, how do students progress through the lesson?",
+    "topicRef": "Mayer's Spatial & Temporal Contiguity Principles",
+    "question": "The 'Contiguity Principle' in multimedia design dictates that corresponding words and graphics should be:",
     "options": [
       {
         "key": "A",
-        "text": "Students rotate on a fixed schedule between different classroom stations: one online learning station, one teacher-led instruction station, and one collaborative peer project station."
+        "text": "Placed on completely separate pages with a 10-minute time delay."
       },
       {
         "key": "B",
-        "text": "The teacher leaves the classroom while students watch movies."
+        "text": "Hidden behind secret password screens."
       },
       {
         "key": "C",
-        "text": "Students rotate between schools across different provinces every week."
+        "text": "Printed in tiny 4pt font at the bottom of the page."
       },
       {
         "key": "D",
-        "text": "They stay at home 100% of the school year without visiting campus."
+        "text": "Placed physically close to each other on the screen (spatial) and presented at the same time (temporal)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Station Rotation rotates students through classroom learning stations on a fixed schedule, including at least one station with digital individualized learning."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Mayer's Spatial & Temporal Contiguity Principles. Placed physically close to each other on the screen (spatial) and presented at the same time (temporal). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 30,
-    "topicRef": "Gamification in Education",
-    "question": "What is the primary educational purpose of 'Gamification' (e.g., using Kahoot, Quizizz, badges, leaderboards)?",
+    "topicRef": "Educational Technology: Web 2.0 vs Web 1.0 Tools",
+    "question": "How do Web 2.0 tools (e.g., Wikis, collaborative blogs, interactive simulations, Canva) fundamentally differ from early Web 1.0 websites?",
     "options": [
       {
         "key": "A",
-        "text": "To replace human teachers with automated game consoles."
+        "text": "Web 2.0 is restricted to government military agencies."
       },
       {
         "key": "B",
-        "text": "To apply game elements (points, challenges, instant feedback) in non-game educational contexts to enhance student motivation and active engagement."
+        "text": "Web 2.0 displays only black-and-white plain text without images."
       },
       {
         "key": "C",
-        "text": "To waste school hours playing non-academic video games."
+        "text": "Web 2.0 empowers users to actively create, collaborate, remix, and share user-generated content rather than passively reading static web pages."
       },
       {
         "key": "D",
-        "text": "To eliminate formal grading in science."
+        "text": "Web 2.0 operates without electricity or internet connections."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Gamification integrates game design mechanics (points, badges, leaderboards, immediate feedback) into educational tasks to boost motivation, active recall, and engagement."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Educational Technology: Web 2.0 vs Web 1.0 Tools. Web 2.0 empowers users to actively create, collaborate, remix, and share user-generated content rather than passively reading static web pages. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 31,
-    "topicRef": "Digital Bloom's Taxonomy (Andrew Churches)",
-    "question": "In Andrew Churches' Digital Bloom's Taxonomy, which digital activity represents the cognitive level of 'Creating'?",
+    "topicRef": "Assistive Technology: Screen Readers (Accessibility)",
+    "question": "An 'Assistive Technology' such as NVDA or JAWS (Screen Readers) enables students with severe visual impairments to learn by:",
     "options": [
       {
         "key": "A",
-        "text": "Bookmarking a webpage"
+        "text": "Translating English text into 16th-century Latin."
       },
       {
         "key": "B",
-        "text": "Highlighting a PDF document"
+        "text": "Converting digital on-screen text and image alt-text into synthesized audio speech or refreshable Braille output."
       },
       {
         "key": "C",
-        "text": "Googling a factual definition"
+        "text": "Projecting holographic laser images onto the classroom whiteboard."
       },
       {
         "key": "D",
-        "text": "Filming, editing, and publishing an original instructional video or podcast"
+        "text": "Automatically answering multiple-choice exam questions."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Digital Creating involves designing, authoring, programming, video producing, remixing, and publishing original digital artifacts."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Assistive Technology: Screen Readers (Accessibility). Converting digital on-screen text and image alt-text into synthesized audio speech or refreshable Braille output. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 32,
-    "topicRef": "Digital Bloom's Taxonomy: Evaluating",
-    "question": "Participating in an online peer-review forum to critique the credibility, bias, and methodology of digital news articles corresponds to which Digital Bloom level?",
+    "topicRef": "Assistive Technology: Speech-to-Text (Dictation)",
+    "question": "Speech-to-Text software (such as voice typing) provides vital accommodation for students with physical motor disabilities or dysgraphia by:",
     "options": [
       {
         "key": "A",
-        "text": "Evaluating"
+        "text": "Transcribing spoken words into typed digital text without requiring manual keyboard typing."
       },
       {
         "key": "B",
-        "text": "Remembering"
+        "text": "Reading aloud printed physical textbooks."
       },
       {
         "key": "C",
-        "text": "Applying"
+        "text": "Formatting raw mathematical equations into 3D animations."
       },
       {
         "key": "D",
-        "text": "Understanding"
+        "text": "Blocking background classroom noise."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Critiquing, moderating, evaluating bias, peer reviewing, and validating sources represent the Evaluating level."
+    "explanation": "This item evaluates educational technology competence in Assistive Technology: Speech-to-Text (Dictation). Transcribing spoken words into typed digital text without requiring manual keyboard typing. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 33,
-    "topicRef": "Artificial Intelligence in Education (AIED)",
-    "question": "When integrating Generative AI tools (e.g. LLMs) into classroom instruction, what is the most ethical pedagogical stance for a professional teacher?",
+    "topicRef": "Mobile Learning (m-Learning) Pedagogies",
+    "question": "Which of the following is a primary pedagogical affordance of Mobile Learning (m-Learning) in education?",
     "options": [
       {
         "key": "A",
-        "text": "Allow students to copy-paste AI outputs directly and grade AI outputs as their own work."
+        "text": "Eliminating the need for all teachers, schools, and curricula."
       },
       {
         "key": "B",
-        "text": "Teach students critical AI literacy, ethical citation, prompt engineering, and how to verify, critique, and improve AI-assisted drafts."
+        "text": "Forcing students to play video games for 10 hours daily."
       },
       {
         "key": "C",
-        "text": "Use AI to write fake grades for students."
+        "text": "Replacing all scientific laboratory experiments with text messages."
       },
       {
         "key": "D",
-        "text": "Completely ban all computing devices forever and pretend AI does not exist."
+        "text": "Ubiquitous, contextual, 'anytime-anywhere' access to micro-learning modules and collaborative communication."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Ethical AI pedagogy emphasizes AI literacy, transparency, critical evaluation of AI hallucinations/bias, and developing authentic higher-order synthesis skills."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Mobile Learning (m-Learning) Pedagogies. Ubiquitous, contextual, 'anytime-anywhere' access to micro-learning modules and collaborative communication. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 34,
-    "topicRef": "Adaptive Learning Technology",
-    "question": "What distinguishes 'Adaptive Learning Software' from static digital e-books?",
+    "topicRef": "Gamification: Badges & Leaderboards (Deterding)",
+    "question": "In educational technology, 'Gamification' (Sebastian Deterding) differs from 'Educational Games' (Game-Based Learning) because gamification:",
     "options": [
       {
         "key": "A",
-        "text": "It cannot be viewed on smartphones."
+        "text": "Involves gambling real currency on test outcomes."
       },
       {
         "key": "B",
-        "text": "Adaptive software dynamically adjusts question difficulty and instructional pathways in real time based on individual learner performance and error patterns."
+        "text": "Replaces all academic reading with sports competitions."
       },
       {
         "key": "C",
-        "text": "It is printed on recycled paper."
+        "text": "Integrates game-design mechanics (e.g., progress bars, experience points, quest milestones) into non-game learning activities."
       },
       {
         "key": "D",
-        "text": "It only shows text without images."
+        "text": "Requires students to play full commercial adventure video games for credit."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Adaptive learning algorithms customize the presentation of material and difficulty level dynamically based on student responses, providing personalized remediation."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Gamification: Badges & Leaderboards (Deterding). Integrates game-design mechanics (e.g., progress bars, experience points, quest milestones) into non-game learning activities. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 35,
-    "topicRef": "Assistive Technology for Special Needs",
-    "question": "A visually impaired student uses screen-reading software (e.g. JAWS/NVDA) and Refreshable Braille Displays. These tools are categorized as:",
+    "topicRef": "Game-Based Learning (GBL): Minecraft Education",
+    "question": "Using Minecraft Education Edition in a social studies class to reconstruct the ancient walled city of Intramuros is an example of:",
     "options": [
       {
         "key": "A",
-        "text": "Commercial Warez"
+        "text": "Rote memorization drill."
       },
       {
         "key": "B",
-        "text": "Entertainment Media"
+        "text": "Game-Based Learning (using a structured game environment to achieve specific curricular learning goals)."
       },
       {
         "key": "C",
-        "text": "Assistive Technology"
+        "text": "Gamification mechanics."
       },
       {
         "key": "D",
-        "text": "Intrusive Technology"
+        "text": "Passive multimedia consumption."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Assistive Technology (AT) comprises any assistive, adaptive, and rehabilitative devices that promote greater independence and accessibility for individuals with disabilities."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Game-Based Learning (GBL): Minecraft Education. Game-Based Learning (using a structured game environment to achieve specific curricular learning goals). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 36,
-    "topicRef": "Augmented Reality (AR) vs Virtual Reality (VR)",
-    "question": "Which statement accurately distinguishes Augmented Reality (AR) from Virtual Reality (VR)?",
+    "topicRef": "Virtual Reality (VR) in Education: Immersive Learning",
+    "question": "Immersive Virtual Reality (VR) headsets enhance science and medical education primarily by providing:",
     "options": [
       {
         "key": "A",
-        "text": "AR overlays digital 3D models onto the real-world environment (e.g., viewing a 3D beating heart on a classroom desk), whereas VR completely immerses the user in an artificial digital world through a headset."
+        "text": "High-presence, 360-degree interactive 3D simulations of hazardous, microscopic, or remote environments (e.g., inside a human heart or outer space)."
       },
       {
         "key": "B",
-        "text": "There is no difference between AR and VR."
+        "text": "Traditional flat text reading on a 2D screen."
       },
       {
         "key": "C",
-        "text": "VR uses paper flashcards while AR uses blackboards."
+        "text": "Automated multiple-choice grading spreadsheets."
       },
       {
         "key": "D",
-        "text": "AR requires total darkness while VR works only in sunlight."
+        "text": "A replacement for all physical nutrition."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "AR superimposes digital information onto the real-world view, while VR immerses the user completely into an interactive computer-generated environment via head-mounted displays."
+    "explanation": "This item evaluates educational technology competence in Virtual Reality (VR) in Education: Immersive Learning. High-presence, 360-degree interactive 3D simulations of hazardous, microscopic, or remote environments (e.g., inside a human heart or outer space). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 37,
-    "topicRef": "Technology-Enhanced Formative Assessment",
-    "question": "Using live audience polling tools (e.g., Mentimeter / Slido / Google Forms) at the start of a lesson allows a teacher to:",
+    "topicRef": "Augmented Reality (AR) in Education",
+    "question": "How does Augmented Reality (AR, e.g., using a tablet camera to overlay 3D beating heart models onto a paper worksheet) differ from Virtual Reality (VR)?",
     "options": [
       {
         "key": "A",
-        "text": "Assign permanent quarterly grades."
+        "text": "AR requires complete sensory isolation in a dark room, while VR does not."
       },
       {
         "key": "B",
-        "text": "Punish students who forgot their textbooks."
+        "text": "AR operates only on desktop computers from the 1990s."
       },
       {
         "key": "C",
-        "text": "Eliminate the need for lesson objectives."
+        "text": "AR is strictly for audio listening without visual display."
       },
       {
         "key": "D",
-        "text": "Instantly diagnose class-wide misconceptions and adapt pacing in real-time."
+        "text": "AR overlays digital information and 3D graphics onto the real physical world, whereas VR replaces the real world with a fully simulated digital environment."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Real-time polling provides instantaneous formative data, enabling agile pedagogical adjustments and revealing misconceptions immediately."
+    "explanation": "This item evaluates educational technology competence in Augmented Reality (AR) in Education. AR overlays digital information and 3D graphics onto the real physical world, whereas VR replaces the real world with a fully simulated digital environment. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 38,
-    "topicRef": "Digital Divide & Educational Equity",
-    "question": "The term 'Digital Divide' refers to:",
+    "topicRef": "Cybersecurity in Education: Phishing and Malware",
+    "question": "A teacher receives an email appearing to come from the school principal asking for student login credentials and passwords via an external link. The teacher should:",
     "options": [
       {
         "key": "A",
-        "text": "The socioeconomic gap between individuals and communities who have access to modern ICT and high-speed internet versus those who do not."
+        "text": "Forward the email to all students so they can enter their passwords."
       },
       {
         "key": "B",
-        "text": "The mathematical operation of dividing binary numbers."
+        "text": "Post the password link on the public school Facebook page."
       },
       {
         "key": "C",
-        "text": "The difference between Mac and Windows operating systems."
+        "text": "Recognize this as a potential 'Phishing' cyber-attack, avoid clicking the link, and report it immediately to the IT security officer."
       },
       {
         "key": "D",
-        "text": "The physical border between school buildings."
+        "text": "Immediately reply with all student passwords to be helpful."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Digital Divide is the economic and social inequality regarding access to, use of, or impact of information and communication technologies."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Cybersecurity in Education: Phishing and Malware. Recognize this as a potential 'Phishing' cyber-attack, avoid clicking the link, and report it immediately to the IT security officer. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 39,
-    "topicRef": "DepEd Commons & Digital Repositories",
-    "question": "In the Philippine public school system, what is 'DepEd Commons'?",
+    "topicRef": "Data Privacy in Online Learning (RA 10173)",
+    "question": "When publishing student achievement photos, awards, or video presentations on the public school website, a teacher must ensure compliance with RA 10173 by:",
     "options": [
       {
         "key": "A",
-        "text": "A private paid gaming platform for teachers."
+        "text": "Refusing to allow parents to view school events."
       },
       {
         "key": "B",
-        "text": "An online open educational resources (OER) portal established by DepEd to provide free digital learning materials and self-learning modules."
+        "text": "Securing explicit parental/guardian consent and avoiding the public disclosure of sensitive personal identifiers (e.g., home addresses, student ID numbers)."
       },
       {
         "key": "C",
-        "text": "A political party for educators."
+        "text": "Posting full birth certificates and medical records of all pupils publicly."
       },
       {
         "key": "D",
-        "text": "A physical cafeteria located inside the DepEd Central Office."
+        "text": "Selling student contact numbers to commercial marketing companies."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "DepEd Commons is an online platform for public school teachers and learners that provides free access to curated learning resources and open educational resources (OERs)."
+    "explanation": "This item evaluates educational technology competence in Data Privacy in Online Learning (RA 10173). Securing explicit parental/guardian consent and avoiding the public disclosure of sensitive personal identifiers (e.g., home addresses, student ID numbers). represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 40,
-    "topicRef": "Information Literacy: CRAAP Test",
-    "question": "In evaluating online sources for academic research, what does the CRAAP test evaluate?",
+    "topicRef": "Artificial Intelligence in Education (AIED): Adaptive Learning",
+    "question": "In contemporary educational technology, 'Adaptive Learning Systems' (e.g., intelligent tutoring software) benefit diverse learners by:",
     "options": [
       {
         "key": "A",
-        "text": "Cost, Rating, Availability, Access, and Price"
+        "text": "Dynamically adjusting the difficulty, pacing, and scaffolding of instructional content in real-time based on individual learner performance and error patterns."
       },
       {
         "key": "B",
-        "text": "Computers, Radios, Audio, Animation, and Projectors"
+        "text": "Assigning identical homework exercises to all 50 students regardless of skill."
       },
       {
         "key": "C",
-        "text": "Creativity, Retention, Achievement, Aptitude, and Performance"
+        "text": "Automatically failing students who do not complete quizzes in 60 seconds."
       },
       {
         "key": "D",
-        "text": "Currency, Relevance, Authority, Accuracy, and Purpose"
+        "text": "Replacing human teachers with robotic police officers."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The CRAAP Test is a widely recognized evaluation checklist for web source reliability: Currency (timeliness), Relevance (importance), Authority (source credentials), Accuracy (veracity), and Purpose (reason for publication)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Artificial Intelligence in Education (AIED): Adaptive Learning. Dynamically adjusting the difficulty, pacing, and scaffolding of instructional content in real-time based on individual learner performance and error patterns. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 41,
-    "topicRef": "Instructional Design: ADDIE Model",
-    "question": "Which of the following represents the 5 sequential phases of the ADDIE Instructional Design Framework?",
+    "topicRef": "Ethics of Generative AI in Student Work",
+    "question": "When students use Generative AI tools (such as ChatGPT) to assist in drafting research essays, academic integrity ethically requires that they:",
     "options": [
       {
         "key": "A",
-        "text": "Analysis -> Design -> Development -> Implementation -> Evaluation"
+        "text": "Copy and paste AI-generated text verbatim and claim full personal authorship."
       },
       {
         "key": "B",
-        "text": "Activation -> Definition -> Drill -> Instruction -> Exam"
+        "text": "Fabricate false laboratory data using AI without testing."
       },
       {
         "key": "C",
-        "text": "Assessment -> Delivery -> Direction -> Inspection -> Execution"
+        "text": "Submit AI-generated essays without reading or understanding them."
       },
       {
         "key": "D",
-        "text": "Audio -> Digital -> Devices -> Internet -> Education"
+        "text": "Transparently cite and disclose the use of AI, verify all factual claims and sources independently, and ensure the core analysis and writing represent their own authentic intellectual work."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "ADDIE is the foundational instructional design framework comprising: 1. Analysis, 2. Design, 3. Development, 4. Implementation, and 5. Evaluation."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Ethics of Generative AI in Student Work. Transparently cite and disclose the use of AI, verify all factual claims and sources independently, and ensure the core analysis and writing represent their own authentic intellectual work. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 42,
-    "topicRef": "Flipped Learning Pillars (FLIP)",
-    "question": "What are the four pillars of Flipped Learning (FLIP)?",
+    "topicRef": "AI Hallucinations in Education",
+    "question": "In educational research, what is an 'AI Hallucination' and why must students be trained to detect it?",
     "options": [
       {
         "key": "A",
-        "text": "Fast laptops, Internet access, Projectors, Paperless"
+        "text": "When computer speakers produce acoustic echo feedback."
       },
       {
         "key": "B",
-        "text": "Formative, Linear, Integrated, Programmed"
+        "text": "When an algorithm refuses to turn on during daytime hours."
       },
       {
         "key": "C",
-        "text": "Flexible environment, Learning culture, Intentional content, Professional educator"
+        "text": "A phenomenon where Large Language Models generate plausible-sounding but factually false, invented, or fabricated citations and information with high confidence."
       },
       {
         "key": "D",
-        "text": "Fun, Lectures, Interactive, Performance"
+        "text": "When a computer screen emits optical illusions that hypnotize the viewer."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The F-L-I-P pillars are: Flexible Environment, Learning Culture (student-centered), Intentional Content (prioritizing active learning), and Professional Educator (active observer/feedback provider)."
+    "explanation": "This item evaluates educational technology competence in AI Hallucinations in Education. A phenomenon where Large Language Models generate plausible-sounding but factually false, invented, or fabricated citations and information with high confidence. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 43,
-    "topicRef": "Microlearning Design",
-    "question": "Which characteristic defines 'Microlearning' in modern digital education?",
+    "topicRef": "Instructional Video Design: Microlearning Principles",
+    "question": "Cognitive research in educational video design indicates that instructional video segments are most effective for learner retention when they:",
     "options": [
       {
         "key": "A",
-        "text": "Instructional programs designed only for preschool infants."
+        "text": "Contain no visual diagrams and only tiny 6pt scrolling text."
       },
       {
         "key": "B",
-        "text": "Bite-sized, highly focused learning units (typically 2-5 minutes) designed for quick consumption and immediate application."
+        "text": "Are concise and modular (microlearning: 3 to 6 minutes long), focused on a single clear learning objective, and accompanied by guiding questions."
       },
       {
         "key": "C",
-        "text": "Using microscopic lenses in biology."
+        "text": "Are 2 hours long with uninterrupted continuous monotone lecture audio."
       },
       {
         "key": "D",
-        "text": "A 4-hour uninterrupted recorded lecture."
+        "text": "Feature loud rock music playing over quiet spoken explanations."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Microlearning delivers short, highly targeted nuggets of content addressing a single learning objective, maximizing retention and preventing cognitive overload."
+    "explanation": "This item evaluates educational technology competence in Instructional Video Design: Microlearning Principles. Are concise and modular (microlearning: 3 to 6 minutes long), focused on a single clear learning objective, and accompanied by guiding questions. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 44,
-    "topicRef": "Cognitive Load Theory in Multimedia (John Sweller)",
-    "question": "According to John Sweller's Cognitive Load Theory, which type of cognitive load should teachers minimize through clean visual presentation and removing extraneous background noise?",
+    "topicRef": "Collaborative Digital Tools: Padlet and Jamboard",
+    "question": "Using an interactive digital wall (such as Padlet) at the beginning of a lesson allows a teacher to:",
     "options": [
       {
         "key": "A",
-        "text": "Intrinsic Cognitive Load"
+        "text": "Collect, organize, and visually display prior knowledge, brainstorms, and multimedia responses from all students simultaneously in real time."
       },
       {
         "key": "B",
-        "text": "Germane Cognitive Load"
+        "text": "Conduct a 100-item high-stakes final examination."
       },
       {
         "key": "C",
-        "text": "Sensory Overload"
+        "text": "Print physical textbook volumes for the school library."
       },
       {
         "key": "D",
-        "text": "Extraneous Cognitive Load"
+        "text": "Block all student collaborative communication."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Extraneous Cognitive Load is wasted mental effort caused by poor instructional design or distracting clutter. Teachers strive to minimize Extraneous load, manage Intrinsic load, and optimize Germane load."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Collaborative Digital Tools: Padlet and Jamboard. Collect, organize, and visually display prior knowledge, brainstorms, and multimedia responses from all students simultaneously in real time. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 45,
-    "topicRef": "Mayer's Principles of Multimedia Learning",
-    "question": "Richard Mayer's 'Coherence Principle' states that people learn better when:",
+    "topicRef": "Electronic Portfolios (e-Portfolios) in Assessment",
+    "question": "An 'e-Portfolio' is an authentic digital assessment tool that serves to:",
     "options": [
       {
         "key": "A",
-        "text": "Extraneous words, pictures, background music, and sounds are excluded rather than included."
+        "text": "Record only multiple-choice raw exam scores."
       },
       {
         "key": "B",
-        "text": "As many animations and sound effects as possible are crammed onto every slide."
+        "text": "Store administrative receipts for school tuition payments."
       },
       {
         "key": "C",
-        "text": "The entire textbook text is read aloud verbatim off the screen."
+        "text": "Function as a speed-typing competition scoreboard."
       },
       {
         "key": "D",
-        "text": "The screen is left completely blank."
+        "text": "Collect, showcase, and reflect upon a curated body of student artifacts, projects, and developmental growth over time."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Mayer's Coherence Principle proves that adding seductive, irrelevant details (fancy background music, unrelated decorative clipart) hurts learning by overloading working memory."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Electronic Portfolios (e-Portfolios) in Assessment. Collect, showcase, and reflect upon a curated body of student artifacts, projects, and developmental growth over time. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 46,
-    "topicRef": "Mayer's Modality Principle",
-    "question": "According to Mayer's 'Modality Principle', learners retain more when graphics are explained by:",
+    "topicRef": "Digital Rubrics in Assessment: Rubric Affordances",
+    "question": "Using digital rubric evaluation tools inside an LMS (e.g., Canvas SpeedGrader or Google Classroom Rubrics) improves assessment because:",
     "options": [
       {
         "key": "A",
-        "text": "Spoken narration rather than on-screen text."
+        "text": "It automatically assigns an 'A' grade to every student."
       },
       {
         "key": "B",
-        "text": "No narration and no text."
+        "text": "It removes all subjective judgment by standardizing multiple-choice questions."
       },
       {
         "key": "C",
-        "text": "Dense paragraphs of tiny printed text."
+        "text": "It provides transparent, criteria-based diagnostic feedback linked directly to specific student submission points with consistent scoring efficiency."
       },
       {
         "key": "D",
-        "text": "Subtitles in three different languages simultaneously."
+        "text": "It eliminates the need for teachers to evaluate student work."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Modality Principle states that presenting words as spoken audio rather than on-screen visual text frees up the visual channel in working memory (dual-coding theory)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Digital Rubrics in Assessment: Rubric Affordances. It provides transparent, criteria-based diagnostic feedback linked directly to specific student submission points with consistent scoring efficiency. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 47,
-    "topicRef": "Mayer's Spatial Contiguity Principle",
-    "question": "Mayer's 'Spatial Contiguity Principle' recommends that text labels should be placed:",
+    "topicRef": "Formative Assessment Tech: Kahoot, Quizizz, Mentimeter",
+    "question": "Using interactive formative polling tools (e.g., Kahoot, Quizizz, Mentimeter) during a lesson helps the teacher to:",
     "options": [
       {
         "key": "A",
-        "text": "Randomly across the margins."
+        "text": "Force students to compete for monetary prizes."
       },
       {
         "key": "B",
-        "text": "Near the corresponding parts of the graphic rather than far from each other."
+        "text": "Obtain real-time diagnostic data on class understanding, identify common misconceptions instantly, and adjust instruction immediately."
       },
       {
         "key": "C",
-        "text": "In microscopic font at the bottom footer."
+        "text": "Assign permanent failing marks on report cards."
       },
       {
         "key": "D",
-        "text": "On a completely separate page at the back of the book."
+        "text": "Replace all classroom group discussions with silent typing."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Spatial Contiguity states that learning is improved when corresponding text and pictures are presented close to each other on the screen rather than separated."
+    "explanation": "This item evaluates educational technology competence in Formative Assessment Tech: Kahoot, Quizizz, Mentimeter. Obtain real-time diagnostic data on class understanding, identify common misconceptions instantly, and adjust instruction immediately. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 48,
-    "topicRef": "Copyright Fair Use in Teaching (IP Code RA 8293)",
-    "question": "Under the Philippine Intellectual Property Code (RA 8293), which condition falls under 'Fair Use' for educational purposes?",
+    "topicRef": "Computer-Based Testing (CBT): Computerized Adaptive Testing (CAT)",
+    "question": "In 'Computerized Adaptive Testing' (CAT), the testing algorithm selects each subsequent question based on:",
     "options": [
       {
         "key": "A",
-        "text": "Claiming an online author's original research paper as the teacher's own master's thesis."
+        "text": "The test-taker's performance on previous items (giving harder items after correct answers, and easier items after incorrect answers) to estimate ability precisely."
       },
       {
         "key": "B",
-        "text": "Distributing cracked proprietary software serial keys in class."
+        "text": "A purely random sequence of questions from a 10,000-item bank."
       },
       {
         "key": "C",
-        "text": "Reproduction of brief excerpts, quotations, and diagrams for classroom teaching, commentary, or criticism without commercial gain."
+        "text": "The student's chronological age and alphabetical last name."
       },
       {
         "key": "D",
-        "text": "Photocopying an entire textbook, binding it, and selling it for profit to students."
+        "text": "The time of day the student logs into the examination terminal."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Fair use allows limited reproduction of copyrighted works for non-profit educational purposes, scholarship, research, commentary, or news reporting without copyright infringement."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Computer-Based Testing (CBT): Computerized Adaptive Testing (CAT). The test-taker's performance on previous items (giving harder items after correct answers, and easier items after incorrect answers) to estimate ability precisely. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 49,
-    "topicRef": "Creative Commons: Public Domain (CC0)",
-    "question": "When an educational resource is marked as 'Public Domain' or 'CC0', it means:",
+    "topicRef": "Podcast in Education: Auditory Learning Affordances",
+    "question": "Having students create and publish their own educational 'Podcasts' on local history topics develops which competencies?",
     "options": [
       {
         "key": "A",
-        "text": "It requires paying a monthly royalty fee."
+        "text": "Manual handwriting and calligraphy dexterity."
       },
       {
         "key": "B",
-        "text": "It is owned exclusively by the national government and cannot be viewed."
+        "text": "Physical athletic endurance."
       },
       {
         "key": "C",
-        "text": "The copyright has expired or been explicitly waived, allowing anyone to freely use, modify, and distribute it without restrictions."
+        "text": "Mechanical typewriter repair."
       },
       {
         "key": "D",
-        "text": "It can only be accessed in public libraries."
+        "text": "Research synthesis, oral communication, scriptwriting, audio digital editing, and storytelling skills."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Public Domain / CC0 works have no copyright restrictions; anyone can copy, modify, distribute, and perform the work, even commercially, without asking permission."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Podcast in Education: Auditory Learning Affordances. Research synthesis, oral communication, scriptwriting, audio digital editing, and storytelling skills. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 50,
-    "topicRef": "Digital Portfolios (e-Portfolios)",
-    "question": "What is the primary pedagogical value of an e-Portfolio (electronic portfolio) over traditional paper tests?",
+    "topicRef": "Infographics in Education: Visual Information Literacy",
+    "question": "Having students design an 'Infographic' (using Canva or Piktochart) to summarize climate change impacts teaches them to:",
     "options": [
       {
         "key": "A",
-        "text": "It documents holistic student growth, reflections, and multifaceted artifacts over time in an authentic multimedia format."
+        "text": "Memorize dictionary definitions without visual aids."
       },
       {
         "key": "B",
-        "text": "It can be graded in less than one second by a computer."
+        "text": "Write computer assembly code for hardware processors."
       },
       {
         "key": "C",
-        "text": "It prevents students from thinking critically."
+        "text": "Synthesize complex statistical data, identify key messages, and communicate information visually using hierarchy, icons, and concise text."
       },
       {
         "key": "D",
-        "text": "It eliminates student effort."
+        "text": "Copy and paste 50 pages of raw text without editing."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "An e-Portfolio showcases authentic student learning progression, self-reflections, audio-visual products, and growth over time, facilitating authentic assessment."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Infographics in Education: Visual Information Literacy. Synthesize complex statistical data, identify key messages, and communicate information visually using hierarchy, icons, and concise text. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 51,
-    "topicRef": "Web 1.0 vs Web 2.0 vs Web 3.0",
-    "question": "How is Web 2.0 functionally distinguished from Web 1.0?",
+    "topicRef": "Digital Storytelling: Educational Affordances",
+    "question": "Digital Storytelling combines traditional narrative storytelling with digital multimedia (images, voiceover, music, video clips) primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Web 1.0 was for mobile phones only."
+        "text": "Eliminate the need for narrative story structure."
       },
       {
         "key": "B",
-        "text": "Web 2.0 does not allow video streaming."
+        "text": "Deepen emotional engagement, foster personal voice, and enhance multimodal literacy across learning areas."
       },
       {
         "key": "C",
-        "text": "Web 1.0 was read-only and static; Web 2.0 is read-write, highly collaborative, user-generated, and socially interactive."
+        "text": "Replace all standard reading and writing instruction with video gaming."
       },
       {
         "key": "D",
-        "text": "Web 1.0 required electricity while Web 2.0 operates without power."
+        "text": "Allow students to watch television cartoons during class time."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Web 1.0 was static and informational (read-only), while Web 2.0 enabled user participation, social networking, wikis, blogging, and collaborative authoring (read-write)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Digital Storytelling: Educational Affordances. Deepen emotional engagement, foster personal voice, and enhance multimodal literacy across learning areas. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 52,
-    "topicRef": "Cloud Computing in Education",
-    "question": "Which of the following is an example of Cloud-based collaborative software used in schools?",
+    "topicRef": "Social Media in Professional Teacher Development (PLNs)",
+    "question": "How do professional educators leverage social media platforms (e.g., Twitter/X educational chats, LinkedIn, Facebook teacher groups)?",
     "options": [
       {
         "key": "A",
-        "text": "A 3.5-inch floppy disk"
+        "text": "To build Personal Learning Networks (PLNs), share open educational resources, discuss evidence-based pedagogies, and collaborate globally."
       },
       {
         "key": "B",
-        "text": "A chalkboard eraser"
+        "text": "To post confidential student disciplinary records publicly."
       },
       {
         "key": "C",
-        "text": "An offline printed encyclopedia"
+        "text": "To engage in partisan political arguments during classroom hours."
       },
       {
         "key": "D",
-        "text": "Google Docs / Microsoft 365"
+        "text": "To sell commercial consumer products to students' parents."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Google Workspace (Docs, Sheets, Slides) and Microsoft 365 operate on cloud servers, enabling simultaneous real-time multi-user editing and automatic remote saving."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Social Media in Professional Teacher Development (PLNs). To build Personal Learning Networks (PLNs), share open educational resources, discuss evidence-based pedagogies, and collaborate globally. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 53,
-    "topicRef": "Digital Rubrics",
-    "question": "Why should teachers share digital scoring rubrics with learners before they start a multimedia project?",
+    "topicRef": "Distance Education: Moore's Theory of Transactional Distance",
+    "question": "Michael G. Moore's Theory of Transactional Distance posits that the psychological and communications gap in distance learning is determined by:",
     "options": [
       {
         "key": "A",
-        "text": "To ensure all students copy each other's ideas."
+        "text": "The physical geographic distance in kilometers between student and school."
       },
       {
         "key": "B",
-        "text": "To clarify exact performance criteria, foster self-assessment, and eliminate ambiguity regarding grading expectations."
+        "text": "The monetary cost of internet broadband subscription packages."
       },
       {
         "key": "C",
-        "text": "To prevent students from doing high-quality work."
+        "text": "The physical weight of printed modular textbooks."
       },
       {
         "key": "D",
-        "text": "Because the principal requires paperwork."
+        "text": "The dynamic interplay of Dialogue (interaction), Structure (course rigidity/flexibility), and Learner Autonomy."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Sharing rubrics beforehand empowers students to monitor and self-evaluate their own work against transparent quality standards."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Distance Education: Moore's Theory of Transactional Distance. The dynamic interplay of Dialogue (interaction), Structure (course rigidity/flexibility), and Learner Autonomy. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 54,
-    "topicRef": "Podcasting in Education",
-    "question": "Assigning students to script, record, and edit a podcast episode on historical events primarily promotes which 21st-century competencies?",
+    "topicRef": "Distance Education: Reducing Transactional Distance",
+    "question": "To reduce transactional distance and prevent learner isolation in an online course, an instructor should:",
     "options": [
       {
         "key": "A",
-        "text": "Oral communication, scriptwriting, audio literacy, research synthesis, and collaborative technical skills."
+        "text": "Require students to study completely alone for 10 months without check-ins."
       },
       {
         "key": "B",
-        "text": "Silent calligraphy penmanship."
+        "text": "Upload 500 pages of unannotated PDF readings with zero guidance."
       },
       {
         "key": "C",
-        "text": "Physical gymnastics and sports endurance."
+        "text": "Increase timely, meaningful dialogue, provide frequent interactive feedback, and facilitate collaborative peer activities."
       },
       {
         "key": "D",
-        "text": "Rote memorization and multiple-choice guessing."
+        "text": "Make the course completely rigid with zero opportunities for student-teacher communication."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Podcasting exercises research synthesis, oral fluency, storytelling, digital audio editing, and collaborative teamwork."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Distance Education: Reducing Transactional Distance. Increase timely, meaningful dialogue, provide frequent interactive feedback, and facilitate collaborative peer activities. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 55,
-    "topicRef": "Screen Time & Ergonomics",
-    "question": "When designing digital learning activities, the 20-20-20 rule for eye ergonomics recommends that every 20 minutes:",
+    "topicRef": "Flipped Learning: In-Class Active Learning Strategies",
+    "question": "In a properly implemented Flipped Classroom, the freed classroom time should be used primarily for:",
     "options": [
       {
         "key": "A",
-        "text": "Turn off all lights in the classroom for 20 minutes."
+        "text": "Letting students do personal homework from other subjects."
       },
       {
         "key": "B",
-        "text": "Drink 20 liters of water."
+        "text": "Higher-order collaborative tasks, hands-on lab experiments, debates, case study analysis, and individualized teacher coaching."
       },
       {
         "key": "C",
-        "text": "Blink 20 times per millisecond."
+        "text": "Having students watch the lecture video again in complete silence."
       },
       {
         "key": "D",
-        "text": "Look at something at least 20 feet away for at least 20 seconds."
+        "text": "Administering 3-hour multiple-choice standardized tests."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The 20-20-20 rule prevents digital eye strain: every 20 minutes of screen time, look at an object 20 feet away for at least 20 seconds to relax eye focusing muscles."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Flipped Learning: In-Class Active Learning Strategies. Higher-order collaborative tasks, hands-on lab experiments, debates, case study analysis, and individualized teacher coaching. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 56,
-    "topicRef": "Computer-Adaptive Testing (CAT)",
-    "question": "In Computer-Adaptive Testing (CAT), what occurs when a student answers a question correctly?",
+    "topicRef": "WebQuests: Bernie Dodge's Inquiry Framework",
+    "question": "A 'WebQuest' (developed by Bernie Dodge) is an inquiry-oriented instructional lesson format in which:",
     "options": [
       {
         "key": "A",
-        "text": "The computer repeats the exact same question."
+        "text": "Most or all of the information that learners interact with comes from curated resources on the World Wide Web."
       },
       {
         "key": "B",
-        "text": "The test ends immediately with a 100% score."
+        "text": "Students search random commercial websites without teacher guidance."
       },
       {
         "key": "C",
-        "text": "The algorithm selects a slightly more challenging next question to precisely locate the student's true ability level."
+        "text": "Students play online video games for 60 minutes."
       },
       {
         "key": "D",
-        "text": "The computer shuts down to save memory."
+        "text": "The teacher lectures from printed textbooks with zero internet use."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "CAT algorithms dynamically calibrate question difficulty based on prior answers, giving harder items after correct answers and easier items after incorrect answers."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in WebQuests: Bernie Dodge's Inquiry Framework. Most or all of the information that learners interact with comes from curated resources on the World Wide Web. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 57,
-    "topicRef": "Augmented Communication: AAC Devices",
-    "question": "Augmentative and Alternative Communication (AAC) apps (such as speech-generating apps with picture symbols) are specifically designed to assist learners who:",
+    "topicRef": "WebQuest Components: Standard Structure",
+    "question": "What are the standard structural components of a well-designed WebQuest?",
     "options": [
       {
         "key": "A",
-        "text": "Already speak five foreign languages fluently."
+        "text": "Title, Index, Bibliography, Appendix, and Glossary."
       },
       {
         "key": "B",
-        "text": "Have severe speech and verbal language impairments."
+        "text": "Abstract, Methodology, Results, Discussion, and References."
       },
       {
         "key": "C",
-        "text": "Dislike writing homework."
+        "text": "Login, Password, Captcha, Firewall, and Logout."
       },
       {
         "key": "D",
-        "text": "Have perfect vision and normal hearing."
+        "text": "Introduction, Task, Process, Resources, Evaluation (Rubric), and Conclusion."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "AAC systems and speech-generating devices enable non-verbal learners or those with severe expressive language difficulties to communicate using symbols, text-to-speech, and visual boards."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in WebQuest Components: Standard Structure. Introduction, Task, Process, Resources, Evaluation (Rubric), and Conclusion. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 58,
-    "topicRef": "Digital Storytelling",
-    "question": "Digital Storytelling combines which elements to convey a powerful educational message?",
+    "topicRef": "Technological Equity: The Access Divide vs The Usage Divide",
+    "question": "While the 'First-Level Digital Divide' concerns inequalities in physical access to hardware and internet connectivity, the 'Second-Level Digital Divide' concerns:",
     "options": [
       {
         "key": "A",
-        "text": "Unlabeled pie charts."
+        "text": "The color of computer cables installed in school classrooms."
       },
       {
         "key": "B",
-        "text": "Silent algebra equations."
+        "text": "The physical weight of laptop bags carried by students."
       },
       {
         "key": "C",
-        "text": "Narrative script, still images, video clips, background audio, and personal voiceover narration."
+        "text": "Inequalities in digital literacy, critical thinking skills, and the pedagogical quality of how technology is utilized for learning."
       },
       {
         "key": "D",
-        "text": "Printed photocopies only."
+        "text": "The difference in screen brightness between two tablet computers."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Digital Storytelling weaves personal narrative with rich digital multimedia (images, audio soundtrack, voiceover, video clips) to communicate deep thematic concepts."
+    "explanation": "This item evaluates educational technology competence in Technological Equity: The Access Divide vs The Usage Divide. Inequalities in digital literacy, critical thinking skills, and the pedagogical quality of how technology is utilized for learning. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 59,
-    "topicRef": "Information Security: Two-Factor Authentication (2FA)",
-    "question": "Why is Two-Factor Authentication (2FA) essential for teachers managing school grading portals?",
+    "topicRef": "Digital Wellness: Screen Time & Ergonomics",
+    "question": "In teaching digital health and wellness, teachers must guide students in 'Digital Ergonomics' by promoting:",
     "options": [
       {
         "key": "A",
-        "text": "It automatically calculates quarterly grade averages."
+        "text": "Using maximum screen brightness with zero eye blink breaks."
       },
       {
         "key": "B",
-        "text": "It allows two teachers to log in at the same second."
+        "text": "Proper posture, 20-20-20 screen eye breaks (looking 20 feet away for 20 seconds every 20 minutes), and balanced physical activity."
       },
       {
         "key": "C",
-        "text": "It doubles the computer's CPU processing speed."
+        "text": "Staring at smartphone screens in total darkness for 8 continuous hours."
       },
       {
         "key": "D",
-        "text": "It adds an extra verification layer (e.g. mobile OTP code) ensuring that a stolen password alone cannot compromise student grade records."
+        "text": "Slouching over laptops on the floor without breaks."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "2FA combines something you know (password) with something you have (OTP on phone/security key), safeguarding student confidential records from unauthorized breaches."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Digital Wellness: Screen Time & Ergonomics. Proper posture, 20-20-20 screen eye breaks (looking 20 feet away for 20 seconds every 20 minutes), and balanced physical activity. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 60,
-    "topicRef": "Digital Citizenship: Digital Law",
-    "question": "Downloading and redistributing commercial software, copyrighted films, and paid test banks without license permissions violates which theme of Digital Citizenship?",
+    "topicRef": "Assistive Tech: Universal Design for Learning (UDL) in EdTech",
+    "question": "How does EdTech support the UDL principle of 'Multiple Means of Action and Expression'?",
     "options": [
       {
         "key": "A",
-        "text": "Digital Law"
+        "text": "By allowing learners to demonstrate mastery through diverse digital mediums\u2014such as creating a video, recording a podcast, coding a game, or writing a blog post."
       },
       {
         "key": "B",
-        "text": "Digital Access"
+        "text": "By forcing all learners to submit identical handwritten 5-page essays."
       },
       {
         "key": "C",
-        "text": "Digital Health"
+        "text": "By restricting all assessments to timed multiple-choice scantron sheets."
       },
       {
         "key": "D",
-        "text": "Digital Literacy"
+        "text": "By eliminating all forms of student choice in project formats."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Digital Law deals with legal rights, copyright, software piracy, identity theft, and adherence to cyber legislation."
+    "explanation": "This item evaluates educational technology competence in Assistive Tech: Universal Design for Learning (UDL) in EdTech. By allowing learners to demonstrate mastery through diverse digital mediums\u2014such as creating a video, recording a podcast, coding a game, or writing a blog post. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 61,
-    "topicRef": "Educational ICT Tools: Padlet / Jamboard",
-    "question": "Digital sticky-note boards (e.g., Padlet, Miro) are most effectively utilized in the classroom for:",
+    "topicRef": "Community of Inquiry (CoI) Framework (Garrison, Anderson, Archer)",
+    "question": "The Community of Inquiry (CoI) model for online and blended learning asserts that effective educational experiences require the intersection of which three presences?",
     "options": [
       {
         "key": "A",
-        "text": "Running heavy 3D rendering video games."
+        "text": "Technological Presence, Hardware Presence, and Software Presence."
       },
       {
         "key": "B",
-        "text": "Collaborative brainstorming, idea clustering, and real-time student reflection boards."
+        "text": "Administrative Presence, Financial Presence, and Legal Presence."
       },
       {
         "key": "C",
-        "text": "Printing physical diplomas."
+        "text": "Physical Presence, Somatic Presence, and Biological Presence."
       },
       {
         "key": "D",
-        "text": "Encrypting school financial audits."
+        "text": "Cognitive Presence, Social Presence, and Teaching Presence."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Interactive digital wall boards enable collaborative brainstorming, collecting student feedback, visual curation, and collective reflection."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Community of Inquiry (CoI) Framework (Garrison, Anderson, Archer). Cognitive Presence, Social Presence, and Teaching Presence. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 62,
-    "topicRef": "Instructional Design: Backward Design (UbD)",
-    "question": "In Grant Wiggins and Jay McTighe's Understanding by Design (UbD) / Backward Design framework, what is Stage 1?",
+    "topicRef": "CoI Framework: Teaching Presence",
+    "question": "In the Community of Inquiry model, 'Teaching Presence' is established by the instructor through:",
     "options": [
       {
         "key": "A",
-        "text": "Determine Acceptable Evidence (Assessment)"
+        "text": "Remaining completely silent and never responding to student messages."
       },
       {
         "key": "B",
-        "text": "Identify Desired Results (Big Ideas & Essential Questions)"
+        "text": "Uploading 1,000 pages of text with zero course navigation structure."
       },
       {
         "key": "C",
-        "text": "Select textbook chapter"
+        "text": "Instructional design, organization of learning activities, facilitating meaningful discourse, and providing direct instruction and timely feedback."
       },
       {
         "key": "D",
-        "text": "Plan Learning Experiences and Instruction"
+        "text": "Setting automated grading bots to assign random test scores."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "UbD follows 3 stages in reverse order: Stage 1 = Identify Desired Results -> Stage 2 = Determine Assessment Evidence -> Stage 3 = Plan Learning Experiences."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in CoI Framework: Teaching Presence. Instructional design, organization of learning activities, facilitating meaningful discourse, and providing direct instruction and timely feedback. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 63,
-    "topicRef": "UbD: Essential Questions",
-    "question": "Which of the following is the best example of an 'Essential Question' in Backward Design?",
+    "topicRef": "CoI Framework: Social Presence",
+    "question": "In an asynchronous online class, 'Social Presence' is demonstrated when learners:",
     "options": [
       {
         "key": "A",
-        "text": "'To what extent does technological innovation reshape human culture and ethics?'"
+        "text": "Use anonymous pseudonyms to insult classmates."
       },
       {
         "key": "B",
-        "text": "'Name the eight planets of the solar system.'"
+        "text": "Present themselves as real, authentic people through personal introductions, collaborative tone, emotional expression, and supportive peer communication."
       },
       {
         "key": "C",
-        "text": "'How many syllables are in a haiku?'"
+        "text": "Post only robotic, one-word automated responses."
       },
       {
         "key": "D",
-        "text": "'What is the formula for calculating velocity?'"
+        "text": "Never interact with any peers or instructors during the semester."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Essential Questions in UbD are open-ended, thought-provoking, recur throughout life, and spark inquiry into enduring understandings."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in CoI Framework: Social Presence. Present themselves as real, authentic people through personal introductions, collaborative tone, emotional expression, and supportive peer communication. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 64,
-    "topicRef": "Online Safety: Cyberstalking & Harassment",
-    "question": "A student receives repeated, unwanted threatening messages and unauthorized photos sent across social media apps. What is the immediate correct procedure for the teacher?",
+    "topicRef": "Educational Data Mining & Learning Analytics",
+    "question": "In educational technology, 'Learning Analytics' involves collecting and analyzing learner digital trace data (e.g., login frequency, video completion, quiz attempts) primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Document and preserve the digital evidence (screenshots), report to school guidance/child protection committee, and notify parents immediately."
+        "text": "Understand and optimize learning processes, identify at-risk students early, and provide timely personalized instructional interventions."
       },
       {
         "key": "B",
-        "text": "Post public insults back at the suspected perpetrator."
+        "text": "Sell student personal data to commercial advertisers for profit."
       },
       {
         "key": "C",
-        "text": "Tell the student to delete the app and ignore all threats."
+        "text": "Publicly shame low-performing students on school leaderboards."
       },
       {
         "key": "D",
-        "text": "Lower the student's conduct grade."
+        "text": "Automate the immediate expulsion of struggling learners."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Preserving digital evidence (screenshots, timestamps) and activating school Child Protection / Anti-Bullying protocols is the legally mandated procedure under DepEd Child Protection Policy (DO 40, s. 2012)."
+    "explanation": "This item evaluates educational technology competence in Educational Data Mining & Learning Analytics. Understand and optimize learning processes, identify at-risk students early, and provide timely personalized instructional interventions. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 65,
-    "topicRef": "Simulation Software in Science",
-    "question": "Why are interactive virtual science labs (e.g. PhET Interactive Simulations) highly recommended in resource-constrained Philippine schools?",
+    "topicRef": "Digital Assessment Security: Plagiarism Detection Tools",
+    "question": "When using automated plagiarism detection software (e.g., Turnitin), a teacher must interpret the 'Similarity Index' by:",
     "options": [
       {
         "key": "A",
-        "text": "They guarantee 100% test scores on national exams."
+        "text": "Automatically failing any student who has a similarity index above 0%."
       },
       {
         "key": "B",
-        "text": "They replace the necessity of having certified science teachers."
+        "text": "Assuming that the computer algorithm's percentage is infallible without review."
       },
       {
         "key": "C",
-        "text": "They allow learners to conduct safe, repeatable, zero-cost virtual laboratory experiments without purchasing hazardous chemical consumables."
+        "text": "Ignoring all matches and assigning arbitrary letter grades."
       },
       {
         "key": "D",
-        "text": "They eliminate the scientific method."
+        "text": "Carefully inspecting the matched text in context to distinguish legitimate properly cited quotes from actual uncredited copying."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Interactive simulation platforms provide safe, risk-free, highly interactive inquiry experiments where students can manipulate variables without expensive laboratory equipment."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Digital Assessment Security: Plagiarism Detection Tools. Carefully inspecting the matched text in context to distinguish legitimate properly cited quotes from actual uncredited copying. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 66,
-    "topicRef": "Interactive Whiteboards (IWB)",
-    "question": "What is the primary instructional advantage of an Interactive Whiteboard (IWB) over a traditional chalkboard?",
+    "topicRef": "Video Conferencing Netiquette: Breakout Rooms",
+    "question": "When facilitating small-group discussions in Zoom/Teams Breakout Rooms, best pedagogical practice requires the teacher to:",
     "options": [
       {
         "key": "A",
-        "text": "It cannot display videos."
+        "text": "Place 50 students in a single breakout room with no assigned task."
       },
       {
         "key": "B",
-        "text": "It allows dynamic interaction with digital media, direct annotation over web simulations, and instant saving/sharing of board work."
+        "text": "Mute all student microphones and turn off all cameras permanently."
       },
       {
         "key": "C",
-        "text": "It requires no teacher preparation."
+        "text": "Set clear tasks/roles with a shared collaborative workspace, provide explicit time limits, and actively visit/monitor rooms to support discussions."
       },
       {
         "key": "D",
-        "text": "It consumes zero electrical power."
+        "text": "Leave the main room and disconnect from the internet for 60 minutes."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "IWBs combine digital projection with touch interactivity, allowing teachers and students to manipulate digital objects, run interactive exercises, and export annotated notes."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Video Conferencing Netiquette: Breakout Rooms. Set clear tasks/roles with a shared collaborative workspace, provide explicit time limits, and actively visit/monitor rooms to support discussions. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 67,
-    "topicRef": "Educational Podcasting & Audio Literacy",
-    "question": "In Edgar Dale's Cone of Experience, listening to educational audio recordings belongs to which band?",
+    "topicRef": "Open Source Software in Education (OSS)",
+    "question": "Using Open Source Software (such as GIMP for image editing, Audacity for audio recording, or LibreOffice) in schools provides the advantage of:",
     "options": [
       {
         "key": "A",
-        "text": "Dramatized Experiences"
+        "text": "Being completely incompatible with all operating systems."
       },
       {
         "key": "B",
-        "text": "Demonstrations"
+        "text": "Zero licensing costs, freedom to install on unlimited devices, and the ability to customize and distribute legally without piracy."
       },
       {
         "key": "C",
-        "text": "Direct Purposeful Experiences"
+        "text": "Requiring expensive monthly corporate subscription fees per student."
       },
       {
         "key": "D",
-        "text": "Hearing (Recordings / Radio / Audio Media)"
+        "text": "Self-deleting from computers after 14 days of use."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Audio recordings, radio broadcasts, and still photos sit near the upper-middle abstract zone of Dale's Cone, relying purely on auditory sensory input."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Open Source Software in Education (OSS). Zero licensing costs, freedom to install on unlimited devices, and the ability to customize and distribute legally without piracy. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 68,
-    "topicRef": "Digital Literacy Standards: ISTE Standards for Educators",
-    "question": "According to the ISTE (International Society for Technology in Education) Standards for Educators, what does the role of 'Citizen' entail?",
+    "topicRef": "Gamified Learning Platforms: ClassDojo & Positive Behavior",
+    "question": "Using a gamified classroom management app (like ClassDojo) effectively involves:",
     "options": [
       {
         "key": "A",
-        "text": "Buying computers for local political campaigns."
+        "text": "Reinforcing positive character values (e.g., teamwork, persistence, helping others) through immediate constructive feedback and parent communication."
       },
       {
         "key": "B",
-        "text": "Inspiring students to positively contribute to and responsibly participate in the digital world."
+        "text": "Using public point deductions to publicly shame and humiliate struggling pupils."
       },
       {
         "key": "C",
-        "text": "Filing income taxes online."
+        "text": "Replacing all academic teaching with point-collecting competitions."
       },
       {
         "key": "D",
-        "text": "Repairing school router hardware."
+        "text": "Posting student behavioral points on commercial public billboards."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The ISTE 'Citizen' standard requires educators to model and promote digital citizenship, online safety, respectful communication, and ethical management of personal data."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates educational technology competence in Gamified Learning Platforms: ClassDojo & Positive Behavior. Reinforcing positive character values (e.g., teamwork, persistence, helping others) through immediate constructive feedback and parent communication. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 69,
-    "topicRef": "ISTE Standards: Facilitator",
-    "question": "An educator who uses technology to support learner-centered innovation, project-based design, and student-driven learning aligns with which ISTE role?",
+    "topicRef": "Online Discussions: Asynchronous Threaded Forums",
+    "question": "To foster higher-order critical thinking in an asynchronous discussion forum, an instructor should design prompts that:",
     "options": [
       {
         "key": "A",
-        "text": "Facilitator"
+        "text": "Ask simple factual recall questions that have a single one-word correct answer."
       },
       {
         "key": "B",
-        "text": "Learner"
+        "text": "Ask students to copy and paste paragraph 1 from the textbook."
       },
       {
         "key": "C",
-        "text": "Analyst"
+        "text": "Require students to post 50 identical responses within 5 minutes."
       },
       {
         "key": "D",
-        "text": "Leader"
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "The ISTE 'Facilitator' role centers on fostering student-driven learning and creative problem-solving through effective technology integration."
-  },
-  {
-    "id": 70,
-    "topicRef": "Digital Rubrics & Peer Evaluation",
-    "question": "What is a key benefit of using Google Forms or digital rubric scoring for peer evaluation in cooperative group work?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It replaces teacher judgment completely."
-      },
-      {
-        "key": "B",
-        "text": "It allows students to fail each other out of personal grudges without teacher oversight."
-      },
-      {
-        "key": "C",
-        "text": "Anonymous, honest formative peer ratings can be aggregated instantly into summary data spreadsheets for teacher analysis."
-      },
-      {
-        "key": "D",
-        "text": "It prevents students from seeing any scores."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Digital forms streamline peer feedback collection, aggregate scores automatically, and provide data insights while maintaining fair, structured evaluation criteria."
-  },
-  {
-    "id": 71,
-    "topicRef": "Flipped Mastery Model",
-    "question": "How does the 'Flipped Mastery' model differ from a standard flipped classroom?",
-    "options": [
-      {
-        "key": "A",
-        "text": "There are no homework assignments and no tests."
-      },
-      {
-        "key": "B",
-        "text": "Students progress through curriculum modules at their own pace, advancing to the next unit only after demonstrating 80%+ mastery on unit assessments."
-      },
-      {
-        "key": "C",
-        "text": "All students must advance on the exact same calendar date regardless of understanding."
-      },
-      {
-        "key": "D",
-        "text": "Instruction is conducted purely through radio broadcasts."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Flipped Mastery (Bergmann & Sams) combines asynchronous video delivery with mastery learning: students advance individually only when they achieve demonstrated mastery of prerequisite objectives."
-  },
-  {
-    "id": 72,
-    "topicRef": "Universal Access & Section 508 / Web Accessibility (WCAG)",
-    "question": "Under Web Content Accessibility Guidelines (WCAG), why must instructional videos include accurate closed captions (subtitles)?",
-    "options": [
-      {
-        "key": "A",
-        "text": "To make the video file size as large as possible."
-      },
-      {
-        "key": "B",
-        "text": "Because YouTube forbids audio-only speech."
-      },
-      {
-        "key": "C",
-        "text": "To provide full accessibility for deaf or hard-of-hearing learners and support comprehension for diverse language backgrounds."
-      },
-      {
-        "key": "D",
-        "text": "To hide spelling errors in the audio."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Closed captions ensure digital equity and compliance with accessibility standards (WCAG/UDL) for students with hearing impairments and second-language learners."
-  },
-  {
-    "id": 73,
-    "topicRef": "Blended Learning: Flipped vs Traditional Lecture",
-    "question": "Which of the following is the most significant educational benefit of the Flipped Classroom model?",
-    "options": [
-      {
-        "key": "A",
-        "text": "It guarantees that no student ever fails."
-      },
-      {
-        "key": "B",
-        "text": "Classroom contact hours are converted from passive listening into active, collaborative problem-solving and teacher-guided scaffolding."
-      },
-      {
-        "key": "C",
-        "text": "Students never have to study outside school hours."
-      },
-      {
-        "key": "D",
-        "text": "Teachers no longer need to prepare lesson plans."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Flipping moves passive lower-order lecture consumption outside class, maximizing classroom contact time for active, higher-order collaborative learning and individualized scaffolding."
-  },
-  {
-    "id": 74,
-    "topicRef": "AI Ethics: Hallucinations & Fact-Checking",
-    "question": "When using AI chatbots for academic research, students must be trained to verify facts because Large Language Models (LLMs):",
-    "options": [
-      {
-        "key": "A",
-        "text": "Only speak in binary code."
-      },
-      {
-        "key": "B",
-        "text": "Do not have access to any vocabulary words."
-      },
-      {
-        "key": "C",
-        "text": "Are infallible and contain no errors."
-      },
-      {
-        "key": "D",
-        "text": "Can generate plausible-sounding but factually false information, fictitious citations, and hallucinations."
+        "text": "Are open-ended, controversial, or case-based, requiring students to synthesize evidence, apply concepts, and evaluate peer arguments."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "LLMs predict text statistically and are prone to 'hallucinations' (generating confident but completely fabricated citations, facts, and quotes), making critical source verification essential."
+    "explanation": "This item evaluates educational technology competence in Online Discussions: Asynchronous Threaded Forums. Are open-ended, controversial, or case-based, requiring students to synthesize evidence, apply concepts, and evaluate peer arguments. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
-    "id": 75,
-    "topicRef": "Holistic Technology Integration",
-    "question": "Which of the following scenarios demonstrates the highest standard of technology-enhanced, learner-centered pedagogy in a Philippine classroom?",
+    "id": 70,
+    "topicRef": "Cloud Computing in Education (Google Workspace / Microsoft 365)",
+    "question": "Cloud-based educational suites transform classroom workflow because they enable:",
     "options": [
       {
         "key": "A",
-        "text": "Students use mobile sensors and GIS mapping apps to collect local water quality data, analyze environmental trends in spreadsheets, and present policy recommendations to the Barangay council."
+        "text": "Complete disconnection from school server networks."
       },
       {
         "key": "B",
-        "text": "The teacher reads from a PDF projected on a screen for 60 minutes while students copy the text into notebooks."
+        "text": "The destruction of all previous student project drafts."
       },
       {
         "key": "C",
-        "text": "Students play an unrelated shooting video game after finishing a math test early."
+        "text": "Real-time simultaneous collaborative document editing, automated continuous saving, and seamless cross-device file accessibility."
       },
       {
         "key": "D",
-        "text": "The school locks all computers in an air-conditioned room that students are never allowed to enter."
+        "text": "The physical printing of 5,000 pages of paper every day."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Cloud Computing in Education (Google Workspace / Microsoft 365). Real-time simultaneous collaborative document editing, automated continuous saving, and seamless cross-device file accessibility. represents standard TPACK, SAMR, and digital learning design best practice."
+  },
+  {
+    "id": 71,
+    "topicRef": "Digital Literacy: Evaluating Digital Sources (The SIFT Method)",
+    "question": "Mike Caulfield's 'SIFT' methodology for evaluating online information and combating digital misinformation stands for:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Scan, Illustrate, Format, and Type."
+      },
+      {
+        "key": "B",
+        "text": "Stop, Investigate the source, Find better coverage, and Trace claims, quotes, and media back to the original context."
+      },
+      {
+        "key": "C",
+        "text": "Search, Inspect, Forward, and Tweet."
+      },
+      {
+        "key": "D",
+        "text": "Skim, Ignore, Finalize, and Transmit."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Digital Literacy: Evaluating Digital Sources (The SIFT Method). Stop, Investigate the source, Find better coverage, and Trace claims, quotes, and media back to the original context. represents standard TPACK, SAMR, and digital learning design best practice."
+  },
+  {
+    "id": 72,
+    "topicRef": "Interactive Whiteboards (IWB) Pedagogical Affordances",
+    "question": "An Interactive Whiteboard (IWB) moves beyond a traditional chalkboard when a teacher utilizes it to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Manipulate dynamic 3D geometry models, annotate digital primary sources collaboratively, and save annotated lessons for student review."
+      },
+      {
+        "key": "B",
+        "text": "Use it strictly as a static projection screen for 60 minutes of uninterrupted PowerPoint text."
+      },
+      {
+        "key": "C",
+        "text": "Write with standard permanent markers that damage the screen."
+      },
+      {
+        "key": "D",
+        "text": "Display a static clock on the wall."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Using mobile scientific sensors, data analysis software, and civic communication tools to solve real-world community issues embodies authentic TPACK and SAMR Redefinition."
+    "explanation": "This item evaluates educational technology competence in Interactive Whiteboards (IWB) Pedagogical Affordances. Manipulate dynamic 3D geometry models, annotate digital primary sources collaboratively, and save annotated lessons for student review. represents standard TPACK, SAMR, and digital learning design best practice."
+  },
+  {
+    "id": 73,
+    "topicRef": "Audio-Visual Materials: Educational Podcasting (Scripting)",
+    "question": "Before recording an educational podcast, students must engage in 'Pre-Production', which fundamentally involves:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Speaking randomly into a microphone without prior preparation."
+      },
+      {
+        "key": "B",
+        "text": "Buying $10,000 professional recording studio equipment."
+      },
+      {
+        "key": "C",
+        "text": "Reading a dictionary aloud from start to finish."
+      },
+      {
+        "key": "D",
+        "text": "Conducting thorough topic research, drafting an organized conversational script/outline, and planning sound effects and cues."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item evaluates educational technology competence in Audio-Visual Materials: Educational Podcasting (Scripting). Conducting thorough topic research, drafting an organized conversational script/outline, and planning sound effects and cues. represents standard TPACK, SAMR, and digital learning design best practice."
+  },
+  {
+    "id": 74,
+    "topicRef": "Blended Learning: HyFlex Model (Hybrid Flexible)",
+    "question": "The 'HyFlex' (Hybrid Flexible) course design model provides students the choice to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Choose their own letter grades at the start of the semester."
+      },
+      {
+        "key": "B",
+        "text": "Take all courses without any teacher instruction or materials."
+      },
+      {
+        "key": "C",
+        "text": "Participate synchronously in-person in the physical classroom, synchronously online via video conference, OR asynchronously online, with all modes achieving equivalent learning outcomes."
+      },
+      {
+        "key": "D",
+        "text": "Attend class only on weekends without taking any exams."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates educational technology competence in Blended Learning: HyFlex Model (Hybrid Flexible). Participate synchronously in-person in the physical classroom, synchronously online via video conference, OR asynchronously online, with all modes achieving equivalent learning outcomes. represents standard TPACK, SAMR, and digital learning design best practice."
+  },
+  {
+    "id": 75,
+    "topicRef": "Technological Pedagogical Synthesis: 21st Century Digital Teacher",
+    "question": "Ultimately, the primary goal of educational technology integration is NOT to use technology for its own sake, but to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Force students to sit in front of computer screens for 12 hours daily."
+      },
+      {
+        "key": "B",
+        "text": "Empower and enhance student-centered learning, foster higher-order thinking and creativity, and expand equitable educational access."
+      },
+      {
+        "key": "C",
+        "text": "Replace all certified human teachers with automated computer software."
+      },
+      {
+        "key": "D",
+        "text": "Spend the entire school annual budget on expensive hardware gadgets."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates educational technology competence in Technological Pedagogical Synthesis: 21st Century Digital Teacher. Empower and enhance student-centered learning, foster higher-order thinking and creativity, and expand equitable educational access. represents standard TPACK, SAMR, and digital learning design best practice."
   }
 ];

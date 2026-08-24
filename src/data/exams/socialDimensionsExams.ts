@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "Educational Philosophies: Idealism (Plato)",
-    "question": "Teacher Theresa believes that ultimate reality resides in eternal, unchangeable ideas and spiritual truths rather than physical matter. Her teaching emphasizes moral development, character formation, and enduring values. What philosophy guides her?",
+    "topicRef": "Sociological Theories: Structural-Functionalism (Durkheim & Parsons)",
+    "question": "According to Structural-Functionalism, education serves society primarily by:",
     "options": [
       {
         "key": "A",
-        "text": "Realism"
+        "text": "Perpetuating class conflict and economic exploitation of the working class (Conflict Theory)."
       },
       {
         "key": "B",
-        "text": "Behaviorism"
+        "text": "Constructing subjective personal realities through micro-level daily labeling."
       },
       {
         "key": "C",
-        "text": "Idealism"
+        "text": "Overthrowing the constitutional government through revolution."
       },
       {
         "key": "D",
-        "text": "Pragmatism"
+        "text": "Transmitting shared social values, maintaining social order and equilibrium, and sorting individuals into occupational roles based on merit."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Idealism (Plato, Socrates, Hegel, Kant) holds that truth and reality are spiritual, mental, and unchanging. The curriculum centers on liberal arts, humanities, ethics, and intellectual philosophy."
+    "correctAnswer": "D",
+    "explanation": "Structural-Functionalism (Emile Durkheim, Talcott Parsons) views society as an interrelated system where schools function to socialize youth, transmit shared norms, and preserve societal stability."
   },
   {
     "id": 2,
-    "topicRef": "Educational Philosophies: Realism (Aristotle)",
-    "question": "Teacher Victor believes that reality exists independent of the human mind and is governed by natural physical laws. He requires students to observe natural phenomena directly, conduct scientific experiments, and gather empirical sensory evidence. This reflects:",
+    "topicRef": "Sociological Theories: Conflict Theory (Marx & Bowles/Gintis)",
+    "question": "Conflict theorists (such as Karl Marx, Samuel Bowles, and Herbert Gintis in Schooling in Capitalist America) argue that schools:",
     "options": [
       {
         "key": "A",
-        "text": "Constructivism"
+        "text": "Function in complete harmony with zero social tensions or power struggles."
       },
       {
         "key": "B",
-        "text": "Realism"
+        "text": "Exist solely to teach ancient classical Latin literature."
       },
       {
         "key": "C",
-        "text": "Existentialism"
+        "text": "Reproduce socioeconomic inequalities, maintain the dominance of the ruling elite, and reinforce capitalist class stratification through unequal schooling."
       },
       {
         "key": "D",
-        "text": "Idealism"
+        "text": "Provide equal, unbiased meritocratic opportunities for all citizens to rise equally."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Realism (Aristotle, John Locke, Francis Bacon) posits that reality is objective and physical, known through sensory perception, scientific observation, and empirical data."
+    "correctAnswer": "C",
+    "explanation": "Conflict Theory posits that educational institutions reflect and reproduce societal power imbalances, unequal wealth distribution, and capitalist class structures through the hidden curriculum and tracking."
   },
   {
     "id": 3,
-    "topicRef": "Educational Philosophies: Pragmatism / Experimentalism (Dewey)",
-    "question": "'An idea is true only if it works in practice and produces successful practical results in human experience.' This is the central tenet of:",
+    "topicRef": "Sociological Theories: Symbolic Interactionism (Mead & Blumer)",
+    "question": "Symbolic Interactionism analyzes education at the micro-level, focusing on how:",
     "options": [
       {
         "key": "A",
-        "text": "Essentialism"
+        "text": "Global climate change alters textbook printing machinery."
       },
       {
         "key": "B",
-        "text": "Perennialism"
+        "text": "Daily social interactions, interpersonal symbols, language, teacher expectations, and labeling shape students' self-concept and academic behavior."
       },
       {
         "key": "C",
-        "text": "Stoicism"
+        "text": "Macro-economic international trade agreements dictate school building construction."
       },
       {
         "key": "D",
-        "text": "Pragmatism (Experimentalism)"
+        "text": "Biological genetic instincts control 100% of human classroom behavior."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Pragmatism (John Dewey, Charles Sanders Peirce, William James) tests truth by its practical consequences, problem-solving utility, and experiential results ('learning by doing')."
+    "correctAnswer": "B",
+    "explanation": "Symbolic Interactionism (George Herbert Mead, Herbert Blumer) examines micro-level face-to-face interactions, meaning-making, shared symbols, and the powerful psychological effects of teacher labeling and expectations."
   },
   {
     "id": 4,
-    "topicRef": "Educational Philosophies: Perennialism (Hutchins/Adler)",
-    "question": "Which educational philosophy insists that because human nature is constant and universal across time, education should focus on timeless universal truths and the study of the 'Great Books of the Western World'?",
+    "topicRef": "Sociological Concepts: The Pygmalion Effect (Self-Fulfilling Prophecy)",
+    "question": "In classroom sociology, the 'Pygmalion Effect' (Rosenthal & Jacobson) demonstrates that when teachers hold high academic expectations for their students:",
     "options": [
       {
         "key": "A",
-        "text": "Perennialism"
+        "text": "Students internalize these positive expectations, resulting in significantly higher academic achievement and enhanced self-efficacy."
       },
       {
         "key": "B",
-        "text": "Progressivism"
+        "text": "Students rebel and intentionally fail their examinations."
       },
       {
         "key": "C",
-        "text": "Reconstructionism"
+        "text": "Students develop severe physical illnesses."
       },
       {
         "key": "D",
-        "text": "Existentialism"
+        "text": "Teacher expectations have zero measurable effect on student outcomes."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Perennialism (Robert Hutchins, Mortimer Adler) asserts that truth is universal and unchanging, advocating for intellectual rigor, classical literature, and the Great Books."
+    "explanation": "The Pygmalion Effect proves that teacher expectations act as self-fulfilling prophecies\u2014students tend to perform in alignment with the positive or negative expectations communicated by their teachers."
   },
   {
     "id": 5,
-    "topicRef": "Educational Philosophies: Essentialism (Bagley)",
-    "question": "Teacher Ramon prioritizes back-to-basics mastery of the 3Rs (Reading, Writing, Arithmetic), rigorous academic disciplines, firm teacher authority, and traditional patriotic values. His philosophy is:",
+    "topicRef": "Sociological Concepts: Cultural Capital (Pierre Bourdieu)",
+    "question": "French sociologist Pierre Bourdieu introduced the concept of 'Cultural Capital' to describe:",
     "options": [
       {
         "key": "A",
-        "text": "Reconstructionism"
+        "text": "The total physical monetary currency stored in a family's safe."
       },
       {
         "key": "B",
-        "text": "Essentialism"
+        "text": "The physical weight of machinery in an industrial manufacturing plant."
       },
       {
         "key": "C",
-        "text": "Progressivism"
+        "text": "The real estate property title deeds of school campuses."
       },
       {
         "key": "D",
-        "text": "Existentialism"
+        "text": "The non-financial social assets (e.g., academic knowledge, language codes, cultural tastes, mannerisms, aesthetic credentials) that give elite students educational advantages."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Essentialism (William Bagley) focuses on transmitting essential cultural heritage, fundamental basic skills (3Rs), academic discipline, and core academic subjects."
+    "correctAnswer": "D",
+    "explanation": "Cultural Capital refers to cultural knowledge, linguistic fluency, prestigious cultural habits, and educational credentials inherited from families that schools reward and validate, perpetuating social reproduction."
   },
   {
     "id": 6,
-    "topicRef": "Educational Philosophies: Progressivism (Dewey)",
-    "question": "A school that organizes curriculum around child interests, democratic problem-solving, active collaborative projects, and hands-on community engagement is guided by:",
+    "topicRef": "Sociological Concepts: Social Capital (James Coleman & Putnam)",
+    "question": "In educational sociology, 'Social Capital' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Scholasticism"
+        "text": "The speed of a computer processor in the school library."
       },
       {
         "key": "B",
-        "text": "Essentialism"
+        "text": "The physical strength of classroom desks and chairs."
       },
       {
         "key": "C",
-        "text": "Progressivism"
+        "text": "The social networks, relationships of mutual trust, community reciprocity, and institutional connections that support a student's learning and opportunities."
       },
       {
         "key": "D",
-        "text": "Perennialism"
+        "text": "The financial cash balance in a student's bank account."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Progressivism (John Dewey) is learner-centered and democratic, organizing instruction around authentic student experiences, inquiry, and cooperative problem-solving."
+    "explanation": "Social Capital refers to the valuable social resources, supportive interpersonal networks, trust, and shared norms embedded in family, school, and community relationships that facilitate achievement."
   },
   {
     "id": 7,
-    "topicRef": "Educational Philosophies: Existentialism (Sartre/Kierkegaard)",
-    "question": "'Existence precedes essence. Individuals are completely free to define their own meaning, make authentic choices, and accept full personal responsibility for their destiny.' In education, this manifests as:",
+    "topicRef": "School Culture vs School Climate",
+    "question": "While 'School Climate' refers to the current, felt psychological atmosphere and morale of the school ('the school's personality/mood'), 'School Culture' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Idealism"
+        "text": "The specific brand of computers purchased by the school."
       },
       {
         "key": "B",
-        "text": "Realism"
+        "text": "The deep-seated, enduring values, beliefs, traditions, rituals, and unwritten shared assumptions that shape institutional behavior over time."
       },
       {
         "key": "C",
-        "text": "Behaviorism"
+        "text": "The daily meteorological weather and temperature outside the school building."
       },
       {
         "key": "D",
-        "text": "Existentialism"
+        "text": "The physical paint color of the administrative office walls."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Existentialism (Jean-Paul Sartre, Soren Kierkegaard, Maxine Greene) emphasizes individual freedom of choice, personal authenticity, self-discovery, and existential responsibility."
+    "correctAnswer": "B",
+    "explanation": "School Climate is the immediate, experiential tone and morale of the school; School Culture consists of the deeper, historically rooted shared norms, values, traditions, and core beliefs that guide daily school life."
   },
   {
     "id": 8,
-    "topicRef": "Educational Philosophies: Social Reconstructionism (Brameld/Counts)",
-    "question": "George Counts challenged teachers in 1932: 'Dare the school build a new social order?' This call to use education as a vehicle to dismantle societal oppression and eradicate poverty is known as:",
+    "topicRef": "Organizational Leadership: Transformational Leadership (Bass & Burns)",
+    "question": "A school principal who inspires teachers with a shared moral vision, encourages intellectual innovation, models integrity, and provides individualized coaching is practicing:",
     "options": [
       {
         "key": "A",
-        "text": "Essentialism"
+        "text": "Transformational Leadership (Idealized Influence, Inspirational Motivation, Intellectual Stimulation, Individualized Consideration)."
       },
       {
         "key": "B",
-        "text": "Perennialism"
+        "text": "Transactional Leadership (strictly trading rewards and punishments for routine compliance)."
       },
       {
         "key": "C",
-        "text": "Social Reconstructionism"
+        "text": "Laissez-Faire Leadership (completely abandoning all leadership responsibility)."
       },
       {
         "key": "D",
-        "text": "Positivism"
+        "text": "Authoritarian Autocratic Leadership (ruling through fear and strict command)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Social Reconstructionism (Theodore Brameld, George Counts, Paulo Freire) positions the school as a catalyst for societal transformation, social justice, and democratic reform."
+    "correctAnswer": "A",
+    "explanation": "Transformational Leadership (Bernard Bass, James MacGregor Burns) elevates and inspires followers to achieve extraordinary outcomes by transforming their values, vision, and intrinsic commitment."
   },
   {
     "id": 9,
-    "topicRef": "Educational Philosophies: Behaviorism (Skinner/Watson)",
-    "question": "Teacher Liza believes that human behavior is shaped entirely by environmental stimuli, conditioning, rewards, and consequences. She structures her classroom around explicit operant conditioning. Her philosophy is:",
+    "topicRef": "Organizational Leadership: Instructional Leadership (Hallinger)",
+    "question": "An 'Instructional Leader' (such as an effective master teacher or school head) focuses primarily on:",
     "options": [
       {
         "key": "A",
-        "text": "Behaviorism"
+        "text": "Sitting in an air-conditioned office signing administrative purchase orders all day."
       },
       {
         "key": "B",
-        "text": "Idealism"
+        "text": "Managing exclusively the physical security gates and cafeteria supply logistics."
       },
       {
         "key": "C",
-        "text": "Existentialism"
+        "text": "Punishing students publicly during morning flag assemblies."
       },
       {
         "key": "D",
-        "text": "Constructivism"
+        "text": "Directly improving classroom teaching and learning, supervising curriculum delivery, analyzing student assessment data, and fostering teacher professional development."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Behaviorism (B.F. Skinner, John Watson) holds that learning is an observable change in behavior resulting from environmental stimulus-response associations and reinforcements."
+    "correctAnswer": "D",
+    "explanation": "Instructional Leadership directly focuses on the core business of schooling: curriculum implementation, pedagogical quality, classroom observation, data analysis, and teacher coaching."
   },
   {
     "id": 10,
-    "topicRef": "Educational Philosophies: Constructivism (Piaget/Vygotsky)",
-    "question": "Learners actively construct their own mental models and knowledge through personal reflection, hands-on discovery, and social negotiation rather than passively receiving information. This is:",
+    "topicRef": "Organizational Leadership: Distributed Leadership (Spillane)",
+    "question": "James Spillane's 'Distributed Leadership' framework conceptualizes school leadership not as the heroic act of a single individual, but as:",
     "options": [
       {
         "key": "A",
-        "text": "Behaviorism"
+        "text": "A complete absence of any leadership, resulting in total organizational chaos."
       },
       {
         "key": "B",
-        "text": "Perennialism"
+        "text": "Hiring private commercial corporations to manage public schools."
       },
       {
         "key": "C",
-        "text": "Scholasticism"
+        "text": "A dynamic, shared practice distributed across multiple leaders (principals, master teachers, department chairs) interacting in complex school situations."
       },
       {
         "key": "D",
-        "text": "Constructivism"
+        "text": "A rigid dictatorship where only the principal makes every single decision."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Constructivism (Jean Piaget, Lev Vygotsky, Jerome Bruner) views learning as an active, contextualized process of constructing meaning based on personal experience."
+    "correctAnswer": "C",
+    "explanation": "Distributed Leadership recognizes that leadership practice is stretched across multiple individuals, tools, and social situations throughout the school organization."
   },
   {
     "id": 11,
-    "topicRef": "Educational Philosophies: Stoicism (Zeno/Epictetus)",
-    "question": "Teacher Marcus reminds his students: 'We cannot control external exam announcements or unexpected difficulties, but we have 100% control over our internal thoughts, emotional reactions, and study diligence.' What ancient philosophy is applied?",
+    "topicRef": "Organizational Leadership: Servant Leadership (Robert Greenleaf)",
+    "question": "Robert Greenleaf's 'Servant Leadership' philosophy asserts that the great leader is one who:",
     "options": [
       {
         "key": "A",
-        "text": "Hedonism"
+        "text": "Exercises authoritarian police control over the faculty room."
       },
       {
         "key": "B",
-        "text": "Stoicism"
+        "text": "Prioritizes serving the needs of others (teachers, students, community) first, empowering their growth, well-being, and autonomy."
       },
       {
         "key": "C",
-        "text": "Epicureanism"
+        "text": "Demands absolute obedience and personal praise from all subordinates."
       },
       {
         "key": "D",
-        "text": "Cynicism"
+        "text": "Maximizes personal wealth and executive prestige above all else."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Stoicism (Zeno of Citium, Epictetus, Marcus Aurelius) focuses on virtue, emotional mastery, endurance, and distinguishing what is within our control from what is not."
+    "explanation": "Servant Leadership flips the traditional pyramid: the leader's primary motivation is to serve others, cultivate trust, listen empathetically, and foster the holistic growth of community members."
   },
   {
     "id": 12,
-    "topicRef": "Educational Philosophies: Utilitarianism (Bentham/Mill)",
-    "question": "Designing school policies to generate 'the greatest good for the greatest number of learners' is an application of:",
+    "topicRef": "Governance of Basic Education: Republic Act 9155",
+    "question": "Republic Act 9155 (Governance of Basic Education Act of 2001) fundamentally restructured Philippine education governance by:",
     "options": [
       {
         "key": "A",
-        "text": "Utilitarianism"
+        "text": "Institutionalizing the principle of 'School-Based Management' (SBM), decentralizing decision-making authority to the school level where learning actually happens."
       },
       {
         "key": "B",
-        "text": "Idealism"
+        "text": "Centralizing all daily classroom lesson decisions in the national cabinet secretary's office."
       },
       {
         "key": "C",
-        "text": "Deontology"
+        "text": "Abolishing all local school divisions and regional offices."
       },
       {
         "key": "D",
-        "text": "Existentialism"
+        "text": "Privatizing all public basic education schools in the country."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Utilitarianism (Jeremy Bentham, John Stuart Mill) is a consequentialist ethical theory maximizing overall happiness, utility, and well-being for the majority."
+    "explanation": "RA 9155 decentralizes educational management, establishing the school as the core educational unit and empowering School Heads with instructional and administrative leadership under School-Based Management (SBM)."
   },
   {
     "id": 13,
-    "topicRef": "UNESCO 4 Pillars: Learning to Know",
-    "question": "In the 1996 Delors Report ('Learning: The Treasure Within'), which UNESCO pillar focuses on acquiring the instruments of understanding, developing concentration, memory skills, and critical thinking?",
+    "topicRef": "School-Based Management (SBM) & School Governing Council (SGC)",
+    "question": "Under DepEd's School-Based Management (SBM) framework, the School Governing Council (SGC) functions as:",
     "options": [
       {
         "key": "A",
-        "text": "Learning to Live Together"
+        "text": "A judicial court that prosecutes teachers in criminal trials."
       },
       {
         "key": "B",
-        "text": "Learning to Be"
+        "text": "A private business corporation that charges admission fees to school events."
       },
       {
         "key": "C",
-        "text": "Learning to Know"
+        "text": "A partisan political party campaign committee."
       },
       {
         "key": "D",
-        "text": "Learning to Do"
+        "text": "A multi-stakeholder advisory body (teachers, parents, local government, community leaders, alumni) that collaboratively plans and monitors the School Improvement Plan (SIP)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Learning to Know combines broad general knowledge with deep study, emphasizing 'learning how to learn' to benefit from opportunities throughout life."
+    "correctAnswer": "D",
+    "explanation": "The SGC serves as a collaborative, democratic platform uniting internal and external stakeholders to formulate the School Improvement Plan (SIP) and ensure transparency and community ownership."
   },
   {
     "id": 14,
-    "topicRef": "UNESCO 4 Pillars: Learning to Do",
-    "question": "Equipping learners with occupational competence, technical vocational skills, teamwork, adaptability, and the capacity to transform knowledge into concrete practical action corresponds to:",
+    "topicRef": "Child Protection Policy: DepEd Order 40, s. 2012",
+    "question": "Under DepEd Order 40, s. 2012 (DepEd Child Protection Policy), which of the following is strictly and absolutely prohibited in all Philippine schools?",
     "options": [
       {
         "key": "A",
-        "text": "Learning to Be"
+        "text": "Rewarding students with certificates of academic excellence."
       },
       {
         "key": "B",
-        "text": "Learning to Live Together"
+        "text": "Conducting parent-teacher conferences to discuss student attendance."
       },
       {
         "key": "C",
-        "text": "Learning to Know"
+        "text": "Corporal punishment, cruel/degrading humiliation, bullying, exploitation, and any form of physical, sexual, or emotional violence against children."
       },
       {
         "key": "D",
-        "text": "Learning to Do"
+        "text": "Giving constructive formative feedback on written essay assignments."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Learning to Do focuses on acquiring occupational skills, technical competence, problem-solving, and the ability to act productively in diverse work environments."
+    "correctAnswer": "C",
+    "explanation": "DepEd Order 40, s. 2012 mandates a zero-tolerance policy against corporal punishment, physical violence, verbal/psychological abuse, bullying, and sexual exploitation of learners."
   },
   {
     "id": 15,
-    "topicRef": "UNESCO 4 Pillars: Learning to Live Together",
-    "question": "Which UNESCO pillar is considered the most crucial for global peace, emphasizing developing an understanding of other people, their history, traditions, empathy, and appreciation of interdependence?",
+    "topicRef": "Child Protection: Corporal Punishment Prohibition",
+    "question": "A teacher makes a Grade 6 pupil stand under the scorching midday sun for 45 minutes with arms raised while holding heavy books because the pupil was talking in class. This action is:",
     "options": [
       {
         "key": "A",
-        "text": "Learning to Know"
+        "text": "Permitted if the teacher notified the parent via text message."
       },
       {
         "key": "B",
-        "text": "Learning to Do"
+        "text": "An illegal act of severe Corporal Punishment and Child Abuse, violating DepEd Order 40, s. 2012 and RA 7610, subjecting the teacher to administrative and criminal liability."
       },
       {
         "key": "C",
-        "text": "Learning to Live Together"
+        "text": "A valid and commendable traditional disciplinary technique."
       },
       {
         "key": "D",
-        "text": "Learning to Be"
+        "text": "A standard physical education conditioning exercise."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Learning to Live Together develops understanding of others, appreciation of cultural diversity, conflict resolution, and working towards common global goals."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Child Protection: Corporal Punishment Prohibition. An illegal act of severe Corporal Punishment and Child Abuse, violating DepEd Order 40, s. 2012 and RA 7610, subjecting the teacher to administrative and criminal liability. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 16,
-    "topicRef": "UNESCO 4 Pillars: Learning to Be",
-    "question": "Developing the full potential of the human person — mind and body, intelligence, aesthetic sensitivity, personal responsibility, and spiritual values — embodies:",
+    "topicRef": "Code of Ethics for Professional Teachers: Legal Authority (RA 7836 & Board Res. 435)",
+    "question": "The Code of Ethics for Professional Teachers was promulgated by the Board for Professional Teachers pursuant to the provisions of:",
     "options": [
       {
         "key": "A",
-        "text": "Learning to Do"
+        "text": "Republic Act 7836 (Philippine Teachers Professionalization Act of 1994), as amended by RA 9293."
       },
       {
         "key": "B",
-        "text": "Learning to Be"
+        "text": "Republic Act 6713 (Code of Conduct and Ethical Standards for Public Officials)."
       },
       {
         "key": "C",
-        "text": "Learning to Live Together"
+        "text": "Republic Act 10533 (Enhanced Basic Education Act)."
       },
       {
         "key": "D",
-        "text": "Learning to Know"
+        "text": "Presidential Decree 1006 (Decree Professionalizing Teaching)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Learning to Be (first articulated in the 1972 Faure Report) aims for the holistic development of the individual's mind, spirit, aesthetic sense, and independent judgment."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Code of Ethics for Professional Teachers: Legal Authority (RA 7836 & Board Res. 435). Republic Act 7836 (Philippine Teachers Professionalization Act of 1994), as amended by RA 9293. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 17,
-    "topicRef": "UNESCO 5th Pillar: Learning to Transform Oneself and Society",
-    "question": "What is the recently recognized 5th Pillar of Learning for the 21st Century proposed by UNESCO?",
+    "topicRef": "Code of Ethics: Article II (The Teacher and the State)",
+    "question": "Under Article II, Section 5 of the Code of Ethics, a teacher as an individual citizen has the full constitutional right to vote and exercise political rights, BUT:",
     "options": [
       {
         "key": "A",
-        "text": "Learning to Code Computers"
+        "text": "Must run for public political office every 3 years."
       },
       {
         "key": "B",
-        "text": "Learning to Pass Tests"
+        "text": "Is prohibited from voting in national presidential elections."
       },
       {
         "key": "C",
-        "text": "Learning to Transform Oneself and Society"
+        "text": "Must force all enrolled students to join a specific political party."
       },
       {
         "key": "D",
-        "text": "Learning to Earn Money"
+        "text": "Shall not use one's official position or authority to influence, coerce, or solicit political support for any partisan political candidate."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The 5th Pillar emphasizes sustainable development, empowering individuals and communities to transform themselves and build a just, peaceful, sustainable future."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article II (The Teacher and the State). Shall not use one's official position or authority to influence, coerce, or solicit political support for any partisan political candidate. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 18,
-    "topicRef": "Historical Foundations: Primitive Education",
-    "question": "In Primitive / Pre-historic Societies, what were the primary aims and methods of education?",
+    "topicRef": "Code of Ethics: Article III (The Teacher and the Community)",
+    "question": "Article III mandates that the teacher is a facilitator of learning and the development of the youth; therefore, the teacher shall:",
     "options": [
       {
         "key": "A",
-        "text": "Aims: Industrial robotics; Methods: Factory apprenticeship."
+        "text": "Live in complete geographical isolation from the local community."
       },
       {
         "key": "B",
-        "text": "Aims: Space exploration; Methods: Internet research."
+        "text": "Use school community meetings to sell personal commercial merchandise."
       },
       {
         "key": "C",
-        "text": "Aims: Greek philosophy; Methods: Written multiple choice exams."
+        "text": "Actively participate in community civic activities, maintain harmonious community linkages, and serve as an intellectual and moral leader in the community."
       },
       {
         "key": "D",
-        "text": "Aims: Survival, food gathering, and conformity to tribal taboos; Methods: Direct imitation, observation, and initiation rituals without formal schools."
+        "text": "Refuse to speak to any community members outside classroom hours."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Primitive education was informal, practical, and survival-oriented, transmitted through direct observation, trial-and-error, oral tradition, and tribal initiation rites."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article III (The Teacher and the Community). Actively participate in community civic activities, maintain harmonious community linkages, and serve as an intellectual and moral leader in the community. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 19,
-    "topicRef": "Historical Foundations: Spartan vs Athenian Education",
-    "question": "How did Spartan Education fundamentally differ from Athenian Education in ancient Greece?",
+    "topicRef": "Code of Ethics: Article IV (The Teacher and the Profession)",
+    "question": "Under Article IV, Section 1, every teacher shall actively help insure that teaching is the noblest profession, and shall manifest genuine pride in it by:",
     "options": [
       {
         "key": "A",
-        "text": "Sparta focused exclusively on military discipline, physical endurance, and absolute state obedience (*Agoge*); Athens focused on holistic, democratic balance of mind, arts, rhetoric, and physical fitness."
+        "text": "Selling pirated lesson plans for personal financial profit."
       },
       {
         "key": "B",
-        "text": "Sparta had no soldiers."
+        "text": "Upholding highest professional standards, pursuing continuous personal and professional development (CPD), and honoring professional commitments."
       },
       {
         "key": "C",
-        "text": "Athens was purely military while Sparta was purely artistic."
+        "text": "Discouraging young people from ever becoming teachers."
       },
       {
         "key": "D",
-        "text": "Athens banned all poetry and philosophy."
+        "text": "Publicly criticizing and defaming the teaching profession in the media."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Spartan education was authoritarian and militaristic (*Agoge* for creating soldiers), while Athenian education championed *Paideia* — the harmonious development of mind, body, aesthetics, and civic rhetoric."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article IV (The Teacher and the Profession). Upholding highest professional standards, pursuing continuous personal and professional development (CPD), and honoring professional commitments. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 20,
-    "topicRef": "Historical Foundations: Roman Education",
-    "question": "The ancient Romans contributed which primary educational ideal to Western civilization?",
+    "topicRef": "Code of Ethics: Article V (The Teacher and the Higher Authorities)",
+    "question": "Under Article V, a teacher shall maintain a professional relationship with higher authorities in the Philippines. In expressing professional grievances, the teacher shall:",
     "options": [
       {
         "key": "A",
-        "text": "Isolation in monasteries."
+        "text": "Channel grievances through established, formal administrative procedures and official hierarchy rather than through anonymous slander or public malice."
       },
       {
         "key": "B",
-        "text": "Pragmatism, practical administrative efficiency, civic law, military organization, and oratorical rhetoric (Cicero, Quintilian)."
+        "text": "Post defamatory insults against school heads on public social media forums."
       },
       {
         "key": "C",
-        "text": "Astronomical pyramid building."
+        "text": "Stage violent protests inside school classrooms during instructional hours."
       },
       {
         "key": "D",
-        "text": "Nomadic hunting."
+        "text": "Refuse to communicate with any school supervisor permanently."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Roman education was utilitarian and civic-minded, prioritizing practical law, administration, engineering, and eloquent oratorical leadership (*Vir bonus, dicendi peritus*)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article V (The Teacher and the Higher Authorities). Channel grievances through established, formal administrative procedures and official hierarchy rather than through anonymous slander or public malice. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 21,
-    "topicRef": "Historical Foundations: Medieval Scholasticism",
-    "question": "During the Medieval era, Scholasticism (St. Thomas Aquinas) sought to harmonize which two domains?",
+    "topicRef": "Code of Ethics: Article VI (The Teacher and the Higher Authorities/Colleagues)",
+    "question": "Under Article VI, a teacher shall hold inviolate all confidential information concerning associates and the school, and shall:",
     "options": [
       {
         "key": "A",
-        "text": "Music with gymnastics."
+        "text": "Steal a colleague's lesson materials and present them as one's own."
       },
       {
         "key": "B",
-        "text": "Christian religious faith/theology with Aristotelian philosophical reason/logic."
+        "text": "Report false administrative complaints against peers to get a promotion."
       },
       {
         "key": "C",
-        "text": "Astrology with alchemy."
+        "text": "Spread unverified rumors about a colleague's private personal life."
       },
       {
         "key": "D",
-        "text": "Military archery with agriculture."
+        "text": "Refuse to make false claims, spread malicious gossip, or undermine a colleague's professional standing or opportunities for advancement."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Scholasticism integrated Christian theology with Aristotelian rational logic, arguing that faith and reason are complementary paths to ultimate divine truth."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article VI (The Teacher and the Higher Authorities/Colleagues). Refuse to make false claims, spread malicious gossip, or undermine a colleague's professional standing or opportunities for advancement. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 22,
-    "topicRef": "Historical Foundations: Renaissance Humanism",
-    "question": "Renaissance Humanism revolutionized European education by:",
+    "topicRef": "Code of Ethics: Article VIII (The Teacher and the Learners)",
+    "question": "Under Article VIII, Section 1, a teacher has the professional duty to recognize that the interest and welfare of learners are of first and primary concern, and shall:",
     "options": [
       {
         "key": "A",
-        "text": "Banning Latin and Greek."
+        "text": "Show favoritism to students who share the teacher's religious affiliation."
       },
       {
         "key": "B",
-        "text": "Burning all ancient manuscripts."
+        "text": "Refuse to teach students from low-income families."
       },
       {
         "key": "C",
-        "text": "Subjugating human reason to feudal lords."
+        "text": "Deal justly and impartially with each student, avoiding favoritism, prejudice, or discrimination based on gender, race, or socioeconomic status."
       },
       {
         "key": "D",
-        "text": "Reviving classical Greco-Roman arts and literature (*Studia Humanitatis*) and celebrating human potential, individualism, and critical inquiry."
+        "text": "Give highest grades only to students whose parents give expensive gifts."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Renaissance Humanism (Petrarch, Erasmus, Vittorino da Feltre) revived classical antiquity, focusing on human dignity, eloquence, literature, and holistic worldly education."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article VIII (The Teacher and the Learners). Deal justly and impartially with each student, avoiding favoritism, prejudice, or discrimination based on gender, race, or socioeconomic status. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 23,
-    "topicRef": "Historical Foundations: Reformation (Martin Luther)",
-    "question": "Martin Luther's Protestant Reformation in 1517 catalyzed universal compulsory basic education primarily because:",
+    "topicRef": "Code of Ethics: Article VIII (Financial Transactions with Learners)",
+    "question": "Article VIII, Section 4 explicitly dictates that a teacher shall NOT:",
     "options": [
       {
         "key": "A",
-        "text": "He believed every individual Christian needed literacy to read the Holy Scriptures personally in their vernacular language (*Sola Scriptura*)."
+        "text": "Congratulate students on academic achievements during class."
       },
       {
         "key": "B",
-        "text": "He wanted to train professional soldiers."
+        "text": "Accept gifts, favors, or compensation from learners or their parents in exchange for requested concessions, higher grades, or academic favors."
       },
       {
         "key": "C",
-        "text": "He owned a commercial paper mill."
+        "text": "Conduct free after-school remedial tutoring for struggling learners."
       },
       {
         "key": "D",
-        "text": "He wanted to abolish all schools."
+        "text": "Provide constructive feedback on student project drafts."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Martin Luther advocated for universal, state-supported compulsory schooling for both boys and girls so every citizen could read the Bible in their native tongue."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article VIII (Financial Transactions with Learners). Accept gifts, favors, or compensation from learners or their parents in exchange for requested concessions, higher grades, or academic favors. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 24,
-    "topicRef": "1987 Constitution Article XIV, Section 1",
-    "question": "According to Article XIV, Section 1 of the 1987 Philippine Constitution, the State shall:",
+    "topicRef": "Code of Ethics: Article VIII (Romantic Relationships with Learners)",
+    "question": "Under Article VIII, Section 7, if mutual attraction and subsequent romantic love develop between a teacher and a student, what is the teacher's ethical duty?",
     "options": [
       {
         "key": "A",
-        "text": "Abolish public schooling in rural provinces."
+        "text": "Exercise utmost professional discretion, avoid all favoritism or scandal, and transfer the student to another class/teacher to maintain professional objectivity."
       },
       {
         "key": "B",
-        "text": "Restrict education only to college graduates."
+        "text": "Date the student openly inside the classroom during instructional hours."
       },
       {
         "key": "C",
-        "text": "Protect and promote the right of all citizens to quality education at all levels, and take appropriate steps to make such education accessible to all."
+        "text": "Give the student an automatic grade of 100% on all exams."
       },
       {
         "key": "D",
-        "text": "Charge tuition fees to all elementary students."
+        "text": "Force the student to keep the relationship a secret under threat of failing grades."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Article XIV, Sec. 1 guarantees the constitutional right of all Filipinos to accessible, quality education at all levels."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article VIII (Romantic Relationships with Learners). Exercise utmost professional discretion, avoid all favoritism or scandal, and transfer the student to another class/teacher to maintain professional objectivity. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 25,
-    "topicRef": "1987 Constitution Art. XIV, Sec. 5(4) - Budget Priority",
-    "question": "Article XIV, Section 5, Paragraph 5 of the 1987 Constitution explicitly mandates that the State shall assign the highest budgetary priority to:",
+    "topicRef": "Code of Ethics: Article X (The Teacher and Business)",
+    "question": "Article X, Section 1 permits a teacher to engage in legitimate business activities, PROVIDED that:",
     "options": [
       {
         "key": "A",
-        "text": "National Defense"
+        "text": "The teacher forces students to buy snacks and school supplies directly from the teacher's personal store."
       },
       {
         "key": "B",
-        "text": "Foreign Debt Servicing"
+        "text": "The teacher sells commercial beauty products during official classroom teaching hours."
       },
       {
         "key": "C",
-        "text": "Public Works and Highways"
+        "text": "The teacher uses school laboratory equipment for private manufacturing businesses."
       },
       {
         "key": "D",
-        "text": "Education"
+        "text": "Such business endeavors do not conflict with or impair the teacher's official duties and efficiency, and school hours are strictly observed."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The 1987 Constitution explicitly orders that the State shall assign the highest budgetary priority to education to ensure national progress."
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article X (The Teacher and Business). Such business endeavors do not conflict with or impair the teacher's official duties and efficiency, and school hours are strictly observed. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 26,
-    "topicRef": "Trifocalized Education System: DepEd, CHED, TESDA",
-    "question": "The trifocalization of the Philippine educational system in the 1990s (recommended by the EDCOM I Report) created which governance structure?",
+    "topicRef": "Code of Ethics: Article XI (The Teacher as a Person)",
+    "question": "Article XI, Section 1 states that a teacher is, above all, a human being endowed with life for which it is the highest obligation to live with:",
     "options": [
       {
         "key": "A",
-        "text": "Private corporations controlling all universities."
+        "text": "Arrogant superiority over non-educated community members."
       },
       {
         "key": "B",
-        "text": "DepEd for Basic Education (RA 9155), CHED for Higher Education (RA 7722), and TESDA for Technical-Vocational Education (RA 7796)."
+        "text": "Complete indifference to societal moral standards."
       },
       {
         "key": "C",
-        "text": "One single agency managing all schools, sports, and prisons."
+        "text": "Dignity, moral integrity, self-respect, and temperance, serving as a role model of noble character in both private and public life."
       },
       {
         "key": "D",
-        "text": "Military generals running all high schools."
+        "text": "Flamboyant luxury, reckless spending, and public drunkenness."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "EDCOM I trifocalized education: DepEd governs basic education, CHED oversees tertiary/higher education, and TESDA manages TVET and skills development."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Article XI (The Teacher as a Person). Dignity, moral integrity, self-respect, and temperance, serving as a role model of noble character in both private and public life. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 27,
-    "topicRef": "Governance of Basic Education Act: RA 9155",
-    "question": "Republic Act No. 9155 (Governance of Basic Education Act of 2001) formally transformed DECS into DepEd and established which management philosophy?",
+    "topicRef": "Gender and Development (GAD) in Education",
+    "question": "The Philippine Gender and Development (GAD) policy in basic education (mandated under RA 9710 Magna Carta of Women) aims to:",
     "options": [
       {
         "key": "A",
-        "text": "School-Based Management (SBM) — empowering school heads as instructional leaders with local administrative authority."
+        "text": "Abolish all sports programs for female learners."
       },
       {
         "key": "B",
-        "text": "Centralized dictatorship from the national capital."
+        "text": "Promote gender equality, eliminate sexist stereotypes in textbooks and curricula, and ensure equal educational opportunities for all genders."
       },
       {
         "key": "C",
-        "text": "Privatization of all public elementary schools."
+        "text": "Enforce rigid traditional gender roles in vocational classes (e.g., girls in cooking, boys in carpentry)."
       },
       {
         "key": "D",
-        "text": "Abolition of local PTA councils."
+        "text": "Exclude women from taking leadership roles in student government."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "RA 9155 instituted School-Based Management (SBM), decentralized authority to the school level, and made the school head the primary instructional leader."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Gender and Development (GAD) in Education. Promote gender equality, eliminate sexist stereotypes in textbooks and curricula, and ensure equal educational opportunities for all genders. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 28,
-    "topicRef": "Magna Carta for Public School Teachers: RA 4670 - Hours of Work",
-    "question": "Under Section 13 of Republic Act No. 4670 (Magna Carta for Public School Teachers), what is the maximum number of hours of actual classroom teaching required of a public school teacher per day?",
+    "topicRef": "Gender Sensitivity in Classroom Pedagogy",
+    "question": "Which of the following teacher practices reflects 'Gender-Responsive and Sensitive Pedagogy'?",
     "options": [
       {
         "key": "A",
-        "text": "Not more than six (6) hours of actual classroom teaching per day"
+        "text": "Using gender-fair language, encouraging both boys and girls to pursue STEM careers, and ensuring equal participation and leadership in all class activities."
       },
       {
         "key": "B",
-        "text": "Twelve (12) hours"
+        "text": "Calling only on male students to answer challenging math problems while asking female students to clean the board."
       },
       {
         "key": "C",
-        "text": "Four (4) hours"
+        "text": "Telling a crying male student: 'Stop crying like a girl!'"
       },
       {
         "key": "D",
-        "text": "Eight (8) hours of non-stop classroom lecture"
+        "text": "Assuming female students are naturally bad at physical sports."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "RA 4670 Sec. 13 mandates that any teacher engaged in actual classroom instruction shall not be required to render more than 6 hours of actual classroom teaching a day. Additional hours require overtime pay (+25% of regular rate)."
+    "explanation": "This item evaluates knowledge in Gender Sensitivity in Classroom Pedagogy. Using gender-fair language, encouraging both boys and girls to pursue STEM careers, and ensuring equal participation and leadership in all class activities. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 29,
-    "topicRef": "RA 4670: Medical Examination and Treatment",
-    "question": "Section 22 of RA 4670 guarantees which health benefit for public school teachers?",
+    "topicRef": "Peace Education: Pillars of Positive Peace (Johan Galtung)",
+    "question": "Renowned peace scholar Johan Galtung distinguishes 'Negative Peace' (the mere absence of direct physical violence/war) from 'Positive Peace', which is:",
     "options": [
       {
         "key": "A",
-        "text": "Teachers must pay 100% of all medical checkups themselves."
+        "text": "The complete military conquest and subjugation of a neighboring country."
       },
       {
         "key": "B",
-        "text": "Medical checkups are strictly prohibited."
+        "text": "A society ruled by fear under an authoritarian military police regime."
       },
       {
         "key": "C",
-        "text": "Only principals receive medical checkups."
+        "text": "A temporary 24-hour ceasefire during an active civil war."
       },
       {
         "key": "D",
-        "text": "Compulsory annual medical examinations provided completely free of charge by the government, and free medical treatment/hospitalization if injured on duty."
+        "text": "The presence of social justice, equity, human rights, ecological sustainability, and the structural absence of systemic oppression."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Sec. 22 of the Magna Carta mandates annual medical examinations free of charge for all teachers and free medical treatment when illness or injury occurs in the line of duty."
+    "explanation": "This item evaluates knowledge in Peace Education: Pillars of Positive Peace (Johan Galtung). The presence of social justice, equity, human rights, ecological sustainability, and the structural absence of systemic oppression. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 30,
-    "topicRef": "RA 4670: Study Leave (Sabbatical)",
-    "question": "Under Section 24 of RA 4670, a public school teacher who has rendered at least seven (7) years of continuous service is entitled to a study leave for a period not exceeding one school year with:",
+    "topicRef": "Peace Education: Conflict Resolution in Schools",
+    "question": "Teaching 'Conflict Resolution' and peer mediation skills in school empowers students to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero salary (unpaid leave)"
+        "text": "Use online cyberbullying to retaliate against disagreements."
       },
       {
         "key": "B",
-        "text": "At least 60% of their monthly basic salary"
+        "text": "Conform blindly to peer pressure without expressing thoughts."
       },
       {
         "key": "C",
-        "text": "100% bonus salary plus free housing"
+        "text": "De-escalate interpersonal conflicts constructively through active listening, non-violent communication, empathy, and collaborative problem solving."
       },
       {
         "key": "D",
-        "text": "Immediate termination of employment"
+        "text": "Engage in physical fistfights behind the school gymnasium."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "RA 4670 Sec. 24 grants a Study Leave after 7 years of continuous service for up to 1 school year, during which the teacher receives at least 60% of their monthly basic salary."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Peace Education: Conflict Resolution in Schools. De-escalate interpersonal conflicts constructively through active listening, non-violent communication, empathy, and collaborative problem solving. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 31,
-    "topicRef": "Historical Teacher Law: PD 1006 (PBET)",
-    "question": "Presidential Decree No. 1006 (Decree Professionalizing Teaching, 1976 issued by Ferdinand Marcos) was historically significant because:",
+    "topicRef": "Community Linkages: Brigada Eskwela & Adopt-a-School Program (RA 8525)",
+    "question": "The annual DepEd 'Brigada Eskwela' (National Schools Maintenance Week) exemplifies authentic community engagement by:",
     "options": [
       {
         "key": "A",
-        "text": "It created CHED and TESDA."
+        "text": "Using student child labor during class hours to build school buildings."
       },
       {
         "key": "B",
-        "text": "It banned private schools."
+        "text": "Mobilizing parents, alumni, local businesses, civic groups, and LGUs to volunteer time, labor, and resources to prepare school facilities safely before classes open."
       },
       {
         "key": "C",
-        "text": "It made teaching a legally recognized profession in the Philippines for the first time and instituted the PBET (Professional Board Examination for Teachers)."
+        "text": "Forcing parents to pay mandatory monetary cash penalties if they do not attend."
       },
       {
         "key": "D",
-        "text": "It abolished the LET exam."
+        "text": "Hiring expensive private multinational construction contractors."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "PD 1006 (1976) was the first law to officially professionalize teaching in the Philippines, creating the National Board for Teachers and the PBET."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Community Linkages: Brigada Eskwela & Adopt-a-School Program (RA 8525). Mobilizing parents, alumni, local businesses, civic groups, and LGUs to volunteer time, labor, and resources to prepare school facilities safely before classes open. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 32,
-    "topicRef": "Philippine Teachers Professionalization Act: RA 7836",
-    "question": "Republic Act No. 7836 transferred the regulation and licensing of professional teachers from the Civil Service Commission / DECS to which constitutional body?",
+    "topicRef": "Community Linkages: Parent-Teacher Associations (PTA)",
+    "question": "Under DepEd Order 54, s. 2009, the Parent-Teacher Association (PTA) is organized primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Professional Regulation Commission (PRC) under the Board for Professional Teachers (BPT)"
+        "text": "Foster collaborative partnerships between parents and teachers to support school programs, student welfare, and academic achievement."
       },
       {
         "key": "B",
-        "text": "Department of Labor and Employment"
+        "text": "Act as a commercial profit-generating business enterprise."
       },
       {
         "key": "C",
-        "text": "Commission on Elections"
+        "text": "Interfere directly with teacher hiring, promotional rankings, and professional curriculum choices."
       },
       {
         "key": "D",
-        "text": "Supreme Court of the Philippines"
+        "text": "Collect unauthorized, exorbitant membership dues by withholding student report cards."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "RA 7836 (1994) transferred teacher regulation and the Licensure Examination for Teachers (LET) under the jurisdiction of the PRC Board for Professional Teachers."
+    "explanation": "This item evaluates knowledge in Community Linkages: Parent-Teacher Associations (PTA). Foster collaborative partnerships between parents and teachers to support school programs, student welfare, and academic achievement. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 33,
-    "topicRef": "RA 9293 (Amendments to RA 7836)",
-    "question": "Under RA 9293, what is granted to LET examinees who failed the licensure examination but obtained a general rating of at least 70% but below 75%?",
+    "topicRef": "Local Government Code: Special Education Fund (SEF)",
+    "question": "Under Republic Act 7160 (Local Government Code of 1991), the 'Special Education Fund' (SEF) is generated from an additional 1% tax on real property and allocated by the Local School Board (LSB) to:",
     "options": [
       {
         "key": "A",
-        "text": "A Master's degree diploma."
+        "text": "Fund partisan political campaign election rallies for municipal mayors."
       },
       {
         "key": "B",
-        "text": "A permanent ban from ever taking the LET again."
+        "text": "Pay luxury travel bonuses for city councilors."
       },
       {
         "key": "C",
-        "text": "An automatic full professional license."
+        "text": "Subsidize private commercial shopping malls."
       },
       {
         "key": "D",
-        "text": "A Special Permit to teach as para-teachers for non-extendible periods in areas with severe teacher shortages."
+        "text": "Finance school building construction/repair, instructional materials, educational research, and sports development in local public schools."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "RA 9293 allows PRC to issue Special Permits valid for 2-3 years to para-teachers who scored 70-74% in the LET for deployment to underserved areas."
+    "explanation": "This item evaluates knowledge in Local Government Code: Special Education Fund (SEF). Finance school building construction/repair, instructional materials, educational research, and sports development in local public schools. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 34,
-    "topicRef": "Code of Ethics: Preamble & Scope",
-    "question": "According to Article I of the Code of Ethics for Professional Teachers (PRC Res. No. 435, s. 1997), the Code applies to:",
+    "topicRef": "Local School Board (LSB) Composition (RA 7160)",
+    "question": "In a municipality, the Local School Board (LSB) is co-chaired by the Municipal Mayor and the:",
     "options": [
       {
         "key": "A",
-        "text": "Only permanent public elementary teachers."
+        "text": "Municipal Health Officer."
       },
       {
         "key": "B",
-        "text": "All public and private school teachers in all educational institutions at the preschool, primary, elementary, and secondary levels, whether academic, vocational, special, technical, or non-formal, full-time or part-time."
+        "text": "President of the Chamber of Commerce."
       },
       {
         "key": "C",
-        "text": "Only college professors with doctoral degrees."
+        "text": "District Supervisor (DepEd)."
       },
       {
         "key": "D",
-        "text": "Only school principals."
+        "text": "Chief of Police."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Article I, Sec. 2 explicitly states that the Code of Ethics covers all teachers in preschool, elementary, and secondary levels across both public and private sectors nationwide."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Local School Board (LSB) Composition (RA 7160). District Supervisor (DepEd). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 35,
-    "topicRef": "Code of Ethics: Article II - Teacher and the State",
-    "question": "Under Article II, Section 5, a teacher who wishes to exercise their constitutional right to vote and express political opinions is explicitly FORBIDDEN from:",
+    "topicRef": "School Culture: Professional Learning Communities (PLCs)",
+    "question": "In a school with a strong culture of collaboration, teachers participate in 'Professional Learning Communities' (PLCs / LAC Sessions) to:",
     "options": [
       {
         "key": "A",
-        "text": "Watching political news."
+        "text": "Plan partisan political campaigns for local elections."
       },
       {
         "key": "B",
-        "text": "Using their official position, authority, or classroom influence to solicit votes, promote a political candidate, or coerce students and parents."
+        "text": "Collaboratively analyze student learning data, share effective pedagogical strategies, reflect on classroom challenges, and improve student achievement."
       },
       {
         "key": "C",
-        "text": "Voting in national elections."
+        "text": "Complain about administrative salaries and spread faculty gossip."
       },
       {
         "key": "D",
-        "text": "Reading the election ballot."
+        "text": "Grade standardized test sheets in complete isolation without speaking."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Art. II, Sec. 5 states that teachers can vote and exercise civil rights, but must never use their official authority or influence to coerce anyone to support political candidates."
+    "explanation": "This item evaluates knowledge in School Culture: Professional Learning Communities (PLCs). Collaboratively analyze student learning data, share effective pedagogical strategies, reflect on classroom challenges, and improve student achievement. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 36,
-    "topicRef": "Code of Ethics: Article II - Academic Freedom",
-    "question": "According to Article II, Section 7, every teacher enjoys academic freedom and shall have the privilege of:",
+    "topicRef": "DepEd Learning Action Cells (LAC): DepEd Order 35, s. 2016",
+    "question": "Under DepEd Order 35, s. 2016, a School-Based Learning Action Cell (LAC) functions as:",
     "options": [
       {
         "key": "A",
-        "text": "Insulting religious minorities in class."
+        "text": "A continuous professional development strategy where groups of teachers engage in collaborative learning sessions to address specific pedagogical and learner needs."
       },
       {
         "key": "B",
-        "text": "Refusing to grade student work."
+        "text": "A formal disciplinary tribunal that punishes underperforming teachers."
       },
       {
         "key": "C",
-        "text": "Expounding the product of their research and investigations, provided that if results are inimical to the State, they are brought to proper authorities for appropriate action."
+        "text": "A social dining club for faculty celebrations."
       },
       {
         "key": "D",
-        "text": "Teaching whatever they want regardless of curriculum standards."
+        "text": "A standardized testing center for student licensure."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Art. II, Sec. 7 grants academic freedom to share research outputs, provided findings contrary to state welfare are submitted through proper administrative channels."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in DepEd Learning Action Cells (LAC): DepEd Order 35, s. 2016. A continuous professional development strategy where groups of teachers engage in collaborative learning sessions to address specific pedagogical and learner needs. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 37,
-    "topicRef": "Code of Ethics: Article III - Teacher and the Community",
-    "question": "Under Article III, Section 7, how is a teacher expected to relate to local community customs, traditions, and cultural heritage?",
+    "topicRef": "Teacher Leadership: Teacher as a Community Change Agent",
+    "question": "A teacher who organizes an adult literacy and livelihood training workshop for out-of-school youth in the local barangay on weekends exemplifies:",
     "options": [
       {
         "key": "A",
-        "text": "Force community elders to adopt foreign languages."
+        "text": "A teacher violating professional workload boundaries."
       },
       {
         "key": "B",
-        "text": "Refuse to live inside the community."
+        "text": "An unauthorized commercial business vendor."
       },
       {
         "key": "C",
-        "text": "Openly mock local traditions in front of tourists."
+        "text": "A teacher neglecting official classroom instructional duties."
       },
       {
         "key": "D",
-        "text": "Maintain harmonious relations by studying local customs and refraining from disparaging community traditions."
+        "text": "The teacher as a community leader and transformational social change agent."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Art. III, Sec. 7 mandates that every teacher shall study local customs and traditions to maintain harmonious relations with the community without disparagement."
+    "explanation": "This item evaluates knowledge in Teacher Leadership: Teacher as a Community Change Agent. The teacher as a community leader and transformational social change agent. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 38,
-    "topicRef": "Code of Ethics: Article IV - Teacher and the Profession",
-    "question": "Under Article IV, Section 1, how must a teacher uphold the highest standards of the teaching profession?",
+    "topicRef": "Indigenous Peoples Education (IPEd): DepEd Order 62, s. 2011",
+    "question": "Under the National Indigenous Peoples Education Policy Framework (DepEd Order 62, s. 2011), basic education in IP communities must:",
     "options": [
       {
         "key": "A",
-        "text": "By selling snacks during class time."
+        "text": "Exclude indigenous elders from having any voice in the school curriculum."
       },
       {
         "key": "B",
-        "text": "By complaining constantly about low salaries to students."
+        "text": "Ban traditional indigenous dress and music from school grounds."
       },
       {
         "key": "C",
-        "text": "By manifesting genuine enthusiasm and pride in teaching as a noble calling, and continually pursuing continuing professional development (CPD)."
+        "text": "Respect, protect, and fulfill indigenous peoples' rights to culturally rooted, mother-tongue-based, and community-partnered education that preserves cultural heritage."
       },
       {
         "key": "D",
-        "text": "By skipping classes on Mondays and Fridays."
+        "text": "Eradicate indigenous languages and force immediate assimilation into urban Western culture."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Art. IV demands pride in teaching as a noble profession, intellectual dedication, continuous professional education, and upholding professional dignity."
+    "explanation": "This item evaluates knowledge in Indigenous Peoples Education (IPEd): DepEd Order 62, s. 2011. Respect, protect, and fulfill indigenous peoples' rights to culturally rooted, mother-tongue-based, and community-partnered education that preserves cultural heritage. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 39,
-    "topicRef": "Code of Ethics: Article V - Teacher and the Teaching Community",
-    "question": "When a teacher discovers an error or professional limitation in a colleague's classroom teaching, what is the ethical course of action under Article V?",
+    "topicRef": "Multiculturalism in Schools: Combating Xenophobia & Prejudice",
+    "question": "When a newly transferred ethnic minority student is bullied by peers for wearing traditional cultural clothing, the teacher's immediate and pedagogical response should be to:",
     "options": [
       {
         "key": "A",
-        "text": "Post public insults about the colleague on Facebook."
+        "text": "Blame the minority student for provoking classmates."
       },
       {
         "key": "B",
-        "text": "Approach the colleague privately in a professional, constructive manner to offer support, rather than gossiping or publicly disparaging them to parents."
+        "text": "Enforce the Anti-Bullying Policy, support the targeted student, and use the opportunity to teach the entire class about cultural diversity, empathy, and mutual respect."
       },
       {
         "key": "C",
-        "text": "Report the colleague to a sensationalized television show."
+        "text": "Tell the minority student to stop wearing traditional clothes to avoid trouble."
       },
       {
         "key": "D",
-        "text": "Tell the students that their other teacher is incompetent."
+        "text": "Ignore the bullying because teasing is a natural part of childhood."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Art. V mandates mutual professional respect, collegiality, confidentiality, and handling disagreements privately and constructively."
+    "explanation": "This item evaluates knowledge in Multiculturalism in Schools: Combating Xenophobia & Prejudice. Enforce the Anti-Bullying Policy, support the targeted student, and use the opportunity to teach the entire class about cultural diversity, empathy, and mutual respect. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 40,
-    "topicRef": "Code of Ethics: Article VIII - Teacher and the Learners",
-    "question": "Under Article VIII, Section 1, what is the fundamental moral duty of a teacher toward every learner?",
+    "topicRef": "Sociological Concepts: Social Stratification & Social Mobility",
+    "question": "In the sociology of education, 'Social Mobility' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Favor relatives and close friends."
+        "text": "The movement of individuals or families between different socioeconomic strata or social classes, often facilitated by access to quality education."
       },
       {
         "key": "B",
-        "text": "Recognize that the interest and welfare of learners are of first and paramount concern, and handle each student with utmost justice, fairness, and empathy."
+        "text": "The physical movement of students walking between classrooms."
       },
       {
         "key": "C",
-        "text": "Ignore slow learners."
+        "text": "The relocation of a school building to a different province."
       },
       {
         "key": "D",
-        "text": "Give top grades only to wealthy students."
+        "text": "The daily transportation of pupils on school buses."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Art. VIII, Sec. 1 establishes the bedrock rule: 'A teacher has a right and duty to determine the academic marks of learners... In all circumstances, the interest and welfare of learners shall be the first and paramount concern.'"
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Sociological Concepts: Social Stratification & Social Mobility. The movement of individuals or families between different socioeconomic strata or social classes, often facilitated by access to quality education. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 41,
-    "topicRef": "Code of Ethics: Article VIII, Section 4 - Romantic Relationships",
-    "question": "According to Article VIII, Section 7 of the Code of Ethics, in a situation where mutual attraction and romantic feelings develop between a teacher and a student, what is the teacher's legal and ethical obligation?",
+    "topicRef": "Sociological Concepts: Meritocracy in Education",
+    "question": "A 'Meritocratic' education system is theoretically based on the ideal that:",
     "options": [
       {
         "key": "A",
-        "text": "Blackmail the student with failing grades."
+        "text": "Grades and graduation honors are inherited through aristocratic family wealth."
       },
       {
         "key": "B",
-        "text": "Give the student free 100% grades on all tests."
+        "text": "Students are tracked into careers based on their skin color or gender."
       },
       {
         "key": "C",
-        "text": "Post photos of dates inside the classroom on Instagram."
+        "text": "Academic degrees are purchased through monetary bribes."
       },
       {
         "key": "D",
-        "text": "Exercise utmost professional discretion, avoid taking unfair advantage of the student, and request the transfer of the student to another teacher's class."
+        "text": "Educational rewards, academic advancement, and opportunities are distributed strictly based on an individual's demonstrated talent, effort, and achievement."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Art. VIII, Sec. 7 explicitly requires professional discretion, forbidding any exploitation of the teacher's authority, and transferring the student to eliminate bias/conflict of interest."
+    "explanation": "This item evaluates knowledge in Sociological Concepts: Meritocracy in Education. Educational rewards, academic advancement, and opportunities are distributed strictly based on an individual's demonstrated talent, effort, and achievement. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 42,
-    "topicRef": "Code of Ethics: Article VIII, Section 5 - Corporal Punishment",
-    "question": "Under Article VIII, Section 8, a teacher shall NOT inflict corporal punishment on offending learners nor make deductions in their scholastic ratings as a punishment for:",
+    "topicRef": "School Culture: Toxic vs Positive School Culture (Peterson & Deal)",
+    "question": "According to Kent Peterson and Terrence Deal, a 'Toxic School Culture' is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Acts that are clearly not manifestations of poor academic scholarship (e.g. behavioral misbehavior)."
+        "text": "Supportive mentoring for new teachers and strong community partnerships."
       },
       {
         "key": "B",
-        "text": "Late submission of homework."
+        "text": "Transparent communication and shared instructional vision."
       },
       {
         "key": "C",
-        "text": "Incorrect math calculations."
+        "text": "Fragmented relationships, blame, cynicism, resistance to change, lack of shared mission, and low expectations for student achievement."
       },
       {
         "key": "D",
-        "text": "Spelling errors."
+        "text": "High teacher collaboration, joyful celebration of student growth, and continuous innovation."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Art. VIII, Sec. 8 strictly forbids corporal punishment and prohibits reducing academic grades as punishment for disciplinary infractions."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in School Culture: Toxic vs Positive School Culture (Peterson & Deal). Fragmented relationships, blame, cynicism, resistance to change, lack of shared mission, and low expectations for student achievement. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 43,
-    "topicRef": "Code of Ethics: Article VIII, Section 9 - Private Tutoring",
-    "question": "Under Article VIII, Section 5, is a teacher permitted to accept monetary compensation for privately tutoring their OWN regular enrolled classroom students?",
+    "topicRef": "Leadership Styles: Situational Leadership (Hersey & Blanchard)",
+    "question": "Paul Hersey and Kenneth Blanchard's 'Situational Leadership' theory posits that effective leaders adapt their leadership style based on:",
     "options": [
       {
         "key": "A",
-        "text": "Yes, if the principal approves."
+        "text": "The monetary market price of national government bonds."
       },
       {
         "key": "B",
-        "text": "Yes, as long as it is done inside the classroom."
+        "text": "The Readiness and Developmental Maturity level of the followers (competence and commitment) for a specific task."
       },
       {
         "key": "C",
-        "text": "No, a teacher is strictly prohibited from accepting any remuneration for tutoring their own regular students to prevent conflicts of interest and extortion."
+        "text": "The physical height and age of the school principal."
       },
       {
         "key": "D",
-        "text": "Yes, provided the rate is ₱1,000 per hour."
+        "text": "The astrological zodiac signs of faculty members."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Art. VIII, Sec. 5 strictly forbids teachers from accepting any fee or remuneration for tutoring their own regular students (conflict of interest)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Leadership Styles: Situational Leadership (Hersey & Blanchard). The Readiness and Developmental Maturity level of the followers (competence and commitment) for a specific task. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 44,
-    "topicRef": "Code of Ethics: Article X - Business & Finances",
-    "question": "Under Article X, Section 1, what commercial activity is explicitly FORBIDDEN for a teacher to conduct directly or indirectly inside the classroom?",
+    "topicRef": "Organizational Change: Kotter's 8-Step Change Model",
+    "question": "In John Kotter's 8-Step Process for Leading Change in organizations, what is the very FIRST crucial step?",
     "options": [
       {
         "key": "A",
-        "text": "Holding a library book."
+        "text": "Create a Sense of Urgency (highlighting the pressing need for change and the risks of inaction)."
       },
       {
         "key": "B",
-        "text": "Writing on the blackboard."
+        "text": "Form a strategic vision."
       },
       {
         "key": "C",
-        "text": "Teaching algebra."
+        "text": "Celebrate short-term wins."
       },
       {
         "key": "D",
-        "text": "Selling commercial merchandise, food snacks, uniforms, or study materials to their students for personal profit."
+        "text": "Anchor new approaches in the culture."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Art. X, Sec. 1 strictly prohibits teachers from engaging in commercial selling of goods/merchandise to their students, preventing financial exploitation."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Organizational Change: Kotter's 8-Step Change Model. Create a Sense of Urgency (highlighting the pressing need for change and the risks of inaction). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 45,
-    "topicRef": "DepEd Order No. 007, s. 2023",
-    "question": "DepEd Order No. 007, s. 2023 reiterates the strict implementation of which ethical boundary between teachers and students on digital social media platforms?",
+    "topicRef": "Code of Ethics: Professional Dignity and Social Media Ethics",
+    "question": "Under the Code of Ethics and Civil Service rules, a professional teacher on social media must:",
     "options": [
       {
         "key": "A",
-        "text": "Requiring teachers to follow all students on TikTok."
+        "text": "Post confidential student report cards and test failure lists on public Facebook walls."
       },
       {
         "key": "B",
-        "text": "Banning all cellphones in the entire country."
+        "text": "Engage in vulgar, abusive arguments with parents in public comments."
       },
       {
         "key": "C",
-        "text": "Maintaining professional boundaries: strictly avoiding personal, non-academic social media chats, private direct messages, and unprofessional fraternization outside school hours."
+        "text": "Use school time to create monetized dance videos inside classrooms with students."
       },
       {
         "key": "D",
-        "text": "Forcing students to like the principal's posts."
+        "text": "Maintain professional decorum, uphold the dignity of the profession, protect student privacy, and avoid spreading unverified fake news or defamatory attacks."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "DO 007, s. 2023 mandates strict professional teacher-student boundaries, prohibiting personal non-academic fraternization on social media to prevent child abuse and breaches of ethics."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Professional Dignity and Social Media Ethics. Maintain professional decorum, uphold the dignity of the profession, protect student privacy, and avoid spreading unverified fake news or defamatory attacks. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 46,
-    "topicRef": "DepEd Child Protection Policy: DO 40, s. 2012",
-    "question": "Under DepEd Order No. 40, s. 2012 (DepEd Child Protection Policy), what is the overarching policy regarding violence, bullying, and corporal punishment against children in schools?",
+    "topicRef": "Magna Carta for Public School Teachers: Republic Act 4670",
+    "question": "Under Section 13 of Republic Act 4670 (Magna Carta for Public School Teachers), a teacher engaged in actual classroom instruction shall NOT be required to render more than:",
     "options": [
       {
         "key": "A",
-        "text": "Zero Tolerance Policy against all forms of child abuse, exploitation, discrimination, violence, bullying, and corporal punishment."
+        "text": "Twelve (12) hours of continuous teaching per day."
       },
       {
         "key": "B",
-        "text": "Corporal punishment is allowed on Fridays."
+        "text": "Fourteen (14) hours including mandatory weekend manual labor."
       },
       {
         "key": "C",
-        "text": "Teachers have absolute immunity from child abuse charges."
+        "text": "Six (6) hours of actual classroom teaching a day (the remaining 2 hours devoted to lesson prep, grading, and administrative duties)."
       },
       {
         "key": "D",
-        "text": "Bullying is permitted if students are joking."
+        "text": "Eight (8) hours of non-stop classroom lecturing without any breaks."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "DO 40, s. 2012 institutes a Zero-Tolerance Policy against all forms of child abuse, emotional cruelty, harsh verbal discipline, and physical punishment."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Magna Carta for Public School Teachers: Republic Act 4670. Six (6) hours of actual classroom teaching a day (the remaining 2 hours devoted to lesson prep, grading, and administrative duties). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 47,
-    "topicRef": "Child Abuse Law: RA 7610",
-    "question": "What is Republic Act No. 7610 in the Philippines?",
+    "topicRef": "RA 4670: Additional Compensation for Overtime",
+    "question": "Under Section 14 of RA 4670, if a public school teacher renders more than six hours of actual classroom teaching per day, the teacher is entitled to:",
     "options": [
       {
         "key": "A",
-        "text": "Special Protection of Children Against Abuse, Exploitation and Discrimination Act"
+        "text": "An automatic promotion to school principal within 24 hours."
       },
       {
         "key": "B",
-        "text": "Clean Air Act"
+        "text": "Additional compensation of at least 25% of their regular remuneration for the excess hours."
       },
       {
         "key": "C",
-        "text": "Cybercrime Act"
+        "text": "A Certificate of Recognition without any monetary compensation."
       },
       {
         "key": "D",
-        "text": "Magna Carta for Teachers"
+        "text": "Free lunch in the school cafeteria for 1 week."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "RA 7610 provides criminal penalties for child abuse, psychological cruelty, emotional degradation, neglect, and exploitation of minors under 18."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in RA 4670: Additional Compensation for Overtime. Additional compensation of at least 25% of their regular remuneration for the excess hours. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 48,
-    "topicRef": "Teacher in Loco Parentis (Family Code Art. 218)",
-    "question": "Under Article 218 of the Family Code of the Philippines, the school, its administrators, and teachers exercise what legal relationship over minor students while under their supervision?",
+    "topicRef": "RA 4670: Study Leave Privileges",
+    "question": "Under Section 24 of RA 4670, public school teachers who have rendered at least seven years of continuous service are entitled to a 'Study Leave' for up to:",
     "options": [
       {
         "key": "A",
-        "text": "Police arrest powers"
+        "text": "One school year with at least 60% of their regular monthly salary."
       },
       {
         "key": "B",
-        "text": "Commercial creditor relationship"
+        "text": "Five continuous years with 100% full pay and travel allowances."
       },
       {
         "key": "C",
-        "text": "Absolute immunity with zero responsibility"
+        "text": "One month with zero pay."
       },
       {
         "key": "D",
-        "text": "Special Parental Authority (*In Loco Parentis*), holding them legally liable for damages caused by the student unless they prove utmost parental diligence."
+        "text": "Two weeks during summer vacation only."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "*In Loco Parentis* (in place of parents) confers special parental authority, requiring teachers to exercise the diligence of a good father of a family over students during school activities."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in RA 4670: Study Leave Privileges. One school year with at least 60% of their regular monthly salary. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 49,
-    "topicRef": "Teacher Liability: Art. 2180 of Civil Code",
-    "question": "Under Article 2180 of the Civil Code of the Philippines, when is a teacher or school head held vicariously liable for damages caused by their students?",
+    "topicRef": "RA 4670: Indefinite Sick Leave",
+    "question": "Section 25 of RA 4670 guarantees that when the nature of a teacher's illness demands a long treatment exceeding one year, the teacher shall be entitled to:",
     "options": [
       {
         "key": "A",
-        "text": "Never under any circumstances."
+        "text": "Immediate termination of employment without medical benefits."
       },
       {
         "key": "B",
-        "text": "For damages caused by their pupils and students so long as they remain in their custody and care, unless the teacher proves diligence of a good father of a family."
+        "text": "An immediate fine deducted from remaining salary."
       },
       {
         "key": "C",
-        "text": "Only if the student is 50 years old."
+        "text": "Mandatory transfer to a remote mountain school."
       },
       {
         "key": "D",
-        "text": "Only during midnight hours."
+        "text": "An Indefinite Leave of Absence with job security and health protections."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Art. 2180 establishes vicarious liability for teachers and heads of establishments of arts and trades for torts committed by students under their custody."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in RA 4670: Indefinite Sick Leave. An Indefinite Leave of Absence with job security and health protections. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 50,
-    "topicRef": "RA 6713: Code of Conduct for Public Officials",
-    "question": "Republic Act No. 6713 outlines 8 Norms of Conduct for Public Officials and Employees (including public school teachers). Which norm demands living within modest financial means and avoiding ostentatious displays of wealth?",
+    "topicRef": "RA 4670: Academic Freedom in Higher Education",
+    "question": "Under Section 12 of RA 4670 and the 1987 Philippine Constitution, teachers in higher education institutions are guaranteed 'Academic Freedom', which protects their right to:",
     "options": [
       {
         "key": "A",
-        "text": "Commitment to Democracy"
+        "text": "Impose personal religious dogma on students without academic foundation."
       },
       {
         "key": "B",
-        "text": "Political Neutrality"
+        "text": "Cancel all student examinations permanently."
       },
       {
         "key": "C",
-        "text": "Simple Living"
+        "text": "Conduct research, teach, and publish scholarly findings without fear of political censorship, reprisal, or ideological interference."
       },
       {
         "key": "D",
-        "text": "Professionalism"
+        "text": "Refuse to teach any classes while demanding full salary."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "RA 6713 mandates 'Simple Living': public officials shall lead modest lives appropriate to their positions and avoid extravagant displays of wealth."
+    "explanation": "This item evaluates knowledge in RA 4670: Academic Freedom in Higher Education. Conduct research, teach, and publish scholarly findings without fear of political censorship, reprisal, or ideological interference. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 51,
-    "topicRef": "CPD Act of 2016 (RA 10912)",
-    "question": "What is the primary requirement of Republic Act No. 10912 (Continuing Professional Development Act of 2016) for the mandatory renewal of a Professional Teacher's PRC Identification Card?",
+    "topicRef": "Code of Ethics: Teachers and Remedial Classes for Fee",
+    "question": "Under Article VIII, Section 5 of the Code of Ethics, a teacher shall NOT:",
     "options": [
       {
         "key": "A",
-        "text": "Accumulating verified CPD credit units through formal training, graduate studies, seminars, or research publications."
+        "text": "Encourage students to form peer study groups."
       },
       {
         "key": "B",
-        "text": "Paying ₱100,000 in cash."
+        "text": "Accept remuneration or fees for tutoring or remedial teaching of one's OWN regular students."
       },
       {
         "key": "C",
-        "text": "Donating land to the PRC."
+        "text": "Provide free after-school remedial help to struggling pupils in one's class."
       },
       {
         "key": "D",
-        "text": "Taking the LET exam again every 3 years."
+        "text": "Refer a student to professional medical specialists when needed."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "RA 10912 mandates continuous professional development (CPD units) to maintain currency in professional competencies for PRC license renewal."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Teachers and Remedial Classes for Fee. Accept remuneration or fees for tutoring or remedial teaching of one's OWN regular students. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 52,
-    "topicRef": "Early Childhood Care: RA 10410",
-    "question": "Republic Act No. 10410 is officially titled the:",
+    "topicRef": "Code of Ethics: Professional Evaluation of Student Work",
+    "question": "Under Article VIII, Section 6, the evaluation of the learner's work and achievement shall be based on:",
     "options": [
       {
         "key": "A",
-        "text": "Senior High School Act"
+        "text": "Merit, quality of performance, and objective academic standards, free from personal bias or external pressure."
       },
       {
         "key": "B",
-        "text": "Kindergarten Education Act"
+        "text": "The social status and political influence of the student's family."
       },
       {
         "key": "C",
-        "text": "Higher Education Act"
+        "text": "The amount of financial donations the student's parents make to the school."
       },
       {
         "key": "D",
-        "text": "Early Years Act of 2013 (ECCD System from age 0 to 4)"
+        "text": "The teacher's personal subjective mood on the day of grading."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "RA 10410 (Early Years Act of 2013) recognizes ages 0-4 as crucial for early brain development and establishes the Early Childhood Care and Development (ECCD) Council."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Professional Evaluation of Student Work. Merit, quality of performance, and objective academic standards, free from personal bias or external pressure. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 53,
-    "topicRef": "Universal Kindergarten Act: RA 10157",
-    "question": "Under RA 10157 (Kindergarten Education Act of 2012), Kindergarten education is legally declared as:",
+    "topicRef": "Code of Ethics: Intellectual Honesty & Plagiarism in Teaching",
+    "question": "Under the Code of Ethics and professional standards, a teacher who submits an action research paper copied entirely from a colleague's thesis commits:",
     "options": [
       {
         "key": "A",
-        "text": "Mandatory and compulsory as a prerequisite for entry to Grade 1 in all public and private schools."
+        "text": "A minor clerical oversight with zero consequences."
       },
       {
         "key": "B",
-        "text": "Optional only for wealthy families."
+        "text": "A legitimate application of open educational resources."
       },
       {
         "key": "C",
-        "text": "Abolished permanently."
+        "text": "An act of commendable professional efficiency."
       },
       {
         "key": "D",
-        "text": "Reserved only for 7-year-old children."
+        "text": "Gross intellectual dishonesty and professional misconduct, violating ethics and subjecting the teacher to revocation of license (PRC)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "RA 10157 made Universal Kindergarten compulsory and mandatory as the foundational entry point for basic education before Grade 1."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Intellectual Honesty & Plagiarism in Teaching. Gross intellectual dishonesty and professional misconduct, violating ethics and subjecting the teacher to revocation of license (PRC). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 54,
-    "topicRef": "Free Higher Education Act: RA 10931",
-    "question": "Republic Act No. 10931 (Universal Access to Quality Tertiary Education Act of 2017) provides:",
+    "topicRef": "DepEd Child Protection: Positive and Non-Violent Discipline",
+    "question": "In contrast to corporal punishment, DepEd's 'Positive and Non-Violent Discipline' framework teaches children self-control and responsibility through:",
     "options": [
       {
         "key": "A",
-        "text": "Free airfare to Europe."
+        "text": "Physical slapping, pinching, and forced kneeling on salt."
       },
       {
         "key": "B",
-        "text": "Mandatory tuition doubling every year."
+        "text": "Depriving pupils of water, food, and restroom access."
       },
       {
         "key": "C",
-        "text": "Free tuition and other school fees in all State Universities and Colleges (SUCs), Local Universities and Colleges (LUCs), and state-run TVET institutions."
+        "text": "Clear expectations, age-appropriate logical consequences, emotional coaching, problem-solving dialogue, and reinforcing positive behaviors."
       },
       {
         "key": "D",
-        "text": "Abolition of college entrance tests."
+        "text": "Screaming insults, public humiliation, and isolation in dark rooms."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "RA 10931 guarantees free tuition and miscellaneous fees for qualified Filipino undergraduate students in public SUCs, LUCs, and TESDA institutions."
+    "explanation": "This item evaluates knowledge in DepEd Child Protection: Positive and Non-Violent Discipline. Clear expectations, age-appropriate logical consequences, emotional coaching, problem-solving dialogue, and reinforcing positive behaviors. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 55,
-    "topicRef": "Code of Ethics: Revocation of License (RA 7836 Sec. 23)",
-    "question": "Under Section 23 of RA 7836, which of the following is a legal ground for the PRC Board for Professional Teachers to REVOKE or suspend a teacher's Certificate of Registration and professional license?",
+    "topicRef": "Anti-Bullying Act: Republic Act 10627",
+    "question": "Under RA 10627 (Anti-Bullying Act of 2013), all elementary and secondary schools are legally mandated to:",
     "options": [
       {
         "key": "A",
-        "text": "Using blue ink instead of black ink on lesson plans."
+        "text": "Encourage victims of bullying to retaliate with physical violence."
       },
       {
         "key": "B",
-        "text": "Gross immorality, unprofessional or dishonorable conduct, or conviction of any criminal offense involving moral turpitude."
+        "text": "Adopt and implement comprehensive anti-bullying policies, establish a Child Protection Committee, and investigate and address all bullying incidents."
       },
       {
         "key": "C",
-        "text": "Refusing to wear high heels."
+        "text": "Expel 100% of all students involved in any verbal dispute without investigation."
       },
       {
         "key": "D",
-        "text": "Failing a school sports tournament."
+        "text": "Cover up and conceal all bullying incidents from parents and DepEd authorities."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Sec. 23 lists grounds for revocation: moral turpitude, gross immorality, professional incompetence, habitual drunkenness, or violations of the Code of Ethics."
+    "explanation": "This item evaluates knowledge in Anti-Bullying Act: Republic Act 10627. Adopt and implement comprehensive anti-bullying policies, establish a Child Protection Committee, and investigate and address all bullying incidents. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 56,
-    "topicRef": "Philosophy of Education: Existentialism in Curriculum",
-    "question": "An existentialist teacher designs a curriculum where students:",
+    "topicRef": "Safe Spaces Act: Republic Act 11313",
+    "question": "Under Republic Act 11313 (Safe Spaces Act / Bawal Bastos Law), gender-based sexual harassment in educational and training institutions is strictly prohibited, holding school heads liable if they:",
     "options": [
       {
         "key": "A",
-        "text": "Are forbidden from speaking their thoughts."
+        "text": "Fail to promptly investigate, act upon, and address reported sexual harassment complaints in the institution."
       },
       {
         "key": "B",
-        "text": "Undergo military drill marches."
+        "text": "Report sexual harassment cases to law enforcement agencies."
       },
       {
         "key": "C",
-        "text": "Memorize identical state dogma in unison."
+        "text": "Provide counseling and psychological support to victims."
       },
       {
         "key": "D",
-        "text": "Are offered wide personal choices in elective subjects and encouraged to self-examine existential questions regarding personal identity and life purpose."
+        "text": "Establish transparent grievance mechanisms."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Existentialist education emphasizes subjective personal choice, self-determination, artistic expression, and exploring the meaning of human existence."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Safe Spaces Act: Republic Act 11313. Fail to promptly investigate, act upon, and address reported sexual harassment complaints in the institution. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 57,
-    "topicRef": "Philosophy of Education: Perennialism vs Progressivism",
-    "question": "A debate between a teacher advocating for 'Subject-Centered Classic Disciplines' and a teacher advocating for 'Child-Centered Problem-Solving Projects' is fundamentally a debate between:",
+    "topicRef": "Peace Education: Non-Violent Communication (Marshall Rosenberg)",
+    "question": "Marshall Rosenberg's 'Non-Violent Communication' (NVC) framework trains educators and students to communicate through four components:",
     "options": [
       {
         "key": "A",
-        "text": "Idealism and Realism"
+        "text": "Accusations, Demands, Threats, and Punishments."
       },
       {
         "key": "B",
-        "text": "Behaviorism and Positivism"
+        "text": "Opinions, Judgments, Labels, and Demands."
       },
       {
         "key": "C",
-        "text": "Perennialism and Progressivism"
+        "text": "Silent treatment, Sarcasm, Gossip, and Passive-aggression."
       },
       {
         "key": "D",
-        "text": "Stoicism and Epicureanism"
+        "text": "Observations (concrete facts), Feelings (emotional state), Needs (universal human values), and Requests (actionable, clear asks)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Perennialism champions timeless classic academic disciplines, whereas Progressivism champions democratic, dynamic student-centered problem solving."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Peace Education: Non-Violent Communication (Marshall Rosenberg). Observations (concrete facts), Feelings (emotional state), Needs (universal human values), and Requests (actionable, clear asks). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 58,
-    "topicRef": "Sociological Theories: Functionalism (Emile Durkheim)",
-    "question": "According to Structural Functionalism (Durkheim, Parsons), the primary sociological role of schooling is to:",
+    "topicRef": "School Culture: Rituals, Traditions, and Ceremonies",
+    "question": "School traditions such as graduation commencement, moving-up ceremonies, foundation day celebrations, and awards convocations build positive school culture by:",
     "options": [
       {
         "key": "A",
-        "text": "Eliminate government laws."
+        "text": "Forcing parents to spend all their life savings on luxury costumes."
       },
       {
         "key": "B",
-        "text": "Socialize youth into shared cultural norms, transmit core societal values, and allocate individuals to specialized occupational roles to maintain social equilibrium."
+        "text": "Creating opportunities for teachers to publicly insult struggling students."
       },
       {
         "key": "C",
-        "text": "Isolate children from society."
+        "text": "Reinforcing shared institutional values, building community pride, celebrating growth, and creating a sense of collective belonging."
       },
       {
         "key": "D",
-        "text": "Trigger violent civil war."
+        "text": "Wasting valuable instructional time with zero educational value."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Structural Functionalism views schools as essential social institutions that foster social cohesion, cultural transmission, and meritocratic role differentiation."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in School Culture: Rituals, Traditions, and Ceremonies. Reinforcing shared institutional values, building community pride, celebrating growth, and creating a sense of collective belonging. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 59,
-    "topicRef": "Sociological Theories: Conflict Theory (Karl Marx)",
-    "question": "According to Sociological Conflict Theory (Bowles & Gintis, Bourdieu), traditional schools serve to:",
+    "topicRef": "Community Engagement: School-Community Partnerships (Epstein's Framework)",
+    "question": "Joyce Epstein's framework identifies six types of family-community involvement: Parenting, Communicating, Volunteering, Learning at Home, Decision Making, and:",
     "options": [
       {
         "key": "A",
-        "text": "Ensure equal wealth for every citizen."
+        "text": "Banning community members from ever stepping foot on campus."
       },
       {
         "key": "B",
-        "text": "Promote world peace without bias."
+        "text": "Collaborating with the Community (coordinating resources and services with community businesses, agencies, and civic groups)."
       },
       {
         "key": "C",
-        "text": "Eliminate social classes."
+        "text": "Collecting commercial tuition taxes from local markets."
       },
       {
         "key": "D",
-        "text": "Reproduce social class inequalities and maintain the economic hegemony of the ruling elite through the hidden curriculum and unequal educational tracking."
+        "text": "Replacing school administrators with barangay councilors."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Conflict Theory argues that educational systems reflect and reproduce unequal socio-economic class divisions, rewarding dominant cultural capital while marginalizing working-class youth."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Community Engagement: School-Community Partnerships (Epstein's Framework). Collaborating with the Community (coordinating resources and services with community businesses, agencies, and civic groups). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 60,
-    "topicRef": "Symbolic Interactionism (George Herbert Mead)",
-    "question": "Symbolic Interactionism examines classroom dynamics through:",
+    "topicRef": "Organizational Climate: Halpin and Croft's Open vs Closed Climate",
+    "question": "In Andrew Halpin and Don Croft's classic organizational climate framework, an 'Open School Climate' is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "National GDP economic charts."
+        "text": "High teacher morale, high professional intimacy, supportive/open principal leadership, and low hindrance/bureaucratic frustration."
       },
       {
         "key": "B",
-        "text": "Micro-level face-to-face interactions, teacher expectations, student labeling, self-fulfilling prophecies, and the shared meanings constructed through daily communication."
+        "text": "High teacher disengagement, high aloofness of the principal, suspicion, and low morale (Closed Climate)."
       },
       {
         "key": "C",
-        "text": "Global satellite maps."
+        "text": "Strict military authoritarian rule where teachers cannot speak."
       },
       {
         "key": "D",
-        "text": "Military defense budgets."
+        "text": "Total absence of any educational goals or structure."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Symbolic Interactionism focuses on interpersonal classroom micro-processes: how teacher labels (e.g. 'smart' vs 'troublemaker') shape student identity and performance (Pygmalion effect)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Organizational Climate: Halpin and Croft's Open vs Closed Climate. High teacher morale, high professional intimacy, supportive/open principal leadership, and low hindrance/bureaucratic frustration. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 61,
-    "topicRef": "The Pygmalion Effect (Rosenthal & Jacobson)",
-    "question": "The 'Pygmalion Effect' (Teacher Expectancy Effect) in educational sociology proves that:",
+    "topicRef": "School Culture: Schein's Three Levels of Organizational Culture",
+    "question": "Edgar Schein conceptualizes organizational culture across three levels: Artifacts (visible structures/processes), Espoused Beliefs and Values, and:",
     "options": [
       {
         "key": "A",
-        "text": "IQ is purely genetic."
+        "text": "Written Lesson Plans."
       },
       {
         "key": "B",
-        "text": "Students always fail regardless of expectations."
+        "text": "Classroom Whiteboards."
       },
       {
         "key": "C",
-        "text": "When teachers hold high academic expectations for students, students internalize these positive beliefs and significantly improve their actual performance."
+        "text": "School Building Bricks."
       },
       {
         "key": "D",
-        "text": "Teachers have zero influence on learners."
+        "text": "Basic Underlying Assumptions (unconscious, taken-for-granted beliefs, habits of perception, and deep values)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Pygmalion Effect demonstrates that higher expectations placed upon learners lead to internal self-efficacy and superior measurable achievement."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in School Culture: Schein's Three Levels of Organizational Culture. Basic Underlying Assumptions (unconscious, taken-for-granted beliefs, habits of perception, and deep values). represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 62,
-    "topicRef": "Cultural Capital (Pierre Bourdieu)",
-    "question": "Pierre Bourdieu's concept of 'Cultural Capital' refers to:",
+    "topicRef": "Teacher Accountability: Public Accountability & Transparency",
+    "question": "Under RA 6713 and professional standards, a teacher demonstrates public accountability by:",
     "options": [
       {
         "key": "A",
-        "text": "The linguistic competence, cultural tastes, manners, and academic advantages passed down by elite families that are rewarded by the school system."
+        "text": "Using school supplies for personal home use."
       },
       {
         "key": "B",
-        "text": "The number of textbooks in a library."
+        "text": "Refusing to explain curriculum goals to community members."
       },
       {
         "key": "C",
-        "text": "The geographic location of Manila."
+        "text": "Managing school resources ethically, grading transparently, communicating student progress honestly, and rendering public service with integrity."
       },
       {
         "key": "D",
-        "text": "The physical money in a bank."
+        "text": "Keeping all grading calculations secret from students and parents."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Cultural Capital encompasses cultural knowledge, language fluency, manners, and social familiarity that grant institutional advantages in education."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates knowledge in Teacher Accountability: Public Accountability & Transparency. Managing school resources ethically, grading transparently, communicating student progress honestly, and rendering public service with integrity. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 63,
-    "topicRef": "Educational History: Thomasites in American Era",
-    "question": "Who were the 'Thomasites' who arrived in the Philippines in August 1901 aboard the USS Thomas?",
+    "topicRef": "Leadership in Education: Democratic vs Autocratic Leadership (Lewin)",
+    "question": "Kurt Lewin's classic leadership experiments demonstrated that 'Democratic Leadership' in schools produces:",
     "options": [
       {
         "key": "A",
-        "text": "Japanese military officers."
+        "text": "A complete collapse of all organizational communication."
       },
       {
         "key": "B",
-        "text": "British commercial merchants."
+        "text": "Higher group morale, stronger long-term commitment, collaborative problem solving, and sustained engagement even in the leader's absence."
       },
       {
         "key": "C",
-        "text": "Spanish Catholic friars."
+        "text": "Immediate rebellion and chaos in 100% of cases."
       },
       {
         "key": "D",
-        "text": "Over 500 American pioneering civilian teachers who established the centralized public secular English-medium school system in the Philippines."
+        "text": "Lower academic achievement than strict military dictatorship."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Thomasites were American educators recruited under Act No. 74 (1901) who built the foundations of Philippine public school education and the Philippine Normal School (PNS)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Leadership in Education: Democratic vs Autocratic Leadership (Lewin). Higher group morale, stronger long-term commitment, collaborative problem solving, and sustained engagement even in the leader's absence. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 64,
-    "topicRef": "Educational History: Act No. 74 (1901)",
-    "question": "Philippine Commission Act No. 74 enacted on January 21, 1901 is historically famous for:",
+    "topicRef": "Educational Sociology: The Role of Mass Media in Socialization",
+    "question": "In contemporary educational sociology, mass media and social media act as powerful secondary socializing agents that:",
     "options": [
       {
         "key": "A",
-        "text": "Declaring Tagalog as the sole language."
+        "text": "Influence values, shape youth identity, disseminate cultural trends, and impact political awareness both constructively and critically."
       },
       {
         "key": "B",
-        "text": "Creating the K-12 program."
+        "text": "Have zero psychological or cognitive effect on youth development."
       },
       {
         "key": "C",
-        "text": "Establishing the Department of Public Instruction, making primary education free and secular, and making English the medium of instruction."
+        "text": "Completely replace the biological need for human families."
       },
       {
         "key": "D",
-        "text": "Banning all American teachers."
+        "text": "Operate purely as passive radio transmitters without societal influence."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Act No. 74 established a secular, co-educational public school system with free primary education and established English as the instructional language."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Educational Sociology: The Role of Mass Media in Socialization. Influence values, shape youth identity, disseminate cultural trends, and impact political awareness both constructively and critically. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 65,
-    "topicRef": "Educational History: Educational Decree of 1863",
-    "question": "What was the landmark impact of the Spanish Educational Decree of 1863 on the Philippines?",
+    "topicRef": "Community Linkages: Disaster Risk Reduction and Management (DRRM)",
+    "question": "Under Republic Act 10121 (Philippine Disaster Risk Reduction and Management Act), schools must establish a School DRRM Committee to:",
     "options": [
       {
         "key": "A",
-        "text": "It banned the Catholic religion."
+        "text": "Refuse to evacuate during severe volcanic eruptions."
       },
       {
         "key": "B",
-        "text": "It established the first comprehensive system of free, state-regulated primary schools (one for boys and one for girls per municipality) and the *Escuela Normal* for teacher training."
+        "text": "Prohibit students from learning about typhoon safety."
       },
       {
         "key": "C",
-        "text": "It abolished all universities."
+        "text": "Use school disaster funds to purchase personal luxury gifts."
       },
       {
         "key": "D",
-        "text": "It established American high schools."
+        "text": "Conduct earthquake/fire drills, maintain contingency plans, ensure student physical safety, and coordinate with the Barangay DRRM Council during disasters."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Royal Decree of 1863 created the first organized public primary school system and the *Escuela Normal de Maestros* in Manila under the Jesuits."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Community Linkages: Disaster Risk Reduction and Management (DRRM). Conduct earthquake/fire drills, maintain contingency plans, ensure student physical safety, and coordinate with the Barangay DRRM Council during disasters. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 66,
-    "topicRef": "Code of Ethics: Confidentiality of Student Records",
-    "question": "Under Article VIII, Section 9 of the Code of Ethics, confidential information concerning students obtained by a teacher in the course of professional service shall:",
+    "topicRef": "School Environment: Child-Friendly School System (CFSS)",
+    "question": "DepEd's 'Child-Friendly School System' (CFSS) is founded on which core characteristics?",
     "options": [
       {
         "key": "A",
-        "text": "Be posted on social media forums."
+        "text": "High-cost, elitist, private, and profit-driven."
       },
       {
         "key": "B",
-        "text": "Be sold to advertisers."
+        "text": "Standardized, rigid, monotonous, and teacher-centric."
       },
       {
         "key": "C",
-        "text": "Never be divulged to anyone, except to authorized persons (parents, school guidance, courts) when mandated by professional duty or law."
+        "text": "Gender-sensitive, child-centered, inclusive, safe and protective, promoting child health and community participation."
       },
       {
         "key": "D",
-        "text": "Be gossiped with neighbors."
+        "text": "Strictly punitive, authoritarian, competitive, and exclusionary."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Student confidential records, psychological profiles, and family secrets are protected by strict professional privilege and data privacy laws."
+    "explanation": "This item evaluates knowledge in School Environment: Child-Friendly School System (CFSS). Gender-sensitive, child-centered, inclusive, safe and protective, promoting child health and community participation. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 67,
-    "topicRef": "Code of Ethics: Professional Grooming & Demeanor",
-    "question": "Article XI, Section 2 of the Code of Ethics states that a teacher shall, at all times, maintain:",
+    "topicRef": "Code of Ethics: Professional Growth (CPD Act of 2016 - RA 10912)",
+    "question": "Under Republic Act 10912 (Continuing Professional Development Act of 2016), professional teachers are required to earn CPD credit units to:",
     "options": [
       {
         "key": "A",
-        "text": "An aggressive, hostile facial expression."
+        "text": "Qualify for early retirement at age 25."
       },
       {
         "key": "B",
-        "text": "Extravagant designer fashion jewelry."
+        "text": "Continuously upgrade competencies, stay abreast of modern educational research, and maintain professional licensure with the PRC."
       },
       {
         "key": "C",
-        "text": "Casual beachwear in the classroom."
+        "text": "Pay luxury taxes directly to private commercial corporations."
       },
       {
         "key": "D",
-        "text": "A dignified personality, professional attire, self-respect, and moral character that can serve as a worthy model for learners and the public."
+        "text": "Purchase expensive real estate properties."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Art. XI mandates that teachers embody professional decorum, dignified conduct, moral integrity, and professional grooming as public role models."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Professional Growth (CPD Act of 2016 - RA 10912). Continuously upgrade competencies, stay abreast of modern educational research, and maintain professional licensure with the PRC. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 68,
-    "topicRef": "Code of Ethics: Grievances Against Administrators",
-    "question": "Under Article VI, Section 5, if a teacher has a legitimate grievance against their school principal or administrator, what is the mandatory ethical procedure?",
+    "topicRef": "Social Dimensions: Globalization and Global Education",
+    "question": "In the social dimensions of education, 'Global Education' seeks to develop learners who understand:",
     "options": [
       {
         "key": "A",
-        "text": "Stage a student walkout immediately."
+        "text": "Global interconnectedness, ecological stewardship, cultural empathy, international peace, and human rights in an interdependent world."
       },
       {
         "key": "B",
-        "text": "Spread anonymous hate letters in the community."
+        "text": "Only the narrow tribal politics of their immediate village."
       },
       {
         "key": "C",
-        "text": "Raise the grievance through formal administrative channels and established grievance machinery, exhausting all internal legal procedures before going public."
+        "text": "How to exploit developing nations for commercial corporate profit."
       },
       {
         "key": "D",
-        "text": "Refuse to teach class for 3 months."
+        "text": "Why foreign languages should be banned from all schools."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Art. VI, Sec. 5 requires educators to exhaust established institutional grievance machinery and administrative procedures before seeking external remedies."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Social Dimensions: Globalization and Global Education. Global interconnectedness, ecological stewardship, cultural empathy, international peace, and human rights in an interdependent world. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
     "id": 69,
-    "topicRef": "Code of Ethics: Political & Religious Neutrality",
-    "question": "Under Article II, Section 6, can a teacher use their classroom lecture to promote their personal religious faith and attack students of other denominations?",
+    "topicRef": "Teacher-Parent Communication: Effective Conferences",
+    "question": "During a parent-teacher conference regarding a struggling student, an ethical and effective teacher will:",
     "options": [
       {
         "key": "A",
-        "text": "Yes, if the teacher is very passionate."
+        "text": "Attack and blame the parents for the student's low test scores."
       },
       {
         "key": "B",
-        "text": "No, a teacher shall not use their position or classroom influence to proselytize or coerce students to follow their religious denomination."
+        "text": "Compare the student unfavorably to high-performing classmates."
       },
       {
         "key": "C",
-        "text": "Yes, if the principal agrees."
+        "text": "Demand cash payment from parents before discussing the report card."
       },
       {
         "key": "D",
-        "text": "Yes, on Monday mornings only."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Art. II, Sec. 6 strictly prohibits religious proselytizing, sectarian coercion, or using classroom time to promote personal denominational bias."
-  },
-  {
-    "id": 70,
-    "topicRef": "Teacher as an Intellectual Leader in Community",
-    "question": "Under Article III, Section 1, the teacher is recognized in the community as an:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Intellectual leader and facilitator of community socio-economic, cultural, and educational advancement."
-      },
-      {
-        "key": "B",
-        "text": "Armed neighborhood guard."
-      },
-      {
-        "key": "C",
-        "text": "Political party campaign manager."
-      },
-      {
-        "key": "D",
-        "text": "Exclusively classroom babysitter."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Art. III, Sec. 1 establishes the teacher's vital community role as an intellectual and civic leader, collaborating with local leaders for social betterment."
-  },
-  {
-    "id": 71,
-    "topicRef": "Special Hardship Allowance: RA 4670",
-    "question": "Under Section 19 of RA 4670, teachers assigned to remote, isolated mountain communities, conflict-affected zones, or hazardous hardship posts are entitled to a 'Special Hardship Allowance' of at least:",
-    "options": [
-      {
-        "key": "A",
-        "text": "Double their retirement age"
-      },
-      {
-        "key": "B",
-        "text": "5% of their salary"
-      },
-      {
-        "key": "C",
-        "text": "₱100 once a year"
-      },
-      {
-        "key": "D",
-        "text": "At least 25% of their monthly basic salary"
+        "text": "Begin with the student's positive strengths, share objective assessment data clearly, listen empathetically to parents, and co-create an action plan for support."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Sec. 19 of the Magna Carta guarantees a Special Hardship Allowance of at least 25% of monthly salary for teachers in remote and hazardous assignments."
+    "explanation": "This item evaluates knowledge in Teacher-Parent Communication: Effective Conferences. Begin with the student's positive strengths, share objective assessment data clearly, listen empathetically to parents, and co-create an action plan for support. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
-    "id": 72,
-    "topicRef": "Salary Step Increment for Advanced Education",
-    "question": "Under the Magna Carta (RA 4670 Sec. 18), completing a graduate master's or doctoral degree automatically entitles a public school teacher to:",
+    "id": 70,
+    "topicRef": "School Leadership: Emotional Intelligence in Leadership (Goleman)",
+    "question": "Daniel Goleman's research on leadership demonstrates that highly effective school leaders possess high 'Emotional Intelligence' (EQ), characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "A salary step increment or promotional reclassification upon passing the required qualification standards."
+        "text": "An IQ score above 200 without any empathy for human feelings."
       },
       {
         "key": "B",
-        "text": "A bonus car."
+        "text": "Physical intimidating dominance during faculty meetings."
       },
       {
         "key": "C",
-        "text": "Immediate retirement with full pension."
+        "text": "Self-awareness, self-regulation, motivation, empathy, and adept social relationship management."
       },
       {
         "key": "D",
-        "text": "Exemption from teaching."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "Academic career advancement and graduate degrees qualify teachers for promotional step increments (ERF - Equivalent Record Form upgrades)."
-  },
-  {
-    "id": 73,
-    "topicRef": "Teacher Transfers: RA 4670 Sec. 6",
-    "question": "Under Section 6 of RA 4670, can a public school teacher be forcibly transferred to another municipality three months before a national election without consent?",
-    "options": [
-      {
-        "key": "A",
-        "text": "Yes, whenever a politician requests it."
-      },
-      {
-        "key": "B",
-        "text": "Yes, without any formal notice."
-      },
-      {
-        "key": "C",
-        "text": "No, transfers within 3 months of an election are strictly prohibited by law, and no teacher shall be transferred without consent except for cause."
-      },
-      {
-        "key": "D",
-        "text": "Yes, if the weather is warm."
+        "text": "Authoritarian aggression and cold emotional detachment."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "RA 4670 Sec. 6 strictly forbids involuntary teacher transfers within 3 months of an election and requires formal written justification and consent for any transfer."
+    "explanation": "This item evaluates knowledge in School Leadership: Emotional Intelligence in Leadership (Goleman). Self-awareness, self-regulation, motivation, empathy, and adept social relationship management. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
-    "id": 74,
-    "topicRef": "DepEd Order 007, s. 2023: Partisan Politics",
-    "question": "Under DepEd Order No. 007, s. 2023 and Civil Service Commission rules, DepEd officials and teachers are strictly prohibited from:",
+    "id": 71,
+    "topicRef": "Sociology of Education: Education as an Agent of Social Change",
+    "question": "How does education function as an 'Agent of Social Change' rather than merely an agent of social preservation?",
     "options": [
       {
         "key": "A",
-        "text": "Discussing the Philippine Constitution in class."
+        "text": "By preserving feudal class exploitation forever."
       },
       {
         "key": "B",
-        "text": "Engaging directly or indirectly in partisan political activities, electioneering, or wearing campaign shirts during official duty."
+        "text": "By fostering critical consciousness, challenging oppressive status quos, promoting scientific innovation, and cultivating democratic values."
       },
       {
         "key": "C",
-        "text": "Reading the news."
+        "text": "By forcing all citizens to obey outdated superstitious traditions without questioning."
       },
       {
         "key": "D",
-        "text": "Voting on election day."
+        "text": "By preventing any technological or scientific advancement."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Civil service laws strictly forbid civil servants from partisan campaigning, distributing political merchandise, or engaging in electioneering."
+    "explanation": "This item evaluates knowledge in Sociology of Education: Education as an Agent of Social Change. By fostering critical consciousness, challenging oppressive status quos, promoting scientific innovation, and cultivating democratic values. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   },
   {
-    "id": 75,
-    "topicRef": "The Noble Calling of Teaching",
-    "question": "Why is Teaching revered in Philippine society as 'The Mother of All Professions'?",
+    "id": 72,
+    "topicRef": "Professional Teacher Identity: Professionalism and Dedication",
+    "question": "A licensed professional teacher demonstrates true 'Professionalism' when she:",
     "options": [
       {
         "key": "A",
-        "text": "Because teachers work zero hours a week."
+        "text": "Consistently exhibits competence, moral integrity, ethical conduct, dedication to student learning, and continuous self-reflection in all endeavors."
       },
       {
         "key": "B",
-        "text": "Because it is the highest paying job in the world."
+        "text": "Teaches only when a school supervisor is watching inside the room."
       },
       {
         "key": "C",
-        "text": "Because all other professionals (doctors, engineers, lawyers, scientists, leaders) pass through the formative hands, mentorship, and inspiration of teachers."
+        "text": "Arrives late every day and leaves before the final bell rings."
       },
       {
         "key": "D",
-        "text": "Because teachers never make mistakes."
+        "text": "Uses teaching solely as a temporary stepping stone to personal fame."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This item evaluates knowledge in Professional Teacher Identity: Professionalism and Dedication. Consistently exhibits competence, moral integrity, ethical conduct, dedication to student learning, and continuous self-reflection in all endeavors. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
+  },
+  {
+    "id": 73,
+    "topicRef": "Code of Ethics: Teacher's Relationship with the School Head",
+    "question": "Under the Code of Ethics, when a teacher receives an official administrative policy directive from the School Principal that the teacher disagrees with, the teacher should:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Stage a public smear campaign on social media against the principal."
+      },
+      {
+        "key": "B",
+        "text": "Order students to boycott the principal's office."
+      },
+      {
+        "key": "C",
+        "text": "Refuse to teach any classes until the principal is fired."
+      },
+      {
+        "key": "D",
+        "text": "Professionally discuss concerns through proper channels, seek collegial dialogue, and comply with legitimate administrative policies in good faith."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item evaluates knowledge in Code of Ethics: Teacher's Relationship with the School Head. Professionally discuss concerns through proper channels, seek collegial dialogue, and comply with legitimate administrative policies in good faith. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
+  },
+  {
+    "id": 74,
+    "topicRef": "DepEd Child Protection: Cyber-Safety and Child Abuse Reporting",
+    "question": "If a teacher discovers that a student is being subjected to sexual harassment, exploitation, or severe online abuse, the teacher's immediate legal duty is to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Wait until the end of the school year before mentioning it to anyone."
+      },
+      {
+        "key": "B",
+        "text": "Tell the child that they must have deserved the abuse."
+      },
+      {
+        "key": "C",
+        "text": "Report the incident immediately to the School Child Protection Committee and designated authorities in accordance with child protection protocols."
+      },
+      {
+        "key": "D",
+        "text": "Keep the abuse a secret to avoid damaging the school's public reputation."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Teaching is the foundational bedrock of all human professions: every doctor, statesman, scientist, and builder began their journey under the mentorship of a dedicated teacher."
+    "explanation": "This item evaluates knowledge in DepEd Child Protection: Cyber-Safety and Child Abuse Reporting. Report the incident immediately to the School Child Protection Committee and designated authorities in accordance with child protection protocols. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
+  },
+  {
+    "id": 75,
+    "topicRef": "Synthesis of Social Dimensions: The Teacher as a Nation Builder",
+    "question": "Ultimately, in Philippine society and educational philosophy, the teacher is revered as a 'Nation Builder' because the teacher:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Enforces political authoritarian decrees with armed power."
+      },
+      {
+        "key": "B",
+        "text": "Nurtures the minds, character, civic virtues, and competencies of the next generation of democratic citizens and leaders."
+      },
+      {
+        "key": "C",
+        "text": "Manufactures industrial military weaponry in factories."
+      },
+      {
+        "key": "D",
+        "text": "Collects commercial taxes for international foreign banks."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates knowledge in Synthesis of Social Dimensions: The Teacher as a Nation Builder. Nurtures the minds, character, civic virtues, and competencies of the next generation of democratic citizens and leaders. represents standard educational sociology, leadership theory, RA 9155, and the Code of Ethics for Professional Teachers."
   }
 ];
