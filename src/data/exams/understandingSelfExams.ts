@@ -124,7 +124,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Locke argued that personal identity consists in psychological continuity\u2014specifically consciousness and the memory of one's past experiences."
+    "explanation": "Locke argued that personal identity consists in psychological continuity—specifically consciousness and the memory of one's past experiences."
   },
   {
     "id": 6,
@@ -374,7 +374,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Rogers emphasized that mental health is characterized by congruence\u2014harmony and alignment\u2014between one's real self-experience and idealized aspirations."
+    "explanation": "Rogers emphasized that mental health is characterized by congruence—harmony and alignment—between one's real self-experience and idealized aspirations."
   },
   {
     "id": 16,
@@ -383,7 +383,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Incongruence, resulting in anxiety, low self-worth, and psychological maladjustment."
+        "text": "Incongruence."
       },
       {
         "key": "B",
@@ -583,7 +583,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Upward social comparison, resulting in body dissatisfaction, low self-esteem, and negative body image."
+        "text": "Upward social comparison."
       },
       {
         "key": "B",
@@ -1420,7 +1420,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Precise scientific understanding of neurobiological brain states, synaptic chemistry, and neural architecture."
+        "text": "Precise scientific understanding of neurobiological brain states, synaptic chemistry."
       }
     ],
     "correctAnswer": "D",
@@ -1441,7 +1441,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'I do not have a body; I am my body'\u2014the living body is the very vehicle of being in the world."
+        "text": "'I do not have a body; I am my body'—the living body is the very vehicle of being in the world."
       },
       {
         "key": "D",
@@ -1449,7 +1449,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "This item assesses competence in Philosophy of Self: Merleau-Ponty's Body-Subject. 'I do not have a body; I am my body'\u2014the living body is the very vehicle of being in the world. represents established developmental and psychological consensus."
+    "explanation": "This item assesses competence in Philosophy of Self: Merleau-Ponty's Body-Subject. 'I do not have a body; I am my body'—the living body is the very vehicle of being in the world. represents established developmental and psychological consensus."
   },
   {
     "id": 59,
@@ -1762,7 +1762,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Critically examining one's inherited beliefs, taking personal responsibility for values, and forming an autonomous worldview."
+        "text": "Critically examining one's inherited beliefs."
       },
       {
         "key": "C",

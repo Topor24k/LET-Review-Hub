@@ -33,7 +33,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(1 + sqrt(2)) / 2 approximately equal to 1.207."
+        "text": ") / 2 approximately equal to 1.207."
       },
       {
         "key": "B",
@@ -41,11 +41,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "(1 + sqrt(5)) / 2 approximately equal to 1.6180339887."
+        "text": ") / 2 approximately equal to 1.6180339887."
       },
       {
         "key": "D",
-        "text": "(1 + sqrt(3)) / 2 approximately equal to 1.366."
+        "text": ") / 2 approximately equal to 1.366."
       }
     ],
     "correctAnswer": "C",
@@ -54,7 +54,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 3,
     "topicRef": "Patterns in Nature: Fractals & Self-Similarity",
-    "question": "A geometric object that exhibits self-similarity across all scales\u2014meaning any magnified part looks mathematically identical or similar to the whole object\u2014is called a:",
+    "question": "A geometric object that exhibits self-similarity across all scales—meaning any magnified part looks mathematically identical or similar to the whole object—is called a:",
     "options": [
       {
         "key": "A",
@@ -137,7 +137,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "n!."
+        "text": "n!"
       },
       {
         "key": "C",
@@ -262,11 +262,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Inductive reasoning, which is probable but not logically guaranteed."
+        "text": "Inductive reasoning."
       },
       {
         "key": "C",
-        "text": "Deductive reasoning, which is absolutely guaranteed."
+        "text": "Deductive reasoning."
       },
       {
         "key": "D",
@@ -1383,7 +1383,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Length, angle measure, and geometric distance, keeping the original figure congruent."
+        "text": "Length, angle measure."
       },
       {
         "key": "B",
@@ -1562,7 +1562,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "No voting rule can simultaneously satisfy Pareto efficiency, non-dictatorship, independence of irrelevant alternatives, and unrestricted domain."
+        "text": "No voting rule can simultaneously satisfy Pareto efficiency, non-dictatorship, independence of irrelevant alternatives."
       },
       {
         "key": "C",
@@ -1620,7 +1620,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "n(n - 1) / 2."
+        "text": "n / 2."
       }
     ],
     "correctAnswer": "D",
@@ -1658,19 +1658,19 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(a - x) is equal to m."
+        "text": "is equal to m."
       },
       {
         "key": "B",
-        "text": "(a * x) is congruent to 1."
+        "text": "is congruent to 1."
       },
       {
         "key": "C",
-        "text": "(a + x) is congruent to 0."
+        "text": "is congruent to 0."
       },
       {
         "key": "D",
-        "text": "(a * x) is congruent to 0."
+        "text": "is congruent to 0."
       }
     ],
     "correctAnswer": "B",

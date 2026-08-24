@@ -49,7 +49,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "TCK is understanding how technology and content influence and constrain one another\u2014how specific technological tools can represent and transform specific subject-matter concepts."
+    "explanation": "TCK is understanding how technology and content influence and constrain one another—how specific technological tools can represent and transform specific subject-matter concepts."
   },
   {
     "id": 3,
@@ -383,7 +383,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The permanent trail of data, posts, photos, and activity left behind on the internet that can impact future academic and career opportunities."
+        "text": "The permanent trail of data, posts, photos."
       },
       {
         "key": "B",
@@ -483,7 +483,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Teaching and learning materials in the public domain or released under an open license that permit free access, reuse, adaptation, and sharing."
+        "text": "Teaching and learning materials in the public domain or released under an open license that permit free access, reuse, adaptation."
       },
       {
         "key": "B",
@@ -520,7 +520,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Administers, documents, tracks, reports, and delivers educational courses and learning content in a structured digital environment."
+        "text": "Administers, documents, tracks, reports."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Web 2.0 empowers users to actively create, collaborate, remix, and share user-generated content rather than passively reading static web pages."
+        "text": "Web 2.0 empowers users to actively create, collaborate, remix."
       },
       {
         "key": "D",
@@ -983,7 +983,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dynamically adjusting the difficulty, pacing, and scaffolding of instructional content in real-time based on individual learner performance and error patterns."
+        "text": "Dynamically adjusting the difficulty, pacing."
       },
       {
         "key": "B",
@@ -1020,7 +1020,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Transparently cite and disclose the use of AI, verify all factual claims and sources independently, and ensure the core analysis and writing represent their own authentic intellectual work."
+        "text": "Transparently cite and disclose the use of AI, verify all factual claims and sources independently."
       }
     ],
     "correctAnswer": "D",
@@ -1162,7 +1162,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Obtain real-time diagnostic data on class understanding, identify common misconceptions instantly, and adjust instruction immediately."
+        "text": "Obtain real-time diagnostic data on class understanding, identify common misconceptions instantly."
       },
       {
         "key": "C",
@@ -1220,7 +1220,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Research synthesis, oral communication, scriptwriting, audio digital editing, and storytelling skills."
+        "text": "Research synthesis, oral communication, scriptwriting, audio digital editing."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Synthesize complex statistical data, identify key messages, and communicate information visually using hierarchy, icons, and concise text."
+        "text": "Synthesize complex statistical data, identify key messages."
       },
       {
         "key": "D",
@@ -1483,7 +1483,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By allowing learners to demonstrate mastery through diverse digital mediums\u2014such as creating a video, recording a podcast, coding a game, or writing a blog post."
+        "text": "By allowing learners to demonstrate mastery through diverse digital mediums—such as creating a video, recording a podcast, coding a game, or writing a blog post."
       },
       {
         "key": "B",
@@ -1499,7 +1499,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "A",
-    "explanation": "This item evaluates educational technology competence in Assistive Tech: Universal Design for Learning (UDL) in EdTech. By allowing learners to demonstrate mastery through diverse digital mediums\u2014such as creating a video, recording a podcast, coding a game, or writing a blog post. represents standard TPACK, SAMR, and digital learning design best practice."
+    "explanation": "This item evaluates educational technology competence in Assistive Tech: Universal Design for Learning (UDL) in EdTech. By allowing learners to demonstrate mastery through diverse digital mediums—such as creating a video, recording a podcast, coding a game, or writing a blog post. represents standard TPACK, SAMR, and digital learning design best practice."
   },
   {
     "id": 61,
@@ -1562,7 +1562,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Present themselves as real, authentic people through personal introductions, collaborative tone, emotional expression, and supportive peer communication."
+        "text": "Present themselves as real, authentic people through personal introductions, collaborative tone, emotional expression."
       },
       {
         "key": "C",
@@ -1662,7 +1662,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Zero licensing costs, freedom to install on unlimited devices, and the ability to customize and distribute legally without piracy."
+        "text": "Zero licensing costs, freedom to install on unlimited devices."
       },
       {
         "key": "C",
@@ -1741,7 +1741,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Real-time simultaneous collaborative document editing, automated continuous saving, and seamless cross-device file accessibility."
+        "text": "Real-time simultaneous collaborative document editing, automated continuous saving."
       },
       {
         "key": "D",
@@ -1762,7 +1762,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Stop, Investigate the source, Find better coverage, and Trace claims, quotes, and media back to the original context."
+        "text": "Stop, Investigate the source, Find better coverage."
       },
       {
         "key": "C",
@@ -1783,7 +1783,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Manipulate dynamic 3D geometry models, annotate digital primary sources collaboratively, and save annotated lessons for student review."
+        "text": "Manipulate dynamic 3D geometry models, annotate digital primary sources collaboratively."
       },
       {
         "key": "B",
@@ -1820,7 +1820,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conducting thorough topic research, drafting an organized conversational script/outline, and planning sound effects and cues."
+        "text": "Conducting thorough topic research, drafting an organized conversational script/outline."
       }
     ],
     "correctAnswer": "D",

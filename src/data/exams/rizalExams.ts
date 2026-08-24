@@ -129,7 +129,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 6,
     "topicRef": "Pre-Colonial Society: Plasencia's Customs of the Tagalogs",
-    "question": "Fray Juan de Plasencia's 1589 account Relaci\u00f3n de las Costumbres de los Tagalos describes pre-colonial social stratification. In this society, the 'Timawa' were:",
+    "question": "Fray Juan de Plasencia's 1589 account Relación de las Costumbres de los Tagalos describes pre-colonial social stratification. In this society, the 'Timawa' were:",
     "options": [
       {
         "key": "A",
@@ -262,7 +262,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The exact date and precise geographical location where Katipuneros tore their c\u00e9dulas and declared revolution."
+        "text": "The exact date and precise geographical location where Katipuneros tore their cédulas and declared revolution."
       },
       {
         "key": "C",
@@ -383,7 +383,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The compulsory inclusion of courses on the life, works, and writings of Jose Rizal, particularly Noli Me Tangere and El Filibusterismo, in all educational curricula."
+        "text": "The compulsory inclusion of courses on the life, works."
       },
       {
         "key": "B",
@@ -462,7 +462,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To prove scientifically that pre-colonial Filipinos had a rich, civilized culture, flourishing trade, high literacy, and maritime industry before Spanish arrival."
+        "text": "To prove scientifically that pre-colonial Filipinos had a rich, civilized culture, flourishing trade, high literacy."
       },
       {
         "key": "C",
@@ -483,7 +483,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A chronic symptom and direct result of Spanish misrule, forced labor, lack of economic incentives, and poor education, rather than an innate racial trait."
+        "text": "A chronic symptom and direct result of Spanish misrule, forced labor, lack of economic incentives."
       },
       {
         "key": "B",
@@ -503,8 +503,8 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
   },
   {
     "id": 21,
-    "topicRef": "Rizal's Essay: Filipinas Dentro de Cien A\u00f1os",
-    "question": "In Filipinas Dentro de Cien A\u00f1os (The Philippines a Century Hence, 1889-1890), Rizal presciently predicted that if Spain failed to reform, the Philippines would:",
+    "topicRef": "Rizal's Essay: Filipinas Dentro de Cien Años",
+    "question": "In Filipinas Dentro de Cien Años (The Philippines a Century Hence, 1889-1890), Rizal presciently predicted that if Spain failed to reform, the Philippines would:",
     "options": [
       {
         "key": "A",
@@ -524,7 +524,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "D",
-    "explanation": "This item evaluates competence in Rizal's Essay: Filipinas Dentro de Cien A\u00f1os. Declare independence through revolution and likely fall under the geopolitical influence of the United States of America. represents established historical and historiographical consensus."
+    "explanation": "This item evaluates competence in Rizal's Essay: Filipinas Dentro de Cien Años. Declare independence through revolution and likely fall under the geopolitical influence of the United States of America. represents established historical and historiographical consensus."
   },
   {
     "id": 22,
@@ -1562,7 +1562,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The threat of communist rebellion and civil unrest, leading to authoritarian rule and parliamentary restructuring under the 1973 Constitution."
+        "text": "The threat of communist rebellion and civil unrest."
       },
       {
         "key": "C",
@@ -1583,7 +1583,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The assassination of Ninoy Aquino, fraudulent results of the 1986 Snap Elections, and the military defection of Enrile and Ramos supported by Cardinal Sin."
+        "text": "The assassination of Ninoy Aquino, fraudulent results of the 1986 Snap Elections."
       },
       {
         "key": "B",
@@ -1620,7 +1620,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Robust human rights protections, institutional checks and balances, term limits, creation of the Commission on Human Rights, and strict limits on martial law."
+        "text": "Robust human rights protections, institutional checks and balances, term limits, creation of the Commission on Human Rights."
       }
     ],
     "correctAnswer": "D",
@@ -1662,7 +1662,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Dominican professors were perceived as hostile, obsolete pedagogical methods were used, and Filipino students suffered racial discrimination."
+        "text": "Dominican professors were perceived as hostile, obsolete pedagogical methods were used."
       },
       {
         "key": "C",
@@ -1683,7 +1683,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Observe European life, culture, laws, and governments in order to prepare himself for the liberation of his oppressed people."
+        "text": "Observe European life, culture, laws."
       },
       {
         "key": "B",
@@ -1820,7 +1820,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The arbitrary rental increases, failure of the Dominican hacienda to issue receipts, and dispossession of farmers, resulting in the eviction of his family."
+        "text": "The arbitrary rental increases, failure of the Dominican hacienda to issue receipts, and dispossession of farmers."
       }
     ],
     "correctAnswer": "D",

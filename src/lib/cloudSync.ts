@@ -21,14 +21,24 @@ const statusListeners = new Set<(status: SyncStatus) => void>();
 let pushDebounceTimer: any = null;
 let pendingPushData: CloudStudyData = {};
 
-const OFFLINE_CACHE_KEY = 'let_reviewer_offline_cache_v2';
+const OFFLINE_CACHE_KEY = 'let_reviewer_offline_cache_v3';
 let pendingOfflineQueue: CloudStudyData = {};
 
 // Load offline cache on boot if available
 function loadOfflineCache(): CloudStudyData | null {
   try {
     const raw = localStorage.getItem(OFFLINE_CACHE_KEY);
-    return raw ? JSON.parse(raw) : null;
+    if (!raw) {
+      // Clear legacy v2 cache to remove old draft questions
+      localStorage.removeItem('let_reviewer_offline_cache_v2');
+      return null;
+    }
+    const parsed = JSON.parse(raw);
+    // Clear legacy examDrafts so the new 75-question banks load freshly
+    if (parsed) {
+      parsed.examDrafts = {};
+    }
+    return parsed;
   } catch {
     return null;
   }

@@ -120,11 +120,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Standing-Reserve'\u2014mere resources, stock, and energy on standby for exploitation and optimization."
+        "text": "'Standing-Reserve'—mere resources, stock."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Heidegger's 'Question Concerning Technology'. 'Standing-Reserve' (Bestand)\u2014mere resources, stock, and energy on standby for exploitation and optimization. represents standard scientific and philosophical consensus."
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Heidegger's 'Question Concerning Technology'. 'Standing-Reserve' (Bestand)—mere resources, stock, and energy on standby for exploitation and optimization. represents standard scientific and philosophical consensus."
   },
   {
     "id": 6,
@@ -441,7 +441,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency, which causes childhood blindness, immune failure, and mortality in developing nations."
+        "text": "Vitamin A Deficiency."
       },
       {
         "key": "D",
@@ -1020,7 +1020,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Dramatically lowering the cost of book production, accelerating literacy, and fueling the Protestant Reformation and Scientific Revolution."
+        "text": "Dramatically lowering the cost of book production, accelerating literacy."
       }
     ],
     "correctAnswer": "D",
@@ -1083,7 +1083,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Diseases are transmitted through contaminated municipal drinking water and poor sanitation, leading to modern public water engineering."
+        "text": "Diseases are transmitted through contaminated municipal drinking water and poor sanitation."
       },
       {
         "key": "B",
@@ -1441,7 +1441,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abundant energy from seawater isotopes with zero long-lived radioactive waste, zero greenhouse gases, and zero risk of meltdown."
+        "text": "Abundant energy from seawater isotopes with zero long-lived radioactive waste, zero greenhouse gases."
       },
       {
         "key": "D",
@@ -1579,7 +1579,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 64,
     "topicRef": "Public Health: Antimicrobial Resistance (AMR)",
-    "question": "Antimicrobial Resistance (AMR)\u2014the evolution of bacteria and viruses that survive standard antibiotic treatments\u2014is driven primarily by:",
+    "question": "Antimicrobial Resistance (AMR)—the evolution of bacteria and viruses that survive standard antibiotic treatments—is driven primarily by:",
     "options": [
       {
         "key": "A",
@@ -1679,7 +1679,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 68,
     "topicRef": "Ethics of Tech: Deepfakes & Information Integrity",
-    "question": "Deepfake technology\u2014using deep neural generative adversarial networks (GANs) to synthesize realistic fake audio/video\u2014poses severe STS threats to:",
+    "question": "Deepfake technology—using deep neural generative adversarial networks (GANs) to synthesize realistic fake audio/video—poses severe STS threats to:",
     "options": [
       {
         "key": "A",

@@ -20,7 +20,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An imitation of physical reality, which is itself an imperfect reflection of the eternal Form."
+        "text": "An imitation of physical reality."
       }
     ],
     "correctAnswer": "D",
@@ -158,19 +158,19 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Split-complementary harmony, which uses a base color and adjacent complements."
+        "text": "Split-complementary harmony."
       },
       {
         "key": "B",
-        "text": "Analogous color harmony, which produces visual unity and serene, natural transitions."
+        "text": "Analogous color harmony."
       },
       {
         "key": "C",
-        "text": "Complementary color scheme, which uses colors directly opposite each other."
+        "text": "Complementary color scheme."
       },
       {
         "key": "D",
-        "text": "Monochromatic harmony, which uses only a single hue with tints and shades."
+        "text": "Monochromatic harmony."
       }
     ],
     "correctAnswer": "B",
@@ -304,7 +304,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 13,
     "topicRef": "Pre-Colonial Philippine Art: Manunggul Jar",
-    "question": "The Manunggul Jar (890\u2013710 BCE) of Palawan is a secondary burial vessel celebrated for its boat-shaped lid. What does this boat carving symbolize?",
+    "question": "The Manunggul Jar (890–710 BCE) of Palawan is a secondary burial vessel celebrated for its boat-shaped lid. What does this boat carving symbolize?",
     "options": [
       {
         "key": "A",
@@ -358,7 +358,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pi\u00f1a barong cloth."
+        "text": "Piña barong cloth."
       },
       {
         "key": "B",
@@ -462,7 +462,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Earthquake Baroque, characterized by massive buttresses and thick masonry to withstand seismic activity."
+        "text": "Earthquake Baroque."
       },
       {
         "key": "C",
@@ -495,7 +495,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ilocano Tab\u00fangaw gourd hat making."
+        "text": "Ilocano Tabúngaw gourd hat making."
       }
     ],
     "correctAnswer": "A",
@@ -541,7 +541,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Tab\u00fangaw."
+        "text": "Tabúngaw."
       },
       {
         "key": "D",
@@ -549,7 +549,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "This question assesses understanding in GAMABA Awardees: Teofilo Garcia. Tab\u00fangaw (functional, weatherproof all-weather hat crafted from a polished upo gourd). represents standard aesthetic and art historical consensus."
+    "explanation": "This question assesses understanding in GAMABA Awardees: Teofilo Garcia. Tabúngaw (functional, weatherproof all-weather hat crafted from a polished upo gourd). represents standard aesthetic and art historical consensus."
   },
   {
     "id": 23,
@@ -787,7 +787,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Espa\u00f1a y Filipinas."
+        "text": "España y Filipinas."
       },
       {
         "key": "C",
@@ -804,7 +804,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 33,
     "topicRef": "Art Movements: Renaissance Harmony",
-    "question": "Leonardo da Vinci's The Last Supper (1495\u20131498) exemplifies High Renaissance art through its:",
+    "question": "Leonardo da Vinci's The Last Supper (1495–1498) exemplifies High Renaissance art through its:",
     "options": [
       {
         "key": "A",
@@ -854,7 +854,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 35,
     "topicRef": "Art Movements: Romanticism",
-    "question": "Eug\u00e8ne Delacroix's Liberty Leading the People (1830) embodies the Romantic movement by:",
+    "question": "Eugène Delacroix's Liberty Leading the People (1830) embodies the Romantic movement by:",
     "options": [
       {
         "key": "A",
@@ -979,7 +979,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 40,
     "topicRef": "Art Movements: Surrealism",
-    "question": "Salvador Dal\u00ed's The Persistence of Memory (1931), featuring melting pocket watches in a desolate dreamscape, exemplifies Surrealism's aim to:",
+    "question": "Salvador Dalí's The Persistence of Memory (1931), featuring melting pocket watches in a desolate dreamscape, exemplifies Surrealism's aim to:",
     "options": [
       {
         "key": "A",
@@ -1004,7 +1004,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 41,
     "topicRef": "Art Movements: Dadaism",
-    "question": "Marcel Duchamp's Fountain (1917)\u2014a standard porcelain urinal submitted as a sculpture\u2014revolutionized modern art by introducing:",
+    "question": "Marcel Duchamp's Fountain (1917)—a standard porcelain urinal submitted as a sculpture—revolutionized modern art by introducing:",
     "options": [
       {
         "key": "A",
@@ -1437,7 +1437,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Embroidering pi\u00f1a fibers into traditional barong tagalog."
+        "text": "Embroidering piña fibers into traditional barong tagalog."
       },
       {
         "key": "C",
@@ -1479,7 +1479,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 60,
     "topicRef": "Philippine Folk Art: Taka Papermache",
-    "question": "The craft of 'Taka'\u2014making vibrant, hand-painted paper-m\u00e2ch\u00e9 folk art figures of horses, roosters, and dolls using carved wooden molds\u2014originated in:",
+    "question": "The craft of 'Taka'—making vibrant, hand-painted paper-mâché folk art figures of horses, roosters, and dolls using carved wooden molds—originated in:",
     "options": [
       {
         "key": "A",
@@ -1820,11 +1820,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Significant Form'\u2014the harmonious combination of lines, colors, and forms, independent of subject matter or storytelling."
+        "text": "'Significant Form'—the harmonious combination of lines, colors, and forms, independent of subject matter or storytelling."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "This question assesses understanding in Aesthetic Philosophy: Formalism (Clive Bell). 'Significant Form'\u2014the harmonious combination of lines, colors, and forms, independent of subject matter or storytelling. represents standard aesthetic and art historical consensus."
+    "explanation": "This question assesses understanding in Aesthetic Philosophy: Formalism (Clive Bell). 'Significant Form'—the harmonious combination of lines, colors, and forms, independent of subject matter or storytelling. represents standard aesthetic and art historical consensus."
   },
   {
     "id": 74,

@@ -829,7 +829,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 34,
     "topicRef": "Tayutay: Pagpapalit-tawag (Metonymy)",
-    "question": "Sa pangungusap na 'Iginagalang ng buong bansa ang Malaca\u00f1ang bilang luklukan ng kapangyarihan ng Ehekutibo', anong tayutay ang nagpapalit ng katawagan batay sa malapit na kaugnayan?",
+    "question": "Sa pangungusap na 'Iginagalang ng buong bansa ang Malacañang bilang luklukan ng kapangyarihan ng Ehekutibo', anong tayutay ang nagpapalit ng katawagan batay sa malapit na kaugnayan?",
     "options": [
       {
         "key": "A",

@@ -249,7 +249,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Paralanguage encompasses non-verbal vocal qualities accompanying speech\u2014pitch, rate, tone, volume, pauses, and inflection."
+    "explanation": "Paralanguage encompasses non-verbal vocal qualities accompanying speech—pitch, rate, tone, volume, pauses, and inflection."
   },
   {
     "id": 11,
@@ -483,7 +483,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Provide a concise, high-level overview of the problem, proposed solution, budget, and strategic outcomes for busy decision-makers."
+        "text": "Provide a concise, high-level overview of the problem, proposed solution, budget."
       },
       {
         "key": "B",
@@ -741,7 +741,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Combines and analyzes multiple sources thematically to highlight patterns, agreements, contradictions, and new insights."
+        "text": "Combines and analyzes multiple sources thematically to highlight patterns, agreements, contradictions."
       },
       {
         "key": "D",
@@ -820,7 +820,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A 'High' variety for formal, academic, and official domains, and a 'Low' variety for casual daily conversations."
+        "text": "A 'High' variety for formal, academic."
       }
     ],
     "correctAnswer": "D",
@@ -924,7 +924,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "D",
-    "explanation": "This item tests core competency in Interpersonal Communication: Johari Window. Hidden Area (Fa\u00e7ade / Private Self). represents standard purposive communication analysis and linguistic theory."
+    "explanation": "This item tests core competency in Interpersonal Communication: Johari Window. Hidden Area (Façade / Private Self). represents standard purposive communication analysis and linguistic theory."
   },
   {
     "id": 38,
@@ -1154,7 +1154,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 47,
     "topicRef": "Non-Verbal Communication: Artifactics",
-    "question": "The communicative messages conveyed through personal clothing, hairstyles, tattoos, jewelry, and office d\u00e9cor are classified as:",
+    "question": "The communicative messages conveyed through personal clothing, hairstyles, tattoos, jewelry, and office décor are classified as:",
     "options": [
       {
         "key": "A",
@@ -1341,7 +1341,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The way information is presented, structured, and contextualized to emphasize certain aspects while downplaying others."
+        "text": "The way information is presented, structured."
       },
       {
         "key": "D",

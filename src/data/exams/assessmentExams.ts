@@ -262,7 +262,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Using qualitative non-numerical behavioral descriptors: Always Observed, Sometimes Observed, Rarely Observed, Not Observed."
+        "text": "Using qualitative non-numerical behavioral descriptors."
       },
       {
         "key": "C",
@@ -283,7 +283,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Content Validity and balance, ensuring test items proportionally reflect instructional time, learning competencies, and Bloom's cognitive levels."
+        "text": "Content Validity and balance."
       },
       {
         "key": "B",
@@ -462,7 +462,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Attracts more students from the Lower group than from the Upper group, and is selected by a reasonable proportion of students."
+        "text": "Attracts more students from the Lower group than from the Upper group."
       },
       {
         "key": "C",
@@ -641,7 +641,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The consistency, stability, and dependability of test scores across repeated administrations under similar conditions."
+        "text": "The consistency, stability."
       },
       {
         "key": "D",
@@ -983,7 +983,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Measures the average distance and spread of ALL individual scores around the mean, utilizing every single data value in the distribution."
+        "text": "Measures the average distance and spread of ALL individual scores around the mean."
       },
       {
         "key": "B",
@@ -1141,7 +1141,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "$T = 65$($50 + 10(1.5) = 65$)."
+        "text": "$T = 65$ = 65$)."
       },
       {
         "key": "D",
@@ -1241,7 +1241,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Because the indefinite article 'an' grammatically eliminates options A, B, and D, pointing test-wise students directly to 'C. oboe'."
+        "text": "Because the indefinite article 'an' grammatically eliminates options A, B."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Keeping premises and responses homogeneous, having more responses than premises, and keeping all items on a single page."
+        "text": "Keeping premises and responses homogeneous, having more responses than premises."
       },
       {
         "key": "C",
@@ -1283,7 +1283,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Write focused prompts with clear parameters, construct an analytical scoring rubric before administering the test, and grade all student responses to Question 1 before moving to Question 2."
+        "text": "Write focused prompts with clear parameters, construct an analytical scoring rubric before administering the test."
       },
       {
         "key": "B",
@@ -1420,7 +1420,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Timely, specific, criteria-referenced, and descriptive of actionable next steps for improvement, rather than merely assigning a letter grade."
+        "text": "Timely, specific, criteria-referenced."
       }
     ],
     "correctAnswer": "D",
@@ -1662,7 +1662,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A mathematically transformed score that accounts for differences in test form difficulty, allowing fair comparisons across different test administrations."
+        "text": "A mathematically transformed score that accounts for differences in test form difficulty."
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Train students explicitly on using clear rubrics, model constructive feedback, and establish a safe culture of mutual respect."
+        "text": "Train students explicitly on using clear rubrics, model constructive feedback."
       }
     ],
     "correctAnswer": "D",
@@ -1741,7 +1741,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Metacognitive self-regulation, self-monitoring, and reflective learning capacity."
+        "text": "Metacognitive self-regulation, self-monitoring."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Place the blank near or at the END of the sentence rather than at the beginning, and ensure there is only one unambiguous correct answer."
+        "text": "Place the blank near or at the END of the sentence rather than at the beginning."
       },
       {
         "key": "B",
@@ -1841,7 +1841,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Praises a specific correctly executed element, prompts the student with a guiding question for the next step, and steps away to allow independent problem-solving."
+        "text": "Praises a specific correctly executed element, prompts the student with a guiding question for the next step."
       },
       {
         "key": "D",

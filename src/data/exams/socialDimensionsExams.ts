@@ -41,7 +41,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Reproduce socioeconomic inequalities, maintain the dominance of the ruling elite, and reinforce capitalist class stratification through unequal schooling."
+        "text": "Reproduce socioeconomic inequalities, maintain the dominance of the ruling elite."
       },
       {
         "key": "D",
@@ -62,7 +62,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Daily social interactions, interpersonal symbols, language, teacher expectations, and labeling shape students' self-concept and academic behavior."
+        "text": "Daily social interactions, interpersonal symbols, language, teacher expectations."
       },
       {
         "key": "C",
@@ -83,7 +83,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students internalize these positive expectations, resulting in significantly higher academic achievement and enhanced self-efficacy."
+        "text": "Students internalize these positive expectations."
       },
       {
         "key": "B",
@@ -99,7 +99,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The Pygmalion Effect proves that teacher expectations act as self-fulfilling prophecies\u2014students tend to perform in alignment with the positive or negative expectations communicated by their teachers."
+    "explanation": "The Pygmalion Effect proves that teacher expectations act as self-fulfilling prophecies—students tend to perform in alignment with the positive or negative expectations communicated by their teachers."
   },
   {
     "id": 5,
@@ -141,7 +141,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The social networks, relationships of mutual trust, community reciprocity, and institutional connections that support a student's learning and opportunities."
+        "text": "The social networks, relationships of mutual trust, community reciprocity."
       },
       {
         "key": "D",
@@ -162,7 +162,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The deep-seated, enduring values, beliefs, traditions, rituals, and unwritten shared assumptions that shape institutional behavior over time."
+        "text": "The deep-seated, enduring values, beliefs, traditions, rituals."
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Directly improving classroom teaching and learning, supervising curriculum delivery, analyzing student assessment data, and fostering teacher professional development."
+        "text": "Directly improving classroom teaching and learning, supervising curriculum delivery, analyzing student assessment data."
       }
     ],
     "correctAnswer": "D",
@@ -233,7 +233,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A complete absence of any leadership, resulting in total organizational chaos."
+        "text": "A complete absence of any leadership."
       },
       {
         "key": "B",
@@ -462,7 +462,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Upholding highest professional standards, pursuing continuous personal and professional development, and honoring professional commitments."
+        "text": "Upholding highest professional standards, pursuing continuous personal and professional development."
       },
       {
         "key": "C",
@@ -583,7 +583,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exercise utmost professional discretion, avoid all favoritism or scandal, and transfer the student to another class/teacher to maintain professional objectivity."
+        "text": "Exercise utmost professional discretion, avoid all favoritism or scandal."
       },
       {
         "key": "B",
@@ -641,7 +641,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Dignity, moral integrity, self-respect, and temperance, serving as a role model of noble character in both private and public life."
+        "text": "Dignity, moral integrity, self-respect."
       },
       {
         "key": "D",
@@ -662,7 +662,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Promote gender equality, eliminate sexist stereotypes in textbooks and curricula, and ensure equal educational opportunities for all genders."
+        "text": "Promote gender equality, eliminate sexist stereotypes in textbooks and curricula."
       },
       {
         "key": "C",
@@ -683,7 +683,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using gender-fair language, encouraging both boys and girls to pursue STEM careers, and ensuring equal participation and leadership in all class activities."
+        "text": "Using gender-fair language, encouraging both boys and girls to pursue STEM careers."
       },
       {
         "key": "B",
@@ -741,7 +741,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "De-escalate interpersonal conflicts constructively through active listening, non-violent communication, empathy, and collaborative problem solving."
+        "text": "De-escalate interpersonal conflicts constructively through active listening, non-violent communication, empathy."
       },
       {
         "key": "D",
@@ -762,7 +762,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mobilizing parents, alumni, local businesses, civic groups, and LGUs to volunteer time, labor, and resources to prepare school facilities safely before classes open."
+        "text": "Mobilizing parents, alumni, local businesses, civic groups."
       },
       {
         "key": "C",
@@ -820,7 +820,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Finance school building construction/repair, instructional materials, educational research, and sports development in local public schools."
+        "text": "Finance school building construction/repair, instructional materials, educational research."
       }
     ],
     "correctAnswer": "D",
@@ -862,7 +862,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Collaboratively analyze student learning data, share effective pedagogical strategies, reflect on classroom challenges, and improve student achievement."
+        "text": "Collaboratively analyze student learning data, share effective pedagogical strategies, reflect on classroom challenges."
       },
       {
         "key": "C",
@@ -962,7 +962,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Enforce the Anti-Bullying Policy, support the targeted student, and use the opportunity to teach the entire class about cultural diversity, empathy, and mutual respect."
+        "text": "Enforce the Anti-Bullying Policy, support the targeted student."
       },
       {
         "key": "C",
@@ -1020,7 +1020,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Educational rewards, academic advancement, and opportunities are distributed strictly based on an individual's demonstrated talent, effort, and achievement."
+        "text": "Educational rewards, academic advancement."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Conduct research, teach, and publish scholarly findings without fear of political censorship, reprisal, or ideological interference."
+        "text": "Conduct research, teach."
       },
       {
         "key": "D",
@@ -1341,7 +1341,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Clear expectations, age-appropriate logical consequences, emotional coaching, problem-solving dialogue, and reinforcing positive behaviors."
+        "text": "Clear expectations, age-appropriate logical consequences, emotional coaching, problem-solving dialogue."
       },
       {
         "key": "D",
@@ -1383,7 +1383,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fail to promptly investigate, act upon, and address reported sexual harassment complaints in the institution."
+        "text": "Fail to promptly investigate, act upon."
       },
       {
         "key": "B",
@@ -1541,7 +1541,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Managing school resources ethically, grading transparently, communicating student progress honestly, and rendering public service with integrity."
+        "text": "Managing school resources ethically, grading transparently, communicating student progress honestly."
       },
       {
         "key": "D",
@@ -1562,7 +1562,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Higher group morale, stronger long-term commitment, collaborative problem solving, and sustained engagement even in the leader's absence."
+        "text": "Higher group morale, stronger long-term commitment, collaborative problem solving."
       },
       {
         "key": "C",
@@ -1620,7 +1620,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conduct earthquake/fire drills, maintain contingency plans, ensure student physical safety, and coordinate with the Barangay DRRM Council during disasters."
+        "text": "Conduct earthquake/fire drills, maintain contingency plans, ensure student physical safety."
       }
     ],
     "correctAnswer": "D",
@@ -1662,7 +1662,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Continuously upgrade competencies, stay abreast of modern educational research, and maintain professional licensure with the PRC."
+        "text": "Continuously upgrade competencies, stay abreast of modern educational research."
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Begin with the student's positive strengths, share objective assessment data clearly, listen empathetically to parents, and co-create an action plan for support."
+        "text": "Begin with the student's positive strengths, share objective assessment data clearly, listen empathetically to parents."
       }
     ],
     "correctAnswer": "D",
@@ -1762,7 +1762,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "By fostering critical consciousness, challenging oppressive status quos, promoting scientific innovation, and cultivating democratic values."
+        "text": "By fostering critical consciousness, challenging oppressive status quos, promoting scientific innovation."
       },
       {
         "key": "C",
@@ -1820,7 +1820,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Professionally discuss concerns through proper channels, seek collegial dialogue, and comply with legitimate administrative policies in good faith."
+        "text": "Professionally discuss concerns through proper channels, seek collegial dialogue."
       }
     ],
     "correctAnswer": "D",

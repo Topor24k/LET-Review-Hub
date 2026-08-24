@@ -354,7 +354,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 15,
     "topicRef": "Cooperative Learning: Essential Elements (Johnson & Johnson)",
-    "question": "According to David and Roger Johnson, which essential element of cooperative learning ensures that 'we sink or swim together'\u2014meaning each member's success depends on the success of all?",
+    "question": "According to David and Roger Johnson, which essential element of cooperative learning ensures that 'we sink or swim together'—meaning each member's success depends on the success of all?",
     "options": [
       {
         "key": "A",
@@ -529,7 +529,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 22,
     "topicRef": "Differentiated Instruction: Tiered Activities",
-    "question": "When a teacher creates three versions of an assignment on fractions\u2014basic concept reinforcement, on-level application, and advanced problem solving\u2014the teacher is using:",
+    "question": "When a teacher creates three versions of an assignment on fractions—basic concept reinforcement, on-level application, and advanced problem solving—the teacher is using:",
     "options": [
       {
         "key": "A",
@@ -641,7 +641,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Students become bored, restless, and disengaged because a teacher prolongs an activity long after mastery has been achieved."
+        "text": "Students become bored, restless."
       },
       {
         "key": "D",
@@ -662,7 +662,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Clearly establishes rules, explicitly teaches behavioral expectations, and applies consistent, predictable consequences calmly and firmly."
+        "text": "Clearly establishes rules, explicitly teaches behavioral expectations."
       },
       {
         "key": "C",
@@ -766,7 +766,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Daily Lesson Log, which is a simplified template for experienced teachers."
+        "text": "Daily Lesson Log."
       },
       {
         "key": "D",
@@ -1241,7 +1241,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Research both sides of an issue, present evidence systematically, listen to opposing arguments, and synthesize a consensus position."
+        "text": "Research both sides of an issue, present evidence systematically, listen to opposing arguments."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Teacher expectations function as self-fulfilling prophecies\u2014holding high, supportive expectations significantly boosts student academic performance."
+        "text": "Teacher expectations function as self-fulfilling prophecies—holding high, supportive expectations significantly boosts student academic performance."
       },
       {
         "key": "C",
@@ -1274,7 +1274,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "This question evaluates teaching competence in Classroom Climate: High Expectations (Pygmalion Effect). Teacher expectations function as self-fulfilling prophecies\u2014holding high, supportive expectations significantly boosts student academic performance. represents standard pedagogical best practice and DepEd/PPST policy."
+    "explanation": "This question evaluates teaching competence in Classroom Climate: High Expectations (Pygmalion Effect). Teacher expectations function as self-fulfilling prophecies—holding high, supportive expectations significantly boosts student academic performance. represents standard pedagogical best practice and DepEd/PPST policy."
   },
   {
     "id": 52,
@@ -1620,7 +1620,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Concrete Experience, Reflective Observation, Abstract Conceptualization, and Active Experimentation."
+        "text": "Concrete Experience, Reflective Observation, Abstract Conceptualization."
       }
     ],
     "correctAnswer": "D",
@@ -1683,7 +1683,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Display their group project posters on classroom walls and rotate in teams to examine, analyze, and leave constructive sticky-note feedback on peers' work."
+        "text": "Display their group project posters on classroom walls and rotate in teams to examine, analyze."
       },
       {
         "key": "B",
@@ -1720,7 +1720,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Actively listen, observe discussion dynamics, track arguments, and take notes before rotating into the inner circle."
+        "text": "Actively listen, observe discussion dynamics, track arguments."
       }
     ],
     "correctAnswer": "D",
@@ -1783,7 +1783,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Formulating their own research questions, designing the experimental procedure, and analyzing results with minimal teacher guidance."
+        "text": "Formulating their own research questions, designing the experimental procedure."
       },
       {
         "key": "B",

@@ -62,7 +62,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Learner-centered inquiry, experiential learning, hands-on problem solving, and democratic classroom processes."
+        "text": "Learner-centered inquiry, experiential learning, hands-on problem solving."
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Integrate social studies, history, economics, and sociology around real-world contemporary social problems and active student research."
+        "text": "Integrate social studies, history, economics."
       }
     ],
     "correctAnswer": "D",
@@ -520,7 +520,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The unintended, implicit, unwritten messages, social values, norms, obedience habits, and behavioral expectations absorbed from school culture and social structure."
+        "text": "The unintended, implicit, unwritten messages, social values, norms, obedience habits."
       }
     ],
     "correctAnswer": "D",
@@ -541,7 +541,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The topics, perspectives, critical histories, or knowledge domains that schools explicitly do NOT teach, thereby signaling they lack importance."
+        "text": "The topics, perspectives, critical histories, or knowledge domains that schools explicitly do NOT teach."
       },
       {
         "key": "D",
@@ -662,7 +662,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "1 year of Universal Kindergarten, 6 years of Elementary, 4 years of Junior High School, and 2 years of Senior High School."
+        "text": "1 year of Universal Kindergarten, 6 years of Elementary, 4 years of Junior High School."
       },
       {
         "key": "C",
@@ -683,7 +683,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Taught across grade levels with increasing depth, breadth, and cognitive complexity, continuously revisiting and building upon foundational schemas."
+        "text": "Taught across grade levels with increasing depth, breadth."
       },
       {
         "key": "B",
@@ -720,7 +720,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Children learn to read, write, and comprehend cognitive concepts faster and build stronger literacy when initial instruction is in their native Mother Tongue."
+        "text": "Children learn to read, write."
       }
     ],
     "correctAnswer": "D",
@@ -862,7 +862,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Involving teachers in planning, providing continuous professional training and coaching, and ensuring adequate instructional resources."
+        "text": "Involving teachers in planning, providing continuous professional training and coaching."
       },
       {
         "key": "C",
@@ -941,7 +941,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The available human resources, budget, alternative strategies, facilities, and action plans to determine how best to achieve goals."
+        "text": "The available human resources, budget, alternative strategies, facilities."
       },
       {
         "key": "D",
@@ -962,7 +962,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Monitor the ongoing execution of curriculum activities, identify operational bottlenecks, and provide formative feedback for refinement."
+        "text": "Monitor the ongoing execution of curriculum activities, identify operational bottlenecks."
       },
       {
         "key": "C",
@@ -983,7 +983,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The actual outcomes, achievements, intended/unintended impacts, and long-term effectiveness of the curriculum against its objectives."
+        "text": "The actual outcomes, achievements, intended/unintended impacts."
       },
       {
         "key": "B",
@@ -1041,7 +1041,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Discover and assess ALL actual outcomes, including unintended side-effects and serendipitous impacts, without preconceived bias."
+        "text": "Discover and assess ALL actual outcomes."
       },
       {
         "key": "D",
@@ -1062,7 +1062,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Each successive learning experience builds upon preceding ones, taking concepts to progressively higher levels of depth and complexity."
+        "text": "Each successive learning experience builds upon preceding ones."
       },
       {
         "key": "C",
@@ -1120,7 +1120,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Curriculum standards, instructional materials, daily lessons, and classroom assessments within the SAME grade level are mutually congruent."
+        "text": "Curriculum standards, instructional materials, daily lessons."
       }
     ],
     "correctAnswer": "D",
@@ -1141,7 +1141,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Localization relates learning content to local information/materials, while Indigenization enhances the curriculum based on the indigenous community's cultural worldview and life systems."
+        "text": "Localization relates learning content to local information/materials."
       },
       {
         "key": "D",
@@ -1220,7 +1220,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Create visual temporal roadmaps of taught content, competencies, skills, and assessments to identify curriculum gaps, redundancies, and misalignments."
+        "text": "Create visual temporal roadmaps of taught content, competencies, skills."
       }
     ],
     "correctAnswer": "D",
@@ -1262,7 +1262,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Teachers and administrators actively adapt, adjust, and reshape the curriculum innovation to fit their unique local classroom realities and learner needs."
+        "text": "Teachers and administrators actively adapt, adjust."
       },
       {
         "key": "C",
@@ -1383,7 +1383,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The chronological order, logical progression, and pacing in which learning experiences are delivered across time."
+        "text": "The chronological order, logical progression."
       },
       {
         "key": "B",
@@ -1620,7 +1620,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Content accuracy, alignment with curriculum standards, absence of bias, developmental appropriateness, and quality of pedagogical activities."
+        "text": "Content accuracy, alignment with curriculum standards, absence of bias, developmental appropriateness."
       }
     ],
     "correctAnswer": "D",
@@ -1662,7 +1662,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Combines knowledge, concepts, and inquiry methods from two or more disciplines to explore a central theme or real-world problem."
+        "text": "Combines knowledge, concepts."
       },
       {
         "key": "C",
@@ -1741,7 +1741,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Enrich learning experiences, teach civic responsibility, and strengthen local communities through structured reflective practice."
+        "text": "Enrich learning experiences, teach civic responsibility."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A specific statement of knowledge, skills, and attitudes that a learner is expected to demonstrate in every lesson/grading period."
+        "text": "A specific statement of knowledge, skills."
       },
       {
         "key": "B",

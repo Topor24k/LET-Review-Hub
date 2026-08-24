@@ -20,7 +20,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A multimodal, dynamic set of cognitive, digital, socio-cultural, and ethical competencies needed to thrive in a complex, interconnected world."
+        "text": "A multimodal, dynamic set of cognitive, digital, socio-cultural."
       }
     ],
     "correctAnswer": "D",
@@ -183,7 +183,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Ponzi / Pyramid Scheme, which relies on funds from newer investors to pay fictitious returns to older investors before inevitable collapse."
+        "text": "A Ponzi / Pyramid Scheme."
       },
       {
         "key": "B",
@@ -283,7 +283,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It provides an extra layer of defense by requiring both a password AND a secondary verification method, preventing unauthorized access."
+        "text": "It provides an extra layer of defense by requiring both a password AND a secondary verification method."
       },
       {
         "key": "B",
@@ -320,11 +320,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'All media messages are constructed'\u2014they are carefully crafted by creators using specific codes, conventions, and commercial motives."
+        "text": "'All media messages are constructed'—they are carefully crafted by creators using specific codes, conventions, and commercial motives."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "This item evaluates competence in Media Literacy: Core Concepts (Center for Media Literacy - CML). 'All media messages are constructed'\u2014they are carefully crafted by creators using specific codes, conventions, and commercial motives. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
+    "explanation": "This item evaluates competence in Media Literacy: Core Concepts (Center for Media Literacy - CML). 'All media messages are constructed'—they are carefully crafted by creators using specific codes, conventions, and commercial motives. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 14,
@@ -341,7 +341,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Who created the message, what creative techniques were used to capture attention, what values/lifestyles are represented, and what is omitted."
+        "text": "Who created the message, what creative techniques were used to capture attention, what values/lifestyles are represented."
       },
       {
         "key": "D",
@@ -483,7 +483,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Understand the human drivers of climate change, evaluate climate risks, and take collective, evidence-based mitigation and adaptation actions in their communities."
+        "text": "Understand the human drivers of climate change, evaluate climate risks."
       },
       {
         "key": "B",
@@ -562,7 +562,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Modify their teaching styles and instructional methods to facilitate the academic achievement of students from diverse racial, cultural, gender, and social-class groups."
+        "text": "Modify their teaching styles and instructional methods to facilitate the academic achievement of students from diverse racial, cultural, gender."
       },
       {
         "key": "C",
@@ -583,7 +583,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Examine local and global issues, understand multiple worldviews, engage in respectful intercultural interactions, and take action for collective well-being."
+        "text": "Examine local and global issues, understand multiple worldviews, engage in respectful intercultural interactions."
       },
       {
         "key": "B",
@@ -620,7 +620,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills, and Responsible Decision-Making."
+        "text": "Self-Awareness, Self-Management, Social Awareness, Relationship Skills."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Engage in all those activities in which literacy is required for effective functioning in one's group, workplace, and community, and for continuing personal development."
+        "text": "Engage in all those activities in which literacy is required for effective functioning in one's group, workplace."
       },
       {
         "key": "D",
@@ -762,7 +762,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Reading the world'\u2014critically analyzing underlying power dynamics, systemic inequalities, ideologies, and biases embedded in texts, and taking action for social justice."
+        "text": "'Reading the world'—critically analyzing underlying power dynamics, systemic inequalities, ideologies."
       },
       {
         "key": "C",
@@ -774,7 +774,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "This item evaluates competence in Critical Literacy: Paulo Freire's 'Reading the Word and the World'. 'Reading the world'\u2014critically analyzing underlying power dynamics, systemic inequalities, ideologies, and biases embedded in texts, and taking action for social justice. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
+    "explanation": "This item evaluates competence in Critical Literacy: Paulo Freire's 'Reading the Word and the World'. 'Reading the world'—critically analyzing underlying power dynamics, systemic inequalities, ideologies, and biases embedded in texts, and taking action for social justice. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 32,
@@ -783,7 +783,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing, and what is the underlying ideology?'."
+        "text": "'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing."
       },
       {
         "key": "B",
@@ -841,7 +841,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Clickbait\u2014sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content."
+        "text": "Clickbait—sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content."
       },
       {
         "key": "D",
@@ -849,7 +849,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "This item evaluates competence in Media Literacy: Clickbait & Sensation Detection. Clickbait\u2014sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
+    "explanation": "This item evaluates competence in Media Literacy: Clickbait & Sensation Detection. Clickbait—sensationalized, hyperbolic phrasing designed to exploit emotional curiosity and generate advertising pageviews, often with low-substance content. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 35,
@@ -983,7 +983,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Explicitly sustain and foster linguistic, cultural, and artistic practices of communities of color and indigenous peoples, rather than merely using culture as a bridge to assimilate."
+        "text": "Explicitly sustain and foster linguistic, cultural."
       },
       {
         "key": "B",
@@ -1020,7 +1020,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Providing a safe, structured, egalitarian space where every student has a voice to build community, share feelings, resolve conflicts, and repair relational harm."
+        "text": "Providing a safe, structured, egalitarian space where every student has a voice to build community, share feelings, resolve conflicts."
       }
     ],
     "correctAnswer": "D",
@@ -1083,7 +1083,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Foster creative divergent problem-solving, aesthetic human-centered design, and innovation in scientific and technological applications."
+        "text": "Foster creative divergent problem-solving, aesthetic human-centered design."
       },
       {
         "key": "B",
@@ -1183,7 +1183,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Circular Economy designs out waste and pollution, keeps products and materials in high-value use through repair/recycling, and regenerates natural systems."
+        "text": "A Circular Economy designs out waste and pollution, keeps products and materials in high-value use through repair/recycling."
       },
       {
         "key": "B",
@@ -1220,7 +1220,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Possess sophisticated, time-tested ecological knowledge, sustainable resource management practices, and deep cultural reverence for ecosystems."
+        "text": "Possess sophisticated, time-tested ecological knowledge, sustainable resource management practices."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Transfer the financial risk of catastrophic, unpredictable loss to an insurance company in exchange for regular premium payments, protecting family financial security."
+        "text": "Transfer the financial risk of catastrophic, unpredictable loss to an insurance company in exchange for regular premium payments."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Diversification\u2014spreading investments across diverse asset classes to minimize overall portfolio risk."
+        "text": "Diversification—spreading investments across diverse asset classes to minimize overall portfolio risk."
       },
       {
         "key": "C",
@@ -1274,7 +1274,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "This item evaluates competence in Financial Literacy: Investment Diversification (Asset Allocation). Diversification\u2014spreading investments across diverse asset classes (stocks, bonds, real estate, cash) to minimize overall portfolio risk. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
+    "explanation": "This item evaluates competence in Financial Literacy: Investment Diversification (Asset Allocation). Diversification—spreading investments across diverse asset classes (stocks, bonds, real estate, cash) to minimize overall portfolio risk. represents established 21st-century literacies theory, digital citizenship standards, and evidence-based educational practice."
   },
   {
     "id": 52,
@@ -1283,7 +1283,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Social security protections including retirement pensions, disability compensation, life insurance, and universal health coverage subsidies."
+        "text": "Social security protections including retirement pensions, disability compensation, life insurance."
       },
       {
         "key": "B",
@@ -1308,7 +1308,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Completely abandoning and erasing one's native cultural heritage, language, and customs to blend indistinguishably into the dominant culture."
+        "text": "Completely abandoning and erasing one's native cultural heritage, language."
       },
       {
         "key": "B",
@@ -1420,7 +1420,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Awaken the human imagination to perceive the world 'as if it could be otherwise', fostering empathy, social critique, and transformation."
+        "text": "Awaken the human imagination to perceive the world 'as if it could be otherwise'."
       }
     ],
     "correctAnswer": "D",
@@ -1620,7 +1620,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Language is the living vessel of culture, identity, and cognitive heritage; respecting it validates the child's humanity and boosts academic success."
+        "text": "Language is the living vessel of culture, identity."
       }
     ],
     "correctAnswer": "D",
@@ -1641,7 +1641,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Listen attentively to both perspectives without interrupting, validate feelings, communicate clearly, and seek a collaborative win-win compromise."
+        "text": "Listen attentively to both perspectives without interrupting, validate feelings, communicate clearly."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because it ensures Internet Service Providers must treat all data equally, preventing wealthy corporations from monopolizing high-speed digital access over public educational content."
+        "text": "Because it ensures Internet Service Providers must treat all data equally."
       },
       {
         "key": "B",
@@ -1820,7 +1820,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Banning single-use plastics, institutionalizing waste segregation, establishing organic composting, and maintaining drinking water refill stations."
+        "text": "Banning single-use plastics, institutionalizing waste segregation, establishing organic composting."
       }
     ],
     "correctAnswer": "D",

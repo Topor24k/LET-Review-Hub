@@ -183,7 +183,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An essential cognitive self-regulatory tool used to guide their own thinking, planning, and behavior before becoming internalized inner speech."
+        "text": "An essential cognitive self-regulatory tool used to guide their own thinking, planning."
       },
       {
         "key": "B",
@@ -341,7 +341,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The capacity to form deep, loving, mutually committed, and authentic interpersonal relationships."
+        "text": "The capacity to form deep, loving, mutually committed."
       },
       {
         "key": "D",
@@ -520,7 +520,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An 'Ethic of Care' emphasizing interpersonal relationships, empathy, compassion, and preventing harm, rather than abstract justice/rights alone."
+        "text": "An 'Ethic of Care' emphasizing interpersonal relationships, empathy, compassion."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Deep self-awareness of one's own inner emotions, metacognitive strengths, values, and personal goals."
+        "text": "Deep self-awareness of one's own inner emotions, metacognitive strengths, values."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Personally experienced autobiographical events, memories, and life episodes tied to specific times and places."
+        "text": "Personally experienced autobiographical events, memories."
       },
       {
         "key": "B",
@@ -1062,7 +1062,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Intelligence and ability can be developed and strengthened through dedication, effective strategies, effort, and learning from mistakes."
+        "text": "Intelligence and ability can be developed and strengthened through dedication, effective strategies, effort."
       },
       {
         "key": "C",
@@ -1083,7 +1083,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Observational learning within a social context, involving Attention, Retention, Reproduction, and Motivation."
+        "text": "Observational learning within a social context, involving Attention, Retention, Reproduction."
       },
       {
         "key": "B",
@@ -1283,7 +1283,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Operant conditioning, environmental reinforcement, imitation, and shaping of vocal sounds."
+        "text": "Operant conditioning, environmental reinforcement, imitation."
       },
       {
         "key": "B",
@@ -1362,7 +1362,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Explores the room freely in the parent's presence, shows distress when the parent leaves, and is quickly comforted and joyfully re-engages upon the parent's return."
+        "text": "Explores the room freely in the parent's presence, shows distress when the parent leaves."
       },
       {
         "key": "C",
@@ -1541,7 +1541,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Behaviors followed by satisfying, positive consequences tend to be repeated, while behaviors followed by discomfort or unpleasant consequences are weakened."
+        "text": "Behaviors followed by satisfying, positive consequences tend to be repeated."
       },
       {
         "key": "D",
@@ -1641,7 +1641,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Recognizing our own feelings and those of others, motivating ourselves, and managing emotions well in ourselves and our relationships."
+        "text": "Recognizing our own feelings and those of others, motivating ourselves."
       },
       {
         "key": "D",

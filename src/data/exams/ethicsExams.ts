@@ -183,7 +183,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rashness, which is a vice rather than true courage."
+        "text": "Rashness."
       },
       {
         "key": "B",
@@ -249,7 +249,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Moral virtues are acquired by habituation\u2014doing virtuous acts repeatedly until they become stable character traits."
+    "explanation": "Moral virtues are acquired by habituation—doing virtuous acts repeatedly until they become stable character traits."
   },
   {
     "id": 11,
@@ -320,7 +320,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A Good Will, which acts purely out of duty and respect for moral law."
+        "text": "A Good Will."
       }
     ],
     "correctAnswer": "D",
@@ -583,15 +583,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The principle of Autonomy, which protects a patient's right to self-determination in medical care."
+        "text": "The principle of Autonomy."
       },
       {
         "key": "B",
-        "text": "The principle of Medical Paternalism, which allows doctors to override patient choices."
+        "text": "The principle of Medical Paternalism."
       },
       {
         "key": "C",
-        "text": "The principle of Coercion, which forces treatments for institutional efficiency."
+        "text": "The principle of Coercion."
       },
       {
         "key": "D",
@@ -658,19 +658,19 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deep Ecology, which advocates ecological egalitarianism."
+        "text": "Deep Ecology."
       },
       {
         "key": "B",
-        "text": "Anthropocentrism, which views non-human nature strictly as an instrumental resource for human use."
+        "text": "Anthropocentrism."
       },
       {
         "key": "C",
-        "text": "Biocentrism, which attributes intrinsic value to all living organisms."
+        "text": "Biocentrism."
       },
       {
         "key": "D",
-        "text": "Ecocentrism, which values the integrity of entire ecological systems."
+        "text": "Ecocentrism."
       }
     ],
     "correctAnswer": "B",
@@ -820,7 +820,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Article VIII, Section 5, which prohibits accepting remuneration for tutorials for one's own students."
+        "text": "Article VIII, Section 5."
       }
     ],
     "correctAnswer": "D",
@@ -1283,7 +1283,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Seek Truth and Report It\u2014ensuring accuracy, thorough verification, and avoiding misleading framing."
+        "text": "Seek Truth and Report It—ensuring accuracy, thorough verification, and avoiding misleading framing."
       },
       {
         "key": "B",
@@ -1299,7 +1299,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "A",
-    "explanation": "This item assesses competence in Ethics of Journalism: Truthfulness & Verification. Seek Truth and Report It\u2014ensuring accuracy, thorough verification, and avoiding misleading framing. represents standard ethical analysis and philosophical consensus."
+    "explanation": "This item assesses competence in Ethics of Journalism: Truthfulness & Verification. Seek Truth and Report It—ensuring accuracy, thorough verification, and avoiding misleading framing. represents standard ethical analysis and philosophical consensus."
   },
   {
     "id": 53,
@@ -1470,7 +1470,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Standardized uniformity, which ignores individual differences."
+        "text": "Standardized uniformity."
       }
     ],
     "correctAnswer": "B",
@@ -1562,7 +1562,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "They possess sentience\u2014the capacity to experience pain and pleasure."
+        "text": "They possess sentience—the capacity to experience pain and pleasure."
       },
       {
         "key": "C",
@@ -1574,7 +1574,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       }
     ],
     "correctAnswer": "B",
-    "explanation": "This item assesses competence in Ethics of Animal Welfare: Peter Singer's Utilitarianism. They possess sentience\u2014the capacity to experience pain and pleasure. represents standard ethical analysis and philosophical consensus."
+    "explanation": "This item assesses competence in Ethics of Animal Welfare: Peter Singer's Utilitarianism. They possess sentience—the capacity to experience pain and pleasure. represents standard ethical analysis and philosophical consensus."
   },
   {
     "id": 64,

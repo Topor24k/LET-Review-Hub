@@ -62,7 +62,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes, creating welcoming communities, and achieving education for all."
+        "text": "Regular schools with an inclusive orientation are the most effective means of combating discriminatory attitudes, creating welcoming communities."
       },
       {
         "key": "C",
@@ -120,7 +120,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Inclusion reshapes and adapts the general classroom environment, curriculum, and pedagogy to welcome all learners, whereas Mainstreaming expects the child to adapt to the unchanged regular classroom."
+        "text": "Inclusion reshapes and adapts the general classroom environment, curriculum."
       }
     ],
     "correctAnswer": "D",
@@ -220,7 +220,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Predominantly Inattentive, Predominantly Hyperactive-Impulsive, and Combined Presentation."
+        "text": "Predominantly Inattentive, Predominantly Hyperactive-Impulsive."
       }
     ],
     "correctAnswer": "D",
@@ -241,7 +241,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Seating the student near the front away from high-distraction doors/windows, breaking assignments into short 'chunked' steps, and providing discreet movement breaks."
+        "text": "Seating the student near the front away from high-distraction doors/windows, breaking assignments into short 'chunked' steps."
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They provide predictable visual structure, ease transition anxiety, and explicitly explain social expectations and cues in concrete, understandable terms."
+        "text": "They provide predictable visual structure, ease transition anxiety."
       },
       {
         "key": "B",
@@ -341,7 +341,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Braille textbooks, tactile 3D relief models, raised-line diagrams, screen-reading software with audio descriptions, and clear verbal descriptions of visual displays."
+        "text": "Braille textbooks, tactile 3D relief models, raised-line diagrams, screen-reading software with audio descriptions."
       },
       {
         "key": "D",
@@ -441,7 +441,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Set individualized measurable annual goals, specify accommodations/modifications, and outline specialized related services for a child with special needs."
+        "text": "Set individualized measurable annual goals, specify accommodations/modifications."
       },
       {
         "key": "D",
@@ -462,7 +462,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Special Education teacher, Regular Education teacher, School Head/Administrator, Parents/Guardians, Related Service Specialists, and the Student."
+        "text": "The Special Education teacher, Regular Education teacher, School Head/Administrator, Parents/Guardians, Related Service Specialists."
       },
       {
         "key": "C",
@@ -741,7 +741,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Providing an expressive communication medium to express needs, thoughts, and ideas without relying on oral speech."
+        "text": "Providing an expressive communication medium to express needs, thoughts."
       },
       {
         "key": "D",
@@ -783,7 +783,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adaptive pencil grips, weighted keyboards, slant boards, speech-to-text dictation software, and barrier-free physical classroom accessibility."
+        "text": "Adaptive pencil grips, weighted keyboards, slant boards, speech-to-text dictation software."
       },
       {
         "key": "B",
@@ -820,7 +820,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Persistent verbal/physical aggression, defiance, tantrums, and disruptive acting-out that significantly interfere with learning."
+        "text": "Persistent verbal/physical aggression, defiance, tantrums."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Identify the underlying function, environmental triggers, and maintaining consequences of a challenging behavior to design positive interventions."
+        "text": "Identify the underlying function, environmental triggers."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Impairment in comprehending and/or formulating linguistic grammar, vocabulary, semantics, and pragmatics."
+        "text": "Impairment in comprehending and/or formulating linguistic grammar, vocabulary, semantics."
       },
       {
         "key": "B",
@@ -962,7 +962,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strengths in visual learning, strong social-emotional empathy, and benefits from concrete, hands-on, visual instructional scaffolds."
+        "text": "Strengths in visual learning, strong social-emotional empathy."
       },
       {
         "key": "C",
@@ -983,7 +983,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cognitive fatigue, memory lapses, slowed processing speed, and emotional lability, requiring reduced cognitive load and extended time."
+        "text": "Cognitive fatigue, memory lapses, slowed processing speed."
       },
       {
         "key": "B",
@@ -1041,7 +1041,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Face the class directly when speaking, minimize background classroom ambient noise, repeat peer comments, and use FM assistive systems."
+        "text": "Face the class directly when speaking, minimize background classroom ambient noise, repeat peer comments."
       },
       {
         "key": "D",
@@ -1062,7 +1062,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Content is divided into stations; the General Ed teacher leads one, the Special Ed teacher leads another, and students rotate through all stations."
+        "text": "Content is divided into stations; the General Ed teacher leads one, the Special Ed teacher leads another."
       },
       {
         "key": "C",
@@ -1141,7 +1141,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Share instructional delivery fluidly, co-leading whole-class discussions, modeling collaborative dialogue, and seamlessly supporting all learners."
+        "text": "Share instructional delivery fluidly, co-leading whole-class discussions, modeling collaborative dialogue."
       },
       {
         "key": "D",
@@ -1183,7 +1183,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Post-secondary education/vocational training, integrated competitive employment, independent living skills, and community participation."
+        "text": "Post-secondary education/vocational training, integrated competitive employment, independent living skills."
       },
       {
         "key": "B",
@@ -1283,7 +1283,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ramps with gentle slopes, accessible handrails, wide doorways, tactile paving, accessible restrooms, and clear visual/auditory emergency signals."
+        "text": "Ramps with gentle slopes, accessible handrails, wide doorways, tactile paving, accessible restrooms."
       },
       {
         "key": "B",
@@ -1341,7 +1341,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Systemic discrimination, prejudice, and societal stereotyping against individuals with disabilities, assuming non-disabled standards are superior and normal."
+        "text": "Systemic discrimination, prejudice."
       },
       {
         "key": "D",
@@ -1354,7 +1354,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 55,
     "topicRef": "Person-First Language vs Identity-First Language",
-    "question": "While traditional professional practice emphasizes 'Person-First Language' (e.g., 'a student with autism'\u2014centering the person before the diagnosis), some neurodiversity advocates prefer 'Identity-First Language' (e.g., 'an autistic person') to:",
+    "question": "While traditional professional practice emphasizes 'Person-First Language' (e.g., 'a student with autism'—centering the person before the diagnosis), some neurodiversity advocates prefer 'Identity-First Language' (e.g., 'an autistic person') to:",
     "options": [
       {
         "key": "A",
@@ -1362,7 +1362,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Affirm disability as an integral, positive, and empowering aspect of personal identity and neurodivergence."
+        "text": "Affirm disability as an integral, positive."
       },
       {
         "key": "C",
@@ -1383,7 +1383,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To provide empirical evidence on whether the student is meeting specific annual goals, allowing timely adjustments to instructional strategies if progress stalls."
+        "text": "To provide empirical evidence on whether the student is meeting specific annual goals."
       },
       {
         "key": "B",
@@ -1441,7 +1441,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Mutual respect, transparent communication, shared decision-making, and recognizing parents as the primary experts on their child's daily life and history."
+        "text": "Mutual respect, transparent communication, shared decision-making."
       },
       {
         "key": "D",
@@ -1462,7 +1462,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'What happened to you, and how can we create a safe, supportive space for you to heal and learn?'."
+        "text": "'What happened to you."
       },
       {
         "key": "C",
@@ -1483,7 +1483,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Has an inherent, inalienable right to quality education, social belonging, human dignity, and the opportunity to reach their full potential alongside peers."
+        "text": "Has an inherent, inalienable right to quality education, social belonging, human dignity."
       },
       {
         "key": "B",
@@ -1541,7 +1541,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Know where they are in space and move safely, efficiently, and independently through their environment using white canes and sensory cues."
+        "text": "Know where they are in space and move safely, efficiently."
       },
       {
         "key": "D",
@@ -1583,7 +1583,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Keep calm, ease the student to the floor, clear sharp objects, place something soft under the head, turn the student gently onto one side, and NEVER insert anything into the mouth."
+        "text": "Keep calm, ease the student to the floor, clear sharp objects, place something soft under the head, turn the student gently onto one side."
       },
       {
         "key": "B",
@@ -1662,7 +1662,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Because neural neuroplasticity is at its lifetime peak during early childhood, significantly improving long-term developmental, cognitive, and communicative outcomes."
+        "text": "Because neural neuroplasticity is at its lifetime peak during early childhood, significantly improving long-term developmental, cognitive."
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Fine-motor skills, sensory processing regulation, visual-motor integration, and activities of daily living."
+        "text": "Fine-motor skills, sensory processing regulation, visual-motor integration."
       }
     ],
     "correctAnswer": "D",
@@ -1741,7 +1741,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Gross-motor function, posture, gait, physical mobility, range of motion, and safe physical navigation across campus facilities."
+        "text": "Gross-motor function, posture, gait, physical mobility, range of motion."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Provides visual spatial scaffolding to brainstorm, structure, organize, and outline complex ideas before writing."
+        "text": "Provides visual spatial scaffolding to brainstorm, structure, organize."
       },
       {
         "key": "B",
@@ -1841,7 +1841,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "By openly discussing neurodiversity as natural human variation, modeling unconditional positive regard, and celebrating diverse strengths and contributions."
+        "text": "By openly discussing neurodiversity as natural human variation, modeling unconditional positive regard."
       },
       {
         "key": "D",
@@ -1862,7 +1862,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Creating a welcoming school culture, providing resources/professional development for teachers, ensuring barrier-free infrastructure, and upholding zero-reject policies."
+        "text": "Creating a welcoming school culture."
       },
       {
         "key": "C",

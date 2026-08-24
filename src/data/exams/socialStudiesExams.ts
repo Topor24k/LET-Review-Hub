@@ -141,7 +141,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "World Trade Organization, which possesses legally binding dispute settlement mechanisms for international trade."
+        "text": "World Trade Organization."
       },
       {
         "key": "D",
@@ -320,7 +320,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Strict adherence to non-interference in internal affairs, consensus-based decision making, and informal consultation over legalistic confrontation."
+        "text": "Strict adherence to non-interference in internal affairs, consensus-based decision making."
       }
     ],
     "correctAnswer": "D",
@@ -383,7 +383,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Differences in wealth, industrial development, human development indices, and historical colonial power relations, rather than strict geography."
+        "text": "Differences in wealth, industrial development, human development indices."
       },
       {
         "key": "B",
@@ -404,7 +404,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 17,
     "topicRef": "Global North vs Global South: Dependency Theory",
-    "question": "Dependency Theory (developed by Ra\u00fal Prebisch and Fernando Henrique Cardoso) argues that the economic underdevelopment of the Global South is caused by:",
+    "question": "Dependency Theory (developed by Raúl Prebisch and Fernando Henrique Cardoso) argues that the economic underdevelopment of the Global South is caused by:",
     "options": [
       {
         "key": "A",
@@ -541,7 +541,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Providing global communication networks that enable transnational religious movements, identity mobilization, and interfaith dialogue."
+        "text": "Providing global communication networks that enable transnational religious movements, identity mobilization."
       },
       {
         "key": "D",
@@ -904,7 +904,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 37,
     "topicRef": "Global Finance: Global Value Chains (GVCs)",
-    "question": "In modern globalized manufacturing, a 'Global Value Chain' (GVC)\u2014such as for the Apple iPhone or Toyota automobile\u2014means that:",
+    "question": "In modern globalized manufacturing, a 'Global Value Chain' (GVC)—such as for the Apple iPhone or Toyota automobile—means that:",
     "options": [
       {
         "key": "A",
@@ -941,7 +941,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Holding governments and TNCs accountable, advocating for human rights, delivering humanitarian aid, and framing international policy norms."
+        "text": "Holding governments and TNCs accountable, advocating for human rights, delivering humanitarian aid."
       },
       {
         "key": "D",
@@ -1220,7 +1220,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "China's historic claim to maritime areas within the 'nine-dash line' has no legal basis under UNCLOS, and that Mischief Reef and Scarborough Shoal are within the Philippine EEZ/regime."
+        "text": "China's historic claim to maritime areas within the 'nine-dash line' has no legal basis under UNCLOS."
       }
     ],
     "correctAnswer": "D",
@@ -1362,7 +1362,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Human industrial and technological activity has become the dominant driver of global environmental, climate, and planetary geological change."
+        "text": "Human industrial and technological activity has become the dominant driver of global environmental, climate."
       },
       {
         "key": "C",
@@ -1420,7 +1420,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Guaranteeing fair minimum prices, safe working conditions, environmental standards, and community development premiums for marginalized Southern farmers."
+        "text": "Guaranteeing fair minimum prices, safe working conditions, environmental standards."
       }
     ],
     "correctAnswer": "D",
@@ -1683,7 +1683,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Engagement-based algorithms designed to maximize platform watch-time and ad revenue by promoting sensational, polarizing, and outrage-inducing content."
+        "text": "Engagement-based algorithms designed to maximize platform watch-time and ad revenue by promoting sensational, polarizing."
       },
       {
         "key": "B",
@@ -1829,7 +1829,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 74,
     "topicRef": "Global Economy: Sovereign Wealth Funds",
-    "question": "A 'Sovereign Wealth Fund' (SWF)\u2014such as Norway's Government Pension Fund Global or the Philippines' Maharlika Investment Fund\u2014is:",
+    "question": "A 'Sovereign Wealth Fund' (SWF)—such as Norway's Government Pension Fund Global or the Philippines' Maharlika Investment Fund—is:",
     "options": [
       {
         "key": "A",
@@ -1862,7 +1862,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Understand their interconnectedness with the wider world, respect diversity, champion human rights, and take responsible action for global sustainability."
+        "text": "Understand their interconnectedness with the wider world, respect diversity, champion human rights."
       },
       {
         "key": "C",
