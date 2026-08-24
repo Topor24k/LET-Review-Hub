@@ -20,7 +20,8 @@ export const HighlightToolbar: React.FC<HighlightToolbarProps> = ({
   highlightCount,
   onOpenDigest,
 }) => {
-  const currentColorConfig: HighlightColorConfig = HIGHLIGHT_COLORS[activeColor];
+  const currentColorKey: HighlightColor = activeColor;
+  const currentColorConfig: HighlightColorConfig = HIGHLIGHT_COLORS[currentColorKey] || HIGHLIGHT_COLORS.yellow;
 
   return (
     <>

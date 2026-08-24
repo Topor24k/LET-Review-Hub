@@ -155,8 +155,9 @@ export const HighlightsDigestModal: React.FC<HighlightsDigestModalProps> = ({
               </div>
             </div>
           ) : (
-            filteredHighlights.map((h) => {
-              const colorConfig = HIGHLIGHT_COLORS[h.color];
+            filteredHighlights.map((h: HighlightItem) => {
+              const colorKey: HighlightColor = h.color;
+              const colorConfig = HIGHLIGHT_COLORS[colorKey] || HIGHLIGHT_COLORS.yellow;
               const isEditingThis = editingNoteId === h.id;
               const accentColor = colorConfig.hex === '#fef08a' ? '#eab308' : colorConfig.hex === '#bbf7d0' ? '#10b981' : colorConfig.hex === '#fbcfe8' ? '#f43f5e' : '#0ea5e9';
 
