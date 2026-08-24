@@ -38,19 +38,19 @@ export const Header: React.FC<HeaderProps> = ({
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   
-  // Device-specific check: checks only THIS current phone/laptop
-  const [isDeviceInstalled, setIsDeviceInstalled] = useState<boolean>(() => {
+  // Real-time check: True ONLY when currently running inside the installed standalone app window
+  const [isStandaloneApp, setIsStandaloneApp] = useState<boolean>(() => {
+    if (typeof window === 'undefined') return false;
     try {
-      if (typeof window === 'undefined') return false;
-      const isStandalone =
-        window.matchMedia('(display-mode: standalone)').matches ||
-        (window.navigator as any).standalone === true ||
-        document.referrer.includes('android-app://');
-      const localDeviceFlag = localStorage.getItem('let_pwa_installed_device') === 'true';
-      return isStandalone || localDeviceFlag;
-    } catch {
-      return false;
-    }
+      // Purge any stuck legacy localStorage keys immediately
+      localStorage.removeItem('let_pwa_installed_device');
+      localStorage.removeItem('let_pwa_installed');
+    } catch {}
+    return Boolean(
+      window.matchMedia('(display-mode: standalone)').matches ||
+      (window.navigator as any).standalone === true ||
+      document.referrer.includes('android-app://')
+    );
   });
 
   useEffect(() => {
@@ -58,41 +58,45 @@ export const Header: React.FC<HeaderProps> = ({
   }, []);
 
   useEffect(() => {
+    // Purge any legacy keys
+    try {
+      localStorage.removeItem('let_pwa_installed_device');
+      localStorage.removeItem('let_pwa_installed');
+    } catch {}
+
+    const mediaQuery = window.matchMedia('(display-mode: standalone)');
+    const handleDisplayModeChange = (e: MediaQueryListEvent) => {
+      setIsStandaloneApp(e.matches);
+    };
+
+    if (mediaQuery.addEventListener) {
+      mediaQuery.addEventListener('change', handleDisplayModeChange);
+    }
+
     const handler = (e: any) => {
       e.preventDefault();
       setDeferredPrompt(e);
     };
     window.addEventListener('beforeinstallprompt', handler);
-    return () => window.removeEventListener('beforeinstallprompt', handler);
-  }, []);
 
-  useEffect(() => {
-    const handleAppInstalled = () => {
-      setIsDeviceInstalled(true);
-      try {
-        localStorage.setItem('let_pwa_installed_device', 'true');
-      } catch (e) {
-        console.error(e);
+    return () => {
+      if (mediaQuery.removeEventListener) {
+        mediaQuery.removeEventListener('change', handleDisplayModeChange);
       }
-      setDeferredPrompt(null);
+      window.removeEventListener('beforeinstallprompt', handler);
     };
-
-    window.addEventListener('appinstalled', handleAppInstalled);
-    return () => window.removeEventListener('appinstalled', handleAppInstalled);
   }, []);
 
   const handleInstallClick = async () => {
     if (deferredPrompt) {
-      deferredPrompt.prompt();
-      const { outcome } = await deferredPrompt.userChoice;
-      if (outcome === 'accepted') {
-        setIsDeviceInstalled(true);
-        try {
-          localStorage.setItem('let_pwa_installed_device', 'true');
-        } catch (e) {
-          console.error(e);
+      try {
+        deferredPrompt.prompt();
+        const { outcome } = await deferredPrompt.userChoice;
+        if (outcome === 'accepted') {
+          setDeferredPrompt(null);
         }
-        setDeferredPrompt(null);
+      } catch {
+        setIsInstallModalOpen(true);
       }
     } else {
       setIsInstallModalOpen(true);
@@ -128,7 +132,7 @@ export const Header: React.FC<HeaderProps> = ({
 
             {/* Mobile Actions Container */}
             <div className="flex items-center gap-1.5 md:hidden">
-              {!isDeviceInstalled && (
+              {!isStandaloneApp && (
                 <button
                   onClick={handleInstallClick}
                   title="Install App for Offline Study"
@@ -221,7 +225,7 @@ export const Header: React.FC<HeaderProps> = ({
               </button>
 
               {/* 3. Install App for Offline Study */}
-              {!isDeviceInstalled && (
+              {!isStandaloneApp && (
                 <button
                   onClick={() => {
                     handleInstallClick();
@@ -336,7 +340,7 @@ export const Header: React.FC<HeaderProps> = ({
             </button>
 
             {/* Professional Install App Button */}
-            {!isDeviceInstalled && (
+            {!isStandaloneApp && (
               <button
                 onClick={handleInstallClick}
                 title="Install LET Reviewer App on your device for offline studying"
@@ -435,12 +439,7 @@ export const Header: React.FC<HeaderProps> = ({
         onClose={() => setIsInstallModalOpen(false)}
         deferredPrompt={deferredPrompt}
         onAppInstalled={() => {
-          setIsDeviceInstalled(true);
-          try {
-            localStorage.setItem('let_pwa_installed_device', 'true');
-          } catch (e) {
-            console.error(e);
-          }
+          setDeferredPrompt(null);
         }}
       />
     </header>
