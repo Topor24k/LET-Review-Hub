@@ -1,13 +1,14 @@
 import React, { useState } from 'react';
-import { Lock, ArrowRight, Eye, EyeOff, Heart } from 'lucide-react';
+import { Lock, User, ArrowRight, Eye, EyeOff, Heart, Sparkles } from 'lucide-react';
 
 interface LoginScreenProps {
   onLoginSuccess: () => void;
 }
 
 export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
-  const [passcode, setPasscode] = useState('');
-  const [showPasscode, setShowPasscode] = useState(false);
+  const [fullName, setFullName] = useState('');
+  const [password, setPassword] = useState('');
+  const [showPassword, setShowPassword] = useState(false);
   const [errorMsg, setErrorMsg] = useState('');
   const [isLoading, setIsLoading] = useState(false);
   const [rememberMe, setRememberMe] = useState(true);
@@ -16,32 +17,58 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
     e.preventDefault();
     setErrorMsg('');
 
-    const normalized = passcode.trim().toLowerCase().replace(/\s+/g, '');
+    const normName = fullName.trim().toLowerCase().replace(/\s+/g, ' ');
+    const normPass = password.trim().toLowerCase().replace(/\s+/g, '');
 
-    if (!normalized) {
-      setErrorMsg('Please enter your passcode to enter.');
+    if (!normName && !normPass) {
+      setErrorMsg('Please enter your full name and password.');
+      return;
+    }
+
+    if (!normName) {
+      setErrorMsg('Please enter your full name.');
+      return;
+    }
+
+    if (!normPass) {
+      setErrorMsg('Please enter your password.');
       return;
     }
 
     setIsLoading(true);
 
     setTimeout(() => {
-      if (
-        normalized === 'iloveyou'
-      ) {
-        if (rememberMe) {
-          try {
-            localStorage.setItem('let_reviewer_authenticated', 'true');
-          } catch (e) {
-            console.error(e);
-          }
-        }
-        onLoginSuccess();
-      } else {
-        setErrorMsg('Incorrect passcode. Please try again.');
+      const isNameValid = 
+        normName === 'hershey nicolle tabanao' || 
+        normName === 'hershey tabanao' ||
+        normName === 'hershey nicolle' ||
+        normName === 'hershey' ||
+        normName === 'langga';
+
+      const isPassValid = normPass === 'iloveyou';
+
+      if (!isNameValid) {
+        setErrorMsg('Please enter your authorized name (Hershey Nicolle Tabanao).');
         setIsLoading(false);
+        return;
       }
-    }, 400);
+
+      if (!isPassValid) {
+        setErrorMsg('Incorrect password. Please try again.');
+        setIsLoading(false);
+        return;
+      }
+
+      if (rememberMe) {
+        try {
+          localStorage.setItem('let_reviewer_authenticated', 'true');
+          localStorage.setItem('let_reviewer_user_name', 'Hershey Nicolle Tabanao');
+        } catch (e) {
+          console.error(e);
+        }
+      }
+      onLoginSuccess();
+    }, 350);
   };
 
   return (
@@ -58,7 +85,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
               LET Reviewer<span className="text-amber-700">.</span>
             </span>
             <span className="text-[10px] font-semibold uppercase tracking-widest text-slate-400 block mt-0.5">
-              Private Review Portal
+              Licensure Exam Portal
             </span>
           </div>
         </div>
@@ -70,24 +97,59 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
           
           {/* Title & Description */}
           <div className="text-center space-y-2">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-50 border border-amber-200/70 text-amber-900 text-xs font-semibold mb-1">
+              <Sparkles className="w-3.5 h-3.5 text-amber-700" />
+              <span>Dedicated LET Portal</span>
+            </div>
             <h1 className="font-serif text-2xl sm:text-3xl font-bold tracking-tight text-slate-950">
-              Welcome, Langga
+              Welcome, Hershey
             </h1>
 
             <p className="text-xs sm:text-sm text-slate-500 font-serif leading-relaxed max-w-xs mx-auto">
-              Your private review portal for the Licensure Examination for Teachers. Enter your passcode to unlock your notes.
+              Your private review portal for the Licensure Examination for Teachers. Sign in to access your modules &amp; exams.
             </p>
           </div>
 
           {/* Login Form */}
           <form onSubmit={handleSubmit} className="space-y-4">
             
+            {/* Full Name Input */}
             <div className="space-y-1.5">
               <label 
-                htmlFor="passcode" 
+                htmlFor="fullName" 
                 className="block text-xs font-bold uppercase tracking-wider text-slate-700 font-sans"
               >
-                Personal Passcode
+                Full Name
+              </label>
+
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 pl-3.5 flex items-center pointer-events-none text-slate-400">
+                  <User className="w-4 h-4" />
+                </div>
+
+                <input
+                  id="fullName"
+                  type="text"
+                  value={fullName}
+                  onChange={(e) => {
+                    setFullName(e.target.value);
+                    if (errorMsg) setErrorMsg('');
+                  }}
+                  placeholder="e.g. Hershey Nicolle Tabanao"
+                  autoFocus
+                  autoComplete="name"
+                  className="w-full pl-10 pr-4 py-2.5 bg-slate-50/50 hover:bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm placeholder:text-slate-400 focus:bg-white focus:outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900 transition-all font-sans"
+                />
+              </div>
+            </div>
+
+            {/* Password Input */}
+            <div className="space-y-1.5">
+              <label 
+                htmlFor="password" 
+                className="block text-xs font-bold uppercase tracking-wider text-slate-700 font-sans"
+              >
+                Password
               </label>
 
               <div className="relative">
@@ -96,25 +158,25 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
                 </div>
 
                 <input
-                  id="passcode"
-                  type={showPasscode ? 'text' : 'password'}
-                  value={passcode}
+                  id="password"
+                  type={showPassword ? 'text' : 'password'}
+                  value={password}
                   onChange={(e) => {
-                    setPasscode(e.target.value);
+                    setPassword(e.target.value);
                     if (errorMsg) setErrorMsg('');
                   }}
-                  placeholder="Enter your passcode..."
-                  autoFocus
+                  placeholder="Enter your password..."
+                  autoComplete="current-password"
                   className="w-full pl-10 pr-10 py-2.5 bg-slate-50/50 hover:bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm placeholder:text-slate-400 focus:bg-white focus:outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900 transition-all font-sans"
                 />
 
                 <button
                   type="button"
-                  onClick={() => setShowPasscode(prev => !prev)}
+                  onClick={() => setShowPassword(prev => !prev)}
                   className="absolute inset-y-0 right-0 pr-3 flex items-center text-slate-400 hover:text-slate-700 transition-colors cursor-pointer"
-                  title={showPasscode ? 'Hide passcode' : 'Show passcode'}
+                  title={showPassword ? 'Hide password' : 'Show password'}
                 >
-                  {showPasscode ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
+                  {showPassword ? <EyeOff className="w-4 h-4" /> : <Eye className="w-4 h-4" />}
                 </button>
               </div>
 
@@ -124,8 +186,8 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
                 </p>
               ) : (
                 <p className="text-[11px] text-slate-400 pt-0.5 flex items-center justify-between">
-                  <span>Authorized access required</span>
-                  <span>Single-user portal</span>
+                  <span>Single-user authorized portal</span>
+                  <span>100% Private</span>
                 </p>
               )}
             </div>
@@ -154,10 +216,10 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
               className="w-full py-3 px-4 bg-slate-950 hover:bg-slate-800 active:scale-[0.99] text-white text-xs sm:text-sm font-semibold rounded-xl shadow-sm transition-all flex items-center justify-center gap-2 cursor-pointer font-sans disabled:opacity-70"
             >
               {isLoading ? (
-                <span>Unlocking Portal...</span>
+                <span>Signing In...</span>
               ) : (
                 <>
-                  <span>Enter Review Portal</span>
+                  <span>Sign In to Reviewer</span>
                   <ArrowRight className="w-4 h-4" />
                 </>
               )}
@@ -169,7 +231,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
           <div className="pt-4 border-t border-slate-100 text-center space-y-1">
             <div className="flex items-center justify-center gap-1.5 text-xs text-amber-900 font-serif italic">
               <Heart className="w-3.5 h-3.5 fill-amber-700 text-amber-700" />
-              <span>"One topic at a time. Future LPT — you've got this."</span>
+              <span>"One topic at a time. Future LPT Hershey — you've got this."</span>
             </div>
           </div>
 

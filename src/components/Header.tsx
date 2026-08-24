@@ -36,6 +36,18 @@ export const Header: React.FC<HeaderProps> = ({
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isAppInstalled, setIsAppInstalled] = useState<boolean>(() => {
+    try {
+      const isStandalone =
+        window.matchMedia('(display-mode: standalone)').matches ||
+        (window.navigator as any).standalone === true ||
+        document.referrer.includes('android-app://');
+      const markedInstalled = localStorage.getItem('let_pwa_installed') === 'true';
+      return isStandalone || markedInstalled;
+    } catch {
+      return false;
+    }
+  });
 
   useEffect(() => {
     return subscribeSyncStatus((s) => setSyncStatus(s));
@@ -50,11 +62,30 @@ export const Header: React.FC<HeaderProps> = ({
     return () => window.removeEventListener('beforeinstallprompt', handler);
   }, []);
 
+  useEffect(() => {
+    const handleAppInstalled = () => {
+      setIsAppInstalled(true);
+      setDeferredPrompt(null);
+      try {
+        localStorage.setItem('let_pwa_installed', 'true');
+      } catch (e) {
+        console.error(e);
+      }
+    };
+
+    window.addEventListener('appinstalled', handleAppInstalled);
+    return () => window.removeEventListener('appinstalled', handleAppInstalled);
+  }, []);
+
   const handleInstallClick = async () => {
     if (deferredPrompt) {
       deferredPrompt.prompt();
       const { outcome } = await deferredPrompt.userChoice;
       if (outcome === 'accepted') {
+        setIsAppInstalled(true);
+        try {
+          localStorage.setItem('let_pwa_installed', 'true');
+        } catch {}
         setDeferredPrompt(null);
       }
     } else {
@@ -172,22 +203,24 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               </button>
 
-              {/* 3. Install App for Offline Study */}
-              <button
-                onClick={() => {
-                  handleInstallClick();
-                  setIsMobileMenuOpen(false);
-                }}
-                className="w-full flex items-center justify-between p-2.5 rounded-xl text-xs font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-all cursor-pointer shadow-xs"
-              >
-                <div className="flex items-center gap-2.5">
-                  <Download className="w-4 h-4 text-amber-400" />
-                  <span>Install App (Offline Study)</span>
-                </div>
-                <span className="text-[10px] bg-amber-400/20 text-amber-300 px-2 py-0.5 rounded-full font-bold">
-                  Free
-                </span>
-              </button>
+              {/* 3. Install App for Offline Study (Disappears once downloaded/installed) */}
+              {!isAppInstalled && (
+                <button
+                  onClick={() => {
+                    handleInstallClick();
+                    setIsMobileMenuOpen(false);
+                  }}
+                  className="w-full flex items-center justify-between p-2.5 rounded-xl text-xs font-semibold bg-slate-900 text-white hover:bg-slate-800 transition-all cursor-pointer shadow-xs"
+                >
+                  <div className="flex items-center gap-2.5">
+                    <Download className="w-4 h-4 text-amber-400" />
+                    <span>Install App (Offline Study)</span>
+                  </div>
+                  <span className="text-[10px] bg-amber-400/20 text-amber-300 px-2 py-0.5 rounded-full font-bold">
+                    Free
+                  </span>
+                </button>
+              )}
 
               {/* 4. Logout / Lock */}
               {onLogout && (
@@ -285,8 +318,8 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </button>
 
-            {/* Professional Install App Button (Static, No Bounce) */}
-            {deferredPrompt && (
+            {/* Professional Install App Button (Disappears once downloaded/installed) */}
+            {!isAppInstalled && deferredPrompt && (
               <button
                 onClick={handleInstallClick}
                 title="Install LET Reviewer App on your device for offline studying"

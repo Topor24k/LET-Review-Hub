@@ -1169,7 +1169,7 @@ export const SubstackArticleView: React.FC<SubstackArticleViewProps> = ({
                   L
                 </div>
                 <div>
-                  <p className="text-xs font-bold text-slate-900">Prepared for Langga</p>
+                  <p className="text-xs font-bold text-slate-900">Prepared for Hershey Nicolle Tabanao</p>
                   <p className="text-[11px] text-slate-400">Board for Professional Teachers (BPT) Reference</p>
                 </div>
               </div>
