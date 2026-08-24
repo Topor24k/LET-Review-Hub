@@ -135,7 +135,7 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLoginSuccess }) => {
                     setFullName(e.target.value);
                     if (errorMsg) setErrorMsg('');
                   }}
-                  placeholder="e.g. Hershey Nicolle Tabanao"
+                  placeholder="Enter your full name..."
                   autoFocus
                   autoComplete="name"
                   className="w-full pl-10 pr-4 py-2.5 bg-slate-50/50 hover:bg-slate-50 border border-slate-200 rounded-xl text-slate-900 text-sm placeholder:text-slate-400 focus:bg-white focus:outline-none focus:border-slate-900 focus:ring-1 focus:ring-slate-900 transition-all font-sans"
