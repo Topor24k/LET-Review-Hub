@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "Scientific Revolutions: Copernican Revolution",
-    "question": "Nicolaus Copernicus fundamentally revolutionized human understanding of the cosmos by proposing:",
+    "topicRef": "Intellectual Revolutions: Copernican Revolution",
+    "question": "Nicolaus Copernicus published De revolutionibus orbium coelestium in 1543, sparking a scientific revolution by proposing the 'Heliocentric Model', which demonstrated that:",
     "options": [
       {
         "key": "A",
-        "text": "The Big Crunch Theory."
+        "text": "The Earth is the stationary physical center of the universe (Geocentric Ptolemaic Model)."
       },
       {
         "key": "B",
-        "text": "The Geocentric Model."
+        "text": "The universe is enclosed in a rigid crystal dome with fixed stars."
       },
       {
         "key": "C",
-        "text": "The Heliocentric Model (The Sun is the center of the solar system, replacing Ptolemy's Earth-centered Geocentric model)."
+        "text": "Planetary orbits are driven by angelic spiritual entities."
       },
       {
         "key": "D",
-        "text": "The Flat Earth Theory."
+        "text": "The Sun is at the center of the solar system, and the Earth and other planets revolve around it."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Copernicus' *De revolutionibus orbium coelestium* (1543) initiated the Copernican Revolution, proving mathematically that planets revolve around the Sun."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Intellectual Revolutions: Copernican Revolution. The Sun is at the center of the solar system, and the Earth and other planets revolve around it. represents standard scientific and philosophical consensus."
   },
   {
     "id": 2,
-    "topicRef": "Scientific Revolutions: Darwinian Revolution",
-    "question": "Charles Darwin's 'On the Origin of Species' (1859) transformed biological science through the mechanism of:",
+    "topicRef": "Intellectual Revolutions: Darwinian Revolution",
+    "question": "Charles Darwin's 1859 On the Origin of Species revolutionized biological science by proposing that species evolve over generations through:",
     "options": [
       {
         "key": "A",
-        "text": "Static Creationism."
+        "text": "Sudden catastrophic divine geological interventions."
       },
       {
         "key": "B",
-        "text": "Natural Selection (survival and differential reproductive success of organisms best adapted to environmental niches)."
+        "text": "Pre-programmed transformation directed by celestial astrology."
       },
       {
         "key": "C",
-        "text": "Spontaneous Generation."
+        "text": "Natural Selection, where organisms with favorable heritable traits are more likely to survive and reproduce."
       },
       {
         "key": "D",
-        "text": "Lamarckian Inheritance of acquired traits."
+        "text": "The inheritance of acquired physical characteristics during an individual's lifetime (Lamarckism)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Darwin established Natural Selection: organisms with advantageous inherited variations survive and reproduce, driving the evolution of species over generations."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Intellectual Revolutions: Darwinian Revolution. Natural Selection, where organisms with favorable heritable traits are more likely to survive and reproduce. represents standard scientific and philosophical consensus."
   },
   {
     "id": 3,
-    "topicRef": "Scientific Revolutions: Freudian Revolution",
-    "question": "Sigmund Freud revolutionized psychology and social philosophy by asserting that:",
+    "topicRef": "Intellectual Revolutions: Freudian Revolution",
+    "question": "Sigmund Freud's psychoanalytic revolution transformed human understanding of psychology by proposing that:",
     "options": [
       {
         "key": "A",
-        "text": "Personality is determined by planetary stars."
+        "text": "All human mental processes operate with pure, transparent logical rationality."
       },
       {
         "key": "B",
-        "text": "Dreams have zero psychological significance."
+        "text": "Human behavior and conscious thoughts are profoundly influenced by unconscious drives, repressed desires, and childhood conflicts."
       },
       {
         "key": "C",
-        "text": "The human mind is completely conscious and robotic."
+        "text": "The human brain is a blank slate with zero emotional memory."
       },
       {
         "key": "D",
-        "text": "Human behavior is largely driven by unconscious psychic drives, repressed desires, and childhood conflicts rather than purely conscious rational thought."
+        "text": "Psychological distress is caused entirely by imbalances in bodily bile humors."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Freud's psychoanalytic revolution demonstrated the profound power of the Unconscious mind, dream symbolism, and psychodynamic mechanisms in human behavior."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Intellectual Revolutions: Freudian Revolution. Human behavior and conscious thoughts are profoundly influenced by unconscious drives, repressed desires, and childhood conflicts. represents standard scientific and philosophical consensus."
   },
   {
     "id": 4,
-    "topicRef": "Philosophy of Tech: Martin Heidegger (The Question Concerning Technology)",
-    "question": "In Martin Heidegger's philosophy of technology, what is 'Enframing' (*Gestell*)?",
+    "topicRef": "Intellectual Revolutions: Information Revolution (Turing)",
+    "question": "Alan Turing's foundational conceptualization of the 'Universal Turing Machine' in 1936 laid the mathematical groundwork for the Information Age by establishing:",
     "options": [
       {
         "key": "A",
-        "text": "Writing computer software code."
+        "text": "The theoretical principles of programmable modern digital computing and algorithmic processing."
       },
       {
         "key": "B",
-        "text": "Putting a wooden frame around a painting."
+        "text": "The chemical composition of synthetic plastics."
       },
       {
         "key": "C",
-        "text": "The modern technological mindset of viewing nature purely as a 'Standing-Reserve' (*Bestand*) — raw resources to be extracted, calculated, and commercially exploited."
+        "text": "The atomic nuclear fission chain reaction."
       },
       {
         "key": "D",
-        "text": "Building solar panels."
+        "text": "The geological plate tectonic theory of continental drift."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Heidegger warned that modern technology's essence is *Gestell* (Enframing), reducing all of nature and human beings into standing reserves of raw material."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Intellectual Revolutions: Information Revolution (Turing). The theoretical principles of programmable modern digital computing and algorithmic processing. represents standard scientific and philosophical consensus."
   },
   {
     "id": 5,
-    "topicRef": "Philippine National Scientists: Ramon Barba",
-    "question": "National Scientist Ramon Barba is globally acclaimed for his revolutionary agricultural invention of:",
+    "topicRef": "Philosophy of Tech: Heidegger's 'Question Concerning Technology'",
+    "question": "In Martin Heidegger's philosophy, the modern essence of technology is 'Gestell' (Enframing), which dangerously reduces nature and human beings into:",
     "options": [
       {
         "key": "A",
-        "text": "Using Potassium Nitrate spray to induce off-season year-round flowering in mango trees, transforming the Philippine mango industry."
+        "text": "Sacred objects of aesthetic contemplation."
       },
       {
         "key": "B",
-        "text": "Artificial coral reef conservation."
+        "text": "Ethereal metaphysical forms of divine truth."
       },
       {
         "key": "C",
-        "text": "The Moon Buggy."
+        "text": "Immutable mathematical axioms."
       },
       {
         "key": "D",
-        "text": "The Bamboo Incubator for infants."
+        "text": "'Standing-Reserve' (Bestand)\u2014mere resources, stock, and energy on standby for exploitation and optimization."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Ramon Barba discovered that potassium nitrate induces profuse flowering in mango trees regardless of season, dramatically boosting agricultural export yields."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Heidegger's 'Question Concerning Technology'. 'Standing-Reserve' (Bestand)\u2014mere resources, stock, and energy on standby for exploitation and optimization. represents standard scientific and philosophical consensus."
   },
   {
     "id": 6,
-    "topicRef": "Philippine National Scientists: Fe Del Mundo",
-    "question": "National Scientist Fe Del Mundo, the first woman admitted to Harvard Medical School, invented the:",
+    "topicRef": "Philosophy of Tech: Heidegger's Poiesis & Aletheia",
+    "question": "Heidegger reminds us that ancient Greek technology (techne) was originally a mode of 'Aletheia' (revealing truth) and 'Poiesis' (bringing-forth), meaning:",
     "options": [
       {
         "key": "A",
-        "text": "Fluorescent lamp."
+        "text": "Ancient humans completely rejected toolmaking."
       },
       {
         "key": "B",
-        "text": "Artificial heart valve."
+        "text": "Machines operated with autonomous artificial intelligence."
       },
       {
         "key": "C",
-        "text": "Electronic computer."
+        "text": "Technology was an artful, respectful revealing of nature's potentials rather than an aggressive, challenging-forth extraction."
       },
       {
         "key": "D",
-        "text": "Bamboo Incubator (a low-cost medical incubator made of indigenous materials for rural, non-electrified communities) and the BRAT diet."
+        "text": "Technology existed solely for manufacturing military weapons."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Fe Del Mundo revolutionized pediatric medicine in developing nations by inventing the bamboo incubator and pioneering public health immunizations."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Heidegger's Poiesis & Aletheia. Technology was an artful, respectful revealing of nature's potentials rather than an aggressive, challenging-forth extraction. represents standard scientific and philosophical consensus."
   },
   {
     "id": 7,
-    "topicRef": "Philippine S&T Legislation: Balik Scientist Act (RA 11035)",
-    "question": "What is the primary objective of the Balik Scientist Act (Republic Act No. 11035)?",
+    "topicRef": "Human Flourishing: Aristotle's Eudaimonia in STS",
+    "question": "In STS education, human flourishing (Eudaimonia) is connected to technological progress by asserting that technology should be evaluated by whether it:",
     "options": [
       {
         "key": "A",
-        "text": "To deport foreign scientists from the country."
+        "text": "Forces citizens to spend 18 hours daily on digital smartphones."
       },
       {
         "key": "B",
-        "text": "To reverse brain drain by offering generous financial, research, and relocation incentives to Filipino science and technology experts abroad to return and conduct research in the Philippines."
+        "text": "Enables genuine human flourishing, moral virtue, social justice, and well-being, rather than mere material consumption."
       },
       {
         "key": "C",
-        "text": "To close all university science departments."
+        "text": "Maximizes corporate advertising profits regardless of ecological degradation."
       },
       {
         "key": "D",
-        "text": "To ban science scholarships."
+        "text": "Replaces all human labor with automated surveillance systems."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "RA 11035 institutionalized the Balik Scientist Program, encouraging Filipino scientists overseas to return and strengthen national R&D capacity."
+    "explanation": "This item evaluates scientific literacy and STS competence in Human Flourishing: Aristotle's Eudaimonia in STS. Enables genuine human flourishing, moral virtue, social justice, and well-being, rather than mere material consumption. represents standard scientific and philosophical consensus."
   },
   {
     "id": 8,
-    "topicRef": "Philippine Space Act: RA 11363",
-    "question": "Republic Act No. 11363 established which national scientific agency to manage the Philippine space program (Diwata microsatellites, Maya nanosatellites)?",
+    "topicRef": "National Scientists: Fe Del Mundo (Pediatrics)",
+    "question": "National Scientist Fe Del Mundo (the first female student admitted to Harvard Medical School) is celebrated in Philippine science history for:",
     "options": [
       {
         "key": "A",
-        "text": "NASA"
+        "text": "Inventing an indigenous bamboo incubator for rural communities and pioneering Philippine public pediatric healthcare."
       },
       {
         "key": "B",
-        "text": "PHIVOLCS"
+        "text": "Discovering the chemical formula of synthetic rubber."
       },
       {
         "key": "C",
-        "text": "Philippine Space Agency (PhilSA)"
+        "text": "Developing the first nuclear power reactor in Southeast Asia."
       },
       {
         "key": "D",
-        "text": "PAGASA"
+        "text": "Breeding the high-yield IR8 miracle rice variety."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "RA 11363 created PhilSA as the central state agency addressing national space science, satellite development, and Earth observation technology."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in National Scientists: Fe Del Mundo (Pediatrics). Inventing an indigenous bamboo incubator for rural communities and pioneering Philippine public pediatric healthcare. represents standard scientific and philosophical consensus."
   },
   {
     "id": 9,
-    "topicRef": "Emerging Tech Ethics: Gene Editing (CRISPR-Cas9)",
-    "question": "The ethical debate surrounding CRISPR-Cas9 genome editing technology centers predominantly on the moral hazard of:",
+    "topicRef": "National Scientists: Ramon Barba (Horticulture)",
+    "question": "National Scientist Ramon Barba revolutionized Philippine agriculture and the mango export industry by:",
     "options": [
       {
         "key": "A",
-        "text": "Germline modifications (heritable genetic alterations in embryos leading to 'designer babies' and permanent evolutionary inequalities)."
+        "text": "Introducing genetic cloning for coconut palms."
       },
       {
         "key": "B",
-        "text": "The color of DNA models."
+        "text": "Inventing an automated robotic rice harvester."
       },
       {
         "key": "C",
-        "text": "Using microscopes in biology classes."
+        "text": "Developing synthetic nitrogen fertilizer from sugarcane waste."
       },
       {
         "key": "D",
-        "text": "The physical cost of petri dishes."
+        "text": "Discovering that spraying potassium nitrate (KNO3) induces year-round, off-season flowering and fruiting in mango trees."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "CRISPR germline gene editing raises profound bioethical issues regarding irreversible heritable mutations, eugenics, designer babies, and social equity."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in National Scientists: Ramon Barba (Horticulture). Discovering that spraying potassium nitrate (KNO3) induces year-round, off-season flowering and fruiting in mango trees. represents standard scientific and philosophical consensus."
   },
   {
     "id": 10,
-    "topicRef": "Climate Change: The Greenhouse Effect & Global Warming",
-    "question": "What is the primary greenhouse gas emitted by human industrial activity (fossil fuel burning, deforestation) driving contemporary anthropogenic climate change?",
+    "topicRef": "National Scientists: Angel Alcala (Marine Biology)",
+    "question": "National Scientist Angel Alcala pioneered marine conservation in the Philippines through the creation of:",
     "options": [
       {
         "key": "A",
-        "text": "Helium ((\\text{He}))"
+        "text": "Nuclear-powered submarine research vessels."
       },
       {
         "key": "B",
-        "text": "Nitrogen ((\\text{N}_2))"
+        "text": "Synthetic plastic seawall barriers."
       },
       {
         "key": "C",
-        "text": "Oxygen ((\\text{O}_2))"
+        "text": "The first community-based Marine Protected Areas (MPAs) and artificial coral reefs in Apo Island and Sumilon."
       },
       {
         "key": "D",
-        "text": "Carbon Dioxide ((\\text{CO}_2))"
+        "text": "Commercial deep-sea bottom-trawling fishing fleets."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Carbon dioxide ((\\text{CO}_2)), along with methane ((\\text{CH}_4)) and nitrous oxide ((\\text{N}_2\\text{O})), traps infrared radiation in the troposphere, accelerating global warming."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in National Scientists: Angel Alcala (Marine Biology). The first community-based Marine Protected Areas (MPAs) and artificial coral reefs in Apo Island and Sumilon. represents standard scientific and philosophical consensus."
   },
   {
     "id": 11,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #11)",
+    "topicRef": "National Scientists: Gavino Trono (Phycology)",
+    "question": "National Scientist Gavino Trono, known as the 'Father of Kappaphycus Farming', made groundbreaking scientific contributions to:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Forestry timber replanting in the Sierra Madre."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "The taxonomy, cultivation, and commercial farming of marine macrobenthic algae (seaweeds / carrageenan production)."
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Volcanic seismology and tsunami warning systems."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Freshwater tilapia fish hatchery engineering."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in National Scientists: Gavino Trono (Phycology). The taxonomy, cultivation, and commercial farming of marine macrobenthic algae (seaweeds / carrageenan production). represents standard scientific and philosophical consensus."
   },
   {
     "id": 12,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #12)",
+    "topicRef": "National Scientists: Diosdado Banatao (Microchips)",
+    "question": "Filipino Silicon Valley innovator Diosdado Banatao revolutionized the global personal computer industry by developing:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The first 10-Mbit Ethernet CMOS MAC/PHY chip and the first Windows Graphics Accelerator chip."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "The first Apple iPhone touch interface."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "The global satellite GPS navigation constellation."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "The Microsoft Windows 95 operating system source code."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in National Scientists: Diosdado Banatao (Microchips). The first 10-Mbit Ethernet CMOS MAC/PHY chip and the first Windows Graphics Accelerator chip. represents standard scientific and philosophical consensus."
   },
   {
     "id": 13,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #13)",
+    "topicRef": "Science & Nation Building: Harmonized National R&D Agenda (HNRDA)",
+    "question": "The Department of Science and Technology (DOST) formulates the Harmonized National R&D Agenda (HNRDA) to ensure that Philippine scientific research:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Focuses exclusively on sending astronauts to Mars."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Is conducted only in private foreign corporate laboratories."
       },
       {
         "key": "C",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Is prohibited from receiving public government funding."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Directly addresses national socio-economic priorities, disaster resilience, health security, and sustainable development."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Nation Building: Harmonized National R&D Agenda (HNRDA). Directly addresses national socio-economic priorities, disaster resilience, health security, and sustainable development. represents standard scientific and philosophical consensus."
   },
   {
     "id": 14,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #14)",
+    "topicRef": "Space Science: Philippine Space Agency (PhilSA)",
+    "question": "Established under Republic Act 11363 (Philippine Space Act of 2019), the Philippine Space Agency (PhilSA) coordinates space science, including the deployment of:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Commercial space-tourism rocket launchpads for private billionaires."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Orbital military laser defense shields."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Micro-satellites (such as Diwata-1, Diwata-2, and Maya nanosatellites) for disaster risk management, maritime surveillance, and agriculture."
       },
       {
         "key": "D",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Interplanetary deep-space colonization shuttles."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Space Science: Philippine Space Agency (PhilSA). Micro-satellites (such as Diwata-1, Diwata-2, and Maya nanosatellites) for disaster risk management, maritime surveillance, and agriculture. represents standard scientific and philosophical consensus."
   },
   {
     "id": 15,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #15)",
+    "topicRef": "Disaster Science: Project NOAH",
+    "question": "Project NOAH (Nationwide Operational Assessment of Hazards), originally established by DOST and now at UP, was developed to:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Eliminate all rainfall across the Philippine archipelago."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Provide high-resolution storm surge hazard maps, real-time flood monitoring, and landslide warnings for disaster mitigation."
       },
       {
         "key": "C",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Control tropical typhoons through cloud-seeding chemical injections."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Predict exact earthquake days and times with absolute certainty."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Disaster Science: Project NOAH. Provide high-resolution storm surge hazard maps, real-time flood monitoring, and landslide warnings for disaster mitigation. represents standard scientific and philosophical consensus."
   },
   {
     "id": 16,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #16)",
+    "topicRef": "Biotechnology: Genetically Modified Organisms (GMOs)",
+    "question": "A 'Genetically Modified Organism' (GMO) is biologically defined as an organism whose genetic material (DNA) has been:",
     "options": [
       {
         "key": "A",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Altered using modern recombinant DNA technology or genetic engineering to introduce desirable non-native traits."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Cross-pollinated through traditional agricultural grafting over centuries."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Subjected to natural sunlight and organic manure fertilization."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Grown exclusively in zero-gravity space laboratories."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Genetically Modified Organisms (GMOs). Altered using modern recombinant DNA technology or genetic engineering to introduce desirable non-native traits. represents standard scientific and philosophical consensus."
   },
   {
     "id": 17,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #17)",
+    "topicRef": "Biotechnology: Bt Corn & Bacillus thuringiensis",
+    "question": "Genetically modified 'Bt Corn' is engineered to express the Cry toxin protein from the soil bacterium Bacillus thuringiensis primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Make corn kernels glow with fluorescent yellow luminescence."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Accelerate corn growth so that harvesting occurs in 3 days."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Increase the sugar sweetness of corn syrup by 500%."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Confer biological resistance against the devastating Asian corn borer pest without heavy synthetic chemical insecticides."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Bt Corn & Bacillus thuringiensis. Confer biological resistance against the devastating Asian corn borer pest without heavy synthetic chemical insecticides. represents standard scientific and philosophical consensus."
   },
   {
     "id": 18,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #18)",
+    "topicRef": "Biotechnology: Golden Rice & Vitamin A Deficiency",
+    "question": "Golden Rice (GR2E) was genetically engineered by inserting beta-carotene biosynthesis genes (from daffodil/maize and Erwinia) to combat:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Chronic iodine deficiency in coastal fishing villages."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Lactose intolerance in infant formula."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Vitamin A Deficiency (VAD), which causes childhood blindness, immune failure, and mortality in developing nations."
       },
       {
         "key": "D",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Iron-deficiency anemia in elderly hospital patients."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Golden Rice & Vitamin A Deficiency. Vitamin A Deficiency (VAD), which causes childhood blindness, immune failure, and mortality in developing nations. represents standard scientific and philosophical consensus."
   },
   {
     "id": 19,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #19)",
+    "topicRef": "Biotechnology: CRISPR-Cas9 Gene Editing",
+    "question": "The Nobel Prize-winning CRISPR-Cas9 technology revolutionized genetics because it functions as:",
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "A digital computer program that translates genetic code into spoken words."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Molecular scissors that allow scientists to edit, insert, or delete specific DNA sequences with unprecedented precision and low cost."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "A high-powered optical microscope used to observe living viruses."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "A synthetic chemical fertilizer that doubles rice crop yields."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: CRISPR-Cas9 Gene Editing. Molecular scissors that allow scientists to edit, insert, or delete specific DNA sequences with unprecedented precision and low cost. represents standard scientific and philosophical consensus."
   },
   {
     "id": 20,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #20)",
+    "topicRef": "Biotechnology: Biosafety Regulations in Philippines",
+    "question": "In the Philippines, the commercial release of GM crops is regulated under the Joint Department Circular (JDC No. 1, s. 2021) by DA, DOST, DENR, DOH, and DILG to ensure:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Rigorous scientific risk assessment regarding environmental safety, food and feed safety, and socio-economic impact."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Automatic approval of all foreign biotech patents within 24 hours."
       },
       {
         "key": "C",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "The total prohibition of all scientific agricultural research."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Mandatory cultivation of GM crops in all public elementary school gardens."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Biosafety Regulations in Philippines. Rigorous scientific risk assessment regarding environmental safety, food and feed safety, and socio-economic impact. represents standard scientific and philosophical consensus."
   },
   {
     "id": 21,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #21)",
+    "topicRef": "Environmental Science: The Greenhouse Effect",
+    "question": "The natural 'Greenhouse Effect' is an essential atmospheric process whereby greenhouse gases (such as CO2, CH4, H2O, N2O):",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Block all incoming solar ultraviolet rays from reaching the upper stratosphere."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Reflect 100% of visible light back into deep space."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Produce ozone molecules through nuclear fusion in cloud layers."
       },
       {
         "key": "D",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Trap outgoing long-wave infrared thermal radiation emitted by Earth, keeping global average temperatures habitable (~15 deg C)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Science: The Greenhouse Effect. Trap outgoing long-wave infrared thermal radiation emitted by Earth, keeping global average temperatures habitable (~15 deg C). represents standard scientific and philosophical consensus."
   },
   {
     "id": 22,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #22)",
+    "topicRef": "Environmental Science: Anthropogenic Climate Change",
+    "question": "Anthropogenic global warming is driven primarily by the rapid accumulation of greenhouse gases in the atmosphere caused by:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Variations in the physical distance between Earth and Mars."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Cosmic gamma ray bursts from distant exploding stars."
       },
       {
         "key": "C",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "The combustion of fossil fuels (coal, oil, gas), industrial deforestation, and large-scale industrial agriculture."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Natural volcanic ash eruptions in the Pacific Ring of Fire."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Science: Anthropogenic Climate Change. The combustion of fossil fuels (coal, oil, gas), industrial deforestation, and large-scale industrial agriculture. represents standard scientific and philosophical consensus."
   },
   {
     "id": 23,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #23)",
+    "topicRef": "Environmental Treaties: The Paris Agreement (2015)",
+    "question": "The central, legally binding international goal established under the 2015 Paris Climate Agreement (COP21) is to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Relocate all coastal cities to mountainous regions."
       },
       {
         "key": "B",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Limit global average temperature increase to well below 2 deg C above pre-industrial levels, pursuing efforts to limit it to 1.5 deg C."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Completely ban the use of all motor vehicles worldwide by 2020."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Force developing nations to pay carbon penalties to industrialized countries."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Treaties: The Paris Agreement (2015). Limit global average temperature increase to well below 2 deg C above pre-industrial levels, pursuing efforts to limit it to 1.5 deg C. represents standard scientific and philosophical consensus."
   },
   {
     "id": 24,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #24)",
+    "topicRef": "Philippine Climate Legislation: RA 9729",
+    "question": "Republic Act 9729 (Climate Change Act of 2009) established the Climate Change Commission (CCC) to mainstream climate risk management into:",
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "National and Local Climate Change Action Plans (LCCAP) and disaster risk reduction frameworks across all government levels."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "The national military defense strategic command."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "The international commercial banking stock market."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Private corporate marketing campaigns."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "explanation": "This item evaluates scientific literacy and STS competence in Philippine Climate Legislation: RA 9729. National and Local Climate Change Action Plans (LCCAP) and disaster risk reduction frameworks across all government levels. represents standard scientific and philosophical consensus."
   },
   {
     "id": 25,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #25)",
+    "topicRef": "Philippine Environmental Laws: Clean Air Act (RA 8749)",
+    "question": "Republic Act 8749 (Philippine Clean Air Act of 1999) establishes comprehensive air pollution control, famously including:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The mandatory conversion of all diesel jeepneys into horse-drawn calesas."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "A legal limit of only 5 cars per provincial municipality."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "The total shutdown of all electrical power generating plants."
       },
       {
         "key": "D",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "A nationwide ban on the incineration of municipal, bio-medical, and hazardous industrial wastes."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "explanation": "This item evaluates scientific literacy and STS competence in Philippine Environmental Laws: Clean Air Act (RA 8749). A nationwide ban on the incineration of municipal, bio-medical, and hazardous industrial wastes. represents standard scientific and philosophical consensus."
   },
   {
     "id": 26,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #26)",
+    "topicRef": "Philippine Environmental Laws: Ecological Solid Waste (RA 9003)",
+    "question": "Republic Act 9003 (Ecological Solid Waste Management Act of 2000) mandates that local government units must implement:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "The mandatory burning of plastic trash in residential backyards."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Shipping provincial electronic waste to foreign overseas islands."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Waste segregation at source, comprehensive recycling, composting, and the closure of open dumpsites in favor of sanitary landfills."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Dumping all municipal garbage into deep ocean trenches."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philippine Environmental Laws: Ecological Solid Waste (RA 9003). Waste segregation at source, comprehensive recycling, composting, and the closure of open dumpsites in favor of sanitary landfills. represents standard scientific and philosophical consensus."
   },
   {
     "id": 27,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #27)",
+    "topicRef": "Nanotechnology: Scale and Quantum Effects",
+    "question": "Nanotechnology involves manipulating matter at the nanoscale. What is the standard physical size range of a nanometer (nm)?",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "1 to 100 picometers (10^-12 meter)."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "1 to 100 nanometers (1 nm = 10^-9 meter, approximately 1 billionth of a meter)."
       },
       {
         "key": "C",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "1 to 100 millimeters (10^-3 meter)."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "1 to 100 micrometers (10^-6 meter)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Nanotechnology: Scale and Quantum Effects. 1 to 100 nanometers (1 nm = 10^-9 meter, approximately 1 billionth of a meter). represents standard scientific and philosophical consensus."
   },
   {
     "id": 28,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #28)",
+    "topicRef": "Nanotechnology: Applications in Medicine",
+    "question": "In biomedical engineering, 'Nanomedicine' uses engineered nanoparticles (such as liposomes or gold nanoshells) primarily for:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Targeted drug delivery directly to cancer cells, minimizing damage to healthy surrounding tissues."
       },
       {
         "key": "B",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Replacing traditional surgical scalpels with iron magnets."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Eliminating the need for all biological human red blood cells."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Permanently altering human skeletal height."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Nanotechnology: Applications in Medicine. Targeted drug delivery directly to cancer cells, minimizing damage to healthy surrounding tissues. represents standard scientific and philosophical consensus."
   },
   {
     "id": 29,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #29)",
+    "topicRef": "Artificial Intelligence: Machine Learning (ML)",
+    "question": "In computer science and STS, 'Machine Learning' is a subfield of artificial intelligence where algorithms:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Physically transform computer hardware into biological brain tissue."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Operate purely through mechanical gear and clockwork levers."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Require human programmers to type every individual decision in advance."
       },
       {
         "key": "D",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Learn patterns from large training datasets to improve performance on tasks without being explicitly programmed with rule-based code."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "explanation": "This item evaluates scientific literacy and STS competence in Artificial Intelligence: Machine Learning (ML). Learn patterns from large training datasets to improve performance on tasks without being explicitly programmed with rule-based code. represents standard scientific and philosophical consensus."
   },
   {
     "id": 30,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #30)",
+    "topicRef": "Artificial Intelligence: Generative AI & Large Language Models (LLMs)",
+    "question": "Generative AI models (such as LLMs like GPT or Gemini) generate human-like text by:",
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Accessing secret government spy satellite telepathic networks."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Searching a fixed dictionary database and copying sentences verbatim."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Calculating statistical probability distributions of words (tokens) based on massive textual training data."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Possessing conscious human feelings, subjective empathy, and an immortal soul."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Artificial Intelligence: Generative AI & Large Language Models (LLMs). Calculating statistical probability distributions of words (tokens) based on massive textual training data. represents standard scientific and philosophical consensus."
   },
   {
     "id": 31,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #31)",
+    "topicRef": "Ethics of AI: Algorithmic Bias in Hiring",
+    "question": "When an automated AI recruitment screening algorithm down-ranks candidates from women's colleges because the historical training data was predominantly male, this illustrates:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Hardware overheating in computer data centers."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Algorithmic bias, resulting from uncritical training on historically biased societal datasets."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Technological sentience, proving the computer has conscious gender animus."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Digital sovereignty, reflecting national control over servers."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "explanation": "This item evaluates scientific literacy and STS competence in Ethics of AI: Algorithmic Bias in Hiring. Algorithmic bias, resulting from uncritical training on historically biased societal datasets. represents standard scientific and philosophical consensus."
   },
   {
     "id": 32,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #32)",
+    "topicRef": "Ethics of AI: The 'Black Box' Problem",
+    "question": "In high-stakes AI applications (such as criminal sentencing algorithms or medical diagnosis), the 'Black Box' problem poses an ethical dilemma because:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The internal decision-making pathways of complex deep neural networks are unexplainable and opaque to human auditors."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Computer monitors emit low levels of radiation."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Artificial intelligence programs run only during nighttime power grid off-peak hours."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Servers cannot be legally registered under corporate copyright laws."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Ethics of AI: The 'Black Box' Problem. The internal decision-making pathways of complex deep neural networks are unexplainable and opaque to human auditors. represents standard scientific and philosophical consensus."
   },
   {
     "id": 33,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #33)",
+    "topicRef": "Information Age: Data Privacy Act of 2012 (RA 10173)",
+    "question": "Under Republic Act 10173, the independent regulatory body established to administer and enforce the Data Privacy Act in the Philippines is the:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "National Telecommunications Commission (NTC)."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Department of Information and Communications Technology (DICT)."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Cybercrime Investigation and Coordinating Center (CICC)."
       },
       {
         "key": "D",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "National Privacy Commission (NPC)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "explanation": "This item evaluates scientific literacy and STS competence in Information Age: Data Privacy Act of 2012 (RA 10173). National Privacy Commission (NPC). represents standard scientific and philosophical consensus."
   },
   {
     "id": 34,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #34)",
+    "topicRef": "Information Age: Surveillance Capitalism",
+    "question": "Shoshana Zuboff's critique of 'Surveillance Capitalism' describes a modern digital economic model where tech corporations:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Distribute open-source software code to public school classrooms."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Protect user anonymity through decentralized encrypted networks."
       },
       {
         "key": "C",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Extract behavioral data from human online experience to predict, modify, and monetize user behavior."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Provide free subsidized broadband access to all developing nations."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "explanation": "This item evaluates scientific literacy and STS competence in Information Age: Surveillance Capitalism. Extract behavioral data from human online experience to predict, modify, and monetize user behavior. represents standard scientific and philosophical consensus."
   },
   {
     "id": 35,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #35)",
+    "topicRef": "Information Age: Cybersecurity & Phishing",
+    "question": "In digital security, 'Phishing' refers to a social engineering cyber-attack where attackers:",
     "options": [
       {
         "key": "A",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Broadcast high-frequency radio jamming signals."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Impersonate legitimate institutions (e.g., banks or schools) via fraudulent emails to trick users into revealing sensitive credentials."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Physically steal hard drives from institutional data centers."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Overheat computer processors by running complex mathematical algorithms."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Information Age: Cybersecurity & Phishing. Impersonate legitimate institutions (e.g., banks or schools) via fraudulent emails to trick users into revealing sensitive credentials. represents standard scientific and philosophical consensus."
   },
   {
     "id": 36,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #36)",
+    "topicRef": "Renewable Energy: Solar Photovoltaic (PV) Technology",
+    "question": "Solar Photovoltaic (PV) cells generate clean electricity through the 'Photoelectric Effect', which occurs when:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Photons of sunlight strike semiconductor materials (such as silicon), dislodging electrons and generating electrical current."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Sunlight boils underground magma chambers to turn steam turbines."
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Solar rays split heavy uranium atoms in nuclear containment vessels."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Heat evaporates chemical refrigerants in residential cooling coils."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Renewable Energy: Solar Photovoltaic (PV) Technology. Photons of sunlight strike semiconductor materials (such as silicon), dislodging electrons and generating electrical current. represents standard scientific and philosophical consensus."
   },
   {
     "id": 37,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #37)",
+    "topicRef": "Renewable Energy: Geothermal Energy in Philippines",
+    "question": "The Philippines is one of the world's top producers of geothermal energy (e.g., MakBan, Tiwi, Palinpinon plants) because of its location along:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "The Arctic Polar Circle."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "The Great Rift Valley of East Africa."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "The Sahara Desert solar belt."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The Pacific Ring of Fire, featuring abundant volcanic thermal heat reservoirs beneath the Earth's crust."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Renewable Energy: Geothermal Energy in Philippines. The Pacific Ring of Fire, featuring abundant volcanic thermal heat reservoirs beneath the Earth's crust. represents standard scientific and philosophical consensus."
   },
   {
     "id": 38,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #38)",
+    "topicRef": "Renewable Energy: Wind Energy (Bangui Windmills)",
+    "question": "The landmark Bangui Wind Farm in Ilocos Norte harnesses wind energy, an environmentally sustainable power source that:",
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Consumes massive volumes of freshwater for cooling nuclear rods."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Causes permanent disruption of global planetary rotational velocity."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Generates zero greenhouse gas emissions during electrical operation and reduces national reliance on imported fossil fuels."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Requires the combustion of low-grade bunker fuel during cloudy weather."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Renewable Energy: Wind Energy (Bangui Windmills). Generates zero greenhouse gas emissions during electrical operation and reduces national reliance on imported fossil fuels. represents standard scientific and philosophical consensus."
   },
   {
     "id": 39,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #39)",
+    "topicRef": "Historical Antecedents: Ancient Inventions (Cuneiform & Papyrus)",
+    "question": "In the ancient world, the Sumerians invented 'Cuneiform' (wedge-shaped writing on clay tablets), while the ancient Egyptians developed 'Papyrus' from reeds primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Send wireless electromagnetic telegraph messages."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Record agricultural transactions, trade contracts, temple inventories, and codified administrative laws."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Decorate modern tourist museums in European capitals."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Build seawalls to prevent Mediterranean tsunamis."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Historical Antecedents: Ancient Inventions (Cuneiform & Papyrus). Record agricultural transactions, trade contracts, temple inventories, and codified administrative laws. represents standard scientific and philosophical consensus."
   },
   {
     "id": 40,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #40)",
+    "topicRef": "Historical Antecedents: Ancient Architecture (Roman Aqueducts)",
+    "question": "The ancient Romans engineered monumental 'Aqueducts' using volcanic pozzolana concrete and gravity flow primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Transport fresh mountain spring water across vast distances to supply urban public baths, fountains, and private households."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Serve as fortified military boundary walls against barbarian invasions."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Store combustible petroleum fuel for naval galleys."
       },
       {
         "key": "D",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Drain toxic industrial radioactive waste away from cities."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Historical Antecedents: Ancient Architecture (Roman Aqueducts). Transport fresh mountain spring water across vast distances to supply urban public baths, fountains, and private households. represents standard scientific and philosophical consensus."
   },
   {
     "id": 41,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #41)",
+    "topicRef": "Historical Antecedents: Middle Ages Inventions (Gutenberg Press)",
+    "question": "Johannes Gutenberg's invention of the movable-type printing press in Mainz, Germany (circa 1440) democratized knowledge across Europe by:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Replacing all written languages with computer binary code."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Allowing monarchs to completely eliminate public literacy."
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Preventing the dissemination of scientific manuscripts."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Dramatically lowering the cost of book production, accelerating literacy, and fueling the Protestant Reformation and Scientific Revolution."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Historical Antecedents: Middle Ages Inventions (Gutenberg Press). Dramatically lowering the cost of book production, accelerating literacy, and fueling the Protestant Reformation and Scientific Revolution. represents standard scientific and philosophical consensus."
   },
   {
     "id": 42,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #42)",
+    "topicRef": "Historical Antecedents: Middle Ages Inventions (Compass & Gunpowder)",
+    "question": "The 'Four Great Inventions' of ancient and medieval China (Papermaking, Printing, Gunpowder, and the Magnetic Compass) transformed world history by:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Introducing nuclear fusion energy to agricultural farming."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Inventing digital microprocessor silicon chips."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Revolutionizing global maritime navigation, military warfare, cartography, and knowledge dissemination."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Creating the first automated steam locomotive railways."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Historical Antecedents: Middle Ages Inventions (Compass & Gunpowder). Revolutionizing global maritime navigation, military warfare, cartography, and knowledge dissemination. represents standard scientific and philosophical consensus."
   },
   {
     "id": 43,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #43)",
+    "topicRef": "Industrial Revolution: James Watt's Steam Engine",
+    "question": "James Watt's perfected steam engine (1769) catalyzed the First Industrial Revolution by providing:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Synthetic petroleum plastics for automotive manufacturing."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "A reliable, portable source of mechanical power that emancipated manufacturing and transportation from reliance on human/animal muscle and watermills."
       },
       {
         "key": "C",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Clean renewable electrical energy generated from solar panels."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Automated digital microcomputers for textile factory payrolls."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Industrial Revolution: James Watt's Steam Engine. A reliable, portable source of mechanical power that emancipated manufacturing and transportation from reliance on human/animal muscle and watermills. represents standard scientific and philosophical consensus."
   },
   {
     "id": 44,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #44)",
+    "topicRef": "Industrial Revolution: Public Health & Sanitation",
+    "question": "The rapid urbanization of the Industrial Revolution caused severe cholera outbreaks until John Snow and Edwin Chadwick established that:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Diseases are transmitted through contaminated municipal drinking water and poor sanitation, leading to modern public water engineering."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Cholera is caused by inhaling cold evening moonlight."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Diseases result from spiritual moral defects in factory workers."
       },
       {
         "key": "D",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Inhaling coal factory soot strengthens biological lung tissue."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Industrial Revolution: Public Health & Sanitation. Diseases are transmitted through contaminated municipal drinking water and poor sanitation, leading to modern public water engineering. represents standard scientific and philosophical consensus."
   },
   {
     "id": 45,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #45)",
+    "topicRef": "Science & Society: The Green Revolution (Norman Borlaug)",
+    "question": "The 'Green Revolution' (1960s-1970s), pioneered by Nobel Laureate Norman Borlaug and IRRI in Los Banos, Laguna, saved over a billion people from starvation by:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Replacing all grain crops with synthetic chemical food tablets."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Banning the use of water in agricultural farming."
       },
       {
         "key": "C",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Converting all arable land into industrial manufacturing factories."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Breeding semi-dwarf, high-yield, disease-resistant crop varieties (e.g., IR8 'Miracle Rice') combined with modern irrigation and agronomy."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: The Green Revolution (Norman Borlaug). Breeding semi-dwarf, high-yield, disease-resistant crop varieties (e.g., IR8 'Miracle Rice') combined with modern irrigation and agronomy. represents standard scientific and philosophical consensus."
   },
   {
     "id": 46,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #46)",
+    "topicRef": "Biotechnology: Human Cloning & Stem Cell Ethics",
+    "question": "In bioethics, the sharp ethical distinction between 'Therapeutic Cloning' and 'Reproductive Cloning' is that therapeutic cloning aims to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Manufacture genetically modified pets for commercial pet stores."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Eliminate all human genetic diversity across global populations."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Generate stem cells genetically matched to a patient for regenerative medicine without creating a cloned baby."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Clone identical human babies for military armed battalions."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Human Cloning & Stem Cell Ethics. Generate stem cells genetically matched to a patient for regenerative medicine without creating a cloned baby. represents standard scientific and philosophical consensus."
   },
   {
     "id": 47,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #47)",
+    "topicRef": "Biotechnology: Somatic vs Germline Gene Editing",
+    "question": "In genetic engineering ethics, 'Germline Gene Editing' is subject to intense international regulatory scrutiny because:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "It is 100% risk-free and carries zero off-target mutation risks."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Genetic modifications made to eggs, sperm, or early embryos are heritable and passed down permanently to all future generations."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "It affects only the treated somatic cells of a single living patient without inheritance."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "It requires the use of radioactive uranium isotopes."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "explanation": "This item evaluates scientific literacy and STS competence in Biotechnology: Somatic vs Germline Gene Editing. Genetic modifications made to eggs, sperm, or early embryos are heritable and passed down permanently to all future generations. represents standard scientific and philosophical consensus."
   },
   {
     "id": 48,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #48)",
+    "topicRef": "Environmental Issues: Microplastics in Marine Ecosystems",
+    "question": "Microplastics (plastic particles smaller than 5 mm) pose a catastrophic environmental and human health hazard because they:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Persist for centuries, adsorb toxic chemical pollutants, and bioaccumulate up the marine food chain into human seafood."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Dissolve into harmless drinking water within 24 hours."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Enhance the reproductive fertility of coral reef polyps."
       },
       {
         "key": "D",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Filter excess carbon dioxide out of ocean surface waters."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Issues: Microplastics in Marine Ecosystems. Persist for centuries, adsorb toxic chemical pollutants, and bioaccumulate up the marine food chain into human seafood. represents standard scientific and philosophical consensus."
   },
   {
     "id": 49,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #49)",
+    "topicRef": "Environmental Issues: Ocean Acidification",
+    "question": "As the global oceans absorb approximately 30% of anthropogenic CO2 emissions, chemical reactions reduce seawater pH, causing 'Ocean Acidification' which:",
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Increases ocean salinity so that ships float higher in the water."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Transforms seawater into potable fresh drinking water."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Causes volcanic eruptions along tectonic ocean ridges."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Corrodes calcium carbonate shells and skeletons of coral reefs, mollusks, and pteropods, threatening marine biodiversity."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Issues: Ocean Acidification. Corrodes calcium carbonate shells and skeletons of coral reefs, mollusks, and pteropods, threatening marine biodiversity. represents standard scientific and philosophical consensus."
   },
   {
     "id": 50,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #50)",
+    "topicRef": "Environmental Issues: Deforestation & Zoonotic Diseases",
+    "question": "Ecological science demonstrates that rampant tropical deforestation and wildlife habitat destruction significantly increase the risk of:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The complete eradication of all insect species globally."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "The immediate transformation of barren soils into lush farmland."
       },
       {
         "key": "C",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Zoonotic spillover events, where novel viral pathogens jump from wild animals to human populations (e.g., SARS-CoV-2, Ebola)."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "The spontaneous cooling of regional atmospheric weather patterns."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "explanation": "This item evaluates scientific literacy and STS competence in Environmental Issues: Deforestation & Zoonotic Diseases. Zoonotic spillover events, where novel viral pathogens jump from wild animals to human populations (e.g., SARS-CoV-2, Ebola). represents standard scientific and philosophical consensus."
   },
   {
     "id": 51,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #51)",
+    "topicRef": "Information Age: The Digital Divide",
+    "question": "In STS, the 'Digital Divide' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The legal separation of computer software and hardware patents."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "The socio-economic gap between demographics and regions that have access to modern ICT infrastructure and those that do not."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "The physical space between two computer server racks in a data center."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "The mathematical difference between 32-bit and 64-bit microprocessors."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "explanation": "This item evaluates scientific literacy and STS competence in Information Age: The Digital Divide. The socio-economic gap between demographics and regions that have access to modern ICT infrastructure and those that do not. represents standard scientific and philosophical consensus."
   },
   {
     "id": 52,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #52)",
+    "topicRef": "Information Age: E-Waste Hazards",
+    "question": "Improper disposal and informal recycling of Electronic Waste (E-waste) poses grave public health hazards because electronic components contain:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Toxic heavy metals such as lead, mercury, cadmium, and brominated flame retardants that leach into groundwater."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "High concentrations of edible organic plant proteins."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Harmless pure distilled water that evaporates quickly."
       },
       {
         "key": "D",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Radioactive medical plutonium isotopes in consumer smartphones."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Information Age: E-Waste Hazards. Toxic heavy metals such as lead, mercury, cadmium, and brominated flame retardants that leach into groundwater. represents standard scientific and philosophical consensus."
   },
   {
     "id": 53,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #53)",
+    "topicRef": "Philosophy of Tech: Technological Determinism vs Social Constructivism",
+    "question": "While 'Technological Determinism' claims that technology develops autonomously and dictates social change, 'Social Constructivism' (SCOT) argues that:",
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Technology has zero impact on human civilization."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Machines possess independent biological conscious desires."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "All technologies are created exclusively by government military decrees."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Human actions, cultural values, social institutions, and economic choices shape how technologies are developed and used."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Technological Determinism vs Social Constructivism. Human actions, cultural values, social institutions, and economic choices shape how technologies are developed and used. represents standard scientific and philosophical consensus."
   },
   {
     "id": 54,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #54)",
+    "topicRef": "Philosophy of Tech: Langdon Winner's 'Do Artifacts Have Politics?'",
+    "question": "Political theorist Langdon Winner argued that technical artifacts can embody political properties, famously citing Robert Moses' low highway overpasses in New York which:",
     "options": [
       {
         "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Generated renewable solar power for municipal subway systems."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Allowed cargo ships to navigate urban river canals."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Deliberately prevented public buses carrying low-income and minority citizens from accessing Long Island beaches."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Were designed to improve the aerodynamic speed of electric sports cars."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Tech: Langdon Winner's 'Do Artifacts Have Politics?'. Deliberately prevented public buses carrying low-income and minority citizens from accessing Long Island beaches. represents standard scientific and philosophical consensus."
   },
   {
     "id": 55,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #55)",
+    "topicRef": "Science & Society: The Precautionary Principle",
+    "question": "The Precautionary Principle in STS governance dictates that when human activities carry potential threats of serious or irreversible harm:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Industrial companies are exempt from all environmental liabilities."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Lack of full scientific certainty should not be used as a reason to postpone cost-effective measures to prevent harm."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Governments must wait for 100% unanimous scientific agreement before acting."
       },
       {
         "key": "D",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Technological innovation should proceed with zero safety regulations."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: The Precautionary Principle. Lack of full scientific certainty should not be used as a reason to postpone cost-effective measures to prevent harm. represents standard scientific and philosophical consensus."
   },
   {
     "id": 56,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #56)",
+    "topicRef": "Space Science: Space Debris (Kessler Syndrome)",
+    "question": "The 'Kessler Syndrome' in orbital astronautics describes a catastrophic scenario where the density of space debris in Low Earth Orbit (LEO) becomes so high that:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Collisions between objects create a cascading chain reaction of fragments, rendering orbital space unusable for generations."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Satellites fall simultaneously onto major world capital cities."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "The Earth's gravitational pull reverses its physical polarity."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Rocket engines consume all atmospheric oxygen in the stratosphere."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Space Science: Space Debris (Kessler Syndrome). Collisions between objects create a cascading chain reaction of fragments, rendering orbital space unusable for generations. represents standard scientific and philosophical consensus."
   },
   {
     "id": 57,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #57)",
+    "topicRef": "Energy Science: Nuclear Fission vs Fusion",
+    "question": "While existing commercial nuclear power plants generate electricity through Nuclear FISSION (splitting heavy uranium nuclei), experimental fusion reactors (like ITER) aim to generate clean energy through:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Burning pulverized coal inside magnetic containment fields."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Splitting water molecules using household electrical batteries."
       },
       {
         "key": "C",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Extracting petroleum oil from geothermal volcanic geysers."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "Nuclear FUSION (combining light hydrogen isotopes like deuterium and tritium at extreme temperatures, mimicking the Sun)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Energy Science: Nuclear Fission vs Fusion. Nuclear FUSION (combining light hydrogen isotopes like deuterium and tritium at extreme temperatures, mimicking the Sun). represents standard scientific and philosophical consensus."
   },
   {
     "id": 58,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #58)",
+    "topicRef": "Energy Science: Advantages of Nuclear Fusion",
+    "question": "If commercialized, Nuclear Fusion offers transformative advantages over fossil fuels and fission because it produces:",
     "options": [
       {
         "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Massive volumes of greenhouse methane gas."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "Permanent radioactive air pollution."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Abundant energy from seawater isotopes with zero long-lived radioactive waste, zero greenhouse gases, and zero risk of meltdown."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Harmful acid rain that dissolves limestone buildings."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Energy Science: Advantages of Nuclear Fusion. Abundant energy from seawater isotopes with zero long-lived radioactive waste, zero greenhouse gases, and zero risk of meltdown. represents standard scientific and philosophical consensus."
   },
   {
     "id": 59,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #59)",
+    "topicRef": "Emerging Tech: Quantum Computing",
+    "question": "Unlike classical computers that process information in binary bits (0 or 1), Quantum Computers process 'Qubits' utilizing quantum superposition and entanglement to:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "Connect directly to human telepathic thought waves."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Perform complex calculations (such as molecular drug simulation and cryptography breaking) exponentially faster than supercomputers."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "Replace the need for electrical power supplies."
       },
       {
         "key": "D",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "Store physical paper books inside microscopic laser beams."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Emerging Tech: Quantum Computing. Perform complex calculations (such as molecular drug simulation and cryptography breaking) exponentially faster than supercomputers. represents standard scientific and philosophical consensus."
   },
   {
     "id": 60,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #60)",
+    "topicRef": "Emerging Tech: Synthetic Biology & Biobricks",
+    "question": "In modern synthetic biology, the use of standardized genetic parts called 'BioBricks' allows bioengineers to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "Design and construct novel artificial biological pathways, microbes, and enzymes for medicine, biofuels, and bioremediation."
       },
       {
         "key": "B",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "Manufacture plastic children's building blocks in factories."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Clone prehistoric dinosaurs for public entertainment parks."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "Replace all natural agricultural plants with synthetic concrete."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Emerging Tech: Synthetic Biology & Biobricks. Design and construct novel artificial biological pathways, microbes, and enzymes for medicine, biofuels, and bioremediation. represents standard scientific and philosophical consensus."
   },
   {
     "id": 61,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #61)",
+    "topicRef": "Science & Society: Citizen Science",
+    "question": "In contemporary environmental monitoring, 'Citizen Science' refers to:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Mandatory laboratory testing conducted on military recruits."
       },
       {
         "key": "B",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "Censoring scientific discoveries that contradict state propaganda."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Replacing all professional university researchers with automated software."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "The active participation of the general public and non-professional volunteers in scientific research, data collection, and biodiversity tracking."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: Citizen Science. The active participation of the general public and non-professional volunteers in scientific research, data collection, and biodiversity tracking. represents standard scientific and philosophical consensus."
   },
   {
     "id": 62,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #62)",
+    "topicRef": "Indigenous Science: Traditional Ecological Knowledge (TEK)",
+    "question": "Traditional Ecological Knowledge (TEK) developed over centuries by indigenous communities (such as Ifugao terrace irrigation and herbal ethnobotany):",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Conflicts with all modern biological classification systems."
       },
       {
         "key": "B",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
+        "text": "Is legally copyrighted by multinational pharmaceutical monopolies."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Provides invaluable, time-tested insights into local biodiversity conservation, sustainable agriculture, and climate adaptation."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "Is completely unscientific folklore that should be eliminated."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Indigenous Science: Traditional Ecological Knowledge (TEK). Provides invaluable, time-tested insights into local biodiversity conservation, sustainable agriculture, and climate adaptation. represents standard scientific and philosophical consensus."
   },
   {
     "id": 63,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #63)",
+    "topicRef": "Philippine Science Policy: Balik Scientist Program (RA 11035)",
+    "question": "Republic Act 11035 (Balik Scientist Act) provides incentives and fellowships to encourage Filipino scientists and technologists abroad to:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "Relinquish their Philippine citizenship."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "Return to the Philippines and share their advanced expertise to accelerate national R&D and technological capacity."
       },
       {
         "key": "C",
-        "text": "Zero scientific significance."
+        "text": "Permanently surrender their foreign university degrees."
       },
       {
         "key": "D",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
+        "text": "Work exclusively in non-technical administrative office roles."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philippine Science Policy: Balik Scientist Program (RA 11035). Return to the Philippines and share their advanced expertise to accelerate national R&D and technological capacity. represents standard scientific and philosophical consensus."
   },
   {
     "id": 64,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #64)",
+    "topicRef": "Public Health: Antimicrobial Resistance (AMR)",
+    "question": "Antimicrobial Resistance (AMR)\u2014the evolution of bacteria and viruses that survive standard antibiotic treatments\u2014is driven primarily by:",
     "options": [
       {
         "key": "A",
-        "text": "Complete cessation of technological research."
+        "text": "The over-prescription of antibiotics in human medicine and widespread misuse in industrial livestock growth promotion."
       },
       {
         "key": "B",
-        "text": "Zero scientific significance."
+        "text": "Drinking unboiled tap water in rural communities."
       },
       {
         "key": "C",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
+        "text": "The natural rotation of planetary seasonal weather patterns."
       },
       {
         "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The complete avoidance of all pharmaceutical drugs."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Public Health: Antimicrobial Resistance (AMR). The over-prescription of antibiotics in human medicine and widespread misuse in industrial livestock growth promotion. represents standard scientific and philosophical consensus."
   },
   {
     "id": 65,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #65)",
+    "topicRef": "Public Health: One Health Approach",
+    "question": "The World Health Organization's 'One Health' framework recognizes that human health is inextricably linked to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "The financial profitability of private health insurance corporations."
       },
       {
         "key": "B",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
+        "text": "The number of hospitals built in major metropolitan centers."
       },
       {
         "key": "C",
-        "text": "Immediate destruction of power plants."
+        "text": "The chronological age of university medical professors."
       },
       {
         "key": "D",
-        "text": "Complete cessation of technological research."
+        "text": "The health of animals and the shared physical environment/ecosystem."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Public Health: One Health Approach. The health of animals and the shared physical environment/ecosystem. represents standard scientific and philosophical consensus."
   },
   {
     "id": 66,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #66)",
+    "topicRef": "Energy Transition: Battery Storage & Lithium-Ion",
+    "question": "The global transition to electric vehicles (EVs) and intermittent renewable grids relies heavily on Lithium-Ion batteries, raising STS challenges regarding:",
     "options": [
       {
         "key": "A",
-        "text": "Immediate destruction of power plants."
+        "text": "The high risk of nuclear radiation leaks from lithium atoms."
       },
       {
         "key": "B",
-        "text": "Complete cessation of technological research."
+        "text": "The total absence of electrical recharging infrastructure."
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
+        "text": "The environmental, human rights, and geopolitical impacts of mining critical minerals like lithium, cobalt, and nickel."
       },
       {
         "key": "D",
-        "text": "Zero scientific significance."
+        "text": "The excessive weight of batteries causing highway bridges to collapse."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
+    "explanation": "This item evaluates scientific literacy and STS competence in Energy Transition: Battery Storage & Lithium-Ion. The environmental, human rights, and geopolitical impacts of mining critical minerals like lithium, cobalt, and nickel. represents standard scientific and philosophical consensus."
   },
   {
     "id": 67,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #67)",
+    "topicRef": "Ethics of Tech: Autonomous Vehicles (The Trolley Problem)",
+    "question": "In autonomous vehicle safety engineering, programming self-driving cars to make split-second decisions in unavoidable fatal crashes is a modern application of:",
     "options": [
       {
         "key": "A",
-        "text": "Zero scientific significance."
+        "text": "The Ideal Gas Law in chemical thermodynamics."
       },
       {
         "key": "B",
-        "text": "Immediate destruction of power plants."
+        "text": "The Trolley Problem in applied ethics and moral philosophy."
       },
       {
         "key": "C",
-        "text": "Complete cessation of technological research."
+        "text": "Newton's First Law of Gravitational Motion."
       },
       {
         "key": "D",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
-  },
-  {
-    "id": 68,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #68)",
-    "options": [
-      {
-        "key": "A",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "B",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "C",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "D",
-        "text": "Immediate destruction of power plants."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
-  },
-  {
-    "id": 69,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #69)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
-        "text": "Immediate destruction of power plants."
-      },
-      {
-        "key": "D",
-        "text": "Complete cessation of technological research."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
-  },
-  {
-    "id": 70,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #70)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "B",
-        "text": "Immediate destruction of power plants."
-      },
-      {
-        "key": "C",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "D",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
-  },
-  {
-    "id": 71,
-    "topicRef": "Science, Technology, and Society: Genetically Modified Organisms (GMOs)",
-    "question": "Golden Rice was genetically engineered through modern biotechnology primarily to address which widespread micronutrient deficiency in developing countries? (Item #71)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "B",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "C",
-        "text": "Vitamin A Deficiency (leading to childhood blindness and immune weakness)."
-      },
-      {
-        "key": "D",
-        "text": "Immediate destruction of power plants."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Golden Rice is genetically enriched with beta-carotene (provitamin A) to combat childhood blindness in rice-dependent populations."
-  },
-  {
-    "id": 72,
-    "topicRef": "Science, Technology, and Society: Nanotechnology Risks",
-    "question": "Why do regulatory agencies scrutinize nanomaterials (particles measuring 1 to 100 nanometers) differently from bulk chemical compounds? (Item #72)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Nanoparticles exhibit unique quantum properties, exceptionally high reactivity, and can penetrate cellular membranes and the blood-brain barrier."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
-        "text": "Immediate destruction of power plants."
-      },
-      {
-        "key": "D",
-        "text": "Complete cessation of technological research."
-      }
-    ],
-    "correctAnswer": "A",
-    "explanation": "At nanoscale, high surface-area-to-volume ratios alter toxicity, chemical reactivity, and biological permeability."
-  },
-  {
-    "id": 73,
-    "topicRef": "Science, Technology, and Society: Artificial Intelligence & Algorithmic Bias",
-    "question": "Algorithmic bias in AI automated hiring or criminal recidivism software occurs primarily because: (Item #73)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "B",
-        "text": "Immediate destruction of power plants."
-      },
-      {
-        "key": "C",
-        "text": "The machine learning models are trained on historical datasets that contain embedded historical human prejudices and socio-economic inequities."
-      },
-      {
-        "key": "D",
-        "text": "Zero scientific significance."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "AI systems mirror and amplify historical biases present in their training training data."
-  },
-  {
-    "id": 74,
-    "topicRef": "Science, Technology, and Society: The Paris Climate Agreement (COP21)",
-    "question": "The primary international goal of the 2015 Paris Climate Agreement is to limit the increase in global average temperature to: (Item #74)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Immediate destruction of power plants."
-      },
-      {
-        "key": "B",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "C",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "D",
-        "text": "Well below 2.0°C above pre-industrial levels, preferably pursuing efforts to limit it to 1.5°C."
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "The Paris Agreement establishes the legally binding global temperature ceiling to avert catastrophic climate tipping points."
-  },
-  {
-    "id": 75,
-    "topicRef": "Science, Technology, and Society: Renewable Energy Transitions",
-    "question": "Why is the Philippines geographically advantageous for Geothermal Energy power generation? (Item #75)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Complete cessation of technological research."
-      },
-      {
-        "key": "B",
-        "text": "It is located along the Pacific Ring of Fire, possessing abundant volcanic magma reservoirs and geothermal steam fields."
-      },
-      {
-        "key": "C",
-        "text": "Zero scientific significance."
-      },
-      {
-        "key": "D",
-        "text": "Immediate destruction of power plants."
+        "text": "The Pythagorean Theorem in planar geometry."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Philippines is one of the world's top producers of geothermal energy due to its active tectonic Ring of Fire location."
+    "explanation": "This item evaluates scientific literacy and STS competence in Ethics of Tech: Autonomous Vehicles (The Trolley Problem). The Trolley Problem in applied ethics and moral philosophy. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 68,
+    "topicRef": "Ethics of Tech: Deepfakes & Information Integrity",
+    "question": "Deepfake technology\u2014using deep neural generative adversarial networks (GANs) to synthesize realistic fake audio/video\u2014poses severe STS threats to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Democratic trust, electoral integrity, judicial evidence reliability, and personal privacy/reputation."
+      },
+      {
+        "key": "B",
+        "text": "The storage capacity of computer hard drives."
+      },
+      {
+        "key": "C",
+        "text": "The transmission speed of fiber-optic internet cables."
+      },
+      {
+        "key": "D",
+        "text": "The physical power output of solar photovoltaic panels."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Ethics of Tech: Deepfakes & Information Integrity. Democratic trust, electoral integrity, judicial evidence reliability, and personal privacy/reputation. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 69,
+    "topicRef": "Philosophy of Science: Thomas Kuhn's Paradigm Shifts",
+    "question": "In The Structure of Scientific Revolutions (1962), Thomas Kuhn argued that scientific progress occurs not by steady accumulation, but through:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Unchanging adherence to ancient Aristotelian physics."
+      },
+      {
+        "key": "B",
+        "text": "Daily random revisions of chemical periodic tables."
+      },
+      {
+        "key": "C",
+        "text": "The complete elimination of peer-reviewed scientific journals."
+      },
+      {
+        "key": "D",
+        "text": "'Paradigm Shifts', where accumulated anomalies trigger a revolutionary replacement of a dominant scientific framework."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Science: Thomas Kuhn's Paradigm Shifts. 'Paradigm Shifts', where accumulated anomalies trigger a revolutionary replacement of a dominant scientific framework. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 70,
+    "topicRef": "Philosophy of Science: Karl Popper's Falsificationism",
+    "question": "Philosopher of science Karl Popper argued that the defining criterion of a genuinely scientific theory is its 'Falsifiability', meaning:",
+    "options": [
+      {
+        "key": "A",
+        "text": "It must be 100% mathematically proven to be infallible for all eternity."
+      },
+      {
+        "key": "B",
+        "text": "It must be impossible to test or criticize in a laboratory."
+      },
+      {
+        "key": "C",
+        "text": "It must make specific empirical predictions that could, in principle, be proven false by observation or experiment."
+      },
+      {
+        "key": "D",
+        "text": "It must be endorsed by a majority vote of political legislators."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Philosophy of Science: Karl Popper's Falsificationism. It must make specific empirical predictions that could, in principle, be proven false by observation or experiment. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 71,
+    "topicRef": "History of Science: The Scientific Revolution (Bacon & Galileo)",
+    "question": "Francis Bacon's development of the empirical inductive method and Galileo Galilei's telescopic observations established the foundation of modern science by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Rejecting all mathematical measurements in astronomical studies."
+      },
+      {
+        "key": "B",
+        "text": "Insisting that scientific knowledge must be based on systematic observation, experimentation, and mathematical evidence rather than dogma."
+      },
+      {
+        "key": "C",
+        "text": "Relying exclusively on theological authority and medieval scholastic disputation."
+      },
+      {
+        "key": "D",
+        "text": "Banning all physical experiments in European universities."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in History of Science: The Scientific Revolution (Bacon & Galileo). Insisting that scientific knowledge must be based on systematic observation, experimentation, and mathematical evidence rather than dogma. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 72,
+    "topicRef": "Science & Society: The Tragedy of the Commons (Hardin)",
+    "question": "Garrett Hardin's 'Tragedy of the Commons' illustrates that without shared governance or regulation, individuals acting rationally in self-interest will:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Overexploit and deplete finite shared common-pool resources (e.g., fisheries, pastures, clean atmosphere), causing collective ruin."
+      },
+      {
+        "key": "B",
+        "text": "Automatically preserve all natural resources in perfect ecological harmony."
+      },
+      {
+        "key": "C",
+        "text": "Increase the economic wealth of every citizen equally."
+      },
+      {
+        "key": "D",
+        "text": "Eliminate all forms of industrial air pollution."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: The Tragedy of the Commons (Hardin). Overexploit and deplete finite shared common-pool resources (e.g., fisheries, pastures, clean atmosphere), causing collective ruin. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 73,
+    "topicRef": "Science & Society: Dual-Use Research",
+    "question": "In biological science governance, 'Dual-Use Research of Concern' (DURC) refers to legitimate research that:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Requires funding from two separate government departments."
+      },
+      {
+        "key": "B",
+        "text": "Is written in both English and Filipino languages."
+      },
+      {
+        "key": "C",
+        "text": "Is conducted using both microscopes and telescopes."
+      },
+      {
+        "key": "D",
+        "text": "Could be directly misapplied to create dangerous biological weapons or devastating pandemic pathogens."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: Dual-Use Research. Could be directly misapplied to create dangerous biological weapons or devastating pandemic pathogens. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 74,
+    "topicRef": "Science & Society: Epistemic Injustice",
+    "question": "In STS and social philosophy, 'Epistemic Injustice' occurs when a person's testimony or knowledge is unfairly discounted because of:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Their inability to solve complex calculus equations."
+      },
+      {
+        "key": "B",
+        "text": "Their physical geographic distance from government capital buildings."
+      },
+      {
+        "key": "C",
+        "text": "Prejudices and biases related to their social identity, gender, race, or marginalized status."
+      },
+      {
+        "key": "D",
+        "text": "Their lack of a high-speed broadband internet subscription."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates scientific literacy and STS competence in Science & Society: Epistemic Injustice. Prejudices and biases related to their social identity, gender, race, or marginalized status. represents standard scientific and philosophical consensus."
+  },
+  {
+    "id": 75,
+    "topicRef": "STS Synthesis: Responsible Research and Innovation (RRI)",
+    "question": "The European and global framework of 'Responsible Research and Innovation' (RRI) mandates that scientists and policymakers must:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Maximize commercial shareholder profits regardless of ethical risks."
+      },
+      {
+        "key": "B",
+        "text": "Anticipate societal impacts, engage public stakeholders openly, and align R&D with human values, sustainability, and ethics."
+      },
+      {
+        "key": "C",
+        "text": "Prioritize short-term military weapon development above all else."
+      },
+      {
+        "key": "D",
+        "text": "Conceal all scientific data from public oversight and review."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates scientific literacy and STS competence in STS Synthesis: Responsible Research and Innovation (RRI). Anticipate societal impacts, engage public stakeholders openly, and align R&D with human values, sustainability, and ethics. represents standard scientific and philosophical consensus."
   }
 ];

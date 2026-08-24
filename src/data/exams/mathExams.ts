@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "Patterns in Nature: The Fibonacci Sequence",
-    "question": "What is the 8th term of the standard Fibonacci sequence: 1, 1, 2, 3, 5, 8, 13, ...?",
+    "topicRef": "Patterns in Nature: Fibonacci Sequence",
+    "question": "In the standard Fibonacci sequence defined recursively by F(n) = F(n-1) + F(n-2) with F(1)=1, F(2)=1, F(3)=2, F(4)=3, what is the 10th Fibonacci number (F10)?",
     "options": [
       {
         "key": "A",
-        "text": "18"
+        "text": "34."
       },
       {
         "key": "B",
-        "text": "34"
+        "text": "89."
       },
       {
         "key": "C",
-        "text": "21 ((8 + 13 = 21))"
+        "text": "144."
       },
       {
         "key": "D",
-        "text": "20"
+        "text": "55."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "In Fibonacci, each term is the sum of the two preceding terms: (F_1=1, F_2=1, F_3=2, F_4=3, F_5=5, F_6=8, F_7=13, F_8=21)."
+    "correctAnswer": "D",
+    "explanation": "The Fibonacci sequence is 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89... The 10th term F(10) = 55."
   },
   {
     "id": 2,
     "topicRef": "Patterns in Nature: The Golden Ratio (Phi)",
-    "question": "The Golden Ratio ((phi = \frac{1 + sqrt{5}}{2})), found in sunflower seed spirals, pinecones, and classical architecture, is approximately equal to:",
+    "question": "The ratio of consecutive terms in the Fibonacci sequence (F(n+1)/F(n)) converges as n approaches infinity to the Golden Ratio (Phi, Greek letter phi). What is its exact mathematical value?",
     "options": [
       {
         "key": "A",
-        "text": "3.141"
+        "text": "(1 + sqrt(2)) / 2 approximately equal to 1.207."
       },
       {
         "key": "B",
-        "text": "1.618"
+        "text": "(sqrt(5) - 1) / 2 approximately equal to 0.618."
       },
       {
         "key": "C",
-        "text": "0.577"
+        "text": "(1 + sqrt(5)) / 2 approximately equal to 1.6180339887..."
       },
       {
         "key": "D",
-        "text": "2.718"
+        "text": "(1 + sqrt(3)) / 2 approximately equal to 1.366."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Golden Ratio ((phi)) is approximately 1.6180339887... representing divine proportion in mathematics and nature."
+    "correctAnswer": "C",
+    "explanation": "The Golden Ratio Phi = (1 + sqrt(5))/2 is the positive root of x^2 - x - 1 = 0, approximately 1.6180339887..."
   },
   {
     "id": 3,
-    "topicRef": "Set Theory: Cardinality & Operations",
-    "question": "Given Set (A = {1, 2, 3, 4, 5}) and Set (B = {4, 5, 6, 7}), what is the Intersection (A cap B)?",
+    "topicRef": "Patterns in Nature: Fractals & Self-Similarity",
+    "question": "A geometric object that exhibits self-similarity across all scales\u2014meaning any magnified part looks mathematically identical or similar to the whole object\u2014is called a:",
     "options": [
       {
         "key": "A",
-        "text": "(emptyset)"
+        "text": "Tessellated Polygon."
       },
       {
         "key": "B",
-        "text": "({1, 2, 3})"
+        "text": "Fractal (e.g., Mandelbrot Set, Koch Snowflake, Sierpinski Triangle, Romanesco broccoli)."
       },
       {
         "key": "C",
-        "text": "({1, 2, 3, 4, 5, 6, 7})"
+        "text": "Platonic Solid."
       },
       {
         "key": "D",
-        "text": "({4, 5})"
+        "text": "Eulerian Circuit."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The intersection (A cap B) consists of elements present in both sets simultaneously (elements 4 and 5)."
+    "correctAnswer": "B",
+    "explanation": "Fractals possess self-similarity (repeating patterns at every scale) and typically have non-integer fractal dimensions."
   },
   {
     "id": 4,
-    "topicRef": "Mathematical Logic: Conditional Statement (p -> q)",
-    "question": "In formal symbolic logic, the conditional statement (p \to q) is FALSE ONLY when:",
+    "topicRef": "Patterns in Nature: Regular Tessellations",
+    "question": "A 'Regular Tessellation' is a tiling of the plane using only one type of regular polygon with zero gaps or overlaps. Which are the only three regular polygons that can form regular tessellations?",
     "options": [
       {
         "key": "A",
-        "text": "(p) is True and (q) is False ((T \to F equiv F))"
+        "text": "Equilateral Triangles, Squares, and Regular Hexagons."
       },
       {
         "key": "B",
-        "text": "(p) is False and (q) is True"
+        "text": "Equilateral Triangles, Regular Pentagons, and Regular Octagons."
       },
       {
         "key": "C",
-        "text": "(p) is False and (q) is False"
+        "text": "Squares, Regular Pentagons, and Regular Decagons."
       },
       {
         "key": "D",
-        "text": "(p) is True and (q) is True"
+        "text": "Regular Hexagons, Regular Heptagons, and Regular Nonagons."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "A conditional implication (p \to q) is false strictly when a true antecedent leads to a false consequent; in all other cases, it is logically true."
+    "explanation": "Only polygons whose interior angles divide 360 degrees evenly can tile the plane regularly: Triangles (60 deg * 6 = 360), Squares (90 deg * 4 = 360), Hexagons (120 deg * 3 = 360)."
   },
   {
     "id": 5,
-    "topicRef": "Logic: Contrapositive",
-    "question": "What is the logically equivalent 'Contrapositive' of the conditional statement 'If it is raining, then the ground is wet' ((p \to q))?",
+    "topicRef": "Patterns in Nature: Radial Symmetry",
+    "question": "A sea anemone, sunflower disc, or starfish whose body parts are arranged symmetrically around a central axis exhibits:",
     "options": [
       {
         "key": "A",
-        "text": "'It is raining and the ground is dry'"
+        "text": "Bilateral (Mirror) Symmetry."
       },
       {
         "key": "B",
-        "text": "'If the ground is not wet, then it is not raining' ((sim q \to sim p))"
+        "text": "Asymmetry."
       },
       {
         "key": "C",
-        "text": "'If it is not raining, then the ground is not wet' (Inverse)"
+        "text": "Translational Symmetry only."
       },
       {
         "key": "D",
-        "text": "'If the ground is wet, then it is raining' (Converse)"
+        "text": "Radial (Rotational) Symmetry."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A conditional statement (p \to q) is logically equivalent only to its contrapositive (sim q \to sim p)."
+    "correctAnswer": "D",
+    "explanation": "Radial symmetry occurs when an organism can be divided into identical halves by any plane passing through its central longitudinal axis."
   },
   {
     "id": 6,
-    "topicRef": "Problem Solving: Polya's 4-Step Model",
-    "question": "What are the four sequential steps in George Polya's classic Problem Solving framework?",
+    "topicRef": "Mathematical Language: Sets & Subsets",
+    "question": "Given a set S with n distinct elements, what is the total number of subsets (including the empty set and S itself) in the power set P(S)?",
     "options": [
       {
         "key": "A",
-        "text": "1. Memorize -> 2. Drill -> 3. Test -> 4. Forget"
+        "text": "n^2."
       },
       {
         "key": "B",
-        "text": "1. Formula -> 2. Substitute -> 3. Solve -> 4. Erase"
+        "text": "n! (n factorial)."
       },
       {
         "key": "C",
-        "text": "1. Understand the Problem -> 2. Devise a Plan -> 3. Carry Out the Plan -> 4. Look Back (Review/Reflect)"
+        "text": "2^n."
       },
       {
         "key": "D",
-        "text": "1. Read -> 2. Guess -> 3. Calculate -> 4. Submit"
+        "text": "2n."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "George Polya's *How to Solve It* (1945) established the universal heuristic: Understand -> Plan -> Execute -> Review/Verify."
+    "explanation": "The power set of a set with n elements always contains exactly 2^n subsets, since each element has 2 independent choices (included or excluded)."
   },
   {
     "id": 7,
-    "topicRef": "Mathematics of Finance: Simple Interest",
-    "question": "Calculate the Simple Interest on a loan principal of ₱50,000 borrowed at an annual interest rate of 6% for 3 years ((I = Prt)).",
+    "topicRef": "Mathematical Logic: Conjunction vs Disjunction",
+    "question": "In symbolic logic, a compound proposition formed by the logical operator 'AND' (conjunction, p ^ q) is true only when:",
     "options": [
       {
         "key": "A",
-        "text": "₱15,000"
+        "text": "Both propositions p and q are false."
       },
       {
         "key": "B",
-        "text": "₱59,000"
+        "text": "Both propositions p and q are simultaneously true."
       },
       {
         "key": "C",
-        "text": "₱3,000"
+        "text": "At least one of the propositions is true."
       },
       {
         "key": "D",
-        "text": "₱9,000 ((I = 50,000 \times 0.06 \times 3 = 9,000))"
+        "text": "Proposition p is true and proposition q is false."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Simple interest formula: (I = Prt = 50,000 \times 0.06 \times 3 = ₱9,000)."
+    "correctAnswer": "B",
+    "explanation": "A conjunction (p ^ q) is strictly true only when both conjuncts are true; if either proposition is false, the entire conjunction is false."
   },
   {
     "id": 8,
-    "topicRef": "Statistics: Standard Score (Z-Score)",
-    "question": "A student scored 92 in an exam with Mean = 80 and Standard Deviation = 6. What is the Z-score?",
+    "topicRef": "Mathematical Logic: Conditional Statement (Implication)",
+    "question": "In symbolic logic, under what single truth-value condition is a conditional statement (p -> q, 'If p then q') evaluated as FALSE?",
     "options": [
       {
         "key": "A",
-        "text": "-2.0"
+        "text": "When the antecedent (p) is TRUE and the consequent (q) is FALSE."
       },
       {
         "key": "B",
-        "text": "+1.5"
+        "text": "When both antecedent (p) and consequent (q) are false."
       },
       {
         "key": "C",
-        "text": "+2.0 ((z = \frac{92 - 80}{6} = \frac{12}{6} = +2.0))"
+        "text": "When the antecedent (p) is false and the consequent (q) is true."
       },
       {
         "key": "D",
-        "text": "+0.5"
+        "text": "When both antecedent (p) and consequent (q) are true."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "(z = \frac{X - mu}{sigma} = \frac{92 - 80}{6} = \frac{12}{6} = +2.0)."
+    "correctAnswer": "A",
+    "explanation": "A conditional implication (p -> q) is false ONLY when a true antecedent leads to a false consequent (T -> F = F). In all other truth combinations, it is vacuously or genuinely true."
   },
   {
     "id": 9,
-    "topicRef": "Modular Arithmetic: Clock Arithmetic",
-    "question": "In modulo 12 arithmetic (standard clock time), what is ((8 + 7) pmod{12})?",
+    "topicRef": "Mathematical Logic: Converse, Inverse, Contrapositive",
+    "question": "Given the conditional statement 'If it rains (p), then the ground is wet (q)', what is its logically equivalent Contrapositive?",
     "options": [
       {
         "key": "A",
-        "text": "3 ((15 div 12 = 1) remainder (3), corresponding to 3 o'clock)"
+        "text": "'If the ground is wet (q), then it rains (p)' (Converse)."
       },
       {
         "key": "B",
-        "text": "15"
+        "text": "'If it does not rain (~p), then the ground is not wet (~q)' (Inverse)."
       },
       {
         "key": "C",
-        "text": "12"
+        "text": "'It rains (p) and the ground is not wet (~q)' (Negation)."
       },
       {
         "key": "D",
-        "text": "1"
+        "text": "'If the ground is not wet (~q), then it does not rain (~p).'"
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "(8 + 7 = 15). In modulo 12, (15 equiv 3 pmod{12})."
+    "correctAnswer": "D",
+    "explanation": "A conditional statement (p -> q) is logically equivalent ONLY to its contrapositive (~q -> ~p). The converse (q -> p) and inverse (~p -> ~q) are equivalent to each other, but not to the original statement."
   },
   {
     "id": 10,
-    "topicRef": "Reasoning: Inductive vs Deductive",
-    "question": "Observing that every swan seen so far in a lake is white and concluding that 'All swans in the world are white' is an example of:",
+    "topicRef": "Mathematical Logic: Tautology vs Contradiction",
+    "question": "In propositional logic, a compound proposition that is evaluated as TRUE under all possible truth-value assignments of its components is a:",
     "options": [
       {
         "key": "A",
-        "text": "Mathematical Proof"
+        "text": "Contingency."
       },
       {
         "key": "B",
-        "text": "Inductive Reasoning (specific observations to general rule)"
+        "text": "Fallacy."
       },
       {
         "key": "C",
-        "text": "Direct Verification"
+        "text": "Tautology (e.g., p v ~p)."
       },
       {
         "key": "D",
-        "text": "Deductive Reasoning (general premise to specific conclusion)"
+        "text": "Contradiction (e.g., p ^ ~p)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Inductive reasoning moves from specific observed instances to general probabilistic conclusions, while Deductive reasoning applies general axiomatic rules to derive certain specific conclusions."
+    "correctAnswer": "C",
+    "explanation": "A tautology is a logical formula that is always true in every possible interpretation; a contradiction is always false; a contingency depends on the truth values."
   },
   {
     "id": 11,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #11)",
+    "topicRef": "Mathematical Reasoning: Inductive vs Deductive Reasoning",
+    "question": "A scientist observes 500 white swans across diverse European lakes and concludes: 'Therefore, all swans on Earth are white.' What form of reasoning was used, and is the conclusion guaranteed?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "Transfinite transductive deduction."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Inductive reasoning (moving from specific observations to a general conclusion), which is probable but not logically guaranteed."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Deductive reasoning (moving from general premises to a specific certainty), which is absolutely guaranteed."
       },
       {
         "key": "D",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Direct mathematical proof by contradiction."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "B",
+    "explanation": "Inductive reasoning moves from specific empirical instances to generalized hypotheses; conclusions may be strongly supported, but are never guaranteed against counterexamples (such as black swans)."
   },
   {
     "id": 12,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #12)",
+    "topicRef": "Mathematical Reasoning: Deductive Proof",
+    "question": "Consider the argument: 'All humans are mortal (Premise 1). Socrates is human (Premise 2). Therefore, Socrates is mortal (Conclusion).' This valid argument exemplifies:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Deductive reasoning, where the conclusion necessarily follows with certainty from true general premises."
       },
       {
         "key": "B",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Inductive generalization from statistical sampling."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Abductive guessing based on incomplete data."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Post hoc correlational inference."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "A",
+    "explanation": "Deductive reasoning applies general principles/rules to specific cases to reach logically certain, valid conclusions."
   },
   {
     "id": 13,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #13)",
+    "topicRef": "Statistics: Measures of Central Tendency",
+    "question": "Given the discrete data set of quiz scores: 12, 15, 15, 18, 20, 22, 90. Which measure of central tendency provides the most realistic, robust representation of typical student performance in the presence of the extreme outlier (90)?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Mean (arithmetic average: 27.4)."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Mode (most frequent score: 15)."
       },
       {
         "key": "C",
-        "text": "Fractal"
+        "text": "Mid-range (51)."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Median (the middle score when data is ordered: 18)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "D",
+    "explanation": "The median is resistant/robust to extreme outliers, whereas the arithmetic mean is pulled heavily toward extreme values (90), inflating the average."
   },
   {
     "id": 14,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #14)",
+    "topicRef": "Statistics: Measures of Dispersion (Standard Deviation)",
+    "question": "What does a very low Standard Deviation (e.g., SD = 1.2) indicate about a distribution of exam scores compared to a high Standard Deviation (e.g., SD = 9.8)?",
     "options": [
       {
         "key": "A",
-        "text": "Tautology"
+        "text": "The exam had zero validity and reliability."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "The scores are extremely spread out, dispersed, and heterogeneous."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "The scores are closely clustered and concentrated near the mean, indicating high consistency/homogeneity."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "The students performed poorly and failed the examination."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "C",
+    "explanation": "Standard deviation measures the average dispersion or spread of data points from the arithmetic mean. Low SD indicates tight clustering/homogeneity; high SD indicates wide spread/heterogeneity."
   },
   {
     "id": 15,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #15)",
+    "topicRef": "Statistics: Empirical Rule (Normal Distribution 68-95-99.7)",
+    "question": "In a perfectly bell-shaped, symmetrical Normal Distribution, approximately what percentage of all data values fall within plus or minus 2 standard deviations (mu +- 2 sigma) of the mean?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "50.00%."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "95.44% (approximately 95%)."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "68.26% (approximately 68%)."
       },
       {
         "key": "D",
-        "text": "Caesar Cipher"
+        "text": "99.73% (approximately 99.7%)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "B",
+    "explanation": "The Empirical (68-95-99.7) Rule for normal distributions dictates: ~68% falls within 1 SD, ~95% falls within 2 SD, and ~99.7% falls within 3 SD of the mean."
   },
   {
     "id": 16,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #16)",
+    "topicRef": "Statistics: Standard Scores (Z-Score)",
+    "question": "A student scores X = 85 on a nationwide test where the population mean is mu = 70 and standard deviation is sigma = 10. What is the student's Z-Score, and what does it signify?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "Z = +1.5, meaning the score is 1.5 standard deviations above the population mean."
       },
       {
         "key": "B",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Z = +15.0, meaning the student scored 15 times better than average."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Z = -1.5, meaning the score is 1.5 standard deviations below average."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Z = +0.85, indicating an 85th percentile rank."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Statistics: Standard Scores (Z-Score). Z = +1.5, meaning the score is 1.5 standard deviations above the population mean. represents standard mathematical definition and derivation."
   },
   {
     "id": 17,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #17)",
+    "topicRef": "Statistics: Pearson Correlation Coefficient (r)",
+    "question": "A Pearson correlation coefficient of r = -0.88 between student hours spent playing mobile games and final GPA indicates:",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "A weak positive linear relationship."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Zero statistical correlation between the two variables."
       },
       {
         "key": "C",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "That playing mobile games directly causes biological brain damage."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "A strong negative linear relationship (as gaming hours increase, GPA significantly decreases)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Statistics: Pearson Correlation Coefficient (r). A strong negative linear relationship (as gaming hours increase, GPA significantly decreases). represents standard mathematical definition and derivation."
   },
   {
     "id": 18,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #18)",
+    "topicRef": "Statistics: Correlation vs Causation",
+    "question": "A statistical study finds a strong positive correlation (r = +0.91) between ice cream sales and drownings at beaches. This high correlation is best explained by:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Drownings cause survivors to buy ice cream to soothe emotional grief."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Statistical data collection fraud by ice cream manufacturers."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "A confounding / lurking third variable (hot summer weather) that independently increases both swimming and ice cream consumption."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Eating ice cream directly causes swimmers to suffer fatal muscle cramps."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Statistics: Correlation vs Causation. A confounding / lurking third variable (hot summer weather) that independently increases both swimming and ice cream consumption. represents standard mathematical definition and derivation."
   },
   {
     "id": 19,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #19)",
+    "topicRef": "Mathematics of Finance: Simple Interest Formula",
+    "question": "How much Simple Interest (I = P * r * t) is earned on a principal investment of P = Php 50,000 invested at an annual interest rate of r = 6% for a period of t = 3 years?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Php 59,000."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Php 9,000."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Php 3,000."
       },
       {
         "key": "D",
-        "text": "Tautology"
+        "text": "Php 15,000."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Simple Interest Formula. Php 9,000. represents standard mathematical definition and derivation."
   },
   {
     "id": 20,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #20)",
+    "topicRef": "Mathematics of Finance: Compound Interest Formula",
+    "question": "Using the compound interest formula A = P(1 + r/n)^(nt), what is the total future maturity value of P = Php 100,000 invested for t = 2 years at an annual interest rate of r = 8% compounded semi-annually (n = 2)?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "Php 116,985.86."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Php 116,000.00."
       },
       {
         "key": "C",
-        "text": "Caesar Cipher"
+        "text": "Php 108,000.00."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Php 136,048.90."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Compound Interest Formula. Php 116,985.86. represents standard mathematical definition and derivation."
   },
   {
     "id": 21,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #21)",
+    "topicRef": "Mathematics of Finance: Compounding Frequency Power",
+    "question": "Why does compound interest generate significantly greater long-term wealth than simple interest at the identical nominal rate?",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Because simple interest formulas deduct government income tax automatically."
       },
       {
         "key": "B",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Because compound interest relies on unpredictable stock market gambles."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "Because banks waive all administrative fees for compound accounts."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Because interest earned in each period is added to the principal, earning interest on accumulated interest exponentially."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Compounding Frequency Power. Because interest earned in each period is added to the principal, earning interest on accumulated interest exponentially. represents standard mathematical definition and derivation."
   },
   {
     "id": 22,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #22)",
+    "topicRef": "Mathematics of Finance: Annuities (Ordinary Annuity)",
+    "question": "An 'Ordinary Annuity' in financial mathematics is defined as:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "A cash payment made at the beginning of each period (Annuity Due)."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "A lottery jackpot that decreases in value each month."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "A sequence of equal, periodic cash payments made or received at the END of each compounding period."
       },
       {
         "key": "D",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "A lump-sum deposit left untouched for 50 years without interest."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Annuities (Ordinary Annuity). A sequence of equal, periodic cash payments made or received at the END of each compounding period. represents standard mathematical definition and derivation."
   },
   {
     "id": 23,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #23)",
+    "topicRef": "Mathematics of Finance: Amortization",
+    "question": "When a homeowner pays off a 15-year mortgage through regular monthly payments, 'Amortization' ensures that over time:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "The interest rate increases exponentially every month."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "The proportion of each monthly payment allocated to principal increases, while the proportion allocated to interest decreases."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "The entire monthly payment pays only interest for 15 years with zero principal reduction."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "The monthly payment doubles in price every calendar year."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Amortization. The proportion of each monthly payment allocated to principal increases, while the proportion allocated to interest decreases. represents standard mathematical definition and derivation."
   },
   {
     "id": 24,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #24)",
+    "topicRef": "Voting Theory: Plurality Method",
+    "question": "In an election with four candidates, Candidate A receives 38% of first-place votes, Candidate B receives 32%, Candidate C receives 20%, and Candidate D receives 10%. Under the 'Plurality Method', the winner is:",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Candidate A (the candidate with the highest number of first-place votes, regardless of whether a majority is reached)."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Candidate B, because B has fewer negative votes."
       },
       {
         "key": "C",
-        "text": "Tautology"
+        "text": "No one; a new election must be called with different candidates."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Candidates A and B must share the executive office jointly."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Voting Theory: Plurality Method. Candidate A (the candidate with the highest number of first-place votes, regardless of whether a majority is reached). represents standard mathematical definition and derivation."
   },
   {
     "id": 25,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #25)",
+    "topicRef": "Voting Theory: Majority Criterion",
+    "question": "The 'Majority Criterion' in social choice theory states that if a candidate receives more than 50% of all first-place votes, that candidate should:",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Be eliminated in the first round of voting."
       },
       {
         "key": "B",
-        "text": "Caesar Cipher"
+        "text": "Compete in a coin toss against the runner-up."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Receive an honorary medal without taking office."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Always win the election."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Voting Theory: Majority Criterion. Always win the election. represents standard mathematical definition and derivation."
   },
   {
     "id": 26,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #26)",
+    "topicRef": "Voting Theory: Borda Count Method",
+    "question": "In the 'Borda Count' voting system with 4 candidates, points are assigned to voters' preference rankings (e.g., 4 pts for 1st, 3 pts for 2nd, 2 pts for 3rd, 1 pt for 4th). The winner is:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "The candidate who spent the lowest financial budget on campaigns."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "The candidate randomly drawn from a ballot box."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "The candidate who accumulates the highest total sum of points across all ballots."
       },
       {
         "key": "D",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "The candidate with the most last-place votes."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Voting Theory: Borda Count Method. The candidate who accumulates the highest total sum of points across all ballots. represents standard mathematical definition and derivation."
   },
   {
     "id": 27,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #27)",
+    "topicRef": "Voting Theory: Condorcet Criterion",
+    "question": "A candidate who beats every other candidate in head-to-head pairwise comparisons is called a 'Condorcet Winner'. Arrow's Impossibility Theorem proved that:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Pairwise comparisons can never be calculated on computers."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "No ranked-choice voting system with 3 or more candidates can satisfy all fairness criteria simultaneously."
       },
       {
         "key": "C",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Democracy is mathematically identical to dictatorship in all circumstances."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Voters always vote for the wealthiest candidate on the ballot."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Voting Theory: Condorcet Criterion. No ranked-choice voting system with 3 or more candidates can satisfy all fairness criteria simultaneously. represents standard mathematical definition and derivation."
   },
   {
     "id": 28,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #28)",
+    "topicRef": "Apportionment: Hamilton's Largest Remainder Method",
+    "question": "In legislative apportionment, Alexander Hamilton's method allocates standard quotas by giving each state its lower quota, and distributing surplus seats to:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "The states with the largest fractional remainders (decimal parts) of their standard quotas."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "The state with the highest physical land area."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "The state that pays the highest federal income taxes."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "The smallest state regardless of quota calculations."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "explanation": "This item evaluates mathematical competence in Apportionment: Hamilton's Largest Remainder Method. The states with the largest fractional remainders (decimal parts) of their standard quotas. represents standard mathematical definition and derivation."
   },
   {
     "id": 29,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #29)",
+    "topicRef": "Apportionment: Alabama Paradox",
+    "question": "The 'Alabama Paradox' in apportionment mathematics occurs when:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "A state secedes from the federation during a census recount."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Two states with identical populations receive different numbers of senators."
       },
       {
         "key": "C",
-        "text": "Tautology"
+        "text": "A state's population triples but its quota remains zero."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "An increase in the total number of legislative seats to be apportioned causes a state to LOSE a seat, with no change in populations."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Apportionment: Alabama Paradox. An increase in the total number of legislative seats to be apportioned causes a state to LOSE a seat, with no change in populations. represents standard mathematical definition and derivation."
   },
   {
     "id": 30,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #30)",
+    "topicRef": "Graph Theory: Vertices and Edges (Euler's Seven Bridges of Konigsberg)",
+    "question": "Leonhard Euler founded Graph Theory in 1736 by proving that crossing all Seven Bridges of Konigsberg exactly once without retracing (an Euler Path) was impossible because:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The river was too wide for mathematical measurement."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "The bridges were guarded by Prussian military sentries."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "More than two landmasses (vertices) had an ODD number of bridges (edges) connected to them."
       },
       {
         "key": "D",
-        "text": "Caesar Cipher"
+        "text": "The bridges were constructed of unstable wooden planks that collapsed."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Vertices and Edges (Euler's Seven Bridges of Konigsberg). More than two landmasses (vertices) had an ODD number of bridges (edges) connected to them. represents standard mathematical definition and derivation."
   },
   {
     "id": 31,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #31)",
+    "topicRef": "Graph Theory: Euler Path Theorem",
+    "question": "According to Euler's Theorem, a connected graph has an 'Eulerian Path' (a path that visits every edge exactly once) if and only if it has:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "No vertices connected by edges."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Exactly 0 or exactly 2 vertices of odd degree."
       },
       {
         "key": "C",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "All vertices of odd degree."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Exactly 4 vertices of odd degree."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Euler Path Theorem. Exactly 0 or exactly 2 vertices of odd degree. represents standard mathematical definition and derivation."
   },
   {
     "id": 32,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #32)",
+    "topicRef": "Graph Theory: Euler Circuit Theorem",
+    "question": "A connected graph has an 'Eulerian Circuit' (a closed trail that starts and ends at the same vertex, visiting every edge exactly once) if and only if:",
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Every vertex in the graph has an EVEN degree."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "At least two vertices have an odd degree."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "The graph contains no loops or multiple edges."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "The total number of edges is a prime number."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Euler Circuit Theorem. Every vertex in the graph has an EVEN degree. represents standard mathematical definition and derivation."
   },
   {
     "id": 33,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #33)",
+    "topicRef": "Graph Theory: Hamiltonian Circuit vs Euler Circuit",
+    "question": "While an Euler Circuit visits every EDGE in a graph exactly once, a 'Hamiltonian Circuit' must:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Visit every edge twice in alphabetical order."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Cross the maximum number of bridges possible in a river."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "Disconnect the graph into two separate subgraphs."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Visit every VERTEX (node) in the graph exactly once and return to the starting vertex."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Hamiltonian Circuit vs Euler Circuit. Visit every VERTEX (node) in the graph exactly once and return to the starting vertex. represents standard mathematical definition and derivation."
   },
   {
     "id": 34,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #34)",
+    "topicRef": "Graph Theory: Traveling Salesperson Problem (TSP)",
+    "question": "The Traveling Salesperson Problem (TSP) seeks to find:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The minimum number of colors needed to color a geographic map."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "The maximum volume of network data flow through a fiber-optic cable."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "The Hamiltonian circuit with the lowest total edge weight (distance, time, or cost) visiting every city once."
       },
       {
         "key": "D",
-        "text": "Tautology"
+        "text": "The shortest path between two isolated vertices using Dijkstra's algorithm."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Traveling Salesperson Problem (TSP). The Hamiltonian circuit with the lowest total edge weight (distance, time, or cost) visiting every city once. represents standard mathematical definition and derivation."
   },
   {
     "id": 35,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #35)",
+    "topicRef": "Graph Theory: Four-Color Theorem",
+    "question": "The Four-Color Theorem (proven by Appel and Haken in 1976 using computer assistance) states that:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Three-dimensional topological models require infinite colors."
       },
       {
         "key": "B",
-        "text": "Caesar Cipher"
+        "text": "Any contiguous map on a flat plane can be colored using at most 4 colors such that no two adjacent regions share the same color."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Every planar graph requires exactly 12 colors."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Maps drawn on spheres cannot be colored mathematically."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Four-Color Theorem. Any contiguous map on a flat plane can be colored using at most 4 colors such that no two adjacent regions share the same color. represents standard mathematical definition and derivation."
   },
   {
     "id": 36,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #36)",
+    "topicRef": "Modular Arithmetic: Clock Arithmetic",
+    "question": "In modular arithmetic modulo 12 (12-hour clock arithmetic), what is the evaluation of (8 + 9) mod 12?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "5 (since 8 + 9 = 17, and 17 divided by 12 gives a remainder of 5)."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "17."
       },
       {
         "key": "C",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "1."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "7."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Modular Arithmetic: Clock Arithmetic. 5 (since 8 + 9 = 17, and 17 divided by 12 gives a remainder of 5). represents standard mathematical definition and derivation."
   },
   {
     "id": 37,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #37)",
+    "topicRef": "Modular Arithmetic: Multiplicative Congruence",
+    "question": "What is the remainder when (7 * 8) is evaluated in modulo 5 arithmetic: (7 * 8) mod 5?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "6."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "0."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "2."
       },
       {
         "key": "D",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "1 (since 7 * 8 = 56, and 56 = 5 * 11 + 1)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "explanation": "This item evaluates mathematical competence in Modular Arithmetic: Multiplicative Congruence. 1 (since 7 * 8 = 56, and 56 = 5 * 11 + 1). represents standard mathematical definition and derivation."
   },
   {
     "id": 38,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #38)",
+    "topicRef": "Cryptography: Caesar Cipher (Shift Cipher)",
+    "question": "In classical cryptography, if a message is encrypted using a Caesar Cipher with a shift key of k = +3, the plaintext word 'CAT' encrypts to:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "'ZBQ'."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "'DCA'."
       },
       {
         "key": "C",
-        "text": "Fractal"
+        "text": "'FDW' (C->F, A->D, T->W)."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "'EBS'."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "explanation": "This item evaluates mathematical competence in Cryptography: Caesar Cipher (Shift Cipher). 'FDW' (C->F, A->D, T->W). represents standard mathematical definition and derivation."
   },
   {
     "id": 39,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #39)",
+    "topicRef": "Cryptography: Symmetric vs Asymmetric Encryption",
+    "question": "In modern public-key (asymmetric) cryptography (such as RSA encryption):",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "No mathematical prime numbers are involved in key generation."
       },
       {
         "key": "B",
-        "text": "Tautology"
+        "text": "A public key is used to encrypt the message, while a mathematically linked private key is used to decrypt it."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "Both sender and receiver share the identical secret password over unsecure email."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Messages are encoded using mechanical Caesar substitution wheels."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "explanation": "This item evaluates mathematical competence in Cryptography: Symmetric vs Asymmetric Encryption. A public key is used to encrypt the message, while a mathematically linked private key is used to decrypt it. represents standard mathematical definition and derivation."
   },
   {
     "id": 40,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #40)",
+    "topicRef": "Cryptography: RSA Algorithm and Prime Factorization",
+    "question": "The security of the RSA public-key cryptosystem relies fundamentally on the computational difficulty of:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Factoring extremely large composite numbers into their two large prime factors."
       },
       {
         "key": "B",
-        "text": "Caesar Cipher"
+        "text": "Calculating simple addition of two single-digit numbers."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "Sorting alphabetical dictionaries in reverse order."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Measuring physical electrical resistance in copper wires."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Cryptography: RSA Algorithm and Prime Factorization. Factoring extremely large composite numbers into their two large prime factors. represents standard mathematical definition and derivation."
   },
   {
     "id": 41,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #41)",
+    "topicRef": "Linear Regression: Line of Best Fit (y = mx + b)",
+    "question": "In linear regression analysis, the 'Line of Best Fit' is calculated using the Method of Least Squares, which minimizes:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The arithmetic mean of the independent variable x."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "The total number of collected data sample points."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "The variance of the dependent variable y."
       },
       {
         "key": "D",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "The sum of the squared vertical distances (residuals/errors) between data points and the regression line."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "explanation": "This item evaluates mathematical competence in Linear Regression: Line of Best Fit (y = mx + b). The sum of the squared vertical distances (residuals/errors) between data points and the regression line. represents standard mathematical definition and derivation."
   },
   {
     "id": 42,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #42)",
+    "topicRef": "Statistics: Coefficient of Determination (R^2)",
+    "question": "If the correlation between two variables is r = 0.80, what is the Coefficient of Determination (R^2), and how is it interpreted?",
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "R^2 = 1.60, indicating an impossible statistical error."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "R^2 = 0.40, indicating a weak relationship."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "R^2 = 0.64 (64%), meaning 64% of the total variation in the dependent variable is explained by the independent variable."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "R^2 = 0.80 (80%), meaning the test is 80% reliable."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Statistics: Coefficient of Determination (R^2). R^2 = 0.64 (64%), meaning 64% of the total variation in the dependent variable is explained by the independent variable. represents standard mathematical definition and derivation."
   },
   {
     "id": 43,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #43)",
+    "topicRef": "Mathematical Logic: Quantifiers (Universal vs Existential)",
+    "question": "What is the correct logical negation of the universally quantified statement: 'All teachers in this school hold a master's degree'?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "'Some teachers in this school hold a master's degree.'"
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "'There exists at least one teacher in this school who does not hold a master's degree.'"
       },
       {
         "key": "C",
-        "text": "Fractal"
+        "text": "'No teachers in this school hold a master's degree.'"
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "'All teachers in this school do not hold a master's degree.'"
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Mathematical Logic: Quantifiers (Universal vs Existential). 'There exists at least one teacher in this school who does not hold a master's degree.' represents standard mathematical definition and derivation."
   },
   {
     "id": 44,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #44)",
+    "topicRef": "Set Theory: Venn Diagrams (Inclusion-Exclusion Principle)",
+    "question": "In a survey of 100 students: 60 like Math, 50 like Science, and 20 like both Math and Science. How many students like NEITHER Math nor Science?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "10 students (using |M u S| = 60 + 50 - 20 = 90; 100 - 90 = 10)."
       },
       {
         "key": "B",
-        "text": "Tautology"
+        "text": "30 students."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "20 students."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "0 students."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Set Theory: Venn Diagrams (Inclusion-Exclusion Principle). 10 students (using |M u S| = 60 + 50 - 20 = 90; 100 - 90 = 10). represents standard mathematical definition and derivation."
   },
   {
     "id": 45,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #45)",
+    "topicRef": "Probability: Mutually Exclusive Events",
+    "question": "Two events A and B are 'Mutually Exclusive' (disjoint) if:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The occurrence of event A changes the probability of event B."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Event A is mathematically guaranteed to cause event B."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "P(A or B) = 1 in all sample spaces."
       },
       {
         "key": "D",
-        "text": "Caesar Cipher"
+        "text": "They cannot occur at the same time (P(A and B) = 0)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "explanation": "This item evaluates mathematical competence in Probability: Mutually Exclusive Events. They cannot occur at the same time (P(A and B) = 0). represents standard mathematical definition and derivation."
   },
   {
     "id": 46,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #46)",
+    "topicRef": "Probability: Independent Events",
+    "question": "Two events A and B are statistically 'Independent' if:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "P(A) is equal to 0."
       },
       {
         "key": "B",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Event A and event B must happen simultaneously."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "The occurrence of event A has no effect on the probability of event B occurring (P(A and B) = P(A) * P(B))."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Event A and event B share identical physical outcomes."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Probability: Independent Events. The occurrence of event A has no effect on the probability of event B occurring (P(A and B) = P(A) * P(B)). represents standard mathematical definition and derivation."
   },
   {
     "id": 47,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #47)",
+    "topicRef": "Probability: Permutations vs Combinations",
+    "question": "In combinatorics, 'Permutations' (nPr) are used when ORDER MATTERS (e.g., race podium finishes or PIN codes), while 'Combinations' (nCr) are used when:",
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "The total sample size is infinite."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Order does not matter (e.g., selecting a committee of 3 members from a group of 10)."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Every item must be painted with four colors."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "The numbers must be prime factors."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Probability: Permutations vs Combinations. Order does not matter (e.g., selecting a committee of 3 members from a group of 10). represents standard mathematical definition and derivation."
   },
   {
     "id": 48,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #48)",
+    "topicRef": "Combinatorics: Permutations Calculation",
+    "question": "In how many distinct ways can 1st, 2nd, and 3rd place trophies be awarded among 8 contestants in a speech contest (8P3)?",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "336 ways (8 * 7 * 6 = 336)."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "56 ways (8C3)."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "512 ways (8^3)."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "24 ways."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "explanation": "This item evaluates mathematical competence in Combinatorics: Permutations Calculation. 336 ways (8 * 7 * 6 = 336). represents standard mathematical definition and derivation."
   },
   {
     "id": 49,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #49)",
+    "topicRef": "Combinatorics: Combinations Calculation",
+    "question": "In how many different ways can a teacher select a 4-student delegation from a class of 10 students (10C4)?",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "5,040 ways (10P4)."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "40 ways."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "10,000 ways."
       },
       {
         "key": "D",
-        "text": "Tautology"
+        "text": "210 ways (10! / (4! * 6!) = (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1) = 210)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "explanation": "This item evaluates mathematical competence in Combinatorics: Combinations Calculation. 210 ways (10! / (4! * 6!) = (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1) = 210). represents standard mathematical definition and derivation."
   },
   {
     "id": 50,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #50)",
+    "topicRef": "Data Management: Box-and-Whisker Plots",
+    "question": "In an exploratory data analysis box plot (Box-and-Whisker Plot), what does the box itself represent?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The 95% confidence interval of the sample mean."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "The frequency of the mode in categorical data."
       },
       {
         "key": "C",
-        "text": "Caesar Cipher"
+        "text": "The Interquartile Range (IQR = Q3 - Q1), containing the middle 50% of the data values."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "The absolute range of the entire data set from minimum to maximum."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "explanation": "This item evaluates mathematical competence in Data Management: Box-and-Whisker Plots. The Interquartile Range (IQR = Q3 - Q1), containing the middle 50% of the data values. represents standard mathematical definition and derivation."
   },
   {
     "id": 51,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #51)",
+    "topicRef": "Data Management: Identifying Outliers (IQR Method)",
+    "question": "Using John Tukey's standard box plot rule, a data value is flagged as a statistical 'Outlier' if it falls:",
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Below the 50th percentile."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Below Q1 - 1.5(IQR) or above Q3 + 1.5(IQR)."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Exactly equal to the arithmetic mean."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Between Q1 and Q3."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Data Management: Identifying Outliers (IQR Method). Below Q1 - 1.5(IQR) or above Q3 + 1.5(IQR). represents standard mathematical definition and derivation."
   },
   {
     "id": 52,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #52)",
+    "topicRef": "Mathematical Reasoning: Proof by Contradiction",
+    "question": "In formal mathematics, a 'Proof by Contradiction' (Reductio ad Absurdum) establishes the truth of a proposition P by:",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "Assuming that P is FALSE (~P is true) and demonstrating that this assumption logically leads to an impossible contradiction."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Conducting a survey of 1,000 professional mathematicians."
       },
       {
         "key": "C",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Drawing a geometric diagram on graph paper."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Calculating numerical examples on a scientific calculator."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Mathematical Reasoning: Proof by Contradiction. Assuming that P is FALSE (~P is true) and demonstrating that this assumption logically leads to an impossible contradiction. represents standard mathematical definition and derivation."
   },
   {
     "id": 53,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #53)",
+    "topicRef": "Number Theory: Prime Numbers & Sieve of Eratosthenes",
+    "question": "An ancient Greek algorithm used to find all prime numbers up to a specified integer n by systematically crossing out multiples of each prime is the:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Euclidean Algorithm."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Pascal's Triangle."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Fibonacci Spiral."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Sieve of Eratosthenes."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Number Theory: Prime Numbers & Sieve of Eratosthenes. Sieve of Eratosthenes. represents standard mathematical definition and derivation."
   },
   {
     "id": 54,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #54)",
+    "topicRef": "Number Theory: Greatest Common Divisor (GCD)",
+    "question": "Using the Euclidean Algorithm, what is the Greatest Common Divisor (GCD) of 48 and 18?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "3."
       },
       {
         "key": "B",
-        "text": "Tautology"
+        "text": "2."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "6 (since 48 = 18*2 + 12; 18 = 12*1 + 6; 12 = 6*2 + 0)."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "12."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Number Theory: Greatest Common Divisor (GCD). 6 (since 48 = 18*2 + 12; 18 = 12*1 + 6; 12 = 6*2 + 0). represents standard mathematical definition and derivation."
   },
   {
     "id": 55,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #55)",
+    "topicRef": "Number Theory: Least Common Multiple (LCM)",
+    "question": "What is the Least Common Multiple (LCM) of 12 and 15?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "3."
       },
       {
         "key": "B",
-        "text": "Caesar Cipher"
+        "text": "60 (since 12 = 2^2 * 3, 15 = 3 * 5; LCM = 2^2 * 3 * 5 = 60)."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "180."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "30."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "explanation": "This item evaluates mathematical competence in Number Theory: Least Common Multiple (LCM). 60 (since 12 = 2^2 * 3, 15 = 3 * 5; LCM = 2^2 * 3 * 5 = 60). represents standard mathematical definition and derivation."
   },
   {
     "id": 56,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #56)",
+    "topicRef": "Geometric Transformations: Translations and Rotations",
+    "question": "An 'Isometry' (rigid transformation) in geometry is a transformation that preserves:",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Length, angle measure, and geometric distance, keeping the original figure congruent."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Color hue and tonal value only."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Area while altering side lengths."
       },
       {
         "key": "D",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Perspective while shrinking dimensions."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Geometric Transformations: Translations and Rotations. Length, angle measure, and geometric distance, keeping the original figure congruent. represents standard mathematical definition and derivation."
   },
   {
     "id": 57,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #57)",
+    "topicRef": "Geometric Patterns: Wallpaper Groups",
+    "question": "In two-dimensional planar crystallography, how many mathematically distinct 'Wallpaper Groups' (plane symmetry groups) exist that can tile the plane infinitely?",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "7 frieze groups."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "12 platonic groups."
       },
       {
         "key": "C",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "3 regular groups."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "17 distinct wallpaper groups."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Geometric Patterns: Wallpaper Groups. 17 distinct wallpaper groups. represents standard mathematical definition and derivation."
   },
   {
     "id": 58,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #58)",
+    "topicRef": "Frieze Patterns: Infinitely Repeating Borders",
+    "question": "A geometric pattern that repeats infinitely along a single straight LINE or strip (such as architectural molding or textile borders) is called a:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Fractal Dimension."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Tessellation Grid."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Frieze Pattern (of which there are exactly 7 distinct mathematical symmetry types)."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Wallpaper Pattern."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Frieze Patterns: Infinitely Repeating Borders. Frieze Pattern (of which there are exactly 7 distinct mathematical symmetry types). represents standard mathematical definition and derivation."
   },
   {
     "id": 59,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #59)",
+    "topicRef": "Statistics: Skewness in Data Distributions",
+    "question": "In a 'Positively Skewed' (Right-Skewed) distribution with a long tail stretching to the right, how are the Mean, Median, and Mode typically related?",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Median < Mode < Mean."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Mode < Median < Mean (the Mean is pulled right toward the high outlier tail)."
       },
       {
         "key": "C",
-        "text": "Tautology"
+        "text": "Mean < Median < Mode (Left-Skewed)."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Mean = Median = Mode (Symmetrical)."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Statistics: Skewness in Data Distributions. Mode < Median < Mean (the Mean is pulled right toward the high outlier tail). represents standard mathematical definition and derivation."
   },
   {
     "id": 60,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #60)",
+    "topicRef": "Statistics: Negatively Skewed Distributions",
+    "question": "In a 'Negatively Skewed' (Left-Skewed) distribution (e.g., an easy exam where most students scored high, with a few very low scores), what is the relationship?",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "Mean < Median < Mode (the Mean is pulled down by the low score tail)."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Mode < Median < Mean."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "Mean = Median = Mode."
       },
       {
         "key": "D",
-        "text": "Caesar Cipher"
+        "text": "Mode = Mean < Median."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Statistics: Negatively Skewed Distributions. Mean < Median < Mode (the Mean is pulled down by the low score tail). represents standard mathematical definition and derivation."
   },
   {
     "id": 61,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #61)",
+    "topicRef": "Mathematics of Finance: Effective Annual Rate (EAR)",
+    "question": "Why is the Effective Annual Rate (EAR or APY) of a loan always HIGHER than its nominal Annual Percentage Rate (APR) when interest is compounded more than once a year?",
     "options": [
       {
         "key": "A",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Because banks charge illegal penalty fees."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "Because inflation automatically increases every month."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "Because government bonds lose value annually."
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "Because EAR accounts for the compounding of interest during intermediate sub-periods (interest on interest)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Effective Annual Rate (EAR). Because EAR accounts for the compounding of interest during intermediate sub-periods (interest on interest). represents standard mathematical definition and derivation."
   },
   {
     "id": 62,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #62)",
+    "topicRef": "Mathematics of Finance: Sinking Funds",
+    "question": "A 'Sinking Fund' in municipal and corporate finance is an interest-earning account established specifically to:",
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "Pay executive bonuses during bankruptcy liquidation."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Evade federal corporate income taxes."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "Accumulate a predetermined lump-sum fund over time through regular periodic deposits to retire future debt or replace aging capital equipment."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Distribute cash dividends to stock shareholders daily."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Mathematics of Finance: Sinking Funds. Accumulate a predetermined lump-sum fund over time through regular periodic deposits to retire future debt or replace aging capital equipment. represents standard mathematical definition and derivation."
   },
   {
     "id": 63,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #63)",
+    "topicRef": "Voting Theory: Arrow's Impossibility Theorem",
+    "question": "Kenneth Arrow's landmark 1951 Impossibility Theorem in mathematical economics proved that in any ranked-choice voting system with 3 or more candidates:",
     "options": [
       {
         "key": "A",
-        "text": "Fractal"
+        "text": "Borda count is the only fair voting method."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "No voting rule can simultaneously satisfy Pareto efficiency, non-dictatorship, independence of irrelevant alternatives, and unrestricted domain."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "A majority winner always exists in every election."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "Dictatorships are mathematically impossible."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Voting Theory: Arrow's Impossibility Theorem. No voting rule can simultaneously satisfy Pareto efficiency, non-dictatorship, independence of irrelevant alternatives, and unrestricted domain. represents standard mathematical definition and derivation."
   },
   {
     "id": 64,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #64)",
+    "topicRef": "Graph Theory: Planar Graphs & Euler's Formula",
+    "question": "For any connected planar graph drawn without crossing edges, Euler's Planar Formula relates Vertices (V), Edges (E), and Faces (F) by:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "V - E + F = 2."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "V + E + F = 0."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "V * E = 2F."
       },
       {
         "key": "D",
-        "text": "Tautology"
+        "text": "V^2 - E^2 = F."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Planar Graphs & Euler's Formula. V - E + F = 2. represents standard mathematical definition and derivation."
   },
   {
     "id": 65,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #65)",
+    "topicRef": "Graph Theory: Complete Graphs (Kn)",
+    "question": "In a 'Complete Graph' with n vertices (Kn), where every vertex is connected to every other vertex by a unique edge, what is the total number of edges?",
     "options": [
       {
         "key": "A",
-        "text": "Undefined imaginary number."
+        "text": "n^2."
       },
       {
         "key": "B",
-        "text": "Caesar Cipher"
+        "text": "2n."
       },
       {
         "key": "C",
-        "text": "Zero mathematical relevance."
+        "text": "n!"
       },
       {
         "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "n(n - 1) / 2."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Complete Graphs (Kn). n(n - 1) / 2. represents standard mathematical definition and derivation."
   },
   {
     "id": 66,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #66)",
+    "topicRef": "Graph Theory: Minimum Spanning Tree (Kruskal's Algorithm)",
+    "question": "Kruskal's Algorithm finds the 'Minimum Spanning Tree' (MST) of a connected weighted graph by:",
     "options": [
       {
         "key": "A",
-        "text": "Arbitrary mathematical error."
+        "text": "Selecting the longest edge in the graph first."
       },
       {
         "key": "B",
-        "text": "Zero mathematical relevance."
+        "text": "Finding the Eulerian circuit of highest cost."
       },
       {
         "key": "C",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
+        "text": "Repeatedly adding the edge of minimum weight that does not create a cycle, until all vertices are connected."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
+        "text": "Connecting vertices in alphabetical order regardless of weight."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
+    "explanation": "This item evaluates mathematical competence in Graph Theory: Minimum Spanning Tree (Kruskal's Algorithm). Repeatedly adding the edge of minimum weight that does not create a cycle, until all vertices are connected. represents standard mathematical definition and derivation."
   },
   {
     "id": 67,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #67)",
+    "topicRef": "Number Theory: Modular Inverses & Cryptography",
+    "question": "In modular arithmetic, the integer x is the 'Modular Multiplicative Inverse' of a modulo m if:",
     "options": [
       {
         "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
+        "text": "(a - x) is equal to m."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "(a * x) is congruent to 1 (mod m)."
       },
       {
         "key": "C",
-        "text": "Undefined imaginary number."
+        "text": "(a + x) is congruent to 0 (mod m)."
       },
       {
         "key": "D",
-        "text": "Zero mathematical relevance."
+        "text": "(a * x) is congruent to 0 (mod m)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Number Theory: Modular Inverses & Cryptography. (a * x) is congruent to 1 (mod m). represents standard mathematical definition and derivation."
   },
   {
     "id": 68,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #68)",
+    "topicRef": "Statistics: Law of Large Numbers",
+    "question": "The 'Law of Large Numbers' in probability theory states that as the number of experimental trials increases:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "The empirical relative frequency of an event gets closer and closer to its true theoretical probability."
       },
       {
         "key": "B",
-        "text": "Undefined imaginary number."
+        "text": "The sample variance becomes infinitely large."
       },
       {
         "key": "C",
-        "text": "Arbitrary mathematical error."
+        "text": "The outcomes become completely non-random."
       },
       {
         "key": "D",
-        "text": "Fractal"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
-  },
-  {
-    "id": 69,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #69)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "B",
-        "text": "Tautology"
-      },
-      {
-        "key": "C",
-        "text": "Arbitrary mathematical error."
-      },
-      {
-        "key": "D",
-        "text": "Undefined imaginary number."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
-  },
-  {
-    "id": 70,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #70)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Undefined imaginary number."
-      },
-      {
-        "key": "B",
-        "text": "Caesar Cipher"
-      },
-      {
-        "key": "C",
-        "text": "Arbitrary mathematical error."
-      },
-      {
-        "key": "D",
-        "text": "Zero mathematical relevance."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
-  },
-  {
-    "id": 71,
-    "topicRef": "Mathematics in the Modern World: Compound Interest",
-    "question": "Compound interest generates faster wealth growth than simple interest because: (Item #71)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Undefined imaginary number."
-      },
-      {
-        "key": "B",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "C",
-        "text": "Arbitrary mathematical error."
-      },
-      {
-        "key": "D",
-        "text": "Interest is added to principal, allowing interest to earn additional interest in subsequent compounding periods."
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "Compound growth is exponential: A = P(1 + r/n)^(nt)."
-  },
-  {
-    "id": 72,
-    "topicRef": "Mathematics in the Modern World: Linear Correlation (Pearson r)",
-    "question": "A Pearson correlation coefficient of r = -0.92 indicates: (Item #72)",
-    "options": [
-      {
-        "key": "A",
-        "text": "A very strong negative (inverse) linear relationship between the two variables."
-      },
-      {
-        "key": "B",
-        "text": "Undefined imaginary number."
-      },
-      {
-        "key": "C",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "D",
-        "text": "Arbitrary mathematical error."
+        "text": "The standard deviation equals the sample mean."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Correlation range is -1 to +1; -0.92 indicates that as variable X increases, variable Y sharply decreases."
+    "explanation": "This item evaluates mathematical competence in Statistics: Law of Large Numbers. The empirical relative frequency of an event gets closer and closer to its true theoretical probability. represents standard mathematical definition and derivation."
   },
   {
-    "id": 73,
-    "topicRef": "Mathematics in the Modern World: Fractals in Nature",
-    "question": "A geometric object that exhibits self-similarity across repeating scales of magnification (like fern leaves, coastlines, or Romanesco broccoli) is a: (Item #73)",
+    "id": 69,
+    "topicRef": "Statistics: Central Limit Theorem",
+    "question": "The Central Limit Theorem (CLT) is foundational in inferential statistics because it guarantees that for any population distribution, the sampling distribution of the sample mean:",
     "options": [
       {
         "key": "A",
-        "text": "Zero mathematical relevance."
+        "text": "Becomes perfectly flat and uniform."
       },
       {
         "key": "B",
-        "text": "Arbitrary mathematical error."
+        "text": "Transforms into a binomial distribution."
       },
       {
         "key": "C",
-        "text": "Fractal"
+        "text": "Shrinks to a single discrete integer."
       },
       {
         "key": "D",
-        "text": "Undefined imaginary number."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "Benoit Mandelbrot coined 'Fractals' to describe infinitely complex patterns exhibiting self-similarity."
-  },
-  {
-    "id": 74,
-    "topicRef": "Mathematics in the Modern World: Truth Table Tautology",
-    "question": "In symbolic logic, a compound proposition that is ALWAYS true regardless of the truth values of its individual variables is called a: (Item #74)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Arbitrary mathematical error."
-      },
-      {
-        "key": "B",
-        "text": "Tautology"
-      },
-      {
-        "key": "C",
-        "text": "Undefined imaginary number."
-      },
-      {
-        "key": "D",
-        "text": "Zero mathematical relevance."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "A Tautology is universally true (e.g. p ∨ ~p); a Contradiction is universally false (p ∧ ~p)."
-  },
-  {
-    "id": 75,
-    "topicRef": "Mathematics in the Modern World: Cryptography & Caesar Cipher",
-    "question": "A simple substitution cipher that shifts each letter in the alphabet forward by a fixed number of positions (e.g. shift by 3: A becomes D) is the: (Item #75)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero mathematical relevance."
-      },
-      {
-        "key": "B",
-        "text": "Undefined imaginary number."
-      },
-      {
-        "key": "C",
-        "text": "Arbitrary mathematical error."
-      },
-      {
-        "key": "D",
-        "text": "Caesar Cipher"
+        "text": "Approaches a Normal Distribution as the sample size n becomes sufficiently large (typically n >= 30)."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The Caesar Cipher is an ancient symmetric monoalphabetic substitution cipher based on modular addition."
+    "explanation": "This item evaluates mathematical competence in Statistics: Central Limit Theorem. Approaches a Normal Distribution as the sample size n becomes sufficiently large (typically n >= 30). represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 70,
+    "topicRef": "Statistics: Type I vs Type II Error",
+    "question": "In hypothesis testing, a 'Type I Error' (alpha error) occurs when the researcher:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Accepts both H0 and H1 simultaneously."
+      },
+      {
+        "key": "B",
+        "text": "Calculates an incorrect sample mean."
+      },
+      {
+        "key": "C",
+        "text": "Rejects the Null Hypothesis (H0) when it is actually TRUE (a 'False Positive')."
+      },
+      {
+        "key": "D",
+        "text": "Fails to reject H0 when it is actually FALSE (a 'False Negative', Type II Error)."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Statistics: Type I vs Type II Error. Rejects the Null Hypothesis (H0) when it is actually TRUE (a 'False Positive'). represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 71,
+    "topicRef": "Statistics: Type II Error",
+    "question": "In hypothesis testing, a 'Type II Error' (beta error) occurs when the researcher:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Uses a sample size larger than 100."
+      },
+      {
+        "key": "B",
+        "text": "Fails to reject the Null Hypothesis (H0) when H0 is actually FALSE (a 'False Negative')."
+      },
+      {
+        "key": "C",
+        "text": "Rejects H0 when H0 is true (Type I)."
+      },
+      {
+        "key": "D",
+        "text": "Calculates a negative Z-score."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Statistics: Type II Error. Fails to reject the Null Hypothesis (H0) when H0 is actually FALSE (a 'False Negative'). represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 72,
+    "topicRef": "Mathematical Logic: De Morgan's Laws",
+    "question": "According to De Morgan's Laws in propositional logic, the negation of a conjunction ~(p ^ q) is logically equivalent to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "~p v ~q (Not p OR Not q)."
+      },
+      {
+        "key": "B",
+        "text": "~p ^ ~q."
+      },
+      {
+        "key": "C",
+        "text": "p -> ~q."
+      },
+      {
+        "key": "D",
+        "text": "~(p v q)."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This item evaluates mathematical competence in Mathematical Logic: De Morgan's Laws. ~p v ~q (Not p OR Not q). represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 73,
+    "topicRef": "Mathematical Logic: De Morgan's Law for Disjunction",
+    "question": "According to De Morgan's Laws, the negation of a disjunction ~(p v q) is logically equivalent to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "~p v ~q."
+      },
+      {
+        "key": "B",
+        "text": "p ^ q."
+      },
+      {
+        "key": "C",
+        "text": "~p -> q."
+      },
+      {
+        "key": "D",
+        "text": "~p ^ ~q (Not p AND Not q)."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This item evaluates mathematical competence in Mathematical Logic: De Morgan's Law for Disjunction. ~p ^ ~q (Not p AND Not q). represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 74,
+    "topicRef": "Patterns in Nature: Voronoi Tessellations",
+    "question": "A 'Voronoi Diagram' (seen in giraffe coat patterns, dragonfly wings, and soap bubbles) partitions a plane into regions where each cell consists of all points:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Painted with identical spectral colors."
+      },
+      {
+        "key": "B",
+        "text": "Formed by equilateral triangles only."
+      },
+      {
+        "key": "C",
+        "text": "Closer to its corresponding seed/generating point than to any other seed."
+      },
+      {
+        "key": "D",
+        "text": "Arranged in perfect concentric circles."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This item evaluates mathematical competence in Patterns in Nature: Voronoi Tessellations. Closer to its corresponding seed/generating point than to any other seed. represents standard mathematical definition and derivation."
+  },
+  {
+    "id": 75,
+    "topicRef": "Mathematics in Modern World: Algorithmic Thinking",
+    "question": "In contemporary mathematics and computer science, an 'Algorithm' is defined as:",
+    "options": [
+      {
+        "key": "A",
+        "text": "A philosophical debate on ethical morals."
+      },
+      {
+        "key": "B",
+        "text": "A finite, unambiguous, step-by-step sequence of well-defined instructions for solving a problem or performing a computation."
+      },
+      {
+        "key": "C",
+        "text": "A random guess made during statistical testing."
+      },
+      {
+        "key": "D",
+        "text": "A continuous mathematical function with zero derivatives."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This item evaluates mathematical competence in Mathematics in Modern World: Algorithmic Thinking. A finite, unambiguous, step-by-step sequence of well-defined instructions for solving a problem or performing a computation. represents standard mathematical definition and derivation."
   }
 ];

@@ -3,1877 +3,1877 @@ import { ExamQuestion } from '../../types';
 export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
   {
     "id": 1,
-    "topicRef": "Philippine Geography & Sovereignty: UNCLOS & Philippine Rise",
-    "question": "Under the United Nations Convention on the Law of the Sea (UNCLOS), the 200-nautical-mile maritime zone from the territorial baseline where a coastal state exercises sovereign rights over living and non-living marine resources is the:",
+    "topicRef": "Globalization: Definitional Core (Manfred Steger)",
+    "question": "According to political scientist Manfred Steger, 'Globalization' is best defined as:",
     "options": [
       {
         "key": "A",
-        "text": "Contiguous Zone (24 nautical miles)"
+        "text": "The total elimination of all sovereign nation-states and physical borders by 2000."
       },
       {
         "key": "B",
-        "text": "Exclusive Economic Zone (EEZ)"
+        "text": "The exclusive domination of the global economy by a single corporate monopoly."
       },
       {
         "key": "C",
-        "text": "Territorial Sea (12 nautical miles)"
+        "text": "A static, completed historical event that occurred during the 16th century."
       },
       {
         "key": "D",
-        "text": "High Seas"
+        "text": "The expansion and intensification of social relations and consciousness across world-time and world-space."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "UNCLOS grants coastal nations sovereign exploitation rights over marine resources in their 200-nautical-mile Exclusive Economic Zone (EEZ)."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Globalization: Definitional Core (Manfred Steger). The expansion and intensification of social relations and consciousness across world-time and world-space. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 2,
-    "topicRef": "Pre-Colonial Philippine Society: Social Classes",
-    "question": "In pre-colonial Tagalog society, what distinguished the 'Aliping Namamahay' from the 'Aliping Saguiguilid'?",
+    "topicRef": "Globalization: Three Major Scholarly Perspectives",
+    "question": "David Held categorizes globalization theorists into three camps. 'Hyperglobalists' argue that global economic integration has:",
     "options": [
       {
         "key": "A",
-        "text": "Aliping Saguiguilid were the royalty rulers."
+        "text": "Transformed states in complex, contradictory, and unprecedented ways without eliminating them (Transformationalists)."
       },
       {
         "key": "B",
-        "text": "There was no difference."
+        "text": "Completely reversed all international trade back to medieval feudalism."
       },
       {
         "key": "C",
-        "text": "Aliping Namamahay owned their own house, could marry freely, and served the Datu by paying tribute; Aliping Saguiguilid lived in the master's house and had no property rights."
+        "text": "Weakened the nation-state, creating a borderless global marketplace driven by transnational corporations."
       },
       {
         "key": "D",
-        "text": "Aliping Namamahay were foreign prisoners."
+        "text": "Had zero impact on traditional sovereign national boundaries (Skeptics)."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Aliping Namamahay were householders with private property rights who paid tribute/labor; Aliping Saguiguilid were household dependents living inside the master's home."
+    "explanation": "This question evaluates understanding in Globalization: Three Major Scholarly Perspectives. Weakened the nation-state, creating a borderless global marketplace driven by transnational corporations. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 3,
-    "topicRef": "Spanish Colonial Institutions: Polo y Servicio & Bandala",
-    "question": "During the Spanish colonial period, the compulsory forced labor required of all able-bodied Filipino males (polistas) aged 16 to 60 for 40 days a year on public works was:",
+    "topicRef": "Global Economy: Bretton Woods Conference (1944)",
+    "question": "The landmark 1944 Bretton Woods Conference in New Hampshire established the post-WWII international monetary architecture, creating which two foundational institutions?",
     "options": [
       {
         "key": "A",
-        "text": "Polo y Servicio (exempted only by paying the Falla)"
+        "text": "The Organization of Petroleum Exporting Countries (OPEC) and ASEAN."
       },
       {
         "key": "B",
-        "text": "Tributo"
+        "text": "The International Monetary Fund (IMF) and the World Bank (IBRD)."
       },
       {
         "key": "C",
-        "text": "Encomienda"
+        "text": "The World Trade Organization (WTO) and the United Nations Security Council."
       },
       {
         "key": "D",
-        "text": "Bandala (compulsory sale of crops)"
+        "text": "The European Union (EU) and the North Atlantic Treaty Organization (NATO)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "*Polo y Servicio* was forced public labor (building galleons, bridges, churches), which could be avoided only by paying an exorbitant exemption fee called *Falla*."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Economy: Bretton Woods Conference (1944). The International Monetary Fund (IMF) and the World Bank (IBRD). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 4,
-    "topicRef": "Propaganda Movement & Secularization: GOMBURZA (1872)",
-    "question": "The martyrdom of Fathers Mariano Gomez, Jose Burgos, and Jacinto Zamora (GOMBURZA) on February 17, 1872 at Bagumbayan catalyzed Philippine nationalism because:",
+    "topicRef": "Global Economy: International Monetary Fund (IMF)",
+    "question": "The primary operational mandate of the International Monetary Fund (IMF) is to:",
     "options": [
       {
         "key": "A",
-        "text": "They founded the Katipunan."
+        "text": "Ensure the stability of the international monetary and financial system, manage balance-of-payments crises, and provide short-term emergency loans."
       },
       {
         "key": "B",
-        "text": "They surrendered to British forces."
+        "text": "Fund long-term infrastructure reconstruction projects in war-torn provinces (World Bank role)."
       },
       {
         "key": "C",
-        "text": "They wrote the 1987 Constitution."
+        "text": "Adjudicate international maritime border disputes between sovereign navies (ICJ role)."
       },
       {
         "key": "D",
-        "text": "Their unjust execution via garrote for alleged complicity in the Cavite Mutiny awakened national consciousness among Filipino reformists, notably inspiring Jose Rizal."
+        "text": "Enforce global labor human rights standards in textile factories (ILO role)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The tragic execution of GOMBURZA unified reformists across regional divides and directly inspired Rizal to dedicate his second novel, *El Filibusterismo*, to their memory."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Economy: International Monetary Fund (IMF). Ensure the stability of the international monetary and financial system, manage balance-of-payments crises, and provide short-term emergency loans. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 5,
-    "topicRef": "Philippine Revolution: The Katipunan (KKK)",
-    "question": "Andres Bonifacio founded the *Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan* (KKK) on July 7, 1892 in Tondo, Manila, with the primary revolutionary objective of:",
+    "topicRef": "Global Economy: World Bank Group",
+    "question": "The overarching institutional mission of the World Bank is to:",
     "options": [
       {
         "key": "A",
-        "text": "Requesting peaceful representation in the Spanish Cortes."
+        "text": "Regulate international floating currency exchange rates daily."
       },
       {
         "key": "B",
-        "text": "Total separation and armed independence of the Philippines from the Spanish Empire."
+        "text": "Impose direct trade tariffs on imported foreign agricultural products."
       },
       {
         "key": "C",
-        "text": "Making the Philippines a province of Spain."
+        "text": "Print the official national paper currencies of sovereign states."
       },
       {
         "key": "D",
-        "text": "Establishing a British protectorate."
+        "text": "Provide long-term development loans, technical assistance, and policy advice to reduce poverty and foster sustainable economic development."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Unlike the reformist Propaganda Movement, Bonifacio's Katipunan was a radical separatist secret society dedicated to armed revolution and total national sovereignty."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Economy: World Bank Group. Provide long-term development loans, technical assistance, and policy advice to reduce poverty and foster sustainable economic development. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 6,
-    "topicRef": "Philippine Independence: Kawit Declaration (1898)",
-    "question": "Philippine Independence was proclaimed by General Emilio Aguinaldo on June 12, 1898 in Kawit, Cavite, featuring which historic symbols?",
+    "topicRef": "Global Economy: General Agreement on Tariffs and Trade (GATT) to WTO",
+    "question": "In 1995, the General Agreement on Tariffs and Trade (GATT) was officially succeeded and transformed into the:",
     "options": [
       {
         "key": "A",
-        "text": "The signing of the Treaty of Paris."
+        "text": "Asia-Pacific Economic Cooperation (APEC)."
       },
       {
         "key": "B",
-        "text": "The Battle of Tirad Pass."
+        "text": "Trans-Pacific Partnership (TPP)."
       },
       {
         "key": "C",
-        "text": "The unfurling of the Philippine National Flag (sewn in Hong Kong by Marcela Agoncillo) and the playing of the *Marcha Nacional Filipina* composed by Julian Felipe."
+        "text": "World Trade Organization (WTO), which possesses legally binding dispute settlement mechanisms for international trade."
       },
       {
         "key": "D",
-        "text": "The execution of Rizal."
+        "text": "North American Free Trade Agreement (NAFTA)."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "On June 12, 1898, Aguinaldo unfurled the national flag sewn by Marcela Agoncillo, Lorenza Agoncillo, and Delfina Herbosa, accompanied by Julian Felipe's national march."
+    "explanation": "This question evaluates understanding in Global Economy: General Agreement on Tariffs and Trade (GATT) to WTO. World Trade Organization (WTO), which possesses legally binding dispute settlement mechanisms for international trade. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 7,
-    "topicRef": "First Philippine Republic: Malolos Congress (1899)",
-    "question": "The First Philippine Republic inaugurated at Barasoain Church, Malolos, Bulacan on January 23, 1899 was historically significant as:",
+    "topicRef": "Global Economy: The Washington Consensus",
+    "question": "The 'Washington Consensus', promoted by the IMF, World Bank, and US Treasury in the late 20th century, advocated economic policies centered on:",
     "options": [
       {
         "key": "A",
-        "text": "The first democratic constitutional republic in all of Asia."
+        "text": "Universal basic income funded by 100% corporate wealth taxes."
       },
       {
         "key": "B",
-        "text": "A Japanese puppet regime."
+        "text": "Trade liberalization, privatization of state enterprises, deregulation, and fiscal austerity."
       },
       {
         "key": "C",
-        "text": "An American colony."
+        "text": "Strict protectionist import quotas and state-owned corporate monopolies."
       },
       {
         "key": "D",
-        "text": "A Spanish military outpost."
+        "text": "The complete nationalization of all private commercial banking assets."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The Malolos Republic (under the Malolos Constitution drafted by Felipe Calderon) was the first democratic constitutional republic established in Asia."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Economy: The Washington Consensus. Trade liberalization, privatization of state enterprises, deregulation, and fiscal austerity. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 8,
-    "topicRef": "American Colonization: Treaty of Paris (1898)",
-    "question": "Under the Treaty of Paris signed on December 10, 1898, Spain ceded the Philippines to the United States for the sum of:",
+    "topicRef": "Global Governance: United Nations Principal Organs",
+    "question": "Under the UN Charter, which principal organ of the United Nations is charged with the primary responsibility for the maintenance of international peace and security?",
     "options": [
       {
         "key": "A",
-        "text": "$100 Billion Dollars"
+        "text": "The Security Council (UNSC)."
       },
       {
         "key": "B",
-        "text": "Zero dollars"
+        "text": "The General Assembly (UNGA)."
       },
       {
         "key": "C",
-        "text": "$1 Million Dollars"
+        "text": "The International Court of Justice (ICJ)."
       },
       {
         "key": "D",
-        "text": "$20 Million US Dollars"
+        "text": "The Economic and Social Council (ECOSOC)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The Treaty of Paris ended the Spanish-American War, with Spain selling sovereignty over the Philippines to the US for $20 million without Filipino representation."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Governance: United Nations Principal Organs. The Security Council (UNSC). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 9,
-    "topicRef": "Commonwealth of the Philippines (1935)",
-    "question": "The Commonwealth of the Philippines was inaugurated on November 15, 1935 as a 10-year transition government to full independence, with who serving as the first President?",
+    "topicRef": "Global Governance: UN Security Council Permanent Five (P5)",
+    "question": "The United Nations Security Council consists of 15 members, including five permanent members (P5) who hold the power to 'Veto' substantive resolutions. Who are the P5?",
     "options": [
       {
         "key": "A",
-        "text": "Jose P. Laurel"
+        "text": "United States, Germany, Japan, United Kingdom, and India."
       },
       {
         "key": "B",
-        "text": "Emilio Aguinaldo"
+        "text": "United States, Canada, Australia, France, and Germany."
       },
       {
         "key": "C",
-        "text": "Manuel L. Quezon (with Sergio Osmeña as Vice President)"
+        "text": "China, India, Brazil, Russian Federation, and South Africa (BRICS)."
       },
       {
         "key": "D",
-        "text": "Ramon Magsaysay"
+        "text": "United States, United Kingdom, France, Russian Federation, and China."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Manuel L. Quezon was elected President of the Philippine Commonwealth under the 1935 Constitution, initiating social justice and national language programs."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Governance: UN Security Council Permanent Five (P5). United States, United Kingdom, France, Russian Federation, and China. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 10,
-    "topicRef": "Contemporary History: EDSA People Power Revolution (1986)",
-    "question": "The peaceful four-day EDSA People Power Revolution (February 22–25, 1986) resulted in:",
+    "topicRef": "Global Governance: International Court of Justice (ICJ)",
+    "question": "The International Court of Justice (ICJ), seated at the Peace Palace in The Hague, Netherlands, functions primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "The dissolution of the Supreme Court."
+        "text": "Impose direct military blockades on sovereign naval ports."
       },
       {
         "key": "B",
-        "text": "The end of the 20-year authoritarian Marcos regime, the restoration of democracy, and the swearing-in of Corazon C. Aquino as President."
+        "text": "Collect annual tax contributions from commercial shipping corporations."
       },
       {
         "key": "C",
-        "text": "The start of World War II."
+        "text": "Settle legal disputes submitted to it by sovereign states in accordance with international law, and give advisory opinions."
       },
       {
         "key": "D",
-        "text": "The declaration of Spanish rule."
+        "text": "Conduct criminal prosecutions against individual citizens for international human rights crimes (ICC role)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "EDSA I peacefully toppled the dictatorship through non-violent civilian resistance, restoring constitutional democracy under Corazon Aquino."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Governance: International Court of Justice (ICJ). Settle legal disputes submitted to it by sovereign states in accordance with international law, and give advisory opinions. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 11,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #11)",
+    "topicRef": "Global Governance: International Criminal Court (ICC)",
+    "question": "Unlike the ICJ which adjudicates disputes between sovereign states, the International Criminal Court (ICC, established under the Rome Statute) prosecutes:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Sovereign central banks defaulting on international bond debts."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Individual persons accused of genocide, crimes against humanity, war crimes, and the crime of aggression."
       },
       {
         "key": "C",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Corporate business monopolies violating antitrust regulations."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Maritime shipping insurance underwriters in contractual disputes."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Governance: International Criminal Court (ICC). Individual persons accused of genocide, crimes against humanity, war crimes, and the crime of aggression. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 12,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #12)",
+    "topicRef": "Regionalism: Founding of ASEAN (1967)",
+    "question": "The Association of Southeast Asian Nations (ASEAN) was officially founded on August 8, 1967 with the signing of the Bangkok Declaration by five founding member nations:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Philippines, Indonesia, Malaysia, Singapore, and Thailand."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Philippines, Vietnam, Cambodia, Laos, and Myanmar."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Philippines, Japan, South Korea, China, and Taiwan."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Indonesia, Brunei, Timor-Leste, Singapore, and Papua New Guinea."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "explanation": "This question evaluates understanding in Regionalism: Founding of ASEAN (1967). Philippines, Indonesia, Malaysia, Singapore, and Thailand. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 13,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #13)",
+    "topicRef": "Regionalism: The ASEAN Way",
+    "question": "The foundational diplomatic norm governing ASEAN relations, known as the 'ASEAN Way', is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Authoritarian military enforcement of democratic elections in member states."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Immediate expulsion of any member state experiencing economic inflation."
       },
       {
         "key": "C",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Mandatory adoption of a single common currency (like the Euro)."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Strict adherence to non-interference in internal affairs, consensus-based decision making, and informal consultation over legalistic confrontation."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Regionalism: The ASEAN Way. Strict adherence to non-interference in internal affairs, consensus-based decision making, and informal consultation over legalistic confrontation. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 14,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #14)",
+    "topicRef": "Regionalism: ASEAN Community Pillars",
+    "question": "Formally established in 2015, the ASEAN Community is structured upon which three integrative pillars?",
     "options": [
       {
         "key": "A",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "ASEAN Monetary Union, ASEAN Military Alliance, and ASEAN Judicial Court."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "ASEAN Tourism Board, ASEAN Sports Council, and ASEAN Telecom Grid."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "ASEAN Political-Security Community (APSC), ASEAN Economic Community (AEC), and ASEAN Socio-Cultural Community (ASCC)."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "ASEAN Agricultural League, ASEAN Industrial Guild, and ASEAN Maritime Fleet."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Regionalism: ASEAN Community Pillars. ASEAN Political-Security Community (APSC), ASEAN Economic Community (AEC), and ASEAN Socio-Cultural Community (ASCC). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 15,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #15)",
+    "topicRef": "Regionalism: Regional Comprehensive Economic Partnership (RCEP)",
+    "question": "Ratified by the Philippines in 2023, the Regional Comprehensive Economic Partnership (RCEP) is historically significant as:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "A common environmental tax imposed on foreign tourism flights."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "The world's largest Free Trade Agreement (FTA), encompassing the 10 ASEAN members plus Australia, China, Japan, South Korea, and New Zealand."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "A military defense mutual pact establishing a unified Asian army."
       },
       {
         "key": "D",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "A treaty banning all agricultural commerce across the Pacific Ocean."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Regionalism: Regional Comprehensive Economic Partnership (RCEP). The world's largest Free Trade Agreement (FTA), encompassing the 10 ASEAN members plus Australia, China, Japan, South Korea, and New Zealand. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 16,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #16)",
+    "topicRef": "Global North vs Global South: The Brandt Line",
+    "question": "The socio-economic and political concept of the 'Global North vs Global South' (visualized historically by the Brandt Line) divides the world primarily based on:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Differences in wealth, industrial development, human development indices, and historical colonial power relations, rather than strict geography."
       },
       {
         "key": "B",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Hemispheric latitude above and below the physical equator."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The presence or absence of active volcanic mountain ranges."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The official linguistic adoption of Spanish or English."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global North vs Global South: The Brandt Line. Differences in wealth, industrial development, human development indices, and historical colonial power relations, rather than strict geography. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 17,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #17)",
+    "topicRef": "Global North vs Global South: Dependency Theory",
+    "question": "Dependency Theory (developed by Ra\u00fal Prebisch and Fernando Henrique Cardoso) argues that the economic underdevelopment of the Global South is caused by:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "The innate genetic laziness of tropical populations."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "The complete refusal of developing nations to trade in global markets."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "A chronic shortage of physical silver and gold coinage."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "A global capitalist system that drains raw materials from peripheral nations to enrich industrialized core nations through unequal terms of trade."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global North vs Global South: Dependency Theory. A global capitalist system that drains raw materials from peripheral nations to enrich industrialized core nations through unequal terms of trade. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 18,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #18)",
+    "topicRef": "Global Stratification: Wallerstein's World-Systems Theory",
+    "question": "Immanuel Wallerstein's World-Systems Theory divides the global capitalist division of labor into which three structural tiers?",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Upper Class, Middle Class, and Lower Class."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Developing, Emerging, and Underdeveloped."
       },
       {
         "key": "C",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Core (high-skill/capital-intensive), Semi-Periphery (industrializing intermediary), and Periphery (low-skill/labor-intensive raw material extraction)."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "First World, Second World, and Third World."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "explanation": "This question evaluates understanding in Global Stratification: Wallerstein's World-Systems Theory. Core (high-skill/capital-intensive), Semi-Periphery (industrializing intermediary), and Periphery (low-skill/labor-intensive raw material extraction). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 19,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #19)",
+    "topicRef": "Global Media: Cultural Imperialism vs Hybridization",
+    "question": "While critics of 'Cultural Imperialism' argue that Western media homogenizes global cultures into an 'Americanized McWorld', scholars of 'Hybridization' argue that:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Cultural exchange is mathematically impossible across geographic borders."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Global media flows combine with local traditions to create dynamic, syncretic new cultural expressions (e.g., K-pop, Pinoy Hip-Hop)."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Local cultures are completely erased within 48 hours of television broadcasts."
       },
       {
         "key": "D",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Audiences passively absorb foreign media messages without any interpretation."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Media: Cultural Imperialism vs Hybridization. Global media flows combine with local traditions to create dynamic, syncretic new cultural expressions (e.g., K-pop, Pinoy Hip-Hop). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 20,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #20)",
+    "topicRef": "Global Culture: Roland Robertson's 'Glocalization'",
+    "question": "Sociologist Roland Robertson coined the term 'Glocalization' to describe the complex global process wherein:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Global products, business strategies, and cultural practices are adapted and tailored to fit local cultural tastes and norms."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "All local culinary traditions are replaced by identical canned goods."
       },
       {
         "key": "C",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "National governments completely ban all imported foreign media."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Companies sell products exclusively within their city of origin."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Culture: Roland Robertson's 'Glocalization'. Global products, business strategies, and cultural practices are adapted and tailored to fit local cultural tastes and norms. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 21,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #21)",
+    "topicRef": "Global Culture: Arjun Appadurai's Five Scapes",
+    "question": "Anthropologist Arjun Appadurai conceptualized global cultural flows through five dimensions: Ethnoscapes (people), Technoscapes (tech), Finanscapes (money), Mediascapes (images/info), and:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Chronoscapes."
       },
       {
         "key": "B",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Geoscapes."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Bioscapes."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Ideoscapes (political ideas, values, and freedom/democracy narratives)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Culture: Arjun Appadurai's Five Scapes. Ideoscapes (political ideas, values, and freedom/democracy narratives). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 22,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #22)",
+    "topicRef": "Religion and Globalization: Secularization vs Resurgence",
+    "question": "Contrary to early secularization theories predicting the disappearance of religion, globalization has catalyzed a 'Religious Resurgence' by:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Replacing all global religious scriptures with corporate marketing manuals."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Forcing all individuals to adopt atheism."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Providing global communication networks that enable transnational religious movements, identity mobilization, and interfaith dialogue."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Banning all religious practices across all United Nations member states."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Religion and Globalization: Secularization vs Resurgence. Providing global communication networks that enable transnational religious movements, identity mobilization, and interfaith dialogue. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 23,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #23)",
+    "topicRef": "Religion and Globalization: Fundamentalism",
+    "question": "Religious Fundamentalism often arises in the contemporary global era as a defensive psychological and cultural reaction against:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "The construction of municipal public library buildings."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The rapid cultural changes, moral relativism, secularization, and perceived corruption of traditional values brought by globalization."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The introduction of renewable solar panel electricity."
       },
       {
         "key": "D",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "The translation of religious scriptures into modern print fonts."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Religion and Globalization: Fundamentalism. The rapid cultural changes, moral relativism, secularization, and perceived corruption of traditional values brought by globalization. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 24,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #24)",
+    "topicRef": "Demography & Migration: Demographic Transition Model (DTM)",
+    "question": "In the Demographic Transition Model, 'Stage 2' is characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Rapid population growth caused by a dramatic drop in death rates (due to sanitation/medicine) while birth rates remain high."
       },
       {
         "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "High birth rates and high death rates resulting in stable population (Stage 1)."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Falling birth rates and low death rates slowing population growth (Stage 3)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Low birth rates and low death rates with aging population (Stage 4)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Demography & Migration: Demographic Transition Model (DTM). Rapid population growth caused by a dramatic drop in death rates (due to sanitation/medicine) while birth rates remain high. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 25,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #25)",
+    "topicRef": "Demography: Global Aging & Population Decline",
+    "question": "Many nations in the Global North and East Asia (e.g., Japan, South Korea, Italy) currently face a demographic crisis characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Rapid exponential population growth that doubles populations every 5 years."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Massive child infant mortality epidemics."
       },
       {
         "key": "C",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "The complete abandonment of all urban cities."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Below-replacement fertility rates (TFR < 2.1) and an aging population, creating severe labor shortages and pension strain."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Demography: Global Aging & Population Decline. Below-replacement fertility rates (TFR < 2.1) and an aging population, creating severe labor shortages and pension strain. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 26,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #26)",
+    "topicRef": "Global Migration: Push and Pull Factors",
+    "question": "In migration studies, which of the following represents a classic 'Push Factor' that compels individuals to emigrate from their home country?",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Reuniting with family members who are already settled citizens abroad (Pull Factor)."
       },
       {
         "key": "B",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Free university scholarships provided by foreign governments (Pull Factor)."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "War, political persecution, violent civil conflict, severe poverty, or environmental disaster in the origin country."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Higher wages, stable political governance, and abundant job opportunities in the destination country (Pull Factor)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Migration: Push and Pull Factors. War, political persecution, violent civil conflict, severe poverty, or environmental disaster in the origin country. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 27,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #27)",
+    "topicRef": "Global Migration: Philippine Remittance Economy",
+    "question": "Filipino international labor migration (OFWs) plays a transformative macroeconomic role in the Philippines, with personal remittances accounting for approximately:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Zero impact on foreign currency reserves."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "8% to 10% of national Gross Domestic Product (GDP), driving domestic household consumption and foreign exchange stability."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "0.1% of national GDP with negligible economic impact."
       },
       {
         "key": "D",
-        "text": "The UN Security Council (UNSC)"
+        "text": "100% of the entire national government annual budget."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Migration: Philippine Remittance Economy. 8% to 10% of national Gross Domestic Product (GDP), driving domestic household consumption and foreign exchange stability. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 28,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #28)",
+    "topicRef": "Global Migration: The 'Brain Drain' Phenomenon",
+    "question": "In development economics, 'Brain Drain' refers to the detrimental socio-economic consequence wherein a developing nation loses:",
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Its highly educated, skilled professionals (e.g., doctors, nurses, engineers, scientists) to higher-paying foreign countries."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Its national historical archives during armed conflicts."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Its physical electrical supply during monsoon typhoons."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Its agricultural soil fertility due to chemical overuse."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "explanation": "This question evaluates understanding in Global Migration: The 'Brain Drain' Phenomenon. Its highly educated, skilled professionals (e.g., doctors, nurses, engineers, scientists) to higher-paying foreign countries. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 29,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #29)",
+    "topicRef": "Sustainable Development: UN Sustainable Development Goals (SDGs 2030)",
+    "question": "Adopted by all United Nations Member States in 2015, the '2030 Agenda for Sustainable Development' establishes how many universal Sustainable Development Goals (SDGs)?",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "8 Goals (The historical Millennium Development Goals / MDGs)."
       },
       {
         "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "10 Goals."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "25 Goals."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "17 Goals (with 169 associated targets addressing poverty, inequality, climate, and justice)."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Sustainable Development: UN Sustainable Development Goals (SDGs 2030). 17 Goals (with 169 associated targets addressing poverty, inequality, climate, and justice). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 30,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #30)",
+    "topicRef": "Sustainable Development: SDG 1 and SDG 4",
+    "question": "Under the UN 2030 Agenda, SDG 1 aims for 'No Poverty', while SDG 4 specifically aims to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Ensure availability and sustainable management of water and sanitation (SDG 6)."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Ensure access to affordable, reliable, sustainable modern energy (SDG 7)."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all."
       },
       {
         "key": "D",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Achieve gender equality and empower all women and girls (SDG 5)."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Sustainable Development: SDG 1 and SDG 4. Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 31,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #31)",
+    "topicRef": "Global Food Security: The Global Food System",
+    "question": "The contemporary global food system is characterized by an acute paradox where:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Global agricultural yields have declined to zero since 1950."
       },
       {
         "key": "B",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Nearly one billion people suffer from chronic hunger and malnutrition while over one billion suffer from obesity and massive food waste."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Food production is mathematically impossible across tropical latitudes."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "All food commodities are owned by a single family in Switzerland."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "explanation": "This question evaluates understanding in Global Food Security: The Global Food System. Nearly one billion people suffer from chronic hunger and malnutrition while over one billion suffer from obesity and massive food waste. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 32,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #32)",
+    "topicRef": "Global Food Security: Food Sovereignty",
+    "question": "In contrast to 'Food Security' (which focuses on food availability), the concept of 'Food Sovereignty' (championed by La Via Campesina) asserts:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "The right of peoples and local communities to define their own agricultural and food systems, prioritizing healthy, culturally appropriate food."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The exclusive right of multinational corporations to patent all plant genetic seeds."
       },
       {
         "key": "C",
-        "text": "The UN Security Council (UNSC)"
+        "text": "The mandatory importation of foreign agricultural surplus."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "The total elimination of all local organic family farming."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Food Security: Food Sovereignty. The right of peoples and local communities to define their own agricultural and food systems, prioritizing healthy, culturally appropriate food. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 33,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #33)",
+    "topicRef": "Global Environmental Governance: The Montreal Protocol (1987)",
+    "question": "The 1987 Montreal Protocol is celebrated as the most successful international environmental treaty in history because it:",
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Completely eliminated all plastic waste from the Pacific Ocean."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Banned the combustion of petroleum fuels in commercial aircraft."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Prevented all volcanic eruptions in the northern hemisphere."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Universally phased out the global production and consumption of ozone-depleting substances (such as chlorofluorocarbons / CFCs)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Environmental Governance: The Montreal Protocol (1987). Universally phased out the global production and consumption of ozone-depleting substances (such as chlorofluorocarbons / CFCs). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 34,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #34)",
+    "topicRef": "Global Environmental Governance: Kyoto Protocol (1997)",
+    "question": "The 1997 Kyoto Protocol was historically significant as the first international agreement to:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Impose uniform global income tax deductions on all workers."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Ban the use of commercial internet services in Africa."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Set legally binding greenhouse gas emission reduction targets for industrialized (Annex I) developed nations."
       },
       {
         "key": "D",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Establish the United Nations Security Council."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Environmental Governance: Kyoto Protocol (1997). Set legally binding greenhouse gas emission reduction targets for industrialized (Annex I) developed nations. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 35,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #35)",
+    "topicRef": "Global Finance: Transnational Corporations (TNCs)",
+    "question": "Transnational Corporations (TNCs) differ from traditional domestic businesses because they:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Are owned directly by the United Nations General Assembly."
       },
       {
         "key": "B",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Own or control production facilities and operational assets across multiple sovereign countries, driving global trade and supply chains."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Operate exclusively within a single municipal trading town."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Are prohibited from generating commercial profits."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "explanation": "This question evaluates understanding in Global Finance: Transnational Corporations (TNCs). Own or control production facilities and operational assets across multiple sovereign countries, driving global trade and supply chains. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 36,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #36)",
+    "topicRef": "Global Finance: Foreign Direct Investment (FDI)",
+    "question": "In macroeconomic development, 'Foreign Direct Investment' (FDI) occurs when a foreign investor:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Establishes lasting business operations or acquires physical enterprise assets (such as factories or branches) in a host economy."
       },
       {
         "key": "B",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Buys speculative lottery tickets in a foreign municipality."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Sends informal holiday greeting cards to foreign pen pals."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Exchanges currency at an international airport terminal."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Finance: Foreign Direct Investment (FDI). Establishes lasting business operations or acquires physical enterprise assets (such as factories or branches) in a host economy. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 37,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #37)",
+    "topicRef": "Global Finance: Global Value Chains (GVCs)",
+    "question": "In modern globalized manufacturing, a 'Global Value Chain' (GVC)\u2014such as for the Apple iPhone or Toyota automobile\u2014means that:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "A single artisan craftsman manufactures the entire vehicle by hand in one village."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Products must be consumed only within the country where iron ore was mined."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "All manufacturing components are transported exclusively by horse-drawn wagons."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Different stages of the production process (R&D, sourcing raw materials, manufacturing parts, assembly, and marketing) are distributed across multiple countries."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Finance: Global Value Chains (GVCs). Different stages of the production process (R&D, sourcing raw materials, manufacturing parts, assembly, and marketing) are distributed across multiple countries. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 38,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #38)",
+    "topicRef": "Global Civil Society: Non-Governmental Organizations (NGOs)",
+    "question": "International NGOs (such as Amnesty International, Greenpeace, and Doctors Without Borders) act as vital actors in global governance by:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Printing international paper currency notes."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Signing binding international trade treaties on behalf of states."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Holding governments and TNCs accountable, advocating for human rights, delivering humanitarian aid, and framing international policy norms."
       },
       {
         "key": "D",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Commanding sovereign standing armies to conduct invasions."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Civil Society: Non-Governmental Organizations (NGOs). Holding governments and TNCs accountable, advocating for human rights, delivering humanitarian aid, and framing international policy norms. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 39,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #39)",
+    "topicRef": "Global Cities: Saskia Sassen's Global City Concept",
+    "question": "Sociologist Saskia Sassen defines 'Global Cities' (such as New York, London, and Tokyo) as:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Cities that completely prohibit international foreign trade."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Strategic command-and-control nodes of the global economy, concentrating advanced producer services (finance, law, accounting, and telecommunications)."
       },
       {
         "key": "C",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Cities with the largest geographic physical land areas."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Ancient historical archaeological ruin sites."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Cities: Saskia Sassen's Global City Concept. Strategic command-and-control nodes of the global economy, concentrating advanced producer services (finance, law, accounting, and telecommunications). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 40,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #40)",
+    "topicRef": "Global Cities: Manila as a Globalized Metropolis",
+    "question": "In global urban studies, Metro Manila is integrated into the global city network primarily as:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "A major global hub for Business Process Outsourcing (BPO / call centers), high-density labor migration, and financial real estate concentration."
       },
       {
         "key": "B",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "A major global center for arctic icebreaker manufacturing."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "An isolated agricultural commune with zero internet connectivity."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "The primary physical headquarters of the United Nations Secretariat."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Cities: Manila as a Globalized Metropolis. A major global hub for Business Process Outsourcing (BPO / call centers), high-density labor migration, and financial real estate concentration. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 41,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #41)",
+    "topicRef": "Global Security: Non-Traditional Security Threats",
+    "question": "Contemporary international security studies increasingly focus on 'Non-Traditional Security Threats', which encompass:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Conventional interstate naval battleship duels with cannonballs."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Medieval feudal cavalry skirmishes over castle moats."
       },
       {
         "key": "C",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Standard diplomatic passport visa stamp formatting disputes."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Climate change, global pandemics, transnational cyber-attacks, human trafficking, and resource scarcity."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Security: Non-Traditional Security Threats. Climate change, global pandemics, transnational cyber-attacks, human trafficking, and resource scarcity. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 42,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #42)",
+    "topicRef": "Global Security: Human Security Paradigm",
+    "question": "The United Nations Development Programme (UNDP 1994) introduced the 'Human Security' paradigm, shifting the focus of security from:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "National gross domestic product to corporate executive bonuses."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Military conscription quotas to prison architecture."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The territorial defense of sovereign state borders to the protection and empowerment of individual human lives (freedom from fear and freedom from want)."
       },
       {
         "key": "D",
-        "text": "The UN Security Council (UNSC)"
+        "text": "The nuclear armament stockpiles of superpowers to planetary space laser defenses."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Security: Human Security Paradigm. The territorial defense of sovereign state borders to the protection and empowerment of individual human lives (freedom from fear and freedom from want). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 43,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #43)",
+    "topicRef": "Global Health Governance: World Health Organization (WHO)",
+    "question": "The World Health Organization (WHO), a specialized agency of the United Nations headquartered in Geneva, is mandated to:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Collect income taxes from private hospital patients."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Direct and coordinate international public health responses, establish global health standards, and manage health emergencies (e.g., pandemics)."
       },
       {
         "key": "C",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Manufacture and sell commercial pharmaceutical drugs for corporate profit."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Impose mandatory criminal prison sentences on unvaccinated individuals."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Health Governance: World Health Organization (WHO). Direct and coordinate international public health responses, establish global health standards, and manage health emergencies (e.g., pandemics). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 44,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #44)",
+    "topicRef": "Global Trade: Protectionism vs Free Trade",
+    "question": "While 'Free Trade' advocates the elimination of tariffs and trade barriers to maximize economic efficiency, 'Protectionism' utilizes tariffs and quotas to:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Shield domestic industries and local agricultural producers from foreign competitive import dumping."
       },
       {
         "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Force domestic workers to accept lower wages."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Ban all exports of domestic manufactured goods to foreign markets."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Eliminate all national borders and customs checkpoints."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Trade: Protectionism vs Free Trade. Shield domestic industries and local agricultural producers from foreign competitive import dumping. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 45,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #45)",
+    "topicRef": "Global Economy: Outsourcing and Offshoring",
+    "question": "Multinational corporations utilize 'Business Process Outsourcing' (BPO) to countries like the Philippines and India primarily to:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Escape all compliance with local labor legislation."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Relocate their physical corporate headquarters to rural villages."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Eliminate the use of digital telecommunications software."
       },
       {
         "key": "D",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Reduce operational costs, access highly skilled English-proficient talent pools, and leverage 24/7 global timezone coverage."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "explanation": "This question evaluates understanding in Global Economy: Outsourcing and Offshoring. Reduce operational costs, access highly skilled English-proficient talent pools, and leverage 24/7 global timezone coverage. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 46,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #46)",
+    "topicRef": "Global Politics: Multipolarity vs Unipolarity",
+    "question": "The post-Cold War transition from American 'Unipolarity' (the 1990s US hegemony) toward contemporary 'Multipolarity' is marked by:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "The total disappearance of all sovereign national foreign ministries."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "The establishment of a single planetary world government under one emperor."
       },
       {
         "key": "C",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "The rise of multiple competing global and regional powers (such as China, the European Union, India, and the BRICS bloc)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The concentration of all global military power in a single small island nation."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "explanation": "This question evaluates understanding in Global Politics: Multipolarity vs Unipolarity. The rise of multiple competing global and regional powers (such as China, the European Union, India, and the BRICS bloc). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 47,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #47)",
+    "topicRef": "Global Politics: Soft Power vs Hard Power (Joseph Nye)",
+    "question": "Harvard scholar Joseph Nye coined 'Soft Power' to describe the ability of a nation to achieve its goals through:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Bribing foreign diplomats with illegal offshore cash accounts."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Attraction, cultural appeal, political values, and diplomatic persuasion, rather than military coercion or economic threats (Hard Power)."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Threatening nuclear military bombardment against neighboring states."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Imposing total naval economic blockades on commercial shipping."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Politics: Soft Power vs Hard Power (Joseph Nye). Attraction, cultural appeal, political values, and diplomatic persuasion, rather than military coercion or economic threats (Hard Power). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 48,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #48)",
+    "topicRef": "Global Law: UNCLOS and Maritime Sovereignty",
+    "question": "The 1982 United Nations Convention on the Law of the Sea (UNCLOS) establishes that a coastal state's 'Exclusive Economic Zone' (EEZ) extends:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Up to 200 nautical miles from its territorial baselines, granting sovereign rights over exploration and exploitation of marine resources."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Up to 12 nautical miles (Territorial Sea)."
       },
       {
         "key": "C",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Up to 500 nautical miles."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Across all international high seas without limitation."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Law: UNCLOS and Maritime Sovereignty. Up to 200 nautical miles from its territorial baselines, granting sovereign rights over exploration and exploitation of marine resources. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 49,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #49)",
+    "topicRef": "Philippine Foreign Policy: 2016 South China Sea Arbitral Ruling",
+    "question": "On July 12, 2016, the Permanent Court of Arbitration (PCA) in The Hague issued a historic landmark ruling in favor of the Philippines, concluding that:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "The Philippines must surrender all military bases in Palawan to foreign navies."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "UNCLOS does not apply to the Asian continent."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Sovereign states are prohibited from fishing in their own coastal waters."
       },
       {
         "key": "D",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "China's historic claim to maritime areas within the 'nine-dash line' has no legal basis under UNCLOS, and that Mischief Reef and Scarborough Shoal are within the Philippine EEZ/regime."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "explanation": "This question evaluates understanding in Philippine Foreign Policy: 2016 South China Sea Arbitral Ruling. China's historic claim to maritime areas within the 'nine-dash line' has no legal basis under UNCLOS, and that Mischief Reef and Scarborough Shoal are within the Philippine EEZ/regime. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 50,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #50)",
+    "topicRef": "Global Demography: The Malthusian Trap",
+    "question": "Thomas Malthus' 1798 'Essay on the Principle of Population' warned that unchecked population would outstrip resources because:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Technological progress completely eliminates the biological need for food."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Human beings have a natural biological lifespan of 200 years."
       },
       {
         "key": "C",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Population grows geometrically (exponentially: 1, 2, 4, 8, 16...), while food production increases only arithmetically (linearly: 1, 2, 3, 4, 5...)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Food production grows exponentially while human populations remain constant."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "explanation": "This question evaluates understanding in Global Demography: The Malthusian Trap. Population grows geometrically (exponentially: 1, 2, 4, 8, 16...), while food production increases only arithmetically (linearly: 1, 2, 3, 4, 5...). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 51,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #51)",
+    "topicRef": "Global Demography: The Demographic Dividend",
+    "question": "The 'Demographic Dividend' refers to the accelerated economic growth potential that occurs when a nation's:",
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Total population declines by 50% within a single decade."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Proportion of working-age population (15-64) is significantly larger than the non-working dependent population (young and elderly)."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Birth rate exceeds 50 births per 1,000 citizens annually."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Elderly population over age 80 comprises 90% of the citizenry."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Demography: The Demographic Dividend. Proportion of working-age population (15-64) is significantly larger than the non-working dependent population (young and elderly). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 52,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #52)",
+    "topicRef": "Global Ethics: Cosmopolitanism vs Communitarianism",
+    "question": "While 'Cosmopolitanism' asserts that all human beings belong to a single global moral community with universal obligations, 'Communitarianism' argues that:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Moral duties and identities are grounded fundamentally within specific local cultural, national, and historical communities."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Human beings have zero ethical obligations to anyone, including family."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Global corporations should dictate all personal moral choices."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Universal human rights are identical to municipal corporate bylaws."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "explanation": "This question evaluates understanding in Global Ethics: Cosmopolitanism vs Communitarianism. Moral duties and identities are grounded fundamentally within specific local cultural, national, and historical communities. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 53,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #53)",
+    "topicRef": "Global Culture: Cultural Homogenization ('McDonaldization')",
+    "question": "Sociologist George Ritzer's concept of 'McDonaldization' critiques modern global institutional culture for spreading the principles of:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Spontaneity, Artistic Uniqueness, Chaos, and Intuition."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Traditional Craftsmanship, Religious Asceticism, and Manual Labor."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Absolute Egalitarian Democracy and Environmental Preservation."
       },
       {
         "key": "D",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Efficiency, Calculability, Predictability, and Control through non-human technology across global society."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "explanation": "This question evaluates understanding in Global Culture: Cultural Homogenization ('McDonaldization'). Efficiency, Calculability, Predictability, and Control through non-human technology across global society. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 54,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #54)",
+    "topicRef": "Global Inequality: The Gini Coefficient",
+    "question": "In global and national economic analysis, the 'Gini Coefficient' is a standard statistical metric used to measure:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "The annual percentage rate of national currency inflation."
       },
       {
         "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "The physical depth of oceanic tectonic trenches."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Income or wealth inequality within a population, ranging from 0 (perfect equality) to 1 (maximum inequality)."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The average life expectancy of infants at birth."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Inequality: The Gini Coefficient. Income or wealth inequality within a population, ranging from 0 (perfect equality) to 1 (maximum inequality). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 55,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #55)",
+    "topicRef": "Global Environment: The Anthropocene",
+    "question": "Scientists increasingly designate the current geological epoch as the 'Anthropocene' to recognize that:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Volcanic activity has ceased across all continental tectonic plates."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Human industrial and technological activity has become the dominant driver of global environmental, climate, and planetary geological change."
       },
       {
         "key": "C",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "Dinosaurs have re-emerged as the apex biological species on Earth."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "The Earth has entered an irreversible permanent ice age."
       }
     ],
-    "correctAnswer": "C",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Environment: The Anthropocene. Human industrial and technological activity has become the dominant driver of global environmental, climate, and planetary geological change. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 56,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #56)",
+    "topicRef": "Global Governance: The European Union (EU) as Supranational Integration",
+    "question": "The European Union (EU) represents a unique form of 'Supranational Governance' because member states:",
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Pool portions of their national sovereignty in shared institutions (e.g., European Parliament, European Central Bank) that enact binding regional laws."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Surrender their distinct national languages and adopt Latin."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Abolish all local municipal police forces in favor of a private security company."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Merge all private bank accounts into a single personal checking account."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "explanation": "This question evaluates understanding in Global Governance: The European Union (EU) as Supranational Integration. Pool portions of their national sovereignty in shared institutions (e.g., European Parliament, European Central Bank) that enact binding regional laws. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 57,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #57)",
+    "topicRef": "Global Trade: Fair Trade Movement",
+    "question": "The 'Fair Trade' global certification movement aims to reform traditional international trade by:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Maximizing middleman broker profits in Western commodity exchanges."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "Subsidizing corporate agricultural conglomerates to dump surplus grain."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Banning all coffee and cocoa imports from developing nations."
       },
       {
         "key": "D",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Guaranteeing fair minimum prices, safe working conditions, environmental standards, and community development premiums for marginalized Southern farmers."
       }
     ],
     "correctAnswer": "D",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "explanation": "This question evaluates understanding in Global Trade: Fair Trade Movement. Guaranteeing fair minimum prices, safe working conditions, environmental standards, and community development premiums for marginalized Southern farmers. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 58,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #58)",
+    "topicRef": "Global Media: The 'Global Village' (Marshall McLuhan)",
+    "question": "Media theorist Marshall McLuhan famously coined the term 'The Global Village' (1962) to predict that electronic mass media would:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Destroy all electrical and electronic communication worldwide."
       },
       {
         "key": "B",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Eliminate all forms of spoken and written human languages."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Shrink the world psychologically and socially, connecting diverse human populations into an interconnected, instantaneous sensory collective."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "Force all human beings to live in physical straw-hut rural villages."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Media: The 'Global Village' (Marshall McLuhan). Shrink the world psychologically and socially, connecting diverse human populations into an interconnected, instantaneous sensory collective. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 59,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #59)",
+    "topicRef": "Global Politics: Civil Society and Transnational Advocacy Networks (TANs)",
+    "question": "Margaret Keck and Kathryn Sikkink's concept of the 'Boomerang Pattern' in Transnational Advocacy Networks (TANs) explains how domestic NGOs:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "File domestic bankruptcy petitions in municipal tax courts."
       },
       {
         "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "Bypass oppressive local governments by appealing to international allies and global organizations, who then pressure the domestic state from above."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Throw wooden boomerangs during diplomatic parliamentary summits."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Export manufactured weaponry to foreign revolutionary factions."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "explanation": "This question evaluates understanding in Global Politics: Civil Society and Transnational Advocacy Networks (TANs). Bypass oppressive local governments by appealing to international allies and global organizations, who then pressure the domestic state from above. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 60,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #60)",
+    "topicRef": "Global Economy: The Informal Economy / Shadow Economy",
+    "question": "In developing cities across the Global South (including Metro Manila), the 'Informal Economy' (street vending, unregistered services) accounts for a massive labor share because:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "It provides vital survival livelihoods for marginalized populations who are excluded from formal corporate and public sector employment."
       },
       {
         "key": "B",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "It is strictly operated by foreign billionaire investment banks."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "It requires formal registration with the International Monetary Fund."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "It is 100% tax-subsidized by international United Nations grants."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Economy: The Informal Economy / Shadow Economy. It provides vital survival livelihoods for marginalized populations who are excluded from formal corporate and public sector employment. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 61,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #61)",
+    "topicRef": "Global Demography: Urbanization and Megacities",
+    "question": "A 'Megacity' in global demography is officially defined by the United Nations as an urban agglomeration with a population of:",
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "1 million inhabitants."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "500,000 inhabitants."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "50 million inhabitants."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "10 million inhabitants or more (e.g., Tokyo, Delhi, Shanghai, Metro Manila)."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Demography: Urbanization and Megacities. 10 million inhabitants or more (e.g., Tokyo, Delhi, Shanghai, Metro Manila). reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 62,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #62)",
+    "topicRef": "Global Demography: Slums and Informal Settlements",
+    "question": "According to UN-Habitat, the rapid, unplanned urbanization across the Global South has led to nearly one billion people living in informal settlements characterized by:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Zero exposure to environmental pollution and flood hazards."
       },
       {
         "key": "B",
-        "text": "Zero civic relevance."
+        "text": "100% home ownership guaranteed by international treaties."
       },
       {
         "key": "C",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Lack of clean water, inadequate sanitation, substandard housing, overcrowding, and insecure land tenure."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Excessive luxury swimming pools and private helicopter pads."
       }
     ],
     "correctAnswer": "C",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "explanation": "This question evaluates understanding in Global Demography: Slums and Informal Settlements. Lack of clean water, inadequate sanitation, substandard housing, overcrowding, and insecure land tenure. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 63,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #63)",
+    "topicRef": "Global Health: Pandemics in an Interconnected World",
+    "question": "The rapid worldwide transmission of the COVID-19 pandemic demonstrated that modern globalization has created:",
     "options": [
       {
         "key": "A",
-        "text": "Abolition of all national laws."
+        "text": "Instant universal access to medical vaccines within 2 minutes of outbreak."
       },
       {
         "key": "B",
-        "text": "'Those who have less in life should have more in law.'"
+        "text": "Hyper-connected global aviation and trade networks that allow localized infectious pathogens to become global health crises in days."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Complete biological immunity across all international passenger flights."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "The total elimination of all bacterial respiratory illnesses."
       }
     ],
     "correctAnswer": "B",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
+    "explanation": "This question evaluates understanding in Global Health: Pandemics in an Interconnected World. Hyper-connected global aviation and trade networks that allow localized infectious pathogens to become global health crises in days. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 64,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #64)",
+    "topicRef": "Global Ethics: Climate Justice and Loss and Damage",
+    "question": "The concept of 'Climate Justice' in international negotiations (e.g., the COP28 'Loss and Damage' Fund) asserts that:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Industrialized nations historically responsible for the vast majority of carbon emissions must provide financial compensation to vulnerable developing nations."
       },
       {
         "key": "B",
-        "text": "Total feudal monarchism."
+        "text": "Developing nations must pay all costs of repairing industrial smog in Europe."
       },
       {
         "key": "C",
-        "text": "Abolition of all national laws."
+        "text": "Small island nations should be abandoned to ocean rising tides without assistance."
       },
       {
         "key": "D",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
+        "text": "All fossil fuel reserves should be consumed immediately."
       }
     ],
-    "correctAnswer": "D",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Ethics: Climate Justice and Loss and Damage. Industrialized nations historically responsible for the vast majority of carbon emissions must provide financial compensation to vulnerable developing nations. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 65,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #65)",
+    "topicRef": "Global Politics: The Responsibility to Protect (R2P)",
+    "question": "The United Nations 'Responsibility to Protect' (R2P) doctrine, endorsed by all member states in 2005, establishes that when a sovereign state fails to protect its own population from mass atrocities:",
     "options": [
       {
         "key": "A",
-        "text": "Zero civic relevance."
+        "text": "Foreign corporations may seize private agricultural land holdings."
       },
       {
         "key": "B",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
+        "text": "The state is granted absolute legal immunity from all human rights treaties."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "The United Nations must dissolve all international courts."
       },
       {
         "key": "D",
-        "text": "Abolition of all national laws."
+        "text": "The international community has a moral and legal duty to intervene through diplomatic, humanitarian, or coercive means under Chapter VII."
       }
     ],
-    "correctAnswer": "B",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Politics: The Responsibility to Protect (R2P). The international community has a moral and legal duty to intervene through diplomatic, humanitarian, or coercive means under Chapter VII. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 66,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #66)",
+    "topicRef": "Global Economy: De-Dollarization & Currency Hegemony",
+    "question": "Discussions surrounding 'De-Dollarization' by the BRICS economies reflect efforts to:",
     "options": [
       {
         "key": "A",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
+        "text": "Adopt the ancient Roman silver denarius as the sole international currency."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Force all international trade to be conducted through agricultural bartering."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "Reduce reliance on the US Dollar in international trade settlements, oil pricing, and central bank foreign reserves."
       },
       {
         "key": "D",
-        "text": "Total feudal monarchism."
+        "text": "Abolish all forms of physical and digital money worldwide."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Economy: De-Dollarization & Currency Hegemony. Reduce reliance on the US Dollar in international trade settlements, oil pricing, and central bank foreign reserves. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 67,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #67)",
+    "topicRef": "Global Environment: Planetary Boundaries Framework",
+    "question": "The Stockholm Resilience Centre's 'Planetary Boundaries' framework identifies nine critical Earth system processes (e.g., climate, biosphere integrity, nitrogen/phosphorus cycles) within which:",
     "options": [
       {
         "key": "A",
-        "text": "The UN Security Council (UNSC)"
+        "text": "Economic GDP growth is guaranteed to reach 100% annually."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Humanity can continue to develop and thrive for generations without triggering catastrophic, non-linear planetary environmental collapse."
       },
       {
         "key": "C",
-        "text": "Total feudal monarchism."
+        "text": "Industrial mining corporations can pollute waterways without regulation."
       },
       {
         "key": "D",
-        "text": "Zero civic relevance."
+        "text": "Global population must be forcibly relocated to Mars."
       }
     ],
-    "correctAnswer": "A",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Environment: Planetary Boundaries Framework. Humanity can continue to develop and thrive for generations without triggering catastrophic, non-linear planetary environmental collapse. reflects established global studies, international relations, and socio-economic consensus."
   },
   {
     "id": 68,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #68)",
+    "topicRef": "Global Media: Fake News and Algorithmic Polarization",
+    "question": "In contemporary global media studies, the proliferation of viral disinformation and fake news on social media is driven primarily by:",
     "options": [
       {
         "key": "A",
-        "text": "Total feudal monarchism."
+        "text": "Engagement-based algorithms designed to maximize platform watch-time and ad revenue by promoting sensational, polarizing, and outrage-inducing content."
       },
       {
         "key": "B",
-        "text": "Abolition of all national laws."
+        "text": "Strict government censorship that eliminates all online entertainment."
       },
       {
         "key": "C",
-        "text": "Zero civic relevance."
+        "text": "The total disappearance of all digital smartphones."
       },
       {
         "key": "D",
-        "text": "'Those who have less in life should have more in law.'"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
-  },
-  {
-    "id": 69,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #69)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "B",
-        "text": "Total feudal monarchism."
-      },
-      {
-        "key": "C",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "D",
-        "text": "Abolition of all national laws."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
-  },
-  {
-    "id": 70,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #70)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "B",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "C",
-        "text": "Abolition of all national laws."
-      },
-      {
-        "key": "D",
-        "text": "Total feudal monarchism."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
-  },
-  {
-    "id": 71,
-    "topicRef": "Social Studies & History: ASEAN Integration",
-    "question": "The Association of Southeast Asian Nations (ASEAN), founded by the Bangkok Declaration in 1967, operates on the core principle of: (Item #71)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Total feudal monarchism."
-      },
-      {
-        "key": "B",
-        "text": "Abolition of all national laws."
-      },
-      {
-        "key": "C",
-        "text": "Non-interference in internal affairs, consensus-building, and peaceful dispute resolution ('The ASEAN Way')."
-      },
-      {
-        "key": "D",
-        "text": "Zero civic relevance."
-      }
-    ],
-    "correctAnswer": "C",
-    "explanation": "The ASEAN Way emphasizes diplomatic consensus, sovereignty, and non-interference among member states."
-  },
-  {
-    "id": 72,
-    "topicRef": "Social Studies & History: United Nations Organs",
-    "question": "Which principal organ of the United Nations holds the primary legal responsibility for maintaining international peace and security and has 5 permanent veto members? (Item #72)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Abolition of all national laws."
-      },
-      {
-        "key": "B",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "C",
-        "text": "Total feudal monarchism."
-      },
-      {
-        "key": "D",
-        "text": "The UN Security Council (UNSC)"
-      }
-    ],
-    "correctAnswer": "D",
-    "explanation": "The UNSC consists of 5 permanent veto powers (US, UK, France, Russia, China) and 10 rotating non-permanent members."
-  },
-  {
-    "id": 73,
-    "topicRef": "Social Studies & History: Philippine Presidents: Ramon Magsaysay",
-    "question": "President Ramon Magsaysay ('The Guy' / 'Champion of the Masses') is historically remembered for his populist leadership maxim: (Item #73)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Total feudal monarchism."
-      },
-      {
-        "key": "B",
-        "text": "'Those who have less in life should have more in law.'"
-      },
-      {
-        "key": "C",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "D",
-        "text": "Abolition of all national laws."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "Magsaysay opened Malacañang Palace to the public and championed grassroots land reform and pro-poor judicial justice."
-  },
-  {
-    "id": 74,
-    "topicRef": "Social Studies & History: Economic Concepts: Gross Domestic Product (GDP)",
-    "question": "Gross Domestic Product (GDP) measures: (Item #74)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Zero civic relevance."
-      },
-      {
-        "key": "B",
-        "text": "The total monetary value of all finished goods and services produced within a nation's geographic borders during a specific period."
-      },
-      {
-        "key": "C",
-        "text": "Abolition of all national laws."
-      },
-      {
-        "key": "D",
-        "text": "Total feudal monarchism."
-      }
-    ],
-    "correctAnswer": "B",
-    "explanation": "GDP measures domestic geographic economic output, while GNP/GNI includes net factor income from citizens abroad."
-  },
-  {
-    "id": 75,
-    "topicRef": "Social Studies & History: Branches of Philippine Government",
-    "question": "Under the principle of Separation of Powers in the 1987 Philippine Constitution, the three co-equal branches are: (Item #75)",
-    "options": [
-      {
-        "key": "A",
-        "text": "Executive (enforces law), Legislative (makes law), and Judicial (interprets law)."
-      },
-      {
-        "key": "B",
-        "text": "Total feudal monarchism."
-      },
-      {
-        "key": "C",
-        "text": "Abolition of all national laws."
-      },
-      {
-        "key": "D",
-        "text": "Zero civic relevance."
+        "text": "The mandatory fact-checking of every internet post by university panels."
       }
     ],
     "correctAnswer": "A",
-    "explanation": "The tripartite presidential system balances power across the Executive, Bicameral Congress, and Supreme Court."
+    "explanation": "This question evaluates understanding in Global Media: Fake News and Algorithmic Polarization. Engagement-based algorithms designed to maximize platform watch-time and ad revenue by promoting sensational, polarizing, and outrage-inducing content. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 69,
+    "topicRef": "Global Economy: Cryptocurrencies and Decentralized Finance (DeFi)",
+    "question": "Cryptocurrencies (such as Bitcoin and Ethereum) represent a novel frontier in global finance because they utilize decentralized blockchain technology to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Guarantee that zero financial inflation will ever occur in national economies."
+      },
+      {
+        "key": "B",
+        "text": "Physical gold bars stored inside municipal banking basements."
+      },
+      {
+        "key": "C",
+        "text": "Provide free physical cash cards to all global citizens."
+      },
+      {
+        "key": "D",
+        "text": "Enable peer-to-peer digital transactions and value transfers without the intermediation of traditional central banks or financial institutions."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Economy: Cryptocurrencies and Decentralized Finance (DeFi). Enable peer-to-peer digital transactions and value transfers without the intermediation of traditional central banks or financial institutions. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 70,
+    "topicRef": "Global Governance: Human Rights Instruments (UDHR 1948)",
+    "question": "Adopted by the United Nations General Assembly in Paris on December 10, 1948, the 'Universal Declaration of Human Rights' (UDHR):",
+    "options": [
+      {
+        "key": "A",
+        "text": "Mandates the payment of monetary tribute to the European Union."
+      },
+      {
+        "key": "B",
+        "text": "Bans all national legislative elections in sovereign states."
+      },
+      {
+        "key": "C",
+        "text": "Articulates fundamental human rights to be universally protected for all human beings, regardless of race, nationality, religion, or sex."
+      },
+      {
+        "key": "D",
+        "text": "Establishes an international military police force stationed in all schools."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Governance: Human Rights Instruments (UDHR 1948). Articulates fundamental human rights to be universally protected for all human beings, regardless of race, nationality, religion, or sex. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 71,
+    "topicRef": "Global Migration: Refugee Convention (1951)",
+    "question": "Under the 1951 UN Refugee Convention, the foundational principle of 'Non-Refoulement' strictly prohibits states from:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Allowing international humanitarian Red Cross volunteers into border zones."
+      },
+      {
+        "key": "B",
+        "text": "Expelling or returning a refugee to a territory where their life or freedom would be threatened on account of race, religion, nationality, or political opinion."
+      },
+      {
+        "key": "C",
+        "text": "Granting temporary emergency asylum to displaced mothers and children."
+      },
+      {
+        "key": "D",
+        "text": "Providing emergency medical food rations to displaced families."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in Global Migration: Refugee Convention (1951). Expelling or returning a refugee to a territory where their life or freedom would be threatened on account of race, religion, nationality, or political opinion. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 72,
+    "topicRef": "Global Politics: Geopolitical Conflict and Supply Chains",
+    "question": "Recent geopolitical crises (e.g., Russia-Ukraine war, Middle East tensions) illustrate that contemporary global supply chains are:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Highly vulnerable to maritime chokepoints (e.g., Suez Canal, Strait of Malacca), energy disruptions, and global food inflation."
+      },
+      {
+        "key": "B",
+        "text": "Completely immune to physical geography and military conflicts."
+      },
+      {
+        "key": "C",
+        "text": "Operated exclusively through teleportation laser satellites."
+      },
+      {
+        "key": "D",
+        "text": "Owned entirely by non-profit humanitarian charities."
+      }
+    ],
+    "correctAnswer": "A",
+    "explanation": "This question evaluates understanding in Global Politics: Geopolitical Conflict and Supply Chains. Highly vulnerable to maritime chokepoints (e.g., Suez Canal, Strait of Malacca), energy disruptions, and global food inflation. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 73,
+    "topicRef": "Global Culture: Transnational Diaspora Communities",
+    "question": "In contemporary globalization, 'Transnational Diaspora Communities' (such as the global Filipino diaspora) maintain active identity and development ties by:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Completely severing all familial and cultural ties with their motherland."
+      },
+      {
+        "key": "B",
+        "text": "Refusing to learn the language of their host country."
+      },
+      {
+        "key": "C",
+        "text": "Surrendering all their financial earnings to foreign immigration authorities."
+      },
+      {
+        "key": "D",
+        "text": "Engaging in cross-border cultural exchange, philanthropic investments in home provinces, political voting, and dual citizenship."
+      }
+    ],
+    "correctAnswer": "D",
+    "explanation": "This question evaluates understanding in Global Culture: Transnational Diaspora Communities. Engaging in cross-border cultural exchange, philanthropic investments in home provinces, political voting, and dual citizenship. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 74,
+    "topicRef": "Global Economy: Sovereign Wealth Funds",
+    "question": "A 'Sovereign Wealth Fund' (SWF)\u2014such as Norway's Government Pension Fund Global or the Philippines' Maharlika Investment Fund\u2014is:",
+    "options": [
+      {
+        "key": "A",
+        "text": "An international emergency loan provided by the International Monetary Fund."
+      },
+      {
+        "key": "B",
+        "text": "A tax penalty fund collected from defaulting commercial corporations."
+      },
+      {
+        "key": "C",
+        "text": "A state-owned investment fund composed of financial assets (stocks, bonds, real estate) managed to generate long-term national wealth for future generations."
+      },
+      {
+        "key": "D",
+        "text": "A private personal bank account owned by an individual municipal mayor."
+      }
+    ],
+    "correctAnswer": "C",
+    "explanation": "This question evaluates understanding in Global Economy: Sovereign Wealth Funds. A state-owned investment fund composed of financial assets (stocks, bonds, real estate) managed to generate long-term national wealth for future generations. reflects established global studies, international relations, and socio-economic consensus."
+  },
+  {
+    "id": 75,
+    "topicRef": "The Contemporary World: Global Citizenship",
+    "question": "In 21st-century education, cultivating 'Global Citizenship' empowers learners to:",
+    "options": [
+      {
+        "key": "A",
+        "text": "Prioritize private commercial profit over social justice and environmental health."
+      },
+      {
+        "key": "B",
+        "text": "Understand their interconnectedness with the wider world, respect diversity, champion human rights, and take responsible action for global sustainability."
+      },
+      {
+        "key": "C",
+        "text": "Abandon their love and loyalty for their own native homeland."
+      },
+      {
+        "key": "D",
+        "text": "Refuse participation in local community civic development."
+      }
+    ],
+    "correctAnswer": "B",
+    "explanation": "This question evaluates understanding in The Contemporary World: Global Citizenship. Understand their interconnectedness with the wider world, respect diversity, champion human rights, and take responsible action for global sustainability. reflects established global studies, international relations, and socio-economic consensus."
   }
 ];
