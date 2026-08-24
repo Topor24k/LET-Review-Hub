@@ -8,7 +8,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Perpetuating class conflict and economic exploitation of the working class (Conflict Theory)."
+        "text": "Perpetuating class conflict and economic exploitation of the working class."
       },
       {
         "key": "B",
@@ -120,7 +120,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The non-financial social assets (e.g., academic knowledge, language codes, cultural tastes, mannerisms, aesthetic credentials) that give elite students educational advantages."
+        "text": "The non-financial social assets that give elite students educational advantages."
       }
     ],
     "correctAnswer": "D",
@@ -183,19 +183,19 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Transformational Leadership (Idealized Influence, Inspirational Motivation, Intellectual Stimulation, Individualized Consideration)."
+        "text": "Transformational Leadership."
       },
       {
         "key": "B",
-        "text": "Transactional Leadership (strictly trading rewards and punishments for routine compliance)."
+        "text": "Transactional Leadership."
       },
       {
         "key": "C",
-        "text": "Laissez-Faire Leadership (completely abandoning all leadership responsibility)."
+        "text": "Laissez-Faire Leadership."
       },
       {
         "key": "D",
-        "text": "Authoritarian Autocratic Leadership (ruling through fear and strict command)."
+        "text": "Authoritarian Autocratic Leadership."
       }
     ],
     "correctAnswer": "A",
@@ -241,7 +241,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A dynamic, shared practice distributed across multiple leaders (principals, master teachers, department chairs) interacting in complex school situations."
+        "text": "A dynamic, shared practice distributed across multiple leaders interacting in complex school situations."
       },
       {
         "key": "D",
@@ -262,7 +262,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Prioritizes serving the needs of others (teachers, students, community) first, empowering their growth, well-being, and autonomy."
+        "text": "Prioritizes serving the needs of others first, empowering their growth, well-being, and autonomy."
       },
       {
         "key": "C",
@@ -283,7 +283,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Institutionalizing the principle of 'School-Based Management' (SBM), decentralizing decision-making authority to the school level where learning actually happens."
+        "text": "Institutionalizing the principle of 'School-Based Management', decentralizing decision-making authority to the school level where learning actually happens."
       },
       {
         "key": "B",
@@ -320,7 +320,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A multi-stakeholder advisory body (teachers, parents, local government, community leaders, alumni) that collaboratively plans and monitors the School Improvement Plan (SIP)."
+        "text": "A multi-stakeholder advisory body that collaboratively plans and monitors the School Improvement Plan."
       }
     ],
     "correctAnswer": "D",
@@ -383,19 +383,19 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Republic Act 7836 (Philippine Teachers Professionalization Act of 1994), as amended by RA 9293."
+        "text": "Republic Act 7836, as amended by RA 9293."
       },
       {
         "key": "B",
-        "text": "Republic Act 6713 (Code of Conduct and Ethical Standards for Public Officials)."
+        "text": "Republic Act 6713."
       },
       {
         "key": "C",
-        "text": "Republic Act 10533 (Enhanced Basic Education Act)."
+        "text": "Republic Act 10533."
       },
       {
         "key": "D",
-        "text": "Presidential Decree 1006 (Decree Professionalizing Teaching)."
+        "text": "Presidential Decree 1006."
       }
     ],
     "correctAnswer": "A",
@@ -462,7 +462,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Upholding highest professional standards, pursuing continuous personal and professional development (CPD), and honoring professional commitments."
+        "text": "Upholding highest professional standards, pursuing continuous personal and professional development, and honoring professional commitments."
       },
       {
         "key": "C",
@@ -666,7 +666,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Enforce rigid traditional gender roles in vocational classes (e.g., girls in cooking, boys in carpentry)."
+        "text": "Enforce rigid traditional gender roles in vocational classes."
       },
       {
         "key": "D",
@@ -691,7 +691,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Telling a crying male student: 'Stop crying like a girl!'"
+        "text": "Telling a crying male student: 'Stop crying like a girl!'."
       },
       {
         "key": "D",
@@ -841,7 +841,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "District Supervisor (DepEd)."
+        "text": "District Supervisor."
       },
       {
         "key": "D",
@@ -1062,7 +1062,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Readiness and Developmental Maturity level of the followers (competence and commitment) for a specific task."
+        "text": "The Readiness and Developmental Maturity level of the followers for a specific task."
       },
       {
         "key": "C",
@@ -1083,7 +1083,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Create a Sense of Urgency (highlighting the pressing need for change and the risks of inaction)."
+        "text": "Create a Sense of Urgency."
       },
       {
         "key": "B",
@@ -1133,19 +1133,19 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Twelve (12) hours of continuous teaching per day."
+        "text": "Twelve hours of continuous teaching per day."
       },
       {
         "key": "B",
-        "text": "Fourteen (14) hours including mandatory weekend manual labor."
+        "text": "Fourteen hours including mandatory weekend manual labor."
       },
       {
         "key": "C",
-        "text": "Six (6) hours of actual classroom teaching a day (the remaining 2 hours devoted to lesson prep, grading, and administrative duties)."
+        "text": "Six hours of actual classroom teaching a day."
       },
       {
         "key": "D",
-        "text": "Eight (8) hours of non-stop classroom lecturing without any breaks."
+        "text": "Eight hours of non-stop classroom lecturing without any breaks."
       }
     ],
     "correctAnswer": "C",
@@ -1320,7 +1320,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Gross intellectual dishonesty and professional misconduct, violating ethics and subjecting the teacher to revocation of license (PRC)."
+        "text": "Gross intellectual dishonesty and professional misconduct, violating ethics and subjecting the teacher to revocation of license."
       }
     ],
     "correctAnswer": "D",
@@ -1420,7 +1420,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Observations (concrete facts), Feelings (emotional state), Needs (universal human values), and Requests (actionable, clear asks)."
+        "text": "Observations, Feelings, Needs, and Requests."
       }
     ],
     "correctAnswer": "D",
@@ -1462,7 +1462,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Collaborating with the Community (coordinating resources and services with community businesses, agencies, and civic groups)."
+        "text": "Collaborating with the Community."
       },
       {
         "key": "C",
@@ -1487,7 +1487,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "High teacher disengagement, high aloofness of the principal, suspicion, and low morale (Closed Climate)."
+        "text": "High teacher disengagement, high aloofness of the principal, suspicion, and low morale."
       },
       {
         "key": "C",
@@ -1520,7 +1520,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Basic Underlying Assumptions (unconscious, taken-for-granted beliefs, habits of perception, and deep values)."
+        "text": "Basic Underlying Assumptions."
       }
     ],
     "correctAnswer": "D",

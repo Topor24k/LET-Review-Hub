@@ -8,19 +8,19 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Level 5 (Diploma / Technical-Vocational level)."
+        "text": "Level 5."
       },
       {
         "key": "B",
-        "text": "Level 7 (Post-Baccalaureate / Master's degree level)."
+        "text": "Level 7."
       },
       {
         "key": "C",
-        "text": "Level 8 (Doctoral and Post-Doctoral level)."
+        "text": "Level 8."
       },
       {
         "key": "D",
-        "text": "Level 6 (Baccalaureate degree level)."
+        "text": "Level 6."
       }
     ],
     "correctAnswer": "D",
@@ -208,7 +208,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inductive / Inquiry-based approach (examples to rule)."
+        "text": "Inductive / Inquiry-based approach."
       },
       {
         "key": "B",
@@ -220,7 +220,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Deductive / Direct Instruction approach (rule to examples)."
+        "text": "Deductive / Direct Instruction approach."
       }
     ],
     "correctAnswer": "D",
@@ -241,7 +241,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Inductive / Discovery Instruction approach (examples to general principle)."
+        "text": "Inductive / Discovery Instruction approach."
       },
       {
         "key": "D",
@@ -320,7 +320,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Problem-Based Learning (PBL)."
+        "text": "Problem-Based Learning."
       }
     ],
     "correctAnswer": "D",
@@ -433,7 +433,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Visual Symbols (charts, maps, diagrams)."
+        "text": "Visual Symbols."
       },
       {
         "key": "B",
@@ -441,11 +441,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Direct, Purposeful Experiences (firsthand physical experiences and real-life manipulation of objects)."
+        "text": "Direct, Purposeful Experiences."
       },
       {
         "key": "D",
-        "text": "Verbal Symbols (reading printed text and spoken words)."
+        "text": "Verbal Symbols."
       }
     ],
     "correctAnswer": "C",
@@ -462,7 +462,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Contrived Experience (a realistic model, mockup, or simulation)."
+        "text": "Contrived Experience."
       },
       {
         "key": "C",
@@ -483,7 +483,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Verbal Symbols (spoken words, printed text, mathematical symbols)."
+        "text": "Verbal Symbols."
       },
       {
         "key": "B",
@@ -520,7 +520,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Content (what is learned), Process (how it is learned), and Product (how learning is demonstrated)."
+        "text": "Content, Process, and Product."
       }
     ],
     "correctAnswer": "D",
@@ -541,7 +541,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Tiered Activities (differentiation by readiness level)."
+        "text": "Tiered Activities."
       },
       {
         "key": "D",
@@ -562,7 +562,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Accurately perceives what is happening in all parts of the classroom at all times ('eyes in the back of the head') and addresses misbehavior early."
+        "text": "Accurately perceives what is happening in all parts of the classroom at all times and addresses misbehavior early."
       },
       {
         "key": "C",
@@ -583,7 +583,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Overlapping (managing more than one classroom event simultaneously)."
+        "text": "Overlapping."
       },
       {
         "key": "B",
@@ -708,19 +708,19 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'List the four main steps of the scientific method.'"
+        "text": "'List the four main steps of the scientific method.'."
       },
       {
         "key": "B",
-        "text": "'Calculate the area of a rectangle with length 10 cm and width 5 cm.'"
+        "text": "'Calculate the area of a rectangle with length 10 cm and width 5 cm.'."
       },
       {
         "key": "C",
-        "text": "'Define the term photosynthesis in your own words.'"
+        "text": "'Define the term photosynthesis in your own words.'."
       },
       {
         "key": "D",
-        "text": "'Defend your position on whether the construction of a coastal bypass road justifies the environmental impact on mangrove reserves.'"
+        "text": "'Defend your position on whether the construction of a coastal bypass road justifies the environmental impact on mangrove reserves.'."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Probing / Clarifying questioning (prompting deeper elaboration and justification)."
+        "text": "Probing / Clarifying questioning."
       },
       {
         "key": "D",
@@ -762,11 +762,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Detailed Lesson Plan (DLP), providing step-by-step instructional procedures."
+        "text": "Detailed Lesson Plan, providing step-by-step instructional procedures."
       },
       {
         "key": "C",
-        "text": "Daily Lesson Log (DLL), which is a simplified template for experienced teachers."
+        "text": "Daily Lesson Log, which is a simplified template for experienced teachers."
       },
       {
         "key": "D",
@@ -783,19 +783,19 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'At the end of the 60-minute lesson, Grade 8 learners will correctly solve at least 4 out of 5 linear equations in one variable.'"
+        "text": "'At the end of the 60-minute lesson, Grade 8 learners will correctly solve at least 4 out of 5 linear equations in one variable.'."
       },
       {
         "key": "B",
-        "text": "'Students will appreciate the beauty of mathematics in daily life.'"
+        "text": "'Students will appreciate the beauty of mathematics in daily life.'."
       },
       {
         "key": "C",
-        "text": "'Learners will understand all algebra concepts completely by Friday.'"
+        "text": "'Learners will understand all algebra concepts completely by Friday.'."
       },
       {
         "key": "D",
-        "text": "'The class will develop deep love for equation solving.'"
+        "text": "'The class will develop deep love for equation solving.'."
       }
     ],
     "correctAnswer": "A",
@@ -820,7 +820,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'I Do' (Teacher Modeling), 'We Do' (Guided Practice with Feedback), and 'You Do' (Independent Practice)."
+        "text": "'I Do', 'We Do', and 'You Do'."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Gain Attention (stimulating interest and focus through a hook, challenge, or question)."
+        "text": "Gain Attention."
       },
       {
         "key": "D",
@@ -862,7 +862,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Stimulating recall of prior learning (activating relevant prerequisite schemas)."
+        "text": "Stimulating recall of prior learning."
       },
       {
         "key": "C",
@@ -883,7 +883,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attention-seeking (which can be redirected by giving positive attention for constructive behavior)."
+        "text": "Attention-seeking."
       },
       {
         "key": "B",
@@ -983,7 +983,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Direct instruction (video lectures/readings) is completed at home before class, freeing classroom time for active problem-solving and collaborative projects."
+        "text": "Direct instruction is completed at home before class, freeing classroom time for active problem-solving and collaborative projects."
       },
       {
         "key": "B",
@@ -1083,11 +1083,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cluster / Pod seating (desks grouped in tables of 4 to 5 students)."
+        "text": "Cluster / Pod seating."
       },
       {
         "key": "B",
-        "text": "Traditional straight rows facing forward (best for direct instruction/individual testing)."
+        "text": "Traditional straight rows facing forward."
       },
       {
         "key": "C",
@@ -1120,7 +1120,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Culturally Responsive Teaching (connecting curriculum to learners' cultural knowledge and lived experiences)."
+        "text": "Culturally Responsive Teaching."
       }
     ],
     "correctAnswer": "D",
@@ -1183,7 +1183,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Advance Organizers (introductory conceptual frameworks that bridge what learners know and what they need to know)."
+        "text": "Advance Organizers."
       },
       {
         "key": "B",
@@ -1283,19 +1283,19 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Where am I going?' (Feed Up), 'How am I doing?' (Feed Back), and 'Where to next?' (Feed Forward)."
+        "text": "'Where am I going?', 'How am I doing?', and 'Where to next?'."
       },
       {
         "key": "B",
-        "text": "'What grade did I get?', 'Who scored higher than me?', and 'When is vacation?'"
+        "text": "'What grade did I get?', 'Who scored higher than me?', and 'When is vacation?'."
       },
       {
         "key": "C",
-        "text": "'Why did you fail?', 'Who made this mistake?', and 'What is the penalty?'"
+        "text": "'Why did you fail?', 'Who made this mistake?', and 'What is the penalty?'."
       },
       {
         "key": "D",
-        "text": "'How much does this test cost?', 'Where is the school office?', and 'Who is the principal?'"
+        "text": "'How much does this test cost?', 'Where is the school office?', and 'Who is the principal?'."
       }
     ],
     "correctAnswer": "A",
@@ -1341,7 +1341,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Proximity Control (using physical presence non-verbally to redirect behavior without disrupting instruction)."
+        "text": "Proximity Control."
       },
       {
         "key": "D",
@@ -1383,11 +1383,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Modification / Redefinition (significant task redesign and collaborative transformation)."
+        "text": "Modification / Redefinition."
       },
       {
         "key": "B",
-        "text": "Substitution only (direct tech replacement with no functional change)."
+        "text": "Substitution only."
       },
       {
         "key": "C",
@@ -1520,7 +1520,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Group Alerting (keeping all students cognitively active and accountable before selecting a speaker)."
+        "text": "Group Alerting."
       }
     ],
     "correctAnswer": "D",
@@ -1562,7 +1562,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Demonstration (visual and procedural modeling)."
+        "text": "Demonstration."
       },
       {
         "key": "C",
@@ -1583,7 +1583,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Applying game-design elements (such as points, badges, leaderboards, and quest-based challenges) in educational contexts to boost intrinsic motivation and engagement."
+        "text": "Applying game-design elements in educational contexts to boost intrinsic motivation and engagement."
       },
       {
         "key": "B",
@@ -1741,7 +1741,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Representation (how content is presented), Action & Expression (how learners demonstrate knowledge), and Engagement (how learners are motivated)."
+        "text": "Representation, Action & Expression, and Engagement."
       },
       {
         "key": "D",

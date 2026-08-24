@@ -62,15 +62,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Komisyon sa Wikang Filipino (KWF)."
+        "text": "Komisyon sa Wikang Filipino."
       },
       {
         "key": "C",
-        "text": "Surian ng Wikang Pambansa (SWP)."
+        "text": "Surian ng Wikang Pambansa."
       },
       {
         "key": "D",
-        "text": "Linangan ng mga Wika sa Pilipinas (LWP)."
+        "text": "Linangan ng mga Wika sa Pilipinas."
       }
     ],
     "correctAnswer": "B",
@@ -208,7 +208,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Kambal-Katinig (Klaster)."
+        "text": "Kambal-Katinig."
       },
       {
         "key": "B",
@@ -266,7 +266,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Asimilasyong Parsiyal (Di-Ganap)."
+        "text": "Asimilasyong Parsiyal."
       },
       {
         "key": "D",
@@ -341,11 +341,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Karaniwang Ayos (Likas na ayos ng wikang Filipino)."
+        "text": "Karaniwang Ayos."
       },
       {
         "key": "D",
-        "text": "Di-Karaniwang Ayos (may panandang 'ay')."
+        "text": "Di-Karaniwang Ayos."
       }
     ],
     "correctAnswer": "C",
@@ -358,19 +358,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Guro ang matiyagang nagtuturo sa silid-aralan.'"
+        "text": "'Guro ang matiyagang nagtuturo sa silid-aralan.'."
       },
       {
         "key": "B",
-        "text": "'Ang guro ay matiyagang nagtuturo sa silid-aralan.'"
+        "text": "'Ang guro ay matiyagang nagtuturo sa silid-aralan.'."
       },
       {
         "key": "C",
-        "text": "'Nagtuturo nang matiyaga ang guro sa silid-aralan.'"
+        "text": "'Nagtuturo nang matiyaga ang guro sa silid-aralan.'."
       },
       {
         "key": "D",
-        "text": "'Sa silid-aralan nagtuturo ang matiyagang guro.'"
+        "text": "'Sa silid-aralan nagtuturo ang matiyagang guro.'."
       }
     ],
     "correctAnswer": "B",
@@ -383,7 +383,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dayalek (Wikain)."
+        "text": "Dayalek."
       },
       {
         "key": "B",
@@ -520,7 +520,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Register ng Wika (espesyalisadong kahulugan ng salita sa isang partikular na disiplina/propesyon)."
+        "text": "Register ng Wika."
       }
     ],
     "correctAnswer": "D",
@@ -583,7 +583,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "E = Ends (layunin at pakay ng pakikipag-usap); A = Act Sequence (daloy, pagkakasunod-sunod ng mga pangyayari)."
+        "text": "E = Ends; A = Act Sequence."
       },
       {
         "key": "B",
@@ -662,7 +662,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Kakayahang Istratedyik (Strategic Competence)."
+        "text": "Kakayahang Istratedyik."
       },
       {
         "key": "C",
@@ -708,19 +708,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagwawangis (Metaphor)."
+        "text": "Pagwawangis."
       },
       {
         "key": "B",
-        "text": "Pagsasatao (Personification)."
+        "text": "Pagsasatao."
       },
       {
         "key": "C",
-        "text": "Pagmamalabis (Hyperbole)."
+        "text": "Pagmamalabis."
       },
       {
         "key": "D",
-        "text": "Pagtutulad (Simile)."
+        "text": "Pagtutulad."
       }
     ],
     "correctAnswer": "D",
@@ -733,19 +733,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagpapalit-saklaw (Synecdoche)."
+        "text": "Pagpapalit-saklaw."
       },
       {
         "key": "B",
-        "text": "Paghihimig (Onomatopoeia)."
+        "text": "Paghihimig."
       },
       {
         "key": "C",
-        "text": "Pagwawangis (Metaphor)."
+        "text": "Pagwawangis."
       },
       {
         "key": "D",
-        "text": "Pagtutulad (Simile)."
+        "text": "Pagtutulad."
       }
     ],
     "correctAnswer": "C",
@@ -758,19 +758,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pag-uyam (Irony)."
+        "text": "Pag-uyam."
       },
       {
         "key": "B",
-        "text": "Pagsasatao (Personification / Pagbibigay-katauhan)."
+        "text": "Pagsasatao."
       },
       {
         "key": "C",
-        "text": "Pagmamalabis (Hyperbole)."
+        "text": "Pagmamalabis."
       },
       {
         "key": "D",
-        "text": "Pagwawangis (Metaphor)."
+        "text": "Pagwawangis."
       }
     ],
     "correctAnswer": "B",
@@ -783,19 +783,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagmamalabis (Hyperbole)."
+        "text": "Pagmamalabis."
       },
       {
         "key": "B",
-        "text": "Pagtutulad (Simile)."
+        "text": "Pagtutulad."
       },
       {
         "key": "C",
-        "text": "Pagtanggi (Litotes)."
+        "text": "Pagtanggi."
       },
       {
         "key": "D",
-        "text": "Pagtawag (Apostrophe)."
+        "text": "Pagtawag."
       }
     ],
     "correctAnswer": "A",
@@ -808,19 +808,19 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagpapalit-tawag (Metonymy)."
+        "text": "Pagpapalit-tawag."
       },
       {
         "key": "B",
-        "text": "Paghihimig (Onomatopoeia)."
+        "text": "Paghihimig."
       },
       {
         "key": "C",
-        "text": "Pagtatambis (Oxymoron)."
+        "text": "Pagtatambis."
       },
       {
         "key": "D",
-        "text": "Pagpapalit-saklaw (Synecdoche / Senekdoke)."
+        "text": "Pagpapalit-saklaw."
       }
     ],
     "correctAnswer": "D",
@@ -841,11 +841,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Pagpapalit-tawag (Metonymy)."
+        "text": "Pagpapalit-tawag."
       },
       {
         "key": "D",
-        "text": "Pagpapalit-saklaw (Synecdoche)."
+        "text": "Pagpapalit-saklaw."
       }
     ],
     "correctAnswer": "C",
@@ -862,7 +862,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Paghihimig (Onomatopoeia)."
+        "text": "Paghihimig."
       },
       {
         "key": "C",
@@ -883,7 +883,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pag-uyam (Irony / Sarcasm)."
+        "text": "Pag-uyam."
       },
       {
         "key": "B",
@@ -983,15 +983,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ilokos (mga Ilokano)."
+        "text": "Ilokos."
       },
       {
         "key": "B",
-        "text": "Bicol (mga Bikolano)."
+        "text": "Bicol."
       },
       {
         "key": "C",
-        "text": "Kordilyera (mga Igorot)."
+        "text": "Kordilyera."
       },
       {
         "key": "D",
@@ -1020,7 +1020,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Panay (Kanlurang Kabisayaan)."
+        "text": "Panay."
       }
     ],
     "correctAnswer": "D",
@@ -1041,11 +1041,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Maranao (sa Lanao, Mindanao)."
+        "text": "Maranao."
       },
       {
         "key": "D",
-        "text": "Tausug (sa Sulu)."
+        "text": "Tausug."
       }
     ],
     "correctAnswer": "C",
@@ -1062,7 +1062,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ang Awit ay may 12 pantig bawat taludtod at mabagal na himig (andante); ang Korido ay may 8 pantig bawat taludtod at mabilis na himig (allegro)."
+        "text": "Ang Awit ay may 12 pantig bawat taludtod at mabagal na himig; ang Korido ay may 8 pantig bawat taludtod at mabilis na himig."
       },
       {
         "key": "C",
@@ -1120,7 +1120,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Pasyon (tulad ng Pasyong Henesis ni Gaspar Aquino de Belen)."
+        "text": "Pasyon."
       }
     ],
     "correctAnswer": "D",
@@ -1166,7 +1166,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Juan Abad (may-akda ng Tanikalang Guinto)."
+        "text": "Juan Abad."
       },
       {
         "key": "D",
@@ -1241,11 +1241,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Iskaning (Scanning)."
+        "text": "Iskaning."
       },
       {
         "key": "D",
-        "text": "Iskiming (Skimming / Mabilisang pagkuha ng pangkalahatang ideya)."
+        "text": "Iskiming."
       }
     ],
     "correctAnswer": "C",
@@ -1262,11 +1262,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Iskiming (Skimming)."
+        "text": "Iskiming."
       },
       {
         "key": "C",
-        "text": "Iskaning (Scanning)."
+        "text": "Iskaning."
       },
       {
         "key": "D",
@@ -1283,7 +1283,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sintopikal na Antas (Syntopical Reading)."
+        "text": "Sintopikal na Antas."
       },
       {
         "key": "B",
@@ -1341,7 +1341,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Sintesis (Synthesis)."
+        "text": "Sintesis."
       },
       {
         "key": "D",
@@ -1366,7 +1366,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Talambuhay (Autobiography)."
+        "text": "Talambuhay."
       },
       {
         "key": "D",
@@ -1420,7 +1420,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Panukalang Proyekto (Project Proposal)."
+        "text": "Panukalang Proyekto."
       }
     ],
     "correctAnswer": "D",
@@ -1441,7 +1441,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Posisyong Papel (Position Paper)."
+        "text": "Posisyong Papel."
       },
       {
         "key": "D",
@@ -1541,7 +1541,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Kapag ang sinusundang salita ay nagtatapos sa PATINIG (a, e, i, o, u) o malapatinig na /w/ at /y/."
+        "text": "Kapag ang sinusundang salita ay nagtatapos sa PATINIG o malapatinig na /w/ at /y/."
       },
       {
         "key": "D",
@@ -1583,7 +1583,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lagyan o palamanan ang isang bagay (apply on / spread on)."
+        "text": "Lagyan o palamanan ang isang bagay."
       },
       {
         "key": "B",
@@ -1620,7 +1620,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Mismong tao o pasyente (hal. operahan ang maysakit)."
+        "text": "Mismong tao o pasyente."
       }
     ],
     "correctAnswer": "D",
@@ -1745,7 +1745,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Jose Corazon de Jesus (Huseng Batute)."
+        "text": "Jose Corazon de Jesus."
       }
     ],
     "correctAnswer": "C",
@@ -1762,7 +1762,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Alejandro G. Abadilla (AGA)."
+        "text": "Alejandro G. Abadilla."
       },
       {
         "key": "C",

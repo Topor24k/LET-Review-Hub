@@ -20,7 +20,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Diagnostic Assessment (identifying specific learning difficulties and gaps prior to instruction)."
+        "text": "Diagnostic Assessment."
       }
     ],
     "correctAnswer": "D",
@@ -41,7 +41,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Placement Assessment (determining student entry level and appropriate instructional program)."
+        "text": "Placement Assessment."
       },
       {
         "key": "D",
@@ -62,11 +62,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Formative Assessment / Assessment FOR Learning (monitoring learning during instruction to adjust teaching)."
+        "text": "Formative Assessment / Assessment FOR Learning."
       },
       {
         "key": "C",
-        "text": "Summative Assessment (Assessment OF Learning)."
+        "text": "Summative Assessment."
       },
       {
         "key": "D",
@@ -83,7 +83,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Summative Assessment / Assessment OF Learning (evaluating final achievement for grading and certification)."
+        "text": "Summative Assessment / Assessment OF Learning."
       },
       {
         "key": "B",
@@ -120,7 +120,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Assessment AS Learning (fostering metacognitive self-assessment and self-regulation)."
+        "text": "Assessment AS Learning."
       }
     ],
     "correctAnswer": "D",
@@ -141,7 +141,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Written Work (WW), Performance Tasks (PT), and Quarterly Assessment (QA)."
+        "text": "Written Work, Performance Tasks, and Quarterly Assessment."
       },
       {
         "key": "D",
@@ -166,11 +166,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "WW = 40%, PT = 40%, QA = 20% (Math & Science distribution)."
+        "text": "WW = 40%, PT = 40%, QA = 20%."
       },
       {
         "key": "D",
-        "text": "WW = 20%, PT = 60%, QA = 20% (MAPEH & EPP/TLE distribution)."
+        "text": "WW = 20%, PT = 60%, QA = 20%."
       }
     ],
     "correctAnswer": "B",
@@ -241,7 +241,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "60.00% (an initial score of 60% transmutes to a passing grade of 75)."
+        "text": "60.00%."
       },
       {
         "key": "D",
@@ -262,7 +262,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Using qualitative non-numerical behavioral descriptors: Always Observed (AO), Sometimes Observed (SO), Rarely Observed (RO), Not Observed (NO)."
+        "text": "Using qualitative non-numerical behavioral descriptors: Always Observed, Sometimes Observed, Rarely Observed, Not Observed."
       },
       {
         "key": "C",
@@ -270,7 +270,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Using letter grades (A, B, C, D, F)."
+        "text": "Using letter grades."
       }
     ],
     "correctAnswer": "B",
@@ -320,7 +320,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "15 items (25% of 60 items = 15)."
+        "text": "15 items."
       }
     ],
     "correctAnswer": "D",
@@ -333,7 +333,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A Moderate item ($0.30 \\le p \\le 0.70$)."
+        "text": "A Moderate item."
       },
       {
         "key": "B",
@@ -341,7 +341,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "An Easy item (85% of test-takers answered correctly)."
+        "text": "An Easy item."
       },
       {
         "key": "D",
@@ -383,11 +383,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "More students in the Upper 27% group answered correctly than students in the Lower 27% group (the item discriminates favorably)."
+        "text": "More students in the Upper 27% group answered correctly than students in the Lower 27% group."
       },
       {
         "key": "B",
-        "text": "More students in the Lower group answered correctly than in the Upper group (Negative Discrimination)."
+        "text": "More students in the Lower group answered correctly than in the Upper group."
       },
       {
         "key": "C",
@@ -420,7 +420,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "More low-performing students got the item correct than high-performing students (suggesting a flawed distractor, miskey, or ambiguity); the item must be REVISED or DISCARDED."
+        "text": "More low-performing students got the item correct than high-performing students; the item must be REVISED or DISCARDED."
       }
     ],
     "correctAnswer": "D",
@@ -441,7 +441,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The item failed to discriminate between high and low achievers (equal numbers of upper and lower students got it right, or everyone got it right/wrong)."
+        "text": "The item failed to discriminate between high and low achievers."
       },
       {
         "key": "D",
@@ -466,7 +466,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Is never chosen by a single student in the entire class (ineffective/dead distractor)."
+        "text": "Is never chosen by a single student in the entire class."
       },
       {
         "key": "D",
@@ -483,7 +483,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An Ineffective (Dead / Non-functional) Distractor that should be revised or replaced with a more plausible alternative."
+        "text": "An Ineffective Distractor that should be revised or replaced with a more plausible alternative."
       },
       {
         "key": "B",
@@ -520,7 +520,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Content Validity (the test adequately samples the domain of knowledge and skills taught)."
+        "text": "Content Validity."
       }
     ],
     "correctAnswer": "D",
@@ -541,7 +541,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Face Validity (superficial appearance of test relevance)."
+        "text": "Face Validity."
       },
       {
         "key": "D",
@@ -620,7 +620,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Construct Validity (evidence through convergent/divergent correlations and factor analysis)."
+        "text": "Construct Validity."
       }
     ],
     "correctAnswer": "D",
@@ -645,7 +645,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The extent to which the test measures what it claims to measure (Validity)."
+        "text": "The extent to which the test measures what it claims to measure."
       }
     ],
     "correctAnswer": "C",
@@ -658,19 +658,19 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'A test that is valid is guaranteed to be 100% unreliable.'"
+        "text": "'A test that is valid is guaranteed to be 100% unreliable.'."
       },
       {
         "key": "B",
-        "text": "'A test can be reliable without being valid, but a test CANNOT be valid without first being reliable.'"
+        "text": "'A test can be reliable without being valid, but a test CANNOT be valid without first being reliable.'."
       },
       {
         "key": "C",
-        "text": "'A test can be valid without being reliable.'"
+        "text": "'A test can be valid without being reliable.'."
       },
       {
         "key": "D",
-        "text": "'Reliability and validity are identical concepts.'"
+        "text": "'Reliability and validity are identical concepts.'."
       }
     ],
     "correctAnswer": "B",
@@ -683,15 +683,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Test-Retest Reliability (Coefficient of Stability across time)."
+        "text": "Test-Retest Reliability."
       },
       {
         "key": "B",
-        "text": "Equivalent Forms Reliability (Equivalence)."
+        "text": "Equivalent Forms Reliability."
       },
       {
         "key": "C",
-        "text": "Split-Half Reliability (Internal Consistency)."
+        "text": "Split-Half Reliability."
       },
       {
         "key": "D",
@@ -720,7 +720,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Equivalent Forms Reliability (Coefficient of Equivalence)."
+        "text": "Equivalent Forms Reliability."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Split-Half Reliability (Internal Consistency)."
+        "text": "Split-Half Reliability."
       },
       {
         "key": "D",
@@ -762,7 +762,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Polytonously scored items (e.g., Likert scales, essay rubrics, partial credit scoring)."
+        "text": "Polytonously scored items."
       },
       {
         "key": "C",
@@ -783,7 +783,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inter-Rater / Scorer Reliability (consistency across different human evaluators)."
+        "text": "Inter-Rater / Scorer Reliability."
       },
       {
         "key": "B",
@@ -845,7 +845,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Detailed diagnostic feedback is required for formative revision (Analytic)."
+        "text": "Detailed diagnostic feedback is required for formative revision."
       }
     ],
     "correctAnswer": "C",
@@ -941,7 +941,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Measures a student's performance against a fixed, predetermined standard or mastery criterion (e.g., 'solved 8 out of 10 linear equations correctly')."
+        "text": "Measures a student's performance against a fixed, predetermined standard or mastery criterion."
       },
       {
         "key": "D",
@@ -962,11 +962,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Median (the middle score, unaffected by extreme outliers)."
+        "text": "The Median."
       },
       {
         "key": "C",
-        "text": "The Mean (the arithmetic average, heavily distorted by outliers)."
+        "text": "The Mean."
       },
       {
         "key": "D",
@@ -1008,11 +1008,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "95.44% (within $\\pm 2\\sigma$)."
+        "text": "95.44%."
       },
       {
         "key": "B",
-        "text": "99.74% (within $\\pm 3\\sigma$)."
+        "text": "99.74%."
       },
       {
         "key": "C",
@@ -1020,7 +1020,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "68.26% (approximately 68% of all scores)."
+        "text": "68.26%."
       }
     ],
     "correctAnswer": "D",
@@ -1041,7 +1041,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Mean, Median, and Mode are all exactly EQUAL and located at the exact center of the distribution ($Mean = Median = Mode$)."
+        "text": "The Mean, Median, and Mode are all exactly EQUAL and located at the exact center of the distribution."
       },
       {
         "key": "D",
@@ -1062,15 +1062,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mode < Median < Mean (the Mean is pulled to the right toward the high score tail)."
+        "text": "Mode < Median < Mean."
       },
       {
         "key": "C",
-        "text": "Mean < Median < Mode (Negatively Skewed)."
+        "text": "Mean < Median < Mode."
       },
       {
         "key": "D",
-        "text": "Mean = Median = Mode (Symmetrical)."
+        "text": "Mean = Median = Mode."
       }
     ],
     "correctAnswer": "B",
@@ -1083,15 +1083,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mean < Median < Mode (the Mean is pulled to the left toward the low score tail)."
+        "text": "Mean < Median < Mode."
       },
       {
         "key": "B",
-        "text": "Mode < Median < Mean (Positively Skewed)."
+        "text": "Mode < Median < Mean."
       },
       {
         "key": "C",
-        "text": "Mean = Median = Mode (Symmetrical)."
+        "text": "Mean = Median = Mode."
       },
       {
         "key": "D",
@@ -1120,7 +1120,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "$Z = +2.0$ (indicating the student scored 2.0 standard deviations above the class mean)."
+        "text": "$Z = +2.0$."
       }
     ],
     "correctAnswer": "D",
@@ -1141,7 +1141,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "$T = 65$ ($50 + 10(1.5) = 65$)."
+        "text": "$T = 65$($50 + 10(1.5) = 65$)."
       },
       {
         "key": "D",
@@ -1162,7 +1162,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "9 score bands (ranging from Stanine 1 to Stanine 9)."
+        "text": "9 score bands."
       },
       {
         "key": "C",
@@ -1187,7 +1187,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The student answered exactly 82% of the exam questions correctly (Percentage Score)."
+        "text": "The student answered exactly 82% of the exam questions correctly."
       },
       {
         "key": "C",
@@ -1262,7 +1262,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Keeping premises and responses homogeneous (e.g., all authors and works), having more responses than premises (to prevent elimination guessing), and keeping all items on a single page."
+        "text": "Keeping premises and responses homogeneous, having more responses than premises, and keeping all items on a single page."
       },
       {
         "key": "C",
@@ -1312,11 +1312,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The teacher grades too strictly for all students (Severity Error)."
+        "text": "The teacher grades too strictly for all students."
       },
       {
         "key": "C",
-        "text": "The teacher gives everyone average scores (Central Tendency Error)."
+        "text": "The teacher gives everyone average scores."
       },
       {
         "key": "D",
@@ -1441,7 +1441,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The standard deviation of errors of measurement around a student's true score ($SEM = s\\sqrt{1 - r}$), defining the confidence band of performance."
+        "text": "The standard deviation of errors of measurement around a student's true score, defining the confidence band of performance."
       },
       {
         "key": "D",
@@ -1520,7 +1520,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Intended Learning Outcomes (ILOs), Teaching and Learning Activities (TLAs), and Assessment Tasks (ATs)."
+        "text": "Intended Learning Outcomes, Teaching and Learning Activities, and Assessment Tasks."
       }
     ],
     "correctAnswer": "D",
@@ -1641,7 +1641,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Cultural/Contextual Bias (penalizing students who lack specific cultural background knowledge rather than testing reading ability)."
+        "text": "Cultural/Contextual Bias."
       },
       {
         "key": "D",
@@ -1787,7 +1787,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Leave 5 blanks in a 7-word sentence (mutilated text)."
+        "text": "Leave 5 blanks in a 7-word sentence."
       },
       {
         "key": "C",
@@ -1820,7 +1820,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The final grade gives greater weight to the final grading period (e.g., Previous Grade $\\times \\frac{1}{3} +$ Present Grade $\\times \\frac{2}{3}$), rewarding progressive improvement over time."
+        "text": "The final grade gives greater weight to the final grading period, rewarding progressive improvement over time."
       }
     ],
     "correctAnswer": "D",
@@ -1862,7 +1862,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Diagnostic (Before), Formative (During), Summative (After), Traditional (Knowledge), and Authentic/Performance-Based (Application) assessments."
+        "text": "Diagnostic, Formative, Summative, Traditional, and Authentic/Performance-Based assessments."
       },
       {
         "key": "C",

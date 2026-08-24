@@ -8,19 +8,19 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Progressivism (John Dewey)."
+        "text": "Progressivism."
       },
       {
         "key": "B",
-        "text": "Existentialism (Jean-Paul Sartre)."
+        "text": "Existentialism."
       },
       {
         "key": "C",
-        "text": "Reconstructionism (Theodore Brameld)."
+        "text": "Reconstructionism."
       },
       {
         "key": "D",
-        "text": "Essentialism (William Bagley)."
+        "text": "Essentialism."
       }
     ],
     "correctAnswer": "D",
@@ -41,7 +41,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Perennialism (Robert Maynard Hutchins & Mortimer Adler)."
+        "text": "Perennialism."
       },
       {
         "key": "D",
@@ -62,7 +62,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Learner-centered inquiry, experiential learning ('learning by doing'), hands-on problem solving, and democratic classroom processes."
+        "text": "Learner-centered inquiry, experiential learning, hands-on problem solving, and democratic classroom processes."
       },
       {
         "key": "C",
@@ -241,7 +241,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'All the learning experiences children have under the guidance of teachers.'"
+        "text": "'All the learning experiences children have under the guidance of teachers.'."
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Studies of the Learners, Studies of Contemporary Life, and Suggestions from Subject Specialists (screened through Philosophy and Psychology)."
+        "text": "Studies of the Learners, Studies of Contemporary Life, and Suggestions from Subject Specialists."
       },
       {
         "key": "B",
@@ -341,7 +341,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Goals/Objectives -> Curriculum Designing -> Curriculum Implementation (Instruction) -> Curriculum Evaluation."
+        "text": "Goals/Objectives -> Curriculum Designing -> Curriculum Implementation -> Curriculum Evaluation."
       },
       {
         "key": "D",
@@ -383,7 +383,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Written (Official) Curriculum."
+        "text": "Written Curriculum."
       },
       {
         "key": "B",
@@ -583,7 +583,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Merges related subjects into a single comprehensive learning area (e.g., combining history, economics, geography into 'Social Studies' / Araling Panlipunan)."
+        "text": "Merges related subjects into a single comprehensive learning area."
       },
       {
         "key": "B",
@@ -741,7 +741,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Academic Track, Technical-Vocational-Livelihood (TVL) Track, Sports Track, and Arts & Design Track."
+        "text": "Academic Track, Technical-Vocational-Livelihood Track, Sports Track, and Arts & Design Track."
       },
       {
         "key": "D",
@@ -783,7 +783,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Open-ended, thought-provoking, intellectually engaging questions that spark inquiry and recur throughout life (e.g., 'What makes a society just?')."
+        "text": "Open-ended, thought-provoking, intellectually engaging questions that spark inquiry and recur throughout life."
       },
       {
         "key": "B",
@@ -841,7 +841,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Stages of Concern (from awareness/informational concerns to collaboration and refocusing) and Levels of Use."
+        "text": "Stages of Concern and Levels of Use."
       },
       {
         "key": "D",
@@ -1162,11 +1162,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "An Instructional Accommodation (adapting accessibility and format without lowering learning standards)."
+        "text": "An Instructional Accommodation."
       },
       {
         "key": "C",
-        "text": "A Curricular Modification (substantially altering or lowering core learning standards)."
+        "text": "A Curricular Modification."
       },
       {
         "key": "D",
@@ -1283,7 +1283,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Teachers (the frontline curriculum implementers)."
+        "text": "Teachers."
       },
       {
         "key": "B",
@@ -1341,7 +1341,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Identify the discrepancy (gap) between current learner/societal conditions and desired educational outcomes to justify curriculum goals."
+        "text": "Identify the discrepancy between current learner/societal conditions and desired educational outcomes to justify curriculum goals."
       },
       {
         "key": "D",
@@ -1420,7 +1420,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Cognitive (Knowledge/Head), Affective (Values/Attitudes/Heart), and Psychomotor (Skills/Actions/Hands)."
+        "text": "Cognitive, Affective, and Psychomotor."
       }
     ],
     "correctAnswer": "D",
@@ -1441,7 +1441,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Transition from one grade level to the next (vertical) and across subjects within a grade (horizontal) occurs without gaps, overlaps, or contradictions."
+        "text": "Transition from one grade level to the next and across subjects within a grade occurs without gaps, overlaps, or contradictions."
       },
       {
         "key": "D",
@@ -1508,19 +1508,19 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The entire philosophy and structure of the school system is overhauled (Restructuring)."
+        "text": "The entire philosophy and structure of the school system is overhauled."
       },
       {
         "key": "B",
-        "text": "Minor modifications are made to lesson sequence (Alteration)."
+        "text": "Minor modifications are made to lesson sequence."
       },
       {
         "key": "C",
-        "text": "A completely new learning track is added (Perturbation)."
+        "text": "A completely new learning track is added."
       },
       {
         "key": "D",
-        "text": "One existing instructional element (e.g., an outdated textbook) is replaced by a newer element with no fundamental change in curriculum structure."
+        "text": "One existing instructional element is replaced by a newer element with no fundamental change in curriculum structure."
       }
     ],
     "correctAnswer": "D",
@@ -1541,7 +1541,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Restructuring (system-wide, fundamental structural and organizational transformation)."
+        "text": "Restructuring."
       },
       {
         "key": "D",
@@ -1562,11 +1562,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Formative in nature (aimed at ongoing improvement, refinement, and pedagogical adjustment)."
+        "text": "Formative in nature."
       },
       {
         "key": "C",
-        "text": "Summative in nature (aimed at final program termination or accreditation)."
+        "text": "Summative in nature."
       },
       {
         "key": "D",
@@ -1583,7 +1583,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Summative evaluation (evaluating overall merit, worth, and long-term viability)."
+        "text": "Summative evaluation."
       },
       {
         "key": "B",
@@ -1641,7 +1641,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Intended Curriculum (what is officially prescribed), the Implemented Curriculum (what is actually taught), and the Achieved Curriculum (what students learn)."
+        "text": "The Intended Curriculum, the Implemented Curriculum, and the Achieved Curriculum."
       },
       {
         "key": "D",
@@ -1820,7 +1820,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A collaborative, collegial, data-based cycle (Pre-conference, Observation, Analysis, Post-conference) aimed at improving teacher instructional practice."
+        "text": "A collaborative, collegial, data-based cycle aimed at improving teacher instructional practice."
       }
     ],
     "correctAnswer": "D",
@@ -1841,7 +1841,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Curriculum (Objectives/Standards), Instruction (Pedagogical Activities), and Assessment (Evidence of Learning)."
+        "text": "Curriculum, Instruction, and Assessment."
       },
       {
         "key": "D",

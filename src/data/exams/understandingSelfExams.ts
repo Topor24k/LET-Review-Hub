@@ -41,7 +41,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rational (reason), Spirited (passions/will), and Appetitive (bodily desires)."
+        "text": "Rational, Spirited, and Appetitive."
       },
       {
         "key": "D",
@@ -83,7 +83,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Methodological doubt, concluding that the act of doubting logically proves the existence of a thinking entity (res cogitans)."
+        "text": "Methodological doubt, concluding that the act of doubting logically proves the existence of a thinking entity."
       },
       {
         "key": "B",
@@ -362,7 +362,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Real Self (who one actually is) and the Ideal Self (who one aspires to be)."
+        "text": "The Real Self and the Ideal Self."
       },
       {
         "key": "C",
@@ -408,11 +408,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Id (operates on the Pleasure Principle)."
+        "text": "The Id."
       },
       {
         "key": "B",
-        "text": "The Superego (operates on the Morality Principle)."
+        "text": "The Superego."
       },
       {
         "key": "C",
@@ -458,7 +458,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The unconscious masculine archetype in a woman (Animus)."
+        "text": "The unconscious masculine archetype in a woman."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The hidden, repressed, dark, and animalistic aspects of the self (The Shadow)."
+        "text": "The hidden, repressed, dark, and animalistic aspects of the self."
       },
       {
         "key": "D",
-        "text": "The unconscious feminine archetype in a man (Anima)."
+        "text": "The unconscious feminine archetype in a man."
       }
     ],
     "correctAnswer": "B",
@@ -533,19 +533,19 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Verbal persuasion (encouraging words from mentors)."
+        "text": "Verbal persuasion."
       },
       {
         "key": "B",
-        "text": "Physiological and affective states (managing heart rate and stress)."
+        "text": "Physiological and affective states."
       },
       {
         "key": "C",
-        "text": "Mastery experiences (past successful performances and accomplishments)."
+        "text": "Mastery experiences."
       },
       {
         "key": "D",
-        "text": "Vicarious experiences (watching others succeed)."
+        "text": "Vicarious experiences."
       }
     ],
     "correctAnswer": "C",
@@ -620,7 +620,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Body Dysmorphic Disorder (BDD)."
+        "text": "Body Dysmorphic Disorder."
       }
     ],
     "correctAnswer": "D",
@@ -741,7 +741,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Compulsive buying behavior (oniomania / shopping addiction)."
+        "text": "Compulsive buying behavior."
       },
       {
         "key": "D",
@@ -758,19 +758,19 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Will to Wealth (capital accumulation)."
+        "text": "The Will to Wealth."
       },
       {
         "key": "B",
-        "text": "The Will to Meaning (finding purpose in life even amidst unavoidable suffering)."
+        "text": "The Will to Meaning."
       },
       {
         "key": "C",
-        "text": "The Will to Pleasure (Freudian hedonism)."
+        "text": "The Will to Pleasure."
       },
       {
         "key": "D",
-        "text": "The Will to Power (Nietzschean dominance)."
+        "text": "The Will to Power."
       }
     ],
     "correctAnswer": "B",
@@ -783,7 +783,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By creating a work/doing a deed, by experiencing something/encountering someone (love), and by the attitude taken toward unavoidable suffering."
+        "text": "By creating a work/doing a deed, by experiencing something/encountering someone, and by the attitude taken toward unavoidable suffering."
       },
       {
         "key": "B",
@@ -858,19 +858,19 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pakikisama (superficial compromise to avoid friction)."
+        "text": "Pakikisama."
       },
       {
         "key": "B",
-        "text": "Kapwa (Shared Identity / 'The self in the other'), recognizing the fundamental unity of self and fellow human beings."
+        "text": "Kapwa, recognizing the fundamental unity of self and fellow human beings."
       },
       {
         "key": "C",
-        "text": "Hiya (purely negative destructive shame)."
+        "text": "Hiya."
       },
       {
         "key": "D",
-        "text": "Utang na Loob (contractual monetary debt)."
+        "text": "Utang na Loob."
       }
     ],
     "correctAnswer": "B",
@@ -883,19 +883,19 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pakikipagpalagayang-loob / Pakikiisa (Hindi Ibang-Tao - One of Us)."
+        "text": "Pakikipagpalagayang-loob / Pakikiisa."
       },
       {
         "key": "B",
-        "text": "Pakikitungo (Civility - Ibang-Tao)."
+        "text": "Pakikitungo."
       },
       {
         "key": "C",
-        "text": "Pakikisalamuha (Interaction - Ibang-Tao)."
+        "text": "Pakikisalamuha."
       },
       {
         "key": "D",
-        "text": "Pakikibagay (Conforming - Ibang-Tao)."
+        "text": "Pakikibagay."
       }
     ],
     "correctAnswer": "A",
@@ -983,7 +983,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "FOMO (Fear of Missing Out)."
+        "text": "FOMO."
       },
       {
         "key": "B",
@@ -1020,7 +1020,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Metacognitive Knowledge (awareness of cognition) and Metacognitive Regulation (monitoring and controlling learning processes)."
+        "text": "Metacognitive Knowledge and Metacognitive Regulation."
       }
     ],
     "correctAnswer": "D",
@@ -1062,7 +1062,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Forethought (planning/goal-setting), Performance (monitoring/strategy execution), and Self-Reflection (self-evaluation/adaptation)."
+        "text": "Forethought, Performance, and Self-Reflection."
       },
       {
         "key": "C",
@@ -1108,7 +1108,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Whether one has adequate coping resources and options to manage the stressor (Secondary Appraisal)."
+        "text": "Whether one has adequate coping resources and options to manage the stressor."
       },
       {
         "key": "B",
@@ -1120,7 +1120,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Whether an event is irrelevant, benign-positive, or stressful (representing a threat, challenge, or loss)."
+        "text": "Whether an event is irrelevant, benign-positive, or stressful."
       }
     ],
     "correctAnswer": "D",
@@ -1162,15 +1162,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Problem-Focused Coping (directly addressing the root cause of the stressor to change the situation)."
+        "text": "Problem-Focused Coping."
       },
       {
         "key": "C",
-        "text": "Emotion-Focused Coping (regulating emotional distress through meditation or venting)."
+        "text": "Emotion-Focused Coping."
       },
       {
         "key": "D",
-        "text": "Avoidant Denial Coping (pretending the exam never occurred)."
+        "text": "Avoidant Denial Coping."
       }
     ],
     "correctAnswer": "B",
@@ -1183,7 +1183,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Emotion-Focused Coping (adapting to unchangeable circumstances by managing the emotional impact)."
+        "text": "Emotion-Focused Coping."
       },
       {
         "key": "B",
@@ -1262,7 +1262,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Self-Kindness (vs self-judgment), Common Humanity (vs isolation), and Mindfulness (vs over-identification)."
+        "text": "Self-Kindness, Common Humanity, and Mindfulness."
       },
       {
         "key": "C",
@@ -1320,7 +1320,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Self-Regulation (the ability to manage and redirect disruptive emotions and adapt to circumstances)."
+        "text": "Self-Regulation."
       }
     ],
     "correctAnswer": "D",
@@ -1383,7 +1383,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Structural thickening in the prefrontal cortex (executive control) and reduced reactivity in the amygdala (fear/stress center)."
+        "text": "Structural thickening in the prefrontal cortex and reduced reactivity in the amygdala."
       },
       {
         "key": "B",
@@ -1433,11 +1433,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The physical brain is an illusion produced by computer programming.'"
+        "text": "'The physical brain is an illusion produced by computer programming.'."
       },
       {
         "key": "B",
-        "text": "'The mind exists in outer space while the body exists on earth.'"
+        "text": "'The mind exists in outer space while the body exists on earth.'."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'The body is an evil prison from which the intellect must escape through fasting.'"
+        "text": "'The body is an evil prison from which the intellect must escape through fasting.'."
       }
     ],
     "correctAnswer": "C",
@@ -1520,7 +1520,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Identity vs Role Confusion (discovering who they are, their values, and their life direction)."
+        "text": "Identity vs Role Confusion."
       }
     ],
     "correctAnswer": "D",
@@ -1533,11 +1533,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Moratorium (active crisis/exploration without commitment)."
+        "text": "Moratorium."
       },
       {
         "key": "B",
-        "text": "Identity Diffusion (neither exploration nor commitment)."
+        "text": "Identity Diffusion."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Identity Achievement (explored options and made personal commitment)."
+        "text": "Identity Achievement."
       }
     ],
     "correctAnswer": "C",
@@ -1645,7 +1645,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Their lives are controlled entirely by luck, fate, powerful external authorities, or chance (External Locus)."
+        "text": "Their lives are controlled entirely by luck, fate, powerful external authorities, or chance."
       }
     ],
     "correctAnswer": "C",
@@ -1683,7 +1683,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Autonomy (choice/volition), Competence (mastery/effectiveness), and Relatedness (belonging/connection)."
+        "text": "Autonomy, Competence, and Relatedness."
       },
       {
         "key": "B",
@@ -1708,7 +1708,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Extrinsic Motivation (engaging in an activity to obtain external rewards or avoid punishment)."
+        "text": "Extrinsic Motivation."
       },
       {
         "key": "B",
@@ -1720,7 +1720,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Intrinsic Motivation (engaging in an activity for its inherent satisfaction)."
+        "text": "Intrinsic Motivation."
       }
     ],
     "correctAnswer": "D",
@@ -1783,7 +1783,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maintain hope, find meaning, and cultivate courage in the face of the 'tragic triad' (pain, guilt, and death)."
+        "text": "Maintain hope, find meaning, and cultivate courage in the face of the 'tragic triad'."
       },
       {
         "key": "B",
@@ -1820,7 +1820,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ectomorph (lean/slender/linear)."
+        "text": "Ectomorph."
       }
     ],
     "correctAnswer": "D",

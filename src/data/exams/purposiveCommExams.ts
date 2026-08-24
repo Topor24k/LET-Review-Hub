@@ -20,7 +20,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Noise (physical, physiological, psychological, or semantic)."
+        "text": "Noise."
       }
     ],
     "correctAnswer": "D",
@@ -141,7 +141,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Ethnocentrism (evaluating other cultures using the standards and preconceptions of one's own culture)."
+        "text": "Ethnocentrism."
       },
       {
         "key": "D",
@@ -183,19 +183,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1.5 feet to 4 feet (18 inches to 48 inches)."
+        "text": "1.5 feet to 4 feet."
       },
       {
         "key": "B",
-        "text": "0 to 18 inches (Intimate space)."
+        "text": "0 to 18 inches."
       },
       {
         "key": "C",
-        "text": "4 feet to 12 feet (Social space)."
+        "text": "4 feet to 12 feet."
       },
       {
         "key": "D",
-        "text": "12 feet to 25+ feet (Public space)."
+        "text": "12 feet to 25+ feet."
       }
     ],
     "correctAnswer": "A",
@@ -262,7 +262,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Frozen (Static) Register, where language is printed, unchanging, and ceremonial."
+        "text": "Frozen Register."
       },
       {
         "key": "C",
@@ -358,19 +358,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "(FirstAuthor, et. al., 2023)."
+        "text": "."
       },
       {
         "key": "B",
-        "text": "(FirstAuthor et al., 2023)."
+        "text": "."
       },
       {
         "key": "C",
-        "text": "(FirstAuthor, SecondAuthor, & ThirdAuthor, 2023)."
+        "text": "."
       },
       {
         "key": "D",
-        "text": "(FirstAuthor and others, 2023, pp. 1-10)."
+        "text": "."
       }
     ],
     "correctAnswer": "B",
@@ -441,7 +441,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "All elements (date, inside address, salutation, body, complimentary close) are aligned flush with the left margin without paragraph indentations."
+        "text": "All elements are aligned flush with the left margin without paragraph indentations."
       },
       {
         "key": "D",
@@ -508,19 +508,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ethos (appeal to credibility and moral character)."
+        "text": "Ethos."
       },
       {
         "key": "B",
-        "text": "Pathos (appeal to emotion and sympathy)."
+        "text": "Pathos."
       },
       {
         "key": "C",
-        "text": "Kairos (appeal to opportune timing)."
+        "text": "Kairos."
       },
       {
         "key": "D",
-        "text": "Logos (appeal to logic and reason)."
+        "text": "Logos."
       }
     ],
     "correctAnswer": "D",
@@ -541,7 +541,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "X = Ethos (credibility), Y = Pathos (emotional resonance)."
+        "text": "X = Ethos, Y = Pathos."
       },
       {
         "key": "D",
@@ -587,15 +587,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Impromptu speaking (speaking spontaneously without any prior preparation)."
+        "text": "Impromptu speaking."
       },
       {
         "key": "C",
-        "text": "Manuscript speaking (reading a written text word-for-word)."
+        "text": "Manuscript speaking."
       },
       {
         "key": "D",
-        "text": "Memorized speaking (reciting a script verbatim from memory)."
+        "text": "Memorized speaking."
       }
     ],
     "correctAnswer": "A",
@@ -658,7 +658,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using informal text-speak abbreviations ('u r gr8') in formal business queries."
+        "text": "Using informal text-speak abbreviations in formal business queries."
       },
       {
         "key": "B",
@@ -683,11 +683,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "BCC (Blind Carbon Copy) to protect recipient privacy and prevent unauthorized data harvesting."
+        "text": "BCC to protect recipient privacy and prevent unauthorized data harvesting."
       },
       {
         "key": "B",
-        "text": "CC (Carbon Copy), exposing all personal emails to everyone."
+        "text": "CC, exposing all personal emails to everyone."
       },
       {
         "key": "C",
@@ -758,19 +758,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Virtual Circle (unstandardized internet slang)."
+        "text": "Virtual Circle."
       },
       {
         "key": "B",
-        "text": "Outer Circle (institutionalized second-language varieties with distinct regional norms and national functions)."
+        "text": "Outer Circle."
       },
       {
         "key": "C",
-        "text": "Inner Circle (traditional native-English speaking bases like the UK and USA)."
+        "text": "Inner Circle."
       },
       {
         "key": "D",
-        "text": "Expanding Circle (English learned purely as a foreign language for trade)."
+        "text": "Expanding Circle."
       }
     ],
     "correctAnswer": "B",
@@ -783,7 +783,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Code-Switching (alternating between two or more languages in a single conversation)."
+        "text": "Code-Switching."
       },
       {
         "key": "B",
@@ -820,7 +820,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A 'High' (H) variety for formal, academic, and official domains, and a 'Low' (L) variety for casual daily conversations."
+        "text": "A 'High' variety for formal, academic, and official domains, and a 'Low' variety for casual daily conversations."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Semantic Noise, where unfamiliar vocabulary and ambiguous symbols hinder meaning."
+        "text": "Semantic Noise."
       },
       {
         "key": "D",
@@ -862,7 +862,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Psychological Noise, where internal emotional stress interferes with message reception."
+        "text": "Psychological Noise."
       },
       {
         "key": "C",
@@ -908,11 +908,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Open Area (Arena / Public Self)."
+        "text": "Open Area."
       },
       {
         "key": "B",
-        "text": "Blind Area (Blind Spot)."
+        "text": "Blind Area."
       },
       {
         "key": "C",
@@ -920,7 +920,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Hidden Area (Fa\u00e7ade / Private Self)."
+        "text": "Hidden Area."
       }
     ],
     "correctAnswer": "D",
@@ -941,7 +941,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Blind Spot (Blind Area)."
+        "text": "Blind Spot."
       },
       {
         "key": "D",
@@ -983,7 +983,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Critical (Evaluative) Listening."
+        "text": "Critical Listening."
       },
       {
         "key": "B",
@@ -1020,7 +1020,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Empathetic (Therapeutic) Listening."
+        "text": "Empathetic Listening."
       }
     ],
     "correctAnswer": "D",
@@ -1108,19 +1108,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'I totally think our crazy test results proved our awesome theory 100%!'"
+        "text": "'I totally think our crazy test results proved our awesome theory 100%!'."
       },
       {
         "key": "B",
-        "text": "'You know, it's pretty obvious that kids who study more do way better.'"
+        "text": "'You know, it's pretty obvious that kids who study more do way better.'."
       },
       {
         "key": "C",
-        "text": "'Believe me, this research is gonna change the entire education system forever!'"
+        "text": "'Believe me, this research is gonna change the entire education system forever!'."
       },
       {
         "key": "D",
-        "text": "'The experimental data indicate a statistically significant positive correlation between study duration and retention rates.'"
+        "text": "'The experimental data indicate a statistically significant positive correlation between study duration and retention rates.'."
       }
     ],
     "correctAnswer": "D",
@@ -1162,7 +1162,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Artifactics (Objectics)."
+        "text": "Artifactics."
       },
       {
         "key": "C",
@@ -1208,7 +1208,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Functional Resume (focusing strictly on skills without employment dates)."
+        "text": "Functional Resume."
       },
       {
         "key": "B",
@@ -1220,7 +1220,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Chronological Resume (listing work history in reverse chronological order)."
+        "text": "Chronological Resume."
       }
     ],
     "correctAnswer": "D",
@@ -1233,7 +1233,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Academic Curriculum Vitae (CV)."
+        "text": "Academic Curriculum Vitae."
       },
       {
         "key": "B",
@@ -1241,7 +1241,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Functional (Skills-Based) Resume."
+        "text": "Functional Resume."
       },
       {
         "key": "D",
@@ -1283,7 +1283,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cultivate perceptions of reality among viewers that match the televised world (e.g., 'Mean World Syndrome')."
+        "text": "Cultivate perceptions of reality among viewers that match the televised world."
       },
       {
         "key": "B",
@@ -1320,7 +1320,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Telling people what to think about (setting the salience of issues in the public mind)."
+        "text": "Telling people what to think about."
       }
     ],
     "correctAnswer": "D",
@@ -1362,7 +1362,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Rapport Talk' (connection, intimacy, and relationship building)."
+        "text": "'Rapport Talk'."
       },
       {
         "key": "C",
@@ -1483,11 +1483,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Person-first language (e.g., 'a person with a visual impairment') or identity-first terms preferred by the community."
+        "text": "Person-first language or identity-first terms preferred by the community."
       },
       {
         "key": "B",
-        "text": "Generic dehumanizing labels (e.g., 'the blind', 'the afflicted')."
+        "text": "Generic dehumanizing labels."
       },
       {
         "key": "C",
@@ -1683,19 +1683,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'BSED 3-A Research Proposal Draft - Hershey Tabanao (Oct 24)'"
+        "text": "'BSED 3-A Research Proposal Draft - Hershey Tabanao'."
       },
       {
         "key": "B",
-        "text": "'URGENT PLEASE READ RIGHT NOW!!!'"
+        "text": "'URGENT PLEASE READ RIGHT NOW!!!'."
       },
       {
         "key": "C",
-        "text": "'hello maam'"
+        "text": "'hello maam'."
       },
       {
         "key": "D",
-        "text": "'(No Subject)'"
+        "text": "''."
       }
     ],
     "correctAnswer": "A",
@@ -1720,7 +1720,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ad Hominem fallacy (attacking the person instead of the argument)."
+        "text": "Ad Hominem fallacy."
       }
     ],
     "correctAnswer": "D",
@@ -1762,11 +1762,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "False Dilemma / Either-Or fallacy (artificially limiting choices to two extreme opposites)."
+        "text": "False Dilemma / Either-Or fallacy."
       },
       {
         "key": "C",
-        "text": "Circular Reasoning (Begging the Question)."
+        "text": "Circular Reasoning."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Post Hoc Ergo Propter Hoc (False Cause fallacy)."
+        "text": "Post Hoc Ergo Propter Hoc."
       },
       {
         "key": "B",
@@ -1808,11 +1808,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Secondary Source (an analysis or commentary written about the event)."
+        "text": "Secondary Source."
       },
       {
         "key": "B",
-        "text": "Tertiary Source (an indexed compendium like an encyclopedia)."
+        "text": "Tertiary Source."
       },
       {
         "key": "C",
@@ -1820,7 +1820,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Primary Source (an original, firsthand historical artifact from the time of the event)."
+        "text": "Primary Source."
       }
     ],
     "correctAnswer": "D",
@@ -1833,19 +1833,19 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Where does Language originate in the Human Brain?'"
+        "text": "'Where does Language originate in the Human Brain?'."
       },
       {
         "key": "B",
-        "text": "'Why do Computers process Binary Algorithms?'"
+        "text": "'Why do Computers process Binary Algorithms?'."
       },
       {
         "key": "C",
-        "text": "'Who says What, in Which Channel, to Whom, with What Effect?'"
+        "text": "'Who says What, in Which Channel, to Whom, with What Effect?'."
       },
       {
         "key": "D",
-        "text": "'When does Money create Power in Politics?'"
+        "text": "'When does Money create Power in Politics?'."
       }
     ],
     "correctAnswer": "C",

@@ -62,7 +62,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "50% for Needs (essential living costs), 30% for Wants (lifestyle/entertainment), and 20% for Savings, debt repayment, and investments."
+        "text": "50% for Needs, 30% for Wants, and 20% for Savings, debt repayment, and investments."
       },
       {
         "key": "C",
@@ -83,7 +83,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An Asset puts money INTO your pocket (generates passive cash flow/appreciation), while a Liability takes money OUT of your pocket (incurs ongoing expenses)."
+        "text": "An Asset puts money INTO your pocket, while a Liability takes money OUT of your pocket."
       },
       {
         "key": "B",
@@ -120,7 +120,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because Inflation continuously erodes the real purchasing power of money over time, meaning the cash buys fewer goods in the future."
+        "text": "Because Inflation continuously erodes the real purchasing power of money over time."
       }
     ],
     "correctAnswer": "D",
@@ -141,7 +141,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The number of years required to DOUBLE an investment at a given annual fixed compound interest rate (Years = 72 / Interest Rate)."
+        "text": "The number of years required to DOUBLE an investment at a given annual fixed compound interest rate."
       },
       {
         "key": "D",
@@ -162,7 +162,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Is an investment that finances an asset or opportunity with potential to increase future net worth or income (e.g., student education, affordable business loan)."
+        "text": "Is an investment that finances an asset or opportunity with potential to increase future net worth or income."
       },
       {
         "key": "C",
@@ -220,7 +220,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Currency (timeliness), Relevance (importance), Authority (source credentials), Accuracy (verifiability), and Purpose (reason for existence)."
+        "text": "Currency, Relevance, Authority, Accuracy, and Purpose."
       }
     ],
     "correctAnswer": "D",
@@ -283,7 +283,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It provides an extra layer of defense by requiring both a password AND a secondary verification method (e.g., SMS code, authenticator app), preventing unauthorized access."
+        "text": "It provides an extra layer of defense by requiring both a password AND a secondary verification method, preventing unauthorized access."
       },
       {
         "key": "B",
@@ -308,15 +308,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Media messages are direct, unfiltered reflections of pure truth.'"
+        "text": "'Media messages are direct, unfiltered reflections of pure truth.'."
       },
       {
         "key": "B",
-        "text": "'Television broadcasts are generated entirely by nature without human input.'"
+        "text": "'Television broadcasts are generated entirely by nature without human input.'."
       },
       {
         "key": "C",
-        "text": "'All news broadcasts are 100% free from any political or economic perspective.'"
+        "text": "'All news broadcasts are 100% free from any political or economic perspective.'."
       },
       {
         "key": "D",
@@ -420,7 +420,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Interdependence, Recycling of matter (Zero Waste), Solar Energy, Diversity, and Flexibility/Dynamic Balance."
+        "text": "Interdependence, Recycling of matter, Solar Energy, Diversity, and Flexibility/Dynamic Balance."
       }
     ],
     "correctAnswer": "D",
@@ -462,7 +462,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Rethink, Refuse, Reduce, Reuse, Repurpose, Recycle, and Rot (Compost)."
+        "text": "Rethink, Refuse, Reduce, Reuse, Repurpose, Recycle, and Rot."
       },
       {
         "key": "C",
@@ -662,7 +662,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Responsible Decision-Making (evaluating consequences and ethical considerations)."
+        "text": "Responsible Decision-Making."
       },
       {
         "key": "C",
@@ -766,7 +766,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passively absorbing printed words as unquestionable sacred facts ('Banking Concept')."
+        "text": "Passively absorbing printed words as unquestionable sacred facts."
       },
       {
         "key": "D",
@@ -783,19 +783,19 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing, and what is the underlying ideology?'"
+        "text": "'Whose voices and perspectives are centered, whose voices are silenced, what interests are served by this framing, and what is the underlying ideology?'."
       },
       {
         "key": "B",
-        "text": "'How many adjectives are in the first sentence?'"
+        "text": "'How many adjectives are in the first sentence?'."
       },
       {
         "key": "C",
-        "text": "'What is the price of the newspaper at the newsstand?'"
+        "text": "'What is the price of the newspaper at the newsstand?'."
       },
       {
         "key": "D",
-        "text": "'What font size was used by the graphic typesetter?'"
+        "text": "'What font size was used by the graphic typesetter?'."
       }
     ],
     "correctAnswer": "A",
@@ -820,7 +820,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Evaluation (assessing the product's effectiveness and the research process)."
+        "text": "Evaluation."
       }
     ],
     "correctAnswer": "D",
@@ -862,7 +862,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Any bullying done through the use of technology or any electronic means (social media, messaging, texting) that causes physical, emotional, or psychological harm."
+        "text": "Any bullying done through the use of technology or any electronic means that causes physical, emotional, or psychological harm."
       },
       {
         "key": "C",
@@ -883,7 +883,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fostering students' innate biological connection to nature (Biophilia), improving mental well-being, and providing hands-on experiential science labs."
+        "text": "Fostering students' innate biological connection to nature, improving mental well-being, and providing hands-on experiential science labs."
       },
       {
         "key": "B",
@@ -920,7 +920,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "3 to 6 months' worth of essential living expenses kept in a liquid, easily accessible savings account for unexpected crises (e.g., medical emergency, job loss)."
+        "text": "3 to 6 months' worth of essential living expenses kept in a liquid, easily accessible savings account for unexpected crises."
       }
     ],
     "correctAnswer": "D",
@@ -1062,7 +1062,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Empathize (understand user needs), Define (state problem), Ideate (brainstorm solutions), Prototype (create sample), and Test (evaluate with users)."
+        "text": "Empathize, Define, Ideate, Prototype, and Test."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Reading the article from top to bottom very slowly and carefully on a single tab (Vertical Reading)."
+        "text": "Reading the article from top to bottom very slowly and carefully on a single tab."
       }
     ],
     "correctAnswer": "C",
@@ -1162,7 +1162,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Use official school communication channels (e.g., DepEd email, Google Classroom) for academic interactions and avoid informal private messaging with pupils on personal social accounts."
+        "text": "Use official school communication channels for academic interactions and avoid informal private messaging with pupils on personal social accounts."
       },
       {
         "key": "C",
@@ -1262,7 +1262,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Diversification\u2014spreading investments across diverse asset classes (stocks, bonds, real estate, cash) to minimize overall portfolio risk."
+        "text": "Diversification\u2014spreading investments across diverse asset classes to minimize overall portfolio risk."
       },
       {
         "key": "C",
@@ -1320,7 +1320,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Adopting aspects of a new culture while maintaining one's original cultural identity and heritage (cultural biculturalism / synthesis)."
+        "text": "Adopting aspects of a new culture while maintaining one's original cultural identity and heritage."
       }
     ],
     "correctAnswer": "D",
@@ -1383,19 +1383,19 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'This project was challenging, but mistakes show where we can learn. Let's analyze what strategies didn't work and try a new approach.'"
+        "text": "'This project was challenging, but mistakes show where we can learn. Let's analyze what strategies didn't work and try a new approach.'."
       },
       {
         "key": "B",
-        "text": "'You are just not naturally smart at science; maybe you should give up.'"
+        "text": "'You are just not naturally smart at science; maybe you should give up.'."
       },
       {
         "key": "C",
-        "text": "'Don't worry, some people are born geniuses and others are not.'"
+        "text": "'Don't worry, some people are born geniuses and others are not.'."
       },
       {
         "key": "D",
-        "text": "'This low score proves you will never succeed in high school.'"
+        "text": "'This low score proves you will never succeed in high school.'."
       }
     ],
     "correctAnswer": "A",
@@ -1483,7 +1483,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple modes of meaning-making (linguistic, visual, audio, gestural, spatial, and multimodal) across diverse cultural contexts."
+        "text": "Multiple modes of meaning-making across diverse cultural contexts."
       },
       {
         "key": "B",
@@ -1520,7 +1520,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Global Interdependence (the complex, interconnected economic, environmental, and trade linkages binding all nations)."
+        "text": "Global Interdependence."
       }
     ],
     "correctAnswer": "D",
@@ -1562,7 +1562,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Vulnerable developing nations (like the Philippines) contribute the least to global greenhouse gas emissions yet suffer the most severe climate disasters."
+        "text": "Vulnerable developing nations contribute the least to global greenhouse gas emissions yet suffer the most severe climate disasters."
       },
       {
         "key": "C",

@@ -33,7 +33,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Transformed states in complex, contradictory, and unprecedented ways without eliminating them (Transformationalists)."
+        "text": "Transformed states in complex, contradictory, and unprecedented ways without eliminating them."
       },
       {
         "key": "B",
@@ -45,7 +45,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Had zero impact on traditional sovereign national boundaries (Skeptics)."
+        "text": "Had zero impact on traditional sovereign national boundaries."
       }
     ],
     "correctAnswer": "C",
@@ -58,19 +58,19 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Organization of Petroleum Exporting Countries (OPEC) and ASEAN."
+        "text": "The Organization of Petroleum Exporting Countries and ASEAN."
       },
       {
         "key": "B",
-        "text": "The International Monetary Fund (IMF) and the World Bank (IBRD)."
+        "text": "The International Monetary Fund and the World Bank."
       },
       {
         "key": "C",
-        "text": "The World Trade Organization (WTO) and the United Nations Security Council."
+        "text": "The World Trade Organization and the United Nations Security Council."
       },
       {
         "key": "D",
-        "text": "The European Union (EU) and the North Atlantic Treaty Organization (NATO)."
+        "text": "The European Union and the North Atlantic Treaty Organization."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Fund long-term infrastructure reconstruction projects in war-torn provinces (World Bank role)."
+        "text": "Fund long-term infrastructure reconstruction projects in war-torn provinces."
       },
       {
         "key": "C",
-        "text": "Adjudicate international maritime border disputes between sovereign navies (ICJ role)."
+        "text": "Adjudicate international maritime border disputes between sovereign navies."
       },
       {
         "key": "D",
-        "text": "Enforce global labor human rights standards in textile factories (ILO role)."
+        "text": "Enforce global labor human rights standards in textile factories."
       }
     ],
     "correctAnswer": "A",
@@ -133,19 +133,19 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Asia-Pacific Economic Cooperation (APEC)."
+        "text": "Asia-Pacific Economic Cooperation."
       },
       {
         "key": "B",
-        "text": "Trans-Pacific Partnership (TPP)."
+        "text": "Trans-Pacific Partnership."
       },
       {
         "key": "C",
-        "text": "World Trade Organization (WTO), which possesses legally binding dispute settlement mechanisms for international trade."
+        "text": "World Trade Organization, which possesses legally binding dispute settlement mechanisms for international trade."
       },
       {
         "key": "D",
-        "text": "North American Free Trade Agreement (NAFTA)."
+        "text": "North American Free Trade Agreement."
       }
     ],
     "correctAnswer": "C",
@@ -183,19 +183,19 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Security Council (UNSC)."
+        "text": "The Security Council."
       },
       {
         "key": "B",
-        "text": "The General Assembly (UNGA)."
+        "text": "The General Assembly."
       },
       {
         "key": "C",
-        "text": "The International Court of Justice (ICJ)."
+        "text": "The International Court of Justice."
       },
       {
         "key": "D",
-        "text": "The Economic and Social Council (ECOSOC)."
+        "text": "The Economic and Social Council."
       }
     ],
     "correctAnswer": "A",
@@ -216,7 +216,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "China, India, Brazil, Russian Federation, and South Africa (BRICS)."
+        "text": "China, India, Brazil, Russian Federation, and South Africa."
       },
       {
         "key": "D",
@@ -245,7 +245,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conduct criminal prosecutions against individual citizens for international human rights crimes (ICC role)."
+        "text": "Conduct criminal prosecutions against individual citizens for international human rights crimes."
       }
     ],
     "correctAnswer": "C",
@@ -316,7 +316,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Mandatory adoption of a single common currency (like the Euro)."
+        "text": "Mandatory adoption of a single common currency."
       },
       {
         "key": "D",
@@ -341,7 +341,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "ASEAN Political-Security Community (APSC), ASEAN Economic Community (AEC), and ASEAN Socio-Cultural Community (ASCC)."
+        "text": "ASEAN Political-Security Community, ASEAN Economic Community, and ASEAN Socio-Cultural Community."
       },
       {
         "key": "D",
@@ -362,7 +362,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The world's largest Free Trade Agreement (FTA), encompassing the 10 ASEAN members plus Australia, China, Japan, South Korea, and New Zealand."
+        "text": "The world's largest Free Trade Agreement, encompassing the 10 ASEAN members plus Australia, China, Japan, South Korea, and New Zealand."
       },
       {
         "key": "C",
@@ -441,7 +441,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Core (high-skill/capital-intensive), Semi-Periphery (industrializing intermediary), and Periphery (low-skill/labor-intensive raw material extraction)."
+        "text": "Core, Semi-Periphery, and Periphery."
       },
       {
         "key": "D",
@@ -462,7 +462,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Global media flows combine with local traditions to create dynamic, syncretic new cultural expressions (e.g., K-pop, Pinoy Hip-Hop)."
+        "text": "Global media flows combine with local traditions to create dynamic, syncretic new cultural expressions."
       },
       {
         "key": "C",
@@ -520,7 +520,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ideoscapes (political ideas, values, and freedom/democracy narratives)."
+        "text": "Ideoscapes."
       }
     ],
     "correctAnswer": "D",
@@ -583,19 +583,19 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rapid population growth caused by a dramatic drop in death rates (due to sanitation/medicine) while birth rates remain high."
+        "text": "Rapid population growth caused by a dramatic drop in death rates while birth rates remain high."
       },
       {
         "key": "B",
-        "text": "High birth rates and high death rates resulting in stable population (Stage 1)."
+        "text": "High birth rates and high death rates resulting in stable population."
       },
       {
         "key": "C",
-        "text": "Falling birth rates and low death rates slowing population growth (Stage 3)."
+        "text": "Falling birth rates and low death rates slowing population growth."
       },
       {
         "key": "D",
-        "text": "Low birth rates and low death rates with aging population (Stage 4)."
+        "text": "Low birth rates and low death rates with aging population."
       }
     ],
     "correctAnswer": "A",
@@ -620,7 +620,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Below-replacement fertility rates (TFR < 2.1) and an aging population, creating severe labor shortages and pension strain."
+        "text": "Below-replacement fertility rates and an aging population, creating severe labor shortages and pension strain."
       }
     ],
     "correctAnswer": "D",
@@ -633,11 +633,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reuniting with family members who are already settled citizens abroad (Pull Factor)."
+        "text": "Reuniting with family members who are already settled citizens abroad."
       },
       {
         "key": "B",
-        "text": "Free university scholarships provided by foreign governments (Pull Factor)."
+        "text": "Free university scholarships provided by foreign governments."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Higher wages, stable political governance, and abundant job opportunities in the destination country (Pull Factor)."
+        "text": "Higher wages, stable political governance, and abundant job opportunities in the destination country."
       }
     ],
     "correctAnswer": "C",
@@ -662,7 +662,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "8% to 10% of national Gross Domestic Product (GDP), driving domestic household consumption and foreign exchange stability."
+        "text": "8% to 10% of national Gross Domestic Product, driving domestic household consumption and foreign exchange stability."
       },
       {
         "key": "C",
@@ -683,7 +683,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Its highly educated, skilled professionals (e.g., doctors, nurses, engineers, scientists) to higher-paying foreign countries."
+        "text": "Its highly educated, skilled professionals to higher-paying foreign countries."
       },
       {
         "key": "B",
@@ -708,7 +708,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "8 Goals (The historical Millennium Development Goals / MDGs)."
+        "text": "8 Goals."
       },
       {
         "key": "B",
@@ -720,7 +720,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "17 Goals (with 169 associated targets addressing poverty, inequality, climate, and justice)."
+        "text": "17 Goals."
       }
     ],
     "correctAnswer": "D",
@@ -733,11 +733,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ensure availability and sustainable management of water and sanitation (SDG 6)."
+        "text": "Ensure availability and sustainable management of water and sanitation."
       },
       {
         "key": "B",
-        "text": "Ensure access to affordable, reliable, sustainable modern energy (SDG 7)."
+        "text": "Ensure access to affordable, reliable, sustainable modern energy."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Achieve gender equality and empower all women and girls (SDG 5)."
+        "text": "Achieve gender equality and empower all women and girls."
       }
     ],
     "correctAnswer": "C",
@@ -820,7 +820,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Universally phased out the global production and consumption of ozone-depleting substances (such as chlorofluorocarbons / CFCs)."
+        "text": "Universally phased out the global production and consumption of ozone-depleting substances."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Set legally binding greenhouse gas emission reduction targets for industrialized (Annex I) developed nations."
+        "text": "Set legally binding greenhouse gas emission reduction targets for industrialized developed nations."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Establishes lasting business operations or acquires physical enterprise assets (such as factories or branches) in a host economy."
+        "text": "Establishes lasting business operations or acquires physical enterprise assets in a host economy."
       },
       {
         "key": "B",
@@ -920,7 +920,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Different stages of the production process (R&D, sourcing raw materials, manufacturing parts, assembly, and marketing) are distributed across multiple countries."
+        "text": "Different stages of the production process are distributed across multiple countries."
       }
     ],
     "correctAnswer": "D",
@@ -962,7 +962,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strategic command-and-control nodes of the global economy, concentrating advanced producer services (finance, law, accounting, and telecommunications)."
+        "text": "Strategic command-and-control nodes of the global economy, concentrating advanced producer services."
       },
       {
         "key": "C",
@@ -983,7 +983,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A major global hub for Business Process Outsourcing (BPO / call centers), high-density labor migration, and financial real estate concentration."
+        "text": "A major global hub for Business Process Outsourcing, high-density labor migration, and financial real estate concentration."
       },
       {
         "key": "B",
@@ -1041,7 +1041,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The territorial defense of sovereign state borders to the protection and empowerment of individual human lives (freedom from fear and freedom from want)."
+        "text": "The territorial defense of sovereign state borders to the protection and empowerment of individual human lives."
       },
       {
         "key": "D",
@@ -1062,7 +1062,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Direct and coordinate international public health responses, establish global health standards, and manage health emergencies (e.g., pandemics)."
+        "text": "Direct and coordinate international public health responses, establish global health standards, and manage health emergencies."
       },
       {
         "key": "C",
@@ -1141,7 +1141,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The rise of multiple competing global and regional powers (such as China, the European Union, India, and the BRICS bloc)."
+        "text": "The rise of multiple competing global and regional powers."
       },
       {
         "key": "D",
@@ -1162,7 +1162,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Attraction, cultural appeal, political values, and diplomatic persuasion, rather than military coercion or economic threats (Hard Power)."
+        "text": "Attraction, cultural appeal, political values, and diplomatic persuasion, rather than military coercion or economic threats."
       },
       {
         "key": "C",
@@ -1187,7 +1187,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Up to 12 nautical miles (Territorial Sea)."
+        "text": "Up to 12 nautical miles."
       },
       {
         "key": "C",
@@ -1241,7 +1241,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Population grows geometrically (exponentially: 1, 2, 4, 8, 16...), while food production increases only arithmetically (linearly: 1, 2, 3, 4, 5...)."
+        "text": "Population grows geometrically, while food production increases only arithmetically."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Proportion of working-age population (15-64) is significantly larger than the non-working dependent population (young and elderly)."
+        "text": "Proportion of working-age population is significantly larger than the non-working dependent population."
       },
       {
         "key": "C",
@@ -1341,7 +1341,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Income or wealth inequality within a population, ranging from 0 (perfect equality) to 1 (maximum inequality)."
+        "text": "Income or wealth inequality within a population, ranging from 0 to 1."
       },
       {
         "key": "D",
@@ -1383,7 +1383,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pool portions of their national sovereignty in shared institutions (e.g., European Parliament, European Central Bank) that enact binding regional laws."
+        "text": "Pool portions of their national sovereignty in shared institutions that enact binding regional laws."
       },
       {
         "key": "B",
@@ -1520,7 +1520,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "10 million inhabitants or more (e.g., Tokyo, Delhi, Shanghai, Metro Manila)."
+        "text": "10 million inhabitants or more."
       }
     ],
     "correctAnswer": "D",
@@ -1783,7 +1783,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Highly vulnerable to maritime chokepoints (e.g., Suez Canal, Strait of Malacca), energy disruptions, and global food inflation."
+        "text": "Highly vulnerable to maritime chokepoints, energy disruptions, and global food inflation."
       },
       {
         "key": "B",
@@ -1841,7 +1841,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A state-owned investment fund composed of financial assets (stocks, bonds, real estate) managed to generate long-term national wealth for future generations."
+        "text": "A state-owned investment fund composed of financial assets managed to generate long-term national wealth for future generations."
       },
       {
         "key": "D",

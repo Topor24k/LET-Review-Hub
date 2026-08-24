@@ -63,7 +63,11 @@ export interface ActiveExamDraft {
 export function getStoredExamDraft(subjectId: string): ActiveExamDraft | null {
   const draft = getMemoryStore().examDrafts?.[subjectId] || null;
   if (draft && draft.questions && draft.questions.length >= 75) {
-    return draft;
+    // Invalidate and discard any old cached drafts that contain duplicate questions
+    const uniqueStems = new Set(draft.questions.map(q => q.question.toLowerCase().trim()));
+    if (uniqueStems.size === draft.questions.length) {
+      return draft;
+    }
   }
   return null;
 }

@@ -20,7 +20,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Content Knowledge (CK), Pedagogical Knowledge (PK), and Technological Knowledge (TK)."
+        "text": "Content Knowledge, Pedagogical Knowledge, and Technological Knowledge."
       }
     ],
     "correctAnswer": "D",
@@ -33,19 +33,19 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Technological Pedagogical Knowledge (TPK)."
+        "text": "Technological Pedagogical Knowledge."
       },
       {
         "key": "B",
-        "text": "Technological Knowledge (TK) only."
+        "text": "Technological Knowledge only."
       },
       {
         "key": "C",
-        "text": "Technological Content Knowledge (TCK)."
+        "text": "Technological Content Knowledge."
       },
       {
         "key": "D",
-        "text": "Pedagogical Content Knowledge (PCK)."
+        "text": "Pedagogical Content Knowledge."
       }
     ],
     "correctAnswer": "C",
@@ -58,19 +58,19 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pedagogical Content Knowledge (PCK)."
+        "text": "Pedagogical Content Knowledge."
       },
       {
         "key": "B",
-        "text": "Technological Pedagogical Knowledge (TPK)."
+        "text": "Technological Pedagogical Knowledge."
       },
       {
         "key": "C",
-        "text": "Technological Content Knowledge (TCK)."
+        "text": "Technological Content Knowledge."
       },
       {
         "key": "D",
-        "text": "Content Knowledge (CK)."
+        "text": "Content Knowledge."
       }
     ],
     "correctAnswer": "B",
@@ -83,19 +83,19 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "True TPACK (Technological Pedagogical Content Knowledge)."
+        "text": "True TPACK."
       },
       {
         "key": "B",
-        "text": "Isolated Technological Knowledge (TK)."
+        "text": "Isolated Technological Knowledge."
       },
       {
         "key": "C",
-        "text": "Pure Content Knowledge (CK)."
+        "text": "Pure Content Knowledge."
       },
       {
         "key": "D",
-        "text": "Traditional Pedagogical Knowledge (PK)."
+        "text": "Traditional Pedagogical Knowledge."
       }
     ],
     "correctAnswer": "A",
@@ -141,7 +141,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Substitution (direct tech substitute with no functional change)."
+        "text": "Substitution."
       },
       {
         "key": "D",
@@ -162,7 +162,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Augmentation (direct tech substitute with functional improvements)."
+        "text": "Augmentation."
       },
       {
         "key": "C",
@@ -183,7 +183,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Modification (significant task redesign)."
+        "text": "Modification."
       },
       {
         "key": "B",
@@ -220,7 +220,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Redefinition (creation of novel tasks previously inconceivable without technology)."
+        "text": "Redefinition."
       }
     ],
     "correctAnswer": "D",
@@ -320,7 +320,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Knowledge Creation approach (fostering innovation, higher-order problem solving, and continuous learning)."
+        "text": "Knowledge Creation approach."
       }
     ],
     "correctAnswer": "D",
@@ -362,7 +362,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Digital Communication & Digital Etiquette (Netiquette)."
+        "text": "Digital Communication & Digital Etiquette."
       },
       {
         "key": "C",
@@ -462,7 +462,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Attribution required (BY), Non-Commercial use only (NC), and No Derivatives / adaptations permitted (ND)."
+        "text": "Attribution required, Non-Commercial use only, and No Derivatives / adaptations permitted."
       },
       {
         "key": "C",
@@ -541,7 +541,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Direct instruction (recorded mini-lectures / readings) is accessed asynchronously at home, while synchronous class time is devoted to active collaborative problem solving."
+        "text": "Direct instruction is accessed asynchronously at home, while synchronous class time is devoted to active collaborative problem solving."
       },
       {
         "key": "D",
@@ -583,7 +583,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Synchronous occurs in real-time with live interaction (e.g., live Zoom class), while Asynchronous occurs at flexible, self-paced times (e.g., discussion boards)."
+        "text": "Synchronous occurs in real-time with live interaction, while Asynchronous occurs at flexible, self-paced times."
       },
       {
         "key": "B",
@@ -620,7 +620,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Dual Channels (visual/auditory), Limited Capacity (working memory), and Active Processing (filtering/organizing/integrating)."
+        "text": "Dual Channels, Limited Capacity, and Active Processing."
       }
     ],
     "correctAnswer": "D",
@@ -720,7 +720,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Placed physically close to each other on the screen (spatial) and presented at the same time (temporal)."
+        "text": "Placed physically close to each other on the screen and presented at the same time."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Integrates game-design mechanics (e.g., progress bars, experience points, quest milestones) into non-game learning activities."
+        "text": "Integrates game-design mechanics into non-game learning activities."
       },
       {
         "key": "D",
@@ -862,7 +862,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Game-Based Learning (using a structured game environment to achieve specific curricular learning goals)."
+        "text": "Game-Based Learning."
       },
       {
         "key": "C",
@@ -883,7 +883,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High-presence, 360-degree interactive 3D simulations of hazardous, microscopic, or remote environments (e.g., inside a human heart or outer space)."
+        "text": "High-presence, 360-degree interactive 3D simulations of hazardous, microscopic, or remote environments."
       },
       {
         "key": "B",
@@ -962,7 +962,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Securing explicit parental/guardian consent and avoiding the public disclosure of sensitive personal identifiers (e.g., home addresses, student ID numbers)."
+        "text": "Securing explicit parental/guardian consent and avoiding the public disclosure of sensitive personal identifiers."
       },
       {
         "key": "C",
@@ -1062,7 +1062,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Are concise and modular (microlearning: 3 to 6 minutes long), focused on a single clear learning objective, and accompanied by guiding questions."
+        "text": "Are concise and modular, focused on a single clear learning objective, and accompanied by guiding questions."
       },
       {
         "key": "C",
@@ -1183,7 +1183,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The test-taker's performance on previous items (giving harder items after correct answers, and easier items after incorrect answers) to estimate ability precisely."
+        "text": "The test-taker's performance on previous items to estimate ability precisely."
       },
       {
         "key": "B",
@@ -1283,7 +1283,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To build Personal Learning Networks (PLNs), share open educational resources, discuss evidence-based pedagogies, and collaborate globally."
+        "text": "To build Personal Learning Networks, share open educational resources, discuss evidence-based pedagogies, and collaborate globally."
       },
       {
         "key": "B",
@@ -1320,7 +1320,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The dynamic interplay of Dialogue (interaction), Structure (course rigidity/flexibility), and Learner Autonomy."
+        "text": "The dynamic interplay of Dialogue, Structure, and Learner Autonomy."
       }
     ],
     "correctAnswer": "D",
@@ -1420,7 +1420,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Introduction, Task, Process, Resources, Evaluation (Rubric), and Conclusion."
+        "text": "Introduction, Task, Process, Resources, Evaluation, and Conclusion."
       }
     ],
     "correctAnswer": "D",
@@ -1462,7 +1462,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Proper posture, 20-20-20 screen eye breaks (looking 20 feet away for 20 seconds every 20 minutes), and balanced physical activity."
+        "text": "Proper posture, 20-20-20 screen eye breaks, and balanced physical activity."
       },
       {
         "key": "C",
@@ -1683,7 +1683,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reinforcing positive character values (e.g., teamwork, persistence, helping others) through immediate constructive feedback and parent communication."
+        "text": "Reinforcing positive character values through immediate constructive feedback and parent communication."
       },
       {
         "key": "B",

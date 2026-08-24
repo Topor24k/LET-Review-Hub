@@ -8,11 +8,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Secondary source (a scholarly analysis written decades later)."
+        "text": "Secondary source."
       },
       {
         "key": "B",
-        "text": "Tertiary source (an encyclopedia summary index)."
+        "text": "Tertiary source."
       },
       {
         "key": "C",
@@ -20,7 +20,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Primary source (an authentic firsthand document created during the time under study)."
+        "text": "Primary source."
       }
     ],
     "correctAnswer": "D",
@@ -41,11 +41,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "External Criticism (lower criticism / provenance and authenticity verification)."
+        "text": "External Criticism."
       },
       {
         "key": "D",
-        "text": "Internal Criticism (higher criticism / analyzing truthfulness and credibility of content)."
+        "text": "Internal Criticism."
       }
     ],
     "correctAnswer": "C",
@@ -62,7 +62,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Internal Criticism (evaluating the credibility and accuracy of the content)."
+        "text": "Internal Criticism."
       },
       {
         "key": "C",
@@ -133,7 +133,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Slaves who lived inside their master's house with zero property rights (Aliping Saguiguilid)."
+        "text": "Slaves who lived inside their master's house with zero property rights."
       },
       {
         "key": "B",
@@ -183,7 +183,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A premeditated, vast separatist conspiracy led by native secular clergy (GOMBURZA) to overthrow Spanish sovereignty in the islands."
+        "text": "A premeditated, vast separatist conspiracy led by native secular clergy to overthrow Spanish sovereignty in the islands."
       },
       {
         "key": "B",
@@ -262,7 +262,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The exact date (August 23, 24, or 26) and precise geographical location where Katipuneros tore their c\u00e9dulas and declared revolution."
+        "text": "The exact date and precise geographical location where Katipuneros tore their c\u00e9dulas and declared revolution."
       },
       {
         "key": "C",
@@ -283,7 +283,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The separation of Church and State and freedom of religious worship (Article 5)."
+        "text": "The separation of Church and State and freedom of religious worship."
       },
       {
         "key": "B",
@@ -341,7 +341,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Friar Lands (Haciendas de los Frailes)."
+        "text": "Friar Lands."
       },
       {
         "key": "D",
@@ -362,11 +362,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The compulsory sale of agricultural crops (such as rice and tobacco) to the colonial government at fixed, low, or promissory prices."
+        "text": "The compulsory sale of agricultural crops to the colonial government at fixed, low, or promissory prices."
       },
       {
         "key": "C",
-        "text": "A head tax paid annually to obtain a personal identification document (C\u00e9dula)."
+        "text": "A head tax paid annually to obtain a personal identification document."
       },
       {
         "key": "D",
@@ -433,19 +433,19 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Los herederos del Imperio Romano' (The heirs of the Roman Empire)."
+        "text": "'Los herederos del Imperio Romano'."
       },
       {
         "key": "B",
-        "text": "'Los siervos obedientes de la Iglesia' (The obedient servants of the Church)."
+        "text": "'Los siervos obedientes de la Iglesia'."
       },
       {
         "key": "C",
-        "text": "'Bella esperanza de la Patria Mia' (Fair hope of my Fatherland), urging them to use arts and sciences for national glory."
+        "text": "'Bella esperanza de la Patria Mia', urging them to use arts and sciences for national glory."
       },
       {
         "key": "D",
-        "text": "'Los bravos soldados de la Corona' (The brave soldiers of the Spanish Crown)."
+        "text": "'Los bravos soldados de la Corona'."
       }
     ],
     "correctAnswer": "C",
@@ -483,7 +483,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A chronic symptom and direct result of Spanish misrule, forced labor (polo), lack of economic incentives, and poor education, rather than an innate racial trait."
+        "text": "A chronic symptom and direct result of Spanish misrule, forced labor, lack of economic incentives, and poor education, rather than an innate racial trait."
       },
       {
         "key": "B",
@@ -562,11 +562,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To his beloved Fatherland (A Mi Patria) to expose the social cancer afflicting Philippine society."
+        "text": "To his beloved Fatherland to expose the social cancer afflicting Philippine society."
       },
       {
         "key": "C",
-        "text": "To the three secular martyr priests (GOMBURZA)."
+        "text": "To the three secular martyr priests."
       },
       {
         "key": "D",
@@ -583,7 +583,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The memory of the three martyr priests Gomez, Burgos, and Zamora (GOMBURZA) executed in 1872."
+        "text": "The memory of the three martyr priests Gomez, Burgos, and Zamora executed in 1872."
       },
       {
         "key": "B",
@@ -645,7 +645,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The corrupt secular municipal police force (Guardia Civil)."
+        "text": "The corrupt secular municipal police force."
       }
     ],
     "correctAnswer": "C",
@@ -683,7 +683,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The suffering, impoverished Motherland (Patria) driven to madness and despair by colonial oppression."
+        "text": "The suffering, impoverished Motherland driven to madness and despair by colonial oppression."
       },
       {
         "key": "B",
@@ -783,7 +783,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Draco rizali (flying lizard), Apogonia rizali (small beetle), and Rhacophorus rizali (tree frog)."
+        "text": "Draco rizali, Apogonia rizali, and Rhacophorus rizali."
       },
       {
         "key": "B",
@@ -820,7 +820,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An alcohol cooking lamp (cocinilla) which he handed to his sister Trinidad with the whisper 'There is something inside'."
+        "text": "An alcohol cooking lamp which he handed to his sister Trinidad with the whisper 'There is something inside'."
       }
     ],
     "correctAnswer": "D",
@@ -862,15 +862,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Unus Instar Omnium' (One Like All), aiming to unite the archipelago into a compact, vigorous, and homogenous body for mutual protection and economic progress."
+        "text": "'Unus Instar Omnium', aiming to unite the archipelago into a compact, vigorous, and homogenous body for mutual protection and economic progress."
       },
       {
         "key": "C",
-        "text": "'Viva Espana' (Long Live Spain), aiming to assimilate the Philippines into a Spanish province."
+        "text": "'Viva Espana', aiming to assimilate the Philippines into a Spanish province."
       },
       {
         "key": "D",
-        "text": "'Kalayaan o Kamatayan' (Freedom or Death), aiming for immediate armed insurrection."
+        "text": "'Kalayaan o Kamatayan', aiming for immediate armed insurrection."
       }
     ],
     "correctAnswer": "B",
@@ -883,7 +883,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan (KKK), concluding that peaceful reform had failed."
+        "text": "Kataas-taasang, Kagalang-galangang Katipunan ng mga Anak ng Bayan, concluding that peaceful reform had failed."
       },
       {
         "key": "B",
@@ -895,7 +895,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The Philippine Independent Church (IFI)."
+        "text": "The Philippine Independent Church."
       }
     ],
     "correctAnswer": "A",
@@ -908,7 +908,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Kalayaan (official organ of the Katipunan)."
+        "text": "Kalayaan."
       },
       {
         "key": "B",
@@ -920,7 +920,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "La Solidaridad (first edited by Graciano Lopez Jaena, later by Marcelo H. del Pilar)."
+        "text": "La Solidaridad."
       }
     ],
     "correctAnswer": "D",
@@ -1041,7 +1041,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Luzon, Panay (representing the Visayas), and Mindanao."
+        "text": "Luzon, Panay, and Mindanao."
       },
       {
         "key": "D",
@@ -1062,7 +1062,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Jose Palma (in his 1899 poem Filipinas)."
+        "text": "Jose Palma."
       },
       {
         "key": "C",
@@ -1083,7 +1083,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "$20,000,000 (Twenty Million US Dollars)."
+        "text": "$20,000,000."
       },
       {
         "key": "B",
@@ -1141,7 +1141,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Delay the advancing American forces (33rd Infantry under Major March) and cover the retreat of President Emilio Aguinaldo into Northern Luzon."
+        "text": "Delay the advancing American forces and cover the retreat of President Emilio Aguinaldo into Northern Luzon."
       },
       {
         "key": "D",
@@ -1183,7 +1183,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippine Assembly (an elected bicameral lower house for Filipino legislators inaugurated in 1907)."
+        "text": "The Philippine Assembly."
       },
       {
         "key": "B",
@@ -1308,19 +1308,19 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Jose P. Laurel (President) and Benigno Aquino Sr. (Vice President)."
+        "text": "Jose P. Laurel and Benigno Aquino Sr."
       },
       {
         "key": "B",
-        "text": "Emilio Aguinaldo (President) and Mariano Trias (Vice President)."
+        "text": "Emilio Aguinaldo and Mariano Trias."
       },
       {
         "key": "C",
-        "text": "Ramon Magsaysay (President) and Carlos P. Garcia (Vice President)."
+        "text": "Ramon Magsaysay and Carlos P. Garcia."
       },
       {
         "key": "D",
-        "text": "Manuel L. Quezon (President) and Sergio Osmena (Vice President)."
+        "text": "Manuel L. Quezon and Sergio Osmena."
       }
     ],
     "correctAnswer": "D",
@@ -1333,19 +1333,19 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ilocano (Samtoy)."
+        "text": "Ilocano."
       },
       {
         "key": "B",
-        "text": "Hiligaynon (Ilonggo)."
+        "text": "Hiligaynon."
       },
       {
         "key": "C",
-        "text": "Tagalog, recommended by the Institute of National Language (Surian ng Wikang Pambansa)."
+        "text": "Tagalog, recommended by the Institute of National Language."
       },
       {
         "key": "D",
-        "text": "Cebuano (Sugbuanon)."
+        "text": "Cebuano."
       }
     ],
     "correctAnswer": "C",
@@ -1362,7 +1362,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The infamous Bataan Death March, where 75,000 Filipino and American prisoners were forced to march over 100 kilometers to Camp O'Donnell under brutal conditions."
+        "text": "The infamous Bataan Death March."
       },
       {
         "key": "C",
@@ -1383,7 +1383,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Corregidor Island (under Lieutenant General Jonathan Wainwright)."
+        "text": "Corregidor Island."
       },
       {
         "key": "B",
@@ -1462,7 +1462,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Parity Rights (granting US citizens equal rights as Filipinos in the exploitation of natural resources and public utilities)."
+        "text": "Parity Rights."
       },
       {
         "key": "C",
@@ -1483,7 +1483,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Those who have less in life should have more in law', opening Malacanang to the common people and instituting rural land resettlement (EDCOR)."
+        "text": "'Those who have less in life should have more in law', opening Malacanang to the common people and instituting rural land resettlement."
       },
       {
         "key": "B",
@@ -1562,7 +1562,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The threat of communist rebellion (CPP-NPA) and civil unrest, leading to authoritarian rule and parliamentary restructuring under the 1973 Constitution."
+        "text": "The threat of communist rebellion and civil unrest, leading to authoritarian rule and parliamentary restructuring under the 1973 Constitution."
       },
       {
         "key": "C",
@@ -1641,7 +1641,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rigid discipline, religious instruction, humanities, Latin, rhetoric, and competitive academic leagues (Roman and Carthaginian Empires)."
+        "text": "Rigid discipline, religious instruction, humanities, Latin, rhetoric, and competitive academic leagues."
       },
       {
         "key": "D",
@@ -1762,7 +1762,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The poem contains the word 'kalayaan' (which Rizal admitted he first encountered in 1882) and utilizes 20th-century Tagalog orthography not used in 1869."
+        "text": "The poem contains the word 'kalayaan' and utilizes 20th-century Tagalog orthography not used in 1869."
       },
       {
         "key": "C",
@@ -1783,7 +1783,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Teaching him the alphabet, cultivating his love for literature through fables (e.g., The Moth and the Flame), and modeling moral courage."
+        "text": "Teaching him the alphabet, cultivating his love for literature through fables, and modeling moral courage."
       },
       {
         "key": "B",
@@ -1833,19 +1833,19 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Patria Adorada!'"
+        "text": "'Patria Adorada!'."
       },
       {
         "key": "B",
-        "text": "'Libertad o Muerte!'"
+        "text": "'Libertad o Muerte!'."
       },
       {
         "key": "C",
-        "text": "'Consummatum est!' (It is finished!), followed by his turning to fall face upward toward the morning sun."
+        "text": "'Consummatum est!', followed by his turning to fall face upward toward the morning sun."
       },
       {
         "key": "D",
-        "text": "'Viva Espana!'"
+        "text": "'Viva Espana!'."
       }
     ],
     "correctAnswer": "C",

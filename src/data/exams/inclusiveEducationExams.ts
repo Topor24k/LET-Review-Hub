@@ -20,7 +20,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "No learner shall be denied admission to any public or private basic education institution on the basis of disability, establishing Inclusive Learning Resource Centers (ILRCs)."
+        "text": "No learner shall be denied admission to any public or private basic education institution on the basis of disability, establishing Inclusive Learning Resource Centers."
       }
     ],
     "correctAnswer": "D",
@@ -141,7 +141,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Dyslexia (a specific learning disability of neurological origin affecting phonological processing)."
+        "text": "Dyslexia."
       },
       {
         "key": "D",
@@ -162,7 +162,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Dyscalculia (a specific learning disability in mathematical cognition)."
+        "text": "Dyscalculia."
       },
       {
         "key": "C",
@@ -183,7 +183,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dysgraphia (a specific learning disability affecting fine-motor writing and orthographic output)."
+        "text": "Dysgraphia."
       },
       {
         "key": "B",
@@ -320,7 +320,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Intellectual Functioning (IQ typically below 70) AND Adaptive Behavior (conceptual, social, and practical life skills), originating during the developmental period."
+        "text": "Intellectual Functioning AND Adaptive Behavior, originating during the developmental period."
       }
     ],
     "correctAnswer": "D",
@@ -383,7 +383,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Above-Average Ability, High Task Commitment (Perseverance/Motivation), and High Creativity."
+        "text": "Above-Average Ability, High Task Commitment, and High Creativity."
       },
       {
         "key": "B",
@@ -462,7 +462,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Special Education teacher, Regular Education teacher, School Head/Administrator, Parents/Guardians, Related Service Specialists (e.g., SLP, OT), and the Student (when appropriate)."
+        "text": "The Special Education teacher, Regular Education teacher, School Head/Administrator, Parents/Guardians, Related Service Specialists, and the Student."
       },
       {
         "key": "C",
@@ -483,7 +483,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Engagement (the 'Why' of learning), Representation (the 'What' of learning), and Action & Expression (the 'How' of learning)."
+        "text": "Engagement, Representation, and Action & Expression."
       },
       {
         "key": "B",
@@ -541,7 +541,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Multiple Means of Action and Expression (UDL)."
+        "text": "Multiple Means of Action and Expression."
       },
       {
         "key": "D",
@@ -562,7 +562,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Multiple Means of Engagement (fostering motivation, relevance, and self-regulation)."
+        "text": "Multiple Means of Engagement."
       },
       {
         "key": "C",
@@ -583,7 +583,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High-quality, evidence-based differentiated core instruction delivered to ALL students in the general education classroom (effective for approximately 80-85% of learners)."
+        "text": "High-quality, evidence-based differentiated core instruction delivered to ALL students in the general education classroom."
       },
       {
         "key": "B",
@@ -591,7 +591,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Targeted small-group supplemental interventions (Tier 2)."
+        "text": "Targeted small-group supplemental interventions."
       },
       {
         "key": "D",
@@ -620,7 +620,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Targeted, evidence-based small-group interventions with frequent progress monitoring alongside core instruction (serving ~10-15% of students)."
+        "text": "Targeted, evidence-based small-group interventions with frequent progress monitoring alongside core instruction."
       }
     ],
     "correctAnswer": "D",
@@ -683,7 +683,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "General Education Class with supports -> Resource Room (Pull-out) -> Self-Contained Special Class -> Special Day School -> Residential/Hospital Facility."
+        "text": "General Education Class with supports -> Resource Room -> Self-Contained Special Class -> Special Day School -> Residential/Hospital Facility."
       },
       {
         "key": "B",
@@ -720,7 +720,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Accommodation (standard remains identical); Modification (standard is fundamentally altered)."
+        "text": "Accommodation; Modification."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Identify the underlying function, environmental triggers (Antecedents), and maintaining consequences of a challenging behavior to design positive interventions."
+        "text": "Identify the underlying function, environmental triggers, and maintaining consequences of a challenging behavior to design positive interventions."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Impairment in comprehending and/or formulating linguistic grammar, vocabulary, semantics, and pragmatics (receptive and expressive language)."
+        "text": "Impairment in comprehending and/or formulating linguistic grammar, vocabulary, semantics, and pragmatics."
       },
       {
         "key": "B",
@@ -920,7 +920,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Sensory Overload / Hypersensitivity (difficulty processing and filtering intense environmental sensory stimuli)."
+        "text": "Sensory Overload / Hypersensitivity."
       }
     ],
     "correctAnswer": "D",
@@ -1020,7 +1020,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Damage to the inner ear hair cells (cochlea) or the auditory nerve pathways to the brain, typically permanent and requiring hearing aids or cochlear implants."
+        "text": "Damage to the inner ear hair cells or the auditory nerve pathways to the brain, typically permanent and requiring hearing aids or cochlear implants."
       }
     ],
     "correctAnswer": "D",
@@ -1041,7 +1041,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Face the class directly when speaking (enabling speechreading), minimize background classroom ambient noise, repeat peer comments, and use FM assistive systems."
+        "text": "Face the class directly when speaking, minimize background classroom ambient noise, repeat peer comments, and use FM assistive systems."
       },
       {
         "key": "D",
@@ -1208,7 +1208,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Two separate physical disabilities (e.g., blindness and deafness)."
+        "text": "Two separate physical disabilities."
       },
       {
         "key": "B",
@@ -1220,7 +1220,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Exceptional giftedness or high cognitive talent in one or more areas COMBINED with a specific learning disability (e.g., ADHD, Dyslexia, or Autism)."
+        "text": "Exceptional giftedness or high cognitive talent in one or more areas COMBINED with a specific learning disability."
       }
     ],
     "correctAnswer": "D",
@@ -1458,19 +1458,19 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'How many demerit points do you want today?'"
+        "text": "'How many demerit points do you want today?'."
       },
       {
         "key": "B",
-        "text": "'What happened to you, and how can we create a safe, supportive space for you to heal and learn?'"
+        "text": "'What happened to you, and how can we create a safe, supportive space for you to heal and learn?'."
       },
       {
         "key": "C",
-        "text": "'Why are you always failing my class?'"
+        "text": "'Why are you always failing my class?'."
       },
       {
         "key": "D",
-        "text": "'Who gave you permission to feel sad?'"
+        "text": "'Who gave you permission to feel sad?'."
       }
     ],
     "correctAnswer": "B",
@@ -1520,7 +1520,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Tactile Sign Language (hand-over-hand signing), tactile symbols, and structured routines."
+        "text": "Tactile Sign Language, tactile symbols, and structured routines."
       }
     ],
     "correctAnswer": "D",
@@ -1541,7 +1541,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Know where they are in space (Orientation) and move safely, efficiently, and independently through their environment using white canes and sensory cues (Mobility)."
+        "text": "Know where they are in space and move safely, efficiently, and independently through their environment using white canes and sensory cues."
       },
       {
         "key": "D",
@@ -1620,7 +1620,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Provide a fast-acting source of simple sugar (such as fruit juice, candy, or glucose tablets) and monitor recovery in accordance with their health plan."
+        "text": "Provide a fast-acting source of simple sugar and monitor recovery in accordance with their health plan."
       }
     ],
     "correctAnswer": "D",
@@ -1641,7 +1641,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Know the student's Asthma Action Plan, ensure rapid access to their rescue inhaler, and minimize known environmental triggers (dust, strong chemical fumes, mold)."
+        "text": "Know the student's Asthma Action Plan, ensure rapid access to their rescue inhaler, and minimize known environmental triggers."
       },
       {
         "key": "D",
@@ -1683,7 +1683,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Diagnose, treat, and support speech articulation, receptive/expressive language, voice, fluency (stuttering), and pragmatic social communication disorders."
+        "text": "Diagnose, treat, and support speech articulation, receptive/expressive language, voice, fluency, and pragmatic social communication disorders."
       },
       {
         "key": "B",
@@ -1720,7 +1720,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Fine-motor skills (handwriting, scissor use), sensory processing regulation, visual-motor integration, and activities of daily living (ADLs)."
+        "text": "Fine-motor skills, sensory processing regulation, visual-motor integration, and activities of daily living."
       }
     ],
     "correctAnswer": "D",
@@ -1762,7 +1762,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Priming and Pre-Correction (proactive behavioral preview to ensure smooth, successful transitions)."
+        "text": "Priming and Pre-Correction."
       },
       {
         "key": "C",

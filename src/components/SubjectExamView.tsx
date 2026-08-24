@@ -730,10 +730,6 @@ export const SubjectExamView: React.FC<SubjectExamViewProps> = ({
                             {q.topicRef || subject.title}
                           </span>
                         </div>
-
-                        <div className="text-xs font-medium text-slate-400">
-                          Item #{qNum} of {totalQuestions}
-                        </div>
                       </div>
 
                       {/* Question Text */}

@@ -120,7 +120,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stage 4: Social System and Conscience (Law and Order)."
+        "text": "Stage 4: Social System and Conscience."
       }
     ],
     "correctAnswer": "D",
@@ -183,7 +183,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rashness (an excess of boldness), which is a vice rather than true courage."
+        "text": "Rashness, which is a vice rather than true courage."
       },
       {
         "key": "B",
@@ -241,7 +241,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Through repeated practice and habituation (ethos) of virtuous acts until they become second nature."
+        "text": "Through repeated practice and habituation of virtuous acts until they become second nature."
       },
       {
         "key": "D",
@@ -562,7 +562,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Pakikipagkapwa is rooted in shared human dignity (kapwa), whereas Pakikisama can lead to uncritical peer conformity."
+        "text": "Pakikipagkapwa is rooted in shared human dignity, whereas Pakikisama can lead to uncritical peer conformity."
       },
       {
         "key": "C",
@@ -708,19 +708,19 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'An action is right if it produces the maximum short-term timber harvest.'"
+        "text": "'An action is right if it produces the maximum short-term timber harvest.'."
       },
       {
         "key": "B",
-        "text": "'A policy is just if approved by a majority of mining shareholders.'"
+        "text": "'A policy is just if approved by a majority of mining shareholders.'."
       },
       {
         "key": "C",
-        "text": "'An action is good only if it eliminates all predatory animal species.'"
+        "text": "'An action is good only if it eliminates all predatory animal species.'."
       },
       {
         "key": "D",
-        "text": "'A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community.'"
+        "text": "'A thing is right when it tends to preserve the integrity, stability, and beauty of the biotic community.'."
       }
     ],
     "correctAnswer": "D",
@@ -958,19 +958,19 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ethical (base), Legal, Philanthropic, and Economic (top)."
+        "text": "Ethical, Legal, Philanthropic, and Economic."
       },
       {
         "key": "B",
-        "text": "Economic (base), Legal, Ethical, and Philanthropic (top)."
+        "text": "Economic, Legal, Ethical, and Philanthropic."
       },
       {
         "key": "C",
-        "text": "Philanthropic (base), Economic, Legal, and Ethical (top)."
+        "text": "Philanthropic, Economic, Legal, and Ethical."
       },
       {
         "key": "D",
-        "text": "Legal (base), Philanthropic, Economic, and Ethical (top)."
+        "text": "Legal, Philanthropic, Economic, and Ethical."
       }
     ],
     "correctAnswer": "B",
@@ -1083,7 +1083,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Diffusion of responsibility, where the presence of others dilutes perceived individual obligation."
+        "text": "Diffusion of responsibility."
       },
       {
         "key": "B",
@@ -1120,7 +1120,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Law as it is (posited legal facts) from law as it ought to be (moral evaluation)."
+        "text": "Law as it is from law as it ought to be."
       }
     ],
     "correctAnswer": "D",
@@ -1141,7 +1141,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'An unjust law is no law at all' (Lex iniusta non est lex) and lacks moral binding force."
+        "text": "'An unjust law is no law at all' and lacks moral binding force."
       },
       {
         "key": "D",

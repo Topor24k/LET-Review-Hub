@@ -8,7 +8,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Earth is the stationary physical center of the universe (Geocentric Ptolemaic Model)."
+        "text": "The Earth is the stationary physical center of the universe."
       },
       {
         "key": "B",
@@ -41,11 +41,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Natural Selection, where organisms with favorable heritable traits are more likely to survive and reproduce."
+        "text": "Natural Selection."
       },
       {
         "key": "D",
-        "text": "The inheritance of acquired physical characteristics during an individual's lifetime (Lamarckism)."
+        "text": "The inheritance of acquired physical characteristics during an individual's lifetime."
       }
     ],
     "correctAnswer": "C",
@@ -120,7 +120,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Standing-Reserve' (Bestand)\u2014mere resources, stock, and energy on standby for exploitation and optimization."
+        "text": "'Standing-Reserve'\u2014mere resources, stock, and energy on standby for exploitation and optimization."
       }
     ],
     "correctAnswer": "D",
@@ -220,7 +220,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Discovering that spraying potassium nitrate (KNO3) induces year-round, off-season flowering and fruiting in mango trees."
+        "text": "Discovering that spraying potassium nitrate induces year-round, off-season flowering and fruiting in mango trees."
       }
     ],
     "correctAnswer": "D",
@@ -241,7 +241,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The first community-based Marine Protected Areas (MPAs) and artificial coral reefs in Apo Island and Sumilon."
+        "text": "The first community-based Marine Protected Areas and artificial coral reefs in Apo Island and Sumilon."
       },
       {
         "key": "D",
@@ -262,7 +262,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The taxonomy, cultivation, and commercial farming of marine macrobenthic algae (seaweeds / carrageenan production)."
+        "text": "The taxonomy, cultivation, and commercial farming of marine macrobenthic algae."
       },
       {
         "key": "C",
@@ -341,7 +341,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Micro-satellites (such as Diwata-1, Diwata-2, and Maya nanosatellites) for disaster risk management, maritime surveillance, and agriculture."
+        "text": "Micro-satellites for disaster risk management, maritime surveillance, and agriculture."
       },
       {
         "key": "D",
@@ -441,7 +441,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Vitamin A Deficiency (VAD), which causes childhood blindness, immune failure, and mortality in developing nations."
+        "text": "Vitamin A Deficiency, which causes childhood blindness, immune failure, and mortality in developing nations."
       },
       {
         "key": "D",
@@ -520,7 +520,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Trap outgoing long-wave infrared thermal radiation emitted by Earth, keeping global average temperatures habitable (~15 deg C)."
+        "text": "Trap outgoing long-wave infrared thermal radiation emitted by Earth, keeping global average temperatures habitable."
       }
     ],
     "correctAnswer": "D",
@@ -541,7 +541,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The combustion of fossil fuels (coal, oil, gas), industrial deforestation, and large-scale industrial agriculture."
+        "text": "The combustion of fossil fuels, industrial deforestation, and large-scale industrial agriculture."
       },
       {
         "key": "D",
@@ -583,7 +583,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "National and Local Climate Change Action Plans (LCCAP) and disaster risk reduction frameworks across all government levels."
+        "text": "National and Local Climate Change Action Plans and disaster risk reduction frameworks across all government levels."
       },
       {
         "key": "B",
@@ -658,19 +658,19 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1 to 100 picometers (10^-12 meter)."
+        "text": "1 to 100 picometers."
       },
       {
         "key": "B",
-        "text": "1 to 100 nanometers (1 nm = 10^-9 meter, approximately 1 billionth of a meter)."
+        "text": "1 to 100 nanometers."
       },
       {
         "key": "C",
-        "text": "1 to 100 millimeters (10^-3 meter)."
+        "text": "1 to 100 millimeters."
       },
       {
         "key": "D",
-        "text": "1 to 100 micrometers (10^-6 meter)."
+        "text": "1 to 100 micrometers."
       }
     ],
     "correctAnswer": "B",
@@ -741,7 +741,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Calculating statistical probability distributions of words (tokens) based on massive textual training data."
+        "text": "Calculating statistical probability distributions of words based on massive textual training data."
       },
       {
         "key": "D",
@@ -808,19 +808,19 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "National Telecommunications Commission (NTC)."
+        "text": "National Telecommunications Commission."
       },
       {
         "key": "B",
-        "text": "Department of Information and Communications Technology (DICT)."
+        "text": "Department of Information and Communications Technology."
       },
       {
         "key": "C",
-        "text": "Cybercrime Investigation and Coordinating Center (CICC)."
+        "text": "Cybercrime Investigation and Coordinating Center."
       },
       {
         "key": "D",
-        "text": "National Privacy Commission (NPC)."
+        "text": "National Privacy Commission."
       }
     ],
     "correctAnswer": "D",
@@ -862,7 +862,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Impersonate legitimate institutions (e.g., banks or schools) via fraudulent emails to trick users into revealing sensitive credentials."
+        "text": "Impersonate legitimate institutions via fraudulent emails to trick users into revealing sensitive credentials."
       },
       {
         "key": "C",
@@ -883,7 +883,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Photons of sunlight strike semiconductor materials (such as silicon), dislodging electrons and generating electrical current."
+        "text": "Photons of sunlight strike semiconductor materials, dislodging electrons and generating electrical current."
       },
       {
         "key": "B",
@@ -1120,7 +1120,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Breeding semi-dwarf, high-yield, disease-resistant crop varieties (e.g., IR8 'Miracle Rice') combined with modern irrigation and agronomy."
+        "text": "Breeding semi-dwarf, high-yield, disease-resistant crop varieties combined with modern irrigation and agronomy."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Zoonotic spillover events, where novel viral pathogens jump from wild animals to human populations (e.g., SARS-CoV-2, Ebola)."
+        "text": "Zoonotic spillover events."
       },
       {
         "key": "D",
@@ -1420,7 +1420,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Nuclear FUSION (combining light hydrogen isotopes like deuterium and tritium at extreme temperatures, mimicking the Sun)."
+        "text": "Nuclear FUSION."
       }
     ],
     "correctAnswer": "D",
@@ -1462,7 +1462,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Perform complex calculations (such as molecular drug simulation and cryptography breaking) exponentially faster than supercomputers."
+        "text": "Perform complex calculations exponentially faster than supercomputers."
       },
       {
         "key": "C",
@@ -1720,7 +1720,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Paradigm Shifts', where accumulated anomalies trigger a revolutionary replacement of a dominant scientific framework."
+        "text": "'Paradigm Shifts'."
       }
     ],
     "correctAnswer": "D",
@@ -1783,7 +1783,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Overexploit and deplete finite shared common-pool resources (e.g., fisheries, pastures, clean atmosphere), causing collective ruin."
+        "text": "Overexploit and deplete finite shared common-pool resources, causing collective ruin."
       },
       {
         "key": "B",

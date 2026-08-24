@@ -20,7 +20,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Object Permanence (understanding that objects continue to exist even when they cannot be seen, heard, or touched)."
+        "text": "Object Permanence."
       }
     ],
     "correctAnswer": "D",
@@ -41,7 +41,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Preoperational Stage thinking (Egocentrism, Animism, Centration, and Lack of Conservation)."
+        "text": "Preoperational Stage thinking."
       },
       {
         "key": "D",
@@ -62,7 +62,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Concrete Operational Stage (Conservation, Decentration, Reversibility, Seriation, Classification)."
+        "text": "Concrete Operational Stage."
       },
       {
         "key": "C",
@@ -83,7 +83,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Formal Operational Stage (Hypothetico-Deductive Reasoning and Abstract Systematic Logic)."
+        "text": "Formal Operational Stage."
       },
       {
         "key": "B",
@@ -108,7 +108,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assimilation (fitting new information into existing unchanged schemas)."
+        "text": "Assimilation."
       },
       {
         "key": "B",
@@ -120,7 +120,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Accommodation (modifying existing cognitive schemas or creating new ones to fit novel information)."
+        "text": "Accommodation."
       }
     ],
     "correctAnswer": "D",
@@ -141,7 +141,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "What a learner can accomplish independently and what they can achieve with guidance and collaboration from a More Knowledgeable Other (MKO)."
+        "text": "What a learner can accomplish independently and what they can achieve with guidance and collaboration from a More Knowledgeable Other."
       },
       {
         "key": "D",
@@ -220,7 +220,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Hope / Basic Trust (feeling safe, secure, and trusting of the world)."
+        "text": "Hope / Basic Trust."
       }
     ],
     "correctAnswer": "D",
@@ -241,7 +241,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Autonomy (independence and self-will), avoiding feelings of Shame and Doubt."
+        "text": "Autonomy, avoiding feelings of Shame and Doubt."
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Feelings of Inferiority (believing oneself to be inadequate and incompetent)."
+        "text": "Feelings of Inferiority."
       },
       {
         "key": "B",
@@ -320,7 +320,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A clear, integrated personal Identity and the virtue of Fidelity (loyalty to one's core values)."
+        "text": "A clear, integrated personal Identity and the virtue of Fidelity."
       }
     ],
     "correctAnswer": "D",
@@ -362,7 +362,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Pre-Conventional Stage 1: Obedience and Punishment Orientation (avoiding physical punishment)."
+        "text": "Pre-Conventional Stage 1: Obedience and Punishment Orientation."
       },
       {
         "key": "C",
@@ -383,7 +383,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pre-Conventional Stage 2: Individualism, Instrumental Purpose, and Exchange ('You scratch my back, I scratch yours')."
+        "text": "Pre-Conventional Stage 2: Individualism, Instrumental Purpose, and Exchange."
       },
       {
         "key": "B",
@@ -420,7 +420,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conventional Stage 3: 'Good Boy / Good Girl' (Interpersonal Concordance / Conformity to social approval)."
+        "text": "Conventional Stage 3: 'Good Boy / Good Girl'."
       }
     ],
     "correctAnswer": "D",
@@ -483,7 +483,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Post-Conventional Stage 6: Universal Ethical Principles Orientation (Kantian categorical morality)."
+        "text": "Post-Conventional Stage 6: Universal Ethical Principles Orientation."
       },
       {
         "key": "B",
@@ -533,19 +533,19 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Broad cultural values, laws, and societal ideologies (Macrosystem)."
+        "text": "Broad cultural values, laws, and societal ideologies."
       },
       {
         "key": "B",
-        "text": "External settings that indirectly affect the child (Exosystem)."
+        "text": "External settings that indirectly affect the child."
       },
       {
         "key": "C",
-        "text": "The immediate direct environments that the child interacts with face-to-face daily (family, classroom, peer group, neighborhood)."
+        "text": "The immediate direct environments that the child interacts with face-to-face daily."
       },
       {
         "key": "D",
-        "text": "The interactions between two different microsystems (Mesosystem)."
+        "text": "The interactions between two different microsystems."
       }
     ],
     "correctAnswer": "C",
@@ -562,7 +562,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mesosystem (connections, linkages, and interactions between the child's microsystems, such as home and school)."
+        "text": "Mesosystem."
       },
       {
         "key": "C",
@@ -583,7 +583,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exosystem (external environmental settings that the child does not inhabit directly but that profoundly influence their development)."
+        "text": "Exosystem."
       },
       {
         "key": "B",
@@ -620,7 +620,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Macrosystem (the cultural blueprint and overarching societal ideologies)."
+        "text": "Macrosystem."
       }
     ],
     "correctAnswer": "D",
@@ -641,7 +641,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Chronosystem (the socio-historical context and temporal dimension of development)."
+        "text": "Chronosystem."
       },
       {
         "key": "D",
@@ -662,7 +662,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Oral (0-1), Anal (1-3), Phallic (3-6), Latency (6-12), and Genital (12+)."
+        "text": "Oral, Anal, Phallic, Latency, and Genital."
       },
       {
         "key": "C",
@@ -683,7 +683,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identification with the same-sex parent (internalizing their values, gender role, and Superego)."
+        "text": "Identification with the same-sex parent."
       },
       {
         "key": "B",
@@ -783,7 +783,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Analytical Intelligence (Componential), Creative Intelligence (Experiential), and Practical Intelligence (Contextual / 'Street Smarts')."
+        "text": "Analytical Intelligence, Creative Intelligence, and Practical Intelligence."
       },
       {
         "key": "B",
@@ -820,7 +820,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Practical Intelligence (Contextual dimension / tacit knowledge)."
+        "text": "Practical Intelligence."
       }
     ],
     "correctAnswer": "D",
@@ -920,7 +920,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Procedural Memory (implicit motor skills and conditioned physical habits)."
+        "text": "Procedural Memory."
       }
     ],
     "correctAnswer": "D",
@@ -941,7 +941,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strategy Knowledge (knowing which learning strategies are most effective for solving a specific task and monitoring their use)."
+        "text": "Strategy Knowledge."
       },
       {
         "key": "D",
@@ -983,7 +983,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deficiency Needs (Physiological needs for food/sleep, Safety, and Belongingness/Love) are adequately satisfied."
+        "text": "Deficiency Needs are adequately satisfied."
       },
       {
         "key": "B",
@@ -1020,7 +1020,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Autonomy (choice/agency), Competence (feeling effective), and Relatedness (feeling connected/cared for)."
+        "text": "Autonomy, Competence, and Relatedness."
       }
     ],
     "correctAnswer": "D",
@@ -1033,7 +1033,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "External, Stable, and Uncontrollable factors (e.g., 'The teacher hated me and the test was impossible')."
+        "text": "External, Stable, and Uncontrollable factors."
       },
       {
         "key": "B",
@@ -1041,11 +1041,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Internal, Unstable, and Controllable factors (e.g., 'I need to use more effective study strategies and put in more targeted effort')."
+        "text": "Internal, Unstable, and Controllable factors."
       },
       {
         "key": "D",
-        "text": "Internal, Stable, and Uncontrollable factors (e.g., 'I am genetically stupid')."
+        "text": "Internal, Stable, and Uncontrollable factors."
       }
     ],
     "correctAnswer": "C",
@@ -1083,7 +1083,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Observational learning (modeling and imitation) within a social context, involving Attention, Retention, Reproduction, and Motivation."
+        "text": "Observational learning within a social context, involving Attention, Retention, Reproduction, and Motivation."
       },
       {
         "key": "B",
@@ -1141,11 +1141,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Head to Tail / Foot (the head and upper body develop control before the lower limbs)."
+        "text": "Head to Tail / Foot."
       },
       {
         "key": "D",
-        "text": "Center of the body outward to the extremities (Proximodistal)."
+        "text": "Center of the body outward to the extremities."
       }
     ],
     "correctAnswer": "C",
@@ -1183,7 +1183,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prefrontal Cortex (responsible for executive function, impulse control, long-term risk evaluation, and planning), explaining adolescent risk-taking."
+        "text": "Prefrontal Cortex, explaining adolescent risk-taking."
       },
       {
         "key": "B",
@@ -1220,7 +1220,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The 'Imaginary Audience' phenomenon in adolescent egocentrism (David Elkind)."
+        "text": "The 'Imaginary Audience' phenomenon in adolescent egocentrism."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The 'Personal Fable' (the belief in one's unique invulnerability and distinct destiny)."
+        "text": "The 'Personal Fable'."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Language Acquisition Device (LAD) and Universal Grammar."
+        "text": "Language Acquisition Device and Universal Grammar."
       },
       {
         "key": "C",
@@ -1320,7 +1320,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The child will experience severe and potentially permanent deficits in acquiring native grammatical syntax and fluency (as seen in feral children)."
+        "text": "The child will experience severe and potentially permanent deficits in acquiring native grammatical syntax and fluency."
       }
     ],
     "correctAnswer": "D",
@@ -1341,7 +1341,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Telegraphic Speech (omitting non-essential grammatical words while preserving core meaning)."
+        "text": "Telegraphic Speech."
       },
       {
         "key": "D",
@@ -1358,7 +1358,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Displays disoriented, fearful, freezing behaviors (Disorganized)."
+        "text": "Displays disoriented, fearful, freezing behaviors."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Ignores the parent completely and shows zero emotion upon reunion (Insecure-Avoidant)."
+        "text": "Ignores the parent completely and shows zero emotion upon reunion."
       },
       {
         "key": "D",
-        "text": "Shows intense angry clinging, distress, and resists comfort upon reunion (Insecure-Resistant/Ambivalent)."
+        "text": "Shows intense angry clinging, distress, and resists comfort upon reunion."
       }
     ],
     "correctAnswer": "B",
@@ -1383,19 +1383,19 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Authoritative Parenting (produces the most socially competent, confident, and academically successful children)."
+        "text": "Authoritative Parenting."
       },
       {
         "key": "B",
-        "text": "Authoritarian Parenting (high control, low warmth / 'Because I said so!')."
+        "text": "Authoritarian Parenting."
       },
       {
         "key": "C",
-        "text": "Permissive / Indulgent Parenting (high warmth, low control / few boundaries)."
+        "text": "Permissive / Indulgent Parenting."
       },
       {
         "key": "D",
-        "text": "Uninvolved / Neglectful Parenting (low warmth, low control)."
+        "text": "Uninvolved / Neglectful Parenting."
       }
     ],
     "correctAnswer": "A",
@@ -1433,19 +1433,19 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Unconditioned Response (UCR / natural salivation to meat)."
+        "text": "Unconditioned Response."
       },
       {
         "key": "B",
-        "text": "Conditioned Response (CR / salivation to the bell)."
+        "text": "Conditioned Response."
       },
       {
         "key": "C",
-        "text": "Conditioned Stimulus (CS)."
+        "text": "Conditioned Stimulus."
       },
       {
         "key": "D",
-        "text": "Unconditioned Stimulus (UCS / the meat powder)."
+        "text": "Unconditioned Stimulus."
       }
     ],
     "correctAnswer": "C",
@@ -1458,19 +1458,19 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A privilege is taken away to decrease behavior (Negative Punishment)."
+        "text": "A privilege is taken away to decrease behavior."
       },
       {
         "key": "B",
-        "text": "An unpleasant, aversive stimulus is REMOVED or avoided following the behavior (e.g., buckling a seatbelt to stop an annoying beeping sound)."
+        "text": "An unpleasant, aversive stimulus is REMOVED or avoided following the behavior."
       },
       {
         "key": "C",
-        "text": "A pleasant reward is added (Positive Reinforcement)."
+        "text": "A pleasant reward is added."
       },
       {
         "key": "D",
-        "text": "An unpleasant punishment is administered to decrease behavior (Positive Punishment)."
+        "text": "An unpleasant punishment is administered to decrease behavior."
       }
     ],
     "correctAnswer": "B",
@@ -1508,19 +1508,19 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fixed Interval (FI) Schedule."
+        "text": "Fixed Interval Schedule."
       },
       {
         "key": "B",
-        "text": "Fixed Ratio (FR) Schedule."
+        "text": "Fixed Ratio Schedule."
       },
       {
         "key": "C",
-        "text": "Variable Interval (VI) Schedule."
+        "text": "Variable Interval Schedule."
       },
       {
         "key": "D",
-        "text": "Variable Ratio (VR) Schedule."
+        "text": "Variable Ratio Schedule."
       }
     ],
     "correctAnswer": "D",
@@ -1587,15 +1587,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Engage in organized group play with defined rules (Cooperative Play)."
+        "text": "Engage in organized group play with defined rules."
       },
       {
         "key": "C",
-        "text": "Share materials and converse while working on individual projects (Associative Play)."
+        "text": "Share materials and converse while working on individual projects."
       },
       {
         "key": "D",
-        "text": "Watch other children play without joining in (Onlooker Behavior)."
+        "text": "Watch other children play without joining in."
       }
     ],
     "correctAnswer": "A",
@@ -1620,7 +1620,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Cooperative Play (organized group play with shared goals, rules, and division of labor)."
+        "text": "Cooperative Play."
       }
     ],
     "correctAnswer": "D",
@@ -1658,7 +1658,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identity Diffusion (no exploration and no commitment; apathy)."
+        "text": "Identity Diffusion."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Identity Foreclosure (commitment without personal exploration, adopting parents' wishes blindly)."
+        "text": "Identity Foreclosure."
       },
       {
         "key": "D",
-        "text": "Identity Moratorium (active exploration in crisis, but no firm commitment yet)."
+        "text": "Identity Moratorium."
       }
     ],
     "correctAnswer": "B",
@@ -1683,7 +1683,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identity Foreclosure (premature commitment without personal crisis/exploration)."
+        "text": "Identity Foreclosure."
       },
       {
         "key": "B",
@@ -1720,7 +1720,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Enactive (action-based / hands-on movement), Iconic (image-based / visual graphics), and Symbolic (language / mathematical symbols)."
+        "text": "Enactive, Iconic, and Symbolic."
       }
     ],
     "correctAnswer": "D",
@@ -1762,7 +1762,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Organizes visual sensory perceptions into the simplest, most complete, unified, and coherent whole structures possible ('The whole is greater than the sum of its parts')."
+        "text": "Organizes visual sensory perceptions into the simplest, most complete, unified, and coherent whole structures possible."
       },
       {
         "key": "C",
@@ -1783,7 +1783,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The sudden, spontaneous cognitive understanding of relationships leading directly to a problem solution ('Aha!' moment)."
+        "text": "The sudden, spontaneous cognitive understanding of relationships leading directly to a problem solution."
       },
       {
         "key": "B",
@@ -1820,7 +1820,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Negative Transfer (prior learning interferes with the performance or learning of a new task)."
+        "text": "Negative Transfer."
       }
     ],
     "correctAnswer": "D",
@@ -1841,7 +1841,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Near Transfer (similar context); Far Transfer (dissimilar, novel context)."
+        "text": "Near Transfer; Far Transfer."
       },
       {
         "key": "D",

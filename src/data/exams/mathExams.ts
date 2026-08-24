@@ -37,11 +37,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "(sqrt(5) - 1) / 2 approximately equal to 0.618."
+        "text": "- 1) / 2 approximately equal to 0.618."
       },
       {
         "key": "C",
-        "text": "(1 + sqrt(5)) / 2 approximately equal to 1.6180339887..."
+        "text": "(1 + sqrt(5)) / 2 approximately equal to 1.6180339887."
       },
       {
         "key": "D",
@@ -62,7 +62,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Fractal (e.g., Mandelbrot Set, Koch Snowflake, Sierpinski Triangle, Romanesco broccoli)."
+        "text": "Fractal."
       },
       {
         "key": "C",
@@ -108,7 +108,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bilateral (Mirror) Symmetry."
+        "text": "Bilateral Symmetry."
       },
       {
         "key": "B",
@@ -120,7 +120,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Radial (Rotational) Symmetry."
+        "text": "Radial Symmetry."
       }
     ],
     "correctAnswer": "D",
@@ -137,7 +137,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "n! (n factorial)."
+        "text": "n!."
       },
       {
         "key": "C",
@@ -183,19 +183,19 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "When the antecedent (p) is TRUE and the consequent (q) is FALSE."
+        "text": "When the antecedent is TRUE and the consequent is FALSE."
       },
       {
         "key": "B",
-        "text": "When both antecedent (p) and consequent (q) are false."
+        "text": "When both antecedent and consequent are false."
       },
       {
         "key": "C",
-        "text": "When the antecedent (p) is false and the consequent (q) is true."
+        "text": "When the antecedent is false and the consequent is true."
       },
       {
         "key": "D",
-        "text": "When both antecedent (p) and consequent (q) are true."
+        "text": "When both antecedent and consequent are true."
       }
     ],
     "correctAnswer": "A",
@@ -208,19 +208,19 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'If the ground is wet (q), then it rains (p)' (Converse)."
+        "text": "'If the ground is wet, then it rains'."
       },
       {
         "key": "B",
-        "text": "'If it does not rain (~p), then the ground is not wet (~q)' (Inverse)."
+        "text": "'If it does not rain, then the ground is not wet'."
       },
       {
         "key": "C",
-        "text": "'It rains (p) and the ground is not wet (~q)' (Negation)."
+        "text": "'It rains and the ground is not wet'."
       },
       {
         "key": "D",
-        "text": "'If the ground is not wet (~q), then it does not rain (~p).'"
+        "text": "'If the ground is not wet, then it does not rain.'."
       }
     ],
     "correctAnswer": "D",
@@ -241,11 +241,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Tautology (e.g., p v ~p)."
+        "text": "Tautology."
       },
       {
         "key": "D",
-        "text": "Contradiction (e.g., p ^ ~p)."
+        "text": "Contradiction."
       }
     ],
     "correctAnswer": "C",
@@ -262,11 +262,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Inductive reasoning (moving from specific observations to a general conclusion), which is probable but not logically guaranteed."
+        "text": "Inductive reasoning, which is probable but not logically guaranteed."
       },
       {
         "key": "C",
-        "text": "Deductive reasoning (moving from general premises to a specific certainty), which is absolutely guaranteed."
+        "text": "Deductive reasoning, which is absolutely guaranteed."
       },
       {
         "key": "D",
@@ -283,7 +283,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deductive reasoning, where the conclusion necessarily follows with certainty from true general premises."
+        "text": "Deductive reasoning."
       },
       {
         "key": "B",
@@ -308,19 +308,19 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mean (arithmetic average: 27.4)."
+        "text": "Mean."
       },
       {
         "key": "B",
-        "text": "Mode (most frequent score: 15)."
+        "text": "Mode."
       },
       {
         "key": "C",
-        "text": "Mid-range (51)."
+        "text": "Mid-range."
       },
       {
         "key": "D",
-        "text": "Median (the middle score when data is ordered: 18)."
+        "text": "Median."
       }
     ],
     "correctAnswer": "D",
@@ -362,15 +362,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "95.44% (approximately 95%)."
+        "text": "95.44%."
       },
       {
         "key": "C",
-        "text": "68.26% (approximately 68%)."
+        "text": "68.26%."
       },
       {
         "key": "D",
-        "text": "99.73% (approximately 99.7%)."
+        "text": "99.73%."
       }
     ],
     "correctAnswer": "B",
@@ -383,15 +383,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Z = +1.5, meaning the score is 1.5 standard deviations above the population mean."
+        "text": "Z = +1.5."
       },
       {
         "key": "B",
-        "text": "Z = +15.0, meaning the student scored 15 times better than average."
+        "text": "Z = +15.0."
       },
       {
         "key": "C",
-        "text": "Z = -1.5, meaning the score is 1.5 standard deviations below average."
+        "text": "Z = -1.5."
       },
       {
         "key": "D",
@@ -420,7 +420,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A strong negative linear relationship (as gaming hours increase, GPA significantly decreases)."
+        "text": "A strong negative linear relationship."
       }
     ],
     "correctAnswer": "D",
@@ -441,7 +441,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A confounding / lurking third variable (hot summer weather) that independently increases both swimming and ice cream consumption."
+        "text": "A confounding / lurking third variable that independently increases both swimming and ice cream consumption."
       },
       {
         "key": "D",
@@ -533,7 +533,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A cash payment made at the beginning of each period (Annuity Due)."
+        "text": "A cash payment made at the beginning of each period."
       },
       {
         "key": "B",
@@ -583,7 +583,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Candidate A (the candidate with the highest number of first-place votes, regardless of whether a majority is reached)."
+        "text": "Candidate A."
       },
       {
         "key": "B",
@@ -683,7 +683,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The states with the largest fractional remainders (decimal parts) of their standard quotas."
+        "text": "The states with the largest fractional remainders of their standard quotas."
       },
       {
         "key": "B",
@@ -741,7 +741,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "More than two landmasses (vertices) had an ODD number of bridges (edges) connected to them."
+        "text": "More than two landmasses had an ODD number of bridges connected to them."
       },
       {
         "key": "D",
@@ -820,7 +820,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Visit every VERTEX (node) in the graph exactly once and return to the starting vertex."
+        "text": "Visit every VERTEX in the graph exactly once and return to the starting vertex."
       }
     ],
     "correctAnswer": "D",
@@ -841,7 +841,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Hamiltonian circuit with the lowest total edge weight (distance, time, or cost) visiting every city once."
+        "text": "The Hamiltonian circuit with the lowest total edge weight visiting every city once."
       },
       {
         "key": "D",
@@ -883,7 +883,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "5 (since 8 + 9 = 17, and 17 divided by 12 gives a remainder of 5)."
+        "text": "5."
       },
       {
         "key": "B",
@@ -920,7 +920,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "1 (since 7 * 8 = 56, and 56 = 5 * 11 + 1)."
+        "text": "1."
       }
     ],
     "correctAnswer": "D",
@@ -941,7 +941,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'FDW' (C->F, A->D, T->W)."
+        "text": "'FDW'."
       },
       {
         "key": "D",
@@ -1020,7 +1020,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The sum of the squared vertical distances (residuals/errors) between data points and the regression line."
+        "text": "The sum of the squared vertical distances between data points and the regression line."
       }
     ],
     "correctAnswer": "D",
@@ -1041,11 +1041,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "R^2 = 0.64 (64%), meaning 64% of the total variation in the dependent variable is explained by the independent variable."
+        "text": "R^2 = 0.64."
       },
       {
         "key": "D",
-        "text": "R^2 = 0.80 (80%), meaning the test is 80% reliable."
+        "text": "R^2 = 0.80."
       }
     ],
     "correctAnswer": "C",
@@ -1058,19 +1058,19 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Some teachers in this school hold a master's degree.'"
+        "text": "'Some teachers in this school hold a master's degree.'."
       },
       {
         "key": "B",
-        "text": "'There exists at least one teacher in this school who does not hold a master's degree.'"
+        "text": "'There exists at least one teacher in this school who does not hold a master's degree.'."
       },
       {
         "key": "C",
-        "text": "'No teachers in this school hold a master's degree.'"
+        "text": "'No teachers in this school hold a master's degree.'."
       },
       {
         "key": "D",
-        "text": "'All teachers in this school do not hold a master's degree.'"
+        "text": "'All teachers in this school do not hold a master's degree.'."
       }
     ],
     "correctAnswer": "B",
@@ -1083,7 +1083,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "10 students (using |M u S| = 60 + 50 - 20 = 90; 100 - 90 = 10)."
+        "text": "10 students."
       },
       {
         "key": "B",
@@ -1116,11 +1116,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "P(A or B) = 1 in all sample spaces."
+        "text": "P = 1 in all sample spaces."
       },
       {
         "key": "D",
-        "text": "They cannot occur at the same time (P(A and B) = 0)."
+        "text": "They cannot occur at the same time = 0)."
       }
     ],
     "correctAnswer": "D",
@@ -1133,7 +1133,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "P(A) is equal to 0."
+        "text": "P is equal to 0."
       },
       {
         "key": "B",
@@ -1141,7 +1141,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The occurrence of event A has no effect on the probability of event B occurring (P(A and B) = P(A) * P(B))."
+        "text": "The occurrence of event A has no effect on the probability of event B occurring = P * P)."
       },
       {
         "key": "D",
@@ -1162,7 +1162,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Order does not matter (e.g., selecting a committee of 3 members from a group of 10)."
+        "text": "Order does not matter."
       },
       {
         "key": "C",
@@ -1183,15 +1183,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "336 ways (8 * 7 * 6 = 336)."
+        "text": "336 ways."
       },
       {
         "key": "B",
-        "text": "56 ways (8C3)."
+        "text": "56 ways."
       },
       {
         "key": "C",
-        "text": "512 ways (8^3)."
+        "text": "512 ways."
       },
       {
         "key": "D",
@@ -1208,7 +1208,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "5,040 ways (10P4)."
+        "text": "5,040 ways."
       },
       {
         "key": "B",
@@ -1220,7 +1220,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "210 ways (10! / (4! * 6!) = (10 * 9 * 8 * 7) / (4 * 3 * 2 * 1) = 210)."
+        "text": "210 ways."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Interquartile Range (IQR = Q3 - Q1), containing the middle 50% of the data values."
+        "text": "The Interquartile Range, containing the middle 50% of the data values."
       },
       {
         "key": "D",
@@ -1262,7 +1262,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Below Q1 - 1.5(IQR) or above Q3 + 1.5(IQR)."
+        "text": "Below Q1 - 1.5 or above Q3 + 1.5."
       },
       {
         "key": "C",
@@ -1283,7 +1283,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assuming that P is FALSE (~P is true) and demonstrating that this assumption logically leads to an impossible contradiction."
+        "text": "Assuming that P is FALSE and demonstrating that this assumption logically leads to an impossible contradiction."
       },
       {
         "key": "B",
@@ -1341,7 +1341,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "6 (since 48 = 18*2 + 12; 18 = 12*1 + 6; 12 = 6*2 + 0)."
+        "text": "6."
       },
       {
         "key": "D",
@@ -1362,7 +1362,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "60 (since 12 = 2^2 * 3, 15 = 3 * 5; LCM = 2^2 * 3 * 5 = 60)."
+        "text": "60."
       },
       {
         "key": "C",
@@ -1441,7 +1441,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Frieze Pattern (of which there are exactly 7 distinct mathematical symmetry types)."
+        "text": "Frieze Pattern."
       },
       {
         "key": "D",
@@ -1462,15 +1462,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mode < Median < Mean (the Mean is pulled right toward the high outlier tail)."
+        "text": "Mode < Median < Mean."
       },
       {
         "key": "C",
-        "text": "Mean < Median < Mode (Left-Skewed)."
+        "text": "Mean < Median < Mode."
       },
       {
         "key": "D",
-        "text": "Mean = Median = Mode (Symmetrical)."
+        "text": "Mean = Median = Mode."
       }
     ],
     "correctAnswer": "B",
@@ -1483,7 +1483,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mean < Median < Mode (the Mean is pulled down by the low score tail)."
+        "text": "Mean < Median < Mode."
       },
       {
         "key": "B",
@@ -1520,7 +1520,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because EAR accounts for the compounding of interest during intermediate sub-periods (interest on interest)."
+        "text": "Because EAR accounts for the compounding of interest during intermediate sub-periods."
       }
     ],
     "correctAnswer": "D",
@@ -1662,15 +1662,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "(a * x) is congruent to 1 (mod m)."
+        "text": "(a * x) is congruent to 1."
       },
       {
         "key": "C",
-        "text": "(a + x) is congruent to 0 (mod m)."
+        "text": "(a + x) is congruent to 0."
       },
       {
         "key": "D",
-        "text": "(a * x) is congruent to 0 (mod m)."
+        "text": "(a * x) is congruent to 0."
       }
     ],
     "correctAnswer": "B",
@@ -1720,7 +1720,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Approaches a Normal Distribution as the sample size n becomes sufficiently large (typically n >= 30)."
+        "text": "Approaches a Normal Distribution as the sample size n becomes sufficiently large."
       }
     ],
     "correctAnswer": "D",
@@ -1741,11 +1741,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rejects the Null Hypothesis (H0) when it is actually TRUE (a 'False Positive')."
+        "text": "Rejects the Null Hypothesis when it is actually TRUE."
       },
       {
         "key": "D",
-        "text": "Fails to reject H0 when it is actually FALSE (a 'False Negative', Type II Error)."
+        "text": "Fails to reject H0 when it is actually FALSE."
       }
     ],
     "correctAnswer": "C",
@@ -1762,11 +1762,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Fails to reject the Null Hypothesis (H0) when H0 is actually FALSE (a 'False Negative')."
+        "text": "Fails to reject the Null Hypothesis when H0 is actually FALSE."
       },
       {
         "key": "C",
-        "text": "Rejects H0 when H0 is true (Type I)."
+        "text": "Rejects H0 when H0 is true."
       },
       {
         "key": "D",
@@ -1783,7 +1783,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "~p v ~q (Not p OR Not q)."
+        "text": "~p v ~q."
       },
       {
         "key": "B",
@@ -1795,7 +1795,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "~(p v q)."
+        "text": "~."
       }
     ],
     "correctAnswer": "A",
@@ -1820,7 +1820,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "~p ^ ~q (Not p AND Not q)."
+        "text": "~p ^ ~q."
       }
     ],
     "correctAnswer": "D",

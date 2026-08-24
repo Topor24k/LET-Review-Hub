@@ -262,11 +262,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Actual (tactile) texture created through heavy impasto."
+        "text": "Tactile texture created through heavy impasto."
       },
       {
         "key": "C",
-        "text": "Implied (visual) texture that appears rough but is completely smooth to touch."
+        "text": "Implied texture that appears rough but is completely smooth to touch."
       },
       {
         "key": "D",
@@ -362,7 +362,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Inabel (Abel Iloco)."
+        "text": "Inabel."
       },
       {
         "key": "C",
@@ -420,7 +420,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Okir (Okir a Datu / Okir a Bay)."
+        "text": "Okir."
       }
     ],
     "correctAnswer": "D",
@@ -487,7 +487,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Kalinga traditional tattooing (Batok)."
+        "text": "Kalinga traditional tattooing."
       },
       {
         "key": "C",
@@ -541,11 +541,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Tab\u00fangaw (functional, weatherproof all-weather hat crafted from a polished upo gourd)."
+        "text": "Tab\u00fangaw."
       },
       {
         "key": "D",
-        "text": "Kudyapi (two-stringed fretted boat lute)."
+        "text": "Kudyapi."
       }
     ],
     "correctAnswer": "C",
@@ -583,7 +583,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Kutyapi (two-stringed plucked boat lute of Mindanao)."
+        "text": "Kutyapi."
       },
       {
         "key": "B",
@@ -720,7 +720,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Transparent Cubism, where geometric overlapping forms and planes create layered spatial depth."
+        "text": "Transparent Cubism."
       }
     ],
     "correctAnswer": "D",
@@ -783,7 +783,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Las Virgenes Cristianas Expuestas al Populacho (The Christian Virgins Exposed to the Populace)."
+        "text": "Las Virgenes Cristianas Expuestas al Populacho."
       },
       {
         "key": "B",
@@ -1183,7 +1183,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Additive processes, where material is built up, shaped, or cast."
+        "text": "Additive processes."
       },
       {
         "key": "B",
@@ -1208,11 +1208,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High relief (Haut-relief)."
+        "text": "High relief."
       },
       {
         "key": "B",
-        "text": "Sunken relief (Intaglio)."
+        "text": "Sunken relief."
       },
       {
         "key": "C",
@@ -1220,7 +1220,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Low relief (Bas-relief)."
+        "text": "Low relief."
       }
     ],
     "correctAnswer": "D",
@@ -1241,7 +1241,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Post-and-lintel (trabeated) construction, where horizontal beams rest on vertical columns."
+        "text": "Post-and-lintel construction."
       },
       {
         "key": "D",
@@ -1287,15 +1287,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Description (identifying what is literally visible without interpretation)."
+        "text": "Description."
       },
       {
         "key": "C",
-        "text": "Interpretation (determining expressive meaning and psychological intent)."
+        "text": "Interpretation."
       },
       {
         "key": "D",
-        "text": "Judgment / Evaluation (assessing artistic merit and historical significance)."
+        "text": "Judgment / Evaluation."
       }
     ],
     "correctAnswer": "A",
@@ -1383,7 +1383,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Oil (grease) and water do not mix naturally."
+        "text": "Oil and water do not mix naturally."
       },
       {
         "key": "B",
@@ -1420,7 +1420,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Fermenting sugarcane wine (basi), vinegar (sukang Iloko), and bagoong (fish paste)."
+        "text": "Fermenting sugarcane wine, vinegar, and bagoong."
       }
     ],
     "correctAnswer": "D",
@@ -1762,7 +1762,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Art song masterworks featuring sophisticated classical European harmonic structures (e.g., Mutya ng Pasig)."
+        "text": "Art song masterworks featuring sophisticated classical European harmonic structures."
       },
       {
         "key": "C",
@@ -1862,7 +1862,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Variations of a single hue, using different tints (adding white), shades (adding black), and tones (adding gray)."
+        "text": "Variations of a single hue, using different tints, shades, and tones."
       },
       {
         "key": "C",
