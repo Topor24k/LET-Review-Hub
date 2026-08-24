@@ -36,18 +36,14 @@ export const Header: React.FC<HeaderProps> = ({
   const [deferredPrompt, setDeferredPrompt] = useState<any>(null);
   const [isInstallModalOpen, setIsInstallModalOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-  const [isAppInstalled, setIsAppInstalled] = useState<boolean>(() => {
-    try {
-      const isStandalone =
-        window.matchMedia('(display-mode: standalone)').matches ||
-        (window.navigator as any).standalone === true ||
-        document.referrer.includes('android-app://');
-      const markedInstalled = localStorage.getItem('let_pwa_installed') === 'true';
-      return isStandalone || markedInstalled;
-    } catch {
-      return false;
-    }
-  });
+  const [isInstalled, setIsInstalled] = useState(false);
+
+  const isStandalone = typeof window !== 'undefined' && (
+    isInstalled ||
+    window.matchMedia('(display-mode: standalone)').matches ||
+    (window.navigator as any).standalone === true ||
+    document.referrer.includes('android-app://')
+  );
 
   useEffect(() => {
     return subscribeSyncStatus((s) => setSyncStatus(s));
@@ -64,13 +60,8 @@ export const Header: React.FC<HeaderProps> = ({
 
   useEffect(() => {
     const handleAppInstalled = () => {
-      setIsAppInstalled(true);
+      setIsInstalled(true);
       setDeferredPrompt(null);
-      try {
-        localStorage.setItem('let_pwa_installed', 'true');
-      } catch (e) {
-        console.error(e);
-      }
     };
 
     window.addEventListener('appinstalled', handleAppInstalled);
@@ -82,10 +73,7 @@ export const Header: React.FC<HeaderProps> = ({
       deferredPrompt.prompt();
       const { outcome } = await deferredPrompt.userChoice;
       if (outcome === 'accepted') {
-        setIsAppInstalled(true);
-        try {
-          localStorage.setItem('let_pwa_installed', 'true');
-        } catch {}
+        setIsInstalled(true);
         setDeferredPrompt(null);
       }
     } else {
@@ -120,8 +108,19 @@ export const Header: React.FC<HeaderProps> = ({
               </div>
             </button>
 
-            {/* Mobile Hamburger Toggle */}
-            <div className="flex items-center md:hidden">
+            {/* Mobile Actions Container */}
+            <div className="flex items-center gap-1.5 md:hidden">
+              {!isStandalone && (
+                <button
+                  onClick={handleInstallClick}
+                  title="Install App for Offline Study"
+                  className="p-2 rounded-xl bg-slate-900 text-white hover:bg-slate-800 border border-slate-800 shadow-xs flex items-center justify-center cursor-pointer active:scale-95 shrink-0"
+                >
+                  <Download className="w-4 h-4 text-amber-400" />
+                </button>
+              )}
+
+              {/* Mobile Hamburger Toggle */}
               <button
                 onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 className={`p-2 rounded-xl border transition-all cursor-pointer ${
@@ -203,8 +202,8 @@ export const Header: React.FC<HeaderProps> = ({
                 </span>
               </button>
 
-              {/* 3. Install App for Offline Study (Disappears once downloaded/installed) */}
-              {!isAppInstalled && (
+              {/* 3. Install App for Offline Study */}
+              {!isStandalone && (
                 <button
                   onClick={() => {
                     handleInstallClick();
@@ -318,8 +317,8 @@ export const Header: React.FC<HeaderProps> = ({
               </span>
             </button>
 
-            {/* Professional Install App Button (Disappears once downloaded/installed) */}
-            {!isAppInstalled && deferredPrompt && (
+            {/* Professional Install App Button */}
+            {!isStandalone && (
               <button
                 onClick={handleInstallClick}
                 title="Install LET Reviewer App on your device for offline studying"
