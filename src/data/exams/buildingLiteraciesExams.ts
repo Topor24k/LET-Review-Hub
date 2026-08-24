@@ -8,7 +8,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The physical speed of mechanical typing on a keyboard."
+        "text": "The physical speed of mechanical typing on a keyboard, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -33,11 +33,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Borrowing high-interest payday loans to finance international vacations."
+        "text": "Borrowing high-interest payday loans to finance international vacations, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Relying entirely on credit card cash advances for daily grocery purchases."
+        "text": "Relying entirely on credit card cash advances for daily grocery purchases, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Spending entire salary on luxury consumer goods and saving whatever spare coins remain."
+        "text": "Spending entire salary on luxury consumer goods and saving whatever spare coins remain, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -58,7 +58,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "50% for Housing, 30% for Utilities, and 20% for Clothing only."
+        "text": "50% for Housing, 30% for Utilities, and 20% for Clothing only, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "50% for Luxury Wants, 30% for Gambling, and 20% for Taxes."
+        "text": "50% for Luxury Wants, 30% for Gambling, and 20% for Taxes, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "50% for Savings, 30% for Loans, and 20% for Food."
+        "text": "50% for Savings, 30% for Loans, and 20% for Food, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -95,7 +95,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An Asset is cash held in a piggy bank with zero interest."
+        "text": "An Asset is cash held in a piggy bank with zero interest, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -108,15 +108,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because commercial paper bank notes decompose into dust within 12 months."
+        "text": "Because commercial paper bank notes decompose into dust within 12 months, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Because national banks automatically confiscate cash savings annually."
+        "text": "Because national banks automatically confiscate cash savings annually, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Because cash money loses its physical weight over time."
+        "text": "Because cash money loses its physical weight over time, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The percentage of income an individual must pay in income taxes."
+        "text": "The percentage of income an individual must pay in income taxes, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "The total number of credit cards a consumer should own."
+        "text": "The total number of credit cards a consumer should own, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The exact monetary price of national real estate properties."
+        "text": "The exact monetary price of national real estate properties, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Is borrowed from unregulated illegal loan sharks."
+        "text": "Is borrowed from unregulated illegal loan sharks, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Carries an annual percentage interest rate exceeding 50% on luxury fashion purchases."
+        "text": "Carries an annual percentage interest rate exceeding 50% on luxury fashion purchases, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Is used exclusively to fund impulsive consumer shopping sprees."
+        "text": "Is used exclusively to fund impulsive consumer shopping sprees, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -233,11 +233,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Misinformation is legally permitted; Disinformation is created only by computers."
+        "text": "Misinformation is legally permitted; Disinformation is created only by computers, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Misinformation relates to sports; Disinformation relates to weather."
+        "text": "Misinformation relates to sports; Disinformation relates to weather, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Misinformation is published in printed books; Disinformation is published online."
+        "text": "Misinformation is published in printed books; Disinformation is published online, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A mandatory administrative school fee announcement."
+        "text": "A mandatory administrative school fee announcement, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -266,7 +266,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A legitimate scholarship grant notification from the government."
+        "text": "A legitimate scholarship grant notification from the government, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -287,15 +287,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It doubles the download speed of broadband internet routers."
+        "text": "It doubles the download speed of broadband internet routers, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "It eliminates the need to remember any password."
+        "text": "It eliminates the need to remember any password, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "It automatically deletes spam emails from the inbox."
+        "text": "It automatically deletes spam emails from the inbox, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Media messages are direct, unfiltered reflections of pure truth.'."
+        "text": "'Media messages are direct, unfiltered reflections of pure truth.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "'Television broadcasts are generated entirely by nature without human input.'."
+        "text": "'Television broadcasts are generated entirely by nature without human input.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "'All news broadcasts are 100% free from any political or economic perspective.'."
+        "text": "'All news broadcasts are 100% free from any political or economic perspective.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The type of printing ink used on the magazine cover."
+        "text": "The type of printing ink used on the magazine cover, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "The brand name of the television monitor displaying the ad."
+        "text": "The brand name of the television monitor displaying the ad, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Only the physical pixel resolution of the digital video file."
+        "text": "Only the physical pixel resolution of the digital video file, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By forcing all users to read academic peer-reviewed journal articles."
+        "text": "By forcing all users to read academic peer-reviewed journal articles, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "By displaying completely random, neutral international news broadcasts to all users."
+        "text": "By displaying completely random, neutral international news broadcasts to all users, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "By disconnecting users from the internet after 30 minutes of browsing."
+        "text": "By disconnecting users from the internet after 30 minutes of browsing, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The ability to memorize the Latin taxonomy of 5,000 insect species."
+        "text": "The ability to memorize the Latin taxonomy of 5,000 insect species, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "The commercial extraction of timber from national protected rainforests."
+        "text": "The commercial extraction of timber from national protected rainforests, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "The construction of concrete parking lots over natural wetlands."
+        "text": "The construction of concrete parking lots over natural wetlands, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Linear extraction, Monoculture uniformity, and Fossil fuel exploitation."
+        "text": "Linear extraction, Monoculture uniformity, and Fossil fuel exploitation, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Unlimited exponential growth and resource depletion."
+        "text": "Unlimited exponential growth and resource depletion, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Total isolation of individual biological species."
+        "text": "Total isolation of individual biological species, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The distance walked by a student between home and school."
+        "text": "The distance walked by a student between home and school, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "The number of trees planted in a private residential backyard."
+        "text": "The number of trees planted in a private residential backyard, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The physical size of a person's hiking boots."
+        "text": "The physical size of a person's hiking boots, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -487,7 +487,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Deny all meteorological and oceanic scientific data."
+        "text": "Deny all meteorological and oceanic scientific data, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -495,7 +495,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Increase personal consumption of single-use plastic packaging."
+        "text": "Increase personal consumption of single-use plastic packaging, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Western European cultures are inherently superior to all indigenous Asian cultures."
+        "text": "Western European cultures are inherently superior to all indigenous Asian cultures, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "All traditional languages should be replaced by a single global dialect."
+        "text": "All traditional languages should be replaced by a single global dialect, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Minority students must completely abandon their cultural heritage to assimilate."
+        "text": "Minority students must completely abandon their cultural heritage to assimilate, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Grouping students strictly according to their socioeconomic class."
+        "text": "Grouping students strictly according to their socioeconomic class, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Separating classrooms into distinct linguistic tribal divisions."
+        "text": "Separating classrooms into distinct linguistic tribal divisions, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Teaching about ethnic minorities only during one single holiday week each year."
+        "text": "Teaching about ethnic minorities only during one single holiday week each year, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assign failing grades automatically to students from minority communities."
+        "text": "Assign failing grades automatically to students from minority communities, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Apply a single, rigid, unbending teaching style that favors only mainstream pupils."
+        "text": "Apply a single, rigid, unbending teaching style that favors only mainstream pupils, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Lower all academic standards to zero for marginalized learners."
+        "text": "Lower all academic standards to zero for marginalized learners, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Memorize the capital cities and flags of 200 nations without understanding geopolitical relations."
+        "text": "Memorize the capital cities and flags of 200 nations without understanding geopolitical relations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Speak fluent English with an American accent."
+        "text": "Speak fluent English with an American accent, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Win commercial business marketing contracts in overseas markets."
+        "text": "Win commercial business marketing contracts in overseas markets, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reading, Writing, Mathematics, Science, and Social Studies."
+        "text": "Reading, Writing, Mathematics, Science, and Social Studies, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Id, Ego, Superego, Libido, and Thanatos."
+        "text": "Id, Ego, Superego, Libido, and Thanatos, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Speed, Agility, Strength, Endurance, and Flexibility."
+        "text": "Speed, Agility, Strength, Endurance, and Flexibility, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Avoid all social interaction and isolate oneself in the library."
+        "text": "Avoid all social interaction and isolate oneself in the library, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Judge classmates strictly based on their physical appearance."
+        "text": "Judge classmates strictly based on their physical appearance, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Manipulate peers' emotions to win classroom elections."
+        "text": "Manipulate peers' emotions to win classroom elections, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -687,15 +687,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Arriving at a single, predetermined, standardized correct answer."
+        "text": "Arriving at a single, predetermined, standardized correct answer, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Copying an existing artwork brushstroke for brushstroke in complete silence."
+        "text": "Copying an existing artwork brushstroke for brushstroke in complete silence, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Memorizing mathematical algorithms without understanding."
+        "text": "Memorizing mathematical algorithms without understanding, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Generates a large quantity of nearly identical ideas."
+        "text": "Generates a large quantity of nearly identical ideas, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Adds intricate, fine decorative details to an existing drawing."
+        "text": "Adds intricate, fine decorative details to an existing drawing, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Copies an idea directly from a peer's notebook."
+        "text": "Copies an idea directly from a peer's notebook, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Read simple nursery rhymes aloud without understanding the meaning."
+        "text": "Read simple nursery rhymes aloud without understanding the meaning, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Memorize the letters of the alphabet in order."
+        "text": "Memorize the letters of the alphabet in order, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Sign one's name on an identification card but be unable to read instructions on a medicine bottle."
+        "text": "Sign one's name on an identification card but be unable to read instructions on a medicine bottle, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pronouncing words with perfect phonetic precision while ignoring the meaning."
+        "text": "Pronouncing words with perfect phonetic precision while ignoring the meaning, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passively absorbing printed words as unquestionable sacred facts."
+        "text": "Passively absorbing printed words as unquestionable sacred facts, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Memorizing grammar rules without ever discussing societal problems."
+        "text": "Memorizing grammar rules without ever discussing societal problems, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'How many adjectives are in the first sentence?'."
+        "text": "'How many adjectives are in the first sentence?', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "'What is the price of the newspaper at the newsstand?'."
+        "text": "'What is the price of the newspaper at the newsstand?', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "'What font size was used by the graphic typesetter?'."
+        "text": "'What font size was used by the graphic typesetter?', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -833,11 +833,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A legally certified national court announcement."
+        "text": "A legally certified national court announcement, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "A peer-reviewed scientific discovery paper."
+        "text": "A peer-reviewed scientific discovery paper, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "An objective, verified investigative journalism report."
+        "text": "An objective, verified investigative journalism report, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sending a calendar invite for a school club meeting."
+        "text": "Sending a calendar invite for a school club meeting, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Playing an online educational multiplayer math game with friends."
+        "text": "Playing an online educational multiplayer math game with friends, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Submitting an assignment via email to a teacher before the deadline."
+        "text": "Submitting an assignment via email to a teacher before the deadline, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Replacing all green grass with synthetic asphalt parking spaces."
+        "text": "Replacing all green grass with synthetic asphalt parking spaces, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Cutting down all campus shade trees to build billboard structures."
+        "text": "Cutting down all campus shade trees to build billboard structures, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Confining all students to windowless concrete classrooms."
+        "text": "Confining all students to windowless concrete classrooms, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "100% of all life savings invested in volatile cryptocurrency meme tokens."
+        "text": "100% of all life savings invested in volatile cryptocurrency meme tokens, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Buying 10 lottery tickets every morning."
+        "text": "Buying 10 lottery tickets every morning, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Purchasing luxury jewelry with high-interest credit card debt."
+        "text": "Purchasing luxury jewelry with high-interest credit card debt, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The bank will confiscate the consumer's university diploma."
+        "text": "The bank will confiscate the consumer's university diploma, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "The credit card becomes physically heavier in one's wallet."
+        "text": "The credit card becomes physically heavier in one's wallet, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The credit card company will immediately cancel all bank accounts."
+        "text": "The credit card company will immediately cancel all bank accounts, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Standardized written examination scoring errors."
+        "text": "Standardized written examination scoring errors, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical fistfights between large gangs of students."
+        "text": "Physical fistfights between large gangs of students, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Formal academic debates organized by the school debate society."
+        "text": "Formal academic debates organized by the school debate society, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1008,15 +1008,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Publicly shaming and isolating students who receive low quiz scores."
+        "text": "Publicly shaming and isolating students who receive low quiz scores, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Allowing the loudest students to shout down quieter peers."
+        "text": "Allowing the loudest students to shout down quieter peers, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Administering silent individual multiple-choice exams."
+        "text": "Administering silent individual multiple-choice exams, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Instantaneous photographic memory without studying."
+        "text": "Instantaneous photographic memory without studying, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "The complete elimination of the need for classroom instruction."
+        "text": "The complete elimination of the need for classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A Fixed Mindset of permanent personal helplessness."
+        "text": "A Fixed Mindset of permanent personal helplessness, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1091,11 +1091,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Make math exams easier by removing all numbers."
+        "text": "Make math exams easier by removing all numbers, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Replace engineering blueprints with abstract finger paintings."
+        "text": "Replace engineering blueprints with abstract finger paintings, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Believe every video seen on social media as unquestionable proof."
+        "text": "Believe every video seen on social media as unquestionable proof, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Completely stop using all forms of technology and internet."
+        "text": "Completely stop using all forms of technology and internet, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Assume that all news from all sources in world history is 100% fake."
+        "text": "Assume that all news from all sources in world history is 100% fake, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Checking the graphic beauty and color scheme of the website's logo."
+        "text": "Checking the graphic beauty and color scheme of the website's logo, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Trusting the website because it has an official-sounding '.org' domain."
+        "text": "Trusting the website because it has an official-sounding '.org' domain, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Reading the article from top to bottom very slowly and carefully on a single tab."
+        "text": "Reading the article from top to bottom very slowly and carefully on a single tab, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Post negative personal complaints about struggling students online."
+        "text": "Post negative personal complaints about struggling students online, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Add all students as personal friends on private social media accounts to gossip."
+        "text": "Add all students as personal friends on private social media accounts to gossip, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Share confidential faculty room meetings on public TikTok videos."
+        "text": "Share confidential faculty room meetings on public TikTok videos, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A Circular Economy produces 100% single-use plastic waste that is thrown into rivers."
+        "text": "A Circular Economy produces 100% single-use plastic waste that is thrown into rivers, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "A Circular Economy requires burning all industrial machinery every 5 years."
+        "text": "A Circular Economy requires burning all industrial machinery every 5 years, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "A Circular Economy is restricted to circular wooden buildings."
+        "text": "A Circular Economy is restricted to circular wooden buildings, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lack any understanding of nature and must be taught from scratch."
+        "text": "Lack any understanding of nature and must be taught from scratch, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Destroy biodiversity through unsustainable commercial clear-cutting."
+        "text": "Destroy biodiversity through unsustainable commercial clear-cutting, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Never interact with natural biological resources."
+        "text": "Never interact with natural biological resources, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Make an individual instantly wealthy like winning a lottery."
+        "text": "Make an individual instantly wealthy like winning a lottery, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Evade all municipal property taxes legally."
+        "text": "Evade all municipal property taxes legally, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Guarantee that a person will never suffer a physical illness."
+        "text": "Guarantee that a person will never suffer a physical illness, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Investing exclusively in one speculative startup business."
+        "text": "Investing exclusively in one speculative startup business, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Buying stock shares in only one single company with 100% of savings."
+        "text": "Buying stock shares in only one single company with 100% of savings, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Hiding physical cash in multiple locations inside a mattress."
+        "text": "Hiding physical cash in multiple locations inside a mattress, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Free luxury international travel flights annually."
+        "text": "Free luxury international travel flights annually, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Private corporate stock options in foreign multinational tech firms."
+        "text": "Private corporate stock options in foreign multinational tech firms, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Automatic exemptions from all electricity utility bills."
+        "text": "Automatic exemptions from all electricity utility bills, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Completely abandoning and erasing one's native cultural heritage, language."
+        "text": "Completely abandoning and erasing one's native cultural heritage, language, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Refusing to interact with any other human beings outside one's village."
+        "text": "Refusing to interact with any other human beings outside one's village, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Living in complete geographical isolation."
+        "text": "Living in complete geographical isolation, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Docking points whenever a student mentions their indigenous heritage."
+        "text": "Docking points whenever a student mentions their indigenous heritage, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Requiring all students to answer questions in 18th-century Elizabethan English."
+        "text": "Requiring all students to answer questions in 18th-century Elizabethan English, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Using standardized testing questions based exclusively on high-income elite urban lifestyle experiences."
+        "text": "Using standardized testing questions based exclusively on high-income elite urban lifestyle experiences, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Read, Underline, Learn, Examine, and Recite vocabulary."
+        "text": "Read, Underline, Learn, Examine, and Recite vocabulary, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Repress, Underestimate, Lock away, Eliminate, and Reject all emotions."
+        "text": "Repress, Underestimate, Lock away, Eliminate, and Reject all emotions, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "React, Utter, Lash out, Escalate, and Repeat anger."
+        "text": "React, Utter, Lash out, Escalate, and Repeat anger, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'You are just not naturally smart at science; maybe you should give up.'."
+        "text": "'You are just not naturally smart at science; maybe you should give up.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "'Don't worry, some people are born geniuses and others are not.'."
+        "text": "'Don't worry, some people are born geniuses and others are not.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "'This low score proves you will never succeed in high school.'."
+        "text": "'This low score proves you will never succeed in high school.', emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -1408,7 +1408,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Teach students how to manufacture cheap commercial wall decorations."
+        "text": "Teach students how to manufacture cheap commercial wall decorations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1416,7 +1416,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Prepare students to work in automated manufacturing assembly lines."
+        "text": "Prepare students to work in automated manufacturing assembly lines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Structure, Create, Align, Manage, Protect, Evaluate, and Record."
+        "text": "Structure, Create, Align, Manage, Protect, Evaluate, and Record, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Study, Copy, Apply, Memorize, Practice, Examine, and Repeat."
+        "text": "Study, Copy, Apply, Memorize, Practice, Examine, and Repeat, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Standardize, Calculate, Analyze, Measure, Program, Execute, and Review."
+        "text": "Standardize, Calculate, Analyze, Measure, Program, Execute, and Review, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Contain zero perspective, bias, or subjective point of view."
+        "text": "Contain zero perspective, bias, or subjective point of view, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Are direct, neutral transmissions of divine absolute truth."
+        "text": "Are direct, neutral transmissions of divine absolute truth, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Are generated automatically by physical atmospheric weather patterns."
+        "text": "Are generated automatically by physical atmospheric weather patterns, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1487,11 +1487,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Only traditional printed monospaced black-and-white text."
+        "text": "Only traditional printed monospaced black-and-white text, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Solely mechanical oral pronunciation drills."
+        "text": "Solely mechanical oral pronunciation drills, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Connecting to unencrypted public Wi-Fi to enter credit card details without VPN."
+        "text": "Connecting to unencrypted public Wi-Fi to enter credit card details without VPN, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Sharing master login passwords on social media message boards."
+        "text": "Sharing master login passwords on social media message boards, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Using the password '123456' for all banking and email accounts."
+        "text": "Using the password '123456' for all banking and email accounts, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Climate change is an economic myth invented by renewable energy companies."
+        "text": "Climate change is an economic myth invented by renewable energy companies, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Developed nations should be exempt from all international environmental treaties."
+        "text": "Developed nations should be exempt from all international environmental treaties, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Small island states are physically responsible for 100% of global industrial carbon smog."
+        "text": "Small island states are physically responsible for 100% of global industrial carbon smog, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Money loses 100% of its value every 24 hours."
+        "text": "Money loses 100% of its value every 24 hours, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Money received in 50 years is always worth ten times more than money today."
+        "text": "Money received in 50 years is always worth ten times more than money today, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Time and money have zero mathematical relationship."
+        "text": "Time and money have zero mathematical relationship, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -1633,11 +1633,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Encourage the students to engage in a physical fight."
+        "text": "Encourage the students to engage in a physical fight, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Ignore the conflict completely and walk away laughing."
+        "text": "Ignore the conflict completely and walk away laughing, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Take sides immediately based on who is more physically popular."
+        "text": "Take sides immediately based on who is more physically popular, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Creativity is strictly banned in favor of silent textbook transcription."
+        "text": "Creativity is strictly banned in favor of silent textbook transcription, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Any mistake is immediately met with harsh public humiliation and grade deductions."
+        "text": "Any mistake is immediately met with harsh public humiliation and grade deductions, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Students are forced to strictly copy the teacher's artwork with zero personal variation."
+        "text": "Students are forced to strictly copy the teacher's artwork with zero personal variation, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Accept the depiction as the only natural and eternal truth of human society."
+        "text": "Accept the depiction as the only natural and eternal truth of human society, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Assume that women are legally prohibited from holding executive positions."
+        "text": "Assume that women are legally prohibited from holding executive positions, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Ignore the text because pictures have no meaning."
+        "text": "Ignore the text because pictures have no meaning, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Drawing a physical three-sided geometric triangle on the title page of a thesis."
+        "text": "Drawing a physical three-sided geometric triangle on the title page of a thesis, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Relying exclusively on a single unverified blog post for an entire dissertation."
+        "text": "Relying exclusively on a single unverified blog post for an entire dissertation, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Deleting all sources that disagree with one's personal preconceived opinion."
+        "text": "Deleting all sources that disagree with one's personal preconceived opinion, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Write calligraphy with a fountain pen."
+        "text": "Write calligraphy with a fountain pen, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Calculate the speed of light in a vacuum."
+        "text": "Calculate the speed of light in a vacuum, emphasizing routine operational compliance without addressing deeper sociopolitical impacts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Memorize Shakespearean sonnets word-for-word in old English."
+        "text": "Memorize Shakespearean sonnets word-for-word in old English, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Camera lenses physically alter the reality of human nature."
+        "text": "Camera lenses physically alter the reality of human nature, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Photographs are always 100% objective and can never mislead the viewer."
+        "text": "Photographs are always 100% objective and can never mislead the viewer, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "The wide-angle photograph is illegal under copyright law."
+        "text": "The wide-angle photograph is illegal under copyright law, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",
@@ -1791,7 +1791,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Because it blocks all educational websites permanently."
+        "text": "Because it blocks all educational websites permanently, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1808,15 +1808,15 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Burning all plastic wrappers in open bonfires behind classrooms."
+        "text": "Burning all plastic wrappers in open bonfires behind classrooms, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Dumping all school cafeteria food waste into the local municipal river."
+        "text": "Dumping all school cafeteria food waste into the local municipal river, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
-        "text": "Purchasing 5,000 disposable plastic cups every morning."
+        "text": "Purchasing 5,000 disposable plastic cups every morning, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Automatically exempts the consumer from all income tax liabilities."
+        "text": "Automatically exempts the consumer from all income tax liabilities, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
-        "text": "Guarantees a permanent government employment position."
+        "text": "Guarantees a permanent government employment position, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Proves that an individual has zero money in any bank account."
+        "text": "Proves that an individual has zero money in any bank account, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Isolated individuals with zero empathy for their communities or the planet."
+        "text": "Isolated individuals with zero empathy for their communities or the planet, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const BUILDING_LITERACIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passive, unquestioning consumers of commercial marketing and political propaganda."
+        "text": "Passive, unquestioning consumers of commercial marketing and political propaganda, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       },
       {
         "key": "D",
-        "text": "Rote memorizers who can only repeat textbook definitions without real-world application."
+        "text": "Rote memorizers who can only repeat textbook definitions without real-world application, emphasizing routine operational compliance without addressing deeper sociopolitical impacts."
       }
     ],
     "correctAnswer": "B",

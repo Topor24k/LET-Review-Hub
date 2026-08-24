@@ -8,15 +8,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Perpetuating class conflict and economic exploitation of the working class."
+        "text": "Perpetuating class conflict and economic exploitation of the working class, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Constructing subjective personal realities through micro-level daily labeling."
+        "text": "Constructing subjective personal realities through micro-level daily labeling, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Overthrowing the constitutional government through revolution."
+        "text": "Overthrowing the constitutional government through revolution, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -37,7 +37,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Exist solely to teach ancient classical Latin literature."
+        "text": "Exist solely to teach ancient classical Latin literature, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -58,7 +58,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Global climate change alters textbook printing machinery."
+        "text": "Global climate change alters textbook printing machinery, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -70,7 +70,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Biological genetic instincts control 100% of human classroom behavior."
+        "text": "Biological genetic instincts control 100% of human classroom behavior, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -108,15 +108,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total physical monetary currency stored in a family's safe."
+        "text": "The total physical monetary currency stored in a family's safe, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The physical weight of machinery in an industrial manufacturing plant."
+        "text": "The physical weight of machinery in an industrial manufacturing plant, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "The real estate property title deeds of school campuses."
+        "text": "The real estate property title deeds of school campuses, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The speed of a computer processor in the school library."
+        "text": "The speed of a computer processor in the school library, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The physical strength of classroom desks and chairs."
+        "text": "The physical strength of classroom desks and chairs, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The financial cash balance in a student's bank account."
+        "text": "The financial cash balance in a student's bank account, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -208,15 +208,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sitting in an air-conditioned office signing administrative purchase orders all day."
+        "text": "Sitting in an air-conditioned office signing administrative purchase orders all day, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Managing exclusively the physical security gates and cafeteria supply logistics."
+        "text": "Managing exclusively the physical security gates and cafeteria supply logistics, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Punishing students publicly during morning flag assemblies."
+        "text": "Punishing students publicly during morning flag assemblies, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A complete absence of any leadership."
+        "text": "A complete absence of any leadership, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Hiring private commercial corporations to manage public schools."
+        "text": "Hiring private commercial corporations to manage public schools, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A rigid dictatorship where only the principal makes every single decision."
+        "text": "A rigid dictatorship where only the principal makes every single decision, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exercises authoritarian police control over the faculty room."
+        "text": "Exercises authoritarian police control over the faculty room, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Demands absolute obedience and personal praise from all subordinates."
+        "text": "Demands absolute obedience and personal praise from all subordinates, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Maximizes personal wealth and executive prestige above all else."
+        "text": "Maximizes personal wealth and executive prestige above all else, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Centralizing all daily classroom lesson decisions in the national cabinet secretary's office."
+        "text": "Centralizing all daily classroom lesson decisions in the national cabinet secretary's office, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Abolishing all local school divisions and regional offices."
+        "text": "Abolishing all local school divisions and regional offices, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Privatizing all public basic education schools in the country."
+        "text": "Privatizing all public basic education schools in the country, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A judicial court that prosecutes teachers in criminal trials."
+        "text": "A judicial court that prosecutes teachers in criminal trials, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "A private business corporation that charges admission fees to school events."
+        "text": "A private business corporation that charges admission fees to school events, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "A partisan political party campaign committee."
+        "text": "A partisan political party campaign committee, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rewarding students with certificates of academic excellence."
+        "text": "Rewarding students with certificates of academic excellence, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Conducting parent-teacher conferences to discuss student attendance."
+        "text": "Conducting parent-teacher conferences to discuss student attendance, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Giving constructive formative feedback on written essay assignments."
+        "text": "Giving constructive formative feedback on written essay assignments, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Permitted if the teacher notified the parent via text message."
+        "text": "Permitted if the teacher notified the parent via text message, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A valid and commendable traditional disciplinary technique."
+        "text": "A valid and commendable traditional disciplinary technique, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "A standard physical education conditioning exercise."
+        "text": "A standard physical education conditioning exercise, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Republic Act 6713."
+        "text": "Republic Act 6713 shaped by macroeconomic institutional hierarchies and historical class stratification."
       },
       {
         "key": "C",
-        "text": "Republic Act 10533."
+        "text": "Republic Act 10533 shaped by macroeconomic institutional hierarchies and historical class stratification."
       },
       {
         "key": "D",
-        "text": "Presidential Decree 1006."
+        "text": "Presidential Decree 1006, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Must run for public political office every 3 years."
+        "text": "Must run for public political office every 3 years, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Is prohibited from voting in national presidential elections."
+        "text": "Is prohibited from voting in national presidential elections, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Must force all enrolled students to join a specific political party."
+        "text": "Must force all enrolled students to join a specific political party, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Live in complete geographical isolation from the local community."
+        "text": "Live in complete geographical isolation from the local community, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Use school community meetings to sell personal commercial merchandise."
+        "text": "Use school community meetings to sell personal commercial merchandise, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Refuse to speak to any community members outside classroom hours."
+        "text": "Refuse to speak to any community members outside classroom hours, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selling pirated lesson plans for personal financial profit."
+        "text": "Selling pirated lesson plans for personal financial profit, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Discouraging young people from ever becoming teachers."
+        "text": "Discouraging young people from ever becoming teachers, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Publicly criticizing and defaming the teaching profession in the media."
+        "text": "Publicly criticizing and defaming the teaching profession in the media, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Post defamatory insults against school heads on public social media forums."
+        "text": "Post defamatory insults against school heads on public social media forums, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Stage violent protests inside school classrooms during instructional hours."
+        "text": "Stage violent protests inside school classrooms during instructional hours, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Refuse to communicate with any school supervisor permanently."
+        "text": "Refuse to communicate with any school supervisor permanently, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Steal a colleague's lesson materials and present them as one's own."
+        "text": "Steal a colleague's lesson materials and present them as one's own, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Report false administrative complaints against peers to get a promotion."
+        "text": "Report false administrative complaints against peers to get a promotion, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Spread unverified rumors about a colleague's private personal life."
+        "text": "Spread unverified rumors about a colleague's private personal life, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Show favoritism to students who share the teacher's religious affiliation."
+        "text": "Show favoritism to students who share the teacher's religious affiliation, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Refuse to teach students from low-income families."
+        "text": "Refuse to teach students from low-income families, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Give highest grades only to students whose parents give expensive gifts."
+        "text": "Give highest grades only to students whose parents give expensive gifts, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Congratulate students on academic achievements during class."
+        "text": "Congratulate students on academic achievements during class, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Conduct free after-school remedial tutoring for struggling learners."
+        "text": "Conduct free after-school remedial tutoring for struggling learners, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Provide constructive feedback on student project drafts."
+        "text": "Provide constructive feedback on student project drafts, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -591,7 +591,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Give the student an automatic grade of 100% on all exams."
+        "text": "Give the student an automatic grade of 100% on all exams, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -608,15 +608,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The teacher forces students to buy snacks and school supplies directly from the teacher's personal store."
+        "text": "The teacher forces students to buy snacks and school supplies directly from the teacher's personal store, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "The teacher sells commercial beauty products during official classroom teaching hours."
+        "text": "The teacher sells commercial beauty products during official classroom teaching hours, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "The teacher uses school laboratory equipment for private manufacturing businesses."
+        "text": "The teacher uses school laboratory equipment for private manufacturing businesses, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -658,7 +658,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Abolish all sports programs for female learners."
+        "text": "Abolish all sports programs for female learners, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Enforce rigid traditional gender roles in vocational classes."
+        "text": "Enforce rigid traditional gender roles in vocational classes, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Exclude women from taking leadership roles in student government."
+        "text": "Exclude women from taking leadership roles in student government, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -691,11 +691,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Telling a crying male student: 'Stop crying like a girl!'."
+        "text": "Telling a crying male student: 'Stop crying like a girl!', reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Assuming female students are naturally bad at physical sports."
+        "text": "Assuming female students are naturally bad at physical sports, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The complete military conquest and subjugation of a neighboring country."
+        "text": "The complete military conquest and subjugation of a neighboring country, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "A society ruled by fear under an authoritarian military police regime."
+        "text": "A society ruled by fear under an authoritarian military police regime, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "A temporary 24-hour ceasefire during an active civil war."
+        "text": "A temporary 24-hour ceasefire during an active civil war, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Use online cyberbullying to retaliate against disagreements."
+        "text": "Use online cyberbullying to retaliate against disagreements, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Conform blindly to peer pressure without expressing thoughts."
+        "text": "Conform blindly to peer pressure without expressing thoughts, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Engage in physical fistfights behind the school gymnasium."
+        "text": "Engage in physical fistfights behind the school gymnasium, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -787,15 +787,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Act as a commercial profit-generating business enterprise."
+        "text": "Act as a commercial profit-generating business enterprise, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Interfere directly with teacher hiring, promotional rankings, and professional curriculum choices."
+        "text": "Interfere directly with teacher hiring, promotional rankings, and professional curriculum choices, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Collect unauthorized, exorbitant membership dues by withholding student report cards."
+        "text": "Collect unauthorized, exorbitant membership dues by withholding student report cards, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fund partisan political campaign election rallies for municipal mayors."
+        "text": "Fund partisan political campaign election rallies for municipal mayors, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Pay luxury travel bonuses for city councilors."
+        "text": "Pay luxury travel bonuses for city councilors, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Subsidize private commercial shopping malls."
+        "text": "Subsidize private commercial shopping malls, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -858,7 +858,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Plan partisan political campaigns for local elections."
+        "text": "Plan partisan political campaigns for local elections, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complain about administrative salaries and spread faculty gossip."
+        "text": "Complain about administrative salaries and spread faculty gossip, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Grade standardized test sheets in complete isolation without speaking."
+        "text": "Grade standardized test sheets in complete isolation without speaking, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A formal disciplinary tribunal that punishes underperforming teachers."
+        "text": "A formal disciplinary tribunal that punishes underperforming teachers, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "A social dining club for faculty celebrations."
+        "text": "A social dining club for faculty celebrations, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "A standardized testing center for student licensure."
+        "text": "A standardized testing center for student licensure, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A teacher violating professional workload boundaries."
+        "text": "A teacher violating professional workload boundaries, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "An unauthorized commercial business vendor."
+        "text": "An unauthorized commercial business vendor, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "A teacher neglecting official classroom instructional duties."
+        "text": "A teacher neglecting official classroom instructional duties, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exclude indigenous elders from having any voice in the school curriculum."
+        "text": "Exclude indigenous elders from having any voice in the school curriculum, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Ban traditional indigenous dress and music from school grounds."
+        "text": "Ban traditional indigenous dress and music from school grounds, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Eradicate indigenous languages and force immediate assimilation into urban Western culture."
+        "text": "Eradicate indigenous languages and force immediate assimilation into urban Western culture, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Blame the minority student for provoking classmates."
+        "text": "Blame the minority student for provoking classmates, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -987,15 +987,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The physical movement of students walking between classrooms."
+        "text": "The physical movement of students walking between classrooms, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "The relocation of a school building to a different province."
+        "text": "The relocation of a school building to a different province, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "The daily transportation of pupils on school buses."
+        "text": "The daily transportation of pupils on school buses, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1033,11 +1033,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Supportive mentoring for new teachers and strong community partnerships."
+        "text": "Supportive mentoring for new teachers and strong community partnerships, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Transparent communication and shared instructional vision."
+        "text": "Transparent communication and shared instructional vision, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "High teacher collaboration, joyful celebration of student growth, and continuous innovation."
+        "text": "High teacher collaboration, joyful celebration of student growth, and continuous innovation, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The monetary market price of national government bonds."
+        "text": "The monetary market price of national government bonds, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The physical height and age of the school principal."
+        "text": "The physical height and age of the school principal, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "The astrological zodiac signs of faculty members."
+        "text": "The astrological zodiac signs of faculty members, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1108,15 +1108,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Post confidential student report cards and test failure lists on public Facebook walls."
+        "text": "Post confidential student report cards and test failure lists on public Facebook walls, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Engage in vulgar, abusive arguments with parents in public comments."
+        "text": "Engage in vulgar, abusive arguments with parents in public comments, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Use school time to create monetized dance videos inside classrooms with students."
+        "text": "Use school time to create monetized dance videos inside classrooms with students, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1158,7 +1158,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An automatic promotion to school principal within 24 hours."
+        "text": "An automatic promotion to school principal within 24 hours, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A Certificate of Recognition without any monetary compensation."
+        "text": "A Certificate of Recognition without any monetary compensation, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Free lunch in the school cafeteria for 1 week."
+        "text": "Free lunch in the school cafeteria for 1 week, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1191,11 +1191,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "One month with zero pay."
+        "text": "One month with zero pay, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Two weeks during summer vacation only."
+        "text": "Two weeks during summer vacation only, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Immediate termination of employment without medical benefits."
+        "text": "Immediate termination of employment without medical benefits, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "An immediate fine deducted from remaining salary."
+        "text": "An immediate fine deducted from remaining salary, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Mandatory transfer to a remote mountain school."
+        "text": "Mandatory transfer to a remote mountain school, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1258,7 +1258,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Encourage students to form peer study groups."
+        "text": "Encourage students to form peer study groups, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Provide free after-school remedial help to struggling pupils in one's class."
+        "text": "Provide free after-school remedial help to struggling pupils in one's class, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Refer a student to professional medical specialists when needed."
+        "text": "Refer a student to professional medical specialists when needed, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The social status and political influence of the student's family."
+        "text": "The social status and political influence of the student's family, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "The amount of financial donations the student's parents make to the school."
+        "text": "The amount of financial donations the student's parents make to the school, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "The teacher's personal subjective mood on the day of grading."
+        "text": "The teacher's personal subjective mood on the day of grading, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A minor clerical oversight with zero consequences."
+        "text": "A minor clerical oversight with zero consequences, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "A legitimate application of open educational resources."
+        "text": "A legitimate application of open educational resources, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "An act of commendable professional efficiency."
+        "text": "An act of commendable professional efficiency, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Physical slapping, pinching, and forced kneeling on salt."
+        "text": "Physical slapping, pinching, and forced kneeling on salt, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Depriving pupils of water, food, and restroom access."
+        "text": "Depriving pupils of water, food, and restroom access, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Screaming insults, public humiliation, and isolation in dark rooms."
+        "text": "Screaming insults, public humiliation, and isolation in dark rooms, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Encourage victims of bullying to retaliate with physical violence."
+        "text": "Encourage victims of bullying to retaliate with physical violence, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Expel 100% of all students involved in any verbal dispute without investigation."
+        "text": "Expel 100% of all students involved in any verbal dispute without investigation, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Cover up and conceal all bullying incidents from parents and DepEd authorities."
+        "text": "Cover up and conceal all bullying incidents from parents and DepEd authorities, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1433,11 +1433,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forcing parents to spend all their life savings on luxury costumes."
+        "text": "Forcing parents to spend all their life savings on luxury costumes, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Creating opportunities for teachers to publicly insult struggling students."
+        "text": "Creating opportunities for teachers to publicly insult struggling students, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Wasting valuable instructional time with zero educational value."
+        "text": "Wasting valuable instructional time with zero educational value, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1487,15 +1487,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "High teacher disengagement, high aloofness of the principal, suspicion, and low morale."
+        "text": "High teacher disengagement, high aloofness of the principal, suspicion, and low morale, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Strict military authoritarian rule where teachers cannot speak."
+        "text": "Strict military authoritarian rule where teachers cannot speak, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Total absence of any educational goals or structure."
+        "text": "Total absence of any educational goals or structure, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1533,11 +1533,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using school supplies for personal home use."
+        "text": "Using school supplies for personal home use, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Refusing to explain curriculum goals to community members."
+        "text": "Refusing to explain curriculum goals to community members, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Keeping all grading calculations secret from students and parents."
+        "text": "Keeping all grading calculations secret from students and parents, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A complete collapse of all organizational communication."
+        "text": "A complete collapse of all organizational communication, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Immediate rebellion and chaos in 100% of cases."
+        "text": "Immediate rebellion and chaos in 100% of cases, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Lower academic achievement than strict military dictatorship."
+        "text": "Lower academic achievement than strict military dictatorship, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Have zero psychological or cognitive effect on youth development."
+        "text": "Have zero psychological or cognitive effect on youth development, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Completely replace the biological need for human families."
+        "text": "Completely replace the biological need for human families, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Operate purely as passive radio transmitters without societal influence."
+        "text": "Operate purely as passive radio transmitters without societal influence, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Refuse to evacuate during severe volcanic eruptions."
+        "text": "Refuse to evacuate during severe volcanic eruptions, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Prohibit students from learning about typhoon safety."
+        "text": "Prohibit students from learning about typhoon safety, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Use school disaster funds to purchase personal luxury gifts."
+        "text": "Use school disaster funds to purchase personal luxury gifts, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High-cost, elitist, private, and profit-driven."
+        "text": "High-cost, elitist, private, and profit-driven, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Standardized, rigid, monotonous, and teacher-centric."
+        "text": "Standardized, rigid, monotonous, and teacher-centric, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Strictly punitive, authoritarian, competitive, and exclusionary."
+        "text": "Strictly punitive, authoritarian, competitive, and exclusionary, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Qualify for early retirement at age 25."
+        "text": "Qualify for early retirement at age 25, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Pay luxury taxes directly to private commercial corporations."
+        "text": "Pay luxury taxes directly to private commercial corporations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Purchase expensive real estate properties."
+        "text": "Purchase expensive real estate properties, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Only the narrow tribal politics of their immediate village."
+        "text": "Only the narrow tribal politics of their immediate village, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "How to exploit developing nations for commercial corporate profit."
+        "text": "How to exploit developing nations for commercial corporate profit, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Why foreign languages should be banned from all schools."
+        "text": "Why foreign languages should be banned from all schools, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attack and blame the parents for the student's low test scores."
+        "text": "Attack and blame the parents for the student's low test scores, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Compare the student unfavorably to high-performing classmates."
+        "text": "Compare the student unfavorably to high-performing classmates, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Demand cash payment from parents before discussing the report card."
+        "text": "Demand cash payment from parents before discussing the report card, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An IQ score above 200 without any empathy for human feelings."
+        "text": "An IQ score above 200 without any empathy for human feelings, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Physical intimidating dominance during faculty meetings."
+        "text": "Physical intimidating dominance during faculty meetings, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Authoritarian aggression and cold emotional detachment."
+        "text": "Authoritarian aggression and cold emotional detachment, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By preserving feudal class exploitation forever."
+        "text": "By preserving feudal class exploitation forever, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "By forcing all citizens to obey outdated superstitious traditions without questioning."
+        "text": "By forcing all citizens to obey outdated superstitious traditions without questioning, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "By preventing any technological or scientific advancement."
+        "text": "By preventing any technological or scientific advancement, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Teaches only when a school supervisor is watching inside the room."
+        "text": "Teaches only when a school supervisor is watching inside the room, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Arrives late every day and leaves before the final bell rings."
+        "text": "Arrives late every day and leaves before the final bell rings, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Uses teaching solely as a temporary stepping stone to personal fame."
+        "text": "Uses teaching solely as a temporary stepping stone to personal fame, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage a public smear campaign on social media against the principal."
+        "text": "Stage a public smear campaign on social media against the principal, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Order students to boycott the principal's office."
+        "text": "Order students to boycott the principal's office, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "C",
-        "text": "Refuse to teach any classes until the principal is fired."
+        "text": "Refuse to teach any classes until the principal is fired, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Wait until the end of the school year before mentioning it to anyone."
+        "text": "Wait until the end of the school year before mentioning it to anyone, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
-        "text": "Tell the child that they must have deserved the abuse."
+        "text": "Tell the child that they must have deserved the abuse, reproducing established social class inequalities and conventional power dynamics, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Keep the abuse a secret to avoid damaging the school's public reputation."
+        "text": "Keep the abuse a secret to avoid damaging the school's public reputation, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Enforces political authoritarian decrees with armed power."
+        "text": "Enforces political authoritarian decrees with armed power, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const SOCIAL_DIMENSIONS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Manufactures industrial military weaponry in factories."
+        "text": "Manufactures industrial military weaponry in factories, reproducing established social class inequalities and conventional power dynamics."
       },
       {
         "key": "D",
-        "text": "Collects commercial taxes for international foreign banks."
+        "text": "Collects commercial taxes for international foreign banks, reproducing established social class inequalities and conventional power dynamics."
       }
     ],
     "correctAnswer": "B",

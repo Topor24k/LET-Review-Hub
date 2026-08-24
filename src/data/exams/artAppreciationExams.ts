@@ -33,11 +33,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The passive memorization of ancient civic laws and religious edicts."
+        "text": "The passive memorization of ancient civic laws and religious edicts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The glorification of violent military conquest over neighbors."
+        "text": "The glorification of violent military conquest over neighbors, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -58,7 +58,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prefers artworks that directly promote partisan political propaganda."
+        "text": "Prefers artworks that directly promote partisan political propaganda, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Feels completely bored and indifferent while observing an art gallery exhibition."
+        "text": "Feels completely bored and indifferent while observing an art gallery exhibition, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Evaluates an artwork based entirely on its commercial auction price."
+        "text": "Evaluates an artwork based entirely on its commercial auction price, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The mathematical precision of Renaissance perspective and golden ratios."
+        "text": "The mathematical precision of Renaissance perspective and golden ratios, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "The creation of decorative objects reserved exclusively for royal courts."
+        "text": "The creation of decorative objects reserved exclusively for royal courts, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "The complete absence of moral or spiritual themes in composition."
+        "text": "The complete absence of moral or spiritual themes in composition, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -133,11 +133,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Providing architectural blueprints for Roman coliseums."
+        "text": "Providing architectural blueprints for Roman coliseums, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Decorating the private salon of the Governor-General."
+        "text": "Decorating the private salon of the Governor-General, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Promoting tourism and trade fairs for Madrid merchants."
+        "text": "Promoting tourism and trade fairs for Madrid merchants, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -187,15 +187,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The application of thick paint using a palette knife without blending."
+        "text": "The application of thick paint using a palette knife without blending, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The strict geometric division of a canvas into primary flat color blocks."
+        "text": "The strict geometric division of a canvas into primary flat color blocks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The creation of mosaic patterns using colored glass tesserae."
+        "text": "The creation of mosaic patterns using colored glass tesserae, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Multiple unrelated focal points scattered across the borders of the painting."
+        "text": "Multiple unrelated focal points scattered across the borders of the painting, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The depiction of sacred figures in disproportionately large hierarchical scale."
+        "text": "The depiction of sacred figures in disproportionately large hierarchical scale, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The complete elimination of spatial depth in favor of decorative gold leaf."
+        "text": "The complete elimination of spatial depth in favor of decorative gold leaf, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Radial rhythm repeating elements around a central axis."
+        "text": "Radial rhythm repeating elements around a central axis, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Atmospheric perspective fading background contours into blue haze."
+        "text": "Atmospheric perspective fading background contours into blue haze, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Symmetrical formal balance dividing the canvas into mirror halves."
+        "text": "Symmetrical formal balance dividing the canvas into mirror halves, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -287,15 +287,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Both left and right halves of the canvas are identical mirror images."
+        "text": "Both left and right halves of the canvas are identical mirror images, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "All shapes radiate equally from a single central point."
+        "text": "All shapes radiate equally from a single central point, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "No visual weight is allocated to the foreground of the composition."
+        "text": "No visual weight is allocated to the foreground of the composition, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -312,11 +312,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Military naval conquests of early Visayan datu lineages."
+        "text": "Military naval conquests of early Visayan datu lineages, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Agricultural rituals for abundant rice harvesting."
+        "text": "Agricultural rituals for abundant rice harvesting, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They use synthetic neon fibers to create modern abstract tapestries."
+        "text": "They use synthetic neon fibers to create modern abstract tapestries, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The weaving technique was adapted from Spanish colonial lace embroidery."
+        "text": "The weaving technique was adapted from Spanish colonial lace embroidery, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "They weave only while sleeping during nocturnal religious festivals."
+        "text": "They weave only while sleeping during nocturnal religious festivals, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -387,15 +387,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Decorative furniture finials for modern tourist hotels."
+        "text": "Decorative furniture finials for modern tourist hotels, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Children's toys used during tribal sports competitions."
+        "text": "Children's toys used during tribal sports competitions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Weapons used in territorial tribal warfare."
+        "text": "Weapons used in territorial tribal warfare, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -433,11 +433,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Harpy eagle."
+        "text": "Harpy eagle based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "Bakunawa."
+        "text": "Bakunawa based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Tikling."
+        "text": "Tikling based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "C",
@@ -508,15 +508,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Brass gong casting for Cordillera peace pacts."
+        "text": "Brass gong casting for Cordillera peace pacts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Carving wooden bulul figures for rice granaries."
+        "text": "Carving wooden bulul figures for rice granaries, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Weaving geometric inabel blankets on backstrap looms."
+        "text": "Weaving geometric inabel blankets on backstrap looms, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -558,7 +558,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inabal textile weaving of the Bagobo."
+        "text": "Inabal textile weaving of the Bagobo, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Epic chanting of the Darangen."
+        "text": "Epic chanting of the Darangen, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Mat weaving of Laminusa, Sulu."
+        "text": "Mat weaving of Laminusa, Sulu, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -608,15 +608,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Dark, expressionistic depictions of urban poverty and factory workers."
+        "text": "Dark, expressionistic depictions of urban poverty and factory workers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Monumental abstract sculptures carved from raw volcanic adobe."
+        "text": "Monumental abstract sculptures carved from raw volcanic adobe, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Cubist fragmented portraits of mythological indigenous spirits."
+        "text": "Cubist fragmented portraits of mythological indigenous spirits, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ceramic porcelain glazing for export trade."
+        "text": "Ceramic porcelain glazing for export trade, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Classical portrait painting for colonial governors."
+        "text": "Classical portrait painting for colonial governors, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Miniature ivory icon carving for religious shrines."
+        "text": "Miniature ivory icon carving for religious shrines, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Pieta sculpture inside Manila Cathedral."
+        "text": "The Pieta sculpture inside Manila Cathedral, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The People Power Monument on EDSA."
+        "text": "The People Power Monument on EDSA, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The Transfiguration at the Eternal Gardens."
+        "text": "The Transfiguration at the Eternal Gardens, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strictly replicating classical Greek and Roman marble busts without innovation."
+        "text": "Strictly replicating classical Greek and Roman marble busts without innovation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Designing wooden colonial galleons for maritime commerce."
+        "text": "Designing wooden colonial galleons for maritime commerce, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Painting monumental panoramic murals on canvas."
+        "text": "Painting monumental panoramic murals on canvas, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -733,11 +733,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An aristocratic Spanish governess during the tobacco monopoly."
+        "text": "An aristocratic Spanish governess during the tobacco monopoly, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A contemporary corporate executive in Makati."
+        "text": "A contemporary corporate executive in Makati, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A mythological pre-colonial sea goddess of the Visayas."
+        "text": "A mythological pre-colonial sea goddess of the Visayas, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Playful pop art cartoons celebrating commercial consumer products."
+        "text": "Playful pop art cartoons celebrating commercial consumer products, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Idyllic, peaceful pastoral harvests bathed in golden yellow light."
+        "text": "Idyllic, peaceful pastoral harvests bathed in golden yellow light, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Delicate, pastel floral arrangements in glass vases."
+        "text": "Delicate, pastel floral arrangements in glass vases, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -787,7 +787,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "España y Filipinas."
+        "text": "España y Filipinas based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -795,7 +795,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Plantar Arroz."
+        "text": "Plantar Arroz based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Flat, unmodeled figures enclosed in thick black stained-glass outlines."
+        "text": "Flat, unmodeled figures enclosed in thick black stained-glass outlines, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Violent, chaotic brushwork rejecting anatomical accuracy."
+        "text": "Violent, chaotic brushwork rejecting anatomical accuracy, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Commercial advertising typography integrated into the background."
+        "text": "Commercial advertising typography integrated into the background, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It avoids all emotional expression in favor of mathematical cubic planes."
+        "text": "It avoids all emotional expression in favor of mathematical cubic planes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "It is carved from unpolished gray concrete slabs."
+        "text": "It is carved from unpolished gray concrete slabs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It features static, rigid, upright posture characteristic of Egyptian pharaoh statues."
+        "text": "It features static, rigid, upright posture characteristic of Egyptian pharaoh statues, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Focusing strictly on technological factory machinery."
+        "text": "Focusing strictly on technological factory machinery, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Depicting cold, detached geometric shapes without human figures."
+        "text": "Depicting cold, detached geometric shapes without human figures, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Glorifying royal monarchies through peaceful pastoral portraits."
+        "text": "Glorifying royal monarchies through peaceful pastoral portraits, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Creating hyper-detailed, glazed photorealistic historical scenes in studio basements."
+        "text": "Creating hyper-detailed, glazed photorealistic historical scenes in studio basements, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Using heavy black outlines and flat gold foil backgrounds."
+        "text": "Using heavy black outlines and flat gold foil backgrounds, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Painting purely from geometric mathematical equations."
+        "text": "Painting purely from geometric mathematical equations, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pouring diluted enamel paint directly onto unprimed canvas."
+        "text": "Pouring diluted enamel paint directly onto unprimed canvas, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Carving relief images into linoleum printing blocks."
+        "text": "Carving relief images into linoleum printing blocks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Dripping wax over cloth before dyeing in indigo vats."
+        "text": "Dripping wax over cloth before dyeing in indigo vats, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Demonstrate proper industrial bricklaying architectural methods."
+        "text": "Demonstrate proper industrial bricklaying architectural methods, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Illustrate botanical species of French cypress trees for agriculture."
+        "text": "Illustrate botanical species of French cypress trees for agriculture, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Provide an accurate photographic map of astronomical constellations for navigators."
+        "text": "Provide an accurate photographic map of astronomical constellations for navigators, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Strictly adhering to single vanishing-point linear perspective."
+        "text": "Strictly adhering to single vanishing-point linear perspective, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Using ultra-smooth sfumato blending to create realistic skin tones."
+        "text": "Using ultra-smooth sfumato blending to create realistic skin tones, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Painting idyllic rural landscapes in natural golden sunlight."
+        "text": "Painting idyllic rural landscapes in natural golden sunlight, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Promote industrial clock manufacturing and commercial efficiency."
+        "text": "Promote industrial clock manufacturing and commercial efficiency, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Document historical naval battles in the Mediterranean Sea."
+        "text": "Document historical naval battles in the Mediterranean Sea, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Replicate classical Greek architectural pediments."
+        "text": "Replicate classical Greek architectural pediments, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A new method of industrial ceramic waterproofing for plumbing."
+        "text": "A new method of industrial ceramic waterproofing for plumbing, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A return to classical Michelangelo marble carving standards."
+        "text": "A return to classical Michelangelo marble carving standards, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A mathematical formula for calculating golden ratios in pottery."
+        "text": "A mathematical formula for calculating golden ratios in pottery, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Creating political caricature cartoons for daily newspapers."
+        "text": "Creating political caricature cartoons for daily newspapers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Carving realistic marble portraits of political leaders."
+        "text": "Carving realistic marble portraits of political leaders, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Meticulous, miniature botanical rendering with fine watercolor brushes."
+        "text": "Meticulous, miniature botanical rendering with fine watercolor brushes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Carving indigenous wooden bulul statues for rice harvests."
+        "text": "Carving indigenous wooden bulul statues for rice harvests, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rejecting all forms of mechanical reproduction in favor of handcrafted oil glazes."
+        "text": "Rejecting all forms of mechanical reproduction in favor of handcrafted oil glazes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Painting religious biblical narratives for cathedral altarpieces."
+        "text": "Painting religious biblical narratives for cathedral altarpieces, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Celebrate Spanish colonial military victories in Latin America."
+        "text": "Celebrate Spanish colonial military victories in Latin America, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Provide upbeat dance rhythms for American jazz clubs."
+        "text": "Provide upbeat dance rhythms for American jazz clubs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Accompany rapid harvest threshing in rice fields."
+        "text": "Accompany rapid harvest threshing in rice fields, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A silent pantomime performed exclusively by masked monks."
+        "text": "A silent pantomime performed exclusively by masked monks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A shadow puppetry play depicting ancient Indian epics."
+        "text": "A shadow puppetry play depicting ancient Indian epics, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "An acrobatic circus performance without narrative storyline."
+        "text": "An acrobatic circus performance without narrative storyline, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The military skirmishes of the Philippine-American War."
+        "text": "The military skirmishes of the Philippine-American War, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The romantic courtship rituals of Cordillera mountain tribes."
+        "text": "The romantic courtship rituals of Cordillera mountain tribes, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The pre-colonial trade expeditions of Visayan sailors."
+        "text": "The pre-colonial trade expeditions of Visayan sailors, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ancient indigenous agricultural harvest rites."
+        "text": "Ancient indigenous agricultural harvest rites, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Modern industrial labor union strikes in Manila factories."
+        "text": "Modern industrial labor union strikes in Manila factories, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The life of national hero Jose Rizal in Dapitan exile."
+        "text": "The life of national hero Jose Rizal in Dapitan exile, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1333,11 +1333,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Etching lines into a copper plate using acid immersion."
+        "text": "Etching lines into a copper plate using acid immersion, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Drawing with greasy crayons on a polished Bavarian limestone slab."
+        "text": "Drawing with greasy crayons on a polished Bavarian limestone slab, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Forcing ink through a fine mesh stencil screen using a squeegee."
+        "text": "Forcing ink through a fine mesh stencil screen using a squeegee, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A stenciled silk screen mesh."
+        "text": "A stenciled silk screen mesh, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The raised wooden edges of an un-carved woodblock."
+        "text": "The raised wooden edges of an un-carved woodblock, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "A photographic digital transparency film."
+        "text": "A photographic digital transparency film, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1416,7 +1416,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Exporting gold dust to the Americas."
+        "text": "Exporting gold dust to the Americas, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Weaving palm fronds into decorative palaspas for Palm Sunday."
+        "text": "Weaving palm fronds into decorative palaspas for Palm Sunday, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Embroidering piña fibers into traditional barong tagalog."
+        "text": "Embroidering piña fibers into traditional barong tagalog, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Carving coconut shells into decorative ladles."
+        "text": "Carving coconut shells into decorative ladles, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1533,11 +1533,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Comedic amusement and playful irony."
+        "text": "Comedic amusement and playful irony, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Practical utility and economic profitability."
+        "text": "Practical utility and economic profitability, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Gentle harmony, delicate symmetry, and immediate sensory pleasure."
+        "text": "Gentle harmony, delicate symmetry, and immediate sensory pleasure, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Scratching dry paint off the surface with a needle."
+        "text": "Scratching dry paint off the surface with a needle, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Applying thick, rough impasto paint with a knife."
+        "text": "Applying thick, rough impasto paint with a knife, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Using pure unmixed primary colors side-by-side."
+        "text": "Using pure unmixed primary colors side-by-side, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Figures are painted flatly against a gilded gold background."
+        "text": "Figures are painted flatly against a gilded gold background, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Colors fade into a uniform neutral gray in the foreground."
+        "text": "Colors fade into a uniform neutral gray in the foreground, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "All vertical lines are drawn tilted at 90-degree angles."
+        "text": "All vertical lines are drawn tilted at 90-degree angles, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Must be small enough to be displayed in a glass jewelry case."
+        "text": "Must be small enough to be displayed in a glass jewelry case, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Consists exclusively of oil paintings hung on white museum walls."
+        "text": "Consists exclusively of oil paintings hung on white museum walls, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Is designed purely for permanent outdoor bronze casting."
+        "text": "Is designed purely for permanent outdoor bronze casting, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Can be mass-manufactured in automated commercial factories."
+        "text": "Can be mass-manufactured in automated commercial factories, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Must follow strict musical notation written in medieval Latin."
+        "text": "Must follow strict musical notation written in medieval Latin, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Is cast in indestructible stainless steel alloys."
+        "text": "Is cast in indestructible stainless steel alloys, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Taking hundreds of random burst shots without looking through the viewfinder."
+        "text": "Taking hundreds of random burst shots without looking through the viewfinder, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Setting the camera shutter speed to 10 minutes in total darkness."
+        "text": "Setting the camera shutter speed to 10 minutes in total darkness, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Editing photographic pixels in computer software for hours."
+        "text": "Editing photographic pixels in computer software for hours, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Compress image files so they download faster on smartphones."
+        "text": "Compress image files so they download faster on smartphones, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Prevent computer screens from overheating during 3D rendering."
+        "text": "Prevent computer screens from overheating during 3D rendering, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Eliminate the need for digital graphic design software."
+        "text": "Eliminate the need for digital graphic design software, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The commercial privatization of all national public parks."
+        "text": "The commercial privatization of all national public parks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The total destruction of ancient historical pottery collections."
+        "text": "The total destruction of ancient historical pottery collections, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The mandatory sale of all museum artworks to private auction houses."
+        "text": "The mandatory sale of all museum artworks to private auction houses, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Promoted government political slogans uncritically."
+        "text": "Promoted government political slogans uncritically, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Focused exclusively on foreign fantasy landscapes."
+        "text": "Focused exclusively on foreign fantasy landscapes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Produced lighthearted escapist Hollywood musical remakes."
+        "text": "Produced lighthearted escapist Hollywood musical remakes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Monophonic medieval Gregorian chants."
+        "text": "Monophonic medieval Gregorian chants based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "American rock-and-roll guitar solos."
+        "text": "American rock-and-roll guitar solos based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "Electronic synthesizer dance club tracks."
+        "text": "Electronic synthesizer dance club tracks, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Flaming metal torches swung on steel chains."
+        "text": "Flaming metal torches swung on steel chains, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Spinning ceramic water pots balanced on fingertips."
+        "text": "Spinning ceramic water pots balanced on fingertips, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Sharp brass swords in mock gladiator duels."
+        "text": "Sharp brass swords in mock gladiator duels, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The moral and political ideology championed by the painter."
+        "text": "The moral and political ideology championed by the painter, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The monetary price paid by an art collector at auction."
+        "text": "The monetary price paid by an art collector at auction, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The anatomical accuracy of medical pathology illustrations."
+        "text": "The anatomical accuracy of medical pathology illustrations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It receives a royal decree from a reigning monarch."
+        "text": "It receives a royal decree from a reigning monarch, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "It produces measurable economic profits in commercial trade fairs."
+        "text": "It produces measurable economic profits in commercial trade fairs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It is carved by a licensed master mason from Italian marble."
+        "text": "It is carved by a licensed master mason from Italian marble, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Neon primary colors with zero tonal variation."
+        "text": "Neon primary colors with zero tonal variation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1870,7 +1870,7 @@ export const ART_APPRECIATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Complementary opposite colors like purple and yellow."
+        "text": "Complementary opposite colors like purple and yellow, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",

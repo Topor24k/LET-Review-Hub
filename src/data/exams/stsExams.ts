@@ -8,15 +8,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Earth is the stationary physical center of the universe."
+        "text": "The Earth is the stationary physical center of the universe, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "The universe is enclosed in a rigid crystal dome with fixed stars."
+        "text": "The universe is enclosed in a rigid crystal dome with fixed stars, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Planetary orbits are driven by angelic spiritual entities."
+        "text": "Planetary orbits are driven by angelic spiritual entities, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -58,7 +58,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All human mental processes operate with pure, transparent logical rationality."
+        "text": "All human mental processes operate with pure, transparent logical rationality, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The human brain is a blank slate with zero emotional memory."
+        "text": "The human brain is a blank slate with zero emotional memory, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Psychological distress is caused entirely by imbalances in bodily bile humors."
+        "text": "Psychological distress is caused entirely by imbalances in bodily bile humors, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The chemical composition of synthetic plastics."
+        "text": "The chemical composition of synthetic plastics, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The atomic nuclear fission chain reaction."
+        "text": "The atomic nuclear fission chain reaction, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "The geological plate tectonic theory of continental drift."
+        "text": "The geological plate tectonic theory of continental drift, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -116,7 +116,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Immutable mathematical axioms."
+        "text": "Immutable mathematical axioms, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ancient humans completely rejected toolmaking."
+        "text": "Ancient humans completely rejected toolmaking, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Machines operated with autonomous artificial intelligence."
+        "text": "Machines operated with autonomous artificial intelligence, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Technology existed solely for manufacturing military weapons."
+        "text": "Technology existed solely for manufacturing military weapons, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forces citizens to spend 18 hours daily on digital smartphones."
+        "text": "Forces citizens to spend 18 hours daily on digital smartphones, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Maximizes corporate advertising profits regardless of ecological degradation."
+        "text": "Maximizes corporate advertising profits regardless of ecological degradation, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Replaces all human labor with automated surveillance systems."
+        "text": "Replaces all human labor with automated surveillance systems, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -187,15 +187,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Discovering the chemical formula of synthetic rubber."
+        "text": "Discovering the chemical formula of synthetic rubber, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Developing the first nuclear power reactor in Southeast Asia."
+        "text": "Developing the first nuclear power reactor in Southeast Asia, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Breeding the high-yield IR8 miracle rice variety."
+        "text": "Breeding the high-yield IR8 miracle rice variety, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Introducing genetic cloning for coconut palms."
+        "text": "Introducing genetic cloning for coconut palms, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Inventing an automated robotic rice harvester."
+        "text": "Inventing an automated robotic rice harvester, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Developing synthetic nitrogen fertilizer from sugarcane waste."
+        "text": "Developing synthetic nitrogen fertilizer from sugarcane waste, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Nuclear-powered submarine research vessels."
+        "text": "Nuclear-powered submarine research vessels analyzed through standard empirical methodologies and technological frameworks."
       },
       {
         "key": "B",
-        "text": "Synthetic plastic seawall barriers."
+        "text": "Synthetic plastic seawall barriers analyzed through standard empirical methodologies and technological frameworks."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Commercial deep-sea bottom-trawling fishing fleets."
+        "text": "Commercial deep-sea bottom-trawling fishing fleets, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forestry timber replanting in the Sierra Madre."
+        "text": "Forestry timber replanting in the Sierra Madre, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Volcanic seismology and tsunami warning systems."
+        "text": "Volcanic seismology and tsunami warning systems, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Freshwater tilapia fish hatchery engineering."
+        "text": "Freshwater tilapia fish hatchery engineering, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The first Apple iPhone touch interface."
+        "text": "The first Apple iPhone touch interface, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The global satellite GPS navigation constellation."
+        "text": "The global satellite GPS navigation constellation, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "The Microsoft Windows 95 operating system source code."
+        "text": "The Microsoft Windows 95 operating system source code, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Focuses exclusively on sending astronauts to Mars."
+        "text": "Focuses exclusively on sending astronauts to Mars, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Is conducted only in private foreign corporate laboratories."
+        "text": "Is conducted only in private foreign corporate laboratories, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Is prohibited from receiving public government funding."
+        "text": "Is prohibited from receiving public government funding, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Commercial space-tourism rocket launchpads for private billionaires."
+        "text": "Commercial space-tourism rocket launchpads for private billionaires, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Orbital military laser defense shields."
+        "text": "Orbital military laser defense shields, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Interplanetary deep-space colonization shuttles."
+        "text": "Interplanetary deep-space colonization shuttles analyzed through standard empirical methodologies and technological frameworks."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminate all rainfall across the Philippine archipelago."
+        "text": "Eliminate all rainfall across the Philippine archipelago, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Control tropical typhoons through cloud-seeding chemical injections."
+        "text": "Control tropical typhoons through cloud-seeding chemical injections, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Predict exact earthquake days and times with absolute certainty."
+        "text": "Predict exact earthquake days and times with absolute certainty, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Cross-pollinated through traditional agricultural grafting over centuries."
+        "text": "Cross-pollinated through traditional agricultural grafting over centuries, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Subjected to natural sunlight and organic manure fertilization."
+        "text": "Subjected to natural sunlight and organic manure fertilization, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Grown exclusively in zero-gravity space laboratories."
+        "text": "Grown exclusively in zero-gravity space laboratories, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Make corn kernels glow with fluorescent yellow luminescence."
+        "text": "Make corn kernels glow with fluorescent yellow luminescence, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Accelerate corn growth so that harvesting occurs in 3 days."
+        "text": "Accelerate corn growth so that harvesting occurs in 3 days, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Increase the sugar sweetness of corn syrup by 500%."
+        "text": "Increase the sugar sweetness of corn syrup by 500%, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -458,7 +458,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A digital computer program that translates genetic code into spoken words."
+        "text": "A digital computer program that translates genetic code into spoken words, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A high-powered optical microscope used to observe living viruses."
+        "text": "A high-powered optical microscope used to observe living viruses, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "A synthetic chemical fertilizer that doubles rice crop yields."
+        "text": "A synthetic chemical fertilizer that doubles rice crop yields, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Automatic approval of all foreign biotech patents within 24 hours."
+        "text": "Automatic approval of all foreign biotech patents within 24 hours, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The total prohibition of all scientific agricultural research."
+        "text": "The total prohibition of all scientific agricultural research, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Mandatory cultivation of GM crops in all public elementary school gardens."
+        "text": "Mandatory cultivation of GM crops in all public elementary school gardens, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Block all incoming solar ultraviolet rays from reaching the upper stratosphere."
+        "text": "Block all incoming solar ultraviolet rays from reaching the upper stratosphere, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Reflect 100% of visible light back into deep space."
+        "text": "Reflect 100% of visible light back into deep space, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Produce ozone molecules through nuclear fusion in cloud layers."
+        "text": "Produce ozone molecules through nuclear fusion in cloud layers, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Variations in the physical distance between Earth and Mars."
+        "text": "Variations in the physical distance between Earth and Mars, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Cosmic gamma ray bursts from distant exploding stars."
+        "text": "Cosmic gamma ray bursts from distant exploding stars, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Natural volcanic ash eruptions in the Pacific Ring of Fire."
+        "text": "Natural volcanic ash eruptions in the Pacific Ring of Fire, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relocate all coastal cities to mountainous regions."
+        "text": "Relocate all coastal cities to mountainous regions, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Completely ban the use of all motor vehicles worldwide by 2020."
+        "text": "Completely ban the use of all motor vehicles worldwide by 2020, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Force developing nations to pay carbon penalties to industrialized countries."
+        "text": "Force developing nations to pay carbon penalties to industrialized countries, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The national military defense strategic command."
+        "text": "The national military defense strategic command, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The international commercial banking stock market."
+        "text": "The international commercial banking stock market, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Private corporate marketing campaigns."
+        "text": "Private corporate marketing campaigns analyzed through standard empirical methodologies and technological frameworks."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The mandatory conversion of all diesel jeepneys into horse-drawn calesas."
+        "text": "The mandatory conversion of all diesel jeepneys into horse-drawn calesas, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "A legal limit of only 5 cars per provincial municipality."
+        "text": "A legal limit of only 5 cars per provincial municipality, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The total shutdown of all electrical power generating plants."
+        "text": "The total shutdown of all electrical power generating plants, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The mandatory burning of plastic trash in residential backyards."
+        "text": "The mandatory burning of plastic trash in residential backyards, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Shipping provincial electronic waste to foreign overseas islands."
+        "text": "Shipping provincial electronic waste to foreign overseas islands, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Dumping all municipal garbage into deep ocean trenches."
+        "text": "Dumping all municipal garbage into deep ocean trenches, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -687,15 +687,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Replacing traditional surgical scalpels with iron magnets."
+        "text": "Replacing traditional surgical scalpels with iron magnets, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Eliminating the need for all biological human red blood cells."
+        "text": "Eliminating the need for all biological human red blood cells, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Permanently altering human skeletal height."
+        "text": "Permanently altering human skeletal height, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Physically transform computer hardware into biological brain tissue."
+        "text": "Physically transform computer hardware into biological brain tissue, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Operate purely through mechanical gear and clockwork levers."
+        "text": "Operate purely through mechanical gear and clockwork levers, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Require human programmers to type every individual decision in advance."
+        "text": "Require human programmers to type every individual decision in advance, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Accessing secret government spy satellite telepathic networks."
+        "text": "Accessing secret government spy satellite telepathic networks, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Searching a fixed dictionary database and copying sentences verbatim."
+        "text": "Searching a fixed dictionary database and copying sentences verbatim, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Possessing conscious human feelings, subjective empathy, and an immortal soul."
+        "text": "Possessing conscious human feelings, subjective empathy, and an immortal soul, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hardware overheating in computer data centers."
+        "text": "Hardware overheating in computer data centers, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Technological sentience, proving the computer has conscious gender animus."
+        "text": "Technological sentience, proving the computer has conscious gender animus, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Digital sovereignty, reflecting national control over servers."
+        "text": "Digital sovereignty, reflecting national control over servers, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Computer monitors emit low levels of radiation."
+        "text": "Computer monitors emit low levels of radiation, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Artificial intelligence programs run only during nighttime power grid off-peak hours."
+        "text": "Artificial intelligence programs run only during nighttime power grid off-peak hours, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Servers cannot be legally registered under corporate copyright laws."
+        "text": "Servers cannot be legally registered under corporate copyright laws, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -833,11 +833,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Distribute open-source software code to public school classrooms."
+        "text": "Distribute open-source software code to public school classrooms, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Protect user anonymity through decentralized encrypted networks."
+        "text": "Protect user anonymity through decentralized encrypted networks, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Provide free subsidized broadband access to all developing nations."
+        "text": "Provide free subsidized broadband access to all developing nations, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Broadcast high-frequency radio jamming signals."
+        "text": "Broadcast high-frequency radio jamming signals, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physically steal hard drives from institutional data centers."
+        "text": "Physically steal hard drives from institutional data centers, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Overheat computer processors by running complex mathematical algorithms."
+        "text": "Overheat computer processors by running complex mathematical algorithms, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Sunlight boils underground magma chambers to turn steam turbines."
+        "text": "Sunlight boils underground magma chambers to turn steam turbines, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Solar rays split heavy uranium atoms in nuclear containment vessels."
+        "text": "Solar rays split heavy uranium atoms in nuclear containment vessels, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Heat evaporates chemical refrigerants in residential cooling coils."
+        "text": "Heat evaporates chemical refrigerants in residential cooling coils, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Arctic Polar Circle."
+        "text": "The Arctic Polar Circle analyzed through standard empirical methodologies and technological frameworks."
       },
       {
         "key": "B",
-        "text": "The Great Rift Valley of East Africa."
+        "text": "The Great Rift Valley of East Africa, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The Sahara Desert solar belt."
+        "text": "The Sahara Desert solar belt, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Consumes massive volumes of freshwater for cooling nuclear rods."
+        "text": "Consumes massive volumes of freshwater for cooling nuclear rods, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Causes permanent disruption of global planetary rotational velocity."
+        "text": "Causes permanent disruption of global planetary rotational velocity, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Requires the combustion of low-grade bunker fuel during cloudy weather."
+        "text": "Requires the combustion of low-grade bunker fuel during cloudy weather, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Send wireless electromagnetic telegraph messages."
+        "text": "Send wireless electromagnetic telegraph messages, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Decorate modern tourist museums in European capitals."
+        "text": "Decorate modern tourist museums in European capitals, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Build seawalls to prevent Mediterranean tsunamis."
+        "text": "Build seawalls to prevent Mediterranean tsunamis, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Serve as fortified military boundary walls against barbarian invasions."
+        "text": "Serve as fortified military boundary walls against barbarian invasions, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Store combustible petroleum fuel for naval galleys."
+        "text": "Store combustible petroleum fuel for naval galleys, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Drain toxic industrial radioactive waste away from cities."
+        "text": "Drain toxic industrial radioactive waste away from cities, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing all written languages with computer binary code."
+        "text": "Replacing all written languages with computer binary code, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Allowing monarchs to completely eliminate public literacy."
+        "text": "Allowing monarchs to completely eliminate public literacy, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
-        "text": "Preventing the dissemination of scientific manuscripts."
+        "text": "Preventing the dissemination of scientific manuscripts, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Introducing nuclear fusion energy to agricultural farming."
+        "text": "Introducing nuclear fusion energy to agricultural farming, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Inventing digital microprocessor silicon chips."
+        "text": "Inventing digital microprocessor silicon chips, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Creating the first automated steam locomotive railways."
+        "text": "Creating the first automated steam locomotive railways, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Synthetic petroleum plastics for automotive manufacturing."
+        "text": "Synthetic petroleum plastics for automotive manufacturing, operating under conventional scientific models and technological assumptions, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Clean renewable electrical energy generated from solar panels."
+        "text": "Clean renewable electrical energy generated from solar panels, operating under conventional scientific models and technological assumptions, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
-        "text": "Automated digital microcomputers for textile factory payrolls."
+        "text": "Automated digital microcomputers for textile factory payrolls, operating under conventional scientific models and technological assumptions, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Cholera is caused by inhaling cold evening moonlight."
+        "text": "Cholera is caused by inhaling cold evening moonlight, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Diseases result from spiritual moral defects in factory workers."
+        "text": "Diseases result from spiritual moral defects in factory workers, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Inhaling coal factory soot strengthens biological lung tissue."
+        "text": "Inhaling coal factory soot strengthens biological lung tissue, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing all grain crops with synthetic chemical food tablets."
+        "text": "Replacing all grain crops with synthetic chemical food tablets, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Banning the use of water in agricultural farming."
+        "text": "Banning the use of water in agricultural farming, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Converting all arable land into industrial manufacturing factories."
+        "text": "Converting all arable land into industrial manufacturing factories, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Manufacture genetically modified pets for commercial pet stores."
+        "text": "Manufacture genetically modified pets for commercial pet stores, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Eliminate all human genetic diversity across global populations."
+        "text": "Eliminate all human genetic diversity across global populations, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Clone identical human babies for military armed battalions."
+        "text": "Clone identical human babies for military armed battalions, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It is 100% risk-free and carries zero off-target mutation risks."
+        "text": "It is 100% risk-free and carries zero off-target mutation risks, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It affects only the treated somatic cells of a single living patient without inheritance."
+        "text": "It affects only the treated somatic cells of a single living patient without inheritance, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "It requires the use of radioactive uranium isotopes."
+        "text": "It requires the use of radioactive uranium isotopes, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Dissolve into harmless drinking water within 24 hours."
+        "text": "Dissolve into harmless drinking water within 24 hours, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Enhance the reproductive fertility of coral reef polyps."
+        "text": "Enhance the reproductive fertility of coral reef polyps, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Filter excess carbon dioxide out of ocean surface waters."
+        "text": "Filter excess carbon dioxide out of ocean surface waters, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Increases ocean salinity so that ships float higher in the water."
+        "text": "Increases ocean salinity so that ships float higher in the water, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Transforms seawater into potable fresh drinking water."
+        "text": "Transforms seawater into potable fresh drinking water, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Causes volcanic eruptions along tectonic ocean ridges."
+        "text": "Causes volcanic eruptions along tectonic ocean ridges, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -1258,7 +1258,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The legal separation of computer software and hardware patents."
+        "text": "The legal separation of computer software and hardware patents, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The physical space between two computer server racks in a data center."
+        "text": "The physical space between two computer server racks in a data center, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "The mathematical difference between 32-bit and 64-bit microprocessors."
+        "text": "The mathematical difference between 32-bit and 64-bit microprocessors, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "High concentrations of edible organic plant proteins."
+        "text": "High concentrations of edible organic plant proteins, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Harmless pure distilled water that evaporates quickly."
+        "text": "Harmless pure distilled water that evaporates quickly, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Radioactive medical plutonium isotopes in consumer smartphones."
+        "text": "Radioactive medical plutonium isotopes in consumer smartphones, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Technology has zero impact on human civilization."
+        "text": "Technology has zero impact on human civilization, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Machines possess independent biological conscious desires."
+        "text": "Machines possess independent biological conscious desires, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "All technologies are created exclusively by government military decrees."
+        "text": "All technologies are created exclusively by government military decrees, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Generated renewable solar power for municipal subway systems."
+        "text": "Generated renewable solar power for municipal subway systems, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Allowed cargo ships to navigate urban river canals."
+        "text": "Allowed cargo ships to navigate urban river canals, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Were designed to improve the aerodynamic speed of electric sports cars."
+        "text": "Were designed to improve the aerodynamic speed of electric sports cars, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Industrial companies are exempt from all environmental liabilities."
+        "text": "Industrial companies are exempt from all environmental liabilities, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Governments must wait for 100% unanimous scientific agreement before acting."
+        "text": "Governments must wait for 100% unanimous scientific agreement before acting, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Technological innovation should proceed with zero safety regulations."
+        "text": "Technological innovation should proceed with zero safety regulations, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Satellites fall simultaneously onto major world capital cities."
+        "text": "Satellites fall simultaneously onto major world capital cities, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The Earth's gravitational pull reverses its physical polarity."
+        "text": "The Earth's gravitational pull reverses its physical polarity, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Rocket engines consume all atmospheric oxygen in the stratosphere."
+        "text": "Rocket engines consume all atmospheric oxygen in the stratosphere, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1433,11 +1433,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Massive volumes of greenhouse methane gas."
+        "text": "Massive volumes of greenhouse methane gas, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Permanent radioactive air pollution."
+        "text": "Permanent radioactive air pollution analyzed through standard empirical methodologies and technological frameworks."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Harmful acid rain that dissolves limestone buildings."
+        "text": "Harmful acid rain that dissolves limestone buildings, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Connect directly to human telepathic thought waves."
+        "text": "Connect directly to human telepathic thought waves, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Replace the need for electrical power supplies."
+        "text": "Replace the need for electrical power supplies, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Store physical paper books inside microscopic laser beams."
+        "text": "Store physical paper books inside microscopic laser beams, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Manufacture plastic children's building blocks in factories."
+        "text": "Manufacture plastic children's building blocks in factories, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Clone prehistoric dinosaurs for public entertainment parks."
+        "text": "Clone prehistoric dinosaurs for public entertainment parks, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Replace all natural agricultural plants with synthetic concrete."
+        "text": "Replace all natural agricultural plants with synthetic concrete, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mandatory laboratory testing conducted on military recruits."
+        "text": "Mandatory laboratory testing conducted on military recruits, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Censoring scientific discoveries that contradict state propaganda."
+        "text": "Censoring scientific discoveries that contradict state propaganda, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Replacing all professional university researchers with automated software."
+        "text": "Replacing all professional university researchers with automated software, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Conflicts with all modern biological classification systems."
+        "text": "Conflicts with all modern biological classification systems, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Is legally copyrighted by multinational pharmaceutical monopolies."
+        "text": "Is legally copyrighted by multinational pharmaceutical monopolies, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Is completely unscientific folklore that should be eliminated."
+        "text": "Is completely unscientific folklore that should be eliminated, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Relinquish their Philippine citizenship."
+        "text": "Relinquish their Philippine citizenship analyzed through standard empirical methodologies and technological frameworks."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Permanently surrender their foreign university degrees."
+        "text": "Permanently surrender their foreign university degrees, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Work exclusively in non-technical administrative office roles."
+        "text": "Work exclusively in non-technical administrative office roles, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Drinking unboiled tap water in rural communities."
+        "text": "Drinking unboiled tap water in rural communities, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The natural rotation of planetary seasonal weather patterns."
+        "text": "The natural rotation of planetary seasonal weather patterns, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "The complete avoidance of all pharmaceutical drugs."
+        "text": "The complete avoidance of all pharmaceutical drugs, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1616,7 +1616,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The chronological age of university medical professors."
+        "text": "The chronological age of university medical professors, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The high risk of nuclear radiation leaks from lithium atoms."
+        "text": "The high risk of nuclear radiation leaks from lithium atoms, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "The total absence of electrical recharging infrastructure."
+        "text": "The total absence of electrical recharging infrastructure, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The excessive weight of batteries causing highway bridges to collapse."
+        "text": "The excessive weight of batteries causing highway bridges to collapse, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Ideal Gas Law in chemical thermodynamics."
+        "text": "The Ideal Gas Law in chemical thermodynamics, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Newton's First Law of Gravitational Motion."
+        "text": "Newton's First Law of Gravitational Motion, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
-        "text": "The Pythagorean Theorem in planar geometry."
+        "text": "The Pythagorean Theorem in planar geometry, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The storage capacity of computer hard drives."
+        "text": "The storage capacity of computer hard drives, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "The transmission speed of fiber-optic internet cables."
+        "text": "The transmission speed of fiber-optic internet cables, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "The physical power output of solar photovoltaic panels."
+        "text": "The physical power output of solar photovoltaic panels, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1733,11 +1733,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It must be 100% mathematically proven to be infallible for all eternity."
+        "text": "It must be 100% mathematically proven to be infallible for all eternity, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "It must be impossible to test or criticize in a laboratory."
+        "text": "It must be impossible to test or criticize in a laboratory, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It must be endorsed by a majority vote of political legislators."
+        "text": "It must be endorsed by a majority vote of political legislators, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rejecting all mathematical measurements in astronomical studies."
+        "text": "Rejecting all mathematical measurements in astronomical studies, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Relying exclusively on theological authority and medieval scholastic disputation."
+        "text": "Relying exclusively on theological authority and medieval scholastic disputation, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Banning all physical experiments in European universities."
+        "text": "Banning all physical experiments in European universities, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Automatically preserve all natural resources in perfect ecological harmony."
+        "text": "Automatically preserve all natural resources in perfect ecological harmony, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
-        "text": "Increase the economic wealth of every citizen equally."
+        "text": "Increase the economic wealth of every citizen equally, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Eliminate all forms of industrial air pollution."
+        "text": "Eliminate all forms of industrial air pollution, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Requires funding from two separate government departments."
+        "text": "Requires funding from two separate government departments, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Is written in both English and Filipino languages."
+        "text": "Is written in both English and Filipino languages, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
-        "text": "Is conducted using both microscopes and telescopes."
+        "text": "Is conducted using both microscopes and telescopes, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Their inability to solve complex calculus equations."
+        "text": "Their inability to solve complex calculus equations, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
-        "text": "Their physical geographic distance from government capital buildings."
+        "text": "Their physical geographic distance from government capital buildings, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Their lack of a high-speed broadband internet subscription."
+        "text": "Their lack of a high-speed broadband internet subscription, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maximize commercial shareholder profits regardless of ethical risks."
+        "text": "Maximize commercial shareholder profits regardless of ethical risks, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const STS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Prioritize short-term military weapon development above all else."
+        "text": "Prioritize short-term military weapon development above all else, operating under conventional scientific models and technological assumptions."
       },
       {
         "key": "D",
-        "text": "Conceal all scientific data from public oversight and review."
+        "text": "Conceal all scientific data from public oversight and review, operating under conventional scientific models and technological assumptions."
       }
     ],
     "correctAnswer": "B",

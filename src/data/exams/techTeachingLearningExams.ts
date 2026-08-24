@@ -70,7 +70,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Content Knowledge."
+        "text": "Content Knowledge, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -108,15 +108,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Simple, Advanced, Moderate, and Revolutionary."
+        "text": "Simple, Advanced, Moderate, and Revolutionary, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Software, Application, Media, and Resources."
+        "text": "Software, Application, Media, and Resources, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
-        "text": "Selection, Adaptation, Mastery, and Review."
+        "text": "Selection, Adaptation, Mastery, and Review, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Acquire computers, Set up networks, Supervise classrooms, Upgrade servers, Run programs, and Execute grading."
+        "text": "Acquire computers, Set up networks, Supervise classrooms, Upgrade servers, Run programs, and Execute grading, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Apply pedagogy, Structure lessons, Systematize grading, Unify assessments, Regulate media, and Enhance retention."
+        "text": "Apply pedagogy, Structure lessons, Systematize grading, Unify assessments, Regulate media, and Enhance retention, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Assess readiness, Standardize curriculum, Survey technology, Utilize hardware, Review software, and Examine test scores."
+        "text": "Assess readiness, Standardize curriculum, Survey technology, Utilize hardware, Review software, and Examine test scores, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because standardized testing requires computer software practice."
+        "text": "Because standardized testing requires computer software practice, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Because students must manually clean the computer laboratory hardware."
+        "text": "Because students must manually clean the computer laboratory hardware, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Because teachers must record attendance every 5 minutes."
+        "text": "Because teachers must record attendance every 5 minutes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -333,11 +333,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing all teacher-student human interactions with automated recorded videos."
+        "text": "Replacing all teacher-student human interactions with automated recorded videos, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Using social media to publicly post students' low test scores."
+        "text": "Using social media to publicly post students' low test scores, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Allowing students to play unmoderated online video games whenever they finish seatwork."
+        "text": "Allowing students to play unmoderated online video games whenever they finish seatwork, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Digital Health & Wellness."
+        "text": "Digital Health & Wellness, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Digital Commerce."
+        "text": "Digital Commerce implemented through standard hardware utilities and basic instructional software tools."
       },
       {
         "key": "D",
-        "text": "Digital Law."
+        "text": "Digital Law implemented through standard hardware utilities and basic instructional software tools."
       }
     ],
     "correctAnswer": "B",
@@ -408,15 +408,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Citing a published open-access journal article with proper APA reference."
+        "text": "Citing a published open-access journal article with proper APA reference, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Using Creative Commons licensed images in accordance with their CC-BY terms."
+        "text": "Using Creative Commons licensed images in accordance with their CC-BY terms, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Linking to a publicly available educational video on YouTube."
+        "text": "Linking to a publicly available educational video on YouTube, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Upload copyrighted commercial Hollywood blockbuster movies to a public website."
+        "text": "Upload copyrighted commercial Hollywood blockbuster movies to a public website, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Strip the original author's name from an academic article and replace it with the teacher's name."
+        "text": "Strip the original author's name from an academic article and replace it with the teacher's name, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Photocopy an entire commercial textbook and sell it for profit to students."
+        "text": "Photocopy an entire commercial textbook and sell it for profit to students, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Free to modify and remix for corporate advertisements."
+        "text": "Free to modify and remix for corporate advertisements, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Public domain with zero copyright restrictions."
+        "text": "Public domain with zero copyright restrictions, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Commercial resale permitted with no author attribution."
+        "text": "Commercial resale permitted with no author attribution, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "High-priced proprietary software requiring annual subscription fees."
+        "text": "High-priced proprietary software requiring annual subscription fees, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Encrypted textbooks that self-delete after 30 days."
+        "text": "Encrypted textbooks that self-delete after 30 days, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Secret research documents restricted to university presidents."
+        "text": "Secret research documents restricted to university presidents, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -533,11 +533,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The teacher grades papers in silence during class hours while students sleep."
+        "text": "The teacher grades papers in silence during class hours while students sleep, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "All learning is 100% textbook reading without any teacher interaction."
+        "text": "All learning is 100% textbook reading without any teacher interaction, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Students listen to lectures in class and do multiple-choice tests at home alone."
+        "text": "Students listen to lectures in class and do multiple-choice tests at home alone, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sleeping areas and study areas every 5 minutes."
+        "text": "Sleeping areas and study areas every 5 minutes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Different physical schools across the province every week."
+        "text": "Different physical schools across the province every week, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Different sports teams on the athletic field."
+        "text": "Different sports teams on the athletic field, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Synchronous uses only text, while Asynchronous uses only video."
+        "text": "Synchronous uses only text, while Asynchronous uses only video, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Synchronous requires zero internet connection, while Asynchronous requires satellites."
+        "text": "Synchronous requires zero internet connection, while Asynchronous requires satellites, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Synchronous is for elementary pupils, while Asynchronous is for doctoral students only."
+        "text": "Synchronous is for elementary pupils, while Asynchronous is for doctoral students only, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -658,7 +658,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Unrelated funny memes are inserted into serious medical diagrams."
+        "text": "Unrelated funny memes are inserted into serious medical diagrams, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Every available inch of the presentation slide is filled with decorative clip art."
+        "text": "Every available inch of the presentation slide is filled with decorative clip art, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
-        "text": "Loud rock music plays continuously during science explanations."
+        "text": "Loud rock music plays continuously during science explanations, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Presents spoken narration accompanied by relevant graphics."
+        "text": "Presents spoken narration accompanied by relevant graphics, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Uses concise bullet points with visual diagrams."
+        "text": "Uses concise bullet points with visual diagrams, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Provides a printed summary handout after class."
+        "text": "Provides a printed summary handout after class, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Placed on completely separate pages with a 10-minute time delay."
+        "text": "Placed on completely separate pages with a 10-minute time delay, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Hidden behind secret password screens."
+        "text": "Hidden behind secret password screens, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Printed in tiny 4pt font at the bottom of the page."
+        "text": "Printed in tiny 4pt font at the bottom of the page, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -758,7 +758,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Translating English text into 16th-century Latin."
+        "text": "Translating English text into 16th-century Latin, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Projecting holographic laser images onto the classroom whiteboard."
+        "text": "Projecting holographic laser images onto the classroom whiteboard, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Automatically answering multiple-choice exam questions."
+        "text": "Automatically answering multiple-choice exam questions, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Reading aloud printed physical textbooks."
+        "text": "Reading aloud printed physical textbooks, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Formatting raw mathematical equations into 3D animations."
+        "text": "Formatting raw mathematical equations into 3D animations, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Blocking background classroom noise."
+        "text": "Blocking background classroom noise implemented through standard hardware utilities and basic instructional software tools."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminating the need for all teachers, schools, and curricula."
+        "text": "Eliminating the need for all teachers, schools, and curricula, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Forcing students to play video games for 10 hours daily."
+        "text": "Forcing students to play video games for 10 hours daily, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Replacing all scientific laboratory experiments with text messages."
+        "text": "Replacing all scientific laboratory experiments with text messages, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Involves gambling real currency on test outcomes."
+        "text": "Involves gambling real currency on test outcomes, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Replaces all academic reading with sports competitions."
+        "text": "Replaces all academic reading with sports competitions, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
@@ -887,15 +887,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Traditional flat text reading on a 2D screen."
+        "text": "Traditional flat text reading on a 2D screen, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Automated multiple-choice grading spreadsheets."
+        "text": "Automated multiple-choice grading spreadsheets implemented through standard hardware utilities and basic instructional software tools."
       },
       {
         "key": "D",
-        "text": "A replacement for all physical nutrition."
+        "text": "A replacement for all physical nutrition, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "AR requires complete sensory isolation in a dark room, while VR does not."
+        "text": "AR requires complete sensory isolation in a dark room, while VR does not, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "AR operates only on desktop computers from the 1990s."
+        "text": "AR operates only on desktop computers from the 1990s, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
-        "text": "AR is strictly for audio listening without visual display."
+        "text": "AR is strictly for audio listening without visual display, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forward the email to all students so they can enter their passwords."
+        "text": "Forward the email to all students so they can enter their passwords, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Post the password link on the public school Facebook page."
+        "text": "Post the password link on the public school Facebook page, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediately reply with all student passwords to be helpful."
+        "text": "Immediately reply with all student passwords to be helpful, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Refusing to allow parents to view school events."
+        "text": "Refusing to allow parents to view school events, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Posting full birth certificates and medical records of all pupils publicly."
+        "text": "Posting full birth certificates and medical records of all pupils publicly, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Selling student contact numbers to commercial marketing companies."
+        "text": "Selling student contact numbers to commercial marketing companies, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1008,15 +1008,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Copy and paste AI-generated text verbatim and claim full personal authorship."
+        "text": "Copy and paste AI-generated text verbatim and claim full personal authorship, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Fabricate false laboratory data using AI without testing."
+        "text": "Fabricate false laboratory data using AI without testing, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Submit AI-generated essays without reading or understanding them."
+        "text": "Submit AI-generated essays without reading or understanding them, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "When computer speakers produce acoustic echo feedback."
+        "text": "When computer speakers produce acoustic echo feedback, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "When an algorithm refuses to turn on during daytime hours."
+        "text": "When an algorithm refuses to turn on during daytime hours, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "When a computer screen emits optical illusions that hypnotize the viewer."
+        "text": "When a computer screen emits optical illusions that hypnotize the viewer, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Contain no visual diagrams and only tiny 6pt scrolling text."
+        "text": "Contain no visual diagrams and only tiny 6pt scrolling text, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Are 2 hours long with uninterrupted continuous monotone lecture audio."
+        "text": "Are 2 hours long with uninterrupted continuous monotone lecture audio, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Feature loud rock music playing over quiet spoken explanations."
+        "text": "Feature loud rock music playing over quiet spoken explanations, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Conduct a 100-item high-stakes final examination."
+        "text": "Conduct a 100-item high-stakes final examination, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Print physical textbook volumes for the school library."
+        "text": "Print physical textbook volumes for the school library, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Block all student collaborative communication."
+        "text": "Block all student collaborative communication, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Record only multiple-choice raw exam scores."
+        "text": "Record only multiple-choice raw exam scores, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Store administrative receipts for school tuition payments."
+        "text": "Store administrative receipts for school tuition payments, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Function as a speed-typing competition scoreboard."
+        "text": "Function as a speed-typing competition scoreboard, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It automatically assigns an 'A' grade to every student."
+        "text": "It automatically assigns an 'A' grade to every student, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "It removes all subjective judgment by standardizing multiple-choice questions."
+        "text": "It removes all subjective judgment by standardizing multiple-choice questions, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It eliminates the need for teachers to evaluate student work."
+        "text": "It eliminates the need for teachers to evaluate student work, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Force students to compete for monetary prizes."
+        "text": "Force students to compete for monetary prizes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Assign permanent failing marks on report cards."
+        "text": "Assign permanent failing marks on report cards, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Replace all classroom group discussions with silent typing."
+        "text": "Replace all classroom group discussions with silent typing, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A purely random sequence of questions from a 10,000-item bank."
+        "text": "A purely random sequence of questions from a 10,000-item bank, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
-        "text": "The student's chronological age and alphabetical last name."
+        "text": "The student's chronological age and alphabetical last name, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
-        "text": "The time of day the student logs into the examination terminal."
+        "text": "The time of day the student logs into the examination terminal, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Manual handwriting and calligraphy dexterity."
+        "text": "Manual handwriting and calligraphy dexterity, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Physical athletic endurance."
+        "text": "Physical athletic endurance implemented through standard hardware utilities and basic instructional software tools."
       },
       {
         "key": "C",
-        "text": "Mechanical typewriter repair."
+        "text": "Mechanical typewriter repair implemented through standard hardware utilities and basic instructional software tools."
       },
       {
         "key": "D",
@@ -1258,7 +1258,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminate the need for narrative story structure."
+        "text": "Eliminate the need for narrative story structure, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Replace all standard reading and writing instruction with video gaming."
+        "text": "Replace all standard reading and writing instruction with video gaming, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Allow students to watch television cartoons during class time."
+        "text": "Allow students to watch television cartoons during class time, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To post confidential student disciplinary records publicly."
+        "text": "To post confidential student disciplinary records publicly, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "To engage in partisan political arguments during classroom hours."
+        "text": "To engage in partisan political arguments during classroom hours, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "To sell commercial consumer products to students' parents."
+        "text": "To sell commercial consumer products to students' parents, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1316,7 +1316,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The physical weight of printed modular textbooks."
+        "text": "The physical weight of printed modular textbooks, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Require students to study completely alone for 10 months without check-ins."
+        "text": "Require students to study completely alone for 10 months without check-ins, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Upload 500 pages of unannotated PDF readings with zero guidance."
+        "text": "Upload 500 pages of unannotated PDF readings with zero guidance, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Make the course completely rigid with zero opportunities for student-teacher communication."
+        "text": "Make the course completely rigid with zero opportunities for student-teacher communication, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Letting students do personal homework from other subjects."
+        "text": "Letting students do personal homework from other subjects, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Having students watch the lecture video again in complete silence."
+        "text": "Having students watch the lecture video again in complete silence, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Administering 3-hour multiple-choice standardized tests."
+        "text": "Administering 3-hour multiple-choice standardized tests, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Students search random commercial websites without teacher guidance."
+        "text": "Students search random commercial websites without teacher guidance, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Students play online video games for 60 minutes."
+        "text": "Students play online video games for 60 minutes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "The teacher lectures from printed textbooks with zero internet use."
+        "text": "The teacher lectures from printed textbooks with zero internet use, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1408,7 +1408,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Title, Index, Bibliography, Appendix, and Glossary."
+        "text": "Title, Index, Bibliography, Appendix, and Glossary, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1416,7 +1416,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Login, Password, Captcha, Firewall, and Logout."
+        "text": "Login, Password, Captcha, Firewall, and Logout, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The color of computer cables installed in school classrooms."
+        "text": "The color of computer cables installed in school classrooms, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "The physical weight of laptop bags carried by students."
+        "text": "The physical weight of laptop bags carried by students, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The difference in screen brightness between two tablet computers."
+        "text": "The difference in screen brightness between two tablet computers, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using maximum screen brightness with zero eye blink breaks."
+        "text": "Using maximum screen brightness with zero eye blink breaks, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1470,7 +1470,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Slouching over laptops on the floor without breaks."
+        "text": "Slouching over laptops on the floor without breaks, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "By forcing all learners to submit identical handwritten 5-page essays."
+        "text": "By forcing all learners to submit identical handwritten 5-page essays, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "By restricting all assessments to timed multiple-choice scantron sheets."
+        "text": "By restricting all assessments to timed multiple-choice scantron sheets, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "By eliminating all forms of student choice in project formats."
+        "text": "By eliminating all forms of student choice in project formats, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1533,11 +1533,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Remaining completely silent and never responding to student messages."
+        "text": "Remaining completely silent and never responding to student messages, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Uploading 1,000 pages of text with zero course navigation structure."
+        "text": "Uploading 1,000 pages of text with zero course navigation structure, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Setting automated grading bots to assign random test scores."
+        "text": "Setting automated grading bots to assign random test scores, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Use anonymous pseudonyms to insult classmates."
+        "text": "Use anonymous pseudonyms to insult classmates, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Post only robotic, one-word automated responses."
+        "text": "Post only robotic, one-word automated responses, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Never interact with any peers or instructors during the semester."
+        "text": "Never interact with any peers or instructors during the semester, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Sell student personal data to commercial advertisers for profit."
+        "text": "Sell student personal data to commercial advertisers for profit, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Publicly shame low-performing students on school leaderboards."
+        "text": "Publicly shame low-performing students on school leaderboards, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Automate the immediate expulsion of struggling learners."
+        "text": "Automate the immediate expulsion of struggling learners, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Automatically failing any student who has a similarity index above 0%."
+        "text": "Automatically failing any student who has a similarity index above 0%, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Assuming that the computer algorithm's percentage is infallible without review."
+        "text": "Assuming that the computer algorithm's percentage is infallible without review, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Ignoring all matches and assigning arbitrary letter grades."
+        "text": "Ignoring all matches and assigning arbitrary letter grades, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Place 50 students in a single breakout room with no assigned task."
+        "text": "Place 50 students in a single breakout room with no assigned task, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Mute all student microphones and turn off all cameras permanently."
+        "text": "Mute all student microphones and turn off all cameras permanently, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Leave the main room and disconnect from the internet for 60 minutes."
+        "text": "Leave the main room and disconnect from the internet for 60 minutes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1670,7 +1670,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Self-deleting from computers after 14 days of use."
+        "text": "Self-deleting from computers after 14 days of use, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Using public point deductions to publicly shame and humiliate struggling pupils."
+        "text": "Using public point deductions to publicly shame and humiliate struggling pupils, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Replacing all academic teaching with point-collecting competitions."
+        "text": "Replacing all academic teaching with point-collecting competitions, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Posting student behavioral points on commercial public billboards."
+        "text": "Posting student behavioral points on commercial public billboards, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ask simple factual recall questions that have a single one-word correct answer."
+        "text": "Ask simple factual recall questions that have a single one-word correct answer, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Ask students to copy and paste paragraph 1 from the textbook."
+        "text": "Ask students to copy and paste paragraph 1 from the textbook, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Require students to post 50 identical responses within 5 minutes."
+        "text": "Require students to post 50 identical responses within 5 minutes, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Complete disconnection from school server networks."
+        "text": "Complete disconnection from school server networks, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "The destruction of all previous student project drafts."
+        "text": "The destruction of all previous student project drafts, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The physical printing of 5,000 pages of paper every day."
+        "text": "The physical printing of 5,000 pages of paper every day, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Scan, Illustrate, Format, and Type."
+        "text": "Scan, Illustrate, Format, and Type, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Search, Inspect, Forward, and Tweet."
+        "text": "Search, Inspect, Forward, and Tweet, following established technological standards and empirical criteria."
       },
       {
         "key": "D",
-        "text": "Skim, Ignore, Finalize, and Transmit."
+        "text": "Skim, Ignore, Finalize, and Transmit, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "B",
@@ -1791,11 +1791,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Write with standard permanent markers that damage the screen."
+        "text": "Write with standard permanent markers that damage the screen, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Display a static clock on the wall."
+        "text": "Display a static clock on the wall, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Speaking randomly into a microphone without prior preparation."
+        "text": "Speaking randomly into a microphone without prior preparation, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
-        "text": "Buying $10,000 professional recording studio equipment."
+        "text": "Buying $10,000 professional recording studio equipment, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "C",
-        "text": "Reading a dictionary aloud from start to finish."
+        "text": "Reading a dictionary aloud from start to finish, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Choose their own letter grades at the start of the semester."
+        "text": "Choose their own letter grades at the start of the semester, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       },
       {
         "key": "B",
-        "text": "Take all courses without any teacher instruction or materials."
+        "text": "Take all courses without any teacher instruction or materials, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Attend class only on weekends without taking any exams."
+        "text": "Attend class only on weekends without taking any exams, utilizing basic digital media platforms without modifying underlying pedagogical structures, following established technological standards and empirical criteria."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Force students to sit in front of computer screens for 12 hours daily."
+        "text": "Force students to sit in front of computer screens for 12 hours daily, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const TECH_TEACHING_LEARNING_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Replace all certified human teachers with automated computer software."
+        "text": "Replace all certified human teachers with automated computer software, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       },
       {
         "key": "D",
-        "text": "Spend the entire school annual budget on expensive hardware gadgets."
+        "text": "Spend the entire school annual budget on expensive hardware gadgets, utilizing basic digital media platforms without modifying underlying pedagogical structures."
       }
     ],
     "correctAnswer": "B",

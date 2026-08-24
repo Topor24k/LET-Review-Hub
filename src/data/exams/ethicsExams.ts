@@ -8,15 +8,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Civil statutes are the ultimate foundation and source of all moral truth."
+        "text": "Civil statutes are the ultimate foundation and source of all moral truth, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Etiquette and local social customs supersede fundamental human dignity."
+        "text": "Etiquette and local social customs supersede fundamental human dignity, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Moral obligations are strictly determined by state police power."
+        "text": "Moral obligations are strictly determined by state police power, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -33,11 +33,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Structural dilemma, as it stems exclusively from international trade treaties."
+        "text": "Structural dilemma, as it stems exclusively from international trade treaties, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Pre-conventional dilemma, as it is determined strictly by physiological needs."
+        "text": "Pre-conventional dilemma, as it is determined strictly by physiological needs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Individual dilemma, as it only impacts the personal conscience of the hospital director."
+        "text": "Individual dilemma, as it only impacts the personal conscience of the hospital director, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -58,7 +58,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It eliminates the psychological distinction between conscious ego and the collective unconscious."
+        "text": "It eliminates the psychological distinction between conscious ego and the collective unconscious, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It assumes that physical nature is governed by immutable mathematical laws."
+        "text": "It assumes that physical nature is governed by immutable mathematical laws, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "It forces all individuals to adopt Western democratic governance frameworks."
+        "text": "It forces all individuals to adopt Western democratic governance frameworks, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -158,7 +158,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The stoic suppression of all emotional expressions in community interactions."
+        "text": "The stoic suppression of all emotional expressions in community interactions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The complete eradication of all physical desires and sensory experiences."
+        "text": "The complete eradication of all physical desires and sensory experiences, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "The unrestricted pursuit of luxury tempered by occasional charitable acts."
+        "text": "The unrestricted pursuit of luxury tempered by occasional charitable acts, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -233,11 +233,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Through theoretical memorization of ethical rulebooks without practice."
+        "text": "Through theoretical memorization of ethical rulebooks without practice, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Through involuntary state conditioning and physical punishments."
+        "text": "Through involuntary state conditioning and physical punishments, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Through genetic inheritance from aristocratic ancestors."
+        "text": "Through genetic inheritance from aristocratic ancestors, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Obey all legal statutes regardless of their justice or fairness."
+        "text": "Obey all legal statutes regardless of their justice or fairness, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Act in a manner that guarantees the greatest economic return for your family."
+        "text": "Act in a manner that guarantees the greatest economic return for your family, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Follow the majority opinion of your local civic community."
+        "text": "Follow the majority opinion of your local civic community, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It fails to follow the standard administrative citation format."
+        "text": "It fails to follow the standard administrative citation format, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "It causes temporary emotional distress to the department's staff."
+        "text": "It causes temporary emotional distress to the department's staff, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "It reduces the financial grant allocated to the academic division."
+        "text": "It reduces the financial grant allocated to the academic division, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -333,11 +333,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maximize the private profits of corporate shareholders."
+        "text": "Maximize the private profits of corporate shareholders, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Uphold the divine right of executive magistrates."
+        "text": "Uphold the divine right of executive magistrates, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conform strictly to ancient religious and cultural dogmas."
+        "text": "Conform strictly to ancient religious and cultural dogmas, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Physical pleasure is the sole legitimate criterion of moral virtue."
+        "text": "Physical pleasure is the sole legitimate criterion of moral virtue, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "All pleasures, whether pushpin or poetry, are equal if intensity and duration match."
+        "text": "All pleasures, whether pushpin or poetry, are equal if intensity and duration match, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Consequences are completely irrelevant to determining moral rightness."
+        "text": "Consequences are completely irrelevant to determining moral rightness, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The sum of five lives saved outweighs one life lost in this specific calculation."
+        "text": "The sum of five lives saved outweighs one life lost in this specific calculation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The physician lacks specialized transplant credentials."
+        "text": "The physician lacks specialized transplant credentials, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The healthy patient has a higher socioeconomic net worth."
+        "text": "The healthy patient has a higher socioeconomic net worth, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -408,7 +408,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Might makes right in human political governance."
+        "text": "Might makes right in human political governance, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -416,7 +416,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Physical pleasure is the only verifiable truth."
+        "text": "Physical pleasure is the only verifiable truth, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The individual receives formal permission from a municipal council."
+        "text": "The individual receives formal permission from a municipal council, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The monetary benefits of the action exceed its operational expenses."
+        "text": "The monetary benefits of the action exceed its operational expenses, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The bad effect is actively desired as a direct instrument to produce the good result."
+        "text": "The bad effect is actively desired as a direct instrument to produce the good result, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rejecting all forms of legal codification in democratic societies."
+        "text": "Rejecting all forms of legal codification in democratic societies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Failing to apply advanced mathematical calculations to moral scenarios."
+        "text": "Failing to apply advanced mathematical calculations to moral scenarios, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Being too focused on family obligations and maternal care."
+        "text": "Being too focused on family obligations and maternal care, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Tailored specifically to favor the most educated and wealthy elites."
+        "text": "Tailored specifically to favor the most educated and wealthy elites, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Based entirely on traditional religious doctrines and ecclesiastical law."
+        "text": "Based entirely on traditional religious doctrines and ecclesiastical law, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Designed to eliminate all competition and private enterprise completely."
+        "text": "Designed to eliminate all competition and private enterprise completely, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -508,7 +508,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Are approved by a majority of corporate executives."
+        "text": "Are approved by a majority of corporate executives, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -516,7 +516,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Arise from completely unregulated market monopolies."
+        "text": "Arise from completely unregulated market monopolies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A student sends a thank-you letter to a former mentor."
+        "text": "A student sends a thank-you letter to a former mentor, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A neighborhood coordinates a voluntary disaster relief drive."
+        "text": "A neighborhood coordinates a voluntary disaster relief drive, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A professional daughter supports her parents in their retirement."
+        "text": "A professional daughter supports her parents in their retirement, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pakikisama is legally mandated under the Local Government Code."
+        "text": "Pakikisama is legally mandated under the Local Government Code, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Pakikisama applies only to international diplomatic treaties."
+        "text": "Pakikisama applies only to international diplomatic treaties, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Pakikipagkapwa requires commercial transactions in every family gathering."
+        "text": "Pakikipagkapwa requires commercial transactions in every family gathering, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -608,11 +608,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Avoid inflicting any intentional harm or injury on patients."
+        "text": "Avoid inflicting any intentional harm or injury on patients, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Charge maximum fees to support hospital research infrastructure."
+        "text": "Charge maximum fees to support hospital research infrastructure, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -637,7 +637,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Full surrender of legal rights, mandatory laboratory testing, and familial co-signatures."
+        "text": "Full surrender of legal rights, mandatory laboratory testing, and familial co-signatures, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A notarized payment guarantee, hospital board approval, and police clearance."
+        "text": "A notarized payment guarantee, hospital board approval, and police clearance, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -687,15 +687,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Only human beings possess moral standing due to their rational souls."
+        "text": "Only human beings possess moral standing due to their rational souls, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Rocks and minerals have higher moral priority than biological species."
+        "text": "Rocks and minerals have higher moral priority than biological species, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Economic growth should always override biological conservation."
+        "text": "Economic growth should always override biological conservation, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'An action is right if it produces the maximum short-term timber harvest.'."
+        "text": "'An action is right if it produces the maximum short-term timber harvest.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "'A policy is just if approved by a majority of mining shareholders.'."
+        "text": "'A policy is just if approved by a majority of mining shareholders.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "'An action is good only if it eliminates all predatory animal species.'."
+        "text": "'An action is good only if it eliminates all predatory animal species.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Future human beings have zero legitimate moral claims on present policies."
+        "text": "Future human beings have zero legitimate moral claims on present policies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Developing nations must bear the entire financial burden of climate mitigation."
+        "text": "Developing nations must bear the entire financial burden of climate mitigation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Current generations should exploit all fossil fuel reserves before technology advances."
+        "text": "Current generations should exploit all fossil fuel reserves before technology advances, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Delegate lesson planning entirely to student teacher interns."
+        "text": "Delegate lesson planning entirely to student teacher interns, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Focus solely on classroom duties and avoid all post-graduate studies."
+        "text": "Focus solely on classroom duties and avoid all post-graduate studies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Rely exclusively on outdated textbook editions to ensure uniformity."
+        "text": "Rely exclusively on outdated textbook editions to ensure uniformity, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Immediately publicize the relationship in the school paper."
+        "text": "Immediately publicize the relationship in the school paper, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Award the student top academic honors to show affection."
+        "text": "Award the student top academic honors to show affection, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Demand financial assistance from the student's family."
+        "text": "Demand financial assistance from the student's family, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -833,11 +833,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Confront the colleague during an all-school student assembly."
+        "text": "Confront the colleague during an all-school student assembly, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Ignore severe violations of child safety to preserve camaraderie."
+        "text": "Ignore severe violations of child safety to preserve camaraderie, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Broadcast the allegations immediately on public social media channels."
+        "text": "Broadcast the allegations immediately on public social media channels, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Refuse participation in national democratic election duties."
+        "text": "Refuse participation in national democratic election duties, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Promote partisan political agendas during classroom hours."
+        "text": "Promote partisan political agendas during classroom hours, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Discourage students from learning about national history and civic duties."
+        "text": "Discourage students from learning about national history and civic duties, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Technological sentience, showing the software possesses independent malice."
+        "text": "Technological sentience, showing the software possesses independent malice, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Digital sovereignty, reflecting national control over software servers."
+        "text": "Digital sovereignty, reflecting national control over software servers, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Hardware obsolescence caused by electrical fluctuations."
+        "text": "Hardware obsolescence caused by electrical fluctuations, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Computer screens emit low levels of blue light in hospital wards."
+        "text": "Computer screens emit low levels of blue light in hospital wards, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Algorithms operate only during nighttime server update cycles."
+        "text": "Algorithms operate only during nighttime server update cycles, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Artificial intelligence programs cannot connect to local power grids."
+        "text": "Artificial intelligence programs cannot connect to local power grids, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "They calculate ballistic trajectories with excessive mathematical precision."
+        "text": "They calculate ballistic trajectories with excessive mathematical precision, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "They require satellite communications and electrical batteries."
+        "text": "They require satellite communications and electrical batteries, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "They are more expensive to manufacture than standard rifles."
+        "text": "They are more expensive to manufacture than standard rifles, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -987,15 +987,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The employee wants to retaliate against a supervisor over a minor dispute."
+        "text": "The employee wants to retaliate against a supervisor over a minor dispute, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The employee wishes to leak proprietary trade secrets for personal payment."
+        "text": "The employee wishes to leak proprietary trade secrets for personal payment, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The company introduces a new dress code that the employee dislikes."
+        "text": "The company introduces a new dress code that the employee dislikes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Empirical descriptions of physical biological facts."
+        "text": "Empirical descriptions of physical biological facts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Mathematical proofs of social utility."
+        "text": "Mathematical proofs of social utility, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Universal metaphysical truths written into the cosmos."
+        "text": "Universal metaphysical truths written into the cosmos, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All moral statements are completely meaningless nonsense."
+        "text": "All moral statements are completely meaningless nonsense, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Ethical values change randomly with daily economic market fluctuations."
+        "text": "Ethical values change randomly with daily economic market fluctuations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Morality is an illusion created solely by ruling political classes."
+        "text": "Morality is an illusion created solely by ruling political classes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attribution of blame to regulatory agencies."
+        "text": "Attribution of blame to regulatory agencies, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Dehumanization of the victim."
+        "text": "Dehumanization of the victim based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "Displacement of responsibility to subordinates."
+        "text": "Displacement of responsibility to subordinates, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1158,7 +1158,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The primary objective must be the total eradication of civilian infrastructure."
+        "text": "The primary objective must be the total eradication of civilian infrastructure, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Military forces may invade foreign nations to seize mineral reserves."
+        "text": "Military forces may invade foreign nations to seize mineral reserves, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Preemptive strikes are mandatory whenever domestic election polls decline."
+        "text": "Preemptive strikes are mandatory whenever domestic election polls decline, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Any citizen of an opposing nation is automatically classified as a legitimate military target."
+        "text": "Any citizen of an opposing nation is automatically classified as a legitimate military target, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Weapons of mass destruction may be deployed to expedite victory."
+        "text": "Weapons of mass destruction may be deployed to expedite victory, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Captured prisoners of war must be executed to conserve rations."
+        "text": "Captured prisoners of war must be executed to conserve rations, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Organs should be auctioned to the highest private bidder."
+        "text": "Organs should be auctioned to the highest private bidder, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Prisoners automatically forfeit organ ownership upon incarceration."
+        "text": "Prisoners automatically forfeit organ ownership upon incarceration, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Physicians may terminate terminally ill patients to retrieve organs for younger recipients."
+        "text": "Physicians may terminate terminally ill patients to retrieve organs for younger recipients, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Scientific researchers are legally immune from criminal prosecution."
+        "text": "Scientific researchers are legally immune from criminal prosecution, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Unapproved experimental drugs can be tested on vulnerable prison populations."
+        "text": "Unapproved experimental drugs can be tested on vulnerable prison populations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Military commanders have absolute authority to subject soldiers to scientific testing."
+        "text": "Military commanders have absolute authority to subject soldiers to scientific testing, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Federal antitrust taxation formulas."
+        "text": "Federal antitrust taxation formulas based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Hardware manufacturing intellectual property."
+        "text": "Hardware manufacturing intellectual property, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "International telecommunication bandwidth quotas."
+        "text": "International telecommunication bandwidth quotas, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Maximize advertising sponsorship revenue at all costs."
+        "text": "Maximize advertising sponsorship revenue at all costs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Publish unverified sensational rumors to boost web traffic."
+        "text": "Publish unverified sensational rumors to boost web traffic, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Shield government officials from critical investigative reporting."
+        "text": "Shield government officials from critical investigative reporting, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Display opulent jewelry and luxury vehicles during official functions."
+        "text": "Display opulent jewelry and luxury vehicles during official functions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Accept private corporate gifts in exchange for expedited permits."
+        "text": "Accept private corporate gifts in exchange for expedited permits, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Maintain absolute secrecy regarding all public government expenditures."
+        "text": "Maintain absolute secrecy regarding all public government expenditures, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Municipal library book checkout time limits."
+        "text": "Municipal library book checkout time limits, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Postal mail packaging regulations."
+        "text": "Postal mail packaging regulations based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "University athletic department dress codes."
+        "text": "University athletic department dress codes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1408,15 +1408,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Governments must wait for 100% scientific consensus before taking any climate actions."
+        "text": "Governments must wait for 100% scientific consensus before taking any climate actions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Economic industrial growth must never be constrained by environmental regulations."
+        "text": "Economic industrial growth must never be constrained by environmental regulations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Developing nations should bear all costs of rising ocean levels."
+        "text": "Developing nations should bear all costs of rising ocean levels, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It guarantees that the wealthiest pay zero taxes through corporate loopholes."
+        "text": "It guarantees that the wealthiest pay zero taxes through corporate loopholes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "It imposes identical flat peso amounts on the rich and the impoverished."
+        "text": "It imposes identical flat peso amounts on the rich and the impoverished, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It punishes productive citizens to enrich bureaucratic corruption."
+        "text": "It punishes productive citizens to enrich bureaucratic corruption, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Institutional convenience, to reduce grading workload."
+        "text": "Institutional convenience, to reduce grading workload, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Academic elitism, by lowering standards for the entire class."
+        "text": "Academic elitism, by lowering standards for the entire class, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Standardized uniformity."
+        "text": "Standardized uniformity based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Accumulate authoritarian power and demand uncritical personal loyalty."
+        "text": "Accumulate authoritarian power and demand uncritical personal loyalty, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Maximize executive bonuses while cutting employee healthcare."
+        "text": "Maximize executive bonuses while cutting employee healthcare, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Protect personal political prestige at all costs."
+        "text": "Protect personal political prestige at all costs, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1512,7 +1512,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Unrestricted Commercial Sale without Consent."
+        "text": "Unrestricted Commercial Sale without Consent, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1533,11 +1533,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The economic profit mandates of commercial pharmaceutical companies."
+        "text": "The economic profit mandates of commercial pharmaceutical companies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The personal convenience of municipal administrative staff."
+        "text": "The personal convenience of municipal administrative staff, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The Divine Right of reigning provincial governors."
+        "text": "The Divine Right of reigning provincial governors, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1570,7 +1570,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "They have immortal souls recognized by civil law."
+        "text": "They have immortal souls recognized by civil law, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Erase all national criminal records without judicial review."
+        "text": "Erase all national criminal records without judicial review, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Demand total immunity from all financial credit rating reports."
+        "text": "Demand total immunity from all financial credit rating reports, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Delete public historical records from national archives."
+        "text": "Delete public historical records from national archives, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Classroom ventilation architectural regulations."
+        "text": "Classroom ventilation architectural regulations based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "Standard school sports uniform color codes."
+        "text": "Standard school sports uniform color codes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Canteen sanitation food preparation guidelines."
+        "text": "Canteen sanitation food preparation guidelines, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Moral virtues are genetically determined by blood type."
+        "text": "Moral virtues are genetically determined by blood type, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Human actions are guided exclusively by celestial astrological movements."
+        "text": "Human actions are guided exclusively by celestial astrological movements, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Humans are morally required to sacrifice themselves for strangers at all times."
+        "text": "Humans are morally required to sacrifice themselves for strangers at all times, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It consumes standard electrical power from municipal energy grids."
+        "text": "It consumes standard electrical power from municipal energy grids, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It increases the file size of digital video streaming platforms."
+        "text": "It increases the file size of digital video streaming platforms, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "It uses older computer processors that generate excess heat."
+        "text": "It uses older computer processors that generate excess heat, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Dictate students' adult career choices and religious affiliations."
+        "text": "Dictate students' adult career choices and religious affiliations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Claim financial ownership over students' family properties."
+        "text": "Claim financial ownership over students' family properties, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Refuse all communication with biological parents regarding student progress."
+        "text": "Refuse all communication with biological parents regarding student progress, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Administering lethal injections to speed up hospital bed turnover."
+        "text": "Administering lethal injections to speed up hospital bed turnover, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Abandoning the patient completely without medical oversight."
+        "text": "Abandoning the patient completely without medical oversight, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Performing unnecessary high-cost surgeries to increase billing."
+        "text": "Performing unnecessary high-cost surgeries to increase billing, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Equality applies only to financial budgets, while Equity applies only to sports."
+        "text": "Equality applies only to financial budgets, while Equity applies only to sports, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Equality is illegal, while Equity is strictly voluntary."
+        "text": "Equality is illegal, while Equity is strictly voluntary, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Equality favors marginalized groups, while Equity treats everyone identically."
+        "text": "Equality favors marginalized groups, while Equity treats everyone identically, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It eliminates the need for human relationships and community life."
+        "text": "It eliminates the need for human relationships and community life, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "It guarantees the automatic accumulation of immense financial wealth."
+        "text": "It guarantees the automatic accumulation of immense financial wealth, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "It allows an individual to predict future astronomical events with certainty."
+        "text": "It allows an individual to predict future astronomical events with certainty, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Requires simultaneous funding from both private and public universities."
+        "text": "Requires simultaneous funding from both private and public universities, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Is published in two different languages simultaneously."
+        "text": "Is published in two different languages simultaneously, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Uses both digital computers and analog microscopes."
+        "text": "Uses both digital computers and analog microscopes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Vote aggressively in favor of one's own textbook while concealing authorship."
+        "text": "Vote aggressively in favor of one's own textbook while concealing authorship, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Demand that competitors' textbooks be banned without review."
+        "text": "Demand that competitors' textbooks be banned without review, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Resign from the teaching profession permanently."
+        "text": "Resign from the teaching profession permanently, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prioritize traffic only to commercial companies that pay premium fees."
+        "text": "Prioritize traffic only to commercial companies that pay premium fees, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Censor all political opinions that disagree with telecommunication executives."
+        "text": "Censor all political opinions that disagree with telecommunication executives, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Block access to educational websites that offer free tutoring."
+        "text": "Block access to educational websites that offer free tutoring, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The accumulation of luxury consumer goods."
+        "text": "The accumulation of luxury consumer goods, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const ETHICS_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The total duration of continuous sensory stimulation."
+        "text": "The total duration of continuous sensory stimulation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The avoidance of all intellectual effort and civic duties."
+        "text": "The avoidance of all intellectual effort and civic duties, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",

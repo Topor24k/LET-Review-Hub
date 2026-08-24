@@ -87,15 +87,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A detailed military map of the 1898 Battle of Manila Bay."
+        "text": "A detailed military map of the 1898 Battle of Manila Bay, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The complete Spanish translation of the Quran for Mindanao sultanates."
+        "text": "The complete Spanish translation of the Quran for Mindanao sultanates, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The original architectural blueprints for Intramuros cathedrals."
+        "text": "The original architectural blueprints for Intramuros cathedrals, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -108,15 +108,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lapu-Lapu's warriors possessed advanced European artillery and steam cannons."
+        "text": "Lapu-Lapu's warriors possessed advanced European artillery and steam cannons, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Magellan was poisoned by his own Spanish crew before landing on the beach."
+        "text": "Magellan was poisoned by his own Spanish crew before landing on the beach, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "A massive volcanic eruption destroyed Magellan's fleet during the duel."
+        "text": "A massive volcanic eruption destroyed Magellan's fleet during the duel, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Slaves who lived inside their master's house with zero property rights."
+        "text": "Slaves who lived inside their master's house with zero property rights, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Foreign European merchants residing in coastal trading enclaves."
+        "text": "Foreign European merchants residing in coastal trading enclaves, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The ruling hereditary aristocratic chieftains and lawgivers."
+        "text": "The ruling hereditary aristocratic chieftains and lawgivers, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Were exempt from all military service during inter-island expeditions."
+        "text": "Were exempt from all military service during inter-island expeditions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Could be bought and sold at will and lived inside the master's private quarters."
+        "text": "Could be bought and sold at will and lived inside the master's private quarters, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Held sovereign judicial power over criminal disputes in the barangay."
+        "text": "Held sovereign judicial power over criminal disputes in the barangay, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -187,15 +187,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A minor localized labor mutiny over the sudden abolition of tax and polo exemptions for arsenal workers."
+        "text": "A minor localized labor mutiny over the sudden abolition of tax and polo exemptions for arsenal workers, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "A commercial dispute regarding maritime tobacco monopoly shipping tariffs."
+        "text": "A commercial dispute regarding maritime tobacco monopoly shipping tariffs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "A peaceful religious pilgrimage that was accidentally dispersed by municipal police."
+        "text": "A peaceful religious pilgrimage that was accidentally dispersed by municipal police, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A full-scale socialist revolution organized by the Katipunan."
+        "text": "A full-scale socialist revolution organized by the Katipunan, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A foreign naval invasion orchestrated by the British Empire."
+        "text": "A foreign naval invasion orchestrated by the British Empire, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A religious dispute regarding Latin liturgical translations."
+        "text": "A religious dispute regarding Latin liturgical translations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It resulted in the immediate expulsion of all Spanish religious orders from Asia."
+        "text": "It resulted in the immediate expulsion of all Spanish religious orders from Asia, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "It led to the signing of the Treaty of Paris with the United States."
+        "text": "It led to the signing of the Treaty of Paris with the United States, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It convinced the Spanish Crown to grant immediate independence to the Philippines."
+        "text": "It convinced the Spanish Crown to grant immediate independence to the Philippines, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Latin grammatical phrasing used in the Katipunan initiation oaths."
+        "text": "The Latin grammatical phrasing used in the Katipunan initiation oaths, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Whether Andres Bonifacio was actually present during the Philippine Revolution."
+        "text": "Whether Andres Bonifacio was actually present during the Philippine Revolution, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The total monetary budget spent on buying gunpowder from American merchants."
+        "text": "The total monetary budget spent on buying gunpowder from American merchants, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -295,7 +295,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The total abolition of all municipal taxation."
+        "text": "The total abolition of all municipal taxation, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A title of absolute private real estate ownership over the physical soil."
+        "text": "A title of absolute private real estate ownership over the physical soil, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A public agricultural college established to train native farmers in sugar refining."
+        "text": "A public agricultural college established to train native farmers in sugar refining, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A commercial trading ship operating between Manila and Acapulco."
+        "text": "A commercial trading ship operating between Manila and Acapulco, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -358,7 +358,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A tithe paid exclusively to local municipal parish priests."
+        "text": "A tithe paid exclusively to local municipal parish priests, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A head tax paid annually to obtain a personal identification document."
+        "text": "A head tax paid annually to obtain a personal identification document, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "A direct tax on imported Chinese porcelain and Mexican silver coins."
+        "text": "A direct tax on imported Chinese porcelain and Mexican silver coins, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -408,15 +408,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The bill would increase national public debt and inflation rates."
+        "text": "The bill would increase national public debt and inflation rates, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Rizal had advocated for the annexation of the Philippines by the British Empire."
+        "text": "Rizal had advocated for the annexation of the Philippines by the British Empire, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The novels were written in outdated Spanish prose that students could not read."
+        "text": "The novels were written in outdated Spanish prose that students could not read, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Los herederos del Imperio Romano'."
+        "text": "'Los herederos del Imperio Romano', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "'Los siervos obedientes de la Iglesia'."
+        "text": "'Los siervos obedientes de la Iglesia', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Los bravos soldados de la Corona'."
+        "text": "'Los bravos soldados de la Corona', operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To translate British constitutional law into Tagalog dialect."
+        "text": "To translate British constitutional law into Tagalog dialect, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "To write a military manual for immediate armed uprising in Manila."
+        "text": "To write a military manual for immediate armed uprising in Manila, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "To secure a lucrative commercial publishing copyright from English merchants."
+        "text": "To secure a lucrative commercial publishing copyright from English merchants, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "An immutable genetic defect inherited from ancient ancestors."
+        "text": "An immutable genetic defect inherited from ancient ancestors, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A myth invented entirely by British travelers in the 19th century."
+        "text": "A myth invented entirely by British travelers in the 19th century, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "A temporary physical illness caused by drinking impure well water."
+        "text": "A temporary physical illness caused by drinking impure well water, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Be peacefully purchased by the German Empire for agricultural trade."
+        "text": "Be peacefully purchased by the German Empire for agricultural trade, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Voluntarily merge into the British Raj in India."
+        "text": "Voluntarily merge into the British Raj in India, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Return permanently to pre-colonial tribal sultanates."
+        "text": "Return permanently to pre-colonial tribal sultanates, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Women should avoid learning Spanish to preserve indigenous tribal dialects."
+        "text": "Women should avoid learning Spanish to preserve indigenous tribal dialects, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Women must surrender all property titles to local monastic parish priests."
+        "text": "Women must surrender all property titles to local monastic parish priests, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Women should remain strictly confined to domestic kitchen chores and silent prayer."
+        "text": "Women should remain strictly confined to domestic kitchen chores and silent prayer, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "To the Spanish Governor-General Emilio Terrero."
+        "text": "To the Spanish Governor-General Emilio Terrero, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "To the three secular martyr priests."
+        "text": "To the three secular martyr priests, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "To his European ophthalmology professors in Heidelberg."
+        "text": "To his European ophthalmology professors in Heidelberg, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Spanish Queen Regent Maria Cristina."
+        "text": "The Spanish Queen Regent Maria Cristina, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The Katipunan supreme council headed by Andres Bonifacio."
+        "text": "The Katipunan supreme council headed by Andres Bonifacio, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The Filipino student community in Barcelona."
+        "text": "The Filipino student community in Barcelona, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The radical revolutionary advocating violent armed terrorism."
+        "text": "The radical revolutionary advocating violent armed terrorism, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The uneducated peasant driven to banditry by friar landgrabbing."
+        "text": "The uneducated peasant driven to banditry by friar landgrabbing, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "The hypocritical native who mimics Spanish high society."
+        "text": "The hypocritical native who mimics Spanish high society, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The wealthy collaborator class seeking colonial titles."
+        "text": "The wealthy collaborator class seeking colonial titles, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The pious church devotee blindly following friar decrees."
+        "text": "The pious church devotee blindly following friar decrees, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The corrupt secular municipal police force."
+        "text": "The corrupt secular municipal police force, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The secular scientific academic researcher."
+        "text": "The secular scientific academic researcher, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The fierce indigenous warrior chieftain leading armed revolts."
+        "text": "The fierce indigenous warrior chieftain leading armed revolts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The modern commercial businesswoman in urban Manila."
+        "text": "The modern commercial businesswoman in urban Manila, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The wealthy Spanish peninsulares living in Intramuros."
+        "text": "The wealthy Spanish peninsulares living in Intramuros, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The corrupt municipal tax collectors."
+        "text": "The corrupt municipal tax collectors, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The secularized university faculty."
+        "text": "The secularized university faculty based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Open an accredited vocational high school in San Diego."
+        "text": "Open an accredited vocational high school in San Diego, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Reconcile peacefully with Padre Damaso and marry Maria Clara in Spain."
+        "text": "Reconcile peacefully with Padre Damaso and marry Maria Clara in Spain, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Surrender his fortune to the Royal Audiencia in Manila."
+        "text": "Surrender his fortune to the Royal Audiencia in Manila, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filipinos should permanently remain loyal colonial subjects of the Spanish Crown."
+        "text": "Filipinos should permanently remain loyal colonial subjects of the Spanish Crown, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Wealth and gold can purchase sovereign independence from international banks."
+        "text": "Wealth and gold can purchase sovereign independence from international banks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Violent assassinations and chemical bombs are the only guaranteed path to democracy."
+        "text": "Violent assassinations and chemical bombs are the only guaranteed path to democracy, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Serving as the municipal mayor under the Spanish colonial army."
+        "text": "Serving as the municipal mayor under the Spanish colonial army, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Organizing an armed naval assault against the Spanish fleet in Manila."
+        "text": "Organizing an armed naval assault against the Spanish fleet in Manila, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Publishing commercial mining stocks in Madrid stock exchanges."
+        "text": "Publishing commercial mining stocks in Madrid stock exchanges, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -795,7 +795,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Gallus rizali, Sus rizali, and Cervus rizali."
+        "text": "Gallus rizali, Sus rizali, and Cervus rizali, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The inner lining of his leather boots."
+        "text": "The inner lining of his leather boots, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The pocket of his woolen overcoat."
+        "text": "The pocket of his woolen overcoat, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A hollowed-out Spanish dictionary."
+        "text": "A hollowed-out Spanish dictionary based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Spanish Crown destroyed all colonial archives in 1898."
+        "text": "The Spanish Crown destroyed all colonial archives in 1898, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "No Spanish friars ever visited Rizal in Fort Santiago."
+        "text": "No Spanish friars ever visited Rizal in Fort Santiago, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rizal was publicly executed by hanging in London instead of Manila."
+        "text": "Rizal was publicly executed by hanging in London instead of Manila, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Pax Romana', aiming to restore medieval monastic feudalism."
+        "text": "'Pax Romana', aiming to restore medieval monastic feudalism, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'Viva Espana', aiming to assimilate the Philippines into a Spanish province."
+        "text": "'Viva Espana', aiming to assimilate the Philippines into a Spanish province, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "'Kalayaan o Kamatayan', aiming for immediate armed insurrection."
+        "text": "'Kalayaan o Kamatayan', aiming for immediate armed insurrection, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Federal Party of the Philippines."
+        "text": "The Federal Party of the Philippines, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The National Democratic Movement."
+        "text": "The National Democratic Movement based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "The Philippine Independent Church."
+        "text": "The Philippine Independent Church based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -933,11 +933,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The unconditional expulsion of all Chinese merchants from Southeast Asia."
+        "text": "The unconditional expulsion of all Chinese merchants from Southeast Asia, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The permanent re-establishment of the Manila-Acapulco Galleon Trade."
+        "text": "The permanent re-establishment of the Manila-Acapulco Galleon Trade, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate armed military invasion of Madrid by Filipino guerrillas."
+        "text": "Immediate armed military invasion of Madrid by Filipino guerrillas, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The dissolution of the First Philippine Republic."
+        "text": "The dissolution of the First Philippine Republic, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The signing of the Treaty of Paris ending the Spanish-American War."
+        "text": "The signing of the Treaty of Paris ending the Spanish-American War, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The unconditional surrender of all Filipino revolutionary forces to Spain."
+        "text": "The unconditional surrender of all Filipino revolutionary forces to Spain, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Spain granted complete sovereign independence to the Philippine archipelago."
+        "text": "Spain granted complete sovereign independence to the Philippine archipelago, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The United States annexed the Philippines as an unincorporated territory."
+        "text": "The United States annexed the Philippines as an unincorporated territory, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Andres Bonifacio was reinstated as Supreme Leader of the Katipunan."
+        "text": "Andres Bonifacio was reinstated as Supreme Leader of the Katipunan, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Emilio Aguinaldo."
+        "text": "Emilio Aguinaldo, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Apolinario Mabini."
+        "text": "Apolinario Mabini, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Felipe Agoncillo."
+        "text": "Felipe Agoncillo, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1108,15 +1108,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filipino revolutionary troops shelled the American naval fleet in Subic Bay."
+        "text": "Filipino revolutionary troops shelled the American naval fleet in Subic Bay, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "General Douglas MacArthur invaded Lingayen Gulf."
+        "text": "General Douglas MacArthur invaded Lingayen Gulf, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "President William McKinley was assassinated in Washington, D.C."
+        "text": "President William McKinley was assassinated in Washington, D.C, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sign an armistice agreement with General Elwell Otis."
+        "text": "Sign an armistice agreement with General Elwell Otis, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Rescue captured Spanish friars held in Isabela."
+        "text": "Rescue captured Spanish friars held in Isabela, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Capture the American naval supply fleet anchored in Ilocos Sur."
+        "text": "Capture the American naval supply fleet anchored in Ilocos Sur, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filipino reformist diplomats from the Hong Kong junta."
+        "text": "Filipino reformist diplomats from the Hong Kong junta, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "General Arthur MacArthur leading a direct cavalry charge."
+        "text": "General Arthur MacArthur leading a direct cavalry charge, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Commodore George Dewey using naval battleship bombardments."
+        "text": "Commodore George Dewey using naval battleship bombardments, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1208,15 +1208,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Importing American manufactured goods into Manila ports."
+        "text": "Importing American manufactured goods into Manila ports, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Teaching English language courses in public elementary schools."
+        "text": "Teaching English language courses in public elementary schools, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Refusing to pay municipal property taxes."
+        "text": "Refusing to pay municipal property taxes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The manufacture of cotton textiles in Ilocos provinces."
+        "text": "The manufacture of cotton textiles in Ilocos provinces, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The printing of Spanish language newspapers."
+        "text": "The printing of Spanish language newspapers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The flying of the American Stars and Stripes over government buildings."
+        "text": "The flying of the American Stars and Stripes over government buildings, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "English would be replaced by Tagalog as the sole official language of administration."
+        "text": "English would be replaced by Tagalog as the sole official language of administration, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The Philippines would become a permanent 51st state of the American Union."
+        "text": "The Philippines would become a permanent 51st state of the American Union, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Filipinos would be granted full citizenship rights inside mainland USA."
+        "text": "Filipinos would be granted full citizenship rights inside mainland USA, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Immediate unconditional independence within 24 hours of signing."
+        "text": "Immediate unconditional independence within 24 hours of signing, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The permanent annexation of Mindanao as an American territory."
+        "text": "The permanent annexation of Mindanao as an American territory, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The abolition of all Philippine military and police forces."
+        "text": "The abolition of all Philippine military and police forces, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1333,11 +1333,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ilocano."
+        "text": "Ilocano based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "Hiligaynon."
+        "text": "Hiligaynon based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Cebuano."
+        "text": "Cebuano based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "C",
@@ -1487,15 +1487,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Massive militarization and martial law across all provinces."
+        "text": "Massive militarization and martial law across all provinces, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Total alignment with Soviet communist satellite states."
+        "text": "Total alignment with Soviet communist satellite states, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Banning all foreign investments in Philippine agriculture."
+        "text": "Banning all foreign investments in Philippine agriculture, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Foreign multinational monopolies over local cooperative guilds."
+        "text": "Foreign multinational monopolies over local cooperative guilds, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Agricultural crop export monopolies owned by colonial landlords."
+        "text": "Agricultural crop export monopolies owned by colonial landlords, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The complete privatization of all national public schools."
+        "text": "The complete privatization of all national public schools, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Spain requested the change during a diplomatic summit in Madrid."
+        "text": "Spain requested the change during a diplomatic summit in Madrid, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "June 12 coincided with the harvest of the national agricultural crop."
+        "text": "June 12 coincided with the harvest of the national agricultural crop, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "July 4 had zero historical documentation in American colonial records."
+        "text": "July 4 had zero historical documentation in American colonial records, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1595,7 +1595,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The total destruction of the central banking currency vaults."
+        "text": "The total destruction of the central banking currency vaults, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The concentration of absolute lifetime power in the executive office."
+        "text": "The concentration of absolute lifetime power in the executive office, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The total abolition of the Supreme Court and legislative branches."
+        "text": "The total abolition of the Supreme Court and legislative branches, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The permanent re-establishment of royal aristocratic titles."
+        "text": "The permanent re-establishment of royal aristocratic titles, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rote agricultural manual labor in colonial sugar plantations."
+        "text": "Rote agricultural manual labor in colonial sugar plantations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Commercial banking and international currency speculation."
+        "text": "Commercial banking and international currency speculation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Purely military naval strategy without academic coursework."
+        "text": "Purely military naval strategy without academic coursework, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The tuition fees were paid in Mexican silver coins."
+        "text": "The tuition fees were paid in Mexican silver coins, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The university prohibited the reading of Latin textbooks."
+        "text": "The university prohibited the reading of Latin textbooks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The campus was located in Madrid rather than Manila."
+        "text": "The campus was located in Madrid rather than Manila, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1708,15 +1708,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It was a secret military organization dedicated to manufacturing firearms."
+        "text": "It was a secret military organization dedicated to manufacturing firearms, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "It offered guaranteed financial stipends to international university students."
+        "text": "It offered guaranteed financial stipends to international university students, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "It was mandatory for obtaining a European medical license."
+        "text": "It was mandatory for obtaining a European medical license, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Manufacture glass lenses for military sniper rifles."
+        "text": "Manufacture glass lenses for military sniper rifles, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Secure an appointment as royal physician to the Spanish monarchy."
+        "text": "Secure an appointment as royal physician to the Spanish monarchy, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1758,7 +1758,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The poem was officially signed by Andres Bonifacio in 1896."
+        "text": "The poem was officially signed by Andres Bonifacio in 1896, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rizal never learned to speak or write the Tagalog language."
+        "text": "Rizal never learned to speak or write the Tagalog language, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The original manuscript was written in ancient German gothic script."
+        "text": "The original manuscript was written in ancient German gothic script, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Encouraging him to avoid reading books to prevent eyesight strain."
+        "text": "Encouraging him to avoid reading books to prevent eyesight strain, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Forcing him to pursue a career as a Spanish naval officer."
+        "text": "Forcing him to pursue a career as a Spanish naval officer, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Demanding that he enter a monastic cloistered monastery in Rome."
+        "text": "Demanding that he enter a monastic cloistered monastery in Rome, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A demand that all Calamba farms be sold to British tea merchants."
+        "text": "A demand that all Calamba farms be sold to British tea merchants, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A request that the Spanish government build a military base on Mt. Makiling."
+        "text": "A request that the Spanish government build a military base on Mt. Makiling, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "An apology to the friars for delays in paying harvest tributes."
+        "text": "An apology to the friars for delays in paying harvest tributes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Patria Adorada!'."
+        "text": "'Patria Adorada!' based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "'Libertad o Muerte!'."
+        "text": "'Libertad o Muerte!' based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'Viva Espana!'."
+        "text": "'Viva Espana!' based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "He was appointed Governor-General of the Philippines by the Spanish Cortes."
+        "text": "He was appointed Governor-General of the Philippines by the Spanish Cortes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const RIZAL_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "He possessed the largest personal military army in Southeast Asia."
+        "text": "He possessed the largest personal military army in Southeast Asia, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "He signed the Treaty of Paris that purchased the Philippine islands."
+        "text": "He signed the Treaty of Paris that purchased the Philippine islands, operating under conventional assumptions and standard institutional guidelines, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",

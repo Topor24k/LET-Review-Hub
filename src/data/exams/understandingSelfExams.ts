@@ -8,15 +8,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Passive obedience to prevailing aristocratic social conventions."
+        "text": "Passive obedience to prevailing aristocratic social conventions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Accumulating immense material fortunes through trade monopolies."
+        "text": "Accumulating immense material fortunes through trade monopolies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Memorizing astrological horoscopes to determine destiny."
+        "text": "Memorizing astrological horoscopes to determine destiny, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -33,7 +33,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Id, Ego, and Superego."
+        "text": "Id, Ego, and Superego, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -58,7 +58,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A temporary illusion created by social conventions."
+        "text": "A temporary illusion created by social conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -70,7 +70,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A tabula rasa devoid of any spiritual essence."
+        "text": "A tabula rasa devoid of any spiritual essence, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Empirical observation of external physical biological anatomy."
+        "text": "Empirical observation of external physical biological anatomy, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Consulting ancient monarchical legal decrees."
+        "text": "Consulting ancient monarchical legal decrees, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Measuring electrical neural impulses with laboratory instruments."
+        "text": "Measuring electrical neural impulses with laboratory instruments, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -116,7 +116,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Hereditary aristocratic bloodlines."
+        "text": "Hereditary aristocratic bloodlines, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The self is created entirely by formal constitutional legislation."
+        "text": "The self is created entirely by formal constitutional legislation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The self is an innate mathematical blueprint present before birth."
+        "text": "The self is an innate mathematical blueprint present before birth, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The self is an immortal, indivisible spiritual diamond inside the brain."
+        "text": "The self is an immortal, indivisible spiritual diamond inside the brain, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An imaginary fiction with zero organizing function."
+        "text": "An imaginary fiction with zero organizing function, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A passive mirror that mechanically reflects physical light rays."
+        "text": "A passive mirror that mechanically reflects physical light rays, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "A collection of totally random chemical reactions in the bloodstream."
+        "text": "A collection of totally random chemical reactions in the bloodstream, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -187,15 +187,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "An ethereal phantom residing inside the pineal gland."
+        "text": "An ethereal phantom residing inside the pineal gland, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A divine spark trapped within corrupt physical flesh."
+        "text": "A divine spark trapped within corrupt physical flesh, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "An unchanging spiritual substance separate from physical matter."
+        "text": "An unchanging spiritual substance separate from physical matter, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The body is merely a disposable vehicle for a detached intellectual spirit."
+        "text": "The body is merely a disposable vehicle for a detached intellectual spirit, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The mind exists exclusively in external digital computer cloud servers."
+        "text": "The mind exists exclusively in external digital computer cloud servers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Physical sensations are completely irrelevant to human self-consciousness."
+        "text": "Physical sensations are completely irrelevant to human self-consciousness, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The 'I' is the conscious mind, while the 'Me' is the subconscious id."
+        "text": "The 'I' is the conscious mind, while the 'Me' is the subconscious id, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The 'I' is the legal citizen, while the 'Me' is the political leader."
+        "text": "The 'I' is the legal citizen, while the 'Me' is the political leader, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The 'I' is the physical body, while the 'Me' is the digital avatar."
+        "text": "The 'I' is the physical body, while the 'Me' is the digital avatar, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The imaginary fantasy persona created during solo play."
+        "text": "The imaginary fantasy persona created during solo play, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The rules of a specific single board game played at home."
+        "text": "The rules of a specific single board game played at home, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The direct command of an individual biological mother."
+        "text": "The direct command of an individual biological mother, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Looking at our physical reflection in bathroom glass mirrors every morning."
+        "text": "Looking at our physical reflection in bathroom glass mirrors every morning, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Reading daily astrological horoscope columns in newspapers."
+        "text": "Reading daily astrological horoscope columns in newspapers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Undergoing standardized computer personality aptitude tests."
+        "text": "Undergoing standardized computer personality aptitude tests, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Egocentric refers to criminal selfishness, while Sociocentric refers to state communism."
+        "text": "Egocentric refers to criminal selfishness, while Sociocentric refers to state communism, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Egocentric means living in rural areas, while Sociocentric means living in urban cities."
+        "text": "Egocentric means living in rural areas, while Sociocentric means living in urban cities, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Egocentric relies on biological instincts, while Sociocentric relies on digital algorithms."
+        "text": "Egocentric relies on biological instincts, while Sociocentric relies on digital algorithms, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -337,7 +337,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The Primary, Secondary, and Tertiary Self."
+        "text": "The Primary, Secondary, and Tertiary Self, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -458,7 +458,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The unconscious masculine archetype in a woman."
+        "text": "The unconscious masculine archetype in a woman, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The hidden, repressed, dark, and animalistic aspects of the self."
+        "text": "The hidden, repressed, dark, and animalistic aspects of the self, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The unconscious feminine archetype in a man."
+        "text": "The unconscious feminine archetype in a man, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The public resume used for corporate employment."
+        "text": "The public resume used for corporate employment, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The conscious mathematical reasoning faculty."
+        "text": "The conscious mathematical reasoning faculty, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The biological circadian rhythm of sleep cycles."
+        "text": "The biological circadian rhythm of sleep cycles, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An individual's overall emotional feeling of global self-worth."
+        "text": "An individual's overall emotional feeling of global self-worth, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "A person's genetic intelligence quotient score."
+        "text": "A person's genetic intelligence quotient score, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The total monetary value of one's accumulated assets."
+        "text": "The total monetary value of one's accumulated assets, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -558,7 +558,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pre-programmed biological automatons with zero cognitive choice."
+        "text": "Pre-programmed biological automatons with zero cognitive choice, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passive pawns driven mechanically by unconscious biological instincts."
+        "text": "Passive pawns driven mechanically by unconscious biological instincts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Helpless victims completely controlled by external environmental stimuli."
+        "text": "Helpless victims completely controlled by external environmental stimuli, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -633,11 +633,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "One's occupational career choice in the corporate workforce."
+        "text": "One's occupational career choice in the corporate workforce, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "One's physical blood type and metabolic rate."
+        "text": "One's physical blood type and metabolic rate, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "One's legal tax bracket registered with municipal authorities."
+        "text": "One's legal tax bracket registered with municipal authorities, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A person's dietary preference regarding organic nutrition."
+        "text": "A person's dietary preference regarding organic nutrition, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A temporary legal contract signed during marriage ceremonies."
+        "text": "A temporary legal contract signed during marriage ceremonies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "An individual's formal political affiliation during national elections."
+        "text": "An individual's formal political affiliation during national elections, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mandatory state-imposed limits of only one child per family."
+        "text": "Mandatory state-imposed limits of only one child per family, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Commercial surrogacy contracts for foreign tourists."
+        "text": "Commercial surrogacy contracts for foreign tourists, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Automatic surgical sterilization for all high school graduates."
+        "text": "Automatic surgical sterilization for all high school graduates, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The human body can stretch physically through daily yoga exercises."
+        "text": "The human body can stretch physically through daily yoga exercises, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Personal bank accounts belong entirely to the national state."
+        "text": "Personal bank accounts belong entirely to the national state, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Digital computers will eventually replace human biological brains."
+        "text": "Digital computers will eventually replace human biological brains, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -787,15 +787,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "By winning physical lotteries, inheriting royal titles, and hoarding rare jewels."
+        "text": "By winning physical lotteries, inheriting royal titles, and hoarding rare jewels, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "By achieving absolute military conquest, political power, and celebrity fame."
+        "text": "By achieving absolute military conquest, political power, and celebrity fame, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "By sleeping 14 hours daily, avoiding all human work, and consuming luxury sweets."
+        "text": "By sleeping 14 hours daily, avoiding all human work, and consuming luxury sweets, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Requires mandatory weekly attendance at a specific registered tax-exempt church."
+        "text": "Requires mandatory weekly attendance at a specific registered tax-exempt church, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Is strictly prohibited in all democratic secular constitutions."
+        "text": "Is strictly prohibited in all democratic secular constitutions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Pertains exclusively to ancient medieval monastic asceticism."
+        "text": "Pertains exclusively to ancient medieval monastic asceticism, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Total indifference to national economic issues and civic elections."
+        "text": "Total indifference to national economic issues and civic elections, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Surrendering all Philippine territorial sovereign waters without protest."
+        "text": "Surrendering all Philippine territorial sovereign waters without protest, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Blind, unquestioning obedience to local dynastic political warlords."
+        "text": "Blind, unquestioning obedience to local dynastic political warlords, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pakikisama."
+        "text": "Pakikisama based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Hiya."
+        "text": "Hiya based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "Utang na Loob."
+        "text": "Utang na Loob based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Pakikitungo."
+        "text": "Pakikitungo based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
-        "text": "Pakikisalamuha."
+        "text": "Pakikisalamuha based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "Pakikibagay."
+        "text": "Pakikibagay based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Publishing raw, unedited CCTV security camera feeds of their bedrooms 24/7."
+        "text": "Publishing raw, unedited CCTV security camera feeds of their bedrooms 24/7, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Deleting all personal electronic communication devices permanently."
+        "text": "Deleting all personal electronic communication devices permanently, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Using only encrypted military command codes for social messaging."
+        "text": "Using only encrypted military command codes for social messaging, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The physical electromagnetic radiation emitted by computer screens."
+        "text": "The physical electromagnetic radiation emitted by computer screens, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Standard corporate computer typing software requirements."
+        "text": "Standard corporate computer typing software requirements, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Increased biological oxygen flow to the frontal cerebral cortex."
+        "text": "Increased biological oxygen flow to the frontal cerebral cortex, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stealing credit card credentials through phishing websites."
+        "text": "Stealing credit card credentials through phishing websites, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Hacking municipal power grids to cause blackouts."
+        "text": "Hacking municipal power grids to cause blackouts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Spamming commercial advertising in academic research forums."
+        "text": "Spamming commercial advertising in academic research forums, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1012,11 +1012,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Visual Perception and Auditory Reception."
+        "text": "Visual Perception and Auditory Reception, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Verbal IQ and Non-Verbal Performance IQ."
+        "text": "Verbal IQ and Non-Verbal Performance IQ, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1037,7 +1037,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Instinctual genetic reflex."
+        "text": "Instinctual genetic reflex, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rote passive memorization."
+        "text": "Rote passive memorization, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stimulus, Organism, and Response."
+        "text": "Stimulus, Organism, and Response, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1066,7 +1066,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Input, Processing, and Output."
+        "text": "Input, Processing, and Output, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1087,15 +1087,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Intelligence is fixed at birth and cannot be altered by practice."
+        "text": "Intelligence is fixed at birth and cannot be altered by practice, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Effort is useless because only innate natural genius produces success."
+        "text": "Effort is useless because only innate natural genius produces success, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Failure indicates permanent personal inadequacy and should be hidden."
+        "text": "Failure indicates permanent personal inadequacy and should be hidden, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1133,11 +1133,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Measuring environmental air temperature during an emergency."
+        "text": "Measuring environmental air temperature during an emergency, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Calculating the compound interest on a personal bank loan."
+        "text": "Calculating the compound interest on a personal bank loan, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Determining whether the original event was dangerous in the first place."
+        "text": "Determining whether the original event was dangerous in the first place, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1208,15 +1208,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Shock, Recovery, and Euphoria."
+        "text": "Shock, Recovery, and Euphoria based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "Denial, Anger, and Acceptance."
+        "text": "Denial, Anger, and Acceptance based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
-        "text": "Fight, Flight, and Freeze."
+        "text": "Fight, Flight, and Freeze based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Permanent elevation of resting basal metabolic efficiency."
+        "text": "Permanent elevation of resting basal metabolic efficiency, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Spontaneous biological rejuvenation of vital organs."
+        "text": "Spontaneous biological rejuvenation of vital organs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate physical invulnerability to all bacterial pathogens."
+        "text": "Immediate physical invulnerability to all bacterial pathogens, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1291,7 +1291,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Id, Ego, Superego, Libido, and Thanatos."
+        "text": "Id, Ego, Superego, Libido, and Thanatos, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1337,7 +1337,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Standard, Modern, Advanced, Rapid, and Technical."
+        "text": "Standard, Modern, Advanced, Rapid, and Technical, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1358,7 +1358,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Listening to loud rock music while memorizing mathematical formulas."
+        "text": "Listening to loud rock music while memorizing mathematical formulas, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Studying continuously for 8 hours without drinking water or eating."
+        "text": "Studying continuously for 8 hours without drinking water or eating, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Sleeping for 25 minutes after every 5 minutes of light reading."
+        "text": "Sleeping for 25 minutes after every 5 minutes of light reading, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The complete destruction of short-term memory storage networks."
+        "text": "The complete destruction of short-term memory storage networks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The total genetic mutation of cardiovascular blood vessels."
+        "text": "The total genetic mutation of cardiovascular blood vessels, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The permanent shutdown of sensory auditory processing pathways."
+        "text": "The permanent shutdown of sensory auditory processing pathways, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ancient astrological celestial alignments."
+        "text": "Ancient astrological celestial alignments based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "B",
-        "text": "Medieval theological demonology manuals."
+        "text": "Medieval theological demonology manuals based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
-        "text": "Unregulated commercial advertising campaigns."
+        "text": "Unregulated commercial advertising campaigns based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'The physical brain is an illusion produced by computer programming.'."
+        "text": "'The physical brain is an illusion produced by computer programming.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "'The mind exists in outer space while the body exists on earth.'."
+        "text": "'The mind exists in outer space while the body exists on earth.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'The body is an evil prison from which the intellect must escape through fasting.'."
+        "text": "'The body is an evil prison from which the intellect must escape through fasting.', adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Step 0: Taking a physical photograph of oneself."
+        "text": "Step 0: Taking a physical photograph of oneself, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1466,7 +1466,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Step 1: Imagining our appearance to the other person."
+        "text": "Step 1: Imagining our appearance to the other person, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1487,15 +1487,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The public podium where a keynote address is broadcast live on television."
+        "text": "The public podium where a keynote address is broadcast live on television, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The formal job interview room where a resume is scrutinized."
+        "text": "The formal job interview room where a resume is scrutinized, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The classroom where a teacher delivers an official lecture."
+        "text": "The classroom where a teacher delivers an official lecture, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1508,7 +1508,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Trust vs Mistrust."
+        "text": "Trust vs Mistrust, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1533,7 +1533,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Moratorium."
+        "text": "Moratorium, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1608,15 +1608,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total financial savings in an individual's emergency fund."
+        "text": "The total financial savings in an individual's emergency fund, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The physical beauty score rated by social media followers."
+        "text": "The physical beauty score rated by social media followers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "An individual's chronological biological age."
+        "text": "An individual's chronological biological age, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Human life is pre-determined by astrological zodiac positions."
+        "text": "Human life is pre-determined by astrological zodiac positions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "All events are randomized quantum anomalies."
+        "text": "All events are randomized quantum anomalies, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Their lives are controlled entirely by luck, fate, powerful external authorities, or chance."
+        "text": "Their lives are controlled entirely by luck, fate, powerful external authorities, or chance, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1687,15 +1687,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Food, Clothing, and Shelter."
+        "text": "Food, Clothing, and Shelter, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Money, Fame, and Authority."
+        "text": "Money, Fame, and Authority, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Id, Ego, and Superego."
+        "text": "Id, Ego, and Superego, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1716,7 +1716,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Amotivation."
+        "text": "Amotivation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A person experiences intense panic from an impossible task with zero skill."
+        "text": "A person experiences intense panic from an impossible task with zero skill, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "An individual sleeps soundly for eight hours."
+        "text": "An individual sleeps soundly for eight hours, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A person feels extreme boredom from a task that is too easy."
+        "text": "A person feels extreme boredom from a task that is too easy, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1787,15 +1787,15 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Ignore all suffering by engaging in relentless hedonistic escapism."
+        "text": "Ignore all suffering by engaging in relentless hedonistic escapism, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Believe that physical accidents never occur in human life."
+        "text": "Believe that physical accidents never occur in human life, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Surrender completely to nihilistic despair."
+        "text": "Surrender completely to nihilistic despair, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1833,11 +1833,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Immediate biological immunity to seasonal viral infections."
+        "text": "Immediate biological immunity to seasonal viral infections, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Spontaneous elevation of standardized math test percentiles."
+        "text": "Spontaneous elevation of standardized math test percentiles, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Instantaneous enhancement of digital graphic design competence."
+        "text": "Instantaneous enhancement of digital graphic design competence, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Chronic failure in interpersonal friendships."
+        "text": "Chronic failure in interpersonal friendships, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const UNDERSTANDING_SELF_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe cognitive decline and memory loss in teenage years."
+        "text": "Severe cognitive decline and memory loss in teenage years, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Total inability to make executive decisions in the workplace."
+        "text": "Total inability to make executive decisions in the workplace, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",

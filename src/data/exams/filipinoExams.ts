@@ -8,15 +8,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ang wikang pambansa ay Tagalog lamang at hindi dapat baguhin kailanman."
+        "text": "Ang wikang pambansa ay Tagalog lamang at hindi dapat baguhin kailanman, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
-        "text": "Ang wikang pambansa ay Ingles upang mapalakas ang pakikipagkalakalan sa ibang bansa."
+        "text": "Ang wikang pambansa ay Ingles upang mapalakas ang pakikipagkalakalan sa ibang bansa, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Ang wikang pambansa ay Kastila batay sa tradisyong kolonyal."
+        "text": "Ang wikang pambansa ay Kastila batay sa tradisyong kolonyal, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
@@ -33,11 +33,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Filipino at Cebuano."
+        "text": "Filipino at Cebuano batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "B",
-        "text": "Ingles at Kastila lamang."
+        "text": "Ingles at Kastila lamang batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Tagalog at Kastila."
+        "text": "Tagalog at Kastila batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Salitang-ugat, Panlapi, at Kataga."
+        "text": "Salitang-ugat, Panlapi, at Kataga, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Patinig, Katinig, at Diptonggo."
+        "text": "Patinig, Katinig, at Diptonggo, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
-        "text": "Simuno, Panaguri, at Kaganapan."
+        "text": "Simuno, Panaguri, at Kaganapan, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       }
     ],
     "correctAnswer": "B",
@@ -270,7 +270,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Metatesis."
+        "text": "Metatesis, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       }
     ],
     "correctAnswer": "B",
@@ -308,15 +308,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Metatesis."
+        "text": "Metatesis, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
-        "text": "Asimilasyon."
+        "text": "Asimilasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Pagsusudlong."
+        "text": "Pagsusudlong, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
@@ -508,15 +508,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Idyolek."
+        "text": "Idyolek, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
-        "text": "Etnolek."
+        "text": "Etnolek, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Pidgin."
+        "text": "Pidgin, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
@@ -558,7 +558,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "S = Suliranin; P = Pamamaraan."
+        "text": "S = Suliranin; P = Pamamaraan, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "S = Sintaksis; P = Ponolohiya."
+        "text": "S = Sintaksis; P = Ponolohiya, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "S = Simuno; P = Panaguri."
+        "text": "S = Simuno; P = Panaguri, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "B",
@@ -612,11 +612,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Kakayahang Diskorsal."
+        "text": "Kakayahang Diskorsal, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Kakayahang Istratedyik."
+        "text": "Kakayahang Istratedyik, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
@@ -908,15 +908,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mabilis manuntok sa away."
+        "text": "Mabilis manuntok sa away batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "B",
-        "text": "Tamad magtrabaho."
+        "text": "Tamad magtrabaho batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "C",
-        "text": "Madaling mabulag sa pera."
+        "text": "Madaling mabulag sa pera batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mabilis magalit kapag napagsasabihan."
+        "text": "Mabilis magalit kapag napagsasabihan batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "B",
-        "text": "Mahilig mamalo ng kapwa mag-aaral."
+        "text": "Mahilig mamalo ng kapwa mag-aaral, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Palaging napaparusahan sa paaralan."
+        "text": "Palaging napaparusahan sa paaralan batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mahilig magluto ng pagkaing Pilipino."
+        "text": "Mahilig magluto ng pagkaing Pilipino, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Mabangong magsalita."
+        "text": "Mabangong magsalita batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       },
       {
         "key": "D",
-        "text": "Maputi at makinis ang kutis."
+        "text": "Maputi at makinis ang kutis, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "B",
@@ -1058,7 +1058,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ang Awit ay patungkol sa mga hayop; ang Korido ay patungkol sa mga santo."
+        "text": "Ang Awit ay patungkol sa mga hayop; ang Korido ay patungkol sa mga santo, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Ang Awit ay may 8 pantig; ang Korido ay may 12 pantig."
+        "text": "Ang Awit ay may 8 pantig; ang Korido ay may 12 pantig, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Ang Awit ay walang tugma; ang Korido ay may perpektong tugma."
+        "text": "Ang Awit ay walang tugma; ang Korido ay may perpektong tugma, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Pagsalakay ng mga piratang Olandes."
+        "text": "Pagsalakay ng mga piratang Olandes, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Maling pamamahala ng mga Amerikanong sundalo."
+        "text": "Maling pamamahala ng mga Amerikanong sundalo, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Panghihimasok ng bansang Hapon."
+        "text": "Panghihimasok ng bansang Hapon batay sa tradisyonal na pamantayang panggramatika at kontekstong kultural."
       }
     ],
     "correctAnswer": "A",
@@ -1187,15 +1187,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Nakikinig lamang upang maglibang at maaliw sa musika."
+        "text": "Nakikinig lamang upang maglibang at maaliw sa musika, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Nakikinig nang may pagkaawa sa personal na suliranin ng kausap."
+        "text": "Nakikinig nang may pagkaawa sa personal na suliranin ng kausap, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Walang kamalay-malay na sumasang-ayon sa lahat ng sinasabi ng tagapagsalita."
+        "text": "Walang kamalay-malay na sumasang-ayon sa lahat ng sinasabi ng tagapagsalita, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Magpatawa at magkuwento ng mga nakakatawang anekdota."
+        "text": "Magpatawa at magkuwento ng mga nakakatawang anekdota, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
-        "text": "Magbigay lamang ng purong kahulugan mula sa diksiyonaryo."
+        "text": "Magbigay lamang ng purong kahulugan mula sa diksiyonaryo, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Magbasa ng mabilis nang walang intonasyon at emosyon."
+        "text": "Magbasa ng mabilis nang walang intonasyon at emosyon, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
@@ -1387,15 +1387,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Petsa, oras, at pook kung saan idinaos ang pulong."
+        "text": "Petsa, oras, at pook kung saan idinaos ang pulong, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Talaan ng mga dumalo at lumiban sa pulong."
+        "text": "Talaan ng mga dumalo at lumiban sa pulong, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Mga opisyal na mosyon, desisyon, at itinalagang 'action items'."
+        "text": "Mga opisyal na mosyon, desisyon, at itinalagang 'action items', na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "A",
@@ -1416,7 +1416,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Bionote."
+        "text": "Bionote, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
@@ -1487,15 +1487,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Sapagkat ang wika ay nakasulat lamang sa mga sinaunang bato."
+        "text": "Sapagkat ang wika ay nakasulat lamang sa mga sinaunang bato, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Sapagkat ang wika ay ginagamit lamang sa mga seremonya ng kasal."
+        "text": "Sapagkat ang wika ay ginagamit lamang sa mga seremonya ng kasal, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Sapagkat ang wika ay hindi maaaring magbago sa paglipas ng panahon."
+        "text": "Sapagkat ang wika ay hindi maaaring magbago sa paglipas ng panahon, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Uminom nang tubig ang uhaw na manlalaro."
+        "text": "Uminom nang tubig ang uhaw na manlalaro, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
-        "text": "Bumili nang bagong sapatos si Maria."
+        "text": "Bumili nang bagong sapatos si Maria, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Kinain nang pusa ang isda."
+        "text": "Kinain nang pusa ang isda, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Kapag ang pangungusap ay nagsisimula sa pandiwa."
+        "text": "Kapag ang pangungusap ay nagsisimula sa pandiwa, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
-        "text": "Kapag ang pangungusap ay patanong lamang."
+        "text": "Kapag ang pangungusap ay patanong lamang, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
@@ -1558,7 +1558,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mayroon siyang mabait na puso."
+        "text": "Mayroon siyang mabait na puso, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
@@ -1587,15 +1587,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Itapon sa basurahan."
+        "text": "Itapon sa basurahan, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Sunugin gamit ang apoy."
+        "text": "Sunugin gamit ang apoy, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "D",
-        "text": "Hugasan gamit ang sabon."
+        "text": "Hugasan gamit ang sabon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       }
     ],
     "correctAnswer": "A",
@@ -1633,11 +1633,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pakikipagsapalaran ng mga pirata sa Sulu."
+        "text": "Pakikipagsapalaran ng mga pirata sa Sulu, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
-        "text": "Mga alamat ng mga diwata sa kabundukan."
+        "text": "Mga alamat ng mga diwata sa kabundukan, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Romantikong pag-iibigan ng mga maharlika sa Espanya."
+        "text": "Romantikong pag-iibigan ng mga maharlika sa Espanya, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       }
     ],
     "correctAnswer": "C",
@@ -1708,15 +1708,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Buhay ng mga Pilipinong manggagawa sa Hawaii noong 1920."
+        "text": "Buhay ng mga Pilipinong manggagawa sa Hawaii noong 1920, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
-        "text": "Pananakop ng mga Ingles sa Maynila."
+        "text": "Pananakop ng mga Ingles sa Maynila, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "C",
-        "text": "Sinaunang ritwal ng mga babaylan sa Kabisayaan."
+        "text": "Sinaunang ritwal ng mga babaylan sa Kabisayaan, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
@@ -1808,15 +1808,15 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pagsasalin ng lahat ng aklat sa wikang Ingles."
+        "text": "Pagsasalin ng lahat ng aklat sa wikang Ingles, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "B",
-        "text": "Pag-aalis ng lahat ng hiram na salita sa diksiyonaryo."
+        "text": "Pag-aalis ng lahat ng hiram na salita sa diksiyonaryo, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       },
       {
         "key": "C",
-        "text": "Paglilimita sa paggamit ng Filipino sa pang-araw-araw na tsismis lamang."
+        "text": "Paglilimita sa paggamit ng Filipino sa pang-araw-araw na tsismis lamang, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
@@ -1858,7 +1858,7 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Turuan ang mga mag-aaral na umiwas sa pakikipag-usap sa mga dayuhan."
+        "text": "Turuan ang mga mag-aaral na umiwas sa pakikipag-usap sa mga dayuhan, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const FILIPINO_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Magsaulo ng mga lumang tuntunin sa gramatika nang walang aplikasyon."
+        "text": "Magsaulo ng mga lumang tuntunin sa gramatika nang walang aplikasyon, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon."
       },
       {
         "key": "D",
-        "text": "Limitahan ang komunikasyon sa loob lamang ng silid-aralan."
+        "text": "Limitahan ang komunikasyon sa loob lamang ng silid-aralan, na nakasalig sa pangkalahatang panuntunan ng lingguwistika at komunikasyon, na may kaugnayan sa opisyal na konteksto at pangkalahatang tuntunin."
       }
     ],
     "correctAnswer": "B",

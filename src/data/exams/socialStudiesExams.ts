@@ -8,15 +8,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The total elimination of all sovereign nation-states and physical borders by 2000."
+        "text": "The total elimination of all sovereign nation-states and physical borders by 2000, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "The exclusive domination of the global economy by a single corporate monopoly."
+        "text": "The exclusive domination of the global economy by a single corporate monopoly, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "A static, completed historical event that occurred during the 16th century."
+        "text": "A static, completed historical event that occurred during the 16th century, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -33,11 +33,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Transformed states in complex, contradictory, and unprecedented ways without eliminating them."
+        "text": "Transformed states in complex, contradictory, and unprecedented ways without eliminating them, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Completely reversed all international trade back to medieval feudalism."
+        "text": "Completely reversed all international trade back to medieval feudalism, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Had zero impact on traditional sovereign national boundaries."
+        "text": "Had zero impact on traditional sovereign national boundaries, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -87,15 +87,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Fund long-term infrastructure reconstruction projects in war-torn provinces."
+        "text": "Fund long-term infrastructure reconstruction projects in war-torn provinces, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Adjudicate international maritime border disputes between sovereign navies."
+        "text": "Adjudicate international maritime border disputes between sovereign navies, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Enforce global labor human rights standards in textile factories."
+        "text": "Enforce global labor human rights standards in textile factories, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -108,15 +108,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Regulate international floating currency exchange rates daily."
+        "text": "Regulate international floating currency exchange rates daily, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Impose direct trade tariffs on imported foreign agricultural products."
+        "text": "Impose direct trade tariffs on imported foreign agricultural products, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Print the official national paper currencies of sovereign states."
+        "text": "Print the official national paper currencies of sovereign states, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -158,7 +158,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Universal basic income funded by 100% corporate wealth taxes."
+        "text": "Universal basic income funded by 100% corporate wealth taxes, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Strict protectionist import quotas and state-owned corporate monopolies."
+        "text": "Strict protectionist import quotas and state-owned corporate monopolies, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The complete nationalization of all private commercial banking assets."
+        "text": "The complete nationalization of all private commercial banking assets, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -208,15 +208,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "United States, Germany, Japan, United Kingdom, and India."
+        "text": "United States, Germany, Japan, United Kingdom, and India, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "United States, Canada, Australia, France, and Germany."
+        "text": "United States, Canada, Australia, France, and Germany, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "China, India, Brazil, Russian Federation, and South Africa."
+        "text": "China, India, Brazil, Russian Federation, and South Africa, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Impose direct military blockades on sovereign naval ports."
+        "text": "Impose direct military blockades on sovereign naval ports, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Collect annual tax contributions from commercial shipping corporations."
+        "text": "Collect annual tax contributions from commercial shipping corporations, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conduct criminal prosecutions against individual citizens for international human rights crimes."
+        "text": "Conduct criminal prosecutions against individual citizens for international human rights crimes, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sovereign central banks defaulting on international bond debts."
+        "text": "Sovereign central banks defaulting on international bond debts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Corporate business monopolies violating antitrust regulations."
+        "text": "Corporate business monopolies violating antitrust regulations, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Maritime shipping insurance underwriters in contractual disputes."
+        "text": "Maritime shipping insurance underwriters in contractual disputes, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -308,15 +308,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Authoritarian military enforcement of democratic elections in member states."
+        "text": "Authoritarian military enforcement of democratic elections in member states, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Immediate expulsion of any member state experiencing economic inflation."
+        "text": "Immediate expulsion of any member state experiencing economic inflation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Mandatory adoption of a single common currency."
+        "text": "Mandatory adoption of a single common currency, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "ASEAN Monetary Union, ASEAN Military Alliance, and ASEAN Judicial Court."
+        "text": "ASEAN Monetary Union, ASEAN Military Alliance, and ASEAN Judicial Court, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "ASEAN Tourism Board, ASEAN Sports Council, and ASEAN Telecom Grid."
+        "text": "ASEAN Tourism Board, ASEAN Sports Council, and ASEAN Telecom Grid, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "ASEAN Agricultural League, ASEAN Industrial Guild, and ASEAN Maritime Fleet."
+        "text": "ASEAN Agricultural League, ASEAN Industrial Guild, and ASEAN Maritime Fleet, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A common environmental tax imposed on foreign tourism flights."
+        "text": "A common environmental tax imposed on foreign tourism flights, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A military defense mutual pact establishing a unified Asian army."
+        "text": "A military defense mutual pact establishing a unified Asian army, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "A treaty banning all agricultural commerce across the Pacific Ocean."
+        "text": "A treaty banning all agricultural commerce across the Pacific Ocean, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Hemispheric latitude above and below the physical equator."
+        "text": "Hemispheric latitude above and below the physical equator, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "The presence or absence of active volcanic mountain ranges."
+        "text": "The presence or absence of active volcanic mountain ranges, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "The official linguistic adoption of Spanish or English."
+        "text": "The official linguistic adoption of Spanish or English, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The innate genetic laziness of tropical populations."
+        "text": "The innate genetic laziness of tropical populations, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The complete refusal of developing nations to trade in global markets."
+        "text": "The complete refusal of developing nations to trade in global markets, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "A chronic shortage of physical silver and gold coinage."
+        "text": "A chronic shortage of physical silver and gold coinage, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -458,7 +458,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cultural exchange is mathematically impossible across geographic borders."
+        "text": "Cultural exchange is mathematically impossible across geographic borders, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Local cultures are completely erased within 48 hours of television broadcasts."
+        "text": "Local cultures are completely erased within 48 hours of television broadcasts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Audiences passively absorb foreign media messages without any interpretation."
+        "text": "Audiences passively absorb foreign media messages without any interpretation, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "All local culinary traditions are replaced by identical canned goods."
+        "text": "All local culinary traditions are replaced by identical canned goods, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "National governments completely ban all imported foreign media."
+        "text": "National governments completely ban all imported foreign media, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Companies sell products exclusively within their city of origin."
+        "text": "Companies sell products exclusively within their city of origin, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -533,11 +533,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing all global religious scriptures with corporate marketing manuals."
+        "text": "Replacing all global religious scriptures with corporate marketing manuals, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Forcing all individuals to adopt atheism."
+        "text": "Forcing all individuals to adopt atheism, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Banning all religious practices across all United Nations member states."
+        "text": "Banning all religious practices across all United Nations member states, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The construction of municipal public library buildings."
+        "text": "The construction of municipal public library buildings, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The introduction of renewable solar panel electricity."
+        "text": "The introduction of renewable solar panel electricity, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The translation of religious scriptures into modern print fonts."
+        "text": "The translation of religious scriptures into modern print fonts, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "High birth rates and high death rates resulting in stable population."
+        "text": "High birth rates and high death rates resulting in stable population, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Falling birth rates and low death rates slowing population growth."
+        "text": "Falling birth rates and low death rates slowing population growth, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Low birth rates and low death rates with aging population."
+        "text": "Low birth rates and low death rates with aging population, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rapid exponential population growth that doubles populations every 5 years."
+        "text": "Rapid exponential population growth that doubles populations every 5 years, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Massive child infant mortality epidemics."
+        "text": "Massive child infant mortality epidemics, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "The complete abandonment of all urban cities."
+        "text": "The complete abandonment of all urban cities, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reuniting with family members who are already settled citizens abroad."
+        "text": "Reuniting with family members who are already settled citizens abroad, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Free university scholarships provided by foreign governments."
+        "text": "Free university scholarships provided by foreign governments, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Higher wages, stable political governance, and abundant job opportunities in the destination country."
+        "text": "Higher wages, stable political governance, and abundant job opportunities in the destination country, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Zero impact on foreign currency reserves."
+        "text": "Zero impact on foreign currency reserves, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "0.1% of national GDP with negligible economic impact."
+        "text": "0.1% of national GDP with negligible economic impact, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "100% of the entire national government annual budget."
+        "text": "100% of the entire national government annual budget, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Its national historical archives during armed conflicts."
+        "text": "Its national historical archives during armed conflicts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Its physical electrical supply during monsoon typhoons."
+        "text": "Its physical electrical supply during monsoon typhoons, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Its agricultural soil fertility due to chemical overuse."
+        "text": "Its agricultural soil fertility due to chemical overuse, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -733,11 +733,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ensure availability and sustainable management of water and sanitation."
+        "text": "Ensure availability and sustainable management of water and sanitation, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Ensure access to affordable, reliable, sustainable modern energy."
+        "text": "Ensure access to affordable, reliable, sustainable modern energy, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Achieve gender equality and empower all women and girls."
+        "text": "Achieve gender equality and empower all women and girls, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Global agricultural yields have declined to zero since 1950."
+        "text": "Global agricultural yields have declined to zero since 1950, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Food production is mathematically impossible across tropical latitudes."
+        "text": "Food production is mathematically impossible across tropical latitudes, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "All food commodities are owned by a single family in Switzerland."
+        "text": "All food commodities are owned by a single family in Switzerland, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The exclusive right of multinational corporations to patent all plant genetic seeds."
+        "text": "The exclusive right of multinational corporations to patent all plant genetic seeds, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "The mandatory importation of foreign agricultural surplus."
+        "text": "The mandatory importation of foreign agricultural surplus, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "The total elimination of all local organic family farming."
+        "text": "The total elimination of all local organic family farming, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Completely eliminated all plastic waste from the Pacific Ocean."
+        "text": "Completely eliminated all plastic waste from the Pacific Ocean, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Banned the combustion of petroleum fuels in commercial aircraft."
+        "text": "Banned the combustion of petroleum fuels in commercial aircraft, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Prevented all volcanic eruptions in the northern hemisphere."
+        "text": "Prevented all volcanic eruptions in the northern hemisphere, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Impose uniform global income tax deductions on all workers."
+        "text": "Impose uniform global income tax deductions on all workers, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Ban the use of commercial internet services in Africa."
+        "text": "Ban the use of commercial internet services in Africa, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Establish the United Nations Security Council."
+        "text": "Establish the United Nations Security Council, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Are owned directly by the United Nations General Assembly."
+        "text": "Are owned directly by the United Nations General Assembly, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Operate exclusively within a single municipal trading town."
+        "text": "Operate exclusively within a single municipal trading town, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Are prohibited from generating commercial profits."
+        "text": "Are prohibited from generating commercial profits, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Buys speculative lottery tickets in a foreign municipality."
+        "text": "Buys speculative lottery tickets in a foreign municipality, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Sends informal holiday greeting cards to foreign pen pals."
+        "text": "Sends informal holiday greeting cards to foreign pen pals, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Exchanges currency at an international airport terminal."
+        "text": "Exchanges currency at an international airport terminal, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -912,7 +912,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Products must be consumed only within the country where iron ore was mined."
+        "text": "Products must be consumed only within the country where iron ore was mined, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -933,11 +933,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Printing international paper currency notes."
+        "text": "Printing international paper currency notes, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Signing binding international trade treaties on behalf of states."
+        "text": "Signing binding international trade treaties on behalf of states, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Commanding sovereign standing armies to conduct invasions."
+        "text": "Commanding sovereign standing armies to conduct invasions, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Cities that completely prohibit international foreign trade."
+        "text": "Cities that completely prohibit international foreign trade, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Cities with the largest geographic physical land areas."
+        "text": "Cities with the largest geographic physical land areas, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Ancient historical archaeological ruin sites."
+        "text": "Ancient historical archaeological ruin sites, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A major global center for arctic icebreaker manufacturing."
+        "text": "A major global center for arctic icebreaker manufacturing, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "An isolated agricultural commune with zero internet connectivity."
+        "text": "An isolated agricultural commune with zero internet connectivity, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The primary physical headquarters of the United Nations Secretariat."
+        "text": "The primary physical headquarters of the United Nations Secretariat, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Conventional interstate naval battleship duels with cannonballs."
+        "text": "Conventional interstate naval battleship duels with cannonballs, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Medieval feudal cavalry skirmishes over castle moats."
+        "text": "Medieval feudal cavalry skirmishes over castle moats, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Standard diplomatic passport visa stamp formatting disputes."
+        "text": "Standard diplomatic passport visa stamp formatting disputes, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "National gross domestic product to corporate executive bonuses."
+        "text": "National gross domestic product to corporate executive bonuses, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Military conscription quotas to prison architecture."
+        "text": "Military conscription quotas to prison architecture, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The nuclear armament stockpiles of superpowers to planetary space laser defenses."
+        "text": "The nuclear armament stockpiles of superpowers to planetary space laser defenses, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Collect income taxes from private hospital patients."
+        "text": "Collect income taxes from private hospital patients, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Manufacture and sell commercial pharmaceutical drugs for corporate profit."
+        "text": "Manufacture and sell commercial pharmaceutical drugs for corporate profit, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Impose mandatory criminal prison sentences on unvaccinated individuals."
+        "text": "Impose mandatory criminal prison sentences on unvaccinated individuals, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Force domestic workers to accept lower wages."
+        "text": "Force domestic workers to accept lower wages, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Ban all exports of domestic manufactured goods to foreign markets."
+        "text": "Ban all exports of domestic manufactured goods to foreign markets, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Eliminate all national borders and customs checkpoints."
+        "text": "Eliminate all national borders and customs checkpoints, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Escape all compliance with local labor legislation."
+        "text": "Escape all compliance with local labor legislation, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Relocate their physical corporate headquarters to rural villages."
+        "text": "Relocate their physical corporate headquarters to rural villages, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Eliminate the use of digital telecommunications software."
+        "text": "Eliminate the use of digital telecommunications software, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1158,7 +1158,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Bribing foreign diplomats with illegal offshore cash accounts."
+        "text": "Bribing foreign diplomats with illegal offshore cash accounts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Threatening nuclear military bombardment against neighboring states."
+        "text": "Threatening nuclear military bombardment against neighboring states, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Imposing total naval economic blockades on commercial shipping."
+        "text": "Imposing total naval economic blockades on commercial shipping, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Up to 12 nautical miles."
+        "text": "Up to 12 nautical miles, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Up to 500 nautical miles."
+        "text": "Up to 500 nautical miles, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Across all international high seas without limitation."
+        "text": "Across all international high seas without limitation, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Philippines must surrender all military bases in Palawan to foreign navies."
+        "text": "The Philippines must surrender all military bases in Palawan to foreign navies, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "UNCLOS does not apply to the Asian continent."
+        "text": "UNCLOS does not apply to the Asian continent, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Sovereign states are prohibited from fishing in their own coastal waters."
+        "text": "Sovereign states are prohibited from fishing in their own coastal waters, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Technological progress completely eliminates the biological need for food."
+        "text": "Technological progress completely eliminates the biological need for food, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Human beings have a natural biological lifespan of 200 years."
+        "text": "Human beings have a natural biological lifespan of 200 years, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1258,7 +1258,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Total population declines by 50% within a single decade."
+        "text": "Total population declines by 50% within a single decade, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Birth rate exceeds 50 births per 1,000 citizens annually."
+        "text": "Birth rate exceeds 50 births per 1,000 citizens annually, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Elderly population over age 80 comprises 90% of the citizenry."
+        "text": "Elderly population over age 80 comprises 90% of the citizenry, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Human beings have zero ethical obligations to anyone, including family."
+        "text": "Human beings have zero ethical obligations to anyone, including family, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Global corporations should dictate all personal moral choices."
+        "text": "Global corporations should dictate all personal moral choices, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Universal human rights are identical to municipal corporate bylaws."
+        "text": "Universal human rights are identical to municipal corporate bylaws, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Spontaneity, Artistic Uniqueness, Chaos, and Intuition."
+        "text": "Spontaneity, Artistic Uniqueness, Chaos, and Intuition, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Traditional Craftsmanship, Religious Asceticism, and Manual Labor."
+        "text": "Traditional Craftsmanship, Religious Asceticism, and Manual Labor, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Absolute Egalitarian Democracy and Environmental Preservation."
+        "text": "Absolute Egalitarian Democracy and Environmental Preservation, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The annual percentage rate of national currency inflation."
+        "text": "The annual percentage rate of national currency inflation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The physical depth of oceanic tectonic trenches."
+        "text": "The physical depth of oceanic tectonic trenches, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The average life expectancy of infants at birth."
+        "text": "The average life expectancy of infants at birth, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Volcanic activity has ceased across all continental tectonic plates."
+        "text": "Volcanic activity has ceased across all continental tectonic plates, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Dinosaurs have re-emerged as the apex biological species on Earth."
+        "text": "Dinosaurs have re-emerged as the apex biological species on Earth, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The Earth has entered an irreversible permanent ice age."
+        "text": "The Earth has entered an irreversible permanent ice age, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Surrender their distinct national languages and adopt Latin."
+        "text": "Surrender their distinct national languages and adopt Latin, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Abolish all local municipal police forces in favor of a private security company."
+        "text": "Abolish all local municipal police forces in favor of a private security company, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Merge all private bank accounts into a single personal checking account."
+        "text": "Merge all private bank accounts into a single personal checking account, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Maximizing middleman broker profits in Western commodity exchanges."
+        "text": "Maximizing middleman broker profits in Western commodity exchanges, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Subsidizing corporate agricultural conglomerates to dump surplus grain."
+        "text": "Subsidizing corporate agricultural conglomerates to dump surplus grain, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Banning all coffee and cocoa imports from developing nations."
+        "text": "Banning all coffee and cocoa imports from developing nations, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Destroy all electrical and electronic communication worldwide."
+        "text": "Destroy all electrical and electronic communication worldwide, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Eliminate all forms of spoken and written human languages."
+        "text": "Eliminate all forms of spoken and written human languages, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Force all human beings to live in physical straw-hut rural villages."
+        "text": "Force all human beings to live in physical straw-hut rural villages, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "File domestic bankruptcy petitions in municipal tax courts."
+        "text": "File domestic bankruptcy petitions in municipal tax courts, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Throw wooden boomerangs during diplomatic parliamentary summits."
+        "text": "Throw wooden boomerangs during diplomatic parliamentary summits, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Export manufactured weaponry to foreign revolutionary factions."
+        "text": "Export manufactured weaponry to foreign revolutionary factions, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "It is strictly operated by foreign billionaire investment banks."
+        "text": "It is strictly operated by foreign billionaire investment banks, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "It requires formal registration with the International Monetary Fund."
+        "text": "It requires formal registration with the International Monetary Fund, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "It is 100% tax-subsidized by international United Nations grants."
+        "text": "It is 100% tax-subsidized by international United Nations grants, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1508,11 +1508,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1 million inhabitants."
+        "text": "1 million inhabitants, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "500,000 inhabitants."
+        "text": "500,000 inhabitants, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1533,11 +1533,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Zero exposure to environmental pollution and flood hazards."
+        "text": "Zero exposure to environmental pollution and flood hazards, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "100% home ownership guaranteed by international treaties."
+        "text": "100% home ownership guaranteed by international treaties, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Excessive luxury swimming pools and private helicopter pads."
+        "text": "Excessive luxury swimming pools and private helicopter pads, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Instant universal access to medical vaccines within 2 minutes of outbreak."
+        "text": "Instant universal access to medical vaccines within 2 minutes of outbreak, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Complete biological immunity across all international passenger flights."
+        "text": "Complete biological immunity across all international passenger flights, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The total elimination of all bacterial respiratory illnesses."
+        "text": "The total elimination of all bacterial respiratory illnesses, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Developing nations must pay all costs of repairing industrial smog in Europe."
+        "text": "Developing nations must pay all costs of repairing industrial smog in Europe, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Small island nations should be abandoned to ocean rising tides without assistance."
+        "text": "Small island nations should be abandoned to ocean rising tides without assistance, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "All fossil fuel reserves should be consumed immediately."
+        "text": "All fossil fuel reserves should be consumed immediately, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Foreign corporations may seize private agricultural land holdings."
+        "text": "Foreign corporations may seize private agricultural land holdings, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "The state is granted absolute legal immunity from all human rights treaties."
+        "text": "The state is granted absolute legal immunity from all human rights treaties, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "The United Nations must dissolve all international courts."
+        "text": "The United Nations must dissolve all international courts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Adopt the ancient Roman silver denarius as the sole international currency."
+        "text": "Adopt the ancient Roman silver denarius as the sole international currency, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Force all international trade to be conducted through agricultural bartering."
+        "text": "Force all international trade to be conducted through agricultural bartering, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Abolish all forms of physical and digital money worldwide."
+        "text": "Abolish all forms of physical and digital money worldwide, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Economic GDP growth is guaranteed to reach 100% annually."
+        "text": "Economic GDP growth is guaranteed to reach 100% annually, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Industrial mining corporations can pollute waterways without regulation."
+        "text": "Industrial mining corporations can pollute waterways without regulation, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Global population must be forcibly relocated to Mars."
+        "text": "Global population must be forcibly relocated to Mars, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Strict government censorship that eliminates all online entertainment."
+        "text": "Strict government censorship that eliminates all online entertainment, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "The total disappearance of all digital smartphones."
+        "text": "The total disappearance of all digital smartphones, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The mandatory fact-checking of every internet post by university panels."
+        "text": "The mandatory fact-checking of every internet post by university panels, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Guarantee that zero financial inflation will ever occur in national economies."
+        "text": "Guarantee that zero financial inflation will ever occur in national economies, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Physical gold bars stored inside municipal banking basements."
+        "text": "Physical gold bars stored inside municipal banking basements, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Provide free physical cash cards to all global citizens."
+        "text": "Provide free physical cash cards to all global citizens, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mandates the payment of monetary tribute to the European Union."
+        "text": "Mandates the payment of monetary tribute to the European Union, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Bans all national legislative elections in sovereign states."
+        "text": "Bans all national legislative elections in sovereign states, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Establishes an international military police force stationed in all schools."
+        "text": "Establishes an international military police force stationed in all schools, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Allowing international humanitarian Red Cross volunteers into border zones."
+        "text": "Allowing international humanitarian Red Cross volunteers into border zones, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Granting temporary emergency asylum to displaced mothers and children."
+        "text": "Granting temporary emergency asylum to displaced mothers and children, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Providing emergency medical food rations to displaced families."
+        "text": "Providing emergency medical food rations to displaced families, shaped by prevailing international agreements and multilateral conventions, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Completely immune to physical geography and military conflicts."
+        "text": "Completely immune to physical geography and military conflicts, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Operated exclusively through teleportation laser satellites."
+        "text": "Operated exclusively through teleportation laser satellites, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Owned entirely by non-profit humanitarian charities."
+        "text": "Owned entirely by non-profit humanitarian charities, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Completely severing all familial and cultural ties with their motherland."
+        "text": "Completely severing all familial and cultural ties with their motherland, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Refusing to learn the language of their host country."
+        "text": "Refusing to learn the language of their host country, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "Surrendering all their financial earnings to foreign immigration authorities."
+        "text": "Surrendering all their financial earnings to foreign immigration authorities, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An international emergency loan provided by the International Monetary Fund."
+        "text": "An international emergency loan provided by the International Monetary Fund, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "A tax penalty fund collected from defaulting commercial corporations."
+        "text": "A tax penalty fund collected from defaulting commercial corporations, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A private personal bank account owned by an individual municipal mayor."
+        "text": "A private personal bank account owned by an individual municipal mayor, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prioritize private commercial profit over social justice and environmental health."
+        "text": "Prioritize private commercial profit over social justice and environmental health, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const SOCIAL_STUDIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Abandon their love and loyalty for their own native homeland."
+        "text": "Abandon their love and loyalty for their own native homeland, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "Refuse participation in local community civic development."
+        "text": "Refuse participation in local community civic development, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "B",

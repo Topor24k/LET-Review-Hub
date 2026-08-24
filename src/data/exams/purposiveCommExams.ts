@@ -33,11 +33,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hardware processor speed and electrical conductivity."
+        "text": "Hardware processor speed and electrical conductivity, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Standard typographical font size and line spacing."
+        "text": "Standard typographical font size and line spacing, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Physical stature and vocal pitch volume."
+        "text": "Physical stature and vocal pitch volume, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -58,7 +58,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Automated transmitters broadcasting monologues to unverified audiences."
+        "text": "Automated transmitters broadcasting monologues to unverified audiences, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passive recipients who store encoded electrical signals without responding."
+        "text": "Passive recipients who store encoded electrical signals without responding, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Isolated agents communicating only through formal legal written statutes."
+        "text": "Isolated agents communicating only through formal legal written statutes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Direct, explicit, literal, and detailed verbal statements."
+        "text": "Direct, explicit, literal, and detailed verbal statements, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Standardized legal contracts written in computer code."
+        "text": "Standardized legal contracts written in computer code, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Automated statistical algorithms without human mediation."
+        "text": "Automated statistical algorithms without human mediation, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -112,11 +112,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Veiled in poetic metaphors to avoid direct factual confrontation."
+        "text": "Veiled in poetic metaphors to avoid direct factual confrontation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Delivered exclusively through third-party family intermediaries."
+        "text": "Delivered exclusively through third-party family intermediaries, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -287,15 +287,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Frozen Register."
+        "text": "Frozen Register based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
-        "text": "Intimate Register."
+        "text": "Intimate Register based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "Static ceremonial register."
+        "text": "Static ceremonial register based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The exact word count of introductory paragraphs."
+        "text": "The exact word count of introductory paragraphs, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "The physical binding and typography of a printed thesis volume."
+        "text": "The physical binding and typography of a printed thesis volume, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The number of color illustrations included in the appendices."
+        "text": "The number of color illustrations included in the appendices, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Primary historical source triangulation."
+        "text": "Primary historical source triangulation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Peer-reviewed literature benchmarking."
+        "text": "Peer-reviewed literature benchmarking based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Legitimate academic synthesis under Fair Use."
+        "text": "Legitimate academic synthesis under Fair Use, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -387,15 +387,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Solicit commercial consumer orders through newspaper advertisements."
+        "text": "Solicit commercial consumer orders through newspaper advertisements, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "File criminal indictments in provincial trial courts."
+        "text": "File criminal indictments in provincial trial courts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Publish peer-reviewed academic literature in international journals."
+        "text": "Publish peer-reviewed academic literature in international journals, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Transcribing every casual personal remark and joke word-for-word in humorous prose."
+        "text": "Transcribing every casual personal remark and joke word-for-word in humorous prose, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Omitting the date, time, and list of attendees to preserve organizational secrecy."
+        "text": "Omitting the date, time, and list of attendees to preserve organizational secrecy, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Recording only the opinions of the presiding chairperson while ignoring all motions."
+        "text": "Recording only the opinions of the presiding chairperson while ignoring all motions, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -433,7 +433,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The sender's name and signature must be written in red calligraphy ink."
+        "text": "The sender's name and signature must be written in red calligraphy ink, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -445,7 +445,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "All text is centered on the page like a ceremonial invitation."
+        "text": "All text is centered on the page like a ceremonial invitation, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Poetic and filled with figurative metaphors."
+        "text": "Poetic and filled with figurative metaphors, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Sensational, melodramatic, and written in heroic verse."
+        "text": "Sensational, melodramatic, and written in heroic verse, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Aggressive and demanding immediate criminal imprisonment for coworkers."
+        "text": "Aggressive and demanding immediate criminal imprisonment for coworkers, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -487,7 +487,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "List every line of raw computer code used in data analysis."
+        "text": "List every line of raw computer code used in data analysis, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -495,7 +495,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Replace the need for financial balance sheets."
+        "text": "Replace the need for financial balance sheets, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -633,11 +633,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The visual impairment caused by bright stage lighting."
+        "text": "The visual impairment caused by bright stage lighting, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "The legal prohibition against public assemblies."
+        "text": "The legal prohibition against public assemblies, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The inability to pronounce foreign vowel sounds."
+        "text": "The inability to pronounce foreign vowel sounds, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Using informal text-speak abbreviations in formal business queries."
+        "text": "Using informal text-speak abbreviations in formal business queries, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Typing the entire email message in ALL CAPS with multiple exclamation marks."
+        "text": "Typing the entire email message in ALL CAPS with multiple exclamation marks, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Leaving the subject line blank to surprise the recipient."
+        "text": "Leaving the subject line blank to surprise the recipient, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "CC, exposing all personal emails to everyone."
+        "text": "CC, exposing all personal emails to everyone, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "The Subject Line for public transparency."
+        "text": "The Subject Line for public transparency, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "The primary 'To' field without encryption."
+        "text": "The primary 'To' field without encryption, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A broad factual statement that everyone universally agrees with without dispute."
+        "text": "A broad factual statement that everyone universally agrees with without dispute, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "A vague question that leaves the author's stance completely unknown."
+        "text": "A vague question that leaves the author's stance completely unknown, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "A direct quote copied verbatim from a general dictionary definition."
+        "text": "A direct quote copied verbatim from a general dictionary definition, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Copies entire abstracts directly from online databases."
+        "text": "Copies entire abstracts directly from online databases, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Deletes all citations to minimize word count."
+        "text": "Deletes all citations to minimize word count, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Lists author summaries sequentially one paragraph after another without connection."
+        "text": "Lists author summaries sequentially one paragraph after another without connection, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -887,15 +887,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Manipulating statistics to achieve desired persuasive outcomes."
+        "text": "Manipulating statistics to achieve desired persuasive outcomes, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Concealing known safety hazards to protect corporate PR."
+        "text": "Concealing known safety hazards to protect corporate PR, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Interrupting opposing speakers to dominate debates."
+        "text": "Interrupting opposing speakers to dominate debates, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -958,7 +958,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Checking smartphone notifications while nodding periodically."
+        "text": "Checking smartphone notifications while nodding periodically, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Silently formulating one's counter-arguments while the other person is speaking."
+        "text": "Silently formulating one's counter-arguments while the other person is speaking, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Interrupting frequently to offer personal anecdotes."
+        "text": "Interrupting frequently to offer personal anecdotes, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1033,11 +1033,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Putting the entire original paragraph in quotation marks without an in-text citation."
+        "text": "Putting the entire original paragraph in quotation marks without an in-text citation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Altering numerical statistics to make the data support one's personal bias."
+        "text": "Altering numerical statistics to make the data support one's personal bias, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Replacing every third word with a thesaurus synonym while preserving the exact sentence structure."
+        "text": "Replacing every third word with a thesaurus synonym while preserving the exact sentence structure, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prove that no other scholar in world history has ever studied the topic."
+        "text": "Prove that no other scholar in world history has ever studied the topic, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Fill page quotas required by university formatting manuals."
+        "text": "Fill page quotas required by university formatting manuals, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "List dictionary definitions of common everyday English words."
+        "text": "List dictionary definitions of common everyday English words, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Exhaustive line-by-line financial receipts of research grants."
+        "text": "Exhaustive line-by-line financial receipts of research grants, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Biographical essays of all research laboratory assistants."
+        "text": "Biographical essays of all research laboratory assistants, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Transcriptions of unedited audio recordings."
+        "text": "Transcriptions of unedited audio recordings, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'I totally think our crazy test results proved our awesome theory 100%!'."
+        "text": "'I totally think our crazy test results proved our awesome theory 100%!', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "'You know, it's pretty obvious that kids who study more do way better.'."
+        "text": "'You know, it's pretty obvious that kids who study more do way better.', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "'Believe me, this research is gonna change the entire education system forever!'."
+        "text": "'Believe me, this research is gonna change the entire education system forever!', operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1187,15 +1187,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Assuming all learners share identical religious feast celebrations."
+        "text": "Assuming all learners share identical religious feast celebrations, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Using ethnic minority caricatures to generate humor in introductory lessons."
+        "text": "Using ethnic minority caricatures to generate humor in introductory lessons, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Translating all texts into 16th-century archaic Latin."
+        "text": "Translating all texts into 16th-century archaic Latin, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1287,15 +1287,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Eliminate all political disagreements across national populations."
+        "text": "Eliminate all political disagreements across national populations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Increase physical cognitive reaction speeds by 500%."
+        "text": "Increase physical cognitive reaction speeds by 500%, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Cause viewers to completely stop speaking their native languages."
+        "text": "Cause viewers to completely stop speaking their native languages, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1387,15 +1387,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Speaking in a continuous, unvarying monotone at maximum speed."
+        "text": "Speaking in a continuous, unvarying monotone at maximum speed, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Shouting every sentence into the microphone without variation."
+        "text": "Shouting every sentence into the microphone without variation, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Whispering the entire presentation to force intense concentration."
+        "text": "Whispering the entire presentation to force intense concentration, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "6 different font colors and 6 background animations per slide."
+        "text": "6 different font colors and 6 background animations per slide, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "6 minutes of continuous silent reading per slide."
+        "text": "6 minutes of continuous silent reading per slide, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "6 embedded video advertisements per transition."
+        "text": "6 embedded video advertisements per transition, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Instant loss of all spoken language capabilities."
+        "text": "Instant loss of all spoken language capabilities, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Spontaneous physical euphoria without cognitive effort."
+        "text": "Spontaneous physical euphoria without cognitive effort, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Immediate mathematical clarity and absolute certainty."
+        "text": "Immediate mathematical clarity and absolute certainty, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forcing them to memorize entire dictionaries."
+        "text": "Forcing them to memorize entire dictionaries, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Completely isolating them from all external information and internet access."
+        "text": "Completely isolating them from all external information and internet access, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Administering medical vaccines before public debates."
+        "text": "Administering medical vaccines before public debates, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Generic dehumanizing labels."
+        "text": "Generic dehumanizing labels based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "C",
-        "text": "Archaic medical terms from the 18th century."
+        "text": "Archaic medical terms from the 18th century, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Fictitious pseudonyms without institutional ethical approval."
+        "text": "Fictitious pseudonyms without institutional ethical approval, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1533,11 +1533,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Audio microphone feedback creates loud screeching echoes on phone calls."
+        "text": "Audio microphone feedback creates loud screeching echoes on phone calls, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Internet connections are permanently restricted to public library databases."
+        "text": "Internet connections are permanently restricted to public library databases, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Users receive completely unbiased, neutral international news broadcasts."
+        "text": "Users receive completely unbiased, neutral international news broadcasts, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inserting commercial logos in table of contents headers."
+        "text": "Inserting commercial logos in table of contents headers, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Placing physical directional traffic arrows in academic campus parking lots."
+        "text": "Placing physical directional traffic arrows in academic campus parking lots, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Using oversized neon fonts on printed title pages."
+        "text": "Using oversized neon fonts on printed title pages, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Conceal the fact that the researcher conducted zero empirical experiments."
+        "text": "Conceal the fact that the researcher conducted zero empirical experiments, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Artificially inflate the total word count of a brief essay."
+        "text": "Artificially inflate the total word count of a brief essay, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Make the writing sound completely casual and unscholarly."
+        "text": "Make the writing sound completely casual and unscholarly, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Total silence and denying that any event occurred to prevent panic."
+        "text": "Total silence and denying that any event occurred to prevent panic, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Blaming junior staff publicly on social media channels."
+        "text": "Blaming junior staff publicly on social media channels, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
-        "text": "Releasing conflicting unverified rumors through anonymous accounts."
+        "text": "Releasing conflicting unverified rumors through anonymous accounts, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Passively yielding to every demand while suppressing legitimate concerns."
+        "text": "Passively yielding to every demand while suppressing legitimate concerns, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
-        "text": "Using manipulative sarcasm and silent treatment to achieve goals."
+        "text": "Using manipulative sarcasm and silent treatment to achieve goals, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Dominating conversations, shouting, and humiliating colleagues into submission."
+        "text": "Dominating conversations, shouting, and humiliating colleagues into submission, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "C",
@@ -1687,15 +1687,15 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'URGENT PLEASE READ RIGHT NOW!!!'."
+        "text": "'URGENT PLEASE READ RIGHT NOW!!!', adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "'hello maam'."
+        "text": "'hello maam' based primarily upon standard historical interpretations and documented observations."
       },
       {
         "key": "D",
-        "text": "''."
+        "text": "'' based primarily upon standard historical interpretations and documented observations."
       }
     ],
     "correctAnswer": "A",
@@ -1758,7 +1758,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hasty Generalization."
+        "text": "Hasty Generalization, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Circular Reasoning."
+        "text": "Circular Reasoning, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Appeal to Ignorance."
+        "text": "Appeal to Ignorance, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1833,11 +1833,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Where does Language originate in the Human Brain?'."
+        "text": "'Where does Language originate in the Human Brain?', adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "'Why do Computers process Binary Algorithms?'."
+        "text": "'Why do Computers process Binary Algorithms?', adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "'When does Money create Power in Politics?'."
+        "text": "'When does Money create Power in Politics?', adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fill every square inch of the screen with dense raw financial balance sheets."
+        "text": "Fill every square inch of the screen with dense raw financial balance sheets, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const PURPOSIVE_COMM_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Paste entire textbook pages in 8pt font and read them word-for-word with back turned to the audience."
+        "text": "Paste entire textbook pages in 8pt font and read them word-for-word with back turned to the audience, operating under conventional assumptions and standard institutional guidelines."
       },
       {
         "key": "D",
-        "text": "Use flashing rainbow transitions and unrelated animated cartoon GIFs on every bullet."
+        "text": "Use flashing rainbow transitions and unrelated animated cartoon GIFs on every bullet, operating under conventional assumptions and standard institutional guidelines."
       }
     ],
     "correctAnswer": "B",

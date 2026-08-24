@@ -33,7 +33,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Acts strictly as an instructional aide under constant master teacher monitoring."
+        "text": "Acts strictly as an instructional aide under constant master teacher monitoring, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -133,7 +133,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Domain 3: Diversity of Learners."
+        "text": "Domain 3: Diversity of Learners, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -145,7 +145,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Domain 2: Learning Environment."
+        "text": "Domain 2: Learning Environment, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -212,11 +212,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Discovery learning approach."
+        "text": "Discovery learning approach, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Socratic dialogue approach."
+        "text": "Socratic dialogue approach, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expository lecture method."
+        "text": "Expository lecture method, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Direct demonstration approach."
+        "text": "Direct demonstration approach, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -258,7 +258,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A detached observer who provides zero instructional support or structure."
+        "text": "A detached observer who provides zero instructional support or structure, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "An authoritarian lecturer who transmits fixed encyclopedic facts into passive student minds."
+        "text": "An authoritarian lecturer who transmits fixed encyclopedic facts into passive student minds, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "A strict disciplinarian who enforces silent rote memorization without discussion."
+        "text": "A strict disciplinarian who enforces silent rote memorization without discussion, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The teacher delivers a formal lecture introducing scientific vocabulary terms."
+        "text": "The teacher delivers a formal lecture introducing scientific vocabulary terms, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Students take a high-stakes standardized pen-and-paper summative test."
+        "text": "Students take a high-stakes standardized pen-and-paper summative test, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "The teacher assigns homework reading from an encyclopedia."
+        "text": "The teacher assigns homework reading from an encyclopedia, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -333,11 +333,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The teacher reads a textbook chapter aloud while pupils sit quietly."
+        "text": "The teacher reads a textbook chapter aloud while pupils sit quietly, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Students complete identical fill-in-the-blank worksheets."
+        "text": "Students complete identical fill-in-the-blank worksheets, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Students memorize vocabulary lists for a 10-minute quiz."
+        "text": "Students memorize vocabulary lists for a 10-minute quiz, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -387,15 +387,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Students complete identical multiple-choice worksheets in complete silence."
+        "text": "Students complete identical multiple-choice worksheets in complete silence, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "The highest-scoring student completes the entire assignment for the group."
+        "text": "The highest-scoring student completes the entire assignment for the group, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "The teacher lectures to the whole class while students take verbatim notes."
+        "text": "The teacher lectures to the whole class while students take verbatim notes, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students listen to a lecture, take a partner test, and submit homework."
+        "text": "Students listen to a lecture, take a partner test, and submit homework, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "The teacher calls on one student to answer on the spot without wait time."
+        "text": "The teacher calls on one student to answer on the spot without wait time, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Students write an individual essay without any peer interaction."
+        "text": "Students write an individual essay without any peer interaction, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -433,7 +433,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Visual Symbols."
+        "text": "Visual Symbols, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -445,7 +445,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Verbal Symbols."
+        "text": "Verbal Symbols, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Strictly focuses on one student while ignoring the rest of the class."
+        "text": "Strictly focuses on one student while ignoring the rest of the class, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Ignores student disruptions until a major fight breaks out."
+        "text": "Ignores student disruptions until a major fight breaks out, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Leaves the classroom unattended during group activities."
+        "text": "Leaves the classroom unattended during group activities, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -608,15 +608,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Shouting instructions loudly to startle inattentive students."
+        "text": "Shouting instructions loudly to startle inattentive students, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Stopping the entire lesson to search for a lost whiteboard marker."
+        "text": "Stopping the entire lesson to search for a lost whiteboard marker, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Switching topics randomly without instructional connection."
+        "text": "Switching topics randomly without instructional connection, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -658,7 +658,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Allows students to set all rules without teacher leadership."
+        "text": "Allows students to set all rules without teacher leadership, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Uses passive avoidance and never corrects misbehavior."
+        "text": "Uses passive avoidance and never corrects misbehavior, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Uses hostile sarcasm and public humiliation against students."
+        "text": "Uses hostile sarcasm and public humiliation against students, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Students completely forget the question asked."
+        "text": "Students completely forget the question asked, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Classroom discipline breaks down into chaos."
+        "text": "Classroom discipline breaks down into chaos, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "The pacing of the lesson becomes unacceptably delayed."
+        "text": "The pacing of the lesson becomes unacceptably delayed, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'List the four main steps of the scientific method.'."
+        "text": "'List the four main steps of the scientific method.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "'Calculate the area of a rectangle with length 10 cm and width 5 cm.'."
+        "text": "'Calculate the area of a rectangle with length 10 cm and width 5 cm.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "'Define the term photosynthesis in your own words.'."
+        "text": "'Define the term photosynthesis in your own words.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -758,7 +758,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Weekly gradebook record only."
+        "text": "Weekly gradebook record only applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Daily Lesson Log."
+        "text": "Daily Lesson Log applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "D",
-        "text": "Syllabus outline without daily objectives."
+        "text": "Syllabus outline without daily objectives, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "'Students will appreciate the beauty of mathematics in daily life.'."
+        "text": "'Students will appreciate the beauty of mathematics in daily life.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "'Learners will understand all algebra concepts completely by Friday.'."
+        "text": "'Learners will understand all algebra concepts completely by Friday.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "'The class will develop deep love for equation solving.'."
+        "text": "'The class will develop deep love for equation solving.', maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -870,7 +870,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Providing learner guidance."
+        "text": "Providing learner guidance, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -891,7 +891,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Revenge."
+        "text": "Revenge, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -908,15 +908,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Food, Sleep, Shelter, Clothing, and Medicine."
+        "text": "Food, Sleep, Shelter, Clothing, and Medicine, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Money, Fame, Dominance, Status, and Luxury."
+        "text": "Money, Fame, Dominance, Status, and Luxury, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Id, Ego, Superego, Libido, and Thanatos."
+        "text": "Id, Ego, Superego, Libido, and Thanatos, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assigning 100 math problems as a punitive measure for talking in class."
+        "text": "Assigning 100 math problems as a punitive measure for talking in class, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Posting a list of misbehaving students publicly on the school bulletin board."
+        "text": "Posting a list of misbehaving students publicly on the school bulletin board, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Waiting for students to misbehave and immediately sending them to the guidance office."
+        "text": "Waiting for students to misbehave and immediately sending them to the guidance office, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Administering multiple-choice standardized tests daily."
+        "text": "Administering multiple-choice standardized tests daily, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Didactic lecturing where the teacher talks continuously for an hour."
+        "text": "Didactic lecturing where the teacher talks continuously for an hour, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Silent individual reading of assigned textbook chapters without discussion."
+        "text": "Silent individual reading of assigned textbook chapters without discussion, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Students complete homework worksheets in silence during class while the teacher grades papers."
+        "text": "Students complete homework worksheets in silence during class while the teacher grades papers, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "All exams are taken at home without teacher supervision."
+        "text": "All exams are taken at home without teacher supervision, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Lectures are delivered in class and all group projects are done alone at home."
+        "text": "Lectures are delivered in class and all group projects are done alone at home, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -1008,11 +1008,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reading, Writing, Listening, and Speaking."
+        "text": "Reading, Writing, Listening, and Speaking, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Memorizing, Reciting, Drilling, and Testing."
+        "text": "Memorizing, Reciting, Drilling, and Testing, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1033,11 +1033,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It replaces laboratory experiments with 2D drawings."
+        "text": "It replaces laboratory experiments with 2D drawings, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "It guarantees a perfect score on standardized tests."
+        "text": "It guarantees a perfect score on standardized tests, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It eliminates the need for students to read scientific textbooks."
+        "text": "It eliminates the need for students to read scientific textbooks, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A permanent letter grade recorded on the report card."
+        "text": "A permanent letter grade recorded on the report card, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A 100-item end-of-term standardized comprehensive exam."
+        "text": "A 100-item end-of-term standardized comprehensive exam, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "A final graduation research thesis defense."
+        "text": "A final graduation research thesis defense, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1133,11 +1133,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Behaviorist stimulus-response conditioning."
+        "text": "Behaviorist stimulus-response conditioning applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "B",
-        "text": "Silent lecture delivery."
+        "text": "Silent lecture delivery applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rote computational drill."
+        "text": "Rote computational drill applied through traditional teacher-centered lectures and direct instructional pacing."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assigning work that is far beyond a student's cognitive capability without assistance."
+        "text": "Assigning work that is far beyond a student's cognitive capability without assistance, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Permanent physical hand-holding throughout the entire school year."
+        "text": "Permanent physical hand-holding throughout the entire school year, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Giving students the exact answers to exam questions in advance."
+        "text": "Giving students the exact answers to exam questions in advance, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1208,15 +1208,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Passive rote memorization of historical dates."
+        "text": "Passive rote memorization of historical dates, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Silent individual study of encyclopedias."
+        "text": "Silent individual study of encyclopedias, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Authoritarian recitation of textbook paragraphs."
+        "text": "Authoritarian recitation of textbook paragraphs, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Refuse to listen to any differing perspectives."
+        "text": "Refuse to listen to any differing perspectives, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Conform blindly to the teacher's personal political opinion."
+        "text": "Conform blindly to the teacher's personal political opinion, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Engage in personal ad hominem insults against classmates."
+        "text": "Engage in personal ad hominem insults against classmates, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Classroom seating position determines 100% of student learning outcomes."
+        "text": "Classroom seating position determines 100% of student learning outcomes, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Student intelligence is unchangeable regardless of teacher behavior."
+        "text": "Student intelligence is unchangeable regardless of teacher behavior, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Low teacher expectations encourage students to work harder independently."
+        "text": "Low teacher expectations encourage students to work harder independently, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1308,15 +1308,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because 'Good job!' damages student self-esteem."
+        "text": "Because 'Good job!' damages student self-esteem, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Because longer comments are legally mandated by DepEd orders."
+        "text": "Because longer comments are legally mandated by DepEd orders, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Because critical comments lower student stress levels."
+        "text": "Because critical comments lower student stress levels, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1358,7 +1358,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Inappropriate classroom boundary crossing."
+        "text": "Inappropriate classroom boundary crossing applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Aggressive non-verbal dominance that intimidates students."
+        "text": "Aggressive non-verbal dominance that intimidates students, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Passive indifference to student learning."
+        "text": "Passive indifference to student learning, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1387,15 +1387,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Substitution only."
+        "text": "Substitution only, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Augmentation only."
+        "text": "Augmentation only, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Elimination."
+        "text": "Elimination, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forcing students to memorize spelling words while doing pushups."
+        "text": "Forcing students to memorize spelling words while doing pushups, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Replacing all physical exercise with silent grammar reading."
+        "text": "Replacing all physical exercise with silent grammar reading, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Ignoring all verbal communication during sports activities."
+        "text": "Ignoring all verbal communication during sports activities, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1433,11 +1433,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminating all historical discussions in favor of basic arithmetic drills."
+        "text": "Eliminating all historical discussions in favor of basic arithmetic drills, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Having students calculate the physical weight of textbooks."
+        "text": "Having students calculate the physical weight of textbooks, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Requiring students to solve quadratic algebraic formulas without historical context."
+        "text": "Requiring students to solve quadratic algebraic formulas without historical context, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -1487,15 +1487,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Perform an icebreaker game without discussion."
+        "text": "Perform an icebreaker game without discussion, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Take a 50-item multiple-choice final examination."
+        "text": "Take a 50-item multiple-choice final examination, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Pack their bags and prepare to leave the classroom."
+        "text": "Pack their bags and prepare to leave the classroom, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -1533,11 +1533,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Over-dwelling on minor details."
+        "text": "Over-dwelling on minor details applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "B",
-        "text": "Negative behavioral sanction."
+        "text": "Negative behavioral sanction applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Passive seatwork surveillance."
+        "text": "Passive seatwork surveillance applied through traditional teacher-centered lectures and direct instructional pacing."
       }
     ],
     "correctAnswer": "C",
@@ -1587,15 +1587,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Playing commercial action video games in class without learning objectives."
+        "text": "Playing commercial action video games in class without learning objectives, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Replacing all academic curriculum with esports competitions."
+        "text": "Replacing all academic curriculum with esports competitions, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Gambling with monetary stakes during classroom quizzes."
+        "text": "Gambling with monetary stakes during classroom quizzes, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Input, Storage, Retrieval, and Output."
+        "text": "Input, Storage, Retrieval, and Output, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Remembering, Understanding, Applying, and Creating."
+        "text": "Remembering, Understanding, Applying, and Creating, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Stimulus, Response, Conditioning, and Extinction."
+        "text": "Stimulus, Response, Conditioning, and Extinction, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Standardized tracking of low-performing students."
+        "text": "Standardized tracking of low-performing students, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Punitive isolation centers."
+        "text": "Punitive isolation centers applied through traditional teacher-centered lectures and direct instructional pacing."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rigid whole-group lecture instruction."
+        "text": "Rigid whole-group lecture instruction applied through traditional teacher-centered lectures and direct instructional pacing."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Positively stated rules eliminate the need for teacher supervision."
+        "text": "Positively stated rules eliminate the need for teacher supervision, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Negative rules are illegal under DepEd orders."
+        "text": "Negative rules are illegal under DepEd orders, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Students cannot understand words with the letter 'N'."
+        "text": "Students cannot understand words with the letter 'N', maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Visit a commercial art museum in another city."
+        "text": "Visit a commercial art museum in another city, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Sit in their chairs while the teacher displays museum slides."
+        "text": "Sit in their chairs while the teacher displays museum slides, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Take a written essay examination in silence."
+        "text": "Take a written essay examination in silence, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sleep or study for another subject."
+        "text": "Sleep or study for another subject, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Interrupt the inner circle by shouting corrections."
+        "text": "Interrupt the inner circle by shouting corrections, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Leave the classroom to go to the canteen."
+        "text": "Leave the classroom to go to the canteen, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1758,7 +1758,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ignoring the conflict and telling students to fight outside school."
+        "text": "Ignoring the conflict and telling students to fight outside school, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Immediately issuing automatic suspensions without hearing both sides."
+        "text": "Immediately issuing automatic suspensions without hearing both sides, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Publicly shaming the offending student on the school stage."
+        "text": "Publicly shaming the offending student on the school stage, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",
@@ -1791,11 +1791,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Listening to a teacher lecture on chemistry equations."
+        "text": "Listening to a teacher lecture on chemistry equations, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Copying scientific definitions from an encyclopedia."
+        "text": "Copying scientific definitions from an encyclopedia, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Only the tutee benefits, while the tutor loses valuable study time."
+        "text": "Only the tutee benefits, while the tutor loses valuable study time, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "Peer tutoring causes severe behavioral conflicts in 100% of cases."
+        "text": "Peer tutoring causes severe behavioral conflicts in 100% of cases, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
-        "text": "Tutors should replace licensed teachers in the classroom."
+        "text": "Tutors should replace licensed teachers in the classroom, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "It assigns a single general letter grade without explanation."
+        "text": "It assigns a single general letter grade without explanation, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
-        "text": "It eliminates the need for students to write essays."
+        "text": "It eliminates the need for students to write essays, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "It takes zero time for teachers to design and grade."
+        "text": "It takes zero time for teachers to design and grade, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Attends a weekend professional development seminar."
+        "text": "Attends a weekend professional development seminar, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const METHODS_AND_STRATEGIES_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Writes a post-lesson reflection in a journal hours after school ends."
+        "text": "Writes a post-lesson reflection in a journal hours after school ends, maintaining conventional classroom seating and standardized drill-and-practice routines."
       },
       {
         "key": "D",
-        "text": "Reads educational research textbooks during vacation."
+        "text": "Reads educational research textbooks during vacation, maintaining conventional classroom seating and standardized drill-and-practice routines."
       }
     ],
     "correctAnswer": "B",

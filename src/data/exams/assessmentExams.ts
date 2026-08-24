@@ -58,7 +58,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High-stakes Accountability Testing."
+        "text": "High-stakes Accountability Testing, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Summative Assessment."
+        "text": "Summative Assessment evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "D",
-        "text": "Assessment AS Learning."
+        "text": "Assessment AS Learning evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Diagnostic Assessment."
+        "text": "Diagnostic Assessment evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "C",
-        "text": "Formative Assessment."
+        "text": "Formative Assessment evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "D",
-        "text": "Placement Assessment."
+        "text": "Placement Assessment evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "A",
@@ -133,11 +133,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Classroom Cleanliness, Decorum, and Recitation."
+        "text": "Classroom Cleanliness, Decorum, and Recitation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Notebooks, Uniform Compliance, and Quizzes."
+        "text": "Notebooks, Uniform Compliance, and Quizzes, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Attendance, Homework, and Final Exam."
+        "text": "Attendance, Homework, and Final Exam, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "WW = 50%, PT = 25%, QA = 25%."
+        "text": "WW = 50%, PT = 25%, QA = 25%, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "WW = 40%, PT = 40%, QA = 20%."
+        "text": "WW = 40%, PT = 40%, QA = 20%, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "WW = 20%, PT = 60%, QA = 20%."
+        "text": "WW = 20%, PT = 60%, QA = 20%, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -208,15 +208,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because these subjects prohibit written examinations entirely."
+        "text": "Because these subjects prohibit written examinations entirely, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Because students do not have textbooks for these subjects."
+        "text": "Because students do not have textbooks for these subjects, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Because performance tasks take zero grading time for teachers."
+        "text": "Because performance tasks take zero grading time for teachers, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -266,11 +266,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Using numerical percentages from 0 to 100."
+        "text": "Using numerical percentages from 0 to 100, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Using letter grades."
+        "text": "Using letter grades evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "B",
@@ -358,7 +358,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Unreliable and completely ambiguous."
+        "text": "Unreliable and completely ambiguous evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Too easy and should be rejected immediately."
+        "text": "Too easy and should be rejected immediately, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Extremely difficult and should be discarded."
+        "text": "Extremely difficult and should be discarded, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "More students in the Lower group answered correctly than in the Upper group."
+        "text": "More students in the Lower group answered correctly than in the Upper group, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Both upper and lower groups scored exactly identical zero."
+        "text": "Both upper and lower groups scored exactly identical zero, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "The item is completely defective."
+        "text": "The item is completely defective, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -408,15 +408,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The item is exceptionally good and should be kept forever."
+        "text": "The item is exceptionally good and should be kept forever, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "The item should be made the only question on the final exam."
+        "text": "The item should be made the only question on the final exam, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "High-performing students should be penalized for missing it."
+        "text": "High-performing students should be penalized for missing it, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The item has a negative difficulty index."
+        "text": "The item has a negative difficulty index, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "The item is 100% reliable."
+        "text": "The item is 100% reliable, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The item has perfect predictive validity."
+        "text": "The item has perfect predictive validity, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Contains funny joke words that distract students."
+        "text": "Contains funny joke words that distract students, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Is never chosen by a single student in the entire class."
+        "text": "Is never chosen by a single student in the entire class, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Attracts 100% of the students from the Upper group."
+        "text": "Attracts 100% of the students from the Upper group, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A perfectly discriminating distractor."
+        "text": "A perfectly discriminating distractor evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "C",
-        "text": "The correct answer key."
+        "text": "The correct answer key evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "D",
-        "text": "A statistically reliable distractor."
+        "text": "A statistically reliable distractor evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "A",
@@ -558,7 +558,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Face Validity."
+        "text": "Face Validity evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Concurrent Validity."
+        "text": "Concurrent Validity, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Content Validity."
+        "text": "Content Validity evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Predictive Validity."
+        "text": "Predictive Validity, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Content Validity."
+        "text": "Content Validity evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "D",
-        "text": "Face Validity."
+        "text": "Face Validity evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "A",
@@ -658,7 +658,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'A test that is valid is guaranteed to be 100% unreliable.'."
+        "text": "'A test that is valid is guaranteed to be 100% unreliable.', measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'A test can be valid without being reliable.'."
+        "text": "'A test can be valid without being reliable.', measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "'Reliability and validity are identical concepts.'."
+        "text": "'Reliability and validity are identical concepts.', measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Test-Retest Stability."
+        "text": "Test-Retest Stability, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Split-Half Consistency."
+        "text": "Split-Half Consistency, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Content Validity."
+        "text": "Content Validity, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Assigns negative points for creative thinking."
+        "text": "Assigns negative points for creative thinking, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Eliminates all grading criteria."
+        "text": "Eliminates all grading criteria evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "C",
-        "text": "Calculates the physical word count of an essay."
+        "text": "Calculates the physical word count of an essay, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students need specific criteria to rewrite their drafts."
+        "text": "Students need specific criteria to rewrite their drafts, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Grading multiple complex criteria with varying weights."
+        "text": "Grading multiple complex criteria with varying weights, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Detailed diagnostic feedback is required for formative revision."
+        "text": "Detailed diagnostic feedback is required for formative revision, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students memorize a list of 20 historical dates for a matching quiz."
+        "text": "Students memorize a list of 20 historical dates for a matching quiz, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Students answer a 50-item multiple-choice scantron test."
+        "text": "Students answer a 50-item multiple-choice scantron test, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Students copy a textbook chapter onto lined paper."
+        "text": "Students copy a textbook chapter onto lined paper, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Contains every single rough draft and scrap paper ever written."
+        "text": "Contains every single rough draft and scrap paper ever written, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Is kept secret from the student."
+        "text": "Is kept secret from the student, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Is graded exclusively with a multiple-choice key."
+        "text": "Is graded exclusively with a multiple-choice key, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because it saves the teacher from reading the portfolio."
+        "text": "Because it saves the teacher from reading the portfolio, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Because reflections are graded with automated scantron machines."
+        "text": "Because reflections are graded with automated scantron machines, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Because reflections replace the need for any artifacts."
+        "text": "Because reflections replace the need for any artifacts, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ranks students alphabetically."
+        "text": "Ranks students alphabetically evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "B",
-        "text": "Assigns grades randomly."
+        "text": "Assigns grades randomly evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Compares students based on physical height."
+        "text": "Compares students based on physical height, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -987,15 +987,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Requires zero mathematical calculation."
+        "text": "Requires zero mathematical calculation evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "C",
-        "text": "Is always equal to the arithmetic mean."
+        "text": "Is always equal to the arithmetic mean, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Calculates only the highest score."
+        "text": "Calculates only the highest score, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1033,11 +1033,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The Mode is greater than the Median and Mean."
+        "text": "The Mode is greater than the Median and Mean, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "The Median is zero while the Mean is 100."
+        "text": "The Median is zero while the Mean is 100, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The Mean is greater than the Median and Mode."
+        "text": "The Mean is greater than the Median and Mode, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -1187,15 +1187,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The student answered exactly 82% of the exam questions correctly."
+        "text": "The student answered exactly 82% of the exam questions correctly, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "The student failed 18% of the questions."
+        "text": "The student failed 18% of the questions, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "The student's final report card mark is 82."
+        "text": "The student's final report card mark is 82, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Put the main question in the options and leave the stem blank."
+        "text": "Put the main question in the options and leave the stem blank, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Use 'All of the above' and 'None of the above' on every single question."
+        "text": "Use 'All of the above' and 'None of the above' on every single question, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Include grammatical clues that give away the correct choice."
+        "text": "Include grammatical clues that give away the correct choice, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because all four instruments are modern."
+        "text": "Because all four instruments are modern, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Because multiple-choice tests are illegal."
+        "text": "Because multiple-choice tests are illegal, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Because ancient instruments are not in the curriculum."
+        "text": "Because ancient instruments are not in the curriculum, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Splitting matching columns across three different physical pages."
+        "text": "Splitting matching columns across three different physical pages, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1266,7 +1266,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Having 50 premises and 2 responses."
+        "text": "Having 50 premises and 2 responses, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1287,15 +1287,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Grade essays without any rubric based on handwriting beauty."
+        "text": "Grade essays without any rubric based on handwriting beauty, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Read all essays from one student from start to finish before grading the next student."
+        "text": "Read all essays from one student from start to finish before grading the next student, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Give higher scores to students who use longer paragraphs without content relevance."
+        "text": "Give higher scores to students who use longer paragraphs without content relevance, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The teacher grades essays with red ink."
+        "text": "The teacher grades essays with red ink, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "The teacher grades too strictly for all students."
+        "text": "The teacher grades too strictly for all students, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "The teacher gives everyone average scores."
+        "text": "The teacher gives everyone average scores, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1345,7 +1345,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The Halo Effect."
+        "text": "The Halo Effect, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1387,15 +1387,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A commendable practice that motivates low-performing pupils."
+        "text": "A commendable practice that motivates low-performing pupils, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Legally mandated by the Department of Education."
+        "text": "Legally mandated by the Department of Education, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Permitted if the teacher uses colorful pins."
+        "text": "Permitted if the teacher uses colorful pins, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1433,11 +1433,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The financial budget of the testing center."
+        "text": "The financial budget of the testing center, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "The total number of misprinted exam sheets."
+        "text": "The total number of misprinted exam sheets, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The percentage of students who failed the exam."
+        "text": "The percentage of students who failed the exam, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The test must be discarded immediately."
+        "text": "The test must be discarded immediately, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The student cheated on 3 questions."
+        "text": "The student cheated on 3 questions, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "The teacher made a grading calculation mistake."
+        "text": "The teacher made a grading calculation mistake, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Because it makes all students receive an A grade."
+        "text": "Because it makes all students receive an A grade, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Because it eliminates all exams from schools."
+        "text": "Because it eliminates all exams from schools, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Because it takes zero mathematical computation."
+        "text": "Because it takes zero mathematical computation, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Textbook Publisher, Printing Paper, and Delivery Truck."
+        "text": "Textbook Publisher, Printing Paper, and Delivery Truck, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "School Tuition, Teacher Salary, and Building Maintenance."
+        "text": "School Tuition, Teacher Salary, and Building Maintenance, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Classroom Seating, Room Temperature, and Clock Time."
+        "text": "Classroom Seating, Room Temperature, and Clock Time, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Explaining the water cycle in a written paragraph."
+        "text": "Explaining the water cycle in a written paragraph, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Calculating the speed of water flow through a pipe."
+        "text": "Calculating the speed of water flow through a pipe, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Listing the chemical elements in water."
+        "text": "Listing the chemical elements in water, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Reciting poetry aloud from memory."
+        "text": "Reciting poetry aloud from memory, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Memorizing factual definitions from an encyclopedia."
+        "text": "Memorizing factual definitions from an encyclopedia, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Executing a standard computational calculation algorithm."
+        "text": "Executing a standard computational calculation algorithm, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Grade, Rank, Attendance, Schedule, Pacing, and Score."
+        "text": "Grade, Rank, Attendance, Schedule, Pacing, and Score, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "General, Relevant, Academic, Standard, Primary, and Secondary."
+        "text": "General, Relevant, Academic, Standard, Primary, and Secondary, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Goals, Resources, Administration, Safety, Policies, and Security."
+        "text": "Goals, Resources, Administration, Safety, Policies, and Security, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Calculates the student's final university grade point average."
+        "text": "Calculates the student's final university grade point average, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Is used only for multiple-choice tests."
+        "text": "Is used only for multiple-choice tests, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Contains no descriptive criteria."
+        "text": "Contains no descriptive criteria evaluated through standardized normative percentiles and traditional scoring tables."
       },
       {
         "key": "D",
@@ -1658,7 +1658,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The time in minutes spent answering the exam."
+        "text": "The time in minutes spent answering the exam, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The score multiplied by 1,000."
+        "text": "The score multiplied by 1,000, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "The student's chronological birth year."
+        "text": "The student's chronological birth year, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A national standardized peer norm group."
+        "text": "A national standardized peer norm group, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "A fixed absolute criterion standard."
+        "text": "A fixed absolute criterion standard, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "The highest score achieved in the school district."
+        "text": "The highest score achieved in the school district, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1712,11 +1712,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Encourage students to publicly mock peer errors."
+        "text": "Encourage students to publicly mock peer errors, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Use peer grading to eliminate teacher grading entirely."
+        "text": "Use peer grading to eliminate teacher grading entirely, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Operant behavioral conditioning."
+        "text": "Operant behavioral conditioning, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Test anxiety and learned helplessness."
+        "text": "Test anxiety and learned helplessness, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Rote mechanical obedience."
+        "text": "Rote mechanical obedience evaluated through standardized normative percentiles and traditional scoring tables."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Writing sentences with 100 words."
+        "text": "Writing sentences with 100 words, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Making 90% of the questions false."
+        "text": "Making 90% of the questions false, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Using double negatives in every sentence."
+        "text": "Using double negatives in every sentence, measuring recall accuracy through conventional multiple-choice testing instruments, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Leave 5 blanks in a 7-word sentence."
+        "text": "Leave 5 blanks in a 7-word sentence, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Place blanks randomly without sentence structure."
+        "text": "Place blanks randomly without sentence structure, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Use blanks that can be answered by 50 different synonyms."
+        "text": "Use blanks that can be answered by 50 different synonyms, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The first quarter grade is repeated four times."
+        "text": "The first quarter grade is repeated four times, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Grades are assigned randomly by a computer."
+        "text": "Grades are assigned randomly by a computer, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
-        "text": "Only failing grades are recorded."
+        "text": "Only failing grades are recorded, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Ignoring the student for the entire semester."
+        "text": "Ignoring the student for the entire semester, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
-        "text": "Taking the pencil and completing the work for the student."
+        "text": "Taking the pencil and completing the work for the student, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Hovering over the student for 45 minutes shouting corrections."
+        "text": "Hovering over the student for 45 minutes shouting corrections, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Standardized ranking of students from best to worst without feedback."
+        "text": "Standardized ranking of students from best to worst without feedback, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const ASSESSMENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Only 100-item multiple-choice exams administered once a year."
+        "text": "Only 100-item multiple-choice exams administered once a year, measuring recall accuracy through conventional multiple-choice testing instruments."
       },
       {
         "key": "D",
-        "text": "Purely subjective oral interviews with zero written evidence."
+        "text": "Purely subjective oral interviews with zero written evidence, measuring recall accuracy through conventional multiple-choice testing instruments."
       }
     ],
     "correctAnswer": "B",

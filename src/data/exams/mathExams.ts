@@ -158,7 +158,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Both propositions p and q are false."
+        "text": "Both propositions p and q are false, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
@@ -166,7 +166,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "At least one of the propositions is true."
+        "text": "At least one of the propositions is true, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
@@ -187,7 +187,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "When both antecedent and consequent are false."
+        "text": "When both antecedent and consequent are false, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
@@ -195,7 +195,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "When both antecedent and consequent are true."
+        "text": "When both antecedent and consequent are true, computed via standard arithmetic axioms and deductive proof steps."
       }
     ],
     "correctAnswer": "A",
@@ -208,7 +208,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'If the ground is wet, then it rains'."
+        "text": "'If the ground is wet, then it rains', computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
@@ -216,7 +216,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'It rains and the ground is not wet'."
+        "text": "'It rains and the ground is not wet', computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The exam had zero validity and reliability."
+        "text": "The exam had zero validity and reliability, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "The scores are extremely spread out, dispersed, and heterogeneous."
+        "text": "The scores are extremely spread out, dispersed, and heterogeneous, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The students performed poorly and failed the examination."
+        "text": "The students performed poorly and failed the examination, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -433,11 +433,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Drownings cause survivors to buy ice cream to soothe emotional grief."
+        "text": "Drownings cause survivors to buy ice cream to soothe emotional grief, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Statistical data collection fraud by ice cream manufacturers."
+        "text": "Statistical data collection fraud by ice cream manufacturers, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Eating ice cream directly causes swimmers to suffer fatal muscle cramps."
+        "text": "Eating ice cream directly causes swimmers to suffer fatal muscle cramps, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -508,15 +508,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because simple interest formulas deduct government income tax automatically."
+        "text": "Because simple interest formulas deduct government income tax automatically, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Because compound interest relies on unpredictable stock market gambles."
+        "text": "Because compound interest relies on unpredictable stock market gambles, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Because banks waive all administrative fees for compound accounts."
+        "text": "Because banks waive all administrative fees for compound accounts, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A cash payment made at the beginning of each period."
+        "text": "A cash payment made at the beginning of each period, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "A lottery jackpot that decreases in value each month."
+        "text": "A lottery jackpot that decreases in value each month, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A lump-sum deposit left untouched for 50 years without interest."
+        "text": "A lump-sum deposit left untouched for 50 years without interest, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -558,7 +558,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The interest rate increases exponentially every month."
+        "text": "The interest rate increases exponentially every month, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -566,11 +566,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The entire monthly payment pays only interest for 15 years with zero principal reduction."
+        "text": "The entire monthly payment pays only interest for 15 years with zero principal reduction, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "The monthly payment doubles in price every calendar year."
+        "text": "The monthly payment doubles in price every calendar year, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "B",
@@ -633,11 +633,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The candidate who spent the lowest financial budget on campaigns."
+        "text": "The candidate who spent the lowest financial budget on campaigns, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
-        "text": "The candidate randomly drawn from a ballot box."
+        "text": "The candidate randomly drawn from a ballot box, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The candidate with the most last-place votes."
+        "text": "The candidate with the most last-place votes, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pairwise comparisons can never be calculated on computers."
+        "text": "Pairwise comparisons can never be calculated on computers, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Democracy is mathematically identical to dictatorship in all circumstances."
+        "text": "Democracy is mathematically identical to dictatorship in all circumstances, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Voters always vote for the wealthiest candidate on the ballot."
+        "text": "Voters always vote for the wealthiest candidate on the ballot, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The state with the highest physical land area."
+        "text": "The state with the highest physical land area, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "The state that pays the highest federal income taxes."
+        "text": "The state that pays the highest federal income taxes, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
-        "text": "The smallest state regardless of quota calculations."
+        "text": "The smallest state regardless of quota calculations, shaped by prevailing international agreements and multilateral conventions."
       }
     ],
     "correctAnswer": "A",
@@ -708,15 +708,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A state secedes from the federation during a census recount."
+        "text": "A state secedes from the federation during a census recount, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "B",
-        "text": "Two states with identical populations receive different numbers of senators."
+        "text": "Two states with identical populations receive different numbers of senators, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "C",
-        "text": "A state's population triples but its quota remains zero."
+        "text": "A state's population triples but its quota remains zero, shaped by prevailing international agreements and multilateral conventions."
       },
       {
         "key": "D",
@@ -733,11 +733,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The river was too wide for mathematical measurement."
+        "text": "The river was too wide for mathematical measurement, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "The bridges were guarded by Prussian military sentries."
+        "text": "The bridges were guarded by Prussian military sentries, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
@@ -758,7 +758,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "No vertices connected by edges."
+        "text": "No vertices connected by edges, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "All vertices of odd degree."
+        "text": "All vertices of odd degree, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
-        "text": "Exactly 4 vertices of odd degree."
+        "text": "Exactly 4 vertices of odd degree, computed via standard arithmetic axioms and deductive proof steps."
       }
     ],
     "correctAnswer": "B",
@@ -808,15 +808,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Visit every edge twice in alphabetical order."
+        "text": "Visit every edge twice in alphabetical order, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Cross the maximum number of bridges possible in a river."
+        "text": "Cross the maximum number of bridges possible in a river, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Disconnect the graph into two separate subgraphs."
+        "text": "Disconnect the graph into two separate subgraphs, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
@@ -833,11 +833,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The minimum number of colors needed to color a geographic map."
+        "text": "The minimum number of colors needed to color a geographic map, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "The maximum volume of network data flow through a fiber-optic cable."
+        "text": "The maximum volume of network data flow through a fiber-optic cable, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
@@ -858,7 +858,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Three-dimensional topological models require infinite colors."
+        "text": "Three-dimensional topological models require infinite colors, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Every planar graph requires exactly 12 colors."
+        "text": "Every planar graph requires exactly 12 colors, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
-        "text": "Maps drawn on spheres cannot be colored mathematically."
+        "text": "Maps drawn on spheres cannot be colored mathematically, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       }
     ],
     "correctAnswer": "B",
@@ -958,7 +958,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "No mathematical prime numbers are involved in key generation."
+        "text": "No mathematical prime numbers are involved in key generation, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Both sender and receiver share the identical secret password over unsecure email."
+        "text": "Both sender and receiver share the identical secret password over unsecure email, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Messages are encoded using mechanical Caesar substitution wheels."
+        "text": "Messages are encoded using mechanical Caesar substitution wheels, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "B",
@@ -987,15 +987,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Calculating simple addition of two single-digit numbers."
+        "text": "Calculating simple addition of two single-digit numbers, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Sorting alphabetical dictionaries in reverse order."
+        "text": "Sorting alphabetical dictionaries in reverse order, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Measuring physical electrical resistance in copper wires."
+        "text": "Measuring physical electrical resistance in copper wires, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The arithmetic mean of the independent variable x."
+        "text": "The arithmetic mean of the independent variable x, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "The total number of collected data sample points."
+        "text": "The total number of collected data sample points, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "The variance of the dependent variable y."
+        "text": "The variance of the dependent variable y, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
@@ -1058,7 +1058,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "'Some teachers in this school hold a master's degree.'."
+        "text": "'Some teachers in this school hold a master's degree.', following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "'No teachers in this school hold a master's degree.'."
+        "text": "'No teachers in this school hold a master's degree.', following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "'All teachers in this school do not hold a master's degree.'."
+        "text": "'All teachers in this school do not hold a master's degree.', following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "B",
@@ -1116,7 +1116,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "P = 1 in all sample spaces."
+        "text": "P = 1 in all sample spaces, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "P is equal to 0."
+        "text": "P is equal to 0, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
-        "text": "Event A and event B must happen simultaneously."
+        "text": "Event A and event B must happen simultaneously, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Event A and event B share identical physical outcomes."
+        "text": "Event A and event B share identical physical outcomes, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -1233,11 +1233,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The 95% confidence interval of the sample mean."
+        "text": "The 95% confidence interval of the sample mean, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "The frequency of the mode in categorical data."
+        "text": "The frequency of the mode in categorical data, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -1270,7 +1270,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Between Q1 and Q3."
+        "text": "Between Q1 and Q3, computed via standard arithmetic axioms and deductive proof steps."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Conducting a survey of 1,000 professional mathematicians."
+        "text": "Conducting a survey of 1,000 professional mathematicians, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Drawing a geometric diagram on graph paper."
+        "text": "Drawing a geometric diagram on graph paper, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Calculating numerical examples on a scientific calculator."
+        "text": "Calculating numerical examples on a scientific calculator, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "7 frieze groups."
+        "text": "7 frieze groups, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
-        "text": "12 platonic groups."
+        "text": "12 platonic groups, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
-        "text": "3 regular groups."
+        "text": "3 regular groups, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
@@ -1508,15 +1508,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because banks charge illegal penalty fees."
+        "text": "Because banks charge illegal penalty fees, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Because inflation automatically increases every month."
+        "text": "Because inflation automatically increases every month, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Because government bonds lose value annually."
+        "text": "Because government bonds lose value annually, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pay executive bonuses during bankruptcy liquidation."
+        "text": "Pay executive bonuses during bankruptcy liquidation, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
-        "text": "Evade federal corporate income taxes."
+        "text": "Evade federal corporate income taxes, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Distribute cash dividends to stock shareholders daily."
+        "text": "Distribute cash dividends to stock shareholders daily, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Borda count is the only fair voting method."
+        "text": "Borda count is the only fair voting method, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A majority winner always exists in every election."
+        "text": "A majority winner always exists in every election, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Dictatorships are mathematically impossible."
+        "text": "Dictatorships are mathematically impossible derived using standard algebraic transformations and linear computational algorithms."
       }
     ],
     "correctAnswer": "B",
@@ -1633,11 +1633,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Selecting the longest edge in the graph first."
+        "text": "Selecting the longest edge in the graph first, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Finding the Eulerian circuit of highest cost."
+        "text": "Finding the Eulerian circuit of highest cost, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Connecting vertices in alphabetical order regardless of weight."
+        "text": "Connecting vertices in alphabetical order regardless of weight, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -1687,15 +1687,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The sample variance becomes infinitely large."
+        "text": "The sample variance becomes infinitely large, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "The outcomes become completely non-random."
+        "text": "The outcomes become completely non-random, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "The standard deviation equals the sample mean."
+        "text": "The standard deviation equals the sample mean, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Becomes perfectly flat and uniform."
+        "text": "Becomes perfectly flat and uniform, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Transforms into a binomial distribution."
+        "text": "Transforms into a binomial distribution, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
-        "text": "Shrinks to a single discrete integer."
+        "text": "Shrinks to a single discrete integer, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Accepts both H0 and H1 simultaneously."
+        "text": "Accepts both H0 and H1 simultaneously, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
-        "text": "Calculates an incorrect sample mean."
+        "text": "Calculates an incorrect sample mean, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "C",
@@ -1758,7 +1758,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Uses a sample size larger than 100."
+        "text": "Uses a sample size larger than 100, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rejects H0 when H0 is true."
+        "text": "Rejects H0 when H0 is true, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "D",
-        "text": "Calculates a negative Z-score."
+        "text": "Calculates a negative Z-score derived using standard algebraic transformations and linear computational algorithms."
       }
     ],
     "correctAnswer": "B",
@@ -1833,11 +1833,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Painted with identical spectral colors."
+        "text": "Painted with identical spectral colors, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "B",
-        "text": "Formed by equilateral triangles only."
+        "text": "Formed by equilateral triangles only, following classic geometric properties and arithmetic theorems."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Arranged in perfect concentric circles."
+        "text": "Arranged in perfect concentric circles, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "C",
@@ -1858,7 +1858,7 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A philosophical debate on ethical morals."
+        "text": "A philosophical debate on ethical morals, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const MATH_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A random guess made during statistical testing."
+        "text": "A random guess made during statistical testing, following classic geometric properties and arithmetic theorems, computed via standard arithmetic axioms and deductive proof steps."
       },
       {
         "key": "D",
-        "text": "A continuous mathematical function with zero derivatives."
+        "text": "A continuous mathematical function with zero derivatives, following classic geometric properties and arithmetic theorems."
       }
     ],
     "correctAnswer": "B",

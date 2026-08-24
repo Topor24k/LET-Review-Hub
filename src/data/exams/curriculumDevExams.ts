@@ -58,7 +58,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Strict religious dogmatic indoctrination."
+        "text": "Strict religious dogmatic indoctrination designed according to traditional syllabus guidelines and linear sequence models."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Rigid rote memorization of static canonical facts."
+        "text": "Rigid rote memorization of static canonical facts, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Teacher-centered authoritative lecturing with zero student input."
+        "text": "Teacher-centered authoritative lecturing with zero student input, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Preserve existing social stratification and economic inequality uncritically."
+        "text": "Preserve existing social stratification and economic inequality uncritically, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Focus exclusively on ancient Greek Latin grammar without modern application."
+        "text": "Focus exclusively on ancient Greek Latin grammar without modern application, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Prepare students to be obedient corporate factory workers without political voice."
+        "text": "Prepare students to be obedient corporate factory workers without political voice, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -108,15 +108,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Standardized uniform pacing where all students must produce identical assignments."
+        "text": "Standardized uniform pacing where all students must produce identical assignments, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Strict behavioral conditioning through operant rewards and punishments."
+        "text": "Strict behavioral conditioning through operant rewards and punishments, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Passive compliance with corporate workforce mandates."
+        "text": "Passive compliance with corporate workforce mandates, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -133,11 +133,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A random collection of unrelated classroom games."
+        "text": "A random collection of unrelated classroom games, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "A purely administrative budget allocation document."
+        "text": "A purely administrative budget allocation document, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A spiritual voyage into medieval monastic mysticism."
+        "text": "A spiritual voyage into medieval monastic mysticism, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminating all vocational subjects from secondary schools."
+        "text": "Eliminating all vocational subjects from secondary schools, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Memorizing classical poetry without practical relevance."
+        "text": "Memorizing classical poetry without practical relevance, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Letting students design curricula with zero teacher involvement."
+        "text": "Letting students design curricula with zero teacher involvement, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -187,15 +187,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A 100-item multiple-choice pencil-and-paper quiz."
+        "text": "A 100-item multiple-choice pencil-and-paper quiz, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "A silent individual reading of dictionary definitions."
+        "text": "A silent individual reading of dictionary definitions, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "A punitive disciplinary assignment given to misbehaving pupils."
+        "text": "A punitive disciplinary assignment given to misbehaving pupils, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -233,11 +233,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The physical architecture of classroom school buildings."
+        "text": "The physical architecture of classroom school buildings, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "The municipal budget allocated for teacher salaries."
+        "text": "The municipal budget allocated for teacher salaries, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Only the physical printed textbooks purchased by the school."
+        "text": "Only the physical printed textbooks purchased by the school, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "1. Exams -> 2. Homework -> 3. Grading -> 4. Graduation."
+        "text": "1. Exams -> 2. Homework -> 3. Grading -> 4. Graduation, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "1. Evaluation -> 2. Textbooks -> 3. Class Schedule -> 4. Objectives."
+        "text": "1. Evaluation -> 2. Textbooks -> 3. Class Schedule -> 4. Objectives, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "1. Budget -> 2. Building -> 3. Hiring -> 4. Teaching."
+        "text": "1. Budget -> 2. Building -> 3. Hiring -> 4. Teaching, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Government military decrees, Corporate marketing goals, and Royal edicts."
+        "text": "Government military decrees, Corporate marketing goals, and Royal edicts, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Textbook sales records, Real estate prices, and School tuition rates."
+        "text": "Textbook sales records, Real estate prices, and School tuition rates, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Standardized test score distributions only."
+        "text": "Standardized test score distributions only, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Curriculum must be dictated exclusively by centralized national ministries without teacher input."
+        "text": "Curriculum must be dictated exclusively by centralized national ministries without teacher input, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Curriculum should be created by commercial textbook sales corporations."
+        "text": "Curriculum should be created by commercial textbook sales corporations, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Students should write all national curriculum standards alone."
+        "text": "Students should write all national curriculum standards alone, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Testing -> Failing -> Retesting -> Passing."
+        "text": "Testing -> Failing -> Retesting -> Passing, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Syllabus -> Textbook -> Exam -> Graduation."
+        "text": "Syllabus -> Textbook -> Exam -> Graduation, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Hiring -> Budgeting -> Purchasing -> Grading."
+        "text": "Hiring -> Budgeting -> Purchasing -> Grading, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A model designed exclusively for technical automotive schools."
+        "text": "A model designed exclusively for technical automotive schools, adhering strictly to conventional administrative outlines and prescribed textbook chapters, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A purely theoretical essay without practical applicability."
+        "text": "A purely theoretical essay without practical applicability, adhering strictly to conventional administrative outlines and prescribed textbook chapters, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "A 2-step process that eliminates all evaluation."
+        "text": "A 2-step process that eliminates all evaluation, adhering strictly to conventional administrative outlines and prescribed textbook chapters, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -508,15 +508,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The official printed syllabus published by the ministry of education."
+        "text": "The official printed syllabus published by the ministry of education, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Textbooks locked in storage basements that students cannot access."
+        "text": "Textbooks locked in storage basements that students cannot access, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Elective courses that students choose to take secretly."
+        "text": "Elective courses that students choose to take secretly, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Lessons that students fail on final examinations."
+        "text": "Lessons that students fail on final examinations, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Curriculum documents that have expired legally."
+        "text": "Curriculum documents that have expired legally, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The written course syllabus printed on blank paper."
+        "text": "The written course syllabus printed on blank paper, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -566,11 +566,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Learner-Centered Design."
+        "text": "Learner-Centered Design, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Problem-Centered Design."
+        "text": "Problem-Centered Design, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -587,15 +587,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Eliminates all social science subjects entirely."
+        "text": "Eliminates all social science subjects entirely, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Teaches subjects in completely different languages."
+        "text": "Teaches subjects in completely different languages, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Restricts all learning to mathematical calculations."
+        "text": "Restricts all learning to mathematical calculations, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Subject-Centered Design."
+        "text": "Subject-Centered Design, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Core Problem Design."
+        "text": "Core Problem Design designed according to traditional syllabus guidelines and linear sequence models."
       },
       {
         "key": "C",
-        "text": "Discipline-Based Design."
+        "text": "Discipline-Based Design, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Traditional Discipline Design."
+        "text": "Traditional Discipline Design, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Static Rote Design."
+        "text": "Static Rote Design designed according to traditional syllabus guidelines and linear sequence models."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Subject-Centered Design."
+        "text": "Subject-Centered Design, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "8 years of Primary and 5 years of Technical School."
+        "text": "8 years of Primary and 5 years of Technical School, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "10 years of Elementary and 3 years of College."
+        "text": "10 years of Elementary and 3 years of College, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "6 years of High School only with zero elementary education."
+        "text": "6 years of High School only with zero elementary education, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -695,7 +695,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Taught in reverse alphabetical order."
+        "text": "Taught in reverse alphabetical order, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -733,11 +733,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Primary Track, Secondary Track, Tertiary Track, and Post-Graduate Track."
+        "text": "Primary Track, Secondary Track, Tertiary Track, and Post-Graduate Track, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Science Track, Math Track, English Track, and Filipino Track."
+        "text": "Science Track, Math Track, English Track, and Filipino Track, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "General Track, Military Track, Agricultural Track, and Maritime Track."
+        "text": "General Track, Military Track, Agricultural Track, and Maritime Track, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 1: Administer Finals -> Stage 2: Calculate GPA -> Stage 3: Write Syllabus."
+        "text": "Stage 1: Administer Finals -> Stage 2: Calculate GPA -> Stage 3: Write Syllabus, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Stage 1: Plan Daily Activities -> Stage 2: Teach the Lesson -> Stage 3: Make up a Test."
+        "text": "Stage 1: Plan Daily Activities -> Stage 2: Teach the Lesson -> Stage 3: Make up a Test, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Stage 1: Buy Textbooks -> Stage 2: Assign Grades -> Stage 3: Define Goals."
+        "text": "Stage 1: Buy Textbooks -> Stage 2: Assign Grades -> Stage 3: Define Goals, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Closed factual questions that can be answered in one second with a yes/no."
+        "text": "Closed factual questions that can be answered in one second with a yes/no, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Multiple-choice exam questions copied from standardized test banks."
+        "text": "Multiple-choice exam questions copied from standardized test banks, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Administrative queries regarding school supply inventories."
+        "text": "Administrative queries regarding school supply inventories, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -808,11 +808,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Recall, Recognition, Repetition, Recitation, Retention, and Response."
+        "text": "Recall, Recognition, Repetition, Recitation, Retention, and Response, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Reading, Writing, Arithmetic, Art, Athletics, and Attendance."
+        "text": "Reading, Writing, Arithmetic, Art, Athletics, and Attendance, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -858,7 +858,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing all senior teachers with temporary interns."
+        "text": "Replacing all senior teachers with temporary interns, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Issuing punitive top-down administrative reprimands for any hesitancy."
+        "text": "Issuing punitive top-down administrative reprimands for any hesitancy, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Implementing the change secretly without informing faculty members."
+        "text": "Implementing the change secretly without informing faculty members, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Content, Instruction, Pedagogy, and Performance."
+        "text": "Content, Instruction, Pedagogy, and Performance, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Curriculum, Infrastructure, Personnel, and Profit."
+        "text": "Curriculum, Infrastructure, Personnel, and Profit, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Cognitive, Interpersonal, Physical, and Psychological."
+        "text": "Cognitive, Interpersonal, Physical, and Psychological, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -908,15 +908,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Evaluate the final standardized test scores of graduating students."
+        "text": "Evaluate the final standardized test scores of graduating students, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Audit the financial receipts of textbook publishers."
+        "text": "Audit the financial receipts of textbook publishers, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Observe daily teacher classroom attendance records."
+        "text": "Observe daily teacher classroom attendance records, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -933,11 +933,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The final career placement rates of alumni."
+        "text": "The final career placement rates of alumni, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "The physical room temperature of school classrooms."
+        "text": "The physical room temperature of school classrooms, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The historical origin of ancient curriculum theories."
+        "text": "The historical origin of ancient curriculum theories, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Calculate the annual property tax of school buildings."
+        "text": "Calculate the annual property tax of school buildings, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Decide whether to permanently cancel the program before it begins."
+        "text": "Decide whether to permanently cancel the program before it begins, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Record final letter grades on graduation diplomas."
+        "text": "Record final letter grades on graduation diplomas, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -987,11 +987,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The initial budget proposal submitted to legislators."
+        "text": "The initial budget proposal submitted to legislators, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "The physical dimensions of printed curriculum guides."
+        "text": "The physical dimensions of printed curriculum guides, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1008,15 +1008,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Formative evaluation is for grading students; Summative is for grading teachers."
+        "text": "Formative evaluation is for grading students; Summative is for grading teachers, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Formative is conducted by parents; Summative is conducted by students."
+        "text": "Formative is conducted by parents; Summative is conducted by students, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Formative is illegal; Summative is legally mandated."
+        "text": "Formative is illegal; Summative is legally mandated, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -1070,7 +1070,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Textbooks are printed on glossy paper stock."
+        "text": "Textbooks are printed on glossy paper stock, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Subjects are kept in completely isolated 45-minute compartments."
+        "text": "Subjects are kept in completely isolated 45-minute compartments, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Students are prohibited from discussing science concepts in math class."
+        "text": "Students are prohibited from discussing science concepts in math class, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Textbooks are bound into a single 5,000-page heavy volume."
+        "text": "Textbooks are bound into a single 5,000-page heavy volume, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -1137,7 +1137,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Localization is illegal; Indigenization is voluntary."
+        "text": "Localization is illegal; Indigenization is voluntary, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1187,15 +1187,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Modifications apply only to sports; Accommodations apply only to math."
+        "text": "Modifications apply only to sports; Accommodations apply only to math, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Modifications are free; Accommodations require monthly cash payments."
+        "text": "Modifications are free; Accommodations require monthly cash payments, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Modifications are designed by parents; Accommodations are designed by students."
+        "text": "Modifications are designed by parents; Accommodations are designed by students, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -1208,11 +1208,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Calculate the physical square footage of school classrooms."
+        "text": "Calculate the physical square footage of school classrooms, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Assign daily homework scores on report cards."
+        "text": "Assign daily homework scores on report cards, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -1233,11 +1233,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "School libraries buy 100 new books every semester."
+        "text": "School libraries buy 100 new books every semester, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Students memorize textbook chapters word-for-word."
+        "text": "Students memorize textbook chapters word-for-word, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Teachers arrive at school before 7:00 AM every morning."
+        "text": "Teachers arrive at school before 7:00 AM every morning, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -1308,15 +1308,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because students pay taxes directly to the national treasury."
+        "text": "Because students pay taxes directly to the national treasury, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Because students design all national educational laws."
+        "text": "Because students design all national educational laws, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Because students grade teacher performance daily."
+        "text": "Because students grade teacher performance daily, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -1333,11 +1333,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Hire construction workers to build new auditoriums."
+        "text": "Hire construction workers to build new auditoriums, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Assign final course grades to all enrolled students."
+        "text": "Assign final course grades to all enrolled students, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -1345,7 +1345,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Print 10,000 copies of the syllabus before testing."
+        "text": "Print 10,000 copies of the syllabus before testing, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All vocational subjects are eliminated from high schools."
+        "text": "All vocational subjects are eliminated from high schools, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Students choose 100% of their classes with zero required subjects."
+        "text": "Students choose 100% of their classes with zero required subjects, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Only students pursuing engineering take science classes."
+        "text": "Only students pursuing engineering take science classes, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -1412,7 +1412,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Reading, Writing, and Typing."
+        "text": "Reading, Writing, and Typing, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1433,11 +1433,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Students wear identical school uniforms in all grades."
+        "text": "Students wear identical school uniforms in all grades, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Teachers teach for 8 hours without stopping."
+        "text": "Teachers teach for 8 hours without stopping, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -1445,7 +1445,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "All school buildings are connected by covered walkways."
+        "text": "All school buildings are connected by covered walkways, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -1458,7 +1458,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Eliminate all teacher input from the revision process."
+        "text": "Eliminate all teacher input from the revision process, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Prove that the original curriculum draft was 100% perfect without flaws."
+        "text": "Prove that the original curriculum draft was 100% perfect without flaws, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Spend surplus government funds before the fiscal year ends."
+        "text": "Spend surplus government funds before the fiscal year ends, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Add 500 new memorization competencies to every grade level."
+        "text": "Add 500 new memorization competencies to every grade level, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "Eliminate all teaching of reading and writing in early grades."
+        "text": "Eliminate all teaching of reading and writing in early grades, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Replace all certified teachers with automated tablet screens."
+        "text": "Replace all certified teachers with automated tablet screens, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The entire philosophy and structure of the school system is overhauled."
+        "text": "The entire philosophy and structure of the school system is overhauled, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "Minor modifications are made to lesson sequence."
+        "text": "Minor modifications are made to lesson sequence, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "A completely new learning track is added."
+        "text": "A completely new learning track is added, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -1608,15 +1608,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The brightness and glossy sheen of the outer cover page."
+        "text": "The brightness and glossy sheen of the outer cover page, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "The physical weight of the bound book."
+        "text": "The physical weight of the bound book, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "The commercial marketing fame of the publishing corporation."
+        "text": "The commercial marketing fame of the publishing corporation, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The school principal's salary and the school tuition rate."
+        "text": "The school principal's salary and the school tuition rate, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
-        "text": "The morning flag ceremony and the afternoon dismissal time."
+        "text": "The morning flag ceremony and the afternoon dismissal time, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The color of classroom chalk and the color of school buses."
+        "text": "The color of classroom chalk and the color of school buses, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "C",
@@ -1687,15 +1687,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To find excuses to fire experienced senior teachers."
+        "text": "To find excuses to fire experienced senior teachers, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "To replace teacher observations with automated computer surveillance."
+        "text": "To replace teacher observations with automated computer surveillance, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "To calculate the annual electricity consumption of classrooms."
+        "text": "To calculate the annual electricity consumption of classrooms, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "A",
@@ -1712,11 +1712,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Null curriculum omission."
+        "text": "Null curriculum omission designed according to traditional syllabus guidelines and linear sequence models."
       },
       {
         "key": "C",
-        "text": "Rote drill-and-practice curriculum."
+        "text": "Rote drill-and-practice curriculum, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1737,7 +1737,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Avoid classroom instructional hours."
+        "text": "Avoid classroom instructional hours designed according to traditional syllabus guidelines and linear sequence models."
       },
       {
         "key": "C",
@@ -1758,7 +1758,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The physical dimensions of the classroom bulletin board."
+        "text": "The physical dimensions of the classroom bulletin board, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "The exact percentage of students who will pass the course."
+        "text": "The exact percentage of students who will pass the course, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "The number of hours the teacher must spend lecturing."
+        "text": "The number of hours the teacher must spend lecturing, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",
@@ -1808,15 +1808,15 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "An authoritarian inspection aimed at catching and punishing teacher mistakes."
+        "text": "An authoritarian inspection aimed at catching and punishing teacher mistakes, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "A medical examination conducted by school physicians in the clinic."
+        "text": "A medical examination conducted by school physicians in the clinic, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "C",
-        "text": "A standardized written multiple-choice test administered to school principals."
+        "text": "A standardized written multiple-choice test administered to school principals, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1858,7 +1858,7 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Memorize encyclopedias word-for-word without real-world application."
+        "text": "Memorize encyclopedias word-for-word without real-world application, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const CURRICULUM_DEV_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passively obey authoritarian commands without questioning."
+        "text": "Passively obey authoritarian commands without questioning, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       },
       {
         "key": "D",
-        "text": "Perform repetitive mechanical factory labor with zero critical voice."
+        "text": "Perform repetitive mechanical factory labor with zero critical voice, adhering strictly to conventional administrative outlines and prescribed textbook chapters."
       }
     ],
     "correctAnswer": "B",

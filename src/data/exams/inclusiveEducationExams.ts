@@ -8,15 +8,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "All children with disabilities must be institutionalized in isolated psychiatric facilities."
+        "text": "All children with disabilities must be institutionalized in isolated psychiatric facilities, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Schools may charge 500% higher tuition fees to students with physical impairments."
+        "text": "Schools may charge 500% higher tuition fees to students with physical impairments, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Only students with perfect standardized test scores may attend public schools."
+        "text": "Only students with perfect standardized test scores may attend public schools, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -33,11 +33,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Prohibition from voting in national democratic elections."
+        "text": "Prohibition from voting in national democratic elections, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Revocation of driver's licenses for family members."
+        "text": "Revocation of driver's licenses for family members, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -45,7 +45,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Mandatory physical labor without pay in government factories."
+        "text": "Mandatory physical labor without pay in government factories, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -58,7 +58,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Only wealthy nations are obligated to provide special education."
+        "text": "Only wealthy nations are obligated to provide special education, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -66,11 +66,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Children with disabilities should be educated only in separate segregated institutions."
+        "text": "Children with disabilities should be educated only in separate segregated institutions, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Special education should be abolished entirely without any individualized support."
+        "text": "Special education should be abolished entirely without any individualized support, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -87,15 +87,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "The segregation of children with physical disabilities into hospital wards."
+        "text": "The segregation of children with physical disabilities into hospital wards, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "The total exclusion of deaf learners from sign language access."
+        "text": "The total exclusion of deaf learners from sign language access, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "The elimination of all individualized educational accommodations."
+        "text": "The elimination of all individualized educational accommodations, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mild, Aggressive, and Psychotic."
+        "text": "Mild, Aggressive, and Psychotic provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Visual, Auditory, and Kinesthetic."
+        "text": "Visual, Auditory, and Kinesthetic provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
-        "text": "Acute, Chronic, and Terminal."
+        "text": "Acute, Chronic, and Terminal provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Giving the student 100 extra math homework problems as punishment."
+        "text": "Giving the student 100 extra math homework problems as punishment, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Shouting loudly every time the student shifts in their seat."
+        "text": "Shouting loudly every time the student shifts in their seat, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Isolating the student in a dark storage closet for 45 minutes."
+        "text": "Isolating the student in a dark storage closet for 45 minutes, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A complete inability to see visual colors."
+        "text": "A complete inability to see visual colors, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Severe intellectual deterioration over time."
+        "text": "Severe intellectual deterioration over time, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Violent conduct toward school property."
+        "text": "Violent conduct toward school property, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -287,7 +287,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "They cure neurological autism within 24 hours."
+        "text": "They cure neurological autism within 24 hours, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -295,7 +295,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "They eliminate the need for any verbal speech therapy."
+        "text": "They eliminate the need for any verbal speech therapy, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Physical height and body mass index."
+        "text": "Physical height and body mass index, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Visual eyesight acuity and hearing pitch."
+        "text": "Visual eyesight acuity and hearing pitch, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Athletic running speed and basketball coordination."
+        "text": "Athletic running speed and basketball coordination, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Writing all notes on the chalkboard in small yellow chalk."
+        "text": "Writing all notes on the chalkboard in small yellow chalk, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Excusing the student from all science learning permanently."
+        "text": "Excusing the student from all science learning permanently, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -345,7 +345,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Showing silent 2D documentary films without audio description."
+        "text": "Showing silent 2D documentary films without audio description, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -358,7 +358,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A foreign language imported from South America."
+        "text": "A foreign language imported from South America, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -366,11 +366,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A temporary, informal slang without grammatical structure."
+        "text": "A temporary, informal slang without grammatical structure, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "An illegal dialect prohibited in government offices."
+        "text": "An illegal dialect prohibited in government offices, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -408,15 +408,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Skip all high school education and enroll immediately in medical school at age 10."
+        "text": "Skip all high school education and enroll immediately in medical school at age 10, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Sit in the back of the classroom and grade the teacher's papers for 5 hours."
+        "text": "Sit in the back of the classroom and grade the teacher's papers for 5 hours, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Take identical 50-item basic arithmetic quizzes every single day."
+        "text": "Take identical 50-item basic arithmetic quizzes every single day, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -433,11 +433,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Serve as an official receipt for school fees."
+        "text": "Serve as an official receipt for school fees, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Rank students alphabetically on the school honors board."
+        "text": "Rank students alphabetically on the school honors board, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Record disciplinary detentions and punishments."
+        "text": "Record disciplinary detentions and punishments, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Only the municipal mayor and local police chief."
+        "text": "Only the municipal mayor and local police chief, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Only the school security guard and cafeteria manager."
+        "text": "Only the school security guard and cafeteria manager, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Exclusively the commercial textbook sales agent."
+        "text": "Exclusively the commercial textbook sales agent, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Assessment, Grading, and Ranking."
+        "text": "Assessment, Grading, and Ranking, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Lecturing, Memorizing, and Testing."
+        "text": "Lecturing, Memorizing, and Testing, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Hiring, Budgeting, and Firing."
+        "text": "Hiring, Budgeting, and Firing provided within segregated clinical environments under standardized medical supervision."
       }
     ],
     "correctAnswer": "A",
@@ -516,7 +516,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Traditional single-textbook delivery."
+        "text": "Traditional single-textbook delivery, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -537,7 +537,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Curricular exclusion."
+        "text": "Curricular exclusion, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -587,15 +587,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Intensive one-on-one individualized clinical therapy."
+        "text": "Intensive one-on-one individualized clinical therapy, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Targeted small-group supplemental interventions."
+        "text": "Targeted small-group supplemental interventions provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
-        "text": "Permanent placement in a residential institution."
+        "text": "Permanent placement in a residential institution, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -608,15 +608,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Universal whole-class lecturing."
+        "text": "Universal whole-class lecturing provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Immediate surgical or medical hospitalization."
+        "text": "Immediate surgical or medical hospitalization, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Expulsion from the school system."
+        "text": "Expulsion from the school system, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -633,11 +633,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Weekly school sports competitions."
+        "text": "Weekly school sports competitions provided within segregated clinical environments under standardized medical supervision, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Standardized textbook reading."
+        "text": "Standardized textbook reading provided within segregated clinical environments under standardized medical supervision, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -645,7 +645,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "General classroom assemblies."
+        "text": "General classroom assemblies provided within segregated clinical environments under standardized medical supervision, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -658,7 +658,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exclusively in underground sensory deprivation rooms."
+        "text": "Exclusively in underground sensory deprivation rooms, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -666,11 +666,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "In complete physical isolation in homebound confinement at all times."
+        "text": "In complete physical isolation in homebound confinement at all times, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "In segregated institutions located outside city boundaries."
+        "text": "In segregated institutions located outside city boundaries, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -687,15 +687,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Hospital -> Self-Contained -> Regular Class with supports."
+        "text": "Hospital -> Self-Contained -> Regular Class with supports, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Resource Room -> Regular Class -> Kindergarten."
+        "text": "Resource Room -> Regular Class -> Kindergarten, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Day School -> University -> High School."
+        "text": "Day School -> University -> High School, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -733,11 +733,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Replacing the need for all cognitive learning."
+        "text": "Replacing the need for all cognitive learning, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Administering medical sedation."
+        "text": "Administering medical sedation provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Teaching students to run faster in physical education."
+        "text": "Teaching students to run faster in physical education, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -758,7 +758,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The speed of fingernail growth."
+        "text": "The speed of fingernail growth, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -766,11 +766,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Cognitive emotional empathy."
+        "text": "Cognitive emotional empathy provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
-        "text": "Vision color perception only."
+        "text": "Vision color perception only provided within segregated clinical environments under standardized medical supervision."
       }
     ],
     "correctAnswer": "B",
@@ -787,15 +787,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Mandatory handwriting penmanship competitions."
+        "text": "Mandatory handwriting penmanship competitions provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
-        "text": "Physical isolation during all academic activities."
+        "text": "Physical isolation during all academic activities, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Zero accommodations."
+        "text": "Zero accommodations provided within segregated clinical environments under standardized medical supervision."
       }
     ],
     "correctAnswer": "A",
@@ -808,15 +808,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Exceptional mathematical calculus performance."
+        "text": "Exceptional mathematical calculus performance, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Continuous peaceful meditation in silence."
+        "text": "Continuous peaceful meditation in silence, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Fluent multilingual reading skills."
+        "text": "Fluent multilingual reading skills provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -833,7 +833,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Calculate the financial cost of broken pencils."
+        "text": "Calculate the financial cost of broken pencils, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -845,7 +845,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Punish the student with public embarrassment."
+        "text": "Punish the student with public embarrassment, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Expelling any student who receives three verbal warnings."
+        "text": "Expelling any student who receives three verbal warnings, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Using physical corporal punishment for all minor infractions."
+        "text": "Using physical corporal punishment for all minor infractions, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Ignoring all student behavior until severe violence occurs."
+        "text": "Ignoring all student behavior until severe violence occurs, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A broken vocal cord requiring throat surgery."
+        "text": "A broken vocal cord requiring throat surgery, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Difficulty running on the playground track."
+        "text": "Difficulty running on the playground track, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "A complete refusal to eat cafeteria food."
+        "text": "A complete refusal to eat cafeteria food, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -933,11 +933,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Isolate students permanently from peer friendships."
+        "text": "Isolate students permanently from peer friendships, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Punish pupils for making noise."
+        "text": "Punish pupils for making noise, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -945,7 +945,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Encourage students to sleep during math lessons."
+        "text": "Encourage students to sleep during math lessons, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -958,7 +958,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Complete physical blindness from birth."
+        "text": "Complete physical blindness from birth, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -987,15 +987,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Immediate miraculous photographic memory."
+        "text": "Immediate miraculous photographic memory, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Permanent immunity to physical pain."
+        "text": "Permanent immunity to physical pain, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Zero need for educational adjustments."
+        "text": "Zero need for educational adjustments, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1008,15 +1008,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Wax buildup in the ear canal."
+        "text": "Wax buildup in the ear canal, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "A minor head cold with ear congestion."
+        "text": "A minor head cold with ear congestion, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Listening to low-volume classical music."
+        "text": "Listening to low-volume classical music, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1033,11 +1033,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Turn off all classroom lights during lectures."
+        "text": "Turn off all classroom lights during lectures, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Shout aggressively into the student's ear from behind."
+        "text": "Shout aggressively into the student's ear from behind, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -1045,7 +1045,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Speak while writing with their back turned to the class."
+        "text": "Speak while writing with their back turned to the class, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -1058,7 +1058,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "One teacher teaches on Monday, and the other teaches on Friday."
+        "text": "One teacher teaches on Monday, and the other teaches on Friday, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "One teacher lectures while the other teacher grades papers in the hallway."
+        "text": "One teacher lectures while the other teacher grades papers in the hallway, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Both teachers sit in silence while students read alone."
+        "text": "Both teachers sit in silence while students read alone, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Teach completely different unrelated subjects in the same room."
+        "text": "Teach completely different unrelated subjects in the same room, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Argue publicly about lesson objectives in front of pupils."
+        "text": "Argue publicly about lesson objectives in front of pupils, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Leave the classroom to attend an administrative meeting."
+        "text": "Leave the classroom to attend an administrative meeting, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stands by the door to check student uniform compliance."
+        "text": "Stands by the door to check student uniform compliance, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Corrects homework assignments with red ink in silence."
+        "text": "Corrects homework assignments with red ink in silence, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Conducts a private phone call."
+        "text": "Conducts a private phone call, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -1133,11 +1133,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Take turns teaching every 30 seconds with a timer."
+        "text": "Take turns teaching every 30 seconds with a timer, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Compete to see which teacher can talk the loudest."
+        "text": "Compete to see which teacher can talk the loudest, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -1145,7 +1145,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Divide the classroom with a physical wooden barricade."
+        "text": "Divide the classroom with a physical wooden barricade, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -1158,7 +1158,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rank students publicly based on their reading speeds."
+        "text": "Rank students publicly based on their reading speeds, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Relieve the teacher of all responsibility for teaching reading."
+        "text": "Relieve the teacher of all responsibility for teaching reading, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Allow advanced students to do all the work while struggling students sleep."
+        "text": "Allow advanced students to do all the work while struggling students sleep, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Childhood nursery rhymes and kindergarten games."
+        "text": "Childhood nursery rhymes and kindergarten games, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Mandatory institutional confinement in state hospitals."
+        "text": "Mandatory institutional confinement in state hospitals, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Perpetual dependence on parental supervision with zero life autonomy."
+        "text": "Perpetual dependence on parental supervision with zero life autonomy, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Two separate physical disabilities."
+        "text": "Two separate physical disabilities provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Twin siblings enrolled in the same grade level."
+        "text": "Twin siblings enrolled in the same grade level, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "A student who has failed two consecutive academic school years."
+        "text": "A student who has failed two consecutive academic school years, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -1233,11 +1233,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Deny all gifted services until the learning disability is 100% cured."
+        "text": "Deny all gifted services until the learning disability is 100% cured, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Treat the student as an unmotivated, lazy troublemaker."
+        "text": "Treat the student as an unmotivated, lazy troublemaker, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1245,7 +1245,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Focus exclusively on remediating their weaknesses until all deficits disappear, ignoring their gifts."
+        "text": "Focus exclusively on remediating their weaknesses until all deficits disappear, ignoring their gifts, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -1258,7 +1258,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Excuse the student from learning history completely."
+        "text": "Excuse the student from learning history completely, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1266,11 +1266,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Assign an automatic zero because the student cannot speak fluently."
+        "text": "Assign an automatic zero because the student cannot speak fluently, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Force the student to deliver a 30-minute speech in front of the entire school."
+        "text": "Force the student to deliver a 30-minute speech in front of the entire school, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1287,15 +1287,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Narrow spiral staircases without elevators."
+        "text": "Narrow spiral staircases without elevators, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Steep concrete curbs that block wheelchairs."
+        "text": "Steep concrete curbs that block wheelchairs, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Restrooms located exclusively on the fourth floor with no elevator."
+        "text": "Restrooms located exclusively on the fourth floor with no elevator, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Curricular content modifications."
+        "text": "Curricular content modifications provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Punitive behavioral tracking."
+        "text": "Punitive behavioral tracking provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
-        "text": "Standardized curriculum tests."
+        "text": "Standardized curriculum tests provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -1366,7 +1366,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Insult and demean the individual."
+        "text": "Insult and demean the individual, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1387,15 +1387,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "To prove that the special education teacher should receive a bonus salary."
+        "text": "To prove that the special education teacher should receive a bonus salary, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "To assign random grades at the end of the semester without grading."
+        "text": "To assign random grades at the end of the semester without grading, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "To convince parents to withdraw their child from school."
+        "text": "To convince parents to withdraw their child from school, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1408,15 +1408,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Supercomputer server; Wooden chair."
+        "text": "Supercomputer server; Wooden chair provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Smartphone; Printed encyclopedia."
+        "text": "Smartphone; Printed encyclopedia provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
-        "text": "Microchip implant; Video projector."
+        "text": "Microchip implant; Video projector provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -1487,15 +1487,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Must pass an IQ exam before being granted permission to enter a classroom."
+        "text": "Must pass an IQ exam before being granted permission to enter a classroom, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Should be educated only if their family can pay high private school fees."
+        "text": "Should be educated only if their family can pay high private school fees, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Must be separated from society to prevent disturbing others."
+        "text": "Must be separated from society to prevent disturbing others, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1508,15 +1508,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Watching television documentaries with subtitles only."
+        "text": "Watching television documentaries with subtitles only, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Listening to audio radio lectures."
+        "text": "Listening to audio radio lectures, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Writing with colored chalk on blackboards."
+        "text": "Writing with colored chalk on blackboards, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -1533,11 +1533,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Fix electrical wiring inside computers."
+        "text": "Fix electrical wiring inside computers, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Drive commercial motor vehicles on highways."
+        "text": "Drive commercial motor vehicles on highways, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Draw detailed portraits using oil pastels."
+        "text": "Draw detailed portraits using oil pastels, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "High blood pressure after physical exercise."
+        "text": "High blood pressure after physical exercise, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Sudden permanent deafness in adulthood."
+        "text": "Sudden permanent deafness in adulthood, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Severe loss of verbal reading comprehension."
+        "text": "Severe loss of verbal reading comprehension, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Force a wooden spoon or pencil into the student's mouth."
+        "text": "Force a wooden spoon or pencil into the student's mouth, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Hold the student down with heavy physical force."
+        "text": "Hold the student down with heavy physical force, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Splash cold water into the student's face."
+        "text": "Splash cold water into the student's face, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1608,15 +1608,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Force the student to run 10 laps on the track to burn energy."
+        "text": "Force the student to run 10 laps on the track to burn energy, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Administer heavy physical punishment for lack of attention."
+        "text": "Administer heavy physical punishment for lack of attention, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Deprive the student of all food and fluids for 24 hours."
+        "text": "Deprive the student of all food and fluids for 24 hours, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
@@ -1633,11 +1633,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Force the student to clean dusty chalkboard erasers."
+        "text": "Force the student to clean dusty chalkboard erasers, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "Deny all physical education participation permanently."
+        "text": "Deny all physical education participation permanently, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Ban the student from keeping their prescribed inhaler in school."
+        "text": "Ban the student from keeping their prescribed inhaler in school, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -1658,7 +1658,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Because early intervention eliminates the need for any primary schooling."
+        "text": "Because early intervention eliminates the need for any primary schooling, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
@@ -1666,11 +1666,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Because children can take standardized college entrance exams at age 3."
+        "text": "Because children can take standardized college entrance exams at age 3, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "D",
-        "text": "Because special education laws expire when a child turns 6."
+        "text": "Because special education laws expire when a child turns 6, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "B",
@@ -1687,15 +1687,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Perform orthopedic surgeries in hospital operating rooms."
+        "text": "Perform orthopedic surgeries in hospital operating rooms, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Prescribe psychiatric pharmaceutical medications."
+        "text": "Prescribe psychiatric pharmaceutical medications provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
-        "text": "Audit school financial tax balance sheets."
+        "text": "Audit school financial tax balance sheets, emphasizing separate remedial placement without modifying general classroom instruction, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1708,15 +1708,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Large-scale macro-economic financial planning."
+        "text": "Large-scale macro-economic financial planning provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Athletic marathon running endurance."
+        "text": "Athletic marathon running endurance provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
-        "text": "Vocal choir singing range."
+        "text": "Vocal choir singing range provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -1733,11 +1733,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mathematical calculus calculation skills."
+        "text": "Mathematical calculus calculation skills provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Foreign language grammatical translation."
+        "text": "Foreign language grammatical translation provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Silent reading speed and spelling accuracy."
+        "text": "Silent reading speed and spelling accuracy, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",
@@ -1791,11 +1791,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Replaces all reading instruction with audio cartoons."
+        "text": "Replaces all reading instruction with audio cartoons, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Guarantees a perfect standardized exam score."
+        "text": "Guarantees a perfect standardized exam score, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "A",
@@ -1808,15 +1808,15 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Rigid single-standard instruction."
+        "text": "Rigid single-standard instruction provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "B",
-        "text": "Discriminatory tracking based on socioeconomic status."
+        "text": "Discriminatory tracking based on socioeconomic status, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
-        "text": "Punitive academic isolation."
+        "text": "Punitive academic isolation provided within segregated clinical environments under standardized medical supervision."
       },
       {
         "key": "D",
@@ -1833,11 +1833,11 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "By pointing out a disabled student's mistakes as warnings to other pupils."
+        "text": "By pointing out a disabled student's mistakes as warnings to other pupils, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "B",
-        "text": "By separating neurodivergent pupils behind classroom dividers."
+        "text": "By separating neurodivergent pupils behind classroom dividers, emphasizing separate remedial placement without modifying general classroom instruction."
       },
       {
         "key": "C",
@@ -1845,7 +1845,7 @@ export const INCLUSIVE_EDUCATION_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "By pretending that no differences exist and silencing any discussion of disability."
+        "text": "By pretending that no differences exist and silencing any discussion of disability, emphasizing separate remedial placement without modifying general classroom instruction."
       }
     ],
     "correctAnswer": "C",

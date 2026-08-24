@@ -133,11 +133,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A student's raw test score and the class mean score."
+        "text": "A student's raw test score and the class mean score, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "The physical distance between the teacher's desk and the student's chair."
+        "text": "The physical distance between the teacher's desk and the student's chair, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
@@ -145,7 +145,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "A child's chronological age and their biological physical height."
+        "text": "A child's chronological age and their biological physical height, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "C",
@@ -158,7 +158,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forces all students to listen to an uninterrupted 60-minute lecture."
+        "text": "Forces all students to listen to an uninterrupted 60-minute lecture, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -166,11 +166,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Gives the student the complete answer key before the test begins."
+        "text": "Gives the student the complete answer key before the test begins, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Leaves a struggling student completely alone with zero support."
+        "text": "Leaves a struggling student completely alone with zero support, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -187,15 +187,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "A symptom of severe emotional psychiatric disorder."
+        "text": "A symptom of severe emotional psychiatric disorder, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "A meaningless biological vocal reflex."
+        "text": "A meaningless biological vocal reflex, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "An act of intentional classroom defiance."
+        "text": "An act of intentional classroom defiance, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "A",
@@ -208,15 +208,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Autonomy."
+        "text": "Autonomy, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Industry."
+        "text": "Industry, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Identity."
+        "text": "Identity, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -233,11 +233,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Role Confusion."
+        "text": "Role Confusion governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Stagnation."
+        "text": "Stagnation governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
@@ -245,7 +245,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Basic Mistrust."
+        "text": "Basic Mistrust governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "C",
@@ -258,7 +258,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Generativity."
+        "text": "Generativity governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
@@ -266,11 +266,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Basic Trust."
+        "text": "Basic Trust governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Ego Integrity."
+        "text": "Ego Integrity governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "B",
@@ -287,15 +287,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Role Confusion."
+        "text": "Role Confusion, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Isolation."
+        "text": "Isolation, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Despair."
+        "text": "Despair, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -308,15 +308,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Generativity."
+        "text": "Generativity governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Basic Mistrust."
+        "text": "Basic Mistrust governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
-        "text": "Stagnation."
+        "text": "Stagnation governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
@@ -333,11 +333,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Career burnout and early retirement."
+        "text": "Career burnout and early retirement, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "A complete loss of personal identity."
+        "text": "A complete loss of personal identity, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -370,7 +370,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Conventional Stage 4: Law and Order Orientation."
+        "text": "Conventional Stage 4: Law and Order Orientation, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -387,15 +387,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Stage 1: Punishment and Obedience."
+        "text": "Stage 1: Punishment and Obedience, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Stage 4: Social-Order Maintaining Morality."
+        "text": "Stage 4: Social-Order Maintaining Morality, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Stage 5: Social Contract."
+        "text": "Stage 5: Social Contract governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -408,11 +408,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 1: Punishment."
+        "text": "Stage 1: Punishment governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Stage 2: Instrumental Exchange."
+        "text": "Stage 2: Instrumental Exchange, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -433,11 +433,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Stage 3: Good Boy / Good Girl."
+        "text": "Stage 3: Good Boy / Good Girl, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "Stage 5: Social Contract."
+        "text": "Stage 5: Social Contract governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
@@ -445,7 +445,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Stage 2: Instrumental Relativist."
+        "text": "Stage 2: Instrumental Relativist governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "C",
@@ -458,7 +458,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Pre-Conventional Stage 2: Market Exchange."
+        "text": "Pre-Conventional Stage 2: Market Exchange, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -466,11 +466,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Pre-Conventional Stage 1: Punishment."
+        "text": "Pre-Conventional Stage 1: Punishment governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Conventional Stage 4: Law and Order."
+        "text": "Conventional Stage 4: Law and Order, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -487,15 +487,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Stage 1: Punishment and Obedience."
+        "text": "Stage 1: Punishment and Obedience, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Stage 3: Interpersonal Conformity."
+        "text": "Stage 3: Interpersonal Conformity governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Stage 4: Fixed Authority."
+        "text": "Stage 4: Fixed Authority governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -508,15 +508,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The pursuit of individual economic dominance."
+        "text": "The pursuit of individual economic dominance, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "Strict military obedience to authoritarian rules."
+        "text": "Strict military obedience to authoritarian rules, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Pure mathematical logic without human empathy."
+        "text": "Pure mathematical logic without human empathy, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
@@ -533,11 +533,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Broad cultural values, laws, and societal ideologies."
+        "text": "Broad cultural values, laws, and societal ideologies, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "External settings that indirectly affect the child."
+        "text": "External settings that indirectly affect the child, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
@@ -545,7 +545,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "The interactions between two different microsystems."
+        "text": "The interactions between two different microsystems, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "C",
@@ -687,11 +687,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Fixation on oral thumb-sucking."
+        "text": "Fixation on oral thumb-sucking, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Rigid toilet training battles."
+        "text": "Rigid toilet training battles, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -712,7 +712,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Musical Intelligence."
+        "text": "Musical Intelligence, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -733,11 +733,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Navigating geographical topographical maps."
+        "text": "Navigating geographical topographical maps governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Solving differential calculus equations."
+        "text": "Solving differential calculus equations governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
@@ -745,7 +745,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Composing complex musical symphonies."
+        "text": "Composing complex musical symphonies governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "C",
@@ -791,11 +791,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Verbal, Mathematical, and Spatial Intelligence."
+        "text": "Verbal, Mathematical, and Spatial Intelligence, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Sensorimotor, Preoperational, and Formal Intelligence."
+        "text": "Sensorimotor, Preoperational, and Formal Intelligence, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "A",
@@ -833,11 +833,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Implicit Memory -> Explicit Memory -> Declarative Memory."
+        "text": "Implicit Memory -> Explicit Memory -> Declarative Memory, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Sensory Stage -> Concrete Stage -> Formal Stage."
+        "text": "Sensory Stage -> Concrete Stage -> Formal Stage, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -845,7 +845,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Input Memory -> Processing Memory -> Output Memory."
+        "text": "Input Memory -> Processing Memory -> Output Memory, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -858,7 +858,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Force students to memorize 1,000 pages of text in one night."
+        "text": "Force students to memorize 1,000 pages of text in one night, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -866,11 +866,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Present 50 new abstract vocabulary terms in a single continuous 45-minute slide."
+        "text": "Present 50 new abstract vocabulary terms in a single continuous 45-minute slide, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Play loud rock music while showing dense walls of unorganized text."
+        "text": "Play loud rock music while showing dense walls of unorganized text, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -887,15 +887,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Procedural motor skills like riding a bicycle."
+        "text": "Procedural motor skills like riding a bicycle, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Sensory retinal visual after-images."
+        "text": "Sensory retinal visual after-images governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Short-term phone number rehearsals."
+        "text": "Short-term phone number rehearsals governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -958,7 +958,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Sensory decay."
+        "text": "Sensory decay governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
@@ -966,11 +966,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Passive rote memorization."
+        "text": "Passive rote memorization governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Operant behavioral conditioning."
+        "text": "Operant behavioral conditioning governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "B",
@@ -1008,7 +1008,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Money, Power, and Luxury."
+        "text": "Money, Power, and Luxury, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1016,7 +1016,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Food, Shelter, and Clothing."
+        "text": "Food, Shelter, and Clothing, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1037,7 +1037,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Pure random luck and bad horoscope."
+        "text": "Pure random luck and bad horoscope, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1058,7 +1058,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Failure means one should give up immediately."
+        "text": "Failure means one should give up immediately, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1066,11 +1066,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Talent is 100% determined at birth and can never change."
+        "text": "Talent is 100% determined at birth and can never change, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Effort is a sign of weakness and stupidity."
+        "text": "Effort is a sign of weakness and stupidity, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -1087,15 +1087,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Direct stimulus-response biological conditioning without mental cognition."
+        "text": "Direct stimulus-response biological conditioning without mental cognition, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Pure genetic instinctual reflexes."
+        "text": "Pure genetic instinctual reflexes governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Operant trial-and-error physical punishment."
+        "text": "Operant trial-and-error physical punishment governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -1108,15 +1108,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Id, Ego, and Superego."
+        "text": "Id, Ego, and Superego governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Sensory, Short-Term, and Long-Term Memory."
+        "text": "Sensory, Short-Term, and Long-Term Memory, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Physiological, Safety, and Self-Actualization needs."
+        "text": "Physiological, Safety, and Self-Actualization needs, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1158,7 +1158,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Their ears before their eyes."
+        "text": "Their ears before their eyes, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1166,11 +1166,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Their toes before their head."
+        "text": "Their toes before their head, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Their speech vocal cords before their heart."
+        "text": "Their speech vocal cords before their heart, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -1187,15 +1187,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Occipital visual lobe."
+        "text": "Occipital visual lobe governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
-        "text": "Cerebellar balance center."
+        "text": "Cerebellar balance center governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Brainstem respiratory reflex."
+        "text": "Brainstem respiratory reflex governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -1208,15 +1208,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The 'Personal Fable'."
+        "text": "The 'Personal Fable' governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "B",
-        "text": "Sensorimotor reflexes."
+        "text": "Sensorimotor reflexes governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "C",
-        "text": "Formal operational adult maturity."
+        "text": "Formal operational adult maturity governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
@@ -1258,7 +1258,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Mechanical Typewriter Keyboard."
+        "text": "Mechanical Typewriter Keyboard, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
@@ -1266,7 +1266,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Behaviorist Stimulus-Response Habit Loop."
+        "text": "Behaviorist Stimulus-Response Habit Loop, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
@@ -1287,15 +1287,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Innate biological genetic language modules."
+        "text": "Innate biological genetic language modules, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Spontaneous divine inspiration."
+        "text": "Spontaneous divine inspiration governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Universal Grammar switches in the cerebrum."
+        "text": "Universal Grammar switches in the cerebrum, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "A",
@@ -1308,15 +1308,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "The child will automatically speak fluent ancient Greek at age 20."
+        "text": "The child will automatically speak fluent ancient Greek at age 20, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "The child will become a mathematical genius."
+        "text": "The child will become a mathematical genius, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Language acquisition will be unaffected."
+        "text": "Language acquisition will be unaffected, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
@@ -1345,7 +1345,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Cooing."
+        "text": "Cooing, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "C",
@@ -1358,7 +1358,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Displays disoriented, fearful, freezing behaviors."
+        "text": "Displays disoriented, fearful, freezing behaviors, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1366,11 +1366,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Ignores the parent completely and shows zero emotion upon reunion."
+        "text": "Ignores the parent completely and shows zero emotion upon reunion, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Shows intense angry clinging, distress, and resists comfort upon reunion."
+        "text": "Shows intense angry clinging, distress, and resists comfort upon reunion, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1458,7 +1458,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "A privilege is taken away to decrease behavior."
+        "text": "A privilege is taken away to decrease behavior, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1466,11 +1466,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A pleasant reward is added."
+        "text": "A pleasant reward is added, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "An unpleasant punishment is administered to decrease behavior."
+        "text": "An unpleasant punishment is administered to decrease behavior, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
@@ -1487,15 +1487,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Increase the frequency of the behavior."
+        "text": "Increase the frequency of the behavior, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
-        "text": "Reinforce the behavior positively."
+        "text": "Reinforce the behavior positively governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Build intrinsic motivation."
+        "text": "Build intrinsic motivation governed by maturational biological schedules and traditional developmental benchmarks."
       }
     ],
     "correctAnswer": "A",
@@ -1533,11 +1533,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Learning requires instantaneous biological maturity."
+        "text": "Learning requires instantaneous biological maturity, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "Students learn best during nighttime sleep."
+        "text": "Students learn best during nighttime sleep, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
@@ -1545,7 +1545,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Practice alone without feedback makes perfect."
+        "text": "Practice alone without feedback makes perfect, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "C",
@@ -1558,7 +1558,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Readiness is measured solely by chronological height."
+        "text": "Readiness is measured solely by chronological height, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1566,11 +1566,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Learning can be forced onto unprepared students through physical threats."
+        "text": "Learning can be forced onto unprepared students through physical threats, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Exercise should replace all academic classroom reading."
+        "text": "Exercise should replace all academic classroom reading, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -1587,15 +1587,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Engage in organized group play with defined rules."
+        "text": "Engage in organized group play with defined rules, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Share materials and converse while working on individual projects."
+        "text": "Share materials and converse while working on individual projects, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Watch other children play without joining in."
+        "text": "Watch other children play without joining in, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "A",
@@ -1633,11 +1633,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Repressing all feelings to think like a mechanical computer."
+        "text": "Repressing all feelings to think like a mechanical computer, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "B",
-        "text": "Scoring above 150 on standard Raven's Progressive Matrices."
+        "text": "Scoring above 150 on standard Raven's Progressive Matrices, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "C",
@@ -1645,7 +1645,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Manipulating others through false flattery."
+        "text": "Manipulating others through false flattery, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "C",
@@ -1733,11 +1733,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Forcing elementary pupils to read university graduate dissertations."
+        "text": "Forcing elementary pupils to read university graduate dissertations, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
-        "text": "Rote memorization drills with zero visual models."
+        "text": "Rote memorization drills with zero visual models, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
@@ -1745,7 +1745,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "D",
-        "text": "Standardized high-stakes multiple-choice testing in kindergarten."
+        "text": "Standardized high-stakes multiple-choice testing in kindergarten, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "C",
@@ -1758,7 +1758,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Separates colors into chemical molecular compounds."
+        "text": "Separates colors into chemical molecular compounds, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1766,11 +1766,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "Processes every single pixel in isolation without connecting patterns."
+        "text": "Processes every single pixel in isolation without connecting patterns, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "D",
-        "text": "Disregards visual boundaries and perceives total chaos."
+        "text": "Disregards visual boundaries and perceives total chaos, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "B",
@@ -1787,15 +1787,15 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "B",
-        "text": "Gradual mechanical trial-and-error stimulus conditioning over 1,000 trials."
+        "text": "Gradual mechanical trial-and-error stimulus conditioning over 1,000 trials, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "C",
-        "text": "Instinctual genetic reflexes."
+        "text": "Instinctual genetic reflexes governed by maturational biological schedules and traditional developmental benchmarks."
       },
       {
         "key": "D",
-        "text": "Rote imitation of a trainer."
+        "text": "Rote imitation of a trainer, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       }
     ],
     "correctAnswer": "A",
@@ -1858,7 +1858,7 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
     "options": [
       {
         "key": "A",
-        "text": "Identical across all children regardless of culture, age, or readiness."
+        "text": "Identical across all children regardless of culture, age, or readiness, reflecting typical sensorimotor behaviors and chronological milestone expectations."
       },
       {
         "key": "B",
@@ -1866,11 +1866,11 @@ export const CHILD_ADOLESCENT_EXAM_QUESTIONS: ExamQuestion[] = [
       },
       {
         "key": "C",
-        "text": "A mechanical process of downloading static data into an empty brain."
+        "text": "A mechanical process of downloading static data into an empty brain, reflecting typical sensorimotor behaviors and chronological milestone expectations, adhering to established institutional guidelines and academic conventions."
       },
       {
         "key": "D",
-        "text": "Completely determined by genetics with zero environmental influence."
+        "text": "Completely determined by genetics with zero environmental influence, reflecting typical sensorimotor behaviors and chronological milestone expectations, adhering to established institutional guidelines and academic conventions."
       }
     ],
     "correctAnswer": "B",
